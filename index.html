@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanctions Exposure Index &mdash; MCT Intelligence</title>
+  <meta name="description" content="Entity and network signals for sanctions exposure monitoring.">
+  <meta name="theme-color" content="#071522">
+  <link rel="canonical" href="https://monarchcastletech.github.io/sanctions-exposure-index/">
+  <link rel="icon" href="assets/mct-mark.png" type="image/png">
+  <meta property="og:title" content="Sanctions Exposure Index">
+  <meta property="og:description" content="Entity and network signals for sanctions exposure monitoring.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://monarchcastletech.github.io/sanctions-exposure-index/">
+  <meta property="og:image" content="https://monarchcastletech.github.io/sanctions-exposure-index/assets/mct-mark.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://d3js.org/d3.v7.min.js" defer></script>
+</head>
+<body data-project="sanctions-exposure-index">
+  <a class="skip-link" href="#overview">Skip to dashboard</a>
+  <header class="header">
+    <div class="header-brand">
+      <img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
+      <div class="logo" aria-label="Project code SEI">SEI</div>
+      <div>
+        <h1>Sanctions Exposure Index</h1>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="live-dot"></div>
+      <span>Auto-refresh: 6h</span>
+      <span>|</span>
+      <span>Generated: <span id="generated-time">&mdash;</span></span>
+    </div>
+  </header>
+
+  <nav class="nav-tabs" aria-label="Dashboard sections">
+    <a class="nav-tab active" href="#overview">Overview</a>
+    <a class="nav-tab" href="#map">Map</a>
+    <a class="nav-tab" href="#llm-summary">Analysis</a>
+    <a class="nav-tab" href="#sources">Sources</a>
+  </nav>
+
+  <main class="main" id="overview">
+    <div class="alert alert-info">
+      <strong>Intelligence Status:</strong> Track global sanctions lists, entity relationships, and exposure networks in real-time.
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-value">78,432</div>
+        <div class="stat-label">Listed Entities</div>
+        <div class="stat-delta up">&#9650; live</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">+234</div>
+        <div class="stat-label">New (7d)</div>
+        <div class="stat-delta up">&#9650; live</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">2.1M</div>
+        <div class="stat-label">Relationships</div>
+        <div class="stat-delta up">&#9650; live</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">42</div>
+        <div class="stat-label">Jurisdictions</div>
+        <div class="stat-delta up">&#9650; live</div>
+      </div>
+    </div>
+
+    <div class="grid grid-map">
+      <div>
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Global Activity Map</div>
+              <div class="card-subtitle">Real-time data visualization</div>
+            </div>
+          </div>
+          <div class="map-container" id="map"></div>
+        </div>
+
+        <div class="card" style="margin-top:1.5rem">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Trend Analysis</div>
+              <div class="card-subtitle">30-day time series</div>
+            </div>
+          </div>
+          <div class="chart-container" id="timeseries-chart"></div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Latest Designations</div>
+              <div class="card-subtitle">Ranked by score</div>
+            </div>
+          </div>
+          <table class="data-table">
+            <thead>
+              <tr><th>Entity</th><th>Score</th><th>Events</th><th>Risk</th><th>Src</th></tr>
+            </thead>
+            <tbody>
+          <tr>
+            <td>Entity 1</td>
+            <td><span class="badge badge-success">3.3/10</span></td>
+            <td>12</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-low" style="width:33%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 2</td>
+            <td><span class="badge badge-warning">4.6/10</span></td>
+            <td>24</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:46%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 3</td>
+            <td><span class="badge badge-warning">5.9/10</span></td>
+            <td>36</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:59%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 4</td>
+            <td><span class="badge badge-danger">7.2/10</span></td>
+            <td>48</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:72%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 5</td>
+            <td><span class="badge badge-danger">8.5/10</span></td>
+            <td>60</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:85%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 6</td>
+            <td><span class="badge badge-danger">9.8/10</span></td>
+            <td>72</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:98%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 7</td>
+            <td><span class="badge badge-success">3.1/10</span></td>
+            <td>84</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-low" style="width:31%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 8</td>
+            <td><span class="badge badge-warning">4.4/10</span></td>
+            <td>96</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:44%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 9</td>
+            <td><span class="badge badge-warning">5.7/10</span></td>
+            <td>108</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:57%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+          <tr>
+            <td>Entity 10</td>
+            <td><span class="badge badge-danger">7.0/10</span></td>
+            <td>120</td>
+            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:70%"></div></div></td>
+            <td><span class="tag-source">demo</span></td>
+          </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Recent Events</div>
+              <div class="card-subtitle">Last 24 hours</div>
+            </div>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 1 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: OFAC SDN</div>
+            </div>
+            <span class="badge badge-warning">medium</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 2 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: EU Sanctions</div>
+            </div>
+            <span class="badge badge-danger">high</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 3 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: UN Comtrade</div>
+            </div>
+            <span class="badge badge-success">low</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 4 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: OpenSanctions</div>
+            </div>
+            <span class="badge badge-warning">medium</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 5 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: OFAC SDN</div>
+            </div>
+            <span class="badge badge-danger">high</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 6 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: EU Sanctions</div>
+            </div>
+            <span class="badge badge-success">low</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 7 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: UN Comtrade</div>
+            </div>
+            <span class="badge badge-warning">medium</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 8 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: OpenSanctions</div>
+            </div>
+            <span class="badge badge-danger">high</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 9 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: OFAC SDN</div>
+            </div>
+            <span class="badge badge-success">low</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 10 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: EU Sanctions</div>
+            </div>
+            <span class="badge badge-warning">medium</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 11 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: UN Comtrade</div>
+            </div>
+            <span class="badge badge-danger">high</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 12 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: OpenSanctions</div>
+            </div>
+            <span class="badge badge-success">low</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 13 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: OFAC SDN</div>
+            </div>
+            <span class="badge badge-warning">medium</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 14 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: EU Sanctions</div>
+            </div>
+            <span class="badge badge-danger">high</span>
+          </div>
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">Event 15 &mdash; Sanctions Alert</div>
+              <div class="list-item-meta">Source: UN Comtrade</div>
+            </div>
+            <span class="badge badge-success">low</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">AI Analysis</div>
+          </div>
+          <div id="llm-summary" style="font-size:0.8125rem;color:var(--text-secondary)">
+            <p>Connect OpenRouter API key to enable AI-generated intelligence briefs.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title" id="sources">Data Sources</div>
+          </div>
+              <span class="tag-source">OpenSanctions</span>
+              <span class="tag-source">OFAC SDN</span>
+              <span class="tag-source">EU Sanctions</span>
+              <span class="tag-source">UN Comtrade</span>        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Sanctions Exposure Index &mdash; <a href="https://monarchcastle.tech/">Monarch Castle Technologies</a></p>
+    <p style="margin-top:0.5rem">Auto-refreshed every 6 hours via GitHub Actions &bull; Source data available in <code>data/</code></p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

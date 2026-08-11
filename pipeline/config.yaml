@@ -1,0 +1,26 @@
+# Sanctions Exposure Index Configuration
+project:
+  id: sanctions-exposure-index
+  name: "Sanctions Exposure Index"
+  description: "Track global sanctions lists, entity relationships, and exposure networks."
+
+openrouter:
+  model: "openrouter/free"
+  fallback_model: "openrouter/free"
+
+gdelt_query: "sanctions designation OFAC EU"
+include_forex: true
+
+sources:
+  - name: "GDELT"
+
+refresh:
+  interval_hours: 6
+  retry_attempts: 3
+
+scoring:
+  scale: "1-10"
+  thresholds:
+    high: 7
+    medium: 4
+    low: 0
