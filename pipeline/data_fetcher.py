@@ -1,4 +1,267 @@
-# Import from shared — auto-generated
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'shared'))
-from data_fetcher import *
+# -*- coding: utf-8 -*-
+"""Shared data fetchers for MCT Intelligence projects."""
+import os
+import json
+import requests
+from datetime import datetime, timezone, timedelta
+
+def fetch_gdelt(query, timespan="1d", max_results=100):
+    """Fetch GDELT Global Knowledge Graph articles."""
+    url = "https://api.gdeltproject.org/api/v2/doc/doc"
+    params = {
+        "query": query,
+        "mode": "ArtList",
+        "maxrecords": max_results,
+        "timespan": timespan,
+        "format": "json"
+    }
+    try:
+        r = requests.get(url, params=params, timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            articles = data.get("articles", [])
+            return [
+                {
+                    "title": a.get("title", ""),
+                    "url": a.get("url", ""),
+                    "domain": a.get("domain", ""),
+                    "language": a.get("language", ""),
+                    "tone": a.get("tone", 0),
+                    "seendate": a.get("seendate", ""),
+                    "source": "GDELT"
+                }
+                for a in articles
+            ]
+        return []
+    except Exception as e:
+        print(f"[GDELT] Error: {e}")
+        return []
+
+def fetch_gdelt_events(query, timespan="1d"):
+    """Fetch GDELT event data."""
+    url = "https://api.gdeltproject.org/api/v2/geo/geo"
+    params = {
+        "query": query,
+        "mode": "PointData",
+        "timespan": timespan,
+        "format": "json"
+    }
+    try:
+        r = requests.get(url, params=params, timeout=30)
+        return r.json() if r.status_code == 200 else {"features": []}
+    except Exception as e:
+        print(f"[GDELT-Events] Error: {e}")
+        return {"features": []}
+
+def fetch_nasa_firms(api_key=None, region="world", days=1):
+    """Fetch NASA FIRMS fire/thermal anomaly data."""
+    key = api_key or os.environ.get("NASA_FIRMS_API_KEY", "")
+    if not key:
+        return []
+    url = f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/{key}/VIIRS_SNPP_NPP/{region}/{days}"
+    try:
+        r = requests.get(url, timeout=30)
+        if r.status_code == 200:
+            lines = r.text.strip().split("\n")
+            if len(lines) < 2:
+                return []
+            headers = lines[0].split(",")
+            return [
+                dict(zip(headers, line.split(",")))
+                for line in lines[1:]
+                if line.strip()
+            ][:500]
+        return []
+    except Exception as e:
+        print(f"[NASA-FIRMS] Error: {e}")
+        return []
+
+def fetch_cisa_kev():
+    """Fetch CISA Known Exploited Vulnerabilities catalog."""
+    url = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+    try:
+        r = requests.get(url, timeout=30, headers={"User-Agent": "MCT-Intel/1.0"})
+        if r.status_code == 200:
+            data = r.json()
+            vulns = data.get("vulnerabilities", [])
+            return [
+                {
+                    "cveID": v.get("cveID", ""),
+                    "vendorProject": v.get("vendorProject", ""),
+                    "product": v.get("product", ""),
+                    "vulnerabilityName": v.get("vulnerabilityName", ""),
+                    "dateAdded": v.get("dateAdded", ""),
+                    "shortDescription": v.get("shortDescription", ""),
+                    "dueDate": v.get("requiredAction", ""),
+                    "source": "CISA-KEV"
+                }
+                for v in vulns
+            ]
+        return []
+    except Exception as e:
+        print(f"[CISA-KEV] Error: {e}")
+        return []
+
+def fetch_acled(api_key, country=None, days=30):
+    """Fetch ACLED conflict event data."""
+    if not api_key:
+        return []
+    url = "https://api.acleddata.com/acled/read"
+    params = {"key": api_key, "terms": "accept", "limit": 500}
+    if country:
+        params["country"] = country
+    try:
+        r = requests.get(url, params=params, timeout=30)
+        if r.status_code == 200:
+            data = r.json().get("data", [])
+            return [
+                {
+                    "event_id": d.get("data_id", ""),
+                    "event_date": d.get("event_date", ""),
+                    "event_type": d.get("event_type", ""),
+                    "country": d.get("country", ""),
+                    "location": d.get("location", ""),
+                    "latitude": d.get("latitude", ""),
+                    "longitude": d.get("longitude", ""),
+                    "fatalities": d.get("fatalities", 0),
+                    "source": d.get("source", ""),
+                }
+                for d in data
+            ]
+        return []
+    except Exception as e:
+        print(f"[ACLED] Error: {e}")
+        return []
+
+def fetch_opensanctions(limit=100):
+    """Fetch latest sanctions data from OpenSanctions."""
+    url = "https://www.opensanctions.org/api/2/entities/"
+    try:
+        r = requests.get(url, params={"limit": limit}, timeout=30)
+        if r.status_code == 200:
+            return r.json()
+        return {}
+    except Exception as e:
+        print(f"[OpenSanctions] Error: {e}")
+        return {}
+
+def fetch_census_country():
+    """Fetch World Bank country indicators (GDP, population)."""
+    url = "https://api.worldbank.org/v2/country?format=json&per_page=300"
+    try:
+        r = requests.get(url, timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            if len(data) > 1:
+                return [
+                    {
+                        "id": c.get("id", ""),
+                        "name": c.get("name", ""),
+                        "region": c.get("region", {}).get("value", ""),
+                        "capitalCity": c.get("capitalCity", ""),
+                        "longitude": c.get("longitude", ""),
+                        "latitude": c.get("latitude", ""),
+                    }
+                    for c in data[1]
+                ]
+        return []
+    except Exception as e:
+        print(f"[WorldBank] Error: {e}")
+        return []
+
+def fetch_coingecko(coin="bitcoin"):
+    """Fetch crypto market data from CoinGecko (free, no key)."""
+    url = f"https://api.coingecko.com/api/v3/coins/{coin}"
+    try:
+        r = requests.get(url, params={"localization": "false", "tickers": "false"}, timeout=30)
+        return r.json() if r.status_code == 200 else {}
+    except Exception as e:
+        print(f"[CoinGecko] Error: {e}")
+        return {}
+
+def fetch_exchange_rates(base="USD"):
+    """Fetch free exchange rates (no key needed)."""
+    url = f"https://api.exchangerate-api.com/v4/latest/{base}"
+    try:
+        r = requests.get(url, timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            rates = data.get("rates", {})
+            # Return top 20 rates as list of dicts
+            return [{"currency": k, "rate": v} for k, v in list(rates.items())[:20]]
+        return []
+    except Exception as e:
+        print(f"[ExchangeRate] Error: {e}")
+        return []
+
+def fetch_weather(lat, lon):
+    """Fetch free weather from Open-Meteo (no key)."""
+    url = "https://api.open-meteo.com/v1/forecast"
+    params = {"latitude": lat, "longitude": lon, "current": "temperature_2m,wind_speed_10m"}
+    try:
+        r = requests.get(url, params=params, timeout=30)
+        return r.json() if r.status_code == 200 else {}
+    except Exception as e:
+        print(f"[OpenMeteo] Error: {e}")
+        return {}
+
+def fetch_covid_global():
+    """Fetch COVID-19 summary data."""
+    url = "https://disease.sh/v3/covid-19/countries"
+    try:
+        r = requests.get(url, timeout=30)
+        return r.json() if r.status_code == 200 else []
+    except Exception as e:
+        print(f"[COVID] Error: {e}")
+        return []
+
+def fetch_earthquakes(hours=24):
+    """Fetch recent earthquake data from USGS."""
+    url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
+    try:
+        r = requests.get(url, timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            features = data.get("features", [])
+            return [
+                {
+                    "place": f.get("properties", {}).get("place", ""),
+                    "mag": f.get("properties", {}).get("mag", 0),
+                    "time": f.get("properties", {}).get("time", ""),
+                    "lon": f.get("geometry", {}).get("coordinates", [0, 0, 0])[0],
+                    "lat": f.get("geometry", {}).get("coordinates", [0, 0, 0])[1],
+                    "depth": f.get("geometry", {}).get("coordinates", [0, 0, 0])[2],
+                    "source": "USGS"
+                }
+                for f in features[:200]
+            ]
+        return []
+    except Exception as e:
+        print(f"[USGS-Quake] Error: {e}")
+        return []
+
+def fetch_news_headlines(query, api_key=None):
+    """Fetch news from NewsAPI (requires key) or fallback to GDELT."""
+    if api_key:
+        url = "https://newsapi.org/v2/everything"
+        params = {"q": query, "apiKey": api_key, "pageSize": 50, "sortBy": "publishedAt"}
+        try:
+            r = requests.get(url, params=params, timeout=30)
+            if r.status_code == 200:
+                articles = r.json().get("articles", [])
+                return [
+                    {"title": a.get("title", ""), "source": a.get("source", {}).get("name", ""),
+                     "url": a.get("url", ""), "publishedAt": a.get("publishedAt", "")}
+                    for a in articles
+                ]
+        except Exception as e:
+            print(f"[NewsAPI] Error: {e}")
+    return fetch_gdelt(query, "1d", 50)
+
+def safe_fetch(fetcher, *args, **kwargs):
+    """Wrapper that catches all exceptions and returns empty data."""
+    try:
+        return fetcher(*args, **kwargs)
+    except Exception as e:
+        print(f"[SafeFetch] {fetcher.__name__} failed: {e}")
+        return {} if not isinstance(args, list) else []
