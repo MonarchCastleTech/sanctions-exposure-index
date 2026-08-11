@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-05T22:55:16.057736+00:00",
+    "generated": "2026-08-11T03:20:20.015590+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -447,15 +447,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.72
+        "rate": 65.51
       },
       {
         "currency": "ALL",
-        "rate": 81.07
+        "rate": 80.66
       },
       {
         "currency": "AMD",
-        "rate": 366.47
+        "rate": 366.5
       },
       {
         "currency": "ANG",
@@ -463,11 +463,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 926.54
+        "rate": 925.26
       },
       {
         "currency": "ARS",
-        "rate": 1496.45
+        "rate": 1498.09
       },
       {
         "currency": "AUD",
@@ -483,7 +483,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BBD",
@@ -491,11 +491,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.71
+        "rate": 123.59
       },
       {
         "currency": "BGN",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BHD",
@@ -503,7 +503,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.62
+        "rate": 2991.46
       },
       {
         "currency": "BMD",
@@ -515,12 +515,12 @@
       },
       {
         "currency": "BOB",
-        "rate": 12.17
+        "rate": 11.96
       }
     ]
   },
   "entities": [],
   "events": [],
   "timeseries": [],
-  "llm_summary": "The **sanctions-exposure-index** project is currently operating in live monitoring mode, tracking global sanctions exposure across multiple data streams. It aggregates intelligence from GDELT news articles, country-level datasets, and exchange rate fluctuations to assess real-time financial and geopolitical risk. The absence of recent flagged events suggests a period of relative stability in the monitored sanctions landscape, with no significant new developments triggering alerts. The multi-source architecture provides a robust foundation for cross-referencing news sentiment, sovereign risk, and currency movements to identify emerging exposure trends. Continued monitoring is recommended to detect any shifts that could indicate rising sanctions-related risk."
+  "llm_summary": "Pending API key..."
 }
