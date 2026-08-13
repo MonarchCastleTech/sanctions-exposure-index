@@ -66,6 +66,7 @@ jobs:
         run: |
           test -s assets/product-logo.svg
           grep -q 'assets/product-logo.svg' index.html
+          ! grep -q '#2dd4bf' assets/product-logo.svg
 
       - name: Assemble static site
         run: |
