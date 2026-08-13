@@ -62,6 +62,11 @@ jobs:
             done
           fi
 
+      - name: Validate product identity
+        run: |
+          test -s assets/product-logo.svg
+          grep -q 'assets/product-logo.svg' index.html
+
       - name: Assemble static site
         run: |
           mkdir -p public
