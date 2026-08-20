@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-19T18:51:34.583730+00:00",
+    "generated": "2026-08-20T01:48:59.555733+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -447,15 +447,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.33
+        "rate": 65.25
       },
       {
         "currency": "ALL",
-        "rate": 80.15
+        "rate": 79.93
       },
       {
         "currency": "AMD",
-        "rate": 365.91
+        "rate": 364.58
       },
       {
         "currency": "ANG",
@@ -463,11 +463,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 929.63
+        "rate": 923.56
       },
       {
         "currency": "ARS",
-        "rate": 1494.13
+        "rate": 1497.53
       },
       {
         "currency": "AUD",
@@ -483,7 +483,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.69
+        "rate": 1.68
       },
       {
         "currency": "BBD",
@@ -491,11 +491,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.19
+        "rate": 122.2
       },
       {
         "currency": "BGN",
-        "rate": 1.69
+        "rate": 1.68
       },
       {
         "currency": "BHD",
@@ -503,7 +503,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2992.38
+        "rate": 2991
       },
       {
         "currency": "BMD",
@@ -511,11 +511,11 @@
       },
       {
         "currency": "BND",
-        "rate": 1.28
+        "rate": 1.27
       },
       {
         "currency": "BOB",
-        "rate": 11.61
+        "rate": 11.56
       }
     ]
   },
