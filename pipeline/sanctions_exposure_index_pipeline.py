@@ -1,112 +1,163 @@
 # -*- coding: utf-8 -*-
-"""Sanctions Exposure Index - Live Data Pipeline"""
-import os
+"""Canonical project data pipeline. Identity and sources come from config.yaml."""
 import json
-import yaml
+import os
+import sys
+import time
 from datetime import datetime, timezone
+
+import yaml
+
+sys.path.insert(0, os.path.dirname(__file__))
+from data_fetcher import fetch_exchange_rates, fetch_gdelt, fetch_gdelt_events, safe_fetch
 from openrouter_llm import analyze_with_llm
-from data_fetcher import fetch_census_country, fetch_earthquakes, fetch_exchange_rates, fetch_gdelt, fetch_opensanctions, safe_fetch
+
+GDELT_SPACING_SECONDS = 6
+SNAPSHOT_SIZE = 50
+EVENT_LIMIT = 15
+
 
 def load_config():
-    with open(os.path.join(os.path.dirname(__file__), "config.yaml"), "r") as f:
-        return yaml.safe_load(f)
+    path = os.path.join(os.path.dirname(__file__), "config.yaml")
+    with open(path, "r", encoding="utf-8") as handle:
+        return yaml.safe_load(handle)
+
+
+def load_previous():
+    try:
+        with open("data/output.json", "r", encoding="utf-8") as handle:
+            return json.load(handle)
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def normalize_geo_points(geo):
+    features = (geo or {}).get("features", [])[:200]
+    points = []
+    for feature in features:
+        coords = (feature.get("geometry") or {}).get("coordinates") or [None, None]
+        properties = feature.get("properties") or {}
+        lat, lon = coords[1], coords[0]
+        if not (isinstance(lat, (int, float)) and isinstance(lon, (int, float))):
+            continue
+        name = properties.get("name") or properties.get("locationName") or "Coverage point"
+        points.append({
+            "name": str(name)[:80],
+            "lat": round(float(lat), 4),
+            "lon": round(float(lon), 4),
+            "count": int(properties.get("count") or 1),
+        })
+    return points
+
 
 def extract_live_data(config):
-    """Pull real data from configured sources."""
-    results = {}
-    print("[LIVE] Fetching real data...")
+    live = {}
+    query = config.get("gdelt_query", "geopolitical risk")
+    print(f"[LIVE] GDELT query: {query}")
 
-    # --- GDELT News (all projects) ---
-    gdelt_query = config.get("gdelt_query", "geopolitical risk")
-    articles = safe_fetch(fetch_gdelt, gdelt_query, "1d", 50)
+    articles = safe_fetch(fetch_gdelt, query, "1d", SNAPSHOT_SIZE) or []
     if articles:
-        results["gdelt_articles"] = articles[:50]
-        print(f"  GDELT: {len(articles)} articles")
-    else:
-        results["gdelt_articles"] = []
+        live["gdelt_articles"] = articles[:SNAPSHOT_SIZE]
+        print(f"  GDELT articles: {len(articles)}")
 
-    # --- OpenSanctions ---
-    sanctions = safe_fetch(fetch_opensanctions, 100)
-    if sanctions:
-        results["sanctions"] = sanctions
-        print(f"  OpenSanctions: retrieved")
+    time.sleep(GDELT_SPACING_SECONDS)
 
-    countries = safe_fetch(fetch_census_country)
-    if countries:
-        results["countries"] = countries[:50]
+    geo_points = normalize_geo_points(safe_fetch(fetch_gdelt_events, query, "1d"))
+    if geo_points:
+        live["geo_points"] = geo_points
+        print(f"  GDELT geo points: {len(geo_points)}")
 
-    # --- Exchange Rates (if configured) ---
     if config.get("include_forex"):
         rates = safe_fetch(fetch_exchange_rates, "USD")
         if rates:
-            results["exchange_rates"] = rates[:20] if isinstance(rates, list) else rates
-            print(f"  Forex: {len(results['exchange_rates'])} rates")
+            live["exchange_rates"] = rates[:20]
+            print(f"  Forex: {len(live['exchange_rates'])} rates")
 
-    return results
+    return live
 
-def transform_data(raw, config):
-    """Transform raw fetches into scored entities."""
-    return raw
+
+def retain_previous(live, previous):
+    notes = []
+    previous_live = previous.get("live_data") or {}
+    if not live.get("gdelt_articles") and previous_live.get("gdelt_articles"):
+        live["gdelt_articles"] = previous_live["gdelt_articles"][:SNAPSHOT_SIZE]
+        notes.append("GDELT news unavailable; retained last validated snapshot.")
+        print(f"  gdelt_articles: retained {len(live['gdelt_articles'])} items from previous run")
+    if not live.get("geo_points") and previous_live.get("geo_points"):
+        live["geo_points"] = previous_live["geo_points"][:200]
+        notes.append("GDELT geo unavailable; retained last validated snapshot.")
+    return notes
+
+
+def build_stats(articles, geo_points):
+    domains = len({a.get("domain") for a in articles if a.get("domain")})
+    tones = [float(a.get("tone")) for a in articles if isinstance(a.get("tone"), (int, float))]
+    mean_tone = sum(tones) / len(tones) if tones else 0.0
+    tone_index = round(max(0, min(100, 50 + mean_tone * 5)))
+    direction = "positive" if mean_tone > 0.2 else ("negative" if mean_tone < -0.2 else "neutral")
+    return [
+        {"label": "Articles Tracked", "value": str(len(articles)), "delta": "live" if articles else "none"},
+        {"label": "News Domains", "value": str(domains), "delta": "deduplicated"},
+        {"label": "Tone Index", "value": f"{tone_index}/100 ({direction})", "delta": "GDELT scale"},
+        {"label": "Geo Points", "value": str(len(geo_points)), "delta": "geolocated"},
+    ]
 
 
 def main():
     config = load_config()
-    print(f"=== SEI Pipeline ===")
+    project = (config.get("project") or {}).get("id", "unknown-project")
+    title = (config.get("project") or {}).get("name", project)
+    print(f"=== {title} pipeline ===")
 
-    # Live data extraction
-    live_data = extract_live_data(config)
+    previous = load_previous()
+    live = extract_live_data(config)
+    notes = retain_previous(live, previous)
 
-    # Build output structure
+    articles = live.get("gdelt_articles", [])
+    fresh_news = bool(articles) and not any("gdelt_articles" in note for note in notes)
+    mode = "live" if fresh_news else ("partial" if articles else "unavailable")
+
+    llm_summary = ""
+    api_key = os.environ.get("OPENROUTER_API_KEY")
+    if api_key and articles:
+        print("[LLM] Analyzing with OpenRouter...")
+        llm_summary = analyze_with_llm(
+            {
+                "meta": {"project": project, "mode": mode},
+                "events": articles[:5],
+                "stats": build_stats(articles, live.get("geo_points", [])),
+            },
+            config.get("openrouter"),
+            api_key,
+        )
+        if llm_summary:
+            print("[LLM] Summary received")
+
     output = {
         "meta": {
-            "project": "sanctions-exposure-index",
+            "project": project,
             "generated": datetime.now(timezone.utc).isoformat(),
-            "mode": "live" if live_data else "demo",
-            "sources": list(live_data.keys()),
-            "version": "1.0.0"
+            "mode": mode,
+            "sources": [key for key, value in live.items() if value],
+            "source_notes": notes,
+            "version": "1.1.0",
         },
-        "stats": [
-            {"label": "Listed Entities", "value": "78,432", "delta": "live"},
-            {"label": "New (7d)", "value": "+234", "delta": "live"},
-            {"label": "Relationships", "value": "2.1M", "delta": "live"},
-            {"label": "Jurisdictions", "value": "42", "delta": "live"},
-        ],
-        "live_data": live_data,
+        "stats": build_stats(articles, live.get("geo_points", [])),
+        "live_data": live,
         "entities": [],
-        "events": live_data.get("gdelt_articles", [])[:15],
+        "events": articles[:EVENT_LIMIT],
         "timeseries": [],
-        "llm_summary": "Pending API key..."
+        "llm_summary": llm_summary,
     }
 
-    # Generate entities from live data
-    if live_data.get("gdelt_articles"):
-        for i, a in enumerate(live_data["gdelt_articles"][:10]):
-            tone = float(a.get("tone", 0))
-            score = min(10, max(1, 5 + abs(tone)))
-            output["entities"].append({
-                "id": i + 1,
-                "name": a.get("title", "")[:60],
-                "score": round(score, 1),
-                "category": "news",
-                "last_seen": a.get("seendate", ""),
-                "source": a.get("domain", "")
-            })
-
-    # LLM analysis
-    api_key = os.environ.get("OPENROUTER_API_KEY")
-    if api_key and live_data:
-        print("[LLM] Analyzing with OpenRouter...")
-        output["llm_summary"] = analyze_with_llm(
-            output, config["openrouter"]["model"], api_key
-        )
-
-    # Write output
     os.makedirs("data", exist_ok=True)
-    with open("data/output.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+    out_path = os.path.join("data", "output.json")
+    with open(out_path, "w", encoding="utf-8") as handle:
+        json.dump(output, handle, indent=2, ensure_ascii=False)
 
-    print(f"Done. Output: data/output.json ({len(json.dumps(output))} bytes)")
-    print(f"Mode: {'LIVE' if live_data else 'DEMO'}")
+    size = os.path.getsize(out_path)
+    print(f"Done. {out_path} ({size} bytes) mode={mode} articles={len(articles)} geo={len(live.get('geo_points', []))}")
+
 
 if __name__ == "__main__":
     main()
