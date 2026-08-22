@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-21T18:53:05.976716+00:00",
+    "generated": "2026-08-22T01:48:09.458812+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -447,15 +447,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.15
+        "rate": 74.77
       },
       {
         "currency": "ALL",
-        "rate": 79.42
+        "rate": 87.5
       },
       {
         "currency": "AMD",
-        "rate": 364.88
+        "rate": 356.51
       },
       {
         "currency": "ANG",
@@ -463,15 +463,15 @@
       },
       {
         "currency": "AOA",
-        "rate": 925.24
+        "rate": 934.92
       },
       {
         "currency": "ARS",
-        "rate": 1497.29
+        "rate": 1497.45
       },
       {
         "currency": "AUD",
-        "rate": 1.41
+        "rate": 1.4
       },
       {
         "currency": "AWG",
@@ -479,7 +479,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.7
+        "rate": 1.59
       },
       {
         "currency": "BAM",
@@ -491,7 +491,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.21
+        "rate": 121.86
       },
       {
         "currency": "BGN",
@@ -503,7 +503,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2990.34
+        "rate": 2665.4
       },
       {
         "currency": "BMD",
@@ -515,7 +515,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.53
+        "rate": 7.01
       }
     ]
   },
