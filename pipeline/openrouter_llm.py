@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 """OpenRouter LLM integration with model fallback chain."""
+import json
+import time
+
 import requests
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -43,8 +46,6 @@ def analyze_with_llm(data, model_config, api_key):
             ensure_ascii=False,
         )
     )
-    import time
-
     for attempt, model in enumerate(models * 2):
         payload = {
             "model": model,
