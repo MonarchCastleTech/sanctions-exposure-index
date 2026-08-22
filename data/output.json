@@ -1,439 +1,488 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-22T15:02:32.284358+00:00",
+    "generated": "2026-08-22T16:36:00.695410+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "countries",
       "exchange_rates"
     ],
-    "version": "1.0.0"
+    "source_notes": [],
+    "version": "1.1.0"
   },
   "stats": [
     {
-      "label": "Listed Entities",
-      "value": "78,432",
+      "label": "Articles Tracked",
+      "value": "50",
       "delta": "live"
     },
     {
-      "label": "New (7d)",
-      "value": "+234",
-      "delta": "live"
+      "label": "News Domains",
+      "value": "47",
+      "delta": "deduplicated"
     },
     {
-      "label": "Relationships",
-      "value": "2.1M",
-      "delta": "live"
+      "label": "Tone Index",
+      "value": "50/100 (neutral)",
+      "delta": "GDELT scale"
     },
     {
-      "label": "Jurisdictions",
-      "value": "42",
-      "delta": "live"
+      "label": "Geo Points",
+      "value": "0",
+      "delta": "geolocated"
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
-    "countries": [
+    "gdelt_articles": [
       {
-        "id": "ABW",
-        "name": "Aruba",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Oranjestad",
-        "longitude": "-70.0167",
-        "latitude": "12.5167"
+        "title": "US Extends Lukoil Deadline , Affecting Bulgarian Oil Assets - Novinite . com",
+        "url": "https://www.novinite.com/view_news.php?id=240218",
+        "domain": "novinite.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T231500Z",
+        "source": "GDELT"
       },
       {
-        "id": "AFE",
-        "name": "Africa Eastern and Southern",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "Саудовская Аравия стала крупнейшим покупателем российского мазута в июле",
+        "url": "https://korrespondent.net/business/4905189-saudovskaia-aravyia-stala-krupneishym-pokupatelem-rossyiskoho-mazuta-v-yuile",
+        "domain": "korrespondent.net",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260822T004500Z",
+        "source": "GDELT"
       },
       {
-        "id": "AFG",
-        "name": "Afghanistan",
-        "region": "Middle East, North Africa, Afghanistan & Pakistan",
-        "capitalCity": "Kabul",
-        "longitude": "69.1761",
-        "latitude": "34.5228"
+        "title": "Hezbollah slams US over re - designation linked to Iran IRGC - Quds Force , rejects Washington claims",
+        "url": "https://news.webindia123.com/news/Articles/World/20260821/4489488.html",
+        "domain": "news.webindia123.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T184500Z",
+        "source": "GDELT"
       },
       {
-        "id": "AFR",
-        "name": "Africa",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "Estados Unidos sanciona a personas y empresas de Ecuador a las que acusa de tráfico de cocaína para cárteles mexicanos",
+        "url": "https://diariosanrafael.com.ar/estados-unidos-sanciona-a-personas-y-empresas-de-ecuador-a-las-que-acusa-de-trafico-de-cocaina-para-carteles-mexicanos/",
+        "domain": "diariosanrafael.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T231500Z",
+        "source": "GDELT"
       },
       {
-        "id": "AFW",
-        "name": "Africa Western and Central",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "EE . UU . autorizó operaciones con Conatel y Cantv bajo nuevas reglas de OFAC",
+        "url": "https://noticierodigital.com/2026/08/ee-uu-autorizo-operaciones-con-conatel-y-cantv-bajo-nuevas-reglas-de-ofac/",
+        "domain": "noticierodigital.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T233000Z",
+        "source": "GDELT"
       },
       {
-        "id": "AGO",
-        "name": "Angola",
-        "region": "Sub-Saharan Africa ",
-        "capitalCity": "Luanda",
-        "longitude": "13.242",
-        "latitude": "-8.81155"
+        "title": "Iran defiant over US economic sanctions",
+        "url": "http://europe.chinadaily.com.cn/a/202608/22/WS6a88e023a3106bc57421cd7a.html",
+        "domain": "europe.chinadaily.com.cn",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T084500Z",
+        "source": "GDELT"
       },
       {
-        "id": "ALB",
-        "name": "Albania",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Tirane",
-        "longitude": "19.8172",
-        "latitude": "41.3317"
+        "title": "La nueva licencia de EEUU que cambia el escenario para las telecomunicaciones en Venezuela",
+        "url": "https://lapatilla.com/2026/08/21/la-nueva-licencia-de-eeuu-que-cambia-el-escenario-para-las-telecomunicaciones-en-venezuela/",
+        "domain": "lapatilla.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T210000Z",
+        "source": "GDELT"
       },
       {
-        "id": "AND",
-        "name": "Andorra",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Andorra la Vella",
-        "longitude": "1.5218",
-        "latitude": "42.5075"
+        "title": "EE . UU . flexibiliza sanciones para telecomunicaciones venezolanas",
+        "url": "https://finanzasdigital.com/eeuu-flexibiliza-sanciones-para-el-sector-telecomunicaciones-en-venezuela/",
+        "domain": "finanzasdigital.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T224500Z",
+        "source": "GDELT"
       },
       {
-        "id": "ARB",
-        "name": "Arab World",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "伊朗 ： 若爆发新冲突 ， 将投入使用更为先进武器装备 ， 武装部队为导弹安装的新弹头破坏性将远超以往",
+        "url": "https://baijiahao.baidu.com/s?id=1874183440954322027",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T064500Z",
+        "source": "GDELT"
       },
       {
-        "id": "ARE",
-        "name": "United Arab Emirates",
-        "region": "Middle East, North Africa, Afghanistan & Pakistan",
-        "capitalCity": "Abu Dhabi",
-        "longitude": "54.3705",
-        "latitude": "24.4764"
+        "title": "EE . UU . autoriza provisión de servicios y tecnología de telecomunicaciones para Venezuela",
+        "url": "https://www.globovision.com/sociedad/60655/ee-uu-autoriza-provision-de-servicios-y-tecnologia-de-telecomunicaciones-para-venezuela",
+        "domain": "globovision.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260822T003000Z",
+        "source": "GDELT"
       },
       {
-        "id": "ARG",
-        "name": "Argentina",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Buenos Aires",
-        "longitude": "-58.4173",
-        "latitude": "-34.6118"
+        "title": "Children are dying ! ",
+        "url": "https://kaieteurnewsonline.com/2026/08/22/children-are-dying/",
+        "domain": "kaieteurnewsonline.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "id": "ARM",
-        "name": "Armenia",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Yerevan",
-        "longitude": "44.509",
-        "latitude": "40.1596"
+        "title": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
+        "url": "https://baijiahao.baidu.com/s?id=1874150217641208359",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T170000Z",
+        "source": "GDELT"
       },
       {
-        "id": "ASM",
-        "name": "American Samoa",
-        "region": "East Asia & Pacific",
-        "capitalCity": "Pago Pago",
-        "longitude": "-170.691",
-        "latitude": "-14.2846"
+        "title": "Експорт мазуту з Росії у липні - падіння через удари по НПЗ та ринки збуту",
+        "url": "https://zn.ua/ukr/WORLD/u-lipni-saudivska-aravija-stala-holovnim-pokuptsem-mazutu-z-rf-reuters.html",
+        "domain": "zn.ua",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260822T040000Z",
+        "source": "GDELT"
       },
       {
-        "id": "ATG",
-        "name": "Antigua and Barbuda",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Saint John's",
-        "longitude": "-61.8456",
-        "latitude": "17.1175"
+        "title": "国际观察丨美国对伊朗  史上最严制裁  能奏效吗",
+        "url": "https://baijiahao.baidu.com/s?id=1874203809555017174",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T124500Z",
+        "source": "GDELT"
       },
       {
-        "id": "AUS",
-        "name": "Australia",
-        "region": "East Asia & Pacific",
-        "capitalCity": "Canberra",
-        "longitude": "149.129",
-        "latitude": "-35.282"
+        "title": "Cuba Says US Sanctions Are Blocking Its Efforts To Open The Economy To Private Investment",
+        "url": "https://www.theyeshivaworld.com/news/general/2588510/cuba-says-us-sanctions-are-blocking-its-efforts-to-open-the-economy-to-private-investment.html",
+        "domain": "theyeshivaworld.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T191500Z",
+        "source": "GDELT"
       },
       {
-        "id": "AUT",
-        "name": "Austria",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Vienna",
-        "longitude": "16.3798",
-        "latitude": "48.2201"
+        "title": "",
+        "url": "https://primicia.com.ve/economia/ofac-emite-licencia-que-autoriza-servicios-de-telecomunicaciones-a-cantv-y-conatel/",
+        "domain": "primicia.com.ve",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T233000Z",
+        "source": "GDELT"
       },
       {
-        "id": "AZE",
-        "name": "Azerbaijan",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Baku",
-        "longitude": "49.8932",
-        "latitude": "40.3834"
+        "title": "Red ecuatoriana sancionada por Estados Unidos : así funcionaba el trafico marítimo de cocaína",
+        "url": "https://www.expreso.ec/ecuador/red-ecuatoriana-sancionada-estados-unidos-asi-funcionaba-trafico-maritimo-cocaina-293165.html",
+        "domain": "expreso.ec",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BDI",
-        "name": "Burundi",
-        "region": "Sub-Saharan Africa ",
-        "capitalCity": "Bujumbura",
-        "longitude": "29.3639",
-        "latitude": "-3.3784"
+        "title": "Cuba says US sanctions are blocking its efforts to open the economy to private investment",
+        "url": "https://www.nydailynews.com/2026/08/21/cuba-united-states/",
+        "domain": "nydailynews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T180000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BEA",
-        "name": "East Asia & Pacific (IBRD-only countries)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "Cuba says US sanctions are blocking its efforts to open the economy to private investment",
+        "url": "https://www.bostonherald.com/2026/08/21/cuba-united-states/",
+        "domain": "bostonherald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T210000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BEC",
-        "name": "Europe & Central Asia (IBRD-only countries)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "David Tennant reacts to Doctor Who surprising Fourteenth Doctor  embargo  he never knew existed",
+        "url": "https://winteriscoming.net/david-tennant-doctor-who-fourteenth-doctor-embargo",
+        "domain": "winteriscoming.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T000000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BEL",
-        "name": "Belgium",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Brussels",
-        "longitude": "4.36761",
-        "latitude": "50.8371"
+        "title": "Cướp biển Somalia chiếm giữ tàu dầu ngoài khơi Yemen",
+        "url": "https://thanhnien.vn/cuop-bien-somalia-chiem-giu-tau-dau-ngoai-khoi-yemen-185260822195811154.htm",
+        "domain": "thanhnien.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BEN",
-        "name": "Benin",
-        "region": "Sub-Saharan Africa ",
-        "capitalCity": "Porto-Novo",
-        "longitude": "2.6323",
-        "latitude": "6.4779"
+        "title": "Iran dọa đáp trả biện pháp cấm vận của Mỹ bằng quân sự",
+        "url": "https://thanhnien.vn/iran-doa-dap-tra-bien-phap-cam-van-cua-my-bang-quan-su-185260822081242347.htm",
+        "domain": "thanhnien.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260822T031500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BFA",
-        "name": "Burkina Faso",
-        "region": "Sub-Saharan Africa ",
-        "capitalCity": "Ouagadougou",
-        "longitude": "-1.53395",
-        "latitude": "12.3605"
+        "title": "Иран частично открыл Ормузский пролив",
+        "url": "https://aif.ru/politics/iran-chastichno-otkryl-ormuzskiy-proliv",
+        "domain": "aif.ru",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260822T121500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BGD",
-        "name": "Bangladesh",
-        "region": "South Asia",
-        "capitalCity": "Dhaka",
-        "longitude": "90.4113",
-        "latitude": "23.7055"
+        "title": "Крупнейший экспортер нефти стал главным покупателем российского мазута",
+        "url": "https://haqqin.az/newsarchive/391425",
+        "domain": "haqqin.az",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260821T213000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BGR",
-        "name": "Bulgaria",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Sofia",
-        "longitude": "23.3238",
-        "latitude": "42.7105"
+        "title": "EE . UU . impone nuevas sanciones a Hezbolá por red financiera vinculada a Irán",
+        "url": "https://lopezdoriga.com/internacional/ee-uu-impone-nuevas-sanciones-a-hezbola-por-red-financiera-vinculada-a-iran/",
+        "domain": "lopezdoriga.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T180000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BHI",
-        "name": "IBRD countries classified as high income",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "OFAC autoriza licencias para inversión y servicios de telecomunicaciones en Venezuela",
+        "url": "https://rnv.gob.ve/ofac-autoriza-licencias-para-inversion-y-servicios-de-telecomunicaciones-en-venezuela/",
+        "domain": "rnv.gob.ve",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T233000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BHR",
-        "name": "Bahrain",
-        "region": "Middle East, North Africa, Afghanistan & Pakistan",
-        "capitalCity": "Manama",
-        "longitude": "50.5354",
-        "latitude": "26.1921"
+        "title": " 【 2026行李箱尺寸攻略 】 登機口免被罰 $800 ！ 13間航空公司手提 / 寄艙限制 ： 拆解全新 「 橫式量度架 」 避雷指南",
+        "url": "https://www.elle.com.hk/fashion/to-choose-the-best-luggage-2026-august",
+        "domain": "elle.com.hk",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T121500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BHS",
-        "name": "Bahamas, The",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Nassau",
-        "longitude": "-77.339",
-        "latitude": "25.0661"
+        "title": "Iran nói về ố phận  đòn trừng phạt kinh tế mới nhất mà ông Trump đe dọa áp đặt",
+        "url": "https://baomoi.com/iran-noi-ve-so-phan-don-trung-phat-kinh-te-moi-nhat-ma-ong-trump-de-doa-ap-dat-c55886824.epi",
+        "domain": "baomoi.com",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260822T041500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BIH",
-        "name": "Bosnia and Herzegovina",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Sarajevo",
-        "longitude": "18.4214",
-        "latitude": "43.8607"
+        "title": "ప్రముఖ నటి షావుకారు జానకి కన్నుమూత | Veteran Actress Sowcar Janaki Passes Away at 94 After 75 Years in Cinema",
+        "url": "https://www.andhrajyothy.com/2026/national/veteran-actress-sowcar-janaki-passes-away-at-94-after-75-years-in-cinema-1551729.html",
+        "domain": "andhrajyothy.com",
+        "language": "Telugu",
+        "tone": 0,
+        "seendate": "20260822T041500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BLA",
-        "name": "Latin America & the Caribbean (IBRD-only countries)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "The Dog Stars : What Do You Miss After It Ends Clip Released",
+        "url": "https://bleedingcool.com/movies/the-dog-stars-what-do-you-miss-after-it-ends-clip-released/",
+        "domain": "bleedingcool.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T000000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BLR",
-        "name": "Belarus",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Minsk",
-        "longitude": "27.5766",
-        "latitude": "53.9678"
+        "title": "En değerlisi Batrakov",
+        "url": "https://www.posta.com.tr/spor/en-degerlisi-batrakov-3030046",
+        "domain": "posta.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260822T044500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BLZ",
-        "name": "Belize",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Belmopan",
-        "longitude": "-88.7713",
-        "latitude": "17.2534"
+        "title": "Ολοκληρώθηκε η Μπριγάδα Αλληλεγγύης της ΚΝΕ στην Κούβα",
+        "url": "https://www.902.gr/eidisi/neolaia-paideia/427042/oloklirothike-i-mprigada-allileggyis-tis-kne-stin-koyva",
+        "domain": "902.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260822T131500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BMN",
-        "name": "Middle East, North Africa, Afghanistan & Pakistan (IBRD only)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "EE UU flexibiliza sanciones y autoriza operaciones de telecomunicaciones en Venezuela",
+        "url": "https://bitlysdowssl-aws.com/2026/08/ee-uu-flexibiliza-sanciones-y-autoriza-operaciones-de-telecomunicaciones-en-venezuela/",
+        "domain": "bitlysdowssl-aws.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260822T003000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BMU",
-        "name": "Bermuda",
-        "region": "North America",
-        "capitalCity": "Hamilton",
-        "longitude": "-64.706",
-        "latitude": "32.3293"
+        "title": "Petro sale de Colombia : Este será su primer viaje como expresidente ¿ a dónde va y por qué ? ",
+        "url": "https://www.publimetro.co/noticias/2026/08/22/petro-sale-de-colombia-este-sera-su-primer-viaje-como-expresidente-a-donde-va-y-por-que/",
+        "domain": "publimetro.co",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260822T053000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BOL",
-        "name": "Bolivia",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "La Paz",
-        "longitude": "-66.1936",
-        "latitude": "-13.9908"
+        "title": "Turmoil in Tehran",
+        "url": "https://www.americanthinker.com/articles/2026/08/turmoil-in-tehran/",
+        "domain": "americanthinker.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T111500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BRA",
-        "name": "Brazil",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Brasilia",
-        "longitude": "-47.9292",
-        "latitude": "-15.7801"
+        "title": "Швейцария присоединилась к новому пакету санкций ЕС против России",
+        "url": "https://pronedra.ru/shvejczariya-prisoedinilas-k-novomu-paketu-sankczij-es-protiv-rossii-energetika-finansy-i-torgovlya-pod-ogranicheniyami-829447.html",
+        "domain": "pronedra.ru",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260822T131500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BRB",
-        "name": "Barbados",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Bridgetown",
-        "longitude": "-59.6105",
-        "latitude": "13.0935"
+        "title": "이란 , 美  역사상 최대 규모 경제 고립  예고에  불법 경제전쟁  반발",
+        "url": "https://www.fnnews.com/news/202608222029241754",
+        "domain": "fnnews.com",
+        "language": "Korean",
+        "tone": 0,
+        "seendate": "20260822T133000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BRN",
-        "name": "Brunei Darussalam",
-        "region": "East Asia & Pacific",
-        "capitalCity": "Bandar Seri Begawan",
-        "longitude": "114.946",
-        "latitude": "4.94199"
+        "title": "Manajemen Sriwijaya FC Terus Berupaya Selesaikan Sanksi FIFA , Target Rampung Sebelum Liga 3 Dimulai",
+        "url": "https://palembang.tribunnews.com/superball/1326466/manajemen-sriwijaya-fc-terus-berupaya-selesaikan-sanksi-fifa-target-rampung-sebelum-liga-3-dimulai",
+        "domain": "palembang.tribunnews.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260822T031500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BSS",
-        "name": "Sub-Saharan Africa (IBRD-only countries)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "Медведев рассказал об успехах России , достигнутых в условиях санкций",
+        "url": "https://russian.rt.com/world/news/1672913-medvedev-uspehi-rossii",
+        "domain": "russian.rt.com",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "id": "BTN",
-        "name": "Bhutan",
-        "region": "South Asia",
-        "capitalCity": "Thimphu",
-        "longitude": "89.6177",
-        "latitude": "27.5768"
+        "title": "യുഎസ് ഉപരോധം എല്ലാ രാജ്യങ്ങളുടെയും പരമാധികാരത്തിന് ഭീഷണി , കോളനിവത്കരണത്തിനുള്ള ശ്രമം - ഇറാൻ",
+        "url": "https://www.mathrubhumi.com/news/world/iran-slams-us-sanctions-global-sovereignty-threat-k9s7lvbi",
+        "domain": "mathrubhumi.com",
+        "language": "Malayalam",
+        "tone": 0,
+        "seendate": "20260822T121500Z",
+        "source": "GDELT"
       },
       {
-        "id": "BWA",
-        "name": "Botswana",
-        "region": "Sub-Saharan Africa ",
-        "capitalCity": "Gaborone",
-        "longitude": "25.9201",
-        "latitude": "-24.6544"
+        "title": "Iran Naik Pitam , Sebut Sanksi Baru AS Deklarasi Perang untuk Dunia",
+        "url": "https://www.kompas.com/global/read/2026/08/22/113500970/iran-naik-pitam-sebut-sanksi-baru-as-deklarasi-perang-untuk-dunia",
+        "domain": "kompas.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260822T051500Z",
+        "source": "GDELT"
       },
       {
-        "id": "CAA",
-        "name": "Sub-Saharan Africa (IFC classification)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "SHBA vendos sanksione të reja ndaj Kubës , tronditet ekonomia vendase",
+        "url": "https://telegrafi.com/shba-vendos-sanksione-te-reja-ndaj-kubes-tronditet-ekonomia-vendase/",
+        "domain": "telegrafi.com",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
       },
       {
-        "id": "CAF",
-        "name": "Central African Republic",
-        "region": "Sub-Saharan Africa ",
-        "capitalCity": "Bangui",
-        "longitude": "21.6407",
-        "latitude": "5.63056"
+        "title": " 【 伊朗危機 】 制裁伊朗川普要全世界選邊站 中國說不 貝森特這麼回",
+        "url": "https://n.yam.com/Article/20260822264646",
+        "domain": "n.yam.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T033000Z",
+        "source": "GDELT"
       },
       {
-        "id": "CAN",
-        "name": "Canada",
-        "region": "North America",
-        "capitalCity": "Ottawa",
-        "longitude": "-75.6919",
-        "latitude": "45.4215"
+        "title": "Teherani kundërshton sanksionet e propozuara nga SHBA - ja",
+        "url": "https://zeri.info/bota/634515/teherani-kundershton-sanksionet-e-propozuara-nga-shba-ja/",
+        "domain": "zeri.info",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "id": "CEA",
-        "name": "East Asia and the Pacific (IFC classification)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "National Council members collect N$27 609 for Cuba",
+        "url": "https://www.namibian.com.na/national-council-members-collect-n27-609-for-cuba/",
+        "domain": "namibian.com.na",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T110000Z",
+        "source": "GDELT"
       },
       {
-        "id": "CEB",
-        "name": "Central Europe and the Baltics",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "Антибаллистические санкции против России – Украина и ее партнеры ограничат производство ракет",
+        "url": "https://24tv.ua/ru/antiballisticheskie-sankcii-protiv-rossii-ukraina-ee-partnery_n3127917",
+        "domain": "24tv.ua",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260822T051500Z",
+        "source": "GDELT"
       },
       {
-        "id": "CEU",
-        "name": "Europe and Central Asia (IFC classification)",
-        "region": "Aggregates",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "US - Iran Tensions Escalate as Trump Calls Strait of Hormuz  American Territory  and Warns Tehran on Nuclear Weapons",
+        "url": "https://gulfnews.com/world/mena/us-iran-tensions-trump-calls-hormuz-american-territory-warns-iran-on-nuclear-weapons-1.500648582",
+        "domain": "gulfnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T041500Z",
+        "source": "GDELT"
       },
       {
-        "id": "CHE",
-        "name": "Switzerland",
-        "region": "Europe & Central Asia",
-        "capitalCity": "Bern",
-        "longitude": "7.44821",
-        "latitude": "46.948"
+        "title": "Trump  ı açık açık tehdit ettiler : G kullanarak zorlayacağız",
+        "url": "https://www.bursadabugun.com/haber/trump-i-acik-acik-tehdit-ettiler-guc-kullanarak-zorlayacagiz-1943636.html",
+        "domain": "bursadabugun.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260822T053000Z",
+        "source": "GDELT"
       },
       {
-        "id": "CHI",
-        "name": "Channel Islands",
-        "region": "Europe & Central Asia",
-        "capitalCity": "",
-        "longitude": "",
-        "latitude": ""
+        "title": "İran Dışişleri Bakanı Erakçi Trump  ın yaptırım kararına resti çekti : Geçmişteki gibi yine başarısız olacak",
+        "url": "https://www.yenisafak.com/dunya/iran-disisleri-bakani-erakci-trumpin-yaptirim-kararina-resti-cekti-gecmisteki-gibi-yine-basarisiz-olacak-4849977",
+        "domain": "yenisafak.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T194500Z",
+        "source": "GDELT"
       },
       {
-        "id": "CHL",
-        "name": "Chile",
-        "region": "Latin America & Caribbean ",
-        "capitalCity": "Santiago",
-        "longitude": "-70.6475",
-        "latitude": "-33.475"
+        "title": "Buntut Kericuhan di Final Piala Dunia 2026 , FIFA Sanksi Berat Argentina – Olahraga",
+        "url": "https://olahraga.batampos.co.id/buntut-kericuhan-di-final-piala-dunia-2026-fifa-sanksi-berat-argentina/",
+        "domain": "olahraga.batampos.co.id",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260822T084500Z",
+        "source": "GDELT"
       }
     ],
     "exchange_rates": [
@@ -520,7 +569,143 @@
     ]
   },
   "entities": [],
-  "events": [],
+  "events": [
+    {
+      "title": "US Extends Lukoil Deadline , Affecting Bulgarian Oil Assets - Novinite . com",
+      "url": "https://www.novinite.com/view_news.php?id=240218",
+      "domain": "novinite.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T231500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Саудовская Аравия стала крупнейшим покупателем российского мазута в июле",
+      "url": "https://korrespondent.net/business/4905189-saudovskaia-aravyia-stala-krupneishym-pokupatelem-rossyiskoho-mazuta-v-yuile",
+      "domain": "korrespondent.net",
+      "language": "Russian",
+      "tone": 0,
+      "seendate": "20260822T004500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Hezbollah slams US over re - designation linked to Iran IRGC - Quds Force , rejects Washington claims",
+      "url": "https://news.webindia123.com/news/Articles/World/20260821/4489488.html",
+      "domain": "news.webindia123.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T184500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Estados Unidos sanciona a personas y empresas de Ecuador a las que acusa de tráfico de cocaína para cárteles mexicanos",
+      "url": "https://diariosanrafael.com.ar/estados-unidos-sanciona-a-personas-y-empresas-de-ecuador-a-las-que-acusa-de-trafico-de-cocaina-para-carteles-mexicanos/",
+      "domain": "diariosanrafael.com.ar",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260821T231500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "EE . UU . autorizó operaciones con Conatel y Cantv bajo nuevas reglas de OFAC",
+      "url": "https://noticierodigital.com/2026/08/ee-uu-autorizo-operaciones-con-conatel-y-cantv-bajo-nuevas-reglas-de-ofac/",
+      "domain": "noticierodigital.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260821T233000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Iran defiant over US economic sanctions",
+      "url": "http://europe.chinadaily.com.cn/a/202608/22/WS6a88e023a3106bc57421cd7a.html",
+      "domain": "europe.chinadaily.com.cn",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260822T084500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "La nueva licencia de EEUU que cambia el escenario para las telecomunicaciones en Venezuela",
+      "url": "https://lapatilla.com/2026/08/21/la-nueva-licencia-de-eeuu-que-cambia-el-escenario-para-las-telecomunicaciones-en-venezuela/",
+      "domain": "lapatilla.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260821T210000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "EE . UU . flexibiliza sanciones para telecomunicaciones venezolanas",
+      "url": "https://finanzasdigital.com/eeuu-flexibiliza-sanciones-para-el-sector-telecomunicaciones-en-venezuela/",
+      "domain": "finanzasdigital.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260821T224500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "伊朗 ： 若爆发新冲突 ， 将投入使用更为先进武器装备 ， 武装部队为导弹安装的新弹头破坏性将远超以往",
+      "url": "https://baijiahao.baidu.com/s?id=1874183440954322027",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260822T064500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "EE . UU . autoriza provisión de servicios y tecnología de telecomunicaciones para Venezuela",
+      "url": "https://www.globovision.com/sociedad/60655/ee-uu-autoriza-provision-de-servicios-y-tecnologia-de-telecomunicaciones-para-venezuela",
+      "domain": "globovision.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260822T003000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Children are dying ! ",
+      "url": "https://kaieteurnewsonline.com/2026/08/22/children-are-dying/",
+      "domain": "kaieteurnewsonline.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260822T143000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
+      "url": "https://baijiahao.baidu.com/s?id=1874150217641208359",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T170000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Експорт мазуту з Росії у липні - падіння через удари по НПЗ та ринки збуту",
+      "url": "https://zn.ua/ukr/WORLD/u-lipni-saudivska-aravija-stala-holovnim-pokuptsem-mazutu-z-rf-reuters.html",
+      "domain": "zn.ua",
+      "language": "Ukrainian",
+      "tone": 0,
+      "seendate": "20260822T040000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "国际观察丨美国对伊朗  史上最严制裁  能奏效吗",
+      "url": "https://baijiahao.baidu.com/s?id=1874203809555017174",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260822T124500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Cuba Says US Sanctions Are Blocking Its Efforts To Open The Economy To Private Investment",
+      "url": "https://www.theyeshivaworld.com/news/general/2588510/cuba-says-us-sanctions-are-blocking-its-efforts-to-open-the-economy-to-private-investment.html",
+      "domain": "theyeshivaworld.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T191500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": ""
 }
