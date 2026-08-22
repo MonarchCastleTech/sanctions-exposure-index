@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-22T08:43:42.419841+00:00",
+    "generated": "2026-08-22T12:57:57.696680+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
