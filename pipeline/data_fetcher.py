@@ -265,3 +265,56 @@ def safe_fetch(fetcher, *args, **kwargs):
     except Exception as e:
         print(f"[SafeFetch] {fetcher.__name__} failed: {e}")
         return {} if not isinstance(args, list) else []
+
+def fetch_google_news_rss(query, max_results=50):
+    """Fetch news headlines from Google News RSS, shaped like GDELT articles."""
+    import re
+    import urllib.parse
+    import xml.etree.ElementTree as ET
+    from datetime import datetime, timezone
+
+    url = (
+        "https://news.google.com/rss/search?q="
+        + urllib.parse.quote(query)
+        + "&hl=en-US&gl=US&ceid=US:en"
+    )
+    try:
+        r = requests.get(url, timeout=30, headers={"User-Agent": "MCT-Intel/1.0"})
+        if r.status_code != 200:
+            print(f"[GoogleNews] HTTP {r.status_code}")
+            return []
+        root = ET.fromstring(r.content)
+        items = root.findall(".//item")[:max_results]
+        articles = []
+        for item in items:
+            title = (item.findtext("title") or "").strip()
+            link = item.findtext("link") or ""
+            pub = item.findtext("pubDate") or ""
+            source_el = item.find("source")
+            source_name = source_el.text.strip() if source_el is not None and source_el.text else ""
+            if source_name and title.endswith(" - " + source_name):
+                title = title[: -(len(source_name) + 3)].strip()
+            seendate = ""
+            for fmt in ("%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z"):
+                try:
+                    dt = datetime.strptime(pub.replace("GMT", "UTC"), fmt)
+                    seendate = dt.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+                    break
+                except ValueError:
+                    continue
+            if not seendate:
+                seendate = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+            domain = re.sub(r"[^a-z0-9.-]", "", (source_name or "news.google.com").lower()) or "news.google.com"
+            articles.append({
+                "title": title,
+                "url": link,
+                "domain": domain,
+                "language": "",
+                "tone": 0,
+                "seendate": seendate,
+                "source": "GoogleNews",
+            })
+        return articles
+    except Exception as e:
+        print(f"[GoogleNews] Error: {e}")
+        return []

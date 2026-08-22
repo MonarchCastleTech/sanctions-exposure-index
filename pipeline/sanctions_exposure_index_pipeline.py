@@ -9,10 +9,12 @@ from datetime import datetime, timezone
 import yaml
 
 sys.path.insert(0, os.path.dirname(__file__))
-from data_fetcher import fetch_exchange_rates, fetch_gdelt, fetch_gdelt_events, safe_fetch
+from data_fetcher import fetch_exchange_rates, fetch_gdelt, fetch_gdelt_events, fetch_google_news_rss, safe_fetch
 from openrouter_llm import analyze_with_llm
 
 GDELT_SPACING_SECONDS = 6
+GDELT_RETRIES = 3
+GDELT_RETRY_WAIT_SECONDS = 20
 SNAPSHOT_SIZE = 50
 EVENT_LIMIT = 15
 
@@ -55,17 +57,31 @@ def extract_live_data(config):
     query = config.get("gdelt_query", "geopolitical risk")
     print(f"[LIVE] GDELT query: {query}")
 
-    articles = safe_fetch(fetch_gdelt, query, "1d", SNAPSHOT_SIZE) or []
-    if articles:
-        live["gdelt_articles"] = articles[:SNAPSHOT_SIZE]
-        print(f"  GDELT articles: {len(articles)}")
+    articles = []
+    for attempt in range(1, GDELT_RETRIES + 1):
+        articles = safe_fetch(fetch_gdelt, query, "1d", SNAPSHOT_SIZE) or []
+        if articles:
+            print(f"  GDELT articles: {len(articles)} (attempt {attempt})")
+            break
+        if attempt < GDELT_RETRIES:
+            print(f"  GDELT attempt {attempt}: no articles; retrying in {GDELT_RETRY_WAIT_SECONDS}s")
+            time.sleep(GDELT_RETRY_WAIT_SECONDS)
 
-    time.sleep(GDELT_SPACING_SECONDS)
+    used_fallback = False
+    if not articles:
+        articles = safe_fetch(fetch_google_news_rss, query, SNAPSHOT_SIZE) or []
+        used_fallback = bool(articles)
+        if used_fallback:
+            print(f"  Google News RSS fallback: {len(articles)} articles")
+            time.sleep(GDELT_SPACING_SECONDS)
 
     geo_points = normalize_geo_points(safe_fetch(fetch_gdelt_events, query, "1d"))
     if geo_points:
         live["geo_points"] = geo_points
         print(f"  GDELT geo points: {len(geo_points)}")
+
+    if articles:
+        live["gdelt_articles"] = articles[:SNAPSHOT_SIZE]
 
     if config.get("include_forex"):
         rates = safe_fetch(fetch_exchange_rates, "USD")
@@ -73,7 +89,7 @@ def extract_live_data(config):
             live["exchange_rates"] = rates[:20]
             print(f"  Forex: {len(live['exchange_rates'])} rates")
 
-    return live
+    return live, used_fallback
 
 
 def retain_previous(live, previous):
@@ -110,8 +126,10 @@ def main():
     print(f"=== {title} pipeline ===")
 
     previous = load_previous()
-    live = extract_live_data(config)
+    live, used_fallback = extract_live_data(config)
     notes = retain_previous(live, previous)
+    if used_fallback:
+        notes.append("GDELT unavailable; headlines sourced via Google News RSS fallback.")
 
     articles = live.get("gdelt_articles", [])
     fresh_news = bool(articles) and not any("gdelt_articles" in note for note in notes)
