@@ -1,15 +1,13 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-22T18:49:19.036434+00:00",
+    "generated": "2026-08-23T01:58:58.703992+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; headlines sourced via Google News RSS fallback."
-    ],
+    "source_notes": [],
     "version": "1.1.0"
   },
   "stats": [
@@ -20,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "30",
+      "value": "44",
       "delta": "deduplicated"
     },
     {
@@ -37,454 +35,454 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOak5FU3lnQ0FsZU5vbjdlazdtTUhDZUpVX3hiWm1tWng5RjUxM2RYOFhTcEdfUVE1WDl3QkFCcXVxNHczbmNocnA5UG85cTFPWnFYQ0lQRENHeEd3dUNRVUdhbk1mbFc2OExVM3VjTWNONm1yRWNQY0FtU21CcnlIS1JTUzBlRzJmLUFtVHZYTEdIa3BLWUpVc1BR0gGfAUFVX3lxTE5MUUhtTlBzNDdFX1Y4eDc4OEVkLTIxUW1ycDlBNzE2ZmkzN3dUZm80S3RlZ1FiVEZrRkFISVkxNXZBUjZxQ2lMMmdhc1VOYW5LRTY1elVSVDNGM1QtdEFCMklqSWxJUWR6YTNhLXY5X1YzMnQ3WVhCZmtRWXprN1NNdHJmcFpTOENNNGZNcTZoUEhFZzd2NXFyN2hGem5mRQ?oc=5",
-        "domain": "cnbc",
-        "language": "",
+        "title": "Trump wants more economic pressure on Iran . What are his options ? ",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/22/explainer-trump-wants-more-economic-pressure-on-iran-what-are-his-options",
+        "domain": "internazionale.it",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T102147Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T193000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran says new US sanctions violate sovereignty of other states",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN0k0UU1CRG5RVTV1RjA1OEhtQkhSX1lveGIxSXd1bkZ0NlFJbWdGaXVJQmU3QmNRTExOazRldWE2ajN6LTVMdi1vR1dWZGo2T29LWGxhM2VtTV9xTVBrMmpBSWVzaTJRSHlFM0FuYjBrdi1zUkVLRHpRLWd3U3FLTlR4RmtTaVpvX2VDMmNERVN4ZjdHRjFCRkpHZXJ2X25ZVlpVZW130gGrAUFVX3lxTFAzTGVvcXk5U2tyZFhHNFQwMG1pcUFybDREQkFCakdRaHJJc1ZXS0RtT3E1WWx5Wm5lVDBydzJQNHZteGYtMmVSUkFMZHpveVZXSzh0Q2xGVzdZVmhjOHJaQ21sRlI4NnJ3MUczeEtuVHNhRWxIcVpDcGdQbVM4TzF2dGtpVmVpaFlpOUMweUZMaktsZmFJT2dnRmJTNGZyb3Y2WXEyOW82M21Dbw?oc=5",
-        "domain": "aljazeera",
-        "language": "",
+        "title": "Trump wants more economic pressure on Iran . What are his options ? ",
+        "url": "https://www.al-monitor.com/originals/2026/08/trump-wants-more-economic-pressure-iran-what-are-his-options",
+        "domain": "al-monitor.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T091911Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T220000Z",
+        "source": "GDELT"
       },
       {
-        "title": "U.S., Iran keep up hostile rhetoric ahead of new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc1A2UFJnSDBtVGhDbmEwS0ZCR3RESEJWTUpYMGRTVDRPQlQ4YlQxTmItdHZCNTBxSWlST0F3OU5jQ2hoNjlqemdMMi1RS0l3LUlEYmU3Yzl1anpBR2pWbXZFWlJDbWtuejRPQnBseUliU2czQjQ1MWlIbVlqenZrTHlMZzUwN3hfdGFqZGVRS29adXV5Y1pETlhHbw?oc=5",
-        "domain": "nbcnews",
-        "language": "",
+        "title": "General Licence 61 Eases Venezuela Telecom Rules",
+        "url": "https://www.riotimesonline.com/us-eases-venezuela-telecom-sanctions-with-general-licence-61/",
+        "domain": "riotimesonline.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T102432Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T220000Z",
+        "source": "GDELT"
       },
       {
-        "title": "FIFA sanctions Argentina and several players for World Cup final scuffle",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcnRzYlktczItVFhRMlQ2d080YnBTTXFZZ0Jfcld4M3VxUWlRSXRhQ2FnYk1qdGNicWlFMEpKLVEtMG1rZzhiemxLUjRXd1A4bnNPaGRnaVVuY181cUJUZDlsUmw2QlUydEpZNm82U2FCekpjRjd0RHRHYW0zWW52eUxhaUhQYk5RZFVWSUV3eE9jQnJFMEgzWVo0cjfSAaIBQVVfeXFMTzdKZnVnR3NFTjlmQXMxZnMtbktHTU9ZVzVXT0FDVU90VWdvamVXV3gzX3pDZFVSU0ZQZDFTbEE0Qi1pa2tQUVpsNVZWeVZzWEJFYV9PekJGaGdKUWtVZzdkeDNfa0FmMW9obEVXOUZZQ2Z6QXZFWnY0OXp4cUVKaHJqWWcxT1JpRGpBN2E4SnA5b2Y2c2hRWVRpQUFhM05UUV93?oc=5",
-        "domain": "abc7losangeles",
-        "language": "",
+        "title": "World News : Trump wants more economic pressure : What are his options ? ",
+        "url": "https://www.gdnonline.com:443/Details/1404196/Trump-wants-more-economic-pressure-What-are-his-options",
+        "domain": "gdnonline.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T002202Z",
-        "source": "GoogleNews"
+        "seendate": "20260823T010000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran says ‘world approved our victory’ over the US",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXVTcW1JYm9CY3A1QzRfM1l3b0J4VGRGbW1vdnpIU0JvVDcxVEtzRWR0LWlTZko0a3M0akx6bTFranBrTk1tUU5LLXpWSnVlbEh1Vm1qUTdlUGFWX0lOU1gxc3VISXBSSzZEWTVXZUVWSjZKNmk2c010NHRZb0lxdnRDWkhyVDZ5RFNEY0IyMWNZWGVVVXlyZUp30gGfAUFVX3lxTE9ENlljU1pfMkVJb1NhWWJIbmhSMEhOSG0zRHhVcTBMNVVaVWRxWnM0N2JSNERqcGV6cjBwNm9sMlBJUkxTdEdqOEp6TXd6Q3E3VllyNzhFUWU3NGZydnpXUE0zMFZyWEpZUmFYRXdzVVNxbW1MaFhlUHBWc0tDbTA3VWVHUWNtbnRnNVQ2MzBnR0s0X1VsYlJhZlpKRV9CNA?oc=5",
-        "domain": "thehill",
-        "language": "",
+        "title": "Iran defiant over US economic sanctions",
+        "url": "http://europe.chinadaily.com.cn/a/202608/22/WS6a88e023a3106bc57421cd7a.html",
+        "domain": "europe.chinadaily.com.cn",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T142500Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T084500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran condemns US plans to announce new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
-        "domain": "reuters",
-        "language": "",
+        "title": "伊朗 ： 若爆发新冲突 ， 将投入使用更为先进武器装备 ， 武装部队为导弹安装的新弹头破坏性将远超以往",
+        "url": "https://baijiahao.baidu.com/s?id=1874183440954322027",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260822T010500Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T064500Z",
+        "source": "GDELT"
       },
       {
-        "title": "The ICC strongly rejects new US sanctions designations",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRy15alFQTmhUXzZ0aHRxSDdqdTVwZDBlVURTNjc2cEV2VnBEamkyQzJNM0tRYm5VbTdJSnMyUTBDLWRDdUROcmpTeXBxems4RHRlUUpVOGs2cVpQMURKRF9zaU1kcEN1TWJsQklfYlc3U2xrMXljSEluLTJHaGJVSWYtTjN5Zw?oc=5",
-        "domain": "internationalcriminalcourt",
-        "language": "",
+        "title": "Children are dying ! ",
+        "url": "https://kaieteurnewsonline.com/2026/08/22/children-are-dying/",
+        "domain": "kaieteurnewsonline.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260819T080410Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran Must Plan to Overcome U.S. Sanctions After Trump’s ‘Economic D-Day’ Threats, Tehran Official Says",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZEpoQTB6TlFFcU42Z2lLV3VhMVJhSS1fTVJTZGxZb0dWLVNSRWR0Mkhmc21CclNXaVpfdW1QQ081Q2xhQkx6NnVLT2dMelZHV0s4MUhzRTV1R1FWc2dCTzFORWdkeFUxOVg0MWZzdTFYcDJDTEJyQ0drdTJQN3A1U3dZNjdlSjF0WjRPQTlxNjZtVzR0S2p0MkxB?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
+        "title": "重启军演 、 开放中国援建基地 ， 美国 ， 柬埔寨为何突然走近 ? 时坛昨天还有爱党爱国人士一厢情愿的意淫 ， 东盟倒向中国 。。。 - amico发表于 时事述评 - 论坛",
+        "url": "https://bbs.wenxuecity.com/currentevent/4055508.html",
+        "domain": "bbs.wenxuecity.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260821T104411Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T183000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iowa attorney faces sanctions for Medicaid scheme involving his Rolls Royce",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOal9ObUpINm45Y3ZsbXZHU3lIX0lsNUpRcG1NV2h0SzRCcHJMdU1YbDRKVjVsWE9ubVhMMzJNWTlEbUk1TThIaExLS0Y2UzNXN0ZjUVRNSDBHalNWcl9XaVBGOW9tZVhfNGt0SUJsbXZUODhKT2Zua1h6VzljdzYzMlh2b2xIVUp6QlFOX2g5aVl3TTd2ajZFNXlqMlhuWjNxVm90cWgwODVuVG84Umw5dE1mdVEwWkNkSDRJ?oc=5",
-        "domain": "iowacapitaldispatch",
-        "language": "",
+        "title": "Експорт мазуту з Росії у липні - падіння через удари по НПЗ та ринки збуту",
+        "url": "https://zn.ua/ukr/WORLD/u-lipni-saudivska-aravija-stala-holovnim-pokuptsem-mazutu-z-rf-reuters.html",
+        "domain": "zn.ua",
+        "language": "Ukrainian",
         "tone": 0,
-        "seendate": "20260819T214347Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T040000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Torts: Malicious Prosecution-Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYjRBN3hvRGl5REk3WTJCWHhXTmVWTlpHSlZaY255MkI5WnJ1cGdZUXBfVExxeWttaTAtcVplaGJqc2U5TnJwb1hZRjEtMnUxWUNLV05Nc3VNZENDXzRVdlRVSkl5MW1HQVR1X1dUeWF0U3N2cmZzcE5PNEJ5RzVsVFpn?oc=5",
-        "domain": "missourilawyersmedia",
-        "language": "",
+        "title": "国际观察丨美国对伊朗  史上最严制裁  能奏效吗",
+        "url": "https://baijiahao.baidu.com/s?id=1874203809555017174",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260822T160350Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T124500Z",
+        "source": "GDELT"
       },
       {
-        "title": "International Criminal Court: New US sanctions ‘a flagrant attack’ against its independence",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EOVkwS3F1TU1TaXBlZnNWb0Z1a0JnbDZFQVBfZTZYajlteDBXalNHY3MxSWw1aThnY1k0Y2F2RjRFQU1DMFhQdWFURUFiTGZSU1lNRGRUbw?oc=5",
-        "domain": "unnews",
-        "language": "",
+        "title": "EE . UU . señala a Ecuador como el principal punto de partida de la cocaína en Sudamérica",
+        "url": "https://www.telesurtv.net/senala-ecuador-principal-cocaina-sudamerica/",
+        "domain": "telesurtv.net",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260819T192131Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T213000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Cuba says US sanctions are blocking its efforts to open the economy to private investment",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ250NWFMUGRrRjdVeUgxS19IcUo3OHBuMG5LSHNFS3VXZnExT2h2d2pjY21FUUV0X1p0X3hQTkxwd1JraEk2empldzZHYlJyMVdPMU1ObktnN2JvWUY4ZHhuTlNMUlFYRnZSMjJOOTc2eTd1VEZKV05UR2djdGc5ZkUwNlJjMG9GTjdPZEF0cDM3X3ZIVGwzR1luN0RmS1o2cU03amhR?oc=5",
-        "domain": "apnews",
-        "language": "",
+        "title": "Cướp biển Somalia chiếm giữ tàu dầu ngoài khơi Yemen",
+        "url": "https://thanhnien.vn/cuop-bien-somalia-chiem-giu-tau-dau-ngoai-khoi-yemen-185260822195811154.htm",
+        "domain": "thanhnien.vn",
+        "language": "Vietnamese",
         "tone": 0,
-        "seendate": "20260821T103500Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "title": "U.S., Iran trade warnings before new sanctions as Hormuz traffic remains stalled",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQazl1ZlVlb09fRlNHS2YwQ1pja0Z2WEc3QmtVV1p5SDYwQ29kSHhXTndRc19KNjJ1Vy1tZkk4NDRvbnZtS1dNNF9vNl9XSW44a0pUcFdHM2Z6QkxENWIwdzlER0VhM00yMWJJZ0pBT1lYMndETTRaUUVKWFRyZVBhNVdhTG9fOWtyNHkxbFVIZWVDSkVYUElyemZPS0lKSjNLYlM3WE51VklvTGhSQ2plbmM3Q2wydExKWmt0SEwxUkp4aWpsbUsxSUNEODVIUVl2TGlhVmlZN1FvSUM1czhFVHBNaDZ3a1J2cmRoVEM0R29icE9RMmZwQzk2ZTJFZThPVHpnYTFQbXhuOHpWMXozaQ?oc=5",
-        "domain": "haaretz",
-        "language": "",
+        "title": "Iran dọa đáp trả biện pháp cấm vận của Mỹ bằng quân sự",
+        "url": "https://thanhnien.vn/iran-doa-dap-tra-bien-phap-cam-van-cua-my-bang-quan-su-185260822081242347.htm",
+        "domain": "thanhnien.vn",
+        "language": "Vietnamese",
         "tone": 0,
-        "seendate": "20260822T160400Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T031500Z",
+        "source": "GDELT"
       },
       {
-        "title": "After five theft convictions, nursing home worker faces licensing sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYk1VU2xhdlNuTVlkZ01zODhINGJ4eUlxMExDOUI1MTV2ZURDdTBsbUVJTElqRHluNE1vRWxfekFyZWwwRGJHWFllMFlTMy1GV2l1S2xPSXZIWDV4YS10NkVjdjFSclVtblRvMWJEZDFnWHN5Mk5aUk1nd3V3V1ltNEdyd0hQUHAyOFZoeHNWOHlNdUk0UTFWa2hZeV9OclA5YnFBWFk3NkZEQ2hua2tFcU5kQjdxM2prU3c?oc=5",
-        "domain": "iowacapitaldispatch",
-        "language": "",
+        "title": "Иран частично открыл Ормузский пролив",
+        "url": "https://aif.ru/politics/iran-chastichno-otkryl-ormuzskiy-proliv",
+        "domain": "aif.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260821T212346Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T121500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran labels new US sanctions ‘unjust’",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ0trMzJucHp4dklaWHFpU2s2aHkwZmtuUVRsY3hQTHhjZmlDMW1GWHF2a1VmaGJuUWI3TEpZc3VTVmI1U2RkSXBON1BaN19CckpkRTRVVUk0engxSG50Q19NeGE3c0s3Y0Zpay1rbF9GRDlUUUVubGNSam93TXlvb19mX1R6Szlub1U4V09UR05nMFVPWXhuYjNrOUh1ZlRubFlJ0gGoAUFVX3lxTE1CVW5CeEo1T3JfSHJFbGg0RXd1bXZxNXVFaVFxc1FlRFpON2RTd1NYQ01xdldFYTlPUmlpb0JReW5RSmNPSUZMSUVjSUpPWmphMGQ5VDJEVjRLbENBYk1yb21PQWR1MjA0d3pMeG1rT1VXcTZzR2g5S09rV2tselNsZXJnZnBpUTR3TkJfTEhBM2ZqR2tGRk1zbjZZcDlwU01fdWFxRnFlaw?oc=5",
-        "domain": "thehill",
-        "language": "",
+        "title": "Inicio | Periódico CiudadCCS",
+        "url": "http://www.ciudadccs.info/publicacion/48958-eeuu-senala-a-ecuador-como-principal-salida-de-cocaina-en-suramerica",
+        "domain": "ciudadccs.info",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260821T123800Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
       },
       {
-        "title": "US hits Hezbollah with fresh sanctions, emphasizing ties to Iranian government",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTBkRFJMMmRQcUtXVlRSS01DTjdnZnVCZkZ2d0k5VkJ1QVQtOHRrOXR2RnNuZWRiMFBsMEMwT0JqV3VkUTJ6QlRnaUJrQXZRRXZUSlZvcy1ONWlqb3E4ZUxzcUZwV29BSU9qYUhwR1NSQmwyR1l3eGRseGJKSEhaYmE4RUxkbkNlOWs2U2tiZ2tTaUJYa0JoWmRTcnBidTZWNHYzeklGblFwcE5WSE9HdFNpTTBNQldaZG12N3NVNTRzMDBYcEVTMUhR?oc=5",
-        "domain": "reuters",
-        "language": "",
+        "title": " 【 2026行李箱尺寸攻略 】 登機口免被罰 $800 ！ 13間航空公司手提 / 寄艙限制 ： 拆解全新 「 橫式量度架 」 避雷指南",
+        "url": "https://www.elle.com.hk/fashion/to-choose-the-best-luggage-2026-august",
+        "domain": "elle.com.hk",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260820T182015Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T121500Z",
+        "source": "GDELT"
       },
       {
-        "title": "US, Iran keep up hostile rhetoric ahead of new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONWRsWHdHV2oxeWZJYTVrajZ3TUt6UUpLbkNJcERtajQtbFJEdjJBSGt5ZERDcDY4X1pLYjZfdzNRdUlmS0d6QUpFNlVzVHIwcEYxV20wWlhtS3ZvY0RjdmJGelhhWG96NEluVkUyNkw1cXRCTnQ4bnE3YXVnbTljb1dOTVdPLUpJczdzQTlONDc0LVdld2xjQmRB?oc=5",
-        "domain": "al-monitor",
-        "language": "",
+        "title": "Nigeria : Ibrahim Puri rejoint le Conseil dadministration de UBA",
+        "url": "https://www.financialafrik.com/2026/08/22/nigeria-ibrahim-puri-rejoint-le-conseil-dadministration-de-uba/",
+        "domain": "financialafrik.com",
+        "language": "French",
         "tone": 0,
-        "seendate": "20260822T092008Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T161500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Bessent says US to impose 'toughest' ever sanctions on Iran, urges China to cooperate",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUlFnUHhPNjlxRW5kTy03TFctOE1ST1NabGVNalozY2hiR2RKcEtfV1ZRblJ1VlJXQXRNem1yZmpIRVVYUjJOd2pzWElTX0JVeXZVR1V1Tk5NOG5oWWUtRVZzWDNFOE5KbE1VNmtubXdodnVzQ1RZMFV3TnpUUXVHM1N5MXZqZTBtdW1iUG8xS18wdi1ranhQQXpfVDdiYnRsc09iN3JtbEhZTVIwS202X0lmSkF2V0c2dFV5NQ?oc=5",
-        "domain": "reuters",
-        "language": "",
+        "title": "Iran nói về ố phận  đòn trừng phạt kinh tế mới nhất mà ông Trump đe dọa áp đặt",
+        "url": "https://baomoi.com/iran-noi-ve-so-phan-don-trung-phat-kinh-te-moi-nhat-ma-ong-trump-de-doa-ap-dat-c55886824.epi",
+        "domain": "baomoi.com",
+        "language": "Vietnamese",
         "tone": 0,
-        "seendate": "20260820T231432Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T041500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran threatens military response to US sanctions",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN2ZEV0ttbXhQZHVsUVNRYTBoVkczUHp5MVN5ME9vWGo4ajVmWmhMUXBwdkVVaXo3MjZlSEpyTC0wWWtvaGdYZkttakoyazRFMXBCM1ZUVmZ4TldhaUF2WU1QdTgtR3NwaFlMa016ZGJ6UjBaTmZGZjVTN011RXFNWktVcm44QUxMbHE4WVNyOWpNUkJwNzVKLW0wUTdQSUZCdGNrT1NkWXZPMzVJ?oc=5",
-        "domain": "reuters",
-        "language": "",
+        "title": "ప్రముఖ నటి షావుకారు జానకి కన్నుమూత | Veteran Actress Sowcar Janaki Passes Away at 94 After 75 Years in Cinema",
+        "url": "https://www.andhrajyothy.com/2026/national/veteran-actress-sowcar-janaki-passes-away-at-94-after-75-years-in-cinema-1551729.html",
+        "domain": "andhrajyothy.com",
+        "language": "Telugu",
         "tone": 0,
-        "seendate": "20260820T235900Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T041500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Trump Officials Impose More Sanctions to Pressure Cuba",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52cmt0ekJaNUJLbTU4bDZSVjhlQzl0cmhaSmp3LWxFcE5nc1lHSjZ2OXJ4Zm1USjZrdkE1allpcWI4SlNBUXFiUHBNeFNJcWFUaTdsLTNfcHZrbnJSNXF6bWltb1dyWlRrdWlaQ3VTZEd2M2xBUFNfVjhIUjY?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
+        "title": "En değerlisi Batrakov",
+        "url": "https://www.posta.com.tr/spor/en-degerlisi-batrakov-3030046",
+        "domain": "posta.com.tr",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260820T220933Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T044500Z",
+        "source": "GDELT"
       },
       {
-        "title": "US, Iran trade threats as Washington prepares new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3RYMTRnT0pocGVXZndIVWFmX0JjWXZQY0xKWjVmNzhFakdaN2haNGgwVTRVRVJMa0l5WGZrVnB0a1FnOXJKTDdldDJaWGRtZXdZMVlmaEQ3TDhyX1N4TG4ySFRUQzRFeGkta0V5TkZaNDd4TUpmaG9QWUk2RkNscWVWdlR0eHl4OUVFTHBHVmc3bFBLZnhtWXRidjVsN3FjbGc?oc=5",
-        "domain": "dailysabah",
-        "language": "",
+        "title": "Ολοκληρώθηκε η Μπριγάδα Αλληλεγγύης της ΚΝΕ στην Κούβα",
+        "url": "https://www.902.gr/eidisi/neolaia-paideia/427042/oloklirothike-i-mprigada-allileggyis-tis-kne-stin-koyva",
+        "domain": "902.gr",
+        "language": "Greek",
         "tone": 0,
-        "seendate": "20260822T091700Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T131500Z",
+        "source": "GDELT"
       },
       {
-        "title": "US Forces Redirect 68 Vessels Enforcing Iran Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU09ITFUtN0R1bzN0WEFzeHd5TDRoc09ST0d2aFljNzRtZFhOczVFYV9uSDZicFluaGtna0ZKTEIzenFpa3J4a2pVMl8tbkJpMXR3QnNXQ2NIU19qNnQ2OG4wVlhnSk1lLV9ESEE5NEF6c214TVJWMURUa0FPS2Z5bjA1RlBBQnlwLTNzUWZhNGt4ZGE3RC1EOHQxNUdlWTA?oc=5",
-        "domain": "kurdistan24",
-        "language": "",
+        "title": "Арагчи и Багеи оштро о америчким санкцијама против Ирана",
+        "url": "https://www.politika.rs/scc/clanak/780251/aragci-i-bagei-ostro-o-americkim-sankcijama-protiv-irana",
+        "domain": "politika.rs",
+        "language": "Serbian",
         "tone": 0,
-        "seendate": "20260822T171108Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
       },
       {
-        "title": "US imposes more sanctions on Cuba, including mining sector",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUTBXOUxEdGNvYndTMlBGZHRFQk1wNU8tZk5DV29LdHNJMVlEcU5LcHNxTHJKTlMzWFJNZ0ZWelJ2Vl9GaXl4cklaVDcwd2dld2YyeDRicXVxQWhIcWpSTEY4emRvc3JEd3FrUmRnUU80UFdLdDNRN0IxYW5wVkV5NDBlc0VNanFV?oc=5",
-        "domain": "reuters",
-        "language": "",
+        "title": "Petro sale de Colombia : Este será su primer viaje como expresidente ¿ a dónde va y por qué ? ",
+        "url": "https://www.publimetro.co/noticias/2026/08/22/petro-sale-de-colombia-este-sera-su-primer-viaje-como-expresidente-a-donde-va-y-por-que/",
+        "domain": "publimetro.co",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260820T212905Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T053000Z",
+        "source": "GDELT"
       },
       {
-        "title": "US pummels Cuban economy with new sanctions on mining, construction",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3BVWlU4dEdtVGN3aFhxaW96OHhTUW4yRDhZVjcyV1dCSVdPTlg1ZWcwUjR4dERzOVh6dDFnUlhxdG9PRUxmZFI5d2paU3p0azFFVkNaN0dSWi1wZ1hJQ19QTXRDWXlhVm1zM2ttYTZLejNXQmFXeTlfNC13Z0szZ1VMcUNoQ3EyVlVtYndid19qaGdnb2xvbnp5UHBSS1ltMnhWSFZKMUdZb3fSAbABQVVfeXFMTVVJTUY2cU1ncC1KZ1diaE1IRWVtOFpvekFjRmlxM0JkT1pGdXE2TXpVUm1TbmEyWXduczRPdGo0bFZCdzdUbG5taDFoMlNrUEVHY29vZ0NuSk04b1lFLURRX3ljNFVIcExDZXZmcnNxNGVVa2VhclhpY2VyRXJaZGRTei1TM3JIQklIMFh5cWp0Mm4wZ0pkMkx6SU5rSUFyV1FOT3ZwQ3ZKb3E3QllSOVc?oc=5",
-        "domain": "aljazeera",
-        "language": "",
+        "title": "Turmoil in Tehran",
+        "url": "https://www.americanthinker.com/articles/2026/08/turmoil-in-tehran/",
+        "domain": "americanthinker.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260820T204121Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T111500Z",
+        "source": "GDELT"
       },
       {
-        "title": "U.S. and Iran keep up hostile rhetoric ahead of new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZmZrNDVaSVJfVFJCMk5fMGEtaEMzNXl6WEJQSGo1dWx6RnBFNk9mSnJiWEJZcEJ3MmIwMVJmSkdtRWExRnl2RjRScnRHZHYxWlo3VC1zOEFpR3p1cTdqbEVGdGtmM1dCQ1hVQW5hMlgzVC1sTU1rMkdxYTRfY285ZEI2RVRvY1c4aV8yRVBXTUhaZnlMajNVdTBDM2NERjBD?oc=5",
-        "domain": "thejapantimes",
-        "language": "",
+        "title": "Швейцария присоединилась к новому пакету санкций ЕС против России",
+        "url": "https://pronedra.ru/shvejczariya-prisoedinilas-k-novomu-paketu-sankczij-es-protiv-rossii-energetika-finansy-i-torgovlya-pod-ogranicheniyami-829447.html",
+        "domain": "pronedra.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T045700Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T131500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran says new US sanctions violate sovereignty of other states",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNzBoOGIzMlNpYTZxX0lzUDRtVXUtanlrWDZ0SENSN1ZKMHZFbXctT1BBNUJKRFM4bGVic0dQRF9WejF4V0FsZlM0YlNYUVdBZlUxNTlrZ0VDQ0M3U0tCdk5MOXlROUttbnU0OHFQRGdMT0dxOHpMTnpIc0k1dVFXclE4R3JNWnBRZENCWWp3Nk9DYUxoeVlnSFBIWkpuclhCazh6Q0pXQWNvdnhwU2NJUW1LRjY?oc=5",
-        "domain": "anadoluajans",
-        "language": "",
+        "title": "이란 , 美  역사상 최대 규모 경제 고립  예고에  불법 경제전쟁  반발",
+        "url": "https://www.fnnews.com/news/202608222029241754",
+        "domain": "fnnews.com",
+        "language": "Korean",
         "tone": 0,
-        "seendate": "20260822T063936Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T133000Z",
+        "source": "GDELT"
       },
       {
-        "title": "'We will not endure' — Top Iranian leaders signal they are running out of time as economy crumbles ahead of Trump's next sanctions onslaught",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNWhHTHMtbDlrbGhCR18wNzN2elNyZ085VGsxZnRrSVBuUXZrWnQ4Z2RNRmJFZWlYMFVpNk1Cd3FjS1F6WVJHcE0zMy1QMzBYMDRmdHFPMl9obEJWWDFqT2pZT0pQMXNVWkFSWEpBWE5TOFEteGZYWldDM2FZaXpjZi03YVRWTHUzQV9xNVFoR0ZVMmdG?oc=5",
-        "domain": "fortune",
-        "language": "",
+        "title": "Manajemen Sriwijaya FC Terus Berupaya Selesaikan Sanksi FIFA , Target Rampung Sebelum Liga 3 Dimulai",
+        "url": "https://palembang.tribunnews.com/superball/1326466/manajemen-sriwijaya-fc-terus-berupaya-selesaikan-sanksi-fifa-target-rampung-sebelum-liga-3-dimulai",
+        "domain": "palembang.tribunnews.com",
+        "language": "Indonesian",
         "tone": 0,
-        "seendate": "20260822T170600Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T031500Z",
+        "source": "GDELT"
       },
       {
-        "title": "US designates Hezbollah an Iranian proxy, sanctions funding network",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3VtQ3lVRGs4Rms3Y0xQT3NTOVhHVzE3OUc0ZEhWalVXYWVuY05TRHZpN000T0VyaDM5bE5JLTU3T1daSXJUS3dCLVpycWkzRkdwN0RtbVBvVE5JbTE2amhhT1U1Und6UkoyRmNiczFHQThmX2t3LUFsalZZZUxmdjhpcGduTV9Lcm9MNENndEZGRTFnTGRaMmo1N3Q1MDFQYjVUb0Qyb2lEemvSAbABQVVfeXFMTXBPUjhTekNFS2lhMVZBS2M4ODVzVjA3RFpEYUhQa2RFdUFCdlR2OUc4VVBFR2lVb2VaZU5tXzcwbV9LOGhGR01VMnRtQVRySW51VkpTVVh5eU81U2hlMUFTMXhaUW1hRXl4cGZwQjBmVXdiS3JQMGZKY01semRNNWVWRUljbEtpVllwdmFPSm55dGJqdTVaY0RJTmI2ZW81OVdvMjhkLUZsM2pvZ0ZNWWQ?oc=5",
-        "domain": "aljazeera",
-        "language": "",
+        "title": "Медведев рассказал об успехах России , достигнутых в условиях санкций",
+        "url": "https://russian.rt.com/world/news/1672913-medvedev-uspehi-rossii",
+        "domain": "russian.rt.com",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260821T122322Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Trump scales up Cuban sanctions targeting state-run companies",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwb0FJUS1NTGkwTmtyQW01cFBpR2V4cms4TWNIV1V2TnJHZlhQRnZKMmVDMk42TWp1TnJWSnhxdW9rR2wyZE1MMVdqWnBDeFlUTVhVVHFIRzFEdw?oc=5",
-        "domain": "bbc",
-        "language": "",
+        "title": "യുഎസ് ഉപരോധം എല്ലാ രാജ്യങ്ങളുടെയും പരമാധികാരത്തിന് ഭീഷണി , കോളനിവത്കരണത്തിനുള്ള ശ്രമം - ഇറാൻ",
+        "url": "https://www.mathrubhumi.com/news/world/iran-slams-us-sanctions-global-sovereignty-threat-k9s7lvbi",
+        "domain": "mathrubhumi.com",
+        "language": "Malayalam",
         "tone": 0,
-        "seendate": "20260821T020628Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T121500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran says Tehran must overcome 'unjust sanctions' as US ramps up economic pressure",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
-        "domain": "reuters",
-        "language": "",
+        "title": "Iran Naik Pitam , Sebut Sanksi Baru AS Deklarasi Perang untuk Dunia",
+        "url": "https://www.kompas.com/global/read/2026/08/22/113500970/iran-naik-pitam-sebut-sanksi-baru-as-deklarasi-perang-untuk-dunia",
+        "domain": "kompas.com",
+        "language": "Indonesian",
         "tone": 0,
-        "seendate": "20260821T151819Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T051500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Ukraine sanctions popular Russian cartoon ‘Masha and the Bear’",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVZNUGFHY20tdjBNYWZPTHJiQ0RVRXUxajZOQ1pVZWpNRXVxb1BsSlJBYXZmUTdqdVk2cl9LOEdSRUJva2s5dTltQWpsd0oxU1RDcjlGNzhBT0hGWld5VmhMeTRPVTJ6WElCWVB2UkcwWHNJZEt1QXlOblpRU3hod252ZEZwbzdwZk9kWHdpRG44akJoS3dIVEVwS3DSAaIBQVVfeXFMUE1LY3dCUDRESjBWNjY3SnRFVk1zSXdiUlZYczBILVJZSmpIWUZxTzZmT0tLRDhfelk4c19iOWRxNUYtbjBoSHd4WDJodVZ4dk85Nzg2ZjFZNTN5aENIWHU1OGlpZGVmdjNtWGJOV2tjUWNqTGJYakF2OW5XS0NJVFlTb3pTZ3c2a1dSd2RadTdRUVBHVjFHWjlpQ2Y0WjVNeS1R?oc=5",
-        "domain": "aljazeera",
-        "language": "",
+        "title": " 【 伊朗危機 】 制裁伊朗川普要全世界選邊站 中國說不 貝森特這麼回",
+        "url": "https://n.yam.com/Article/20260822264646",
+        "domain": "n.yam.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260821T164826Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T033000Z",
+        "source": "GDELT"
       },
       {
-        "title": "U.S. Sanctions ICC Officials Over Abuses of Power",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNXlwV1N1bVA5a19TYUZoY0F1cnVYOE56OEpGXzFqTk8wZ3dBWDhyWGhUenBicGVpX2xFR21EcGhoRExZM3JpbUE2ZmRQcHpEU1ZyYW52bjRCNVV2ejUwdEJnLV92akxWd0RKdWlRVWR2NVBEU1dWRGwwTm54aVBCSTBJUlJuR3ZrT2kzZldUQW8tOWVLR3FhOHdZOWdDOTBD?oc=5",
-        "domain": "thepresidentialprayerteam",
-        "language": "",
+        "title": "Teherani kundërshton sanksionet e propozuara nga SHBA - ja",
+        "url": "https://zeri.info/bota/634515/teherani-kundershton-sanksionet-e-propozuara-nga-shba-ja/",
+        "domain": "zeri.info",
+        "language": "Albanian",
         "tone": 0,
-        "seendate": "20260822T083000Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "title": "US will impose 'toughest sanctions in history' on Iran, Bessent says",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0t6ejR6ZDNSMllnR0lXWC1vV3ZyTXoxUDEyeHRXczFpRWtRbzEyWmdkRVRqWi1oZzJEaEF6UnAxcHItbXZ6Z1hKTzBQV2hPOUVFQml3Wk80T1F2UmFRSzIwakhFR2hKbmp3MFJ6LUFDX1BHV3BKeDZxYXdaT2wwWi1kaU5LbkFaX19IekRKSGNUT0VBc1FQeWVRdUxLd0U3V1I5WjZoMmtIcXZUQnRBczZKcTFZa19zUVE?oc=5",
-        "domain": "reuters",
-        "language": "",
+        "title": "National Council members collect N$27 609 for Cuba",
+        "url": "https://www.namibian.com.na/national-council-members-collect-n27-609-for-cuba/",
+        "domain": "namibian.com.na",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260820T022900Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T110000Z",
+        "source": "GDELT"
       },
       {
-        "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UXzE5YWdPVk5wS3RnR0tpbm9KSHBBMUZ0WVFmN2hPQ29zcVB3MnZrdm1MYnJhS2FySERBMzhmV3JEamRWQ2QxT2RMT3JLVXBpR0xIa3hnRDdiUQ?oc=5",
-        "domain": "bbc",
-        "language": "",
+        "title": "Антибаллистические санкции против России – Украина и ее партнеры ограничат производство ракет",
+        "url": "https://24tv.ua/ru/antiballisticheskie-sankcii-protiv-rossii-ukraina-ee-partnery_n3127917",
+        "domain": "24tv.ua",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260820T231645Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T051500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Trump warns of ‘economic D-Day’ against Iran, but Tehran is well acquainted with sanctions",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdDJaQjg5RDQ1MWozcDVVamNqS1ZEeDd1X3J1YzZ5YzNyWUgxa29fYVotWDN1SHN3Y3ZqVm44YlVtOVR6SzNXam5zVzNqM1hwUG8tbjRVQU5iVmpzSVd1UnJZMGVLcWE3a0h1OGFNM1k5MWg2WFZYRGhDLUNtZmg0T3F4V3dLN2JfdFZoSTBSVlRScy1tT2l0WE9KSlJ4TXZBNGtqSQ?oc=5",
-        "domain": "apnews",
-        "language": "",
+        "title": "US - Iran Tensions Escalate as Trump Calls Strait of Hormuz  American Territory  and Warns Tehran on Nuclear Weapons",
+        "url": "https://gulfnews.com/world/mena/us-iran-tensions-trump-calls-hormuz-american-territory-warns-iran-on-nuclear-weapons-1.500648582",
+        "domain": "gulfnews.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260821T162200Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T041500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Report: Britain Weighs Sanctions Regime Banning Trade With Israeli Settlements",
-        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPSWE1cmJ6VnJaSWpNUGdzN0lCeGpNaVBVMElCU1NaOGdNTHhPdE5BZE43aGlaMm5tN01uYVRiTFhxd2VKelVpakFKd1N3MGpqbVd5WEJCTTVMa2FOS1N6MXZFUDZsMFBQeklDMmQ5aWI0dkVjR09XeEhSS0FRS2d5UmY4M2NjRTQ5Mzl0TFExVHMzNHZJYm44NzdDZVF4amhzVWk0dkt2TzVjWWF0Mm1BU0FHVk5iMUxvbmp4bk5lZEJtTHA1QXRXdlBZVmxTZ2g3bzJfWXZaS0pHNmFMbGdSSWtaU1N4OGEwQ2JnQmlKcTQwWko3MENMOUNVMzRUREZubVp0UG4zNVc2eTluTHNaenpIcjlIdw?oc=5",
-        "domain": "haaretz",
-        "language": "",
+        "title": "Trump  ı açık açık tehdit ettiler : G kullanarak zorlayacağız",
+        "url": "https://www.bursadabugun.com/haber/trump-i-acik-acik-tehdit-ettiler-guc-kullanarak-zorlayacagiz-1943636.html",
+        "domain": "bursadabugun.com",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260822T121900Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T053000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran Denounces Trump Sanctions Threats, Says US Erodes Sovereignty Of UN Member States: how 26 outlets framed it",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTFpJc2NCVndpZ2dGOTFRbFBPa0c4dDVycWFxR3pfV0NTbmpxSF8zeW0zNFk4RFlFSE9DcmxvdHJjYjhqQWkxWFNKdU1tT2lId0QxZ2V5X3lhUExDUndncUgyZ1NvMTZVQUV0U2dRSGRhcXo2NWJiZlRyTmFKa1QzRHo4U1BmTVpWbjZQRVpIQnRIWGFkdXl6eGoteGlKX0tPaGpGZERsTXVYOEZyeWVmM3dNUU00V2pPbVBLbTBmUFVHYzFtczRaclJ2Y2xwQVRTUWVN?oc=5",
-        "domain": "newscord",
-        "language": "",
+        "title": "Buntut Kericuhan di Final Piala Dunia 2026 , FIFA Sanksi Berat Argentina – Olahraga",
+        "url": "https://olahraga.batampos.co.id/buntut-kericuhan-di-final-piala-dunia-2026-fifa-sanksi-berat-argentina/",
+        "domain": "olahraga.batampos.co.id",
+        "language": "Indonesian",
         "tone": 0,
-        "seendate": "20260822T170710Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T084500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Watch Sanctions Target Iran’s Weakened Regional Network",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGpudG5tYmNYN2RwUGdqdWdVSGtwbFc2cXgyUUNsM1Q2RGdOdllGWXc0SFlYRXhMXzlEMFIwNFBWUFJkcExIUzQxVnZYcmZ4Nl9hT3dHZUF0Z1pBTm0zQk1CdGFXOXdzRFl6akh1cG5aVE9CNzc2VjBCSlFYbklrdzMtcTBTLXBjOGs1bmtJU3oyTHYzZGQ1Z0tDRHFYaGxoeHVPZjlfMA?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
+        "title": "Медведев о противостоянии РФ санкциям : эти достижения нужно закрепить",
+        "url": "https://www.vesti.ru/ns/medvedev-o-protivostoyanii-rf-sankciyam-ehti-dostizheniya-nuzhno-zakrepit",
+        "domain": "vesti.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T000000Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T144500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Trump administration announces new sanctions on Cuba, escalating economic pressure",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42a1pyT05ob1RsOGU1a051TkRWMm83MHBiNkJ1QzhGQW03YVdpc0NlTVQ2OEdvVFVaUEdHRjR2dUZTUG5XUmJyQlFtOTdQNUNaRGU0Y3FEdGtpWGg5aEJ6V3NHdW9CRGNNZGQycUZXVzFNRFlQVVpNNllB0gF_QVVfeXFMTUZkT1VyQTM0bVJfbUlJOHJEd1RVQVdmVUd5NTZRSTJjNHRTVm5PMkFWMEotX2RkNGw5cWtNa2hxUDl3U01peEdRejE4WGRJcnpzcFVqSmFXUGVCNG9MTHdQZFNvOUxiME5fN1dVUnFzX2FnaXZtYm56TWcxRmFTQQ?oc=5",
-        "domain": "thehill",
-        "language": "",
+        "title": "赤根智子被美俄制裁日本反应为何不同 双标态度引争议 _ 军事频道 _ 中华网",
+        "url": "https://military.china.com/news/13004177/20260822/49692503.html",
+        "domain": "military.china.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260820T193800Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran lashes out as US prepares ‘toughest sanctions in history’",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOTVWZW04Z21JN0NWU0l1Y3pUMHZaM3VBSnJkT2NXaTVkQW5DNFU0eHZHMGhnRllFYkpuTlpNTjhTV0s0WGNIMnZ4c0ZXMGR0Y1puRktfaV9EaHVoZk9hY1d2bVRNcndYTUpNZ3p3NjFCZGU1WHdwdGg0VGxldVBPQWJYVzRNLTY0eHIyQ0MzeVJHQnVwNmfSAZsBQVVfeXFMTmZseTlKSFViTjdfVWVoUHZMdm1Sd0VKcXk1ZzBDUlZSSkRzRzlkWEViTGt1VnZmNktkTjYtdWs0a3JFSXFmTG9BRktLQmR1REMzOS1Dd24wMUFSTE1QVjhlcGFDSHotUjVlZWY2QTdVMGpteGdmZmF1dzZXQlUzZ0R1V1VKbzBLb0JJQVo5QXFJbUh3SFBDTk9KZms?oc=5",
-        "domain": "thetimesofisrael",
-        "language": "",
+        "title": "İrandan ABD yaptırımlarına sert tepki : ömürgecilik  uyarısı",
+        "url": "https://www.haberler.com/yerel/iran-dan-trump-in-kapsamli-ekonomik-yaptirim-20166047-haberi/",
+        "domain": "haberler.com",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260822T165009Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T023000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Iran’s Esmaeil Baqaei Slams U.S. Secondary Sanctions as Economic Warfare: how 19 outlets framed it",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQlVnNVJCRzBlYy1mTmVGb2o2Q25wdDFYV05kT0F4YUtpeXJpVmxISTRzSlo3aVNkS1BGclRtZWkxbGhPWW9LbW1OSzZsQ0k0eU1IMmZIZW8zWnVIVF9iV01lUTJGOGJPUVBnaERlOGZiZjhSdC1EX2QtWXJxeTVzWWxvYTZqQksxTzhtRE5KNnZsTkNBVHpaNEE4clNYYWNnbXM4RlVwSTV3RUR1cXJEeWxtV1dHZ25HVW0tM1Q2LTJIdENsVEdlXzUtUFpnbjlYLU9BQVhNS2p2NGM?oc=5",
-        "domain": "newscord",
-        "language": "",
+        "title": "Ekonomik savaşa karşı Tahranda hazırlık",
+        "url": "https://www.birgun.net/haber/ekonomik-savasa-karsi-tahran-da-hazirlik-730528%20class=slide-legend-link%20target=_blank",
+        "domain": "birgun.net",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260822T170208Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T060000Z",
+        "source": "GDELT"
       },
       {
-        "title": "US Treasury sanctions Ecuador-to-US cocaine trafficking network",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVUtmcWpFVUllT3ktbEJfaklndGtweHM1b1dkdUlUaDNoY1ZHTWxrckx1OEV1WUdDb1JUNDZYYnFUVHlhN2l0b1l3NHZjVEg3ZUpMM0hCejVUOXBhaEMyWmwxU3VYYUhhSnhaZDVXRFZPOUxGTVFfVWp4STN0c2wzQl9tT1lnRkdMMUJnb0FoVjJJSTNmMG5WY0V1dklNWXdrN1pVZll0LTlZcFByY2YyY254OUbSAboBQVVfeXFMTXBibGw1U2g0eFA5UGV5azNxM3B1clY1U3J4dXBScDFOQ1g0QWYzV3VORi1DNHBVRjZETl8yNTctdW10Vmh4cldCamUxd09nNGFUY29ZTm04bmpfS0s5cGh6Mlp1ejBlalZPMU9xQTFsVnNwVjdwOWE0VXVuc19aRnVJNUZMZEt3Q2NnZVE0R3gwSTVwZjZyTE5YZV83M3E5TkJRSlNzNVNrOHo1NkhadlhmTTVGam1SWHJB?oc=5",
-        "domain": "abcnews-breakingnewslatestnewsandvideos",
-        "language": "",
+        "title": "Ekonomik savaşa karşı Tahranda hazırlık",
+        "url": "https://www.birgun.net/haber/ekonomik-savasa-karsi-tahran-da-hazirlik-730528%20target=_blank%20class=stretched-link",
+        "domain": "birgun.net",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260821T030307Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T030000Z",
+        "source": "GDELT"
       },
       {
-        "title": "US sanctions International Criminal Court president and trial lawyer",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ0J0QllDM0VrXzNZQk1KbHJ2MkJja3N6NVdjS29xUkplRk9PZEFDNXF0b09uOHZHaW82T1BydjJjaTQ1RkswUm9FQVlhaV9IZkhxOXRKcDVZMkVHWktuNkV3Z1VLU3RXMFVaZGc5MVUxTl91WHp6X2ZRa1F3XzIwSjdDVHpfeGY3d2VST2VPM2tiNkpiTW9VcG9BUHBoSHJzMGExR21seDB5NXhFYnfSAbMBQVVfeXFMTlNtZnMzdWZHN29kTTg1QVQyOHVEWURacjJkc1hMM1F4UkVPZUFBalhEM01GanRfN2JuWDNGMTVyZTV4cGtQQXRGemtRUGpQUG0yaEhnWFJvY1ZrbmNrLTUwZk5QWkhGbl9FaWJ3UWtlaGJCdno3a0dIdWFQdUVROUlzQnlmY2FzVEFlMzlzUmgwNjNiOUtkRGdoeVVEY3pjUFpjYndYZXg5WE5CYllBODhkS2c?oc=5",
-        "domain": "aljazeera",
-        "language": "",
+        "title": "Ekonomik savaşa karşı Tahranda hazırlık",
+        "url": "https://www.birgun.net/haber/ekonomik-savasa-karsi-tahran-da-hazirlik-730528%20target=_blank",
+        "domain": "birgun.net",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260818T201127Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T060000Z",
+        "source": "GDELT"
       },
       {
-        "title": "UK threatens sanctions after Israel opens bids for E1 settler homes",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1l5X213aTlnN3V6UTBEX3l6ajd1SWhMME9hNE5hdmJfR0VVc2NBYXFjek5aVXJoTGVjSjdPSlF4aWRRN3MwTFdSdDBRWGRaWmkyMWxFeHlsRUZpX0ltVkNPT21KQlhmcXFFMFVKX3VKNTNPS1dZd3V4aXVtU3l2cXJjeUlyU2hQWnk5cjlORjNvanIteDdYcUUwZnhMczIyN3BjR0drRi05bFl5?oc=5",
-        "domain": "theforward",
-        "language": "",
+        "title": "Ekonomik savaşa karşı Tahranda hazırlık",
+        "url": "https://www.birgun.net/haber/ekonomik-savasa-karsi-tahran-da-hazirlik-730528%20class=slide-link%20target=_blank",
+        "domain": "birgun.net",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260822T002031Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T060000Z",
+        "source": "GDELT"
       },
       {
-        "title": "US sanctions international criminal court president and prosecutor",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8ta3BGYjBWMWNDejNhZnpDWDRjZF92VVFFOWYtUk5oam1iaENPeUdxc1duYzdDekxiOU55MXNIVkQza0Vxb0ExT0otNmJDQVljdVhLU2NJWkRReG9tU0h3Y0lkSGZWekg2SmZOeFF4cE11Zw?oc=5",
-        "domain": "theguardian",
-        "language": "",
+        "title": "Iran sebut sanksi ekonomi baru AS pasti gagal",
+        "url": "https://www.antaranews.com/berita/5706385/iran-sebut-sanksi-ekonomi-baru-as-pasti-gagal",
+        "domain": "antaranews.com",
+        "language": "Indonesian",
         "tone": 0,
-        "seendate": "20260818T175000Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T054500Z",
+        "source": "GDELT"
       },
       {
-        "title": "US hits ICC president and senior prosecutor with sanctions in another move against the court",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZkZLX1YyWEUtTGlwUE9BQXRVNjRfZFlDMEZQNVZFRkY4c2o3bGdmX3BlUkpJR2VmUFVkc2FIS1JDX0tjdHR6dzF6Um1nRHFSYWxILWFBRUxzUTdicTB0SDJYNHRXWVlVMmd1TkhCWUhpc2ZzbW14NDI2NUlKYk4zZklxb3Zram4tb08wZTd6c1kySWZvU1B6ZFowek5hbzhBcldEQkktbkg1LWJxVVFPMA?oc=5",
-        "domain": "apnews",
-        "language": "",
+        "title": "美伊进入经济战 中东局势何去何从 经济制裁成博弈主线 _ 新闻频道 _ 中华网",
+        "url": "https://news.china.com/socialgd/10000169/20260822/49692525.html",
+        "domain": "news.china.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260818T212400Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
       },
       {
-        "title": "‘A Flagrant Attack’: International Criminal Court Slams Trump Administration Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ3Z3Yk5XU1ZRWVR0RDZSNzMwaEtNcWExcF9xLXFYLTNqU0V3TkZIZWg2dGRNQTAwak8zaGNQOVNpQ2MwQUhMT0ZvbktqUXFCejJrbWQ2NTctZGdRWUp0Rk8yaEVCXy1VVTlBNVpDN19ZTnQzRzJTNDVtUHVFLVdoWkM3NHRLY0RXNFhtV1p4eU0xSFNsY2QyVFN3M1JUaERFNExsUWNR?oc=5",
-        "domain": "timemagazine",
-        "language": "",
+        "title": "Медведев : успехи России в условиях санкций нужно закрепить",
+        "url": "https://russian.rt.com/world/news/1672915-uspehi-rossii-sankcii",
+        "domain": "russian.rt.com",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260819T160250Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "title": "FIFA sanctions Argentina over brawl at World Cup final game",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWkNTY1g0ajhNVUhFSDdTSzIwdXlKN1ZITEt6bjlBWEFkbEFya0h3bXdRYXlUTGRTT0g3QmZpSzhxVW5zYVduUG15bFFXaGhNbTM4N3lWQVpIMnVHRktTeGNoN0JHUFlCY3BZZkZtVkdqVUJsa1cxSG82RlNhOE5pZE8yYVJBVy04QU9ZZlNRekc?oc=5",
-        "domain": "france24",
-        "language": "",
+        "title": "Медведев отметил успехи России в период санкций",
+        "url": "https://ura.news/news/1053120584",
+        "domain": "ura.news",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T095841Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T160000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Bessent to Unveil “Toughest Sanctions in History’ on Iran",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZllKZ3EyaHhNZHpteThLU3FXTDF6eDRMclphRzVlNjVKNDMxVjdwTktPZzJOdGZqVEFkX1FBNjlZR0FtT2hfVlAwcHNfRkd0b3NjVWFRVmE0eVNuTl9keW5NX3JUTFU5eVpTdjBYRl81QTMyb1h2QmM5cWZGckhkTlFOcTF4dkhPLXZqaHBKa1lHV2NzZXVBMHdqVWdWUE1nelBfMldB?oc=5",
-        "domain": "lavocedinewyork",
-        "language": "",
+        "title": "Iran odbacio nove američke sankcije : Osuđene na propast i pokušaj nametanja autoriteta SAD - Povezane vesti",
+        "url": "https://naslovi.net/tema/2557706",
+        "domain": "naslovi.net",
+        "language": "Serbian",
         "tone": 0,
-        "seendate": "20260822T155400Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Masoud Pezeshkian Says World Approved Iran’s Victory as U.S. Prepares Toughest Sanctions: how 14 outlets framed it",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUUZFd05wQ3pNWFNQcXFFaGtOME9nRmFWU2pGcnFoelZNTWZHZk4yOWJyNEZ6T1ZBM1BFLVdnQzdSdE1pQk5Sc2JvNm45c1NZbHBEd0lZRkRubHFqaVluaXdsZ2ZnV2JmeUZpMUpBT1BEYWpDY1pUM3AxR1JQamdlUkJNM1hXaF9tVWdKaUk4eG9tUGZFWjlrQWpZRE9scGRLallMQ2VyUGRJUzRwUDdrby1WcW9XekdMQkEzd0Zvam1rUnREbVFqaXhaNEJoaTJLM2lRZktJVXBYdFdZRzJpZzByVlhqNFlYQXc?oc=5",
-        "domain": "newscord",
-        "language": "",
+        "title": "İran , ABDyi açık açık tehdit etti : Onları g diliyle zorlayacağız",
+        "url": "https://www.f5haber.com/dunya/iran-abdyi-acik-acik-tehdit-etti-onlari-guc-diliyle-zorlayacagiz-6964757",
+        "domain": "f5haber.com",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260822T170208Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T123000Z",
+        "source": "GDELT"
       }
     ],
     "exchange_rates": [
@@ -498,15 +496,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 74.77
+        "rate": 64.54
       },
       {
         "currency": "ALL",
-        "rate": 87.5
+        "rate": 79.12
       },
       {
         "currency": "AMD",
-        "rate": 356.51
+        "rate": 361.76
       },
       {
         "currency": "ANG",
@@ -514,7 +512,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 934.92
+        "rate": 916.63
       },
       {
         "currency": "ARS",
@@ -530,7 +528,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.59
+        "rate": 1.69
       },
       {
         "currency": "BAM",
@@ -542,7 +540,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 121.86
+        "rate": 121.6
       },
       {
         "currency": "BGN",
@@ -554,7 +552,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2665.4
+        "rate": 2966.62
       },
       {
         "currency": "BMD",
@@ -566,146 +564,146 @@
       },
       {
         "currency": "BOB",
-        "rate": 7.01
+        "rate": 11.44
       }
     ]
   },
   "entities": [],
   "events": [
     {
-      "title": "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOak5FU3lnQ0FsZU5vbjdlazdtTUhDZUpVX3hiWm1tWng5RjUxM2RYOFhTcEdfUVE1WDl3QkFCcXVxNHczbmNocnA5UG85cTFPWnFYQ0lQRENHeEd3dUNRVUdhbk1mbFc2OExVM3VjTWNONm1yRWNQY0FtU21CcnlIS1JTUzBlRzJmLUFtVHZYTEdIa3BLWUpVc1BR0gGfAUFVX3lxTE5MUUhtTlBzNDdFX1Y4eDc4OEVkLTIxUW1ycDlBNzE2ZmkzN3dUZm80S3RlZ1FiVEZrRkFISVkxNXZBUjZxQ2lMMmdhc1VOYW5LRTY1elVSVDNGM1QtdEFCMklqSWxJUWR6YTNhLXY5X1YzMnQ3WVhCZmtRWXprN1NNdHJmcFpTOENNNGZNcTZoUEhFZzd2NXFyN2hGem5mRQ?oc=5",
-      "domain": "cnbc",
-      "language": "",
+      "title": "Trump wants more economic pressure on Iran . What are his options ? ",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/22/explainer-trump-wants-more-economic-pressure-on-iran-what-are-his-options",
+      "domain": "internazionale.it",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260822T102147Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T193000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Iran says new US sanctions violate sovereignty of other states",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN0k0UU1CRG5RVTV1RjA1OEhtQkhSX1lveGIxSXd1bkZ0NlFJbWdGaXVJQmU3QmNRTExOazRldWE2ajN6LTVMdi1vR1dWZGo2T29LWGxhM2VtTV9xTVBrMmpBSWVzaTJRSHlFM0FuYjBrdi1zUkVLRHpRLWd3U3FLTlR4RmtTaVpvX2VDMmNERVN4ZjdHRjFCRkpHZXJ2X25ZVlpVZW130gGrAUFVX3lxTFAzTGVvcXk5U2tyZFhHNFQwMG1pcUFybDREQkFCakdRaHJJc1ZXS0RtT3E1WWx5Wm5lVDBydzJQNHZteGYtMmVSUkFMZHpveVZXSzh0Q2xGVzdZVmhjOHJaQ21sRlI4NnJ3MUczeEtuVHNhRWxIcVpDcGdQbVM4TzF2dGtpVmVpaFlpOUMweUZMaktsZmFJT2dnRmJTNGZyb3Y2WXEyOW82M21Dbw?oc=5",
-      "domain": "aljazeera",
-      "language": "",
+      "title": "Trump wants more economic pressure on Iran . What are his options ? ",
+      "url": "https://www.al-monitor.com/originals/2026/08/trump-wants-more-economic-pressure-iran-what-are-his-options",
+      "domain": "al-monitor.com",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260822T091911Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T220000Z",
+      "source": "GDELT"
     },
     {
-      "title": "U.S., Iran keep up hostile rhetoric ahead of new sanctions",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc1A2UFJnSDBtVGhDbmEwS0ZCR3RESEJWTUpYMGRTVDRPQlQ4YlQxTmItdHZCNTBxSWlST0F3OU5jQ2hoNjlqemdMMi1RS0l3LUlEYmU3Yzl1anpBR2pWbXZFWlJDbWtuejRPQnBseUliU2czQjQ1MWlIbVlqenZrTHlMZzUwN3hfdGFqZGVRS29adXV5Y1pETlhHbw?oc=5",
-      "domain": "nbcnews",
-      "language": "",
+      "title": "General Licence 61 Eases Venezuela Telecom Rules",
+      "url": "https://www.riotimesonline.com/us-eases-venezuela-telecom-sanctions-with-general-licence-61/",
+      "domain": "riotimesonline.com",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260822T102432Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T220000Z",
+      "source": "GDELT"
     },
     {
-      "title": "FIFA sanctions Argentina and several players for World Cup final scuffle",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcnRzYlktczItVFhRMlQ2d080YnBTTXFZZ0Jfcld4M3VxUWlRSXRhQ2FnYk1qdGNicWlFMEpKLVEtMG1rZzhiemxLUjRXd1A4bnNPaGRnaVVuY181cUJUZDlsUmw2QlUydEpZNm82U2FCekpjRjd0RHRHYW0zWW52eUxhaUhQYk5RZFVWSUV3eE9jQnJFMEgzWVo0cjfSAaIBQVVfeXFMTzdKZnVnR3NFTjlmQXMxZnMtbktHTU9ZVzVXT0FDVU90VWdvamVXV3gzX3pDZFVSU0ZQZDFTbEE0Qi1pa2tQUVpsNVZWeVZzWEJFYV9PekJGaGdKUWtVZzdkeDNfa0FmMW9obEVXOUZZQ2Z6QXZFWnY0OXp4cUVKaHJqWWcxT1JpRGpBN2E4SnA5b2Y2c2hRWVRpQUFhM05UUV93?oc=5",
-      "domain": "abc7losangeles",
-      "language": "",
+      "title": "World News : Trump wants more economic pressure : What are his options ? ",
+      "url": "https://www.gdnonline.com:443/Details/1404196/Trump-wants-more-economic-pressure-What-are-his-options",
+      "domain": "gdnonline.com",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260822T002202Z",
-      "source": "GoogleNews"
+      "seendate": "20260823T010000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Iran says ‘world approved our victory’ over the US",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXVTcW1JYm9CY3A1QzRfM1l3b0J4VGRGbW1vdnpIU0JvVDcxVEtzRWR0LWlTZko0a3M0akx6bTFranBrTk1tUU5LLXpWSnVlbEh1Vm1qUTdlUGFWX0lOU1gxc3VISXBSSzZEWTVXZUVWSjZKNmk2c010NHRZb0lxdnRDWkhyVDZ5RFNEY0IyMWNZWGVVVXlyZUp30gGfAUFVX3lxTE9ENlljU1pfMkVJb1NhWWJIbmhSMEhOSG0zRHhVcTBMNVVaVWRxWnM0N2JSNERqcGV6cjBwNm9sMlBJUkxTdEdqOEp6TXd6Q3E3VllyNzhFUWU3NGZydnpXUE0zMFZyWEpZUmFYRXdzVVNxbW1MaFhlUHBWc0tDbTA3VWVHUWNtbnRnNVQ2MzBnR0s0X1VsYlJhZlpKRV9CNA?oc=5",
-      "domain": "thehill",
-      "language": "",
+      "title": "Iran defiant over US economic sanctions",
+      "url": "http://europe.chinadaily.com.cn/a/202608/22/WS6a88e023a3106bc57421cd7a.html",
+      "domain": "europe.chinadaily.com.cn",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260822T142500Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T084500Z",
+      "source": "GDELT"
     },
     {
-      "title": "Iran condemns US plans to announce new sanctions",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
-      "domain": "reuters",
-      "language": "",
+      "title": "伊朗 ： 若爆发新冲突 ， 将投入使用更为先进武器装备 ， 武装部队为导弹安装的新弹头破坏性将远超以往",
+      "url": "https://baijiahao.baidu.com/s?id=1874183440954322027",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
       "tone": 0,
-      "seendate": "20260822T010500Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T064500Z",
+      "source": "GDELT"
     },
     {
-      "title": "The ICC strongly rejects new US sanctions designations",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRy15alFQTmhUXzZ0aHRxSDdqdTVwZDBlVURTNjc2cEV2VnBEamkyQzJNM0tRYm5VbTdJSnMyUTBDLWRDdUROcmpTeXBxems4RHRlUUpVOGs2cVpQMURKRF9zaU1kcEN1TWJsQklfYlc3U2xrMXljSEluLTJHaGJVSWYtTjN5Zw?oc=5",
-      "domain": "internationalcriminalcourt",
-      "language": "",
+      "title": "Children are dying ! ",
+      "url": "https://kaieteurnewsonline.com/2026/08/22/children-are-dying/",
+      "domain": "kaieteurnewsonline.com",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260819T080410Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T143000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Iran Must Plan to Overcome U.S. Sanctions After Trump’s ‘Economic D-Day’ Threats, Tehran Official Says",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZEpoQTB6TlFFcU42Z2lLV3VhMVJhSS1fTVJTZGxZb0dWLVNSRWR0Mkhmc21CclNXaVpfdW1QQ081Q2xhQkx6NnVLT2dMelZHV0s4MUhzRTV1R1FWc2dCTzFORWdkeFUxOVg0MWZzdTFYcDJDTEJyQ0drdTJQN3A1U3dZNjdlSjF0WjRPQTlxNjZtVzR0S2p0MkxB?oc=5",
-      "domain": "thenewyorktimes",
-      "language": "",
+      "title": "重启军演 、 开放中国援建基地 ， 美国 ， 柬埔寨为何突然走近 ? 时坛昨天还有爱党爱国人士一厢情愿的意淫 ， 东盟倒向中国 。。。 - amico发表于 时事述评 - 论坛",
+      "url": "https://bbs.wenxuecity.com/currentevent/4055508.html",
+      "domain": "bbs.wenxuecity.com",
+      "language": "Chinese",
       "tone": 0,
-      "seendate": "20260821T104411Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T183000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Iowa attorney faces sanctions for Medicaid scheme involving his Rolls Royce",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOal9ObUpINm45Y3ZsbXZHU3lIX0lsNUpRcG1NV2h0SzRCcHJMdU1YbDRKVjVsWE9ubVhMMzJNWTlEbUk1TThIaExLS0Y2UzNXN0ZjUVRNSDBHalNWcl9XaVBGOW9tZVhfNGt0SUJsbXZUODhKT2Zua1h6VzljdzYzMlh2b2xIVUp6QlFOX2g5aVl3TTd2ajZFNXlqMlhuWjNxVm90cWgwODVuVG84Umw5dE1mdVEwWkNkSDRJ?oc=5",
-      "domain": "iowacapitaldispatch",
-      "language": "",
+      "title": "Експорт мазуту з Росії у липні - падіння через удари по НПЗ та ринки збуту",
+      "url": "https://zn.ua/ukr/WORLD/u-lipni-saudivska-aravija-stala-holovnim-pokuptsem-mazutu-z-rf-reuters.html",
+      "domain": "zn.ua",
+      "language": "Ukrainian",
       "tone": 0,
-      "seendate": "20260819T214347Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T040000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Torts: Malicious Prosecution-Sanctions",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYjRBN3hvRGl5REk3WTJCWHhXTmVWTlpHSlZaY255MkI5WnJ1cGdZUXBfVExxeWttaTAtcVplaGJqc2U5TnJwb1hZRjEtMnUxWUNLV05Nc3VNZENDXzRVdlRVSkl5MW1HQVR1X1dUeWF0U3N2cmZzcE5PNEJ5RzVsVFpn?oc=5",
-      "domain": "missourilawyersmedia",
-      "language": "",
+      "title": "国际观察丨美国对伊朗  史上最严制裁  能奏效吗",
+      "url": "https://baijiahao.baidu.com/s?id=1874203809555017174",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
       "tone": 0,
-      "seendate": "20260822T160350Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T124500Z",
+      "source": "GDELT"
     },
     {
-      "title": "International Criminal Court: New US sanctions ‘a flagrant attack’ against its independence",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EOVkwS3F1TU1TaXBlZnNWb0Z1a0JnbDZFQVBfZTZYajlteDBXalNHY3MxSWw1aThnY1k0Y2F2RjRFQU1DMFhQdWFURUFiTGZSU1lNRGRUbw?oc=5",
-      "domain": "unnews",
-      "language": "",
+      "title": "EE . UU . señala a Ecuador como el principal punto de partida de la cocaína en Sudamérica",
+      "url": "https://www.telesurtv.net/senala-ecuador-principal-cocaina-sudamerica/",
+      "domain": "telesurtv.net",
+      "language": "Spanish",
       "tone": 0,
-      "seendate": "20260819T192131Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T213000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Cuba says US sanctions are blocking its efforts to open the economy to private investment",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ250NWFMUGRrRjdVeUgxS19IcUo3OHBuMG5LSHNFS3VXZnExT2h2d2pjY21FUUV0X1p0X3hQTkxwd1JraEk2empldzZHYlJyMVdPMU1ObktnN2JvWUY4ZHhuTlNMUlFYRnZSMjJOOTc2eTd1VEZKV05UR2djdGc5ZkUwNlJjMG9GTjdPZEF0cDM3X3ZIVGwzR1luN0RmS1o2cU03amhR?oc=5",
-      "domain": "apnews",
-      "language": "",
+      "title": "Cướp biển Somalia chiếm giữ tàu dầu ngoài khơi Yemen",
+      "url": "https://thanhnien.vn/cuop-bien-somalia-chiem-giu-tau-dau-ngoai-khoi-yemen-185260822195811154.htm",
+      "domain": "thanhnien.vn",
+      "language": "Vietnamese",
       "tone": 0,
-      "seendate": "20260821T103500Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T143000Z",
+      "source": "GDELT"
     },
     {
-      "title": "U.S., Iran trade warnings before new sanctions as Hormuz traffic remains stalled",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQazl1ZlVlb09fRlNHS2YwQ1pja0Z2WEc3QmtVV1p5SDYwQ29kSHhXTndRc19KNjJ1Vy1tZkk4NDRvbnZtS1dNNF9vNl9XSW44a0pUcFdHM2Z6QkxENWIwdzlER0VhM00yMWJJZ0pBT1lYMndETTRaUUVKWFRyZVBhNVdhTG9fOWtyNHkxbFVIZWVDSkVYUElyemZPS0lKSjNLYlM3WE51VklvTGhSQ2plbmM3Q2wydExKWmt0SEwxUkp4aWpsbUsxSUNEODVIUVl2TGlhVmlZN1FvSUM1czhFVHBNaDZ3a1J2cmRoVEM0R29icE9RMmZwQzk2ZTJFZThPVHpnYTFQbXhuOHpWMXozaQ?oc=5",
-      "domain": "haaretz",
-      "language": "",
+      "title": "Iran dọa đáp trả biện pháp cấm vận của Mỹ bằng quân sự",
+      "url": "https://thanhnien.vn/iran-doa-dap-tra-bien-phap-cam-van-cua-my-bang-quan-su-185260822081242347.htm",
+      "domain": "thanhnien.vn",
+      "language": "Vietnamese",
       "tone": 0,
-      "seendate": "20260822T160400Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T031500Z",
+      "source": "GDELT"
     },
     {
-      "title": "After five theft convictions, nursing home worker faces licensing sanctions",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYk1VU2xhdlNuTVlkZ01zODhINGJ4eUlxMExDOUI1MTV2ZURDdTBsbUVJTElqRHluNE1vRWxfekFyZWwwRGJHWFllMFlTMy1GV2l1S2xPSXZIWDV4YS10NkVjdjFSclVtblRvMWJEZDFnWHN5Mk5aUk1nd3V3V1ltNEdyd0hQUHAyOFZoeHNWOHlNdUk0UTFWa2hZeV9OclA5YnFBWFk3NkZEQ2hua2tFcU5kQjdxM2prU3c?oc=5",
-      "domain": "iowacapitaldispatch",
-      "language": "",
+      "title": "Иран частично открыл Ормузский пролив",
+      "url": "https://aif.ru/politics/iran-chastichno-otkryl-ormuzskiy-proliv",
+      "domain": "aif.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260821T212346Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T121500Z",
+      "source": "GDELT"
     },
     {
-      "title": "Iran labels new US sanctions ‘unjust’",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ0trMzJucHp4dklaWHFpU2s2aHkwZmtuUVRsY3hQTHhjZmlDMW1GWHF2a1VmaGJuUWI3TEpZc3VTVmI1U2RkSXBON1BaN19CckpkRTRVVUk0engxSG50Q19NeGE3c0s3Y0Zpay1rbF9GRDlUUUVubGNSam93TXlvb19mX1R6Szlub1U4V09UR05nMFVPWXhuYjNrOUh1ZlRubFlJ0gGoAUFVX3lxTE1CVW5CeEo1T3JfSHJFbGg0RXd1bXZxNXVFaVFxc1FlRFpON2RTd1NYQ01xdldFYTlPUmlpb0JReW5RSmNPSUZMSUVjSUpPWmphMGQ5VDJEVjRLbENBYk1yb21PQWR1MjA0d3pMeG1rT1VXcTZzR2g5S09rV2tselNsZXJnZnBpUTR3TkJfTEhBM2ZqR2tGRk1zbjZZcDlwU01fdWFxRnFlaw?oc=5",
-      "domain": "thehill",
-      "language": "",
+      "title": "Inicio | Periódico CiudadCCS",
+      "url": "http://www.ciudadccs.info/publicacion/48958-eeuu-senala-a-ecuador-como-principal-salida-de-cocaina-en-suramerica",
+      "domain": "ciudadccs.info",
+      "language": "Spanish",
       "tone": 0,
-      "seendate": "20260821T123800Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T163000Z",
+      "source": "GDELT"
     }
   ],
   "timeseries": [],
