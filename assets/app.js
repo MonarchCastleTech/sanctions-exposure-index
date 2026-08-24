@@ -19,7 +19,7 @@ const INTEL = {
     }
     this.articles = (this.data.events && this.data.events.length)
       ? this.data.events
-      : ((this.data.live_data && (this.data.live_data.news_articles || this.data.live_data.gdelt_articles)) || []);
+      : ((this.data.live_data && (this.data.live_data.news_articles || this.data.live_data.news_articles)) || []);
     this.geoPoints = (this.data.live_data && this.data.live_data.geo_points) || [];
     this.renderMode();
     this.renderStatus();
@@ -129,7 +129,7 @@ const INTEL = {
     const toneIndex = Math.round(Math.max(0, Math.min(100, 50 + tone * 5)));
     const feeds = Object.values(this.data.live_data || {}).filter(v => v && (Array.isArray(v) ? v.length : true)).length;
     const stats = [
-      { value: String(this.articles.length), label: 'Recent Signals', note: 'GDELT snapshot', cls: 'neutral' },
+      { value: String(this.articles.length), label: 'Recent Signals', note: 'Google News RSS snapshot', cls: 'neutral' },
       { value: String(this.uniqueDomains(this.articles)), label: 'News Domains', note: 'deduplicated', cls: 'neutral' },
       { value: `${toneIndex}/100`, label: 'News Tone Index', note: tone > 0.2 ? '\u25b2 positive' : tone < -0.2 ? '\u25bc negative' : '\u25cf neutral', cls: tone > 0.2 ? 'up' : tone < -0.2 ? 'down' : 'neutral' },
       { value: String(this.geoPoints.length || feeds), label: this.geoPoints.length ? 'Geo Points' : 'Live Feeds', note: this.geoPoints.length ? 'geolocated coverage' : 'connected sources', cls: 'neutral' },
@@ -225,7 +225,7 @@ const INTEL = {
   renderSourceTags() {
     const container = document.getElementById('source-tags');
     if (!container) return;
-    const labels = { news_articles: 'News RSS', gdelt_articles: 'GDELT News', gdelt_geo: 'GDELT Geo', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates', energy_news: 'Energy News', forex: 'Exchange Rates' };
+    const labels = { news_articles: 'News RSS', news_articles: 'Google News RSS', geo: 'Geolocated feed', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates', energy_news: 'Energy News', forex: 'Exchange Rates' };
     const names = (this.data.meta && this.data.meta.sources) || Object.keys((this.data.live_data || {}));
     container.replaceChildren(...names.map(name => {
       const tag = document.createElement('span');
@@ -252,7 +252,7 @@ const INTEL = {
     const tone = this.meanTone(this.articles);
     const direction = tone > 0.2 ? 'positive' : tone < -0.2 ? 'negative' : 'near-neutral';
     target.textContent = this.articles.length
-      ? `Current snapshot contains ${this.articles.length} signals across ${this.uniqueDomains(this.articles)} domains, concentrated in ${leading || 'the available sources'}. Mean reported GDELT tone is ${direction} (${tone.toFixed(1)}). This describes the observed news sample, not ground truth.`
+      ? `Current snapshot contains ${this.articles.length} signals across ${this.uniqueDomains(this.articles)} domains, concentrated in ${leading || 'the available sources'}. Mean reported news tone is ${direction} (${tone.toFixed(1)}). This describes the observed news sample, not ground truth.`
       : 'Automated analyst brief will appear here once the next data refresh completes.';
   },
 
@@ -370,7 +370,7 @@ const INTEL = {
     const caption = this.svgElement('text', { x: this.MAP_W * 0.02, y: this.MAP_H * 0.96, class: 'map-label' });
     caption.textContent = markers.length && !this.geoPoints.length
       ? 'Node positions are illustrative coverage indicators, not event coordinates'
-      : 'Geolocated coverage points \u00b7 GDELT geo feed';
+      : 'Geolocated coverage points \u00b7 Geolocated feed';
     svg.append(caption);
     container.replaceChildren(svg);
   },

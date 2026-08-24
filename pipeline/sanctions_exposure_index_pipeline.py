@@ -32,7 +32,7 @@ def load_previous():
 
 def extract_live_data(config):
     live = {}
-    query = config.get("news_query") or config.get("gdelt_query") or "geopolitical risk"
+    query = config.get("news_query") or "geopolitical risk"
     print(f"[LIVE] News query: {query}")
 
     articles = safe_fetch(fetch_google_news_rss, query, SNAPSHOT_SIZE) or []
@@ -52,7 +52,7 @@ def extract_live_data(config):
 def retain_previous(live, previous):
     notes = []
     previous_live = previous.get("live_data") or {}
-    for key in ("news_articles", "gdelt_articles"):
+    for key in ("news_articles"):
         if not live.get("news_articles") and previous_live.get(key):
             live["news_articles"] = previous_live[key][:SNAPSHOT_SIZE]
             notes.append("News feed unavailable; retained last validated snapshot.")
