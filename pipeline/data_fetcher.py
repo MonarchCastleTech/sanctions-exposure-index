@@ -54,48 +54,13 @@ def fetch_cisa_kev():
         print(f"[CISA-KEV] Error: {e}")
         return []
 
-def fetch_acled(api_key, country=None, days=30):
-    """Fetch ACLED conflict event data."""
-    if not api_key:
-        return []
-    url = "https://api.acleddata.com/acled/read"
-    params = {"key": api_key, "terms": "accept", "limit": 500}
-    if country:
-        params["country"] = country
-    try:
-        r = requests.get(url, params=params, timeout=30)
-        if r.status_code == 200:
-            data = r.json().get("data", [])
-            return [
-                {
-                    "event_id": d.get("data_id", ""),
-                    "event_date": d.get("event_date", ""),
-                    "event_type": d.get("event_type", ""),
-                    "country": d.get("country", ""),
-                    "location": d.get("location", ""),
-                    "latitude": d.get("latitude", ""),
-                    "longitude": d.get("longitude", ""),
-                    "fatalities": d.get("fatalities", 0),
-                    "source": d.get("source", ""),
-                }
-                for d in data
-            ]
-        return []
-    except Exception as e:
-        print(f"[ACLED] Error: {e}")
-        return []
+def fetch_acled(*_args, **_kwargs):
+    """Disabled until a licensed ACLED key is explicitly configured."""
+    return []
 
-def fetch_opensanctions(limit=100):
-    """Fetch latest sanctions data from OpenSanctions."""
-    url = "https://www.opensanctions.org/api/2/entities/"
-    try:
-        r = requests.get(url, params={"limit": limit}, timeout=30)
-        if r.status_code == 200:
-            return r.json()
-        return {}
-    except Exception as e:
-        print(f"[OpenSanctions] Error: {e}")
-        return {}
+def fetch_opensanctions(*_args, **_kwargs):
+    """Disabled: current OpenSanctions API requires authenticated access."""
+    return {}
 
 def fetch_census_country():
     """Fetch World Bank country indicators (GDP, population)."""
