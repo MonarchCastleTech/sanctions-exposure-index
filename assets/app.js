@@ -19,7 +19,7 @@ const INTEL = {
     }
     this.articles = (this.data.events && this.data.events.length)
       ? this.data.events
-      : ((this.data.live_data && this.data.live_data.gdelt_articles) || []);
+      : ((this.data.live_data && (this.data.live_data.news_articles || this.data.live_data.gdelt_articles)) || []);
     this.geoPoints = (this.data.live_data && this.data.live_data.geo_points) || [];
     this.renderMode();
     this.renderStatus();
@@ -225,7 +225,7 @@ const INTEL = {
   renderSourceTags() {
     const container = document.getElementById('source-tags');
     if (!container) return;
-    const labels = { gdelt_articles: 'GDELT News', gdelt_geo: 'GDELT Geo', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates', energy_news: 'Energy News', forex: 'Exchange Rates' };
+    const labels = { news_articles: 'News RSS', gdelt_articles: 'GDELT News', gdelt_geo: 'GDELT Geo', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates', energy_news: 'Energy News', forex: 'Exchange Rates' };
     const names = (this.data.meta && this.data.meta.sources) || Object.keys((this.data.live_data || {}));
     container.replaceChildren(...names.map(name => {
       const tag = document.createElement('span');

@@ -5,14 +5,14 @@ project:
   description: "Track global sanctions lists, entity relationships, and exposure networks."
 
 openrouter:
-  model: "z-ai/glm-5.2:free"
-  fallback_model: "google/gemma-4-31b-it:free"
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  fallback_model: "z-ai/glm-5.2:free"
 
-gdelt_query: "(sanctions OR OFAC OR embargo)"
+news_query: "(sanctions OR OFAC OR embargo)"
 include_forex: true
 
 sources:
-  - name: "GDELT"
+  - name: "Google News RSS"
 
 refresh:
   interval_hours: 6

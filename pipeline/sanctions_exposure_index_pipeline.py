@@ -9,12 +9,9 @@ from datetime import datetime, timezone
 import yaml
 
 sys.path.insert(0, os.path.dirname(__file__))
-from data_fetcher import fetch_exchange_rates, fetch_gdelt, fetch_gdelt_events, fetch_google_news_rss, safe_fetch
+from data_fetcher import fetch_exchange_rates, fetch_google_news_rss, safe_fetch
 from openrouter_llm import analyze_with_llm
 
-GDELT_SPACING_SECONDS = 6
-GDELT_RETRIES = 3
-GDELT_RETRY_WAIT_SECONDS = 20
 SNAPSHOT_SIZE = 50
 EVENT_LIMIT = 15
 
@@ -33,55 +30,15 @@ def load_previous():
         return {}
 
 
-def normalize_geo_points(geo):
-    features = (geo or {}).get("features", [])[:200]
-    points = []
-    for feature in features:
-        coords = (feature.get("geometry") or {}).get("coordinates") or [None, None]
-        properties = feature.get("properties") or {}
-        lat, lon = coords[1], coords[0]
-        if not (isinstance(lat, (int, float)) and isinstance(lon, (int, float))):
-            continue
-        name = properties.get("name") or properties.get("locationName") or "Coverage point"
-        points.append({
-            "name": str(name)[:80],
-            "lat": round(float(lat), 4),
-            "lon": round(float(lon), 4),
-            "count": int(properties.get("count") or 1),
-        })
-    return points
-
-
 def extract_live_data(config):
     live = {}
-    query = config.get("gdelt_query", "geopolitical risk")
-    print(f"[LIVE] GDELT query: {query}")
+    query = config.get("news_query") or config.get("gdelt_query") or "geopolitical risk"
+    print(f"[LIVE] News query: {query}")
 
-    articles = []
-    for attempt in range(1, GDELT_RETRIES + 1):
-        articles = safe_fetch(fetch_gdelt, query, "1d", SNAPSHOT_SIZE) or []
-        if articles:
-            print(f"  GDELT articles: {len(articles)} (attempt {attempt})")
-            break
-        if attempt < GDELT_RETRIES:
-            print(f"  GDELT attempt {attempt}: no articles; retrying in {GDELT_RETRY_WAIT_SECONDS}s")
-            time.sleep(GDELT_RETRY_WAIT_SECONDS)
-
-    used_fallback = False
-    if not articles:
-        articles = safe_fetch(fetch_google_news_rss, query, SNAPSHOT_SIZE) or []
-        used_fallback = bool(articles)
-        if used_fallback:
-            print(f"  Google News RSS fallback: {len(articles)} articles")
-            time.sleep(GDELT_SPACING_SECONDS)
-
-    geo_points = normalize_geo_points(safe_fetch(fetch_gdelt_events, query, "1d"))
-    if geo_points:
-        live["geo_points"] = geo_points
-        print(f"  GDELT geo points: {len(geo_points)}")
-
+    articles = safe_fetch(fetch_google_news_rss, query, SNAPSHOT_SIZE) or []
     if articles:
-        live["gdelt_articles"] = articles[:SNAPSHOT_SIZE]
+        live["news_articles"] = articles[:SNAPSHOT_SIZE]
+        print(f"  News RSS: {len(articles)} articles")
 
     if config.get("include_forex"):
         rates = safe_fetch(fetch_exchange_rates, "USD")
@@ -89,23 +46,22 @@ def extract_live_data(config):
             live["exchange_rates"] = rates[:20]
             print(f"  Forex: {len(live['exchange_rates'])} rates")
 
-    return live, used_fallback
+    return live
 
 
 def retain_previous(live, previous):
     notes = []
     previous_live = previous.get("live_data") or {}
-    if not live.get("gdelt_articles") and previous_live.get("gdelt_articles"):
-        live["gdelt_articles"] = previous_live["gdelt_articles"][:SNAPSHOT_SIZE]
-        notes.append("GDELT news unavailable; retained last validated snapshot.")
-        print(f"  gdelt_articles: retained {len(live['gdelt_articles'])} items from previous run")
-    if not live.get("geo_points") and previous_live.get("geo_points"):
-        live["geo_points"] = previous_live["geo_points"][:200]
-        notes.append("GDELT geo unavailable; retained last validated snapshot.")
+    for key in ("news_articles", "gdelt_articles"):
+        if not live.get("news_articles") and previous_live.get(key):
+            live["news_articles"] = previous_live[key][:SNAPSHOT_SIZE]
+            notes.append("News feed unavailable; retained last validated snapshot.")
+            print(f"  {key}: retained {len(live['news_articles'])} items from previous run")
+            break
     return notes
 
 
-def build_stats(articles, geo_points):
+def build_stats(articles, feeds):
     domains = len({a.get("domain") for a in articles if a.get("domain")})
     tones = [float(a.get("tone")) for a in articles if isinstance(a.get("tone"), (int, float))]
     mean_tone = sum(tones) / len(tones) if tones else 0.0
@@ -114,8 +70,8 @@ def build_stats(articles, geo_points):
     return [
         {"label": "Articles Tracked", "value": str(len(articles)), "delta": "live" if articles else "none"},
         {"label": "News Domains", "value": str(domains), "delta": "deduplicated"},
-        {"label": "Tone Index", "value": f"{tone_index}/100 ({direction})", "delta": "GDELT scale"},
-        {"label": "Geo Points", "value": str(len(geo_points)), "delta": "geolocated"},
+        {"label": "Tone Index", "value": f"{tone_index}/100 ({direction})", "delta": "news scale"},
+        {"label": "Live Feeds", "value": str(feeds), "delta": "connected"},
     ]
 
 
@@ -126,13 +82,11 @@ def main():
     print(f"=== {title} pipeline ===")
 
     previous = load_previous()
-    live, used_fallback = extract_live_data(config)
+    live = extract_live_data(config)
     notes = retain_previous(live, previous)
-    if used_fallback:
-        notes.append("GDELT unavailable; headlines sourced via Google News RSS fallback.")
 
-    articles = live.get("gdelt_articles", [])
-    fresh_news = bool(articles) and not any("gdelt_articles" in note for note in notes)
+    articles = live.get("news_articles", [])
+    fresh_news = bool(articles) and not any("retained" in note for note in notes)
     mode = "live" if fresh_news else ("partial" if articles else "unavailable")
 
     llm_summary = ""
@@ -143,7 +97,7 @@ def main():
             {
                 "meta": {"project": project, "mode": mode},
                 "events": articles[:5],
-                "stats": build_stats(articles, live.get("geo_points", [])),
+                "stats": build_stats(articles, len(live)),
             },
             config.get("openrouter"),
             api_key,
@@ -158,9 +112,9 @@ def main():
             "mode": mode,
             "sources": [key for key, value in live.items() if value],
             "source_notes": notes,
-            "version": "1.1.0",
+            "version": "1.2.0",
         },
-        "stats": build_stats(articles, live.get("geo_points", [])),
+        "stats": build_stats(articles, len(live)),
         "live_data": live,
         "entities": [],
         "events": articles[:EVENT_LIMIT],
@@ -174,7 +128,7 @@ def main():
         json.dump(output, handle, indent=2, ensure_ascii=False)
 
     size = os.path.getsize(out_path)
-    print(f"Done. {out_path} ({size} bytes) mode={mode} articles={len(articles)} geo={len(live.get('geo_points', []))}")
+    print(f"Done. {out_path} ({size} bytes) mode={mode} articles={len(articles)}")
 
 
 if __name__ == "__main__":

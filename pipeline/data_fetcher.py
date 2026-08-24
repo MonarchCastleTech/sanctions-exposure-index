@@ -5,54 +5,6 @@ import json
 import requests
 from datetime import datetime, timezone, timedelta
 
-def fetch_gdelt(query, timespan="1d", max_results=100):
-    """Fetch GDELT Global Knowledge Graph articles."""
-    url = "https://api.gdeltproject.org/api/v2/doc/doc"
-    params = {
-        "query": query,
-        "mode": "ArtList",
-        "maxrecords": max_results,
-        "timespan": timespan,
-        "format": "json"
-    }
-    try:
-        r = requests.get(url, params=params, timeout=30)
-        if r.status_code == 200:
-            data = r.json()
-            articles = data.get("articles", [])
-            return [
-                {
-                    "title": a.get("title", ""),
-                    "url": a.get("url", ""),
-                    "domain": a.get("domain", ""),
-                    "language": a.get("language", ""),
-                    "tone": a.get("tone", 0),
-                    "seendate": a.get("seendate", ""),
-                    "source": "GDELT"
-                }
-                for a in articles
-            ]
-        return []
-    except Exception as e:
-        print(f"[GDELT] Error: {e}")
-        return []
-
-def fetch_gdelt_events(query, timespan="1d"):
-    """Fetch GDELT event data."""
-    url = "https://api.gdeltproject.org/api/v2/geo/geo"
-    params = {
-        "query": query,
-        "mode": "PointData",
-        "timespan": timespan,
-        "format": "json"
-    }
-    try:
-        r = requests.get(url, params=params, timeout=30)
-        return r.json() if r.status_code == 200 else {"features": []}
-    except Exception as e:
-        print(f"[GDELT-Events] Error: {e}")
-        return {"features": []}
-
 def fetch_nasa_firms(api_key=None, region="world", days=1):
     """Fetch NASA FIRMS fire/thermal anomaly data."""
     key = api_key or os.environ.get("NASA_FIRMS_API_KEY", "")
@@ -240,24 +192,6 @@ def fetch_earthquakes(hours=24):
         print(f"[USGS-Quake] Error: {e}")
         return []
 
-def fetch_news_headlines(query, api_key=None):
-    """Fetch news from NewsAPI (requires key) or fallback to GDELT."""
-    if api_key:
-        url = "https://newsapi.org/v2/everything"
-        params = {"q": query, "apiKey": api_key, "pageSize": 50, "sortBy": "publishedAt"}
-        try:
-            r = requests.get(url, params=params, timeout=30)
-            if r.status_code == 200:
-                articles = r.json().get("articles", [])
-                return [
-                    {"title": a.get("title", ""), "source": a.get("source", {}).get("name", ""),
-                     "url": a.get("url", ""), "publishedAt": a.get("publishedAt", "")}
-                    for a in articles
-                ]
-        except Exception as e:
-            print(f"[NewsAPI] Error: {e}")
-    return fetch_gdelt(query, "1d", 50)
-
 def safe_fetch(fetcher, *args, **kwargs):
     """Wrapper that catches all exceptions and returns empty data."""
     try:
@@ -267,7 +201,7 @@ def safe_fetch(fetcher, *args, **kwargs):
         return {} if not isinstance(args, list) else []
 
 def fetch_google_news_rss(query, max_results=50):
-    """Fetch news headlines from Google News RSS, shaped like GDELT articles."""
+    """Fetch news headlines from Google News RSS."""
     import re
     import urllib.parse
     import xml.etree.ElementTree as ET
