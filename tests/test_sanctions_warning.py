@@ -73,3 +73,16 @@ def test_history_is_bounded_and_same_hour_replaced(monkeypatch):
     warning = model.build_sanctions_warning({}, {"releases": [release(1)]}, previous_warning={"history": old}, now=NOW)
     assert len(warning["history"]) <= 180
     assert warning["history"][-1]["timestamp"] == NOW.isoformat()
+
+
+def test_recent_market_component_is_retained_for_72_hours(monkeypatch):
+    monkeypatch.setattr(model, "_energy_market_component", lambda _now: {**market(), "available": False, "series_available": 0})
+    previous = {
+        "issued_at": (NOW - timedelta(hours=71)).isoformat(),
+        "components": [market(55)],
+    }
+    warning = model.build_sanctions_warning({}, {"releases": [release(1)]}, previous_warning=previous, now=NOW)
+    retained = next(row for row in warning["components"] if row["id"] == "energy_market_dislocation")
+    assert retained["available"] is True
+    assert retained["retained"] is True
+    assert retained["score"] == 55

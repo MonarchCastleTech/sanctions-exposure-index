@@ -12,6 +12,7 @@ import json
 import math
 import os
 import statistics
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -234,28 +235,34 @@ def _fetch_fred_series(series_id, now):
     cache = _market_cache_path(series_id)
     start = (now.date() - timedelta(days=260)).isoformat()
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}"
-    try:
-        response = requests.get(url, timeout=15, headers={"User-Agent": "sanctions-exposure-index/2.0"})
-        response.raise_for_status()
-        rows = []
-        for row in csv.DictReader(io.StringIO(response.text)):
-            raw = row.get(series_id)
-            if raw and raw != ".":
-                rows.append({"date": row["observation_date"], "value": float(raw)})
-        if len(rows) < 20:
-            raise ValueError("insufficient FRED observations")
-        cache.write_text(json.dumps({"fetched_at": now.isoformat(), "rows": rows}), encoding="utf-8")
-        return rows, False
-    except Exception:
+    error = None
+    for attempt in range(1, 5):
         try:
-            payload = json.loads(cache.read_text(encoding="utf-8"))
-            fetched = _parse_datetime(payload.get("fetched_at"))
-            age = now - fetched if fetched else timedelta(days=999)
-            if timedelta(0) <= age <= timedelta(hours=72) and len(payload.get("rows", [])) >= 20:
-                return payload["rows"], True
-        except (OSError, ValueError, json.JSONDecodeError):
-            pass
-        return [], False
+            response = requests.get(url, timeout=25, headers={"User-Agent": "sanctions-exposure-index/2.0"})
+            response.raise_for_status()
+            rows = []
+            for row in csv.DictReader(io.StringIO(response.text)):
+                raw = row.get(series_id)
+                if raw and raw != ".":
+                    rows.append({"date": row["observation_date"], "value": float(raw)})
+            if len(rows) < 20:
+                raise ValueError("insufficient FRED observations")
+            cache.write_text(json.dumps({"fetched_at": now.isoformat(), "rows": rows}), encoding="utf-8")
+            return rows, False
+        except Exception as exc:
+            error = exc
+            if attempt < 4:
+                time.sleep(attempt)
+    print(f"[FRED-{series_id}] live fetch failed after 4 attempts: {error}")
+    try:
+        payload = json.loads(cache.read_text(encoding="utf-8"))
+        fetched = _parse_datetime(payload.get("fetched_at"))
+        age = now - fetched if fetched else timedelta(days=999)
+        if timedelta(0) <= age <= timedelta(hours=72) and len(payload.get("rows", [])) >= 20:
+            return payload["rows"], True
+    except (OSError, ValueError, json.JSONDecodeError):
+        pass
+    return [], False
 
 
 def _energy_market_component(now):
@@ -335,6 +342,16 @@ def build_sanctions_warning(snapshot, press, previous_snapshot=None, previous_wa
     delta = _sdn_delta_component(snapshot, previous_snapshot or {})
     posture = _posture_component(releases, now)
     market = _energy_market_component(now)
+    if not market.get("available") and previous_warning:
+        previous_issued = _parse_datetime(previous_warning.get("issued_at"))
+        age = now - previous_issued if previous_issued else timedelta(days=999)
+        previous_market = next(
+            (row for row in previous_warning.get("components", []) if row.get("id") == "energy_market_dislocation" and row.get("available")),
+            None,
+        )
+        if previous_market and timedelta(0) <= age <= timedelta(hours=72):
+            market = dict(previous_market)
+            market["retained"] = True
     action["retained"] = bool(press.get("cached") or press.get("retained"))
     posture["retained"] = action["retained"]
     components = [action, delta, posture, market]
