@@ -1,26 +1,15 @@
-﻿# Sanctions Exposure Index Configuration
 project:
   id: sanctions-exposure-index
   name: "Sanctions Exposure Index"
-  description: "Track global sanctions lists, entity relationships, and exposure networks."
+  description: "Public-data early warning for sanctions-expansion pressure."
 
-openrouter:
-  model: "nvidia/nemotron-3-super-120b-a12b:free"
-  fallback_model: "z-ai/glm-5.2:free"
-
-news_query: "(sanctions OR OFAC OR embargo)"
-include_forex: true
+news_query: "(sanctions OR embargo OR export controls OR asset freeze) when:7d"
 
 sources:
-  - name: "Google News RSS"
+  - name: "OFAC Sanctions List Service"
+  - name: "OFAC press releases"
+  - name: "FRED Brent/WTI"
 
 refresh:
   interval_hours: 6
-  retry_attempts: 3
-
-scoring:
-  scale: "1-10"
-  thresholds:
-    high: 7
-    medium: 4
-    low: 0
+  retry_attempts: 5

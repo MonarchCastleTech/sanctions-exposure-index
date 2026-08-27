@@ -3,131 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sanctions Exposure Index &mdash; MCT Intelligence</title>
-  <meta name="description" content="Entity and network signals for sanctions exposure monitoring.">
+  <title>Sanctions Exposure Index — MCT Intelligence</title>
+  <meta name="description" content="Autonomous public-data early warning for sanctions-expansion pressure.">
   <meta name="theme-color" content="#071522">
   <link rel="canonical" href="https://monarchcastletech.github.io/sanctions-exposure-index/">
-  <link rel="icon" href="assets/product-logo.svg?v=2" type="image/svg+xml">
-  <meta property="og:title" content="Sanctions Exposure Index">
-  <meta property="og:description" content="Entity and network signals for sanctions exposure monitoring.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://monarchcastletech.github.io/sanctions-exposure-index/">
-  <meta property="og:image" content="https://monarchcastletech.github.io/sanctions-exposure-index/assets/mct-mark.png">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/product-logo.svg?v=4" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css?v=4">
 </head>
 <body data-project="sanctions-exposure-index">
   <a class="skip-link" href="#overview">Skip to dashboard</a>
   <header class="header">
     <div class="header-brand">
       <img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
-      <img class="product-logo" src="assets/product-logo.svg?v=2" alt="Sanctions Exposure Index">
-      <div>
-        <h1 class="visually-hidden">Sanctions Exposure Index</h1>
-      </div>
+      <img class="product-logo" src="assets/product-logo.svg?v=4" alt="Sanctions Exposure Index">
+      <h1 class="visually-hidden">Sanctions Exposure Index</h1>
     </div>
-    <div class="header-meta">
-      <div class="live-dot"></div>
-      <span id="data-mode">Auto-refresh: 6h</span>
-      <span>|</span>
-      <span>Generated: <span id="generated-time">&mdash;</span></span>
-    </div>
+    <div class="header-meta"><i class="live-dot"></i><span id="data-mode">Loading</span><span>·</span><span id="generated-time">—</span></div>
   </header>
 
   <nav class="nav-tabs" aria-label="Dashboard sections">
-    <a class="nav-tab active" href="#overview">Overview</a>
-    <a class="nav-tab" href="#map">Map</a>
-    <a class="nav-tab" href="#llm-summary">Analysis</a>
+    <a class="nav-tab active" href="#overview">Early Warning</a>
+    <a class="nav-tab" href="#signals">Signals</a>
+    <a class="nav-tab" href="#methodology">Methodology</a>
     <a class="nav-tab" href="#sources">Sources</a>
   </nav>
 
   <main class="main" id="overview">
-    <div class="alert alert-info" id="status-message">
-      <strong>Intelligence Status:</strong> Track global sanctions lists, entity relationships, and exposure networks in real-time.
-    </div>
+    <section class="warning-lead card" aria-labelledby="warning-title">
+      <div>
+        <p class="warning-kicker">0–30 day public-data outlook</p>
+        <h2 id="warning-title">Sanctions-expansion pressure</h2>
+        <p class="warning-deck">Official action cadence, SDN-list changes, policy language, and oil-market dislocation. Not a designation probability or legal screening result.</p>
+      </div>
+      <div class="warning-score" aria-live="polite"><strong id="warning-score">—</strong><span>/100</span><b id="warning-level">LOADING</b></div>
+      <div class="warning-meta">
+        <div><span>Confidence</span><strong id="warning-confidence">—</strong></div>
+        <div><span>Forecast horizon</span><strong id="warning-horizon">—</strong></div>
+        <div><span>Cross-domain concurrence</span><strong id="warning-concurrence">—</strong></div>
+        <div><span>Data health</span><strong id="warning-health">—</strong></div>
+      </div>
+      <div class="warning-components" id="warning-components"></div>
+    </section>
 
     <div class="stat-grid" id="stat-grid"></div>
 
-    <div class="grid grid-map">
+    <section class="grid grid-map" id="signals">
       <div>
         <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Global Activity Map</div>
-              <div class="card-subtitle">Geolocated coverage Â· updates every 6 hours</div>
-            </div>
-          </div>
-          <div class="map-container" id="map"></div>
+          <div class="card-header"><div><div class="card-title">Official Action Radar</div><div class="card-subtitle">Current seven days against 12 prior OFAC weeks</div></div></div>
+          <div id="ofac-radar" class="radar-list"></div>
         </div>
-
-        <div class="card" style="margin-top:1.5rem">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Trend Analysis</div>
-              <div class="card-subtitle">Signal activity by hour Â· current snapshot</div>
-            </div>
-          </div>
+        <div class="card chart-card">
+          <div class="card-header"><div><div class="card-title">Warning History</div><div class="card-subtitle">Accepted autonomous runs · 0–100 scale</div></div></div>
           <div class="chart-container" id="timeseries-chart"></div>
         </div>
       </div>
 
-      <div class="sidebar">
+      <aside class="sidebar">
         <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Source Activity</div>
-              <div class="card-subtitle">Domains ranked by signal count</div>
-            </div>
-          </div>
-          <table class="data-table">
-            <thead>
-              <tr><th>Source</th><th>Tone</th><th>Signals</th><th>Share</th></tr>
-            </thead>
-            <tbody id="entity-rows">
-            </tbody>
-          </table>
+          <div class="card-header"><div><div class="card-title">SDN Snapshot Change</div><div class="card-subtitle">Exact entity IDs since last accepted file</div></div></div>
+          <div id="sdn-delta"></div>
         </div>
-
         <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Recent Events</div>
-              <div class="card-subtitle">Last 24 hours</div>
-            </div>
-          </div>
+          <div class="card-header"><div><div class="card-title">Active Alerts</div><div class="card-subtitle">Components above watch threshold</div></div></div>
+          <div id="warning-alerts"></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div><div class="card-title">Recent Official Actions</div><div class="card-subtitle">Treasury/OFAC-linked releases</div></div></div>
           <div id="event-list"></div>
         </div>
+      </aside>
+    </section>
 
-        
+    <section class="methodology" id="methodology" aria-labelledby="methodology-title">
+      <p class="warning-kicker">Reproducible by design</p>
+      <h2 id="methodology-title">Methodology</h2>
+      <p>The index estimates public sanctions-expansion pressure over the next 0–30 days. It does not estimate whether any person or company will be designated. Every input is public, timestamped, and fetched without a paid account.</p>
+      <div class="method-grid">
+        <article><strong>35%</strong><h3>OFAC action velocity</h3><p>Designation-linked releases in the latest seven days, compared with 12 prior non-overlapping weeks using median and MAD.</p></article>
+        <article><strong>20%</strong><h3>SDN delta breadth</h3><p>Exact added and removed IDs between consecutive accepted official SDN CSV snapshots, with program and entity-type breadth.</p></article>
+        <article><strong>25%</strong><h3>Official posture shift</h3><p>Predeclared coercive and relief terms in official Treasury/OFAC titles, normalized against the same weekly baseline.</p></article>
+        <article><strong>20%</strong><h3>Energy dislocation</h3><p>Five-session Brent, WTI, and Brent–WTI spread moves compared with robust historical baselines from FRED.</p></article>
+      </div>
+      <div class="method-note"><strong>Aggregation.</strong> Available components are reweighted to sum to 100%. A five-point concurrence bonus applies only when at least one official indicator and the independent market indicator are both elevated. This limits correlated double-counting. Missing sources never become zero; cached data expires after 72 hours and failed refreshes preserve the last-good publication.</div>
+      <div class="method-note"><strong>Reproduction.</strong> GitHub Actions runs the pipeline every six hours, executes tests, stores source snapshots and calculated output in the repository, then deploys the same data shown here. Formulae, terms, windows, evidence and source URLs are emitted in <a href="data/output.json">data/output.json</a>.</div>
+    </section>
 
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title">AI Analysis</div>
-          </div>
-          <div id="llm-summary" style="font-size:0.8125rem;color:var(--text-secondary)">
-            <p>Automated analyst brief will appear here once the next data refresh completes.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" id="sources">Data Sources</div>
-          </div>
-              <div id="source-tags">
-        <span class="tag-source">OpenSanctions</span>
-              <span class="tag-source">OFAC SDN</span>
-              <span class="tag-source">EU Sanctions</span>
-              <span class="tag-source">UN Comtrade</span>
+    <section class="card sources-card" id="sources">
+      <div class="card-header"><div><div class="card-title">Primary Sources</div><div class="card-subtitle">Official lists, official communications, public market series</div></div></div>
+      <div id="source-tags" class="source-links">
+        <a href="https://ofac.treasury.gov/sanctions-list-service">OFAC Sanctions List Service</a>
+        <a href="https://ofac.treasury.gov/press-releases">OFAC press releases</a>
+        <a href="https://fred.stlouisfed.org/series/DCOILBRENTEU">FRED Brent</a>
+        <a href="https://fred.stlouisfed.org/series/DCOILWTICO">FRED WTI</a>
       </div>
-      </div>
-      </div>
-    </div>
+    </section>
   </main>
 
-  <footer class="footer">
-    <p>Sanctions Exposure Index &mdash; <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p>
-    <p style="margin-top:0.5rem">Auto-refreshed every 6 hours via GitHub Actions &bull; Source data available in <code>data/</code></p>
-  </footer>
-
-  <script src="assets/app.js"></script>
+  <footer class="footer"><p>Sanctions Exposure Index — <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p><p>Autonomous six-hour refresh · public methodology · versioned source snapshots</p></footer>
+  <script src="assets/app.js?v=4"></script>
 </body>
 </html>

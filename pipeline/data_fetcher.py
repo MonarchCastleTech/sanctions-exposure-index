@@ -2,8 +2,138 @@
 """Shared data fetchers for MCT Intelligence projects."""
 import os
 import json
+import csv
+import hashlib
+import io
+import re
 import requests
+from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+CACHE_MAX_AGE = timedelta(hours=72)
+
+
+def _cache_path(name):
+    root = Path(os.path.expanduser("~")) / ".cache" / "sanctions-exposure-index"
+    root.mkdir(parents=True, exist_ok=True)
+    return root / f"{name}.json"
+
+
+def _read_recent_cache(name):
+    try:
+        payload = json.loads(_cache_path(name).read_text(encoding="utf-8"))
+        fetched = datetime.fromisoformat(str(payload.get("fetched_at", "")).replace("Z", "+00:00"))
+        if fetched.tzinfo is None:
+            fetched = fetched.replace(tzinfo=timezone.utc)
+        age = datetime.now(timezone.utc) - fetched.astimezone(timezone.utc)
+        if timedelta(0) <= age <= CACHE_MAX_AGE:
+            return payload.get("data")
+    except (OSError, ValueError, json.JSONDecodeError):
+        pass
+    return None
+
+
+def _write_cache(name, data):
+    _cache_path(name).write_text(
+        json.dumps({"fetched_at": datetime.now(timezone.utc).isoformat(), "data": data}),
+        encoding="utf-8",
+    )
+
+
+def fetch_ofac_sdn_snapshot():
+    """Download the official OFAC SDN CSV and preserve minimal diffable rows."""
+    url = "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV"
+    try:
+        response = requests.get(url, timeout=55, headers={"User-Agent": "sanctions-exposure-index/2.0"})
+        response.raise_for_status()
+        entries = []
+        for row in csv.reader(io.StringIO(response.content.decode("utf-8-sig", errors="replace"))):
+            if len(row) < 4 or not str(row[0]).strip().isdigit():
+                continue
+            entries.append({
+                "id": str(row[0]).strip(),
+                "name": str(row[1]).strip(),
+                "type": str(row[2]).strip().replace("-0-", ""),
+                "program": str(row[3]).strip().replace("-0-", ""),
+            })
+        if not entries:
+            raise ValueError("OFAC SDN CSV contained no parseable entries")
+        publish_match = re.search(r"/(\d{4}-\d{2}-\d{2})/", response.url)
+        data = {
+            "publish_date": publish_match.group(1) if publish_match else None,
+            "sha256": hashlib.sha256(response.content).hexdigest(),
+            "count": len(entries),
+            "entries": entries,
+            "cached": False,
+        }
+        _write_cache("ofac-sdn", data)
+        return data
+    except Exception as exc:
+        print(f"[OFAC-SDN] Error: {exc}")
+        cached = _read_recent_cache("ofac-sdn")
+        if cached:
+            cached["cached"] = True
+            return cached
+        return {}
+
+
+def _fetch_ofac_press_page(page):
+    url = "https://ofac.treasury.gov/press-releases"
+    response = requests.get(
+        url,
+        params={"page": page},
+        timeout=35,
+        headers={"User-Agent": "sanctions-exposure-index/2.0"},
+    )
+    response.raise_for_status()
+    response.encoding = "utf-8"
+    soup = BeautifulSoup(response.text, "html.parser")
+    rows = []
+    for table_row in soup.select("table tr"):
+        cells = table_row.select("td")
+        if len(cells) < 3:
+            continue
+        links = table_row.select("a[href]")
+        rows.append({
+            "title": " ".join(cells[0].get_text(" ", strip=True).split()),
+            "url": links[0].get("href") if links else None,
+            "action_title": " ".join(cells[1].get_text(" ", strip=True).split()),
+            "action_url": (
+                "https://ofac.treasury.gov" + links[1].get("href")
+                if len(links) > 1 and str(links[1].get("href") or "").startswith("/")
+                else (links[1].get("href") if len(links) > 1 else None)
+            ),
+            "date": cells[2].get_text(" ", strip=True)[:10],
+            "source": "OFAC/Treasury",
+        })
+    return rows
+
+
+def fetch_ofac_press_releases(pages=4):
+    """Fetch recent official OFAC-linked press-release titles in parallel."""
+    try:
+        with ThreadPoolExecutor(max_workers=min(pages, 4)) as executor:
+            batches = list(executor.map(_fetch_ofac_press_page, range(pages)))
+        rows = [row for batch in batches for row in batch]
+        deduplicated = {f"{row.get('date')}|{row.get('url')}|{row.get('title')}": row for row in rows}
+        data = {
+            "releases": sorted(deduplicated.values(), key=lambda row: str(row.get("date") or ""), reverse=True),
+            "pages": pages,
+            "cached": False,
+        }
+        if not data["releases"]:
+            raise ValueError("OFAC press-release table contained no rows")
+        _write_cache("ofac-press", data)
+        return data
+    except Exception as exc:
+        print(f"[OFAC-PRESS] Error: {exc}")
+        cached = _read_recent_cache("ofac-press")
+        if cached:
+            cached["cached"] = True
+            return cached
+        return {}
 
 def fetch_nasa_firms(api_key=None, region="world", days=1):
     """Fetch NASA FIRMS fire/thermal anomaly data."""
