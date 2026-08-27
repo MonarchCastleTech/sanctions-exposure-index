@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-27T21:04:41.487517+00:00",
+    "generated": "2026-08-27T22:15:08.556595+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-27T21:02:54.229166+00:00",
+    "issued_at": "2026-08-27T22:13:21.989393+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.1,
@@ -426,6 +426,17 @@
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
+        "score": 37.1,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 60.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-27T22:13:21.989393+00:00",
         "score": 37.1,
         "level": "WATCH",
         "components": {
@@ -117267,21 +117278,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Finance Highlights Legal Risk In China Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNWZHWW9LYWNkVXJfdjk0bENmenFmWEdRdkhuT1M4dnVXR0kwU0RQVkc3NjR2NF94UURmWW54ZmlXdUszcVhVQl9vbnVoQ0ljbGxtdk1wb3VlRDE1czlwdUwyYlV6UFZoam9jYWF5ajE2V0pSdkE0YTh0UVRlRktKZ0VWMW1UMDhfYXBUOdIBVkFVX3lxTFBQbnBvVUNUZHpVbzdlTVR6cDhjQ2xGMGpnZWhyM0Q0ZWU3dEZteFFqQ3VtNjhDOWZpcjdaanNZTWpmTmFCMjRIMHRlWElHRlB5MVd5LXhR?oc=5",
-        "domain": "law360",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T124700Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US proposes nationwide Sudan arms embargo amid China, Russia pushback",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wejczN09ucjlielRyY2p2UlQ1aXRnVzljQVlWRmZ3SHV4X0hkOFRKOVVjZnRkN1VzTEdwbEN4Y0JkMTJWVXFoT0VSek9GVnln?oc=5",
         "domain": "sudantribune",
         "language": "",
         "tone": 0,
         "seendate": "20260824T212956Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Finance Highlights Legal Risk In China Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNWZHWW9LYWNkVXJfdjk0bENmenFmWEdRdkhuT1M4dnVXR0kwU0RQVkc3NjR2NF94UURmWW54ZmlXdUszcVhVQl9vbnVoQ0ljbGxtdk1wb3VlRDE1czlwdUwyYlV6UFZoam9jYWF5ajE2V0pSdkE0YTh0UVRlRktKZ0VWMW1UMDhfYXBUOdIBVkFVX3lxTFBQbnBvVUNUZHpVbzdlTVR6cDhjQ2xGMGpnZWhyM0Q0ZWU3dEZteFFqQ3VtNjhDOWZpcjdaanNZTWpmTmFCMjRIMHRlWElHRlB5MVd5LXhR?oc=5",
+        "domain": "law360",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260827T124700Z",
         "source": "GoogleNews"
       },
       {
@@ -117543,15 +117554,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260824T123044Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ukraine imposes sanctions on creators of Masha and the Bear ᐉ News from Fakti.bg - World",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGFUVkNnWDNXQmtMWmF3OG9ua2tyaFl5aWJtMTZ4MV9iN29XQS1WTWY4eFp4VVJ1bTg0M1BqdXo5V2oxNFJUZllETGFZcUNRTHh6Z3g0RmREV2JZNVZvZTQzWGYwSGxVQkpGVUtJVmFfOW40SklZejRodHZ1T25fQzJkLVdZcWN3YTBhXzVtN0ZRZUNQY044Sw?oc=5",
-        "domain": "fakti.bg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T010100Z",
         "source": "GoogleNews"
       },
       {
