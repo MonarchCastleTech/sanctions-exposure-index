@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-27T21:01:30.665184+00:00",
+    "generated": "2026-08-27T21:04:41.487517+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,13 +12,13 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-27T21:01:28.536459+00:00",
+    "issued_at": "2026-08-27T21:02:54.229166+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.1,
     "level": "WATCH",
     "confidence": "HIGH",
-    "confidence_score": 100.0,
+    "confidence_score": 96.2,
     "components": [
       {
         "id": "ofac_action_velocity",
@@ -395,7 +395,7 @@
           }
         ],
         "series_available": 2,
-        "retained": false
+        "retained": true
       }
     ],
     "concurrence": {
@@ -425,7 +425,7 @@
     ],
     "history": [
       {
-        "timestamp": "2026-08-27T21:01:28.536459+00:00",
+        "timestamp": "2026-08-27T21:02:54.229166+00:00",
         "score": 37.1,
         "level": "WATCH",
         "components": {
@@ -441,7 +441,9 @@
       "ofac_releases": 99,
       "market_series_available": 2,
       "available_components": 4,
-      "retained_components": []
+      "retained_components": [
+        "energy_market_dislocation"
+      ]
     },
     "method": {
       "name": "Sanctions expansion precursor concurrence model v1",
@@ -117243,7 +117245,7 @@
         "domain": "fieldfisher",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T040000Z",
+        "seendate": "20260824T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -117252,7 +117254,7 @@
         "domain": "middleeastforum",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T083529Z",
+        "seendate": "20260826T113529Z",
         "source": "GoogleNews"
       },
       {
@@ -117261,7 +117263,7 @@
         "domain": "diplomacyandlaw",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T080820Z",
+        "seendate": "20260824T110820Z",
         "source": "GoogleNews"
       },
       {
@@ -117270,7 +117272,7 @@
         "domain": "law360",
         "language": "",
         "tone": 0,
-        "seendate": "20260827T094700Z",
+        "seendate": "20260827T124700Z",
         "source": "GoogleNews"
       },
       {
@@ -117279,7 +117281,7 @@
         "domain": "sudantribune",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T182956Z",
+        "seendate": "20260824T212956Z",
         "source": "GoogleNews"
       },
       {
@@ -117288,7 +117290,7 @@
         "domain": "www.israelhayom.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T223152Z",
+        "seendate": "20260824T013152Z",
         "source": "GoogleNews"
       },
       {
@@ -117297,7 +117299,7 @@
         "domain": "iraninternational",
         "language": "",
         "tone": 0,
-        "seendate": "20260827T085515Z",
+        "seendate": "20260827T115515Z",
         "source": "GoogleNews"
       },
       {
@@ -117306,7 +117308,7 @@
         "domain": "tomshardware",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T120955Z",
+        "seendate": "20260824T150955Z",
         "source": "GoogleNews"
       },
       {
@@ -117315,7 +117317,7 @@
         "domain": "nikkeiasia",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T235200Z",
+        "seendate": "20260825T025200Z",
         "source": "GoogleNews"
       },
       {
@@ -117324,7 +117326,7 @@
         "domain": "startupfortune",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T110536Z",
+        "seendate": "20260823T140536Z",
         "source": "GoogleNews"
       },
       {
@@ -117333,7 +117335,7 @@
         "domain": "finance.biggo.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T040000Z",
+        "seendate": "20260823T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -117342,7 +117344,7 @@
         "domain": "ua.news",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T063704Z",
+        "seendate": "20260825T093704Z",
         "source": "GoogleNews"
       },
       {
@@ -117351,7 +117353,7 @@
         "domain": "facebook.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T012302Z",
+        "seendate": "20260825T042302Z",
         "source": "GoogleNews"
       },
       {
@@ -117360,7 +117362,7 @@
         "domain": "firstpost",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T062934Z",
+        "seendate": "20260825T092934Z",
         "source": "GoogleNews"
       },
       {
@@ -117369,7 +117371,7 @@
         "domain": "dabangaradiotvonline",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T093506Z",
+        "seendate": "20260825T123506Z",
         "source": "GoogleNews"
       },
       {
@@ -117378,7 +117380,7 @@
         "domain": "dataportuaria",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T215931Z",
+        "seendate": "20260826T005931Z",
         "source": "GoogleNews"
       },
       {
@@ -117387,7 +117389,7 @@
         "domain": "radiotamazuj",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T191512Z",
+        "seendate": "20260824T221512Z",
         "source": "GoogleNews"
       },
       {
@@ -117396,7 +117398,7 @@
         "domain": "hospitalityon",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T053217Z",
+        "seendate": "20260825T083217Z",
         "source": "GoogleNews"
       },
       {
@@ -117405,7 +117407,7 @@
         "domain": "cryptorank",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T195430Z",
+        "seendate": "20260826T225430Z",
         "source": "GoogleNews"
       },
       {
@@ -117414,7 +117416,7 @@
         "domain": "cryptonews",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T022800Z",
+        "seendate": "20260826T052800Z",
         "source": "GoogleNews"
       },
       {
@@ -117423,7 +117425,7 @@
         "domain": "eutoday",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T040643Z",
+        "seendate": "20260825T070643Z",
         "source": "GoogleNews"
       },
       {
@@ -117432,7 +117434,7 @@
         "domain": "thecryptonomist",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T025122Z",
+        "seendate": "20260826T055122Z",
         "source": "GoogleNews"
       },
       {
@@ -117441,7 +117443,7 @@
         "domain": "cryptoticker",
         "language": "",
         "tone": 0,
-        "seendate": "20260827T032947Z",
+        "seendate": "20260827T062947Z",
         "source": "GoogleNews"
       },
       {
@@ -117450,16 +117452,7 @@
         "domain": "theeastafrican",
         "language": "",
         "tone": 0,
-        "seendate": "20260827T124802Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Crypto market on the morning of July 22: HTX sanctions and stablecoin collapse",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGcyREV0RXlGTUZoaW9MSnZtYkVreEpKNVJGZ0hUcWoyZU83RV8yR2dHYjRmWGVsb2pXc21qS200S1p6Q3U4VlpGM1dJTUZkNThqZjlqZjM3enlCb3hfMk02V3JMOURrLUUySkVieXVESWw4LXZvLWFCYTFPalh5MjhIVFBqNC16UTR4eGxHMWxoNTN0Tm5EblI2RkRuWWxreng4XzVVaTZVbUppR2xVdk1laE5xSzNDUVV6RzJVcmZOLUV1aUdveWpB?oc=5",
-        "domain": "coinspot.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T083728Z",
+        "seendate": "20260827T154802Z",
         "source": "GoogleNews"
       },
       {
@@ -117468,7 +117461,16 @@
         "domain": "ndtvprofit",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T113715Z",
+        "seendate": "20260824T143715Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Crypto market on the morning of July 22: HTX sanctions and stablecoin collapse",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGcyREV0RXlGTUZoaW9MSnZtYkVreEpKNVJGZ0hUcWoyZU83RV8yR2dHYjRmWGVsb2pXc21qS200S1p6Q3U4VlpGM1dJTUZkNThqZjlqZjM3enlCb3hfMk02V3JMOURrLUUySkVieXVESWw4LXZvLWFCYTFPalh5MjhIVFBqNC16UTR4eGxHMWxoNTN0Tm5EblI2RkRuWWxreng4XzVVaTZVbUppR2xVdk1laE5xSzNDUVV6RzJVcmZOLUV1aUdveWpB?oc=5",
+        "domain": "coinspot.io",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T113728Z",
         "source": "GoogleNews"
       },
       {
@@ -117477,7 +117479,7 @@
         "domain": "leadershipnewspapers",
         "language": "",
         "tone": 0,
-        "seendate": "20260821T040000Z",
+        "seendate": "20260821T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -117486,7 +117488,7 @@
         "domain": "ugandaobserver",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T073151Z",
+        "seendate": "20260825T103151Z",
         "source": "GoogleNews"
       },
       {
@@ -117495,7 +117497,7 @@
         "domain": "analyticsinsight",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T083952Z",
+        "seendate": "20260826T113952Z",
         "source": "GoogleNews"
       },
       {
@@ -117504,7 +117506,7 @@
         "domain": "tampafreepress",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T143733Z",
+        "seendate": "20260826T173733Z",
         "source": "GoogleNews"
       },
       {
@@ -117513,16 +117515,7 @@
         "domain": "gujaratsamacharenglish",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T035436Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US Treasury Sanctions Singapore Trader Wellbred Over Iran Oil Network",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNnQxakNCY2Q1LV82NURxMzdnWm1OYVJVM3NDelNLQTFmWlBUdjhmQlNvZE95YWJkalVfSlNTX3VNVzBzdzJTbTJ3Vy1GOUJid09FRWI5TWt1dGRkNVlYY3BEWmhYeW1VZjJLdXJmcTBUMmVHNUMtMUM0RGV6djZkM1gwYlQteEg4bDBFYUhhU1hibWozMnhoU3FWbFh3Nms?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T050519Z",
+        "seendate": "20260826T065436Z",
         "source": "GoogleNews"
       },
       {
@@ -117531,7 +117524,16 @@
         "domain": "analyticsinsight",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T043000Z",
+        "seendate": "20260825T073000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury Sanctions Singapore Trader Wellbred Over Iran Oil Network",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNnQxakNCY2Q1LV82NURxMzdnWm1OYVJVM3NDelNLQTFmWlBUdjhmQlNvZE95YWJkalVfSlNTX3VNVzBzdzJTbTJ3Vy1GOUJid09FRWI5TWt1dGRkNVlYY3BEWmhYeW1VZjJLdXJmcTBUMmVHNUMtMUM0RGV6djZkM1gwYlQteEg4bDBFYUhhU1hibWozMnhoU3FWbFh3Nms?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260825T080519Z",
         "source": "GoogleNews"
       },
       {
@@ -117540,7 +117542,16 @@
         "domain": "usethebitcoin",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T093044Z",
+        "seendate": "20260824T123044Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ukraine imposes sanctions on creators of Masha and the Bear ᐉ News from Fakti.bg - World",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGFUVkNnWDNXQmtMWmF3OG9ua2tyaFl5aWJtMTZ4MV9iN29XQS1WTWY4eFp4VVJ1bTg0M1BqdXo5V2oxNFJUZllETGFZcUNRTHh6Z3g0RmREV2JZNVZvZTQzWGYwSGxVQkpGVUtJVmFfOW40SklZejRodHZ1T25fQzJkLVdZcWN3YTBhXzVtN0ZRZUNQY044Sw?oc=5",
+        "domain": "fakti.bg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T010100Z",
         "source": "GoogleNews"
       },
       {
@@ -117549,7 +117560,7 @@
         "domain": "whalesbook",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T101406Z",
+        "seendate": "20260826T131406Z",
         "source": "GoogleNews"
       },
       {
@@ -117558,7 +117569,7 @@
         "domain": "streamlinefeed.co.ke",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T062803Z",
+        "seendate": "20260824T092803Z",
         "source": "GoogleNews"
       }
     ]
