@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-27T22:15:08.556595+00:00",
+    "generated": "2026-08-28T11:20:13.970490+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-27T22:13:21.989393+00:00",
+    "issued_at": "2026-08-28T11:18:27.484297+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.1,
@@ -236,8 +236,8 @@
         "score": 43.9,
         "current_7d_releases": 5,
         "current_weighted_term_rate": 3.6,
-        "baseline_weeks": 9,
-        "anomaly_z": 4.25,
+        "baseline_weeks": 10,
+        "anomaly_z": 5.31,
         "matched_release_count": 4,
         "relief_release_count": 5,
         "evidence": [
@@ -437,6 +437,17 @@
       },
       {
         "timestamp": "2026-08-27T22:13:21.989393+00:00",
+        "score": 37.1,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 60.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-28T11:18:27.484297+00:00",
         "score": 37.1,
         "level": "WATCH",
         "components": {
@@ -117332,15 +117343,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The EU Just Barred Transactions With Justin Sun's HTX Exchange",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLW5OR3FLaC1UcEhBN29sTUR5cENxWEhTODlNbE5BcnZhMVVBaG1iVXJ1bVhZTDJfbXlJQU54MzVnQVJ3b3FGeHctRjh2UDBKQUFXVXVsdmMzZVhlb3M3WTJZTWF4SXhQckpvQlB2dG4zWU5yQWh4MURwOTNfNmlZUEVndzdIdThnYTZwR3p5R1lMRlU?oc=5",
-        "domain": "startupfortune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T140536Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "HTX-Linked Microtransfers Spark Fears of Compliance Poisoning and Account Freezes",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUkxEd0ZVdTlRaHJOUVVnN25KQzV5cEhUQ1AtRWlZR3FZdHZsaEtZNC01VmZyc3B5WHFST1g3ZG5IMnBfM1NGMXFTOTNTLUpPMW96cC1wWm9fdUVnZHI1bkdMMkoyX1c4ZVlOMkZYRG5yZGZOSlE?oc=5",
         "domain": "finance.biggo.com",
@@ -117422,12 +117424,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T091040Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Kraken hit by 12,000 HTX-linked dust transfers",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00clN2UXNfZ3hOTjNDZ0xlaEctdG8tYmY0TUhfbUVncGEzVmU5N2VmQ2U1TC1FS3JfSmxnTF9NQ3BVM3JMRlV6UlpMN01jT1NqQ2I1UmNkWUgtUmRTRlUzZXpRd25YLWZVejMzb0I5YXluMVZT?oc=5",
         "domain": "cryptonews",
         "language": "",
         "tone": 0,
         "seendate": "20260826T052800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Muslim Brotherhood in the West: Strategies of Confrontation in France, Europe, and the United States",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hNDE3ZE44Ty03ekJvQ21PeW94WlhhQlRkQVRkR05aMGlJWWI4ZlNQSkEwejNqYmtnSGUyWUlHMUJLQzhPZE4ycXRGMnJLeDlWNXc?oc=5",
+        "domain": "yemenonline",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T123029Z",
         "source": "GoogleNews"
       },
       {
@@ -117467,15 +117487,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Sanctions, Dubai Transit Freeze Threaten To Cripple India-Iran Trade",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVmpCaTQ0bGZvUUJhS3c1dXQtWU9tQ2VRY2czczNqXzM3WWU2X3VSbkc4clh0TTljNW5KZzlLUjE5bHI2dXhXVlVxdEtRX1VKX3c0QXgzeXRBbUVBT1kzN1B3QXVnV3d5X25uZi1XYmVGS3VYRFc5NlowOHZLLTZ1djZRdUhGRVFSSXRhT3FpbVlTNWtiUG5hQVJBanFmck1iMHgtVlBTaXgzY05fYzlRRkRETzTSAbwBQVVfeXFMUHlxdHFKYmVNRDhpMmViMDZ1OW1memdxS1o1TmxQbkJYQmdMa0I5SzNxWVp2MTNSVE1fNndiRmNJel85TEc3Q0tMSFBtSFZSdTJvNUpXbnZ0dHduWjdILTRmai1qNFoyRWpCd3NmcUJxSzVKLVp5a01GdTg2eW1TTEhNejVDM3NsMGZKMkZJUVU5Tk5vMjB2SUdWTW50MEh0QVFlcy1Gd295X1R4ams2NE5TOFQtT2ZIQmpUY1k?oc=5",
-        "domain": "ndtvprofit",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T143715Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Crypto market on the morning of July 22: HTX sanctions and stablecoin collapse",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGcyREV0RXlGTUZoaW9MSnZtYkVreEpKNVJGZ0hUcWoyZU83RV8yR2dHYjRmWGVsb2pXc21qS200S1p6Q3U4VlpGM1dJTUZkNThqZjlqZjM3enlCb3hfMk02V3JMOURrLUUySkVieXVESWw4LXZvLWFCYTFPalh5MjhIVFBqNC16UTR4eGxHMWxoNTN0Tm5EblI2RkRuWWxreng4XzVVaTZVbUppR2xVdk1laE5xSzNDUVV6RzJVcmZOLUV1aUdveWpB?oc=5",
         "domain": "coinspot.io",
@@ -117485,12 +117496,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Freeze Assets Of 9 Designated Individuals/Entities, SEC Orders Operators",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMV9HdmRYQ0FFWXlqRlUySVB0aWFQbUtRZFRsY2kxT1pUV2dzUDNoUHRNSG5rcXZubWltcnc3ZERUZGd0T1RlYWhrOVJuT0NkWjVJX3hrc0V6MEpyYjFmdkJVVlRxNkdtdW5lX0NZdi0zOHJrVHFWNnFFNkk0eC14UTRqUU40RThIX29uNUZobTNVXzhSTTc0UTNR?oc=5",
-        "domain": "leadershipnewspapers",
+        "title": "US Sanctions, Dubai Transit Freeze Threaten To Cripple India-Iran Trade",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVmpCaTQ0bGZvUUJhS3c1dXQtWU9tQ2VRY2czczNqXzM3WWU2X3VSbkc4clh0TTljNW5KZzlLUjE5bHI2dXhXVlVxdEtRX1VKX3c0QXgzeXRBbUVBT1kzN1B3QXVnV3d5X25uZi1XYmVGS3VYRFc5NlowOHZLLTZ1djZRdUhGRVFSSXRhT3FpbVlTNWtiUG5hQVJBanFmck1iMHgtVlBTaXgzY05fYzlRRkRETzTSAbwBQVVfeXFMUHlxdHFKYmVNRDhpMmViMDZ1OW1memdxS1o1TmxQbkJYQmdMa0I5SzNxWVp2MTNSVE1fNndiRmNJel85TEc3Q0tMSFBtSFZSdTJvNUpXbnZ0dHduWjdILTRmai1qNFoyRWpCd3NmcUJxSzVKLVp5a01GdTg2eW1TTEhNejVDM3NsMGZKMkZJUVU5Tk5vMjB2SUdWTW50MEh0QVFlcy1Gd295X1R4ams2NE5TOFQtT2ZIQmpUY1k?oc=5",
+        "domain": "ndtvprofit",
         "language": "",
         "tone": 0,
-        "seendate": "20260821T070000Z",
+        "seendate": "20260824T143715Z",
         "source": "GoogleNews"
       },
       {
@@ -117512,6 +117523,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "B20: The Standard Behind Tokenized Stocks on Base",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CdHN4ZDB4azVMN01WdzhtNW9DUENxZ1g1RUxNc09lNUR4TnIta09qS3hvWXFnSnlwVVhrVVRFTnRXR1hmU1NyN3NUMUF2dm1ad004WjZGYWkwbDJYYUVhbk5sSGdiVEpja19BTFp6QUR6cHpRM2tJc1pBOUVhUQ?oc=5",
+        "domain": "paragraph.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260827T194024Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Federal Judge Upholds Asset Freeze For Man Tied To Iranian Oil Smuggling",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWURkY0pfcmcwaExFX0wtYUVHc0h1SGVDbTZPOXZCWHVIQWprOUdtOUtkV2tFdXU5OE5GMHNHSjJrZ1lNMWdpd2x0MWowVDBrc2RiOW5pOUlYR0dpQ2t2a2ZwTXdsS3RvTUZWS1hrNkM3dG5WTWVNWmlPaThlbGRPQ0hNVVVxOUVDeV9jLXk5Y1VqQ3o1OW9ZbV9nY0xjZw?oc=5",
         "domain": "tampafreepress",
@@ -117530,15 +117550,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "How Geopolitical Sanctions are Changing the Role of Crypto in Cross-Border Payments",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMWREVU1oOHBjQm10cG1nM044OHpidWdxejFXWFB0dG5wMk13MmhfR2FDNGNXR0lVd2VJMi1NM2FFVml6WE5pZjJoYnUyZ3ZJZ0g1RGQ0eVBjZ21fZi1MTFNCaG9mWGZmeko1YTZNSndBRUVVWHNzajhVUkJDYnZaNENMc3BfVEhNUG5sQUFKZFpDZEZhaGxja1ZqSmEwZXFPdmN5OG0wSTRfVlJSYWNTV1dRLUM5ZUZCVW1pd2tqalp1eDM1NnJoa1YxLXlMb2JUVmJJcl9VaWJXakdha3NtT2hvUdIB8AFBVV95cUxNRkVZMU5rZ3pkLWxMdFR4TjE0Um5LN0Fwa0dHT3NCUzRaaUhjcXRCeXo2dHVPYVlSVWNWanRQQ0F4dGdLa3FpdV9Gd3JXcWRlNWpLN3dHVGdpc1h6eEpPYlphOUJ3VTQ2UjZMWGVrZlRGT2ZiRnE5d1NKNktxQXVoclNGYVdrS1pYVjkzc2YyckF1WnJCS2ZNSjczUkxQaWNtay1NeGJ4MG9PNDZweTEtdlA5ZTdSbDhtSjZaY0tuY3FDMTB1UVpMTXdDOFo4Mlljek1qb2lMV1ljMG14enJVaHlyZ3VoMDY3cHlPTGp0aE8?oc=5",
-        "domain": "analyticsinsight",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T073000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US Treasury Sanctions Singapore Trader Wellbred Over Iran Oil Network",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNnQxakNCY2Q1LV82NURxMzdnWm1OYVJVM3NDelNLQTFmWlBUdjhmQlNvZE95YWJkalVfSlNTX3VNVzBzdzJTbTJ3Vy1GOUJid09FRWI5TWt1dGRkNVlYY3BEWmhYeW1VZjJLdXJmcTBUMmVHNUMtMUM0RGV6djZkM1gwYlQteEg4bDBFYUhhU1hibWozMnhoU3FWbFh3Nms?oc=5",
         "domain": "streamlinefeed.co.ke",
@@ -117548,12 +117559,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Crypto Sanctions Take Effect Against 14 EU-Banned Platforms",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95a29fTU0zR2V6RFRxN05zVGIzbGxNRk9XTHdEZWJ3allGR0JUS3hNN2tIcG5kTVdadU5VSk1lZUszU0VlSUsyRmtLVXB2dFhjcm13X2tOYmRpaERYdUlIRG9nck43Y3RUTWhGUDhVcW1kd1JpdXM2b2xLUQ?oc=5",
-        "domain": "usethebitcoin",
+        "title": "How Geopolitical Sanctions are Changing the Role of Crypto in Cross-Border Payments",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMWREVU1oOHBjQm10cG1nM044OHpidWdxejFXWFB0dG5wMk13MmhfR2FDNGNXR0lVd2VJMi1NM2FFVml6WE5pZjJoYnUyZ3ZJZ0g1RGQ0eVBjZ21fZi1MTFNCaG9mWGZmeko1YTZNSndBRUVVWHNzajhVUkJDYnZaNENMc3BfVEhNUG5sQUFKZFpDZEZhaGxja1ZqSmEwZXFPdmN5OG0wSTRfVlJSYWNTV1dRLUM5ZUZCVW1pd2tqalp1eDM1NnJoa1YxLXlMb2JUVmJJcl9VaWJXakdha3NtT2hvUdIB8AFBVV95cUxNRkVZMU5rZ3pkLWxMdFR4TjE0Um5LN0Fwa0dHT3NCUzRaaUhjcXRCeXo2dHVPYVlSVWNWanRQQ0F4dGdLa3FpdV9Gd3JXcWRlNWpLN3dHVGdpc1h6eEpPYlphOUJ3VTQ2UjZMWGVrZlRGT2ZiRnE5d1NKNktxQXVoclNGYVdrS1pYVjkzc2YyckF1WnJCS2ZNSjczUkxQaWNtay1NeGJ4MG9PNDZweTEtdlA5ZTdSbDhtSjZaY0tuY3FDMTB1UVpMTXdDOFo4Mlljek1qb2lMV1ljMG14enJVaHlyZ3VoMDY3cHlPTGp0aE8?oc=5",
+        "domain": "analyticsinsight",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T123044Z",
+        "seendate": "20260825T073000Z",
         "source": "GoogleNews"
       },
       {
