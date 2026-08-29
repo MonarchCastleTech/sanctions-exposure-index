@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-28T22:16:57.864625+00:00",
+    "generated": "2026-08-29T07:01:51.981077+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-28T22:15:11.408735+00:00",
+    "issued_at": "2026-08-29T07:00:05.337202+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 41.7,
+    "score": 40.7,
     "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -166,12 +166,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 5.0,
+        "score": 0.0,
         "current_count": 19321,
-        "previous_count": 19319,
-        "added_count": 2,
+        "previous_count": 19321,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-08-27",
         "sha256": "a2ccea04237a13459009bc527502bb6a08d4e84fe97b46fcce1ed621e9a8301e",
         "top_programs": [
@@ -242,20 +242,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58482",
-            "name": "TAEEDI, Reza Mohammad",
-            "type": "individual",
-            "program": "SDGT] [IFSR"
-          },
-          {
-            "id": "58485",
-            "name": "KAMENG TRADING LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -514,6 +501,17 @@
           "official_posture_shift": 43.2,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-08-29T07:00:05.337202+00:00",
+        "score": 40.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 71.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.2,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -578,13 +576,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "41.7/100",
+      "value": "40.7/100",
       "delta": "WATCH"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,321",
-      "delta": "+2 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -117422,12 +117420,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "HTX-Linked Microtransfers Spark Fears of Compliance Poisoning and Account Freezes",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUkxEd0ZVdTlRaHJOUVVnN25KQzV5cEhUQ1AtRWlZR3FZdHZsaEtZNC01VmZyc3B5WHFST1g3ZG5IMnBfM1NGMXFTOTNTLUpPMW96cC1wWm9fdUVnZHI1bkdMMkoyX1c4ZVlOMkZYRG5yZGZOSlE?oc=5",
-        "domain": "finance.biggo.com",
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "domain": "coindesk",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T070000Z",
+        "seendate": "20260828T091040Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Security Council LIVE: Deadly gang attacks spike in Haiti",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VV3dLQTlGZUYyYVQxYXo0VEpJbjZ4cU43dFlsNnVmLUJHZjFwRW0tUHotQlBpNHVVcWVINVgwQlBIX3lXd2FjYk04NWUwbTVMdjdmVzJwMA?oc=5",
+        "domain": "unnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T190920Z",
         "source": "GoogleNews"
       },
       {
@@ -117437,6 +117444,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260825T093704Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "HTX-Linked Microtransfers Spark Fears of Compliance Poisoning and Account Freezes",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUkxEd0ZVdTlRaHJOUVVnN25KQzV5cEhUQ1AtRWlZR3FZdHZsaEtZNC01VmZyc3B5WHFST1g3ZG5IMnBfM1NGMXFTOTNTLUpPMW96cC1wWm9fdUVnZHI1bkdMMkoyX1c4ZVlOMkZYRG5yZGZOSlE?oc=5",
+        "domain": "finance.biggo.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -117458,15 +117474,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US moots expanding Darfur arms embargo to cover drones and all of Sudan",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0VpaTh5dzQ2LVo2akViQjNuTDRpdVBzakVoZ3pTbnhmWFlNcTFhN3U5WVo0blREWjRSWlFjWlh2NVRqbUwxYmlaZUVLeDVCMFZpVTUzQl9mXzVlZkRNTnYzMXQ2YTQ5cmh1QVRLNHUzQ25GYncyZlpZLWVwc3VsM01OX0VHS1VmSXBlOE1XQmpHeDA1dnc3cWtvZ0ZqU1NaWFJ4c29Qam5CeEJvZTFyby1rM1VRbjU1cXNXVg?oc=5",
-        "domain": "dabangaradiotvonline",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T123506Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU Imposes Sanctions Calling For Strait of Hormuz Freedom of Navigation",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjV0Y1BJckNvbGNJMzJURWRTbHZRRFNHNFdjYWRvcGc2TkZ1djNpWWcyajY0SDBjRktHQXhQdDk2c0pReS1zemhqcG9DeTlMaTFmNk0wVXlaa19zV2h2Umh0MlVQampsVm9tQVBXOE91LWFPUjhMaGVJRmFNeHhBeWpqRXE3aTg4aS0wNmpVOTV5WlhtTklPSTdHXzNwVnBUMFVPRHhIYndUbXlYclZQSWRyeW9sRlRkSjlV?oc=5",
         "domain": "dataportuaria",
@@ -117485,12 +117492,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
-        "domain": "coindesk",
+        "title": "US moots expanding Darfur arms embargo to cover drones and all of Sudan",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0VpaTh5dzQ2LVo2akViQjNuTDRpdVBzakVoZ3pTbnhmWFlNcTFhN3U5WVo0blREWjRSWlFjWlh2NVRqbUwxYmlaZUVLeDVCMFZpVTUzQl9mXzVlZkRNTnYzMXQ2YTQ5cmh1QVRLNHUzQ25GYncyZlpZLWVwc3VsM01OX0VHS1VmSXBlOE1XQmpHeDA1dnc3cWtvZ0ZqU1NaWFJ4c29Qam5CeEJvZTFyby1rM1VRbjU1cXNXVg?oc=5",
+        "domain": "dabangaradiotvonline",
         "language": "",
         "tone": 0,
-        "seendate": "20260828T091040Z",
+        "seendate": "20260825T123506Z",
         "source": "GoogleNews"
       },
       {
@@ -117566,30 +117573,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Sanctions, Dubai Transit Freeze Threaten To Cripple India-Iran Trade",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVmpCaTQ0bGZvUUJhS3c1dXQtWU9tQ2VRY2czczNqXzM3WWU2X3VSbkc4clh0TTljNW5KZzlLUjE5bHI2dXhXVlVxdEtRX1VKX3c0QXgzeXRBbUVBT1kzN1B3QXVnV3d5X25uZi1XYmVGS3VYRFc5NlowOHZLLTZ1djZRdUhGRVFSSXRhT3FpbVlTNWtiUG5hQVJBanFmck1iMHgtVlBTaXgzY05fYzlRRkRETzTSAbwBQVVfeXFMUHlxdHFKYmVNRDhpMmViMDZ1OW1memdxS1o1TmxQbkJYQmdMa0I5SzNxWVp2MTNSVE1fNndiRmNJel85TEc3Q0tMSFBtSFZSdTJvNUpXbnZ0dHduWjdILTRmai1qNFoyRWpCd3NmcUJxSzVKLVp5a01GdTg2eW1TTEhNejVDM3NsMGZKMkZJUVU5Tk5vMjB2SUdWTW50MEh0QVFlcy1Gd295X1R4ams2NE5TOFQtT2ZIQmpUY1k?oc=5",
-        "domain": "ndtvprofit",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T143715Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Crypto market on the morning of July 22: HTX sanctions and stablecoin collapse",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGcyREV0RXlGTUZoaW9MSnZtYkVreEpKNVJGZ0hUcWoyZU83RV8yR2dHYjRmWGVsb2pXc21qS200S1p6Q3U4VlpGM1dJTUZkNThqZjlqZjM3enlCb3hfMk02V3JMOURrLUUySkVieXVESWw4LXZvLWFCYTFPalh5MjhIVFBqNC16UTR4eGxHMWxoNTN0Tm5EblI2RkRuWWxreng4XzVVaTZVbUppR2xVdk1laE5xSzNDUVV6RzJVcmZOLUV1aUdveWpB?oc=5",
         "domain": "coinspot.io",
         "language": "",
         "tone": 0,
         "seendate": "20260823T113728Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sanctioned Russian lender Gazprombank was ESDS’ biggest client over the last two years",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYUVVUFNDVzY0TUdYWHlyd3BYcHI0NldQaC1fV0xMTi1RRDc4dU9OTVo1Sm9mdDVjMjFJZTMwMGVOVDNqLWdrMW1hYzRZbjRzNTBkWWw3YnZOOGNMRDNYR1NQSFRvRm1LcFZReW1hS2JvVnNCTWl1QWZBcllSN25GY2JYWkU5NmFZaXZFVWZUTXdUalVNOGRsdDlFamNqYlVVUlRlOFlvcWEzdTBOWW5HaFNMcXkwZ3kyX09nQ29yUHh1UG9SWnFuZDdSS2FCa1Y1UjM2Wl9iZDhHZ9IB3wFBVV95cUxQTWNubXlJTzhZb1FETnZiSjQxSVdaWFNPMUQ3TFJFSG00VExBaXhmRGRJN09BRzBfQlR1czZFMzFvb29NdUxVN2d3WmRlM3VMZlJBeXZZMTIxeEQ2NHRjMFBxeFI4YUIxWGtJVXlxZFNNLU9SS0pfREdWQ3FoYmwyNWd3dFhyb2hSa2ZBeFpZN1dqbmJ2bmdwenhzT3pSN2Z1YmQ2b2pEOTV3ZjRNX2cybndYWWhQZXlTbU9oYXhjby1TUUxqbHBGcnJCTy1HNTVMZldSQmlrSFJwR3RJSEFZ?oc=5",
-        "domain": "moneycontrol.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T092739Z",
         "source": "GoogleNews"
       },
       {
