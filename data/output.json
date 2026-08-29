@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-29T07:01:51.981077+00:00",
+    "generated": "2026-08-29T16:42:41.561875+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T07:00:05.337202+00:00",
+    "issued_at": "2026-08-29T16:40:54.781918+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 40.7,
@@ -504,6 +504,17 @@
       },
       {
         "timestamp": "2026-08-29T07:00:05.337202+00:00",
+        "score": 40.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 71.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-29T16:40:54.781918+00:00",
         "score": 40.7,
         "level": "WATCH",
         "components": {
@@ -117420,24 +117431,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T091040Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Security Council LIVE: Deadly gang attacks spike in Haiti",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VV3dLQTlGZUYyYVQxYXo0VEpJbjZ4cU43dFlsNnVmLUJHZjFwRW0tUHotQlBpNHVVcWVINVgwQlBIX3lXd2FjYk04NWUwbTVMdjdmVzJwMA?oc=5",
-        "domain": "unnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T190920Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Zolota Korona is permanently ceasing operations in Europe due to EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkJ6VjdDTUoyZnpCUzBGUnppNzNnUjlhWWJwUUdxZnFNRzN6RU1zNk5Ka0JKdk1NQ2FZa3lHMFdjeW9qVFRrMjRCYjFqVVR6bURLdk1rVUxsajNLMXRiaktoa2h3NlA1NTBZTnNFUUlYby15STJjakl2dTNTbTdlZGNSQllvbEJzT2M2MnVIRFVJbHZuLXR6eXJZVE9xNjQ?oc=5",
         "domain": "ua.news",
@@ -117501,6 +117494,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T091040Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "European sanctions: the Hilton Frankfurt Gravenbruch switches to emergency mode",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWtWTjdXTE1aUGJWZHpDM3hNVWV6S2FUbGpUYk1RNFp6SXRzNnJlQ1VTMVBsMmFDaUhmX3NmVHd5THdKN3prM3gwbXZYTUVmZGFXdnJrdnBXaWZ5X291QlhxR3dnOTMyZVVTTTdJaWlYdldIWHRicW9HMWU0bmUxM3UzdzBTMzJLSGwzVWhnSzQyelJ0SmR6dHJPczNaejhXM1lNVzVCcDZCZzlwd05neUZNQQ?oc=5",
         "domain": "hospitalityon",
@@ -117534,15 +117536,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260825T070643Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Muslim Brotherhood in the West: Strategies of Confrontation in France, Europe, and the United States",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hNDE3ZE44Ty03ekJvQ21PeW94WlhhQlRkQVRkR05aMGlJWWI4ZlNQSkEwejNqYmtnSGUyWUlHMUJLQzhPZE4ycXRGMnJLeDlWNXc?oc=5",
-        "domain": "yemenonline",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T123029Z",
         "source": "GoogleNews"
       },
       {
@@ -117588,15 +117581,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260825T103151Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How Economic Sanctions Work: A Complete Guide to Trade, Banking, Global Supply Chains",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ1ZHeFB1V3NSWENlaWx2US0xaTRkbno1SFFEc1R0M2s4djQtcjc4Z0h6LWFqbG50bUsydllyWmFsNzNZS1JOUHNiS1pPOWQwd0xjdXpzdjI3V2JVeGd3SEJ1d3JqWTFfZnVFWmhaWkY2dnAwTC1HVFNmX0d3dy1nRXpIeENodG5Hb202aWxNTW42NHJGaVhFY2M2bXI2R3VLakc5eTI3RFY0aS14dXk3SGxDdV82TGUxazFyTzJHSzl0RnZmWWhIb2YzQUxrRzjSAc8BQVVfeXFMTWdWR3hQdVdzUlhDZWlsdlEtMWk0ZG56NUhRRHNUdDNrOHY0LXI3OGdIei1hamxudG1LMnZZclphbDczWUtSTlBzYktaTzlkMHdMY3V6c3YyN1diVXhnd0hCdXdyalkxX2Z1RVpoWlpGNnZwMEwtR1RTZl9Hd3ctZ0V6SHhDaHRuR29tNmlsTU1uNjRyRmlYRWNjNm1yNkd1S2pHOXkyN0RWNGkteHV5N0hsQ3VfNkxlMWsxck8yR0s5dEZ2ZlloSG9mM0FMa0c4?oc=5",
-        "domain": "analyticsinsight",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T113952Z",
         "source": "GoogleNews"
       },
       {
