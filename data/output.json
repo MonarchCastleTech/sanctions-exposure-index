@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-29T20:54:39.121016+00:00",
+    "generated": "2026-08-30T05:21:13.432737+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T20:52:52.742405+00:00",
+    "issued_at": "2026-08-30T05:19:26.826959+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 40.7,
@@ -526,6 +526,17 @@
       },
       {
         "timestamp": "2026-08-29T20:52:52.742405+00:00",
+        "score": 40.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 71.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-30T05:19:26.826959+00:00",
         "score": 40.7,
         "level": "WATCH",
         "components": {
@@ -117361,15 +117372,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Can U.S. Sanctions on Iran Be an “Act of War” Under International Law?",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVFNM1dBdFMyVkdtQjZZSV82a1lXSkFmMWNXdUsyNDVCczVYYW5manZycXl5SG9URS1oc0NQeDk0Z1QybWdDS09LcEkxUEgyeEdkTktFMzQ1anRaSmNiUnIzeUxsSE44bmJGbkkxTV9CakdmRVhrNDB4bnl0MEgxdnNJVWZQaE40TW0zQ2lHNGh0SkwwdTdKSENFak9ybmdydk44d0ZR?oc=5",
-        "domain": "diplomacyandlaw",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T110820Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Is the United Arab Emirates’ Iran Trade Freeze Economic Shock or Strategic Pivot?",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSDdkM2hTekZacVdlN3pyelVXTVBKUlBQNnJGTWE1LUhzNFBvSi1kTzhMdzNONUhSUHRqWHZZN05kNmZVcFJqY0hxdl91WWlVSkdaOXdJYVFiUld2Z0tiajk1ZkM5MC1wWlVUZko0dlBsekZpdlE1OGNDTzRHbG9QWE1iRlI1QXRiaVNxV0dNWlRwMmFWNVNCek1QVS1lRkNORmRyWU1ySi1JRFVxX2EyZVpMdUNmSm8?oc=5",
         "domain": "middleeastforum",
@@ -117379,12 +117381,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Finance Highlights Legal Risk In China Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNWZHWW9LYWNkVXJfdjk0bENmenFmWEdRdkhuT1M4dnVXR0kwU0RQVkc3NjR2NF94UURmWW54ZmlXdUszcVhVQl9vbnVoQ0ljbGxtdk1wb3VlRDE1czlwdUwyYlV6UFZoam9jYWF5ajE2V0pSdkE0YTh0UVRlRktKZ0VWMW1UMDhfYXBUOdIBVkFVX3lxTFBQbnBvVUNUZHpVbzdlTVR6cDhjQ2xGMGpnZWhyM0Q0ZWU3dEZteFFqQ3VtNjhDOWZpcjdaanNZTWpmTmFCMjRIMHRlWElHRlB5MVd5LXhR?oc=5",
-        "domain": "law360",
+        "title": "Can U.S. Sanctions on Iran Be an “Act of War” Under International Law?",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVFNM1dBdFMyVkdtQjZZSV82a1lXSkFmMWNXdUsyNDVCczVYYW5manZycXl5SG9URS1oc0NQeDk0Z1QybWdDS09LcEkxUEgyeEdkTktFMzQ1anRaSmNiUnIzeUxsSE44bmJGbkkxTV9CakdmRVhrNDB4bnl0MEgxdnNJVWZQaE40TW0zQ2lHNGh0SkwwdTdKSENFak9ybmdydk44d0ZR?oc=5",
+        "domain": "diplomacyandlaw",
         "language": "",
         "tone": 0,
-        "seendate": "20260827T124700Z",
+        "seendate": "20260824T110820Z",
         "source": "GoogleNews"
       },
       {
@@ -117394,6 +117396,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260824T212956Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Finance Highlights Legal Risk In China Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNWZHWW9LYWNkVXJfdjk0bENmenFmWEdRdkhuT1M4dnVXR0kwU0RQVkc3NjR2NF94UURmWW54ZmlXdUszcVhVQl9vbnVoQ0ljbGxtdk1wb3VlRDE1czlwdUwyYlV6UFZoam9jYWF5ajE2V0pSdkE0YTh0UVRlRktKZ0VWMW1UMDhfYXBUOdIBVkFVX3lxTFBQbnBvVUNUZHpVbzdlTVR6cDhjQ2xGMGpnZWhyM0Q0ZWU3dEZteFFqQ3VtNjhDOWZpcjdaanNZTWpmTmFCMjRIMHRlWElHRlB5MVd5LXhR?oc=5",
+        "domain": "law360",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260827T124700Z",
         "source": "GoogleNews"
       },
       {
@@ -117415,21 +117426,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Britain: Sirajuddin and Jalaluddin Haqqani Remain on Sanctions List",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORUxzNFpXOUNyUDE4LUI4R0ZNa0RmWHdCbDczX205dXRSbmNmMHhKX1MtdVpOck1LY2VPd3lxZ2xzUEtUWmFLTkt2OUtjQUJZYTRMZ1Bha1dZWjBjOF9GUkdqWWh0NVptcHhkSG1SRFpNVEczUUY4T1JjdzJENkwxUk40ZGkxcDMybXUzTkVRam1VVDA?oc=5",
+        "domain": "8ammedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260830T023948Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Nine indicted by Taiwan over illegal export of Nvidia B300 GPUs to China — details reveal five-point strategy to exploit and avoid customs controls",
         "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQSU9ERmN5NDhWOHdwYXlYQmxkT0pHdUFPWHlvNGdkcDBjOHg4aUhaaWJBWTlWazFacTJPLUozV3NNeXZQa25jX0ctM1hMT3I2b04xUnpUNlBkX2hwRkhQWHR2eTNXNTM4cWY1eTZtaElZc0NreGpzQzNydjFFSnN5c2JJbzV6WWV3NFM1bE16TzlkbU1KeFpPR2RMRWhFc0NxUURBX3N4aXhXelJmRDM3aFhra1ZNZFpPd2t4ZTlfelNxb2cyYkRjMjRrcGZULU1YYkh4OFlOTVJkbGFJTUVORkpuZy1wNFpmYlV3YWZuNnJOMWNHbGsxcXFyUUJhSXRjOWlYWEZlU3EwbkVxakpNc3k1SXhUYTBhTk5yTEdaY2NtLWQwVGhfTHQ5THhVd0ItZk1zVS1RNA?oc=5",
         "domain": "tomshardware",
         "language": "",
         "tone": 0,
         "seendate": "20260824T150955Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The EU Just Barred Transactions With Justin Sun's HTX Exchange",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLW5OR3FLaC1UcEhBN29sTUR5cENxWEhTODlNbE5BcnZhMVVBaG1iVXJ1bVhZTDJfbXlJQU54MzVnQVJ3b3FGeHctRjh2UDBKQUFXVXVsdmMzZVhlb3M3WTJZTWF4SXhQckpvQlB2dG4zWU5yQWh4MURwOTNfNmlZUEVndzdIdThnYTZwR3p5R1lMRlU?oc=5",
-        "domain": "startupfortune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T140536Z",
         "source": "GoogleNews"
       },
       {
@@ -117442,24 +117453,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury Secretary Scott Bessent laid out plans for the \"economic asphyxiation\" of Iran, expanding Washington's secondary sanctions threats and warning of dire consequences for countries that do not join the campaign. | via ANC 24/7 Link to full story in th",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTEx1VHFlWDdVcTlFNVMtdEZBTkFGd1l6Mm1fS3h5SGFIb0g2UXhudDVCZTR0d2c5UWRsTkNMdHcxQWs0bkFBdDIzSDB5YXc4cHFOcjlDRUdIZjVaeEZwY01CYkdqcjZGZTJ5SGNQM2FaWXZvZEJXQVpBdTRIaU9IV2RQZzdQUHFhQW8zNk9aWXdvQk9HU2RBZktNZ21uaG9iTjlDNjgyQUwtdml2MjJVQkxhaHpqYmZRb3dFZXV0YXE3S0FuQ2ZlWjBJZHpTZ2VidWRLMUgtbw?oc=5",
-        "domain": "facebook.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T042302Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "HTX-Linked Microtransfers Spark Fears of Compliance Poisoning and Account Freezes",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUkxEd0ZVdTlRaHJOUVVnN25KQzV5cEhUQ1AtRWlZR3FZdHZsaEtZNC01VmZyc3B5WHFST1g3ZG5IMnBfM1NGMXFTOTNTLUpPMW96cC1wWm9fdUVnZHI1bkdMMkoyX1c4ZVlOMkZYRG5yZGZOSlE?oc=5",
-        "domain": "finance.biggo.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Zolota Korona is permanently ceasing operations in Europe due to EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkJ6VjdDTUoyZnpCUzBGUnppNzNnUjlhWWJwUUdxZnFNRzN6RU1zNk5Ka0JKdk1NQ2FZa3lHMFdjeW9qVFRrMjRCYjFqVVR6bURLdk1rVUxsajNLMXRiaktoa2h3NlA1NTBZTnNFUUlYby15STJjakl2dTNTbTdlZGNSQllvbEJzT2M2MnVIRFVJbHZuLXR6eXJZVE9xNjQ?oc=5",
         "domain": "ua.news",
@@ -117469,12 +117462,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Bitwise: Bessent’s Bond Moves and Dollar Weaponization Bolster Bitcoin’s Appeal",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORlU0bHRtSWFsQ1MwX0tnWm5LeVdpMnpDbjA3cGd2aTlWc3Y0VlpfcFNSMFhMYldJR0wwZXNHd3lrNDlWOG9EWWdkdkNta1E0RUE0YVNzdTVxUTJrSmFoX3FmeDNsdkJHY3haa3hWd0VnZmZibHZiSXhDOU16VUM0bkVhNVQ5Rm50VS1qMF8tVFoxNlh1OWlxaA?oc=5",
-        "domain": "cryptorank",
+        "title": "US Treasury Secretary Scott Bessent laid out plans for the \"economic asphyxiation\" of Iran, expanding Washington's secondary sanctions threats and warning of dire consequences for countries that do not join the campaign. | via ANC 24/7 Link to full story in th",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTEx1VHFlWDdVcTlFNVMtdEZBTkFGd1l6Mm1fS3h5SGFIb0g2UXhudDVCZTR0d2c5UWRsTkNMdHcxQWs0bkFBdDIzSDB5YXc4cHFOcjlDRUdIZjVaeEZwY01CYkdqcjZGZTJ5SGNQM2FaWXZvZEJXQVpBdTRIaU9IV2RQZzdQUHFhQW8zNk9aWXdvQk9HU2RBZktNZ21uaG9iTjlDNjgyQUwtdml2MjJVQkxhaHpqYmZRb3dFZXV0YXE3S0FuQ2ZlWjBJZHpTZ2VidWRLMUgtbw?oc=5",
+        "domain": "facebook.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T225430Z",
+        "seendate": "20260825T042302Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US sanctions on Iran: Could India’s trade and Chabahar plans take a hit?",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY192dlNBVVhRZFhTNENjc3F4WUVMZDkwYzJ2UU16UkJsaWVyVnpuLUxVWmx5WTM1NVd5QmdSVmhiSkcxVGQ2VWpZWms1VXEtcFM2VFB4OXpEaDlkU1ZiM21WR1NfRTg4Y2NBVEtSX3hYUlhTdFRrNjdlUU1XREcyQ0hIcmpRUmZnVWQ2M2hSYTYtNldMdTRKRHpLVktkQkViTG1hYW5aSktfSDc4NUVrb2JwS1_SAboBQVVfeXFMTVN6OUpOS2R3Y0dwRVNQZlNRckdYN19EOGZ5LTNVUFlTMlIwSHl3bnh0dEt2SjF4eHpyalZZZ2hCbC1LUlRGSUkxUmpnWkczaGZ4cF9HSEZaMDctdEpMYzhlcW5GbGtUY1hlWEFadFpqRWZKQkdNXzhWY3pnblNGbDQ2d2RYZTAyWDZZZXJrRkFWWV9MZHRuMWprVXpoSU1xMkExRVR6NmhuWnE3cGtXdDZ2UXJ3TVZfZlFR?oc=5",
+        "domain": "firstpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260825T092934Z",
         "source": "GoogleNews"
       },
       {
@@ -117496,6 +117498,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US moots expanding Darfur arms embargo to cover drones and all of Sudan",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0VpaTh5dzQ2LVo2akViQjNuTDRpdVBzakVoZ3pTbnhmWFlNcTFhN3U5WVo0blREWjRSWlFjWlh2NVRqbUwxYmlaZUVLeDVCMFZpVTUzQl9mXzVlZkRNTnYzMXQ2YTQ5cmh1QVRLNHUzQ25GYncyZlpZLWVwc3VsM01OX0VHS1VmSXBlOE1XQmpHeDA1dnc3cWtvZ0ZqU1NaWFJ4c29Qam5CeEJvZTFyby1rM1VRbjU1cXNXVg?oc=5",
+        "domain": "dabangaradiotvonline",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260825T123506Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "European sanctions: the Hilton Frankfurt Gravenbruch switches to emergency mode",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWtWTjdXTE1aUGJWZHpDM3hNVWV6S2FUbGpUYk1RNFp6SXRzNnJlQ1VTMVBsMmFDaUhmX3NmVHd5THdKN3prM3gwbXZYTUVmZGFXdnJrdnBXaWZ5X291QlhxR3dnOTMyZVVTTTdJaWlYdldIWHRicW9HMWU0bmUxM3UzdzBTMzJLSGwzVWhnSzQyelJ0SmR6dHJPczNaejhXM1lNVzVCcDZCZzlwd05neUZNQQ?oc=5",
         "domain": "hospitalityon",
@@ -117514,21 +117525,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US moots expanding Darfur arms embargo to cover drones and all of Sudan",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0VpaTh5dzQ2LVo2akViQjNuTDRpdVBzakVoZ3pTbnhmWFlNcTFhN3U5WVo0blREWjRSWlFjWlh2NVRqbUwxYmlaZUVLeDVCMFZpVTUzQl9mXzVlZkRNTnYzMXQ2YTQ5cmh1QVRLNHUzQ25GYncyZlpZLWVwc3VsM01OX0VHS1VmSXBlOE1XQmpHeDA1dnc3cWtvZ0ZqU1NaWFJ4c29Qam5CeEJvZTFyby1rM1VRbjU1cXNXVg?oc=5",
-        "domain": "dabangaradiotvonline",
+        "title": "Bitwise: Bessent’s Bond Moves and Dollar Weaponization Bolster Bitcoin’s Appeal",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORlU0bHRtSWFsQ1MwX0tnWm5LeVdpMnpDbjA3cGd2aTlWc3Y0VlpfcFNSMFhMYldJR0wwZXNHd3lrNDlWOG9EWWdkdkNta1E0RUE0YVNzdTVxUTJrSmFoX3FmeDNsdkJHY3haa3hWd0VnZmZibHZiSXhDOU16VUM0bkVhNVQ5Rm50VS1qMF8tVFoxNlh1OWlxaA?oc=5",
+        "domain": "cryptorank",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T123506Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US sanctions on Iran: Could India’s trade and Chabahar plans take a hit?",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY192dlNBVVhRZFhTNENjc3F4WUVMZDkwYzJ2UU16UkJsaWVyVnpuLUxVWmx5WTM1NVd5QmdSVmhiSkcxVGQ2VWpZWms1VXEtcFM2VFB4OXpEaDlkU1ZiM21WR1NfRTg4Y2NBVEtSX3hYUlhTdFRrNjdlUU1XREcyQ0hIcmpRUmZnVWQ2M2hSYTYtNldMdTRKRHpLVktkQkViTG1hYW5aSktfSDc4NUVrb2JwS1_SAboBQVVfeXFMTVN6OUpOS2R3Y0dwRVNQZlNRckdYN19EOGZ5LTNVUFlTMlIwSHl3bnh0dEt2SjF4eHpyalZZZ2hCbC1LUlRGSUkxUmpnWkczaGZ4cF9HSEZaMDctdEpMYzhlcW5GbGtUY1hlWEFadFpqRWZKQkdNXzhWY3pnblNGbDQ2d2RYZTAyWDZZZXJrRkFWWV9MZHRuMWprVXpoSU1xMkExRVR6NmhuWnE3cGtXdDZ2UXJ3TVZfZlFR?oc=5",
-        "domain": "firstpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T092934Z",
+        "seendate": "20260826T225430Z",
         "source": "GoogleNews"
       },
       {
@@ -117547,15 +117549,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260825T070643Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Crypto market on the morning of July 22: HTX sanctions and stablecoin collapse",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGcyREV0RXlGTUZoaW9MSnZtYkVreEpKNVJGZ0hUcWoyZU83RV8yR2dHYjRmWGVsb2pXc21qS200S1p6Q3U4VlpGM1dJTUZkNThqZjlqZjM3enlCb3hfMk02V3JMOURrLUUySkVieXVESWw4LXZvLWFCYTFPalh5MjhIVFBqNC16UTR4eGxHMWxoNTN0Tm5EblI2RkRuWWxreng4XzVVaTZVbUppR2xVdk1laE5xSzNDUVV6RzJVcmZOLUV1aUdveWpB?oc=5",
-        "domain": "coinspot.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T113728Z",
         "source": "GoogleNews"
       },
       {
@@ -117586,6 +117579,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Crypto market on the morning of July 22: HTX sanctions and stablecoin collapse",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGcyREV0RXlGTUZoaW9MSnZtYkVreEpKNVJGZ0hUcWoyZU83RV8yR2dHYjRmWGVsb2pXc21qS200S1p6Q3U4VlpGM1dJTUZkNThqZjlqZjM3enlCb3hfMk02V3JMOURrLUUySkVieXVESWw4LXZvLWFCYTFPalh5MjhIVFBqNC16UTR4eGxHMWxoNTN0Tm5EblI2RkRuWWxreng4XzVVaTZVbUppR2xVdk1laE5xSzNDUVV6RzJVcmZOLUV1aUdveWpB?oc=5",
+        "domain": "coinspot.io",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T113728Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Taliban intelligence chief makes secret visit to India, report says",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeWZGRTY5NzFERkx5M3pfMzB3bzlVYWlVTmZWbzZkSGFmZFREejI2MkhseEdKeEg3WDhGd1B4R05tZnhPdzRRc1hOYTlFMDBRRWR0cmN1WHkzdjFHZEVGN0hoR1lYRlV6Y2NObndpSDBWZFR1emcyRUpCb0hjNEs5X1VZamlacWRjeXdYUg?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260829T111415Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Museveni ‘forgives’ former speaker Among, orders release from house arrest",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLVVHYTRMYlllVHB1ZmcwNGtra29ZckcyYllUd1pEaXNzX05CSDBLNzJaLVo0UXNnNHh6dXJJZ1M4MEVhd2xONmxqS3hLYk5INmxpNThrMzBTRWNyQXEwZW1heVVTWWNKbHVEanRXd0haLUpCX3dYSFlfVmN1RzNlcFptSEVTZGxjVkRJM1RxQ01faS1pTUZVUlVOSmhUdw?oc=5",
         "domain": "ugandaobserver",
@@ -117613,12 +117624,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury Sanctions Singapore Trader Wellbred Over Iran Oil Network",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNnQxakNCY2Q1LV82NURxMzdnWm1OYVJVM3NDelNLQTFmWlBUdjhmQlNvZE95YWJkalVfSlNTX3VNVzBzdzJTbTJ3Vy1GOUJid09FRWI5TWt1dGRkNVlYY3BEWmhYeW1VZjJLdXJmcTBUMmVHNUMtMUM0RGV6djZkM1gwYlQteEg4bDBFYUhhU1hibWozMnhoU3FWbFh3Nms?oc=5",
-        "domain": "streamlinefeed.co.ke",
+        "title": "A Gujarat based firm among 4 Indian Companies Hit By Sancti…",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNllFRmV1ZGxkU2Z0X2JscHJRRVBoXzVodmtxZW1Na0NiRWN0T1ExSkJ5ejUxWWxuckdsa3djYzA3ME5aZWxyYTRJaUtWQjJIVjh6SGVxajBiUHdnRUVUdDRsRWVKU3JTdGlfRFVja19hcFJzQ0JfUk1INENiWWtWWHc2TUtkTzI2ZDBTc1VIYjlIa1dLOGpZSVloVEFCZ1RfUFB0dkN2eld4LXFUOWc1TFdsdTFSWTh5R3NrMFcxR1d5OWhIMmxfVU5YUHVkTjl4Mkd6eUlWSW9DS050QUh6TUdHdC1FN2VSb2NQblBXSGVGR0JzTl85ZVBMQXhRbTZZenJaSVd3Mnd1QVJ1eGFFNA?oc=5",
+        "domain": "gujaratsamacharenglish",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T080519Z",
+        "seendate": "20260826T065436Z",
         "source": "GoogleNews"
       },
       {
@@ -117631,30 +117642,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US Treasury Sanctions Singapore Trader Wellbred Over Iran Oil Network",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNnQxakNCY2Q1LV82NURxMzdnWm1OYVJVM3NDelNLQTFmWlBUdjhmQlNvZE95YWJkalVfSlNTX3VNVzBzdzJTbTJ3Vy1GOUJid09FRWI5TWt1dGRkNVlYY3BEWmhYeW1VZjJLdXJmcTBUMmVHNUMtMUM0RGV6djZkM1gwYlQteEg4bDBFYUhhU1hibWozMnhoU3FWbFh3Nms?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260825T080519Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Bitcoin: US Freeze on Russia Reserves Spurs Gold, BTC Demand",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZzJPSm5LRDFNbkxlUEIya2RSMGpDTlUzNTNGREVWc2p3YlJFRV9xWl9UMzl4ZjRPZTNZcGtXMGVQdEJtOVRxZlVKdmFkNnlYeVFUWXZTcnE4Mno0NUpLZklELWdKcUVIYW9KWlpJOThBeVhVMGI1ZGVLWVFBSmlOYm5aMFJ2SlVxdjdRTXoxM0VNNDg?oc=5",
         "domain": "blockchain.news",
         "language": "",
         "tone": 0,
         "seendate": "20260824T194147Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "A Gujarat based firm among 4 Indian Companies Hit By Sancti…",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNllFRmV1ZGxkU2Z0X2JscHJRRVBoXzVodmtxZW1Na0NiRWN0T1ExSkJ5ejUxWWxuckdsa3djYzA3ME5aZWxyYTRJaUtWQjJIVjh6SGVxajBiUHdnRUVUdDRsRWVKU3JTdGlfRFVja19hcFJzQ0JfUk1INENiWWtWWHc2TUtkTzI2ZDBTc1VIYjlIa1dLOGpZSVloVEFCZ1RfUFB0dkN2eld4LXFUOWc1TFdsdTFSWTh5R3NrMFcxR1d5OWhIMmxfVU5YUHVkTjl4Mkd6eUlWSW9DS050QUh6TUdHdC1FN2VSb2NQblBXSGVGR0JzTl85ZVBMQXhRbTZZenJaSVd3Mnd1QVJ1eGFFNA?oc=5",
-        "domain": "gujaratsamacharenglish",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T065436Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Crypto Sanctions Take Effect Against 14 EU-Banned Platforms",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95a29fTU0zR2V6RFRxN05zVGIzbGxNRk9XTHdEZWJ3allGR0JUS3hNN2tIcG5kTVdadU5VSk1lZUszU0VlSUsyRmtLVXB2dFhjcm13X2tOYmRpaERYdUlIRG9nck43Y3RUTWhGUDhVcW1kd1JpdXM2b2xLUQ?oc=5",
-        "domain": "usethebitcoin",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T123044Z",
         "source": "GoogleNews"
       },
       {
