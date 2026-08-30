@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-30T16:39:42.199359+00:00",
+    "generated": "2026-08-30T21:02:40.263470+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T16:37:55.503645+00:00",
+    "issued_at": "2026-08-30T21:00:53.502032+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 40.7,
@@ -559,6 +559,17 @@
       },
       {
         "timestamp": "2026-08-30T16:37:55.503645+00:00",
+        "score": 40.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 71.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-30T21:00:53.502032+00:00",
         "score": 40.7,
         "level": "WATCH",
         "components": {
@@ -117486,7 +117497,7 @@
       {
         "title": "US Treasury Secretary Scott Bessent laid out plans for the \"economic asphyxiation\" of Iran, expanding Washington's secondary sanctions threats and warning of dire consequences for countries that do not join the campaign. | via ANC 24/7 Link to full story in th",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTEx1VHFlWDdVcTlFNVMtdEZBTkFGd1l6Mm1fS3h5SGFIb0g2UXhudDVCZTR0d2c5UWRsTkNMdHcxQWs0bkFBdDIzSDB5YXc4cHFOcjlDRUdIZjVaeEZwY01CYkdqcjZGZTJ5SGNQM2FaWXZvZEJXQVpBdTRIaU9IV2RQZzdQUHFhQW8zNk9aWXdvQk9HU2RBZktNZ21uaG9iTjlDNjgyQUwtdml2MjJVQkxhaHpqYmZRb3dFZXV0YXE3S0FuQ2ZlWjBJZHpTZ2VidWRLMUgtbw?oc=5",
-        "domain": "facebook",
+        "domain": "facebook.com",
         "language": "",
         "tone": 0,
         "seendate": "20260825T042302Z",
