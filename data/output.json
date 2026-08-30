@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-30T11:52:23.826300+00:00",
+    "generated": "2026-08-30T16:39:42.199359+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T11:50:36.955223+00:00",
+    "issued_at": "2026-08-30T16:37:55.503645+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 40.7,
@@ -548,6 +548,17 @@
       },
       {
         "timestamp": "2026-08-30T11:50:36.955223+00:00",
+        "score": 40.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 71.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-30T16:37:55.503645+00:00",
         "score": 40.7,
         "level": "WATCH",
         "components": {
@@ -117455,15 +117466,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Taiwan issues indictments over alleged illegal export of AI servers to China",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRW1XY0V6TmtJTFJlbm1FTFZzM09iYngyS3hIekZsWm9uN3JueXlrZ25VVWRPZVZLUW5iNHQ0MkE2RmFuelZVOHlReGVYRHFvdkxtT2tLa2tyalZkdEx6cDg3Z1lkQnk4OEVJYXVHRmZIZGF1T3NjR1JsTlFVN3pvaTR6QVhFVDlxanlkZXNxR2NXN2hNZHZQUi0wZnZab19mMUlNU09TX0tBV3Zuc2RSRlRONTNmMXRzM1BDbWNMeFVMT2ZwcmRfc0pIbjUzUE5tNmFLSllxR2tFZ09r?oc=5",
-        "domain": "nikkeiasia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T025200Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
         "domain": "coindesk",
@@ -117484,7 +117486,7 @@
       {
         "title": "US Treasury Secretary Scott Bessent laid out plans for the \"economic asphyxiation\" of Iran, expanding Washington's secondary sanctions threats and warning of dire consequences for countries that do not join the campaign. | via ANC 24/7 Link to full story in th",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTEx1VHFlWDdVcTlFNVMtdEZBTkFGd1l6Mm1fS3h5SGFIb0g2UXhudDVCZTR0d2c5UWRsTkNMdHcxQWs0bkFBdDIzSDB5YXc4cHFOcjlDRUdIZjVaeEZwY01CYkdqcjZGZTJ5SGNQM2FaWXZvZEJXQVpBdTRIaU9IV2RQZzdQUHFhQW8zNk9aWXdvQk9HU2RBZktNZ21uaG9iTjlDNjgyQUwtdml2MjJVQkxhaHpqYmZRb3dFZXV0YXE3S0FuQ2ZlWjBJZHpTZ2VidWRLMUgtbw?oc=5",
-        "domain": "facebook.com",
+        "domain": "facebook",
         "language": "",
         "tone": 0,
         "seendate": "20260825T042302Z",
@@ -117497,6 +117499,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260825T092934Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US moots expanding Darfur arms embargo to cover drones and all of Sudan",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0VpaTh5dzQ2LVo2akViQjNuTDRpdVBzakVoZ3pTbnhmWFlNcTFhN3U5WVo0blREWjRSWlFjWlh2NVRqbUwxYmlaZUVLeDVCMFZpVTUzQl9mXzVlZkRNTnYzMXQ2YTQ5cmh1QVRLNHUzQ25GYncyZlpZLWVwc3VsM01OX0VHS1VmSXBlOE1XQmpHeDA1dnc3cWtvZ0ZqU1NaWFJ4c29Qam5CeEJvZTFyby1rM1VRbjU1cXNXVg?oc=5",
+        "domain": "dabangaradiotvonline",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260825T123506Z",
         "source": "GoogleNews"
       },
       {
@@ -117515,15 +117526,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260824T221512Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US moots expanding Darfur arms embargo to cover drones and all of Sudan",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0VpaTh5dzQ2LVo2akViQjNuTDRpdVBzakVoZ3pTbnhmWFlNcTFhN3U5WVo0blREWjRSWlFjWlh2NVRqbUwxYmlaZUVLeDVCMFZpVTUzQl9mXzVlZkRNTnYzMXQ2YTQ5cmh1QVRLNHUzQ25GYncyZlpZLWVwc3VsM01OX0VHS1VmSXBlOE1XQmpHeDA1dnc3cWtvZ0ZqU1NaWFJ4c29Qam5CeEJvZTFyby1rM1VRbjU1cXNXVg?oc=5",
-        "domain": "dabangaradiotvonline",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T123506Z",
         "source": "GoogleNews"
       },
       {
@@ -117578,6 +117580,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260827T154802Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Taliban intelligence chief makes secret visit to India, report says",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeWZGRTY5NzFERkx5M3pfMzB3bzlVYWlVTmZWbzZkSGFmZFREejI2MkhseEdKeEg3WDhGd1B4R05tZnhPdzRRc1hOYTlFMDBRRWR0cmN1WHkzdjFHZEVGN0hoR1lYRlV6Y2NObndpSDBWZFR1emcyRUpCb0hjNEs5X1VZamlacWRjeXdYUg?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260829T111415Z",
         "source": "GoogleNews"
       },
       {
