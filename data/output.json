@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-30T05:21:13.432737+00:00",
+    "generated": "2026-08-30T11:52:23.826300+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T05:19:26.826959+00:00",
+    "issued_at": "2026-08-30T11:50:36.955223+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 40.7,
@@ -537,6 +537,17 @@
       },
       {
         "timestamp": "2026-08-30T05:19:26.826959+00:00",
+        "score": 40.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 71.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 43.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-30T11:50:36.955223+00:00",
         "score": 40.7,
         "level": "WATCH",
         "components": {
@@ -117399,15 +117410,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Finance Highlights Legal Risk In China Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNWZHWW9LYWNkVXJfdjk0bENmenFmWEdRdkhuT1M4dnVXR0kwU0RQVkc3NjR2NF94UURmWW54ZmlXdUszcVhVQl9vbnVoQ0ljbGxtdk1wb3VlRDE1czlwdUwyYlV6UFZoam9jYWF5ajE2V0pSdkE0YTh0UVRlRktKZ0VWMW1UMDhfYXBUOdIBVkFVX3lxTFBQbnBvVUNUZHpVbzdlTVR6cDhjQ2xGMGpnZWhyM0Q0ZWU3dEZteFFqQ3VtNjhDOWZpcjdaanNZTWpmTmFCMjRIMHRlWElHRlB5MVd5LXhR?oc=5",
-        "domain": "law360",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T124700Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Trump to Announce Sweeping Iran Sanctions",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSXp5Q05Ja3lqMEh6TEEtcFBXNi1oWFA5WTNNbTFqTzhvdW0yODhQU0tLRzJVd01TRkhkdWpYLTdBUVdyQjdIS3BmbFFTbHM5Mi10bFZBMS03QU8wWFo2S0psbXhuQjBNT3lsSzJSRWwwUE43aHFGcmhXaF9qVUZyTzU4UzFOX3BjQlZqSA?oc=5",
         "domain": "www.israelhayom.com",
@@ -117444,12 +117446,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Security Council LIVE: Deadly gang attacks spike in Haiti",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBRm5aLU1SX0NmZ3JCWVlIZl9nS0dOMDh5WnBUYUtOWjhlR3Y4Y2ROVVNaelJNbVNpMEk3VlpFLVU5eW0ydnptUWxLU1lzR1h5d0hlaV9zQ2ZjeUdLSWNr0gFkQVVfeXFMTng3dWZqVC1Hb0RiWWJmYXBuREQ2ZUFvUUUtU05KaEtoZV9NM1pqbWlETWR1eGtLYXh2RVF1M25YbE1YcGRPQktRd1VWTnJxOEFiU3loemV5eFRMUm1UcHhHdkxybg?oc=5",
+        "domain": "globalissues.org",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260829T072719Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Taiwan issues indictments over alleged illegal export of AI servers to China",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRW1XY0V6TmtJTFJlbm1FTFZzM09iYngyS3hIekZsWm9uN3JueXlrZ25VVWRPZVZLUW5iNHQ0MkE2RmFuelZVOHlReGVYRHFvdkxtT2tLa2tyalZkdEx6cDg3Z1lkQnk4OEVJYXVHRmZIZGF1T3NjR1JsTlFVN3pvaTR6QVhFVDlxanlkZXNxR2NXN2hNZHZQUi0wZnZab19mMUlNU09TX0tBV3Zuc2RSRlRONTNmMXRzM1BDbWNMeFVMT2ZwcmRfc0pIbjUzUE5tNmFLSllxR2tFZ09r?oc=5",
         "domain": "nikkeiasia",
         "language": "",
         "tone": 0,
         "seendate": "20260825T025200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T091040Z",
         "source": "GoogleNews"
       },
       {
@@ -117480,21 +117500,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "U.S. seeks Sudan-wide arms embargo, including drones",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcy11ZWJtWFRHZXRGQi1oSUY1ZWtWeV8wRlZmdHU3TWRvWHZEaWxTOXFCaHZIWEgxcFF1QmRKdjJCMkxxMGlNZkxuVmFQT2dqbVJ4UGpGLVRhU3ExWEM2cUo0U3RfWTRrUWdzQzZUcGxPcVZfaVMwLUhka0hyZ3VRNnhvSmhZMy03dktLdngtay02eE5QaEtjNHBCSQ?oc=5",
-        "domain": "radiotamazuj",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T221512Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU Imposes Sanctions Calling For Strait of Hormuz Freedom of Navigation",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjV0Y1BJckNvbGNJMzJURWRTbHZRRFNHNFdjYWRvcGc2TkZ1djNpWWcyajY0SDBjRktHQXhQdDk2c0pReS1zemhqcG9DeTlMaTFmNk0wVXlaa19zV2h2Umh0MlVQampsVm9tQVBXOE91LWFPUjhMaGVJRmFNeHhBeWpqRXE3aTg4aS0wNmpVOTV5WlhtTklPSTdHXzNwVnBUMFVPRHhIYndUbXlYclZQSWRyeW9sRlRkSjlV?oc=5",
         "domain": "dataportuaria",
         "language": "",
         "tone": 0,
         "seendate": "20260826T005931Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "U.S. seeks Sudan-wide arms embargo, including drones",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcy11ZWJtWFRHZXRGQi1oSUY1ZWtWeV8wRlZmdHU3TWRvWHZEaWxTOXFCaHZIWEgxcFF1QmRKdjJCMkxxMGlNZkxuVmFQT2dqbVJ4UGpGLVRhU3ExWEM2cUo0U3RfWTRrUWdzQzZUcGxPcVZfaVMwLUhka0hyZ3VRNnhvSmhZMy03dktLdngtay02eE5QaEtjNHBCSQ?oc=5",
+        "domain": "radiotamazuj",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T221512Z",
         "source": "GoogleNews"
       },
       {
@@ -117516,15 +117536,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T091040Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Bitwise: Bessent’s Bond Moves and Dollar Weaponization Bolster Bitcoin’s Appeal",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORlU0bHRtSWFsQ1MwX0tnWm5LeVdpMnpDbjA3cGd2aTlWc3Y0VlpfcFNSMFhMYldJR0wwZXNHd3lrNDlWOG9EWWdkdkNta1E0RUE0YVNzdTVxUTJrSmFoX3FmeDNsdkJHY3haa3hWd0VnZmZibHZiSXhDOU16VUM0bkVhNVQ5Rm50VS1qMF8tVFoxNlh1OWlxaA?oc=5",
         "domain": "cryptorank",
@@ -117540,15 +117551,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260826T052800Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU transaction bans begin for HTX, EXMO and nine other crypto services",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QWlJKeXRvTE9Va1VpYXhpQlNPbnkybUV5b2RxQ19YeURoYy1GT0tRWndscGJIaDBzWmg0SUdITC1hUnh6aWgxZFJnRUloNjcyRDZ1RHIza3NUU1ZaNThlVnpObllOek9Oam9j?oc=5",
-        "domain": "eutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T070643Z",
         "source": "GoogleNews"
       },
       {
@@ -117576,24 +117578,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260827T154802Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Crypto market on the morning of July 22: HTX sanctions and stablecoin collapse",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGcyREV0RXlGTUZoaW9MSnZtYkVreEpKNVJGZ0hUcWoyZU83RV8yR2dHYjRmWGVsb2pXc21qS200S1p6Q3U4VlpGM1dJTUZkNThqZjlqZjM3enlCb3hfMk02V3JMOURrLUUySkVieXVESWw4LXZvLWFCYTFPalh5MjhIVFBqNC16UTR4eGxHMWxoNTN0Tm5EblI2RkRuWWxreng4XzVVaTZVbUppR2xVdk1laE5xSzNDUVV6RzJVcmZOLUV1aUdveWpB?oc=5",
-        "domain": "coinspot.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T113728Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Taliban intelligence chief makes secret visit to India, report says",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeWZGRTY5NzFERkx5M3pfMzB3bzlVYWlVTmZWbzZkSGFmZFREejI2MkhseEdKeEg3WDhGd1B4R05tZnhPdzRRc1hOYTlFMDBRRWR0cmN1WHkzdjFHZEVGN0hoR1lYRlV6Y2NObndpSDBWZFR1emcyRUpCb0hjNEs5X1VZamlacWRjeXdYUg?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260829T111415Z",
         "source": "GoogleNews"
       },
       {
