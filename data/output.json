@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-30T21:02:40.263470+00:00",
+    "generated": "2026-08-31T05:29:00.421223+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T21:00:53.502032+00:00",
+    "issued_at": "2026-08-31T05:27:13.895273+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 40.7,
-    "level": "WATCH",
+    "score": 17.5,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 71.1,
+        "score": 28.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 6,
-        "current_7d_all_releases": 6,
-        "prior_7d_designation_releases": 5,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
+        "prior_7d_designation_releases": 9,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": 1.12,
+        "baseline_weekly_median": 2.5,
+        "anomaly_z": -0.22,
         "themes": [
           "counter_terrorism",
           "iran",
@@ -69,93 +69,6 @@
             "themes": [
               "counter_terrorism",
               "russia"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
-            "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/rescission-of-syrias-designation-as-a-state-sponsor-of-terrorism/",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license",
-              "removal",
-              "rescission"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
-            "url": "https://home.treasury.gov/news/press-releases/sb0612/",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "additional sanctions",
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license",
-              "relief",
-              "removal"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
-            "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions",
-              "targeting"
-            ],
-            "relief_terms": [
-              "general license",
-              "removal"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
-            "url": "https://home.treasury.gov/news/press-releases/sb0613/",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic d-day",
-              "sanctions",
-              "unprecedented"
-            ],
-            "relief_terms": [
-              "general license",
-              "removal"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
             ],
             "designation_signal": true
           }
@@ -250,13 +163,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 43.2,
-        "current_7d_releases": 6,
-        "current_weighted_term_rate": 3.5,
-        "baseline_weeks": 10,
-        "anomaly_z": 5.56,
-        "matched_release_count": 5,
-        "relief_release_count": 5,
+        "score": 10.8,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 1.5,
+        "baseline_weeks": 11,
+        "anomaly_z": 0.0,
+        "matched_release_count": 1,
+        "relief_release_count": 1,
         "evidence": [
           {
             "title": "Iran’s Access to UAE Banks Targeted Under Operation Economic Outcast",
@@ -269,93 +182,6 @@
               "economic outcast"
             ],
             "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
-            "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/rescission-of-syrias-designation-as-a-state-sponsor-of-terrorism/",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license",
-              "removal",
-              "rescission"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
-            "url": "https://home.treasury.gov/news/press-releases/sb0612/",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "additional sanctions",
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license",
-              "relief",
-              "removal"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
-            "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions",
-              "targeting"
-            ],
-            "relief_terms": [
-              "general license",
-              "removal"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
-            "url": "https://home.treasury.gov/news/press-releases/sb0613/",
-            "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-            "date": "2026-08-24",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic d-day",
-              "sanctions",
-              "unprecedented"
-            ],
-            "relief_terms": [
-              "general license",
-              "removal"
-            ],
             "themes": [
               "counter_terrorism",
               "iran"
@@ -434,29 +260,11 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [
-        "ofac_action_velocity",
-        "official_posture_shift"
-      ],
+      "official_components": [],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [
-      {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 71.1,
-        "level": "ELEVATED",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
-      },
-      {
-        "id": "official_posture_shift",
-        "title": "Official coercive-language shift",
-        "score": 43.2,
-        "level": "WATCH",
-        "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
-      }
-    ],
+    "alerts": [],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -578,6 +386,17 @@
           "official_posture_shift": 43.2,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-08-31T05:27:13.895273+00:00",
+        "score": 17.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 10.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -642,8 +461,8 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "40.7/100",
-      "delta": "WATCH"
+      "value": "17.5/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
@@ -117432,15 +117251,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump to Announce Sweeping Iran Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSXp5Q05Ja3lqMEh6TEEtcFBXNi1oWFA5WTNNbTFqTzhvdW0yODhQU0tLRzJVd01TRkhkdWpYLTdBUVdyQjdIS3BmbFFTbHM5Mi10bFZBMS03QU8wWFo2S0psbXhuQjBNT3lsSzJSRWwwUE43aHFGcmhXaF9qVUZyTzU4UzFOX3BjQlZqSA?oc=5",
-        "domain": "www.israelhayom.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T013152Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Iran's Bank Melli remains open in Germany despite sanctions",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WM2doTHhVUHhfU01OUk1uaVFKX3JXNFI2cVhSZ2RqZGllN1hXaERla0tib1NndGNhVTR4RDVpX25LLV9BUndvQ2F5WUtLckR2Y1E?oc=5",
         "domain": "iraninternational",
@@ -117474,15 +117284,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260829T072719Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T091040Z",
         "source": "GoogleNews"
       },
       {
@@ -117537,6 +117338,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260824T221512Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T091040Z",
         "source": "GoogleNews"
       },
       {
@@ -117612,15 +117422,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "B20: The Standard Behind Tokenized Stocks on Base",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CdHN4ZDB4azVMN01WdzhtNW9DUENxZ1g1RUxNc09lNUR4TnIta09qS3hvWXFnSnlwVVhrVVRFTnRXR1hmU1NyN3NUMUF2dm1ad004WjZGYWkwbDJYYUVhbk5sSGdiVEpja19BTFp6QUR6cHpRM2tJc1pBOUVhUQ?oc=5",
-        "domain": "paragraph.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T194024Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Federal Judge Upholds Asset Freeze For Man Tied To Iranian Oil Smuggling",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWURkY0pfcmcwaExFX0wtYUVHc0h1SGVDbTZPOXZCWHVIQWprOUdtOUtkV2tFdXU5OE5GMHNHSjJrZ1lNMWdpd2x0MWowVDBrc2RiOW5pOUlYR0dpQ2t2a2ZwTXdsS3RvTUZWS1hrNkM3dG5WTWVNWmlPaThlbGRPQ0hNVVVxOUVDeV9jLXk5Y1VqQ3o1OW9ZbV9nY0xjZw?oc=5",
         "domain": "tampafreepress",
@@ -117636,15 +117437,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260826T065436Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How Geopolitical Sanctions are Changing the Role of Crypto in Cross-Border Payments",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMWREVU1oOHBjQm10cG1nM044OHpidWdxejFXWFB0dG5wMk13MmhfR2FDNGNXR0lVd2VJMi1NM2FFVml6WE5pZjJoYnUyZ3ZJZ0g1RGQ0eVBjZ21fZi1MTFNCaG9mWGZmeko1YTZNSndBRUVVWHNzajhVUkJDYnZaNENMc3BfVEhNUG5sQUFKZFpDZEZhaGxja1ZqSmEwZXFPdmN5OG0wSTRfVlJSYWNTV1dRLUM5ZUZCVW1pd2tqalp1eDM1NnJoa1YxLXlMb2JUVmJJcl9VaWJXakdha3NtT2hvUdIB8AFBVV95cUxNRkVZMU5rZ3pkLWxMdFR4TjE0Um5LN0Fwa0dHT3NCUzRaaUhjcXRCeXo2dHVPYVlSVWNWanRQQ0F4dGdLa3FpdV9Gd3JXcWRlNWpLN3dHVGdpc1h6eEpPYlphOUJ3VTQ2UjZMWGVrZlRGT2ZiRnE5d1NKNktxQXVoclNGYVdrS1pYVjkzc2YyckF1WnJCS2ZNSjczUkxQaWNtay1NeGJ4MG9PNDZweTEtdlA5ZTdSbDhtSjZaY0tuY3FDMTB1UVpMTXdDOFo4Mlljek1qb2lMV1ljMG14enJVaHlyZ3VoMDY3cHlPTGp0aE8?oc=5",
-        "domain": "analyticsinsight",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T073000Z",
         "source": "GoogleNews"
       },
       {
