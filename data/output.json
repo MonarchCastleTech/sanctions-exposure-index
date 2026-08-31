@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-31T05:29:00.421223+00:00",
+    "generated": "2026-08-31T13:40:45.402568+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-31T05:27:13.895273+00:00",
+    "issued_at": "2026-08-31T13:38:58.846074+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 17.5,
@@ -389,6 +389,17 @@
       },
       {
         "timestamp": "2026-08-31T05:27:13.895273+00:00",
+        "score": 17.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 10.8,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-08-31T13:38:58.846074+00:00",
         "score": 17.5,
         "level": "BASELINE",
         "components": {
@@ -117215,15 +117226,6 @@
     },
     "news_articles": [
       {
-        "title": "UK, EU and US sanctions on Russia",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
-        "domain": "fieldfisher",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Is the United Arab Emirates’ Iran Trade Freeze Economic Shock or Strategic Pivot?",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSDdkM2hTekZacVdlN3pyelVXTVBKUlBQNnJGTWE1LUhzNFBvSi1kTzhMdzNONUhSUHRqWHZZN05kNmZVcFJqY0hxdl91WWlVSkdaOXdJYVFiUld2Z0tiajk1ZkM5MC1wWlVUZko0dlBsekZpdlE1OGNDTzRHbG9QWE1iRlI1QXRiaVNxV0dNWlRwMmFWNVNCek1QVS1lRkNORmRyWU1ySi1JRFVxX2EyZVpMdUNmSm8?oc=5",
         "domain": "middleeastforum",
@@ -117233,21 +117235,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Can U.S. Sanctions on Iran Be an “Act of War” Under International Law?",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVFNM1dBdFMyVkdtQjZZSV82a1lXSkFmMWNXdUsyNDVCczVYYW5manZycXl5SG9URS1oc0NQeDk0Z1QybWdDS09LcEkxUEgyeEdkTktFMzQ1anRaSmNiUnIzeUxsSE44bmJGbkkxTV9CakdmRVhrNDB4bnl0MEgxdnNJVWZQaE40TW0zQ2lHNGh0SkwwdTdKSENFak9ybmdydk44d0ZR?oc=5",
-        "domain": "diplomacyandlaw",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T110820Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US proposes nationwide Sudan arms embargo amid China, Russia pushback",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wejczN09ucjlielRyY2p2UlQ1aXRnVzljQVlWRmZ3SHV4X0hkOFRKOVVjZnRkN1VzTEdwbEN4Y0JkMTJWVXFoT0VSek9GVnln?oc=5",
         "domain": "sudantribune",
         "language": "",
         "tone": 0,
         "seendate": "20260824T212956Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T112626Z",
         "source": "GoogleNews"
       },
       {
@@ -117269,6 +117271,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Chinese court freezes 300 million in Nexperia assets",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
+        "domain": "techzineglobal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T123415Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Nine indicted by Taiwan over illegal export of Nvidia B300 GPUs to China — details reveal five-point strategy to exploit and avoid customs controls",
         "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQSU9ERmN5NDhWOHdwYXlYQmxkT0pHdUFPWHlvNGdkcDBjOHg4aUhaaWJBWTlWazFacTJPLUozV3NNeXZQa25jX0ctM1hMT3I2b04xUnpUNlBkX2hwRkhQWHR2eTNXNTM4cWY1eTZtaElZc0NreGpzQzNydjFFSnN5c2JJbzV6WWV3NFM1bE16TzlkbU1KeFpPR2RMRWhFc0NxUURBX3N4aXhXelJmRDM3aFhra1ZNZFpPd2t4ZTlfelNxb2cyYkRjMjRrcGZULU1YYkh4OFlOTVJkbGFJTUVORkpuZy1wNFpmYlV3YWZuNnJOMWNHbGsxcXFyUUJhSXRjOWlYWEZlU3EwbkVxakpNc3k1SXhUYTBhTk5yTEdaY2NtLWQwVGhfTHQ5THhVd0ItZk1zVS1RNA?oc=5",
         "domain": "tomshardware",
@@ -117278,12 +117289,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Security Council LIVE: Deadly gang attacks spike in Haiti",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBRm5aLU1SX0NmZ3JCWVlIZl9nS0dOMDh5WnBUYUtOWjhlR3Y4Y2ROVVNaelJNbVNpMEk3VlpFLVU5eW0ydnptUWxLU1lzR1h5d0hlaV9zQ2ZjeUdLSWNr0gFkQVVfeXFMTng3dWZqVC1Hb0RiWWJmYXBuREQ2ZUFvUUUtU05KaEtoZV9NM1pqbWlETWR1eGtLYXh2RVF1M25YbE1YcGRPQktRd1VWTnJxOEFiU3loemV5eFRMUm1UcHhHdkxybg?oc=5",
-        "domain": "globalissues.org",
+        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPODZLZzV0UUN2eHNNSld4NFB1STNBWXo2SzAyeElCdFREU2JqN0NxTzc1SlpGV29iYTYtSElDRUplNjFmaXA3SUc2eTA0VHBKVXhmc3EzN0owdW5nVVpjdEpVeElzdkYwbnM4Q1RGTzNDWHJEOVhqdUVJbGFmZ3BwODhxSDlINkNvLVpyT3lLMjdWVlFDa05naHNwOEhEM2MxbUxNeDczakczZ0Vx?oc=5",
+        "domain": "wkzo",
         "language": "",
         "tone": 0,
-        "seendate": "20260829T072719Z",
+        "seendate": "20260831T113730Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Financial services regulatory summary: August 2026",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aMVhKckUtWl94dXByQXFreGptcWtMWTRqRnI3aWphcXhMV0NmZno0NENRMVgtMl9DSDhnSHhROGpNSWJpZ0hNYnE3WnJxY2tYOTJfZERhd1dPdF9CRUJsZTdYUVdTTXJhZ2RNR25HV1JhN09IUlFyZHVudw?oc=5",
+        "domain": "channeleye.media",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T071549Z",
         "source": "GoogleNews"
       },
       {
@@ -117341,15 +117361,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T091040Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "European sanctions: the Hilton Frankfurt Gravenbruch switches to emergency mode",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWtWTjdXTE1aUGJWZHpDM3hNVWV6S2FUbGpUYk1RNFp6SXRzNnJlQ1VTMVBsMmFDaUhmX3NmVHd5THdKN3prM3gwbXZYTUVmZGFXdnJrdnBXaWZ5X291QlhxR3dnOTMyZVVTTTdJaWlYdldIWHRicW9HMWU0bmUxM3UzdzBTMzJLSGwzVWhnSzQyelJ0SmR6dHJPczNaejhXM1lNVzVCcDZCZzlwd05neUZNQQ?oc=5",
         "domain": "hospitalityon",
@@ -117374,6 +117385,33 @@
         "language": "",
         "tone": 0,
         "seendate": "20260826T052800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T091040Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Frozen Yachts and EU Sanctions: The System is Starting to Creak",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcEhQWWFRTFFORnZVYy1Ecm0ydDI5dG5BWHF3aG1xX0NFbFRqX2VGaXV5NUtiazgyZXhBQ01ibXpBTmh2VmM0TW9yb3ZTR0dMYU5vWVpXT0M4Tm9JdXRRN3ZNbGlZY1R0dVpzYy1qZDhmSFBtWjd0LTRCMnNWaHljNFZsRXoycWxHWExSakxybXBtcDZwUlBfV2lfTmdCRHlPbjMwVkFOQjlLTlNTd3ZDSzhqQXY4Nlhq0gG-AUFVX3lxTE1UckQtWjJVbERRcW9CZ1RpSVhidGx3N0cwNkhkeFQzeC00Nnh6NHpBZTVGTEIwQzU1YWJxZUZ4QU16THZpbUxPV2cwN1FWM0RQUUFnM1pDeUkySkpqeG1QTWVGeVp5aUYtZDY1bnVHY2NkM3lPeUlFdGZobzZCaHRYSHJwSFEzcGJQejE2WmZfSWFzNVlnam9CeXprN3A1Y3RrU2RFQjQ5N3R4WDNTVWJMbnNab2pXaXdVYk5DQ1E?oc=5",
+        "domain": "pressmare",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T092800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Shafaq News..CBI orders asset freeze for 12 political figures in corruption cases",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmFqMTJjTFliV25ZV2J3WUhsYTlHOXFtU2RZN203V0Nlb1JKd09Wd29VdlZIVjhoaUNyaFdTN1FNdzVaSWlTM0NZMTFlaS1YNDJMbkExYXJ5NkluYmRRcU8xMzZYRE9vbENUSXlWQ1NpQlJ5UWtyMUhNQWtCQnI4Wi1oN211QU81X0RIdGRCbzFTMEJVbXh1QmUzWUtQN3UySEY0cXF2ZnFYRjBqTkVN?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T191118Z",
         "source": "GoogleNews"
       },
       {
@@ -117410,6 +117448,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260829T111415Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "SEC Orders Capital Market Operators to Freeze Assets Traced to 9 Terrorism Financiers",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa19pV2JFTW5mSkJvdWFLVXBJUklRT29FaDNJdzdNVE4wNHUyUFpEZllGMDA3ZjNmQTlkLVgtZlpSVV9CX2lnb1AxUDNPdzJwSEtUU2gwUFpxb0trNFYzMlNkUDlFQUxMUkFTR1JXNDR0NUh5bjcwNVZmU3RWNEt2aFBFQlJLSmxFTmpQRE5MZ1ljcXEtRWszeVROXzFWLThRa21lejRkUTBNRnh3VXlKYk9IMl83WUdiOWpyRkEyZGwzRnc?oc=5",
+        "domain": "thisdaylive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260830T072249Z",
         "source": "GoogleNews"
       },
       {
@@ -117464,15 +117511,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260826T131406Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japanese Lawmakers Fly to Beijing as Ties Hit 1972 Low",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc1JFdG9QYVBhR2Z4aDNKSlBZeGF3U1NycnJZM3JBaGhsUTlKMVRncEhJLUtYLUY2eHh4TTNiY3dMRDAzWHJjZEVTSlVhaF81U3ViWkVnOW1lMloxMm1VTXYtTDdtUEdzYVI4Y1BURkp6YkNrdHUzVHlXenRhVlZPeWRlR1FKSXo3eHBrbS1nY0E2dw?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T092803Z",
         "source": "GoogleNews"
       }
     ]
