@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-01T11:36:41.769397+00:00",
+    "generated": "2026-09-01T16:37:00.691400+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-01T11:34:55.513043+00:00",
+    "issued_at": "2026-09-01T16:35:14.378275+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 18.1,
@@ -433,6 +433,17 @@
       },
       {
         "timestamp": "2026-09-01T11:34:55.513043+00:00",
+        "score": 18.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 13.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-01T16:35:14.378275+00:00",
         "score": 18.1,
         "level": "BASELINE",
         "components": {
@@ -117269,11 +117280,11 @@
       },
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
-        "domain": "reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZW5QNkszek16VnNLdDljaG9mVng1RnlsSnRJak94dUhYUTJraVlNZWpRZDE3bG1yZG16Qm5ickkweU8wazBETlQ2OGRrcEszMU5ULW1tbHhQVy1SQmhRNm1Hb1FCMkFfVkJqd1Fnbi1IT0hzUTdzNWt3bG1IN0M0cXlmckFEcnh3bmlnWFpzZWhIMFd0djF3UXRTR25ZU1UtUmNRenc3RmxTaHgzbGtZ?oc=5",
+        "domain": "wtvb",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T182222Z",
+        "seendate": "20260831T125108Z",
         "source": "GoogleNews"
       },
       {
@@ -117283,6 +117294,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260831T123415Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
+        "domain": "mlex",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T072700Z",
         "source": "GoogleNews"
       },
       {
@@ -117304,15 +117324,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Security Council LIVE: Deadly gang attacks spike in Haiti",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBRm5aLU1SX0NmZ3JCWVlIZl9nS0dOMDh5WnBUYUtOWjhlR3Y4Y2ROVVNaelJNbVNpMEk3VlpFLVU5eW0ydnptUWxLU1lzR1h5d0hlaV9zQ2ZjeUdLSWNr0gFkQVVfeXFMTng3dWZqVC1Hb0RiWWJmYXBuREQ2ZUFvUUUtU05KaEtoZV9NM1pqbWlETWR1eGtLYXh2RVF1M25YbE1YcGRPQktRd1VWTnJxOEFiU3loemV5eFRMUm1UcHhHdkxybg?oc=5",
-        "domain": "globalissues.org",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260829T072719Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
         "domain": "coindesk",
@@ -117322,21 +117333,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
-        "domain": "mlex",
+        "title": "A Chinese court has frozen Nexperia’s stakes in four of its own subsidiaries",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoTXZwaTV4dV9JMTRCVFNmM3lBTWxpNndORkhHaTB0NkVKR1RBd2lHSFhiWTNDbm5hNmhxa3R1SzdremlKZXNjSm1BZDgtU0tWQVVSQWxmamU2dkZKS2MtSlFnRkNRZ1FzTVFRREpXU2FrV2kzUkJZbDRB?oc=5",
+        "domain": "thenextweb",
         "language": "",
         "tone": 0,
-        "seendate": "20260901T072700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcU1zdXl2djllTDZOTS1uajVDcmdaMVlBWkYzUGQzcEJjSG1uNE9EMV9UWXJiekxPcEJUVmswU0dkMkQ4VTZyMUVKWVVEd0NZYy1GcFdycXhDd2ljZ0xydVhleml1Q3hFbElkVmkzcTB6dkxtNFhPY1YyS25BckZCd3JFX3VmMndDenNlc1V5c0hhSEJTb0NKdVZnZlZxaC1kV3c?oc=5",
-        "domain": "srnnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260831T111040Z",
+        "seendate": "20260901T114414Z",
         "source": "GoogleNews"
       },
       {
@@ -117346,6 +117348,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20260826T053210Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What’s next after China court freezes US$318 million in Nexperia assets?",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOUh0enFqRmFfc1N2M09raFJMX2xReXd5MjdrRkVhajNKSmUtTzlJdE5peHBsM1c0U3I0U25KMnM2OHN0QUl2cDQxa1NlNUFaa0xPUnN2eUJpdktqUnQtdU82V051MEtQZUg2WW5DeVpBT0Jnc1RYVHNkUThIdk40U210aVg3c0tMbUNWTEpvTEFaWVNqTVRnT0l5eTBpemZINndRV0dFWUtJaG9POGtXQkM4NTJBVFh0bU1jd29Dc9IBvwFBVV95cUxQOUh0enFqRmFfc1N2M09raFJMX2xReXd5MjdrRkVhajNKSmUtTzlJdE5peHBsM1c0U3I0U25KMnM2OHN0QUl2cDQxa1NlNUFaa0xPUnN2eUJpdktqUnQtdU82V051MEtQZUg2WW5DeVpBT0Jnc1RYVHNkUThIdk40U210aVg3c0tMbUNWTEpvTEFaWVNqTVRnT0l5eTBpemZINndRV0dFWUtJaG9POGtXQkM4NTJBVFh0bU1jd29Dcw?oc=5",
+        "domain": "southchinamorningpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T133007Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Security Council LIVE: Deadly gang attacks spike in Haiti",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VV3dLQTlGZUYyYVQxYXo0VEpJbjZ4cU43dFlsNnVmLUJHZjFwRW0tUHotQlBpNHVVcWVINVgwQlBIX3lXd2FjYk04NWUwbTVMdjdmVzJwMA?oc=5",
+        "domain": "unnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T190920Z",
         "source": "GoogleNews"
       },
       {
@@ -117360,10 +117380,19 @@
       {
         "title": "EU Imposes Sanctions Calling For Strait of Hormuz Freedom of Navigation",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjV0Y1BJckNvbGNJMzJURWRTbHZRRFNHNFdjYWRvcGc2TkZ1djNpWWcyajY0SDBjRktHQXhQdDk2c0pReS1zemhqcG9DeTlMaTFmNk0wVXlaa19zV2h2Umh0MlVQampsVm9tQVBXOE91LWFPUjhMaGVJRmFNeHhBeWpqRXE3aTg4aS0wNmpVOTV5WlhtTklPSTdHXzNwVnBUMFVPRHhIYndUbXlYclZQSWRyeW9sRlRkSjlV?oc=5",
-        "domain": "dataportuaria",
+        "domain": "dataportuaria.com",
         "language": "",
         "tone": 0,
         "seendate": "20260826T005931Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMjFsd09aM1pyN3BtV1F0blplOFRTeUdNQlRKRWxNSUU1eVZYVWRieU1XYk95cTliNjJvOWdsMGRhX1BFc0J1Z0RicWJOdGE0cS1DdW5UZDNPc0ljeS14VlJrSzBHMkZ4QXRaMzVwVlVLSWdZOHQzelFiM1lrRVpWbktfa2NXQV91MEkwT2FOanBSbC1SdGVLeEpQcmRKcGRjU1h3SlZHZFlocHRmTnBncmlzYXdFZldQZGI3MDBTRWUzZw?oc=5",
+        "domain": "streetinsider",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T103456Z",
         "source": "GoogleNews"
       },
       {
@@ -117373,15 +117402,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260826T225430Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Kraken hit by 12,000 HTX-linked dust transfers",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00clN2UXNfZ3hOTjNDZ0xlaEctdG8tYmY0TUhfbUVncGEzVmU5N2VmQ2U1TC1FS3JfSmxnTF9NQ3BVM3JMRlV6UlpMN01jT1NqQ2I1UmNkWUgtUmRTRlUzZXpRd25YLWZVejMzb0I5YXluMVZT?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T052800Z",
         "source": "GoogleNews"
       },
       {
@@ -117403,24 +117423,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chinese court freezes Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1NLUjB2U0tZODdjT1F0eHVBNGNIWnlFRWhsbDUwc0xaVEVMaURiYk02eDR0aEZNU2hBa0l4X1JiWkxSUVozNTlzMUg1MUt4U0Y4R2piZDJScXVqTmpaSS1tY3RwcTNsd2RvZDNSU0ZjajY1N1Jta1RQX3IzUmh1dU0taVVzRUlwazNPRGc3a3JWQU94ZFB1cjA3cw?oc=5",
-        "domain": "idnfinancials",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T042000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaDVzYzJDQUxheUtBOHhobDRBYUMyVDVnZy1OdUVCVjRyajVSQUFaUjd2RVBNQ3BHVTAtOHlsVElZelNsTGhMUDE0VUFuV3oyNF8zWDZ3NTJ3MFh1c2RIbGwzWWxhZV9OdGQxQUp1eEw5SUo5MDdsdnUwVEpLRENxbjM4b2MzV0NxN1Qwalh4ZGZwa1hnMmFPeENUYzVjaHdPb0pGeFpMNERvVE95bHNzSllaQ2tId3l3Z2hmMlFSc3l0UkFwaUViU0YzNlk3bUs5bFFUWW54MjA?oc=5",
-        "domain": "ettelecom",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T030804Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "HTX Dust Attacks Kraken Highlight Crypto Compliance Challenges",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HYjBmSWY4akFvWHZoYUw5bmVUa29leVRRQVBTM3M1dG1NSWgtTWZoakt3dlF4WjJwZXVnVm1MS0VjRGFXS1A1YWo0T3FMRXl5anNfV3paeGFNV3dLc0dORTVOX1Q3NUkxMmxBSXJwdw?oc=5",
         "domain": "thecryptonomist",
@@ -117432,16 +117434,25 @@
       {
         "title": "Why US proposal to expand Sudan arms embargo is stirring debate",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYmpMaUtLZUlVM210ZFlOaDJlUFBsR2k2NlJsLWdzSDRZdEtJUVMzdDZlV2Nta1hPYmxuVWZnTWo3UkhGMkxDTFpSZUY0S1ZkcEJCOGM1SWlHaXdRY2Z2YnQ2TmE4YlVSamhNYm0tQjQ4X3FHUTk3X0REX181Z0dSUERRaTJSV0hHNkFGMGlSNEhacEY0bTdQZFpId3VueVNDUHpvZ1ZvR0ZJRFhQMDU5MWlyZG8wSEh1WGx0eldWeHdCVGc?oc=5",
-        "domain": "theeastafrican.co.ke",
+        "domain": "theeastafrican",
         "language": "",
         "tone": 0,
         "seendate": "20260827T154802Z",
         "source": "GoogleNews"
       },
       {
+        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaDVzYzJDQUxheUtBOHhobDRBYUMyVDVnZy1OdUVCVjRyajVSQUFaUjd2RVBNQ3BHVTAtOHlsVElZelNsTGhMUDE0VUFuV3oyNF8zWDZ3NTJ3MFh1c2RIbGwzWWxhZV9OdGQxQUp1eEw5SUo5MDdsdnUwVEpLRENxbjM4b2MzV0NxN1Qwalh4ZGZwa1hnMmFPeENUYzVjaHdPb0pGeFpMNERvVE95bHNzSllaQ2tId3l3Z2hmMlFSc3l0UkFwaUViU0YzNlk3bUs5bFFUWW54MjA?oc=5",
+        "domain": "telecom.economictimes.indiatimes.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T030804Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Taliban intelligence chief makes secret visit to India, report says",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeWZGRTY5NzFERkx5M3pfMzB3bzlVYWlVTmZWbzZkSGFmZFREejI2MkhseEdKeEg3WDhGd1B4R05tZnhPdzRRc1hOYTlFMDBRRWR0cmN1WHkzdjFHZEVGN0hoR1lYRlV6Y2NObndpSDBWZFR1emcyRUpCb0hjNEs5X1VZamlacWRjeXdYUg?oc=5",
-        "domain": "atlaspress.news",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20260829T111415Z",
@@ -117450,10 +117461,19 @@
       {
         "title": "SEC Orders Capital Market Operators to Freeze Assets Traced to 9 Terrorism Financiers",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa19pV2JFTW5mSkJvdWFLVXBJUklRT29FaDNJdzdNVE4wNHUyUFpEZllGMDA3ZjNmQTlkLVgtZlpSVV9CX2lnb1AxUDNPdzJwSEtUU2gwUFpxb0trNFYzMlNkUDlFQUxMUkFTR1JXNDR0NUh5bjcwNVZmU3RWNEt2aFBFQlJLSmxFTmpQRE5MZ1ljcXEtRWszeVROXzFWLThRa21lejRkUTBNRnh3VXlKYk9IMl83WUdiOWpyRkEyZGwzRnc?oc=5",
-        "domain": "thisdaylive.com",
+        "domain": "thisdaylive",
         "language": "",
         "tone": 0,
         "seendate": "20260830T072249Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nexperia’s assets worth $318M frozen by Chinese court amid control dispute",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mUE16dGZTNWhnd0NzaHRXc3VKaUxYUjFGYnRaUU9EV0NQeUJ0Um1SbWpzcF91SE5tVGVFQ3gyMndpWmVhTVFvQ0RJc2ViREFCUDYtbWxMTlJKSTQ4N0lvTE5zWW5BV1o3cm9Ya2FsN09qaDQ5cDFXbGhOclU?oc=5",
+        "domain": "cryptobriefing",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T120831Z",
         "source": "GoogleNews"
       },
       {
