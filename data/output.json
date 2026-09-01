@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-08-31T22:48:48.432322+00:00",
+    "generated": "2026-09-01T05:03:13.389363+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-31T22:47:02.149014+00:00",
+    "issued_at": "2026-09-01T05:01:27.050345+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 17.5,
+    "score": 18.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -28,10 +28,10 @@
         "releases_considered": 99,
         "current_7d_designation_releases": 2,
         "current_7d_all_releases": 2,
-        "prior_7d_designation_releases": 9,
+        "prior_7d_designation_releases": 8,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.5,
-        "anomaly_z": -0.22,
+        "baseline_weekly_median": 2.0,
+        "anomaly_z": 0.0,
         "themes": [
           "counter_terrorism",
           "iran",
@@ -163,11 +163,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 10.8,
+        "score": 13.3,
         "current_7d_releases": 2,
         "current_weighted_term_rate": 1.5,
-        "baseline_weeks": 11,
-        "anomaly_z": 0.0,
+        "baseline_weeks": 12,
+        "anomaly_z": 0.31,
         "matched_release_count": 1,
         "relief_release_count": 1,
         "evidence": [
@@ -419,6 +419,17 @@
           "official_posture_shift": 10.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-01T05:01:27.050345+00:00",
+        "score": 18.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 13.3,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -483,7 +494,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "17.5/100",
+      "value": "18.1/100",
       "delta": "BASELINE"
     },
     {
@@ -117266,7 +117277,7 @@
       {
         "title": "Britain: Sirajuddin and Jalaluddin Haqqani Remain on Sanctions List",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORUxzNFpXOUNyUDE4LUI4R0ZNa0RmWHdCbDczX205dXRSbmNmMHhKX1MtdVpOck1LY2VPd3lxZ2xzUEtUWmFLTkt2OUtjQUJZYTRMZ1Bha1dZWjBjOF9GUkdqWWh0NVptcHhkSG1SRFpNVEczUUY4T1JjdzJENkwxUk40ZGkxcDMybXUzTkVRam1VVDA?oc=5",
-        "domain": "8am.media",
+        "domain": "8ammedia",
         "language": "",
         "tone": 0,
         "seendate": "20260830T023948Z",
@@ -117309,15 +117320,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMnpkVnpxdjUyWkE4blVaYWE1aWhnVUtTTXhfcDBkMUZPOS15MmlnVm9pNHdmdUdVTFdjbkRsTlhqV21SWlZPUHVPcEg0OE1VMzRXakd1SDVhYXNfbnJtZ25zNVMwbGNhZThiUHItdW9oNTZfcV9DckhHRVZWZFRnNHdGZjItSXdkRS1vUWZyLUFtSFJULWlUaWxaZEhRcFZMRXlrX3M0N0w4Z1VS?oc=5",
-        "domain": "kelo.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260831T131030Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Zolota Korona is permanently ceasing operations in Europe due to EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkJ6VjdDTUoyZnpCUzBGUnppNzNnUjlhWWJwUUdxZnFNRzN6RU1zNk5Ka0JKdk1NQ2FZa3lHMFdjeW9qVFRrMjRCYjFqVVR6bURLdk1rVUxsajNLMXRiaktoa2h3NlA1NTBZTnNFUUlYby15STJjakl2dTNTbTdlZGNSQllvbEJzT2M2MnVIRFVJbHZuLXR6eXJZVE9xNjQ?oc=5",
         "domain": "ua.news",
@@ -117336,21 +117338,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury Secretary Scott Bessent laid out plans for the \"economic asphyxiation\" of Iran, expanding Washington's secondary sanctions threats and warning of dire consequences for countries that do not join the campaign. | via ANC 24/7 Link to full story in th",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTEx1VHFlWDdVcTlFNVMtdEZBTkFGd1l6Mm1fS3h5SGFIb0g2UXhudDVCZTR0d2c5UWRsTkNMdHcxQWs0bkFBdDIzSDB5YXc4cHFOcjlDRUdIZjVaeEZwY01CYkdqcjZGZTJ5SGNQM2FaWXZvZEJXQVpBdTRIaU9IV2RQZzdQUHFhQW8zNk9aWXdvQk9HU2RBZktNZ21uaG9iTjlDNjgyQUwtdml2MjJVQkxhaHpqYmZRb3dFZXV0YXE3S0FuQ2ZlWjBJZHpTZ2VidWRLMUgtbw?oc=5",
-        "domain": "facebook.com",
+        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaEFscVNaZzF0bFVXdmRxYlpwQVV1TFBDOUpubnItNGpCRm9EUFdPQWtGbUtoSlI5N1dMWVBqeFh1U0o0NTdXWnFBT3FFaThleXU5eTFZaWxHOUNVbWNNTU5lM2FvWnFUZlNGQ0NNOEVGRTZGVS1wZHQ5QUxfSm9Yb2tvTjVld3hOSHl0TlcycTQ0WGVPWkptREhOVmZydldqYzQ3dWxhRTNySzFO?oc=5",
+        "domain": "hi99.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T042302Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US sanctions on Iran: Could India’s trade and Chabahar plans take a hit?",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY192dlNBVVhRZFhTNENjc3F4WUVMZDkwYzJ2UU16UkJsaWVyVnpuLUxVWmx5WTM1NVd5QmdSVmhiSkcxVGQ2VWpZWms1VXEtcFM2VFB4OXpEaDlkU1ZiM21WR1NfRTg4Y2NBVEtSX3hYUlhTdFRrNjdlUU1XREcyQ0hIcmpRUmZnVWQ2M2hSYTYtNldMdTRKRHpLVktkQkViTG1hYW5aSktfSDc4NUVrb2JwS1_SAboBQVVfeXFMTVN6OUpOS2R3Y0dwRVNQZlNRckdYN19EOGZ5LTNVUFlTMlIwSHl3bnh0dEt2SjF4eHpyalZZZ2hCbC1LUlRGSUkxUmpnWkczaGZ4cF9HSEZaMDctdEpMYzhlcW5GbGtUY1hlWEFadFpqRWZKQkdNXzhWY3pnblNGbDQ2d2RYZTAyWDZZZXJrRkFWWV9MZHRuMWprVXpoSU1xMkExRVR6NmhuWnE3cGtXdDZ2UXJ3TVZfZlFR?oc=5",
-        "domain": "firstpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T092934Z",
+        "seendate": "20260831T104402Z",
         "source": "GoogleNews"
       },
       {
@@ -117360,6 +117353,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260825T123506Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US sanctions on Iran: Could India’s trade and Chabahar plans take a hit?",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY192dlNBVVhRZFhTNENjc3F4WUVMZDkwYzJ2UU16UkJsaWVyVnpuLUxVWmx5WTM1NVd5QmdSVmhiSkcxVGQ2VWpZWms1VXEtcFM2VFB4OXpEaDlkU1ZiM21WR1NfRTg4Y2NBVEtSX3hYUlhTdFRrNjdlUU1XREcyQ0hIcmpRUmZnVWQ2M2hSYTYtNldMdTRKRHpLVktkQkViTG1hYW5aSktfSDc4NUVrb2JwS1_SAboBQVVfeXFMTVN6OUpOS2R3Y0dwRVNQZlNRckdYN19EOGZ5LTNVUFlTMlIwSHl3bnh0dEt2SjF4eHpyalZZZ2hCbC1LUlRGSUkxUmpnWkczaGZ4cF9HSEZaMDctdEpMYzhlcW5GbGtUY1hlWEFadFpqRWZKQkdNXzhWY3pnblNGbDQ2d2RYZTAyWDZZZXJrRkFWWV9MZHRuMWprVXpoSU1xMkExRVR6NmhuWnE3cGtXdDZ2UXJ3TVZfZlFR?oc=5",
+        "domain": "firstpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260825T092934Z",
         "source": "GoogleNews"
       },
       {
@@ -117399,15 +117401,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T091040Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Frozen Yachts and EU Sanctions: The System is Starting to Creak",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcEhQWWFRTFFORnZVYy1Ecm0ydDI5dG5BWHF3aG1xX0NFbFRqX2VGaXV5NUtiazgyZXhBQ01ibXpBTmh2VmM0TW9yb3ZTR0dMYU5vWVpXT0M4Tm9JdXRRN3ZNbGlZY1R0dVpzYy1qZDhmSFBtWjd0LTRCMnNWaHljNFZsRXoycWxHWExSakxybXBtcDZwUlBfV2lfTmdCRHlPbjMwVkFOQjlLTlNTd3ZDSzhqQXY4Nlhq0gG-AUFVX3lxTE1UckQtWjJVbERRcW9CZ1RpSVhidGx3N0cwNkhkeFQzeC00Nnh6NHpBZTVGTEIwQzU1YWJxZUZ4QU16THZpbUxPV2cwN1FWM0RQUUFnM1pDeUkySkpqeG1QTWVGeVp5aUYtZDY1bnVHY2NkM3lPeUlFdGZobzZCaHRYSHJwSFEzcGJQejE2WmZfSWFzNVlnam9CeXprN3A1Y3RrU2RFQjQ5N3R4WDNTVWJMbnNab2pXaXdVYk5DQ1E?oc=5",
         "domain": "pressmare",
@@ -117417,21 +117410,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260828T091040Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "HTX Dust Attacks Kraken Highlight Crypto Compliance Challenges",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HYjBmSWY4akFvWHZoYUw5bmVUa29leVRRQVBTM3M1dG1NSWgtTWZoakt3dlF4WjJwZXVnVm1MS0VjRGFXS1A1YWo0T3FMRXl5anNfV3paeGFNV3dLc0dORTVOX1Q3NUkxMmxBSXJwdw?oc=5",
         "domain": "thecryptonomist",
         "language": "",
         "tone": 0,
         "seendate": "20260826T055122Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Dust Attack on Kraken: Tiny Deposits Freeze Accounts",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zU1VXTERKT1dUR1hzMm5KQ3hjYlZtOGZxUmJsdWowX2N0QjI1eU9ETlN3QXY2MGV6WHJzc3dQRTI5X29pdE9VUEZKT2xHU3lzSEpmeTR4Zm1fQU04dTlJOE1UT0ctZGVFbmpLbkVn?oc=5",
-        "domain": "cryptoticker",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T062947Z",
         "source": "GoogleNews"
       },
       {
