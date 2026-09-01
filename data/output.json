@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-01T05:03:13.389363+00:00",
+    "generated": "2026-09-01T11:36:41.769397+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-01T05:01:27.050345+00:00",
+    "issued_at": "2026-09-01T11:34:55.513043+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 18.1,
@@ -422,6 +422,17 @@
       },
       {
         "timestamp": "2026-09-01T05:01:27.050345+00:00",
+        "score": 18.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 13.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-01T11:34:55.513043+00:00",
         "score": 18.1,
         "level": "BASELINE",
         "components": {
@@ -117302,30 +117313,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
         "domain": "coindesk",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T112626Z",
+        "seendate": "20260828T091040Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Financial services regulatory summary: August 2026",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aMVhKckUtWl94dXByQXFreGptcWtMWTRqRnI3aWphcXhMV0NmZno0NENRMVgtMl9DSDhnSHhROGpNSWJpZ0hNYnE3WnJxY2tYOTJfZERhd1dPdF9CRUJsZTdYUVdTTXJhZ2RNR25HV1JhN09IUlFyZHVudw?oc=5",
-        "domain": "channeleye.media",
+        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
+        "domain": "mlex",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T071549Z",
+        "seendate": "20260901T072700Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Zolota Korona is permanently ceasing operations in Europe due to EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkJ6VjdDTUoyZnpCUzBGUnppNzNnUjlhWWJwUUdxZnFNRzN6RU1zNk5Ka0JKdk1NQ2FZa3lHMFdjeW9qVFRrMjRCYjFqVVR6bURLdk1rVUxsajNLMXRiaktoa2h3NlA1NTBZTnNFUUlYby15STJjakl2dTNTbTdlZGNSQllvbEJzT2M2MnVIRFVJbHZuLXR6eXJZVE9xNjQ?oc=5",
-        "domain": "ua.news",
+        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcU1zdXl2djllTDZOTS1uajVDcmdaMVlBWkYzUGQzcEJjSG1uNE9EMV9UWXJiekxPcEJUVmswU0dkMkQ4VTZyMUVKWVVEd0NZYy1GcFdycXhDd2ljZ0xydVhleml1Q3hFbElkVmkzcTB6dkxtNFhPY1YyS25BckZCd3JFX3VmMndDenNlc1V5c0hhSEJTb0NKdVZnZlZxaC1kV3c?oc=5",
+        "domain": "srnnews",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T093704Z",
+        "seendate": "20260831T111040Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sudan: U.S. Moots Expanding Darfur Arms Embargo to Cover Drones and All of Sudan",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tdW9ESkNPdWNBX250OUFxYktTYllOSWVkVGhiLThuZXJsS3JRcGJJZHB0bzFTZm9QNHhHX2hOUC0yTDhHWDM3V2RkNks3TzZjTXhHSUpuWlhwOEE?oc=5",
+        "domain": "allafrica.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T053210Z",
         "source": "GoogleNews"
       },
       {
@@ -117338,48 +117358,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaEFscVNaZzF0bFVXdmRxYlpwQVV1TFBDOUpubnItNGpCRm9EUFdPQWtGbUtoSlI5N1dMWVBqeFh1U0o0NTdXWnFBT3FFaThleXU5eTFZaWxHOUNVbWNNTU5lM2FvWnFUZlNGQ0NNOEVGRTZGVS1wZHQ5QUxfSm9Yb2tvTjVld3hOSHl0TlcycTQ0WGVPWkptREhOVmZydldqYzQ3dWxhRTNySzFO?oc=5",
-        "domain": "hi99.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260831T104402Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US moots expanding Darfur arms embargo to cover drones and all of Sudan",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0VpaTh5dzQ2LVo2akViQjNuTDRpdVBzakVoZ3pTbnhmWFlNcTFhN3U5WVo0blREWjRSWlFjWlh2NVRqbUwxYmlaZUVLeDVCMFZpVTUzQl9mXzVlZkRNTnYzMXQ2YTQ5cmh1QVRLNHUzQ25GYncyZlpZLWVwc3VsM01OX0VHS1VmSXBlOE1XQmpHeDA1dnc3cWtvZ0ZqU1NaWFJ4c29Qam5CeEJvZTFyby1rM1VRbjU1cXNXVg?oc=5",
-        "domain": "dabangaradiotvonline",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T123506Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US sanctions on Iran: Could India’s trade and Chabahar plans take a hit?",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY192dlNBVVhRZFhTNENjc3F4WUVMZDkwYzJ2UU16UkJsaWVyVnpuLUxVWmx5WTM1NVd5QmdSVmhiSkcxVGQ2VWpZWms1VXEtcFM2VFB4OXpEaDlkU1ZiM21WR1NfRTg4Y2NBVEtSX3hYUlhTdFRrNjdlUU1XREcyQ0hIcmpRUmZnVWQ2M2hSYTYtNldMdTRKRHpLVktkQkViTG1hYW5aSktfSDc4NUVrb2JwS1_SAboBQVVfeXFMTVN6OUpOS2R3Y0dwRVNQZlNRckdYN19EOGZ5LTNVUFlTMlIwSHl3bnh0dEt2SjF4eHpyalZZZ2hCbC1LUlRGSUkxUmpnWkczaGZ4cF9HSEZaMDctdEpMYzhlcW5GbGtUY1hlWEFadFpqRWZKQkdNXzhWY3pnblNGbDQ2d2RYZTAyWDZZZXJrRkFWWV9MZHRuMWprVXpoSU1xMkExRVR6NmhuWnE3cGtXdDZ2UXJ3TVZfZlFR?oc=5",
-        "domain": "firstpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T092934Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU Imposes Sanctions Calling For Strait of Hormuz Freedom of Navigation",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjV0Y1BJckNvbGNJMzJURWRTbHZRRFNHNFdjYWRvcGc2TkZ1djNpWWcyajY0SDBjRktHQXhQdDk2c0pReS1zemhqcG9DeTlMaTFmNk0wVXlaa19zV2h2Umh0MlVQampsVm9tQVBXOE91LWFPUjhMaGVJRmFNeHhBeWpqRXE3aTg4aS0wNmpVOTV5WlhtTklPSTdHXzNwVnBUMFVPRHhIYndUbXlYclZQSWRyeW9sRlRkSjlV?oc=5",
         "domain": "dataportuaria",
         "language": "",
         "tone": 0,
         "seendate": "20260826T005931Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "European sanctions: the Hilton Frankfurt Gravenbruch switches to emergency mode",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWtWTjdXTE1aUGJWZHpDM3hNVWV6S2FUbGpUYk1RNFp6SXRzNnJlQ1VTMVBsMmFDaUhmX3NmVHd5THdKN3prM3gwbXZYTUVmZGFXdnJrdnBXaWZ5X291QlhxR3dnOTMyZVVTTTdJaWlYdldIWHRicW9HMWU0bmUxM3UzdzBTMzJLSGwzVWhnSzQyelJ0SmR6dHJPczNaejhXM1lNVzVCcDZCZzlwd05neUZNQQ?oc=5",
-        "domain": "hospitalityon",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T083217Z",
         "source": "GoogleNews"
       },
       {
@@ -117410,12 +117394,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
         "domain": "coindesk",
         "language": "",
         "tone": 0,
-        "seendate": "20260828T091040Z",
+        "seendate": "20260831T112626Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Chinese court freezes Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1NLUjB2U0tZODdjT1F0eHVBNGNIWnlFRWhsbDUwc0xaVEVMaURiYk02eDR0aEZNU2hBa0l4X1JiWkxSUVozNTlzMUg1MUt4U0Y4R2piZDJScXVqTmpaSS1tY3RwcTNsd2RvZDNSU0ZjajY1N1Jta1RQX3IzUmh1dU0taVVzRUlwazNPRGc3a3JWQU94ZFB1cjA3cw?oc=5",
+        "domain": "idnfinancials",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T042000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaDVzYzJDQUxheUtBOHhobDRBYUMyVDVnZy1OdUVCVjRyajVSQUFaUjd2RVBNQ3BHVTAtOHlsVElZelNsTGhMUDE0VUFuV3oyNF8zWDZ3NTJ3MFh1c2RIbGwzWWxhZV9OdGQxQUp1eEw5SUo5MDdsdnUwVEpLRENxbjM4b2MzV0NxN1Qwalh4ZGZwa1hnMmFPeENUYzVjaHdPb0pGeFpMNERvVE95bHNzSllaQ2tId3l3Z2hmMlFSc3l0UkFwaUViU0YzNlk3bUs5bFFUWW54MjA?oc=5",
+        "domain": "ettelecom",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T030804Z",
         "source": "GoogleNews"
       },
       {
@@ -117430,7 +117432,7 @@
       {
         "title": "Why US proposal to expand Sudan arms embargo is stirring debate",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYmpMaUtLZUlVM210ZFlOaDJlUFBsR2k2NlJsLWdzSDRZdEtJUVMzdDZlV2Nta1hPYmxuVWZnTWo3UkhGMkxDTFpSZUY0S1ZkcEJCOGM1SWlHaXdRY2Z2YnQ2TmE4YlVSamhNYm0tQjQ4X3FHUTk3X0REX181Z0dSUERRaTJSV0hHNkFGMGlSNEhacEY0bTdQZFpId3VueVNDUHpvZ1ZvR0ZJRFhQMDU5MWlyZG8wSEh1WGx0eldWeHdCVGc?oc=5",
-        "domain": "theeastafrican",
+        "domain": "theeastafrican.co.ke",
         "language": "",
         "tone": 0,
         "seendate": "20260827T154802Z",
@@ -117439,7 +117441,7 @@
       {
         "title": "Taliban intelligence chief makes secret visit to India, report says",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeWZGRTY5NzFERkx5M3pfMzB3bzlVYWlVTmZWbzZkSGFmZFREejI2MkhseEdKeEg3WDhGd1B4R05tZnhPdzRRc1hOYTlFMDBRRWR0cmN1WHkzdjFHZEVGN0hoR1lYRlV6Y2NObndpSDBWZFR1emcyRUpCb0hjNEs5X1VZamlacWRjeXdYUg?oc=5",
-        "domain": "news.google.com",
+        "domain": "atlaspress.news",
         "language": "",
         "tone": 0,
         "seendate": "20260829T111415Z",
@@ -117448,19 +117450,10 @@
       {
         "title": "SEC Orders Capital Market Operators to Freeze Assets Traced to 9 Terrorism Financiers",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa19pV2JFTW5mSkJvdWFLVXBJUklRT29FaDNJdzdNVE4wNHUyUFpEZllGMDA3ZjNmQTlkLVgtZlpSVV9CX2lnb1AxUDNPdzJwSEtUU2gwUFpxb0trNFYzMlNkUDlFQUxMUkFTR1JXNDR0NUh5bjcwNVZmU3RWNEt2aFBFQlJLSmxFTmpQRE5MZ1ljcXEtRWszeVROXzFWLThRa21lejRkUTBNRnh3VXlKYk9IMl83WUdiOWpyRkEyZGwzRnc?oc=5",
-        "domain": "thisdaylive",
+        "domain": "thisdaylive.com",
         "language": "",
         "tone": 0,
         "seendate": "20260830T072249Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Museveni ‘forgives’ former speaker Among, orders release from house arrest",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLVVHYTRMYlllVHB1ZmcwNGtra29ZckcyYllUd1pEaXNzX05CSDBLNzJaLVo0UXNnNHh6dXJJZ1M4MEVhd2xONmxqS3hLYk5INmxpNThrMzBTRWNyQXEwZW1heVVTWWNKbHVEanRXd0haLUpCX3dYSFlfVmN1RzNlcFptSEVTZGxjVkRJM1RxQ01faS1pTUZVUlVOSmhUdw?oc=5",
-        "domain": "ugandaobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T103151Z",
         "source": "GoogleNews"
       },
       {
@@ -117479,15 +117472,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260826T065436Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US Treasury Sanctions Singapore Trader Wellbred Over Iran Oil Network",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNnQxakNCY2Q1LV82NURxMzdnWm1OYVJVM3NDelNLQTFmWlBUdjhmQlNvZE95YWJkalVfSlNTX3VNVzBzdzJTbTJ3Vy1GOUJid09FRWI5TWt1dGRkNVlYY3BEWmhYeW1VZjJLdXJmcTBUMmVHNUMtMUM0RGV6djZkM1gwYlQteEg4bDBFYUhhU1hibWozMnhoU3FWbFh3Nms?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T080519Z",
         "source": "GoogleNews"
       },
       {
