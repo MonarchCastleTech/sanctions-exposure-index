@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-02T11:14:24.567955+00:00",
+    "generated": "2026-09-02T16:33:32.863853+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T11:12:37.856765+00:00",
+    "issued_at": "2026-09-02T16:31:46.231213+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 18.2,
@@ -459,6 +459,17 @@
       },
       {
         "timestamp": "2026-09-02T11:12:37.856765+00:00",
+        "score": 18.2,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 30.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-02T16:31:46.231213+00:00",
         "score": 18.2,
         "level": "BASELINE",
         "components": {
@@ -117294,6 +117305,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T112626Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Chinese court freezes 300 million in Nexperia assets",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
         "domain": "techzineglobal",
@@ -117339,15 +117359,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFNZdWF2Z1NkSTBfTlFQc1oycEQ5M1lFWEE1a1p2MnJaeG9WdFFBMXZCenJTLUYyenZaWTJ6M0xlczg5amRoWW9TaUZzZGktUnlmZ3ctNVVfRE8yQUFWU0ZDeHpHTGZzNDRJV1FoT1AtX0tmQnFXdnZWNDNBYURuUlRRbWVVcjZnWkQ1aVlmR1pvWHdseDFxb21OY2NiRkpZdXo5UjJqVk9tRnNLd3ctZDhrUE1UMjloMWJnUzloVnZQUQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260828T091040Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Chinese Court Freezes $318 Million of Nexperia Assets in Wingtech Fight",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUtHYzFTN0NVb3ZIdXgteGgtZ2FVMVpqdVFJNjJPR3poNjJySFdSRjlJZXFtRS1OMWxnOHBZUUdUTXg3ZEgxVTl1Y0dvRS00RVhScml3Q2ZPSzh6Yl9WUXVhbFlmU1FhQWdwZDg0WmdQOHBYRjlKa0lwNmRGdlJtcjlqek5aWUxPRHdCNHltV2gzdzZnVFpOR1BncGhTYWc?oc=5",
         "domain": "startupfortune",
@@ -117375,12 +117386,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcHlEaDV0NF9qNm9WNzBJLUpqb1dFdlllM3FsbDliX2V6RFhZTE9IWnNNRGpqcjNBc2xHSGlmWGh0b2I1MnJ4TVFnREZ6YU5fcWFiNmszTQ?oc=5",
-        "domain": "cryptonews.net",
+        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcDRmNWRTWDkxQ3J5MXJaczVJdXg1TDM2Qy1oRW5JNEZhdmMtQ21FVkhxNkFtYm1oZFRRUFB4YUpmUllvWGp2TUVTQUw3REdGdFBXaHVyTXdVQS1EbU5TTTF3VHZUUG1NQ0tBNk9Hb3g2dzVQZW5lelYta3ZIdzZLZEVOeDJMckF0cDZaeDBlYnppREpPNzNCeU5jUHFCTEJENGxhSFdDWVJQU3lkSkIyRmJR?oc=5",
+        "domain": "hertsadvertiser",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T115420Z",
+        "seendate": "20260902T130223Z",
         "source": "GoogleNews"
       },
       {
@@ -117399,6 +117410,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T042000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Taliban intelligence chief makes secret visit to India, report says",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeWZGRTY5NzFERkx5M3pfMzB3bzlVYWlVTmZWbzZkSGFmZFREejI2MkhseEdKeEg3WDhGd1B4R05tZnhPdzRRc1hOYTlFMDBRRWR0cmN1WHkzdjFHZEVGN0hoR1lYRlV6Y2NObndpSDBWZFR1emcyRUpCb0hjNEs5X1VZamlacWRjeXdYUg?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260829T111415Z",
         "source": "GoogleNews"
       },
       {
@@ -117426,15 +117446,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T163355Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "ICC President Akane Urges Japan to Intervene in US Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQUxKQWpzRWhRMG8zdS11VjE5blc2Q3I1MkdndG5Yc0tSTXR5azJOWTgxTk11blcwOVFXZ0h5MVRyVFU2dGtUaENQR1l5ZzlPLXIwWHJWM1c0NWdjd3lDX3p4alh3eHI0U3Itc0hXc0tiSUFPVVl1a2Y0RG8ya0w5N0sxbWdlaS1JaTFvRktVTllnTF9wZlpabjB2R24zQXJqQUVQMV9pdUMxeHFtMjB6MmFMNVUtTi1VZjZWMkNBcnNnRDN6d2p2VHNxak8tekdCbHFQTHpB?oc=5",
-        "domain": "whalesbook",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T131406Z",
         "source": "GoogleNews"
       }
     ]
