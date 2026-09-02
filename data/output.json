@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-02T16:33:32.863853+00:00",
+    "generated": "2026-09-02T21:01:06.397966+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T16:31:46.231213+00:00",
+    "issued_at": "2026-09-02T20:59:19.841810+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 18.2,
@@ -470,6 +470,17 @@
       },
       {
         "timestamp": "2026-09-02T16:31:46.231213+00:00",
+        "score": 18.2,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 30.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-02T20:59:19.841810+00:00",
         "score": 18.2,
         "level": "BASELINE",
         "components": {
@@ -117297,20 +117308,11 @@
     "news_articles": [
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
-        "domain": "reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZW5QNkszek16VnNLdDljaG9mVng1RnlsSnRJak94dUhYUTJraVlNZWpRZDE3bG1yZG16Qm5ickkweU8wazBETlQ2OGRrcEszMU5ULW1tbHhQVy1SQmhRNm1Hb1FCMkFfVkJqd1Fnbi1IT0hzUTdzNWt3bG1IN0M0cXlmckFEcnh3bmlnWFpzZWhIMFd0djF3UXRTR25ZU1UtUmNRenc3RmxTaHgzbGtZ?oc=5",
+        "domain": "wtvb",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T182222Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260831T112626Z",
+        "seendate": "20260831T125108Z",
         "source": "GoogleNews"
       },
       {
@@ -117386,12 +117388,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcDRmNWRTWDkxQ3J5MXJaczVJdXg1TDM2Qy1oRW5JNEZhdmMtQ21FVkhxNkFtYm1oZFRRUFB4YUpmUllvWGp2TUVTQUw3REdGdFBXaHVyTXdVQS1EbU5TTTF3VHZUUG1NQ0tBNk9Hb3g2dzVQZW5lelYta3ZIdzZLZEVOeDJMckF0cDZaeDBlYnppREpPNzNCeU5jUHFCTEJENGxhSFdDWVJQU3lkSkIyRmJR?oc=5",
-        "domain": "hertsadvertiser",
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcHlEaDV0NF9qNm9WNzBJLUpqb1dFdlllM3FsbDliX2V6RFhZTE9IWnNNRGpqcjNBc2xHSGlmWGh0b2I1MnJ4TVFnREZ6YU5fcWFiNmszTQ?oc=5",
+        "domain": "cryptonews.net",
         "language": "",
         "tone": 0,
-        "seendate": "20260902T130223Z",
+        "seendate": "20260831T115420Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUVZpSVctMUlpWHVFcVp1UjVhUVJTX2JXRGwwLU0zb2ZWYWZydFFWTWV1WmZUVTRVV2VqVVZXSlRJVGdKdTFrSjJIanFIbkNpUjRzMVZXLWVEa2d3VU52U243dnRobWltak5tS3NkdFJOMy1Hb3N0TWJmV0gwWGx4aHdUQkdkT2plWi1VVWY0UGxYVzI0R000YWRIM0xPdEp5YmxidlluLVUyOTRGN3FmRzhkSjRtOEtaQXYwNWoyekVpdw?oc=5",
+        "domain": "irishnews.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260902T125850Z",
         "source": "GoogleNews"
       },
       {
@@ -117428,15 +117439,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T120831Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Federal Judge Upholds Asset Freeze For Man Tied To Iranian Oil Smuggling",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWURkY0pfcmcwaExFX0wtYUVHc0h1SGVDbTZPOXZCWHVIQWprOUdtOUtkV2tFdXU5OE5GMHNHSjJrZ1lNMWdpd2x0MWowVDBrc2RiOW5pOUlYR0dpQ2t2a2ZwTXdsS3RvTUZWS1hrNkM3dG5WTWVNWmlPaThlbGRPQ0hNVVVxOUVDeV9jLXk5Y1VqQ3o1OW9ZbV9nY0xjZw?oc=5",
-        "domain": "tampafreepress",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T173733Z",
         "source": "GoogleNews"
       },
       {
