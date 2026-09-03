@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-03T16:24:10.115221+00:00",
+    "generated": "2026-09-03T20:59:51.892351+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-03T16:22:23.867113+00:00",
+    "issued_at": "2026-09-03T20:58:05.451454+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 23.7,
+    "score": 20.5,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -61,12 +61,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 16.0,
+        "score": 0.0,
         "current_count": 19326,
-        "previous_count": 19321,
-        "added_count": 6,
-        "removed_count": 1,
-        "changed": true,
+        "previous_count": 19326,
+        "added_count": 0,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-09-02",
         "sha256": "447d09384cf840252569a30b5db51d8cc4aefb396c085168246ee04e7ba2693c",
         "top_programs": [
@@ -137,52 +137,8 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58486",
-            "name": "EMPRESA DE SERVICIOS COMANDANTE RENE RAMOS LATOUR",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58487",
-            "name": "EMPRESA IMPORTADORA Y ABASTECEDORA DEL NIQUEL",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58488",
-            "name": "COMERCIAL CUPET S.A.",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58489",
-            "name": "EMPRESA IMPORTADORA DE ABASTECIMIENTO PARA EL PETROLEO",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58490",
-            "name": "BANCO EXTERIOR DE CUBA",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58491",
-            "name": "CASTRO CALIS, Fidel Ernesto",
-            "type": "individual",
-            "program": "CUBA-EO14404"
-          }
-        ],
-        "removed": [
-          {
-            "id": "42734",
-            "name": "DULAC CAPITAL LTD",
-            "type": "",
-            "program": "RUSSIA-EO14024"
-          }
-        ],
+        "added": [],
+        "removed": [],
         "retained": false
       },
       {
@@ -576,6 +532,17 @@
           "official_posture_shift": 39.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-03T20:58:05.451454+00:00",
+        "score": 20.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 39.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -640,13 +607,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "23.7/100",
+      "value": "20.5/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,326",
-      "delta": "+6 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -117433,21 +117400,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Putin's regime not enough to freeze Russia-linked firms, EU rules",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEw5dXVtekpnWFZUS0Nka29qempDYV8zdWNMdnBkbk8zWXVBV3Rra0JUcHZ6LTJBbTN1elI3NGxhNVh4cEVPT3RTa2NiWkpESFVuRFY2YkxvVFlFaU5aSlI0a2NCWF9BSDlOS2tTUHNUdUVLWFpYLWVyLW9DaGpWVS0wQkNqSHI4OU5KWkpWM0tPbGdDV3N2WGFZWXBaSkw1bWFfZHpvcHFHMzZJTW1nazFUOG1PclEzeGFKSm5yR3hIWDk3cW9FRDliZGRyWnJybWc?oc=5",
+        "domain": "euronews.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260903T094142Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Treasury Secretary Bessent Warns of Banking Sanctions for Iran's IRGC - News and Statistics",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnItV0hGa2lBMlN6TXVWX19CYmFjT3Z0SkNMY05DYkgxV2M3TGY5Z3FfYTRYLWQtdzd5SHE1SUJUMEtuWGpyN3Ffc05nVlJya28yb3hBSEc3NjhoUXowXzlkNmFxSXBSaXAwOENMYzlEVWdkX0ZjbHRqdEU0SHIwRHE5cThmeHM4eGFQY0VOTXI?oc=5",
         "domain": "indexbox",
         "language": "",
         "tone": 0,
         "seendate": "20260901T180100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Chinese court freezes 300 million in Nexperia assets",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
-        "domain": "techzineglobal",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260831T123415Z",
         "source": "GoogleNews"
       },
       {
@@ -117469,12 +117436,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Putin's autocratic regime not enough to freeze assets of Russia-linked companies, EU's court rules",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUFdkMGI5bVJVZzBPLV9yMV9WTm9faVlfMEhKNld6YnJmNFhtTkNFemhOUXJ6TE8zTnIzMEhlbVZTTmMzcW9XZ0VQczgxMWI2bk9hQ2IteVR0dFcxT2poRjRyYXJSTS1GOVVNa291eGJocm14NjlVcHNRT2N2ZTlYVWFR?oc=5",
-        "domain": "yahoonewssingapore",
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
+        "domain": "coindesk",
         "language": "",
         "tone": 0,
-        "seendate": "20260903T094142Z",
+        "seendate": "20260831T112626Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Citibank Hit With £4.7M OFSI Fine Over Control Failures",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdUtOdHFvaHQwajRSWkZRTmowQjdHbU1wdWR2V0xKVS1tTjRqWHdhMlUwSUF2RXFBc1pxSXZFOGVDUDNqdUpiSzJiVkNVNTdkak45WXdsSmpoOW4zNi1TUzZSdjhMNG9ZdFM2RHFnNC1hUEJFclN0bFY1b1oxVlk?oc=5",
+        "domain": "fincrimecentral",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260902T173833Z",
         "source": "GoogleNews"
       },
       {
@@ -117487,21 +117463,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcHlEaDV0NF9qNm9WNzBJLUpqb1dFdlllM3FsbDliX2V6RFhZTE9IWnNNRGpqcjNBc2xHSGlmWGh0b2I1MnJ4TVFnREZ6YU5fcWFiNmszTQ?oc=5",
-        "domain": "cryptonews.net",
+        "title": "China and Netherlands continue to fight on chip giant Nexperia, now Chinese court freezes $300 million of",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQamJoNTRmRXJubmNRcTVZOUF0RjN6aTExLUhCN04waWxEdkxDaXByTTMyWTlMZ0JEUVBzZ1plcVpYZmNpYnJlQnRJNWpxemtNNUlTbmVEcFVHcGdYUEQ0MkJwdHlrR2Zna1p2OTIzcEtJNlF1dHl5cjh3ODdpQl9GMXhpTGNOa1RqR0JmWnBwVjU5Nl8zcVBzZ3Yyc3QxSUdYSEFsVnBSX3FCU1pueExLUDBEMUpXNmdVYW5rRjZFaXhncXM0RF93MGJtbUNaeEpHN1lEVzlJTkxjLU51S253TnAwdUgwWG4zUW9zTGVjTTVvQ1gtcjZrNHYxTVRubEJkNlYwSTB0RWRFM2haZ2RkM1FoYlhuRUpYMHh6QUZTbndGdjhpSDBDZC1B0gGvAkFVX3lxTFBTMnZWcGdXa0Z5dFFhVlhCd1psX2JDdEI3aDBvMEZYb3dQdjlWU2g4WGxHRVIzNEFyOVlVeE1jUzJTenlHaW9Zak15Y2F5UHk2MVB5Y2tEVnpEQUlQQmd5cDdzX1FhbFV2Qm9JVU1feDJ5Z3FzNzYyenJtX0Fyc2RaYk1LTl80Smd2LThmVW9uNWlVdUpKTU1EcVZycnZYYk9tOXVONmE4cV8tVFVIM085d3dic1JXTlhVdkNVbXdNbzhWZm1NUFNzSE9keG1rV2ZpQXpvSDlwa3BVd3ZHZXJLMHpOUlQ4dWZjWURJTFpBbzk0M2VtWjNETVgybG15QTBHd3lPWXpYWGNqd05SdkdMWDVsR05nMFcwMW9EQW10QW90X0xVMVpZek1vNHVCdw?oc=5",
+        "domain": "thetimesofindia",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T115420Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcDRmNWRTWDkxQ3J5MXJaczVJdXg1TDM2Qy1oRW5JNEZhdmMtQ21FVkhxNkFtYm1oZFRRUFB4YUpmUllvWGp2TUVTQUw3REdGdFBXaHVyTXdVQS1EbU5TTTF3VHZUUG1NQ0tBNk9Hb3g2dzVQZW5lelYta3ZIdzZLZEVOeDJMckF0cDZaeDBlYnppREpPNzNCeU5jUHFCTEJENGxhSFdDWVJQU3lkSkIyRmJR?oc=5",
-        "domain": "hertsadvertiser",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260902T130223Z",
+        "seendate": "20260831T134800Z",
         "source": "GoogleNews"
       },
       {
@@ -117511,6 +117478,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T180000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONDNkMzJQVFVqQWdySE1iQTNTQ0FhOGVtMmdWME9KTTRNakUyOXlTaDdmck9rdkFNbWlLbjdaY0JFQU9fdlVlX0pjb25YTXR4WFNiZDRXZHBlOGNRUzJxZU5zU0hIbVJkbW15TzlvUG1aS3BmLThqbFUtUndialBFbG0wZFNjT1ZQZ18wRlhRa1VTTG1QUjhCSk5jQnJCSUtDRWZGdVZjc1RzalZkc2c?oc=5",
+        "domain": "eastangliandailytimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260902T130223Z",
         "source": "GoogleNews"
       },
       {
