@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-02T21:01:06.397966+00:00",
+    "generated": "2026-09-03T04:19:36.279844+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T20:59:19.841810+00:00",
+    "issued_at": "2026-09-03T04:17:49.855854+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 18.2,
+    "score": 20.5,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -28,10 +28,10 @@
         "releases_considered": 99,
         "current_7d_designation_releases": 1,
         "current_7d_all_releases": 1,
-        "prior_7d_designation_releases": 9,
+        "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.5,
-        "anomaly_z": -0.51,
+        "baseline_weekly_median": 4.0,
+        "anomaly_z": -2.02,
         "themes": [
           "counter_terrorism",
           "iran"
@@ -145,11 +145,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 30.3,
+        "score": 39.6,
         "current_7d_releases": 1,
         "current_weighted_term_rate": 3.0,
         "baseline_weeks": 10,
-        "anomaly_z": 1.09,
+        "anomaly_z": 2.61,
         "matched_release_count": 1,
         "relief_release_count": 0,
         "evidence": [
@@ -242,11 +242,21 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "official_posture_shift"
+      ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [],
+    "alerts": [
+      {
+        "id": "official_posture_shift",
+        "title": "Official coercive-language shift",
+        "score": 39.6,
+        "level": "WATCH",
+        "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
+      }
+    ],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -489,6 +499,17 @@
           "official_posture_shift": 30.3,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-03T04:17:49.855854+00:00",
+        "score": 20.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 39.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -553,7 +574,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "18.2/100",
+      "value": "20.5/100",
       "delta": "BASELINE"
     },
     {
@@ -117318,7 +117339,7 @@
       {
         "title": "Chinese court freezes 300 million in Nexperia assets",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
-        "domain": "techzineglobal",
+        "domain": "techzine.eu",
         "language": "",
         "tone": 0,
         "seendate": "20260831T123415Z",
@@ -117352,15 +117373,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran's Bank Melli remains open in Germany despite sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WM2doTHhVUHhfU01OUk1uaVFKX3JXNFI2cVhSZ2RqZGllN1hXaERla0tib1NndGNhVTR4RDVpX25LLV9BUndvQ2F5WUtLckR2Y1E?oc=5",
-        "domain": "iraninternational",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T115515Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Chinese Court Freezes $318 Million of Nexperia Assets in Wingtech Fight",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUtHYzFTN0NVb3ZIdXgteGgtZ2FVMVpqdVFJNjJPR3poNjJySFdSRjlJZXFtRS1OMWxnOHBZUUdUTXg3ZEgxVTl1Y0dvRS00RVhScml3Q2ZPSzh6Yl9WUXVhbFlmU1FhQWdwZDg0WmdQOHBYRjlKa0lwNmRGdlJtcjlqek5aWUxPRHdCNHltV2gzdzZnVFpOR1BncGhTYWc?oc=5",
         "domain": "startupfortune",
@@ -117379,15 +117391,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Bitwise: Bessent’s Bond Moves and Dollar Weaponization Bolster Bitcoin’s Appeal",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORlU0bHRtSWFsQ1MwX0tnWm5LeVdpMnpDbjA3cGd2aTlWc3Y0VlpfcFNSMFhMYldJR0wwZXNHd3lrNDlWOG9EWWdkdkNta1E0RUE0YVNzdTVxUTJrSmFoX3FmeDNsdkJHY3haa3hWd0VnZmZibHZiSXhDOU16VUM0bkVhNVQ5Rm50VS1qMF8tVFoxNlh1OWlxaA?oc=5",
-        "domain": "cryptorank",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T225430Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcHlEaDV0NF9qNm9WNzBJLUpqb1dFdlllM3FsbDliX2V6RFhZTE9IWnNNRGpqcjNBc2xHSGlmWGh0b2I1MnJ4TVFnREZ6YU5fcWFiNmszTQ?oc=5",
         "domain": "cryptonews.net",
@@ -117398,11 +117401,11 @@
       },
       {
         "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUVZpSVctMUlpWHVFcVp1UjVhUVJTX2JXRGwwLU0zb2ZWYWZydFFWTWV1WmZUVTRVV2VqVVZXSlRJVGdKdTFrSjJIanFIbkNpUjRzMVZXLWVEa2d3VU52U243dnRobWltak5tS3NkdFJOMy1Hb3N0TWJmV0gwWGx4aHdUQkdkT2plWi1VVWY0UGxYVzI0R000YWRIM0xPdEp5YmxidlluLVUyOTRGN3FmRzhkSjRtOEtaQXYwNWoyekVpdw?oc=5",
-        "domain": "irishnews.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcDRmNWRTWDkxQ3J5MXJaczVJdXg1TDM2Qy1oRW5JNEZhdmMtQ21FVkhxNkFtYm1oZFRRUFB4YUpmUllvWGp2TUVTQUw3REdGdFBXaHVyTXdVQS1EbU5TTTF3VHZUUG1NQ0tBNk9Hb3g2dzVQZW5lelYta3ZIdzZLZEVOeDJMckF0cDZaeDBlYnppREpPNzNCeU5jUHFCTEJENGxhSFdDWVJQU3lkSkIyRmJR?oc=5",
+        "domain": "hertsadvertiser",
         "language": "",
         "tone": 0,
-        "seendate": "20260902T125850Z",
+        "seendate": "20260902T130223Z",
         "source": "GoogleNews"
       },
       {
@@ -117435,7 +117438,7 @@
       {
         "title": "Nexperia’s assets worth $318M frozen by Chinese court amid control dispute",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mUE16dGZTNWhnd0NzaHRXc3VKaUxYUjFGYnRaUU9EV0NQeUJ0Um1SbWpzcF91SE5tVGVFQ3gyMndpWmVhTVFvQ0RJc2ViREFCUDYtbWxMTlJKSTQ4N0lvTE5zWW5BV1o3cm9Ya2FsN09qaDQ5cDFXbGhOclU?oc=5",
-        "domain": "cryptobriefing.com",
+        "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
         "seendate": "20260901T120831Z",
@@ -117444,7 +117447,7 @@
       {
         "title": "US Treasury tracks IRGC-linked assets worldwide, warns businesses of action",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sYkFPb2I0R2VZRFVVNjY2dGJhcWpfeXg2cjRqemkyeHduLWRINGE5THZPek85Wk96aGhzUlFvYWxKSHg3YzI4VUdOY2VpSUlINHZaZjZaRHZBTnVhQmZBRnNWMGNzRmZDdHR3ZmhMQVZDQQ?oc=5",
-        "domain": "cryptobriefing.com",
+        "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
         "seendate": "20260901T163355Z",
