@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-03T04:19:36.279844+00:00",
+    "generated": "2026-09-03T11:10:17.560466+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-03T04:17:49.855854+00:00",
+    "issued_at": "2026-09-03T11:08:30.930642+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.5,
@@ -502,6 +502,17 @@
       },
       {
         "timestamp": "2026-09-03T04:17:49.855854+00:00",
+        "score": 20.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 39.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-03T11:08:30.930642+00:00",
         "score": 20.5,
         "level": "BASELINE",
         "components": {
@@ -117329,17 +117340,26 @@
     "news_articles": [
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZW5QNkszek16VnNLdDljaG9mVng1RnlsSnRJak94dUhYUTJraVlNZWpRZDE3bG1yZG16Qm5ickkweU8wazBETlQ2OGRrcEszMU5ULW1tbHhQVy1SQmhRNm1Hb1FCMkFfVkJqd1Fnbi1IT0hzUTdzNWt3bG1IN0M0cXlmckFEcnh3bmlnWFpzZWhIMFd0djF3UXRTR25ZU1UtUmNRenc3RmxTaHgzbGtZ?oc=5",
-        "domain": "wtvb",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
+        "domain": "reuters",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T125108Z",
+        "seendate": "20260831T182222Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Putin's regime not enough to freeze Russia-linked firms, EU rules",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEw5dXVtekpnWFZUS0Nka29qempDYV8zdWNMdnBkbk8zWXVBV3Rra0JUcHZ6LTJBbTN1elI3NGxhNVh4cEVPT3RTa2NiWkpESFVuRFY2YkxvVFlFaU5aSlI0a2NCWF9BSDlOS2tTUHNUdUVLWFpYLWVyLW9DaGpWVS0wQkNqSHI4OU5KWkpWM0tPbGdDV3N2WGFZWXBaSkw1bWFfZHpvcHFHMzZJTW1nazFUOG1PclEzeGFKSm5yR3hIWDk3cW9FRDliZGRyWnJybWc?oc=5",
+        "domain": "euronews.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260903T094142Z",
         "source": "GoogleNews"
       },
       {
         "title": "Chinese court freezes 300 million in Nexperia assets",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
-        "domain": "techzine.eu",
+        "domain": "techzineglobal",
         "language": "",
         "tone": 0,
         "seendate": "20260831T123415Z",
@@ -117382,15 +117402,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China and Netherlands continue to fight on chip giant Nexperia, now Chinese court freezes $300 million of",
-        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQamJoNTRmRXJubmNRcTVZOUF0RjN6aTExLUhCN04waWxEdkxDaXByTTMyWTlMZ0JEUVBzZ1plcVpYZmNpYnJlQnRJNWpxemtNNUlTbmVEcFVHcGdYUEQ0MkJwdHlrR2Zna1p2OTIzcEtJNlF1dHl5cjh3ODdpQl9GMXhpTGNOa1RqR0JmWnBwVjU5Nl8zcVBzZ3Yyc3QxSUdYSEFsVnBSX3FCU1pueExLUDBEMUpXNmdVYW5rRjZFaXhncXM0RF93MGJtbUNaeEpHN1lEVzlJTkxjLU51S253TnAwdUgwWG4zUW9zTGVjTTVvQ1gtcjZrNHYxTVRubEJkNlYwSTB0RWRFM2haZ2RkM1FoYlhuRUpYMHh6QUZTbndGdjhpSDBDZC1B0gGvAkFVX3lxTFBTMnZWcGdXa0Z5dFFhVlhCd1psX2JDdEI3aDBvMEZYb3dQdjlWU2g4WGxHRVIzNEFyOVlVeE1jUzJTenlHaW9Zak15Y2F5UHk2MVB5Y2tEVnpEQUlQQmd5cDdzX1FhbFV2Qm9JVU1feDJ5Z3FzNzYyenJtX0Fyc2RaYk1LTl80Smd2LThmVW9uNWlVdUpKTU1EcVZycnZYYk9tOXVONmE4cV8tVFVIM085d3dic1JXTlhVdkNVbXdNbzhWZm1NUFNzSE9keG1rV2ZpQXpvSDlwa3BVd3ZHZXJLMHpOUlQ4dWZjWURJTFpBbzk0M2VtWjNETVgybG15QTBHd3lPWXpYWGNqd05SdkdMWDVsR05nMFcwMW9EQW10QW90X0xVMVpZek1vNHVCdw?oc=5",
-        "domain": "thetimesofindia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260831T134800Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcHlEaDV0NF9qNm9WNzBJLUpqb1dFdlllM3FsbDliX2V6RFhZTE9IWnNNRGpqcjNBc2xHSGlmWGh0b2I1MnJ4TVFnREZ6YU5fcWFiNmszTQ?oc=5",
         "domain": "cryptonews.net",
@@ -117427,18 +117438,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Taliban intelligence chief makes secret visit to India, report says",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeWZGRTY5NzFERkx5M3pfMzB3bzlVYWlVTmZWbzZkSGFmZFREejI2MkhseEdKeEg3WDhGd1B4R05tZnhPdzRRc1hOYTlFMDBRRWR0cmN1WHkzdjFHZEVGN0hoR1lYRlV6Y2NObndpSDBWZFR1emcyRUpCb0hjNEs5X1VZamlacWRjeXdYUg?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260829T111415Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Nexperia’s assets worth $318M frozen by Chinese court amid control dispute",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mUE16dGZTNWhnd0NzaHRXc3VKaUxYUjFGYnRaUU9EV0NQeUJ0Um1SbWpzcF91SE5tVGVFQ3gyMndpWmVhTVFvQ0RJc2ViREFCUDYtbWxMTlJKSTQ4N0lvTE5zWW5BV1o3cm9Ya2FsN09qaDQ5cDFXbGhOclU?oc=5",
-        "domain": "cryptobriefing",
+        "domain": "cryptobriefing.com",
         "language": "",
         "tone": 0,
         "seendate": "20260901T120831Z",
@@ -117447,7 +117449,7 @@
       {
         "title": "US Treasury tracks IRGC-linked assets worldwide, warns businesses of action",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sYkFPb2I0R2VZRFVVNjY2dGJhcWpfeXg2cjRqemkyeHduLWRINGE5THZPek85Wk96aGhzUlFvYWxKSHg3YzI4VUdOY2VpSUlINHZaZjZaRHZBTnVhQmZBRnNWMGNzRmZDdHR3ZmhMQVZDQQ?oc=5",
-        "domain": "cryptobriefing",
+        "domain": "cryptobriefing.com",
         "language": "",
         "tone": 0,
         "seendate": "20260901T163355Z",
