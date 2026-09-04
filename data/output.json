@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-04T11:15:01.098610+00:00",
+    "generated": "2026-09-04T16:19:54.646323+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-04T11:13:14.040932+00:00",
+    "issued_at": "2026-09-04T16:18:08.175073+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 5.0,
+    "score": 17.2,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,30 +24,71 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 0.0,
-        "releases_considered": 99,
-        "current_7d_designation_releases": 0,
-        "current_7d_all_releases": 0,
+        "score": 28.0,
+        "releases_considered": 100,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
         "prior_7d_designation_releases": 6,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.5,
-        "anomaly_z": -1.57,
-        "themes": [],
-        "evidence": [],
+        "anomaly_z": -0.67,
+        "themes": [
+          "cuba",
+          "iran",
+          "russia"
+        ],
+        "evidence": [
+          {
+            "title": "Treasury Severs Iranian Regime’s Financial Lifelines in Türkiye",
+            "url": "https://home.treasury.gov/news/press-releases/treasury-severs-iranian-regime-s-financial-lifelines-turkiye/",
+            "action_title": "Iran-related Designations; Issuance of Iran-related General License",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260904",
+            "date": "2026-09-04",
+            "source": "OFAC/Treasury",
+            "posture_terms": [],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "iran"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Further Sanctions on Cuba’s Elites, Financial Channels, and Resource Exploitation Apparatus",
+            "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/further-sanctions-on-cubas-elites-financial-channels-and-resource-exploitation-apparatus-fact-sheet/",
+            "action_title": "Cuba Designations; Russia-related Designation Removal; Issuance of Amended Cuba General License",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260903",
+            "date": "2026-09-03",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [
+              "general license",
+              "removal"
+            ],
+            "themes": [
+              "cuba",
+              "russia"
+            ],
+            "designation_signal": true
+          }
+        ],
         "retained": false
       },
       {
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19326,
+        "score": 7.5,
+        "current_count": 19329,
         "previous_count": 19326,
-        "added_count": 0,
+        "added_count": 3,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-09-02",
-        "sha256": "447d09384cf840252569a30b5db51d8cc4aefb396c085168246ee04e7ba2693c",
+        "changed": true,
+        "publish_date": "2026-09-03",
+        "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -63,7 +104,7 @@
           },
           {
             "program": "IRAN-EO13902",
-            "count": 914
+            "count": 917
           },
           {
             "program": "GLOMAG",
@@ -101,7 +142,7 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 9926
+            "count": 9929
           },
           {
             "type": "individual",
@@ -116,7 +157,26 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "58544",
+            "name": "GOLDEN GLOBAL YATIRIM BANKASI ANONIM SIRKETI",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58545",
+            "name": "GOLDEN GLOBAL VARLIK KIRALAMA ANONIM SIRKETI",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58548",
+            "name": "GOLDEN GLOBAL PORTFOY YONETIMI ANONIM SIRKETI",
+            "type": "",
+            "program": "IRAN-EO13902"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -124,14 +184,35 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 0.0,
-        "current_7d_releases": 0,
-        "current_weighted_term_rate": 0.0,
+        "score": 3.6,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 0.5,
         "baseline_weeks": 10,
-        "anomaly_z": -2.74,
-        "matched_release_count": 0,
-        "relief_release_count": 0,
-        "evidence": [],
+        "anomaly_z": -1.8,
+        "matched_release_count": 1,
+        "relief_release_count": 2,
+        "evidence": [
+          {
+            "title": "Further Sanctions on Cuba’s Elites, Financial Channels, and Resource Exploitation Apparatus",
+            "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/further-sanctions-on-cubas-elites-financial-channels-and-resource-exploitation-apparatus-fact-sheet/",
+            "action_title": "Cuba Designations; Russia-related Designation Removal; Issuance of Amended Cuba General License",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260903",
+            "date": "2026-09-03",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [
+              "general license",
+              "removal"
+            ],
+            "themes": [
+              "cuba",
+              "russia"
+            ],
+            "designation_signal": true
+          }
+        ],
         "terms": {
           "unprecedented": 3.5,
           "maximum pressure": 3.5,
@@ -516,11 +597,22 @@
           "official_posture_shift": 0.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-04T16:18:08.175073+00:00",
+        "score": 17.2,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 7.5,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19326,
-      "ofac_releases": 99,
+      "sdn_entries": 19329,
+      "ofac_releases": 100,
       "market_series_available": 2,
       "available_components": 4,
       "retained_components": [
@@ -580,17 +672,17 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "5.0/100",
+      "value": "17.2/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,326",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,329",
+      "delta": "+3 since accepted snapshot"
     },
     {
       "label": "Official Releases",
-      "value": "99",
+      "value": "100",
       "delta": "rolling official baseline"
     },
     {
@@ -601,9 +693,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-09-02",
-      "sha256": "447d09384cf840252569a30b5db51d8cc4aefb396c085168246ee04e7ba2693c",
-      "count": 19326,
+      "publish_date": "2026-09-03",
+      "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
+      "count": 19329,
       "entries": [
         {
           "id": "36",
@@ -116560,12 +116652,46 @@
           "name": "CASTRO CALIS, Fidel Ernesto",
           "type": "individual",
           "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58544",
+          "name": "GOLDEN GLOBAL YATIRIM BANKASI ANONIM SIRKETI",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58545",
+          "name": "GOLDEN GLOBAL VARLIK KIRALAMA ANONIM SIRKETI",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58548",
+          "name": "GOLDEN GLOBAL PORTFOY YONETIMI ANONIM SIRKETI",
+          "type": "",
+          "program": "IRAN-EO13902"
         }
       ],
       "cached": false
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Treasury Severs Iranian Regime’s Financial Lifelines in Türkiye",
+          "url": "https://home.treasury.gov/news/press-releases/treasury-severs-iranian-regime-s-financial-lifelines-turkiye/",
+          "action_title": "Iran-related Designations; Issuance of Iran-related General License",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260904",
+          "date": "2026-09-04",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Further Sanctions on Cuba’s Elites, Financial Channels, and Resource Exploitation Apparatus",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/further-sanctions-on-cubas-elites-financial-channels-and-resource-exploitation-apparatus-fact-sheet/",
+          "action_title": "Cuba Designations; Russia-related Designation Removal; Issuance of Amended Cuba General License",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260903",
+          "date": "2026-09-03",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "Iran’s Access to UAE Banks Targeted Under Operation Economic Outcast",
           "url": "https://home.treasury.gov/news/press-releases/sb0617/",
@@ -116735,16 +116861,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Targets Global Network Procuring Weapons for Iranian Regime",
-          "url": "https://home.treasury.gov/news/press-releases/sb0564",
+          "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260715",
           "date": "2026-07-15",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
+          "title": "Treasury Targets Global Network Procuring Weapons for Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0564",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260715",
           "date": "2026-07-15",
@@ -116756,6 +116882,14 @@
           "action_title": "Iran-related Designations; Iran-related and Counter Terrorism Designation Update; Issuance of Iran-related General License",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260714",
           "date": "2026-07-14",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Further Sanctions on the Cuban Regime’s Sources of Funding and Tools of Oppression",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/further-sanctions-on-the-cuban-regimes-sources-of-funding-and-tools-of-oppression/",
+          "action_title": "Cyber-related Designations; Cuba Designations; Issuance of Cuba-related Frequently Asked Question",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260713",
+          "date": "2026-07-13",
           "source": "OFAC/Treasury"
         },
         {
@@ -116887,16 +117021,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Rebel Commanders Driving Conflict in the Democratic Republic of the Congo",
-          "url": "https://home.treasury.gov/news/press-releases/sb0518",
+          "title": "Economic Fury Targets Iran’s Largest Digital Asset Exchange for Terror Finance and Sanctions Evasion",
+          "url": "https://home.treasury.gov/news/press-releases/sb0519",
           "action_title": "Counter Terrorism and Iran-related Designations; Democratic Republic of the Congo-related Designations; Issuance of Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260602",
           "date": "2026-06-02",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran’s Largest Digital Asset Exchange for Terror Finance and Sanctions Evasion",
-          "url": "https://home.treasury.gov/news/press-releases/sb0519",
+          "title": "Treasury Sanctions Rebel Commanders Driving Conflict in the Democratic Republic of the Congo",
+          "url": "https://home.treasury.gov/news/press-releases/sb0518",
           "action_title": "Counter Terrorism and Iran-related Designations; Democratic Republic of the Congo-related Designations; Issuance of Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260602",
           "date": "2026-06-02",
@@ -117015,16 +117149,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran Shadow Banking Facilitators",
-          "url": "https://home.treasury.gov/news/press-releases/sb0477",
+          "title": "Treasury Warns of Sanctions Risks Linked to China-Based Independent \"Teapot\" Oil Refineries",
+          "url": "https://home.treasury.gov/news/press-releases/sb0476",
           "action_title": "Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260428",
           "date": "2026-04-28",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Warns of Sanctions Risks Linked to China-Based Independent \"Teapot\" Oil Refineries",
-          "url": "https://home.treasury.gov/news/press-releases/sb0476",
+          "title": "Economic Fury Targets Iran Shadow Banking Facilitators",
+          "url": "https://home.treasury.gov/news/press-releases/sb0477",
           "action_title": "Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260428",
           "date": "2026-04-28",
@@ -117127,16 +117261,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
-          "url": "https://home.treasury.gov/news/press-releases/sb0416",
+          "title": "Treasury Continues to Disrupt Hamas' Sham Charity Network as the Group Refuses to Disarm",
+          "url": "https://home.treasury.gov/news/press-releases/sb0415",
           "action_title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260312",
           "date": "2026-03-12",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Continues to Disrupt Hamas' Sham Charity Network as the Group Refuses to Disarm",
-          "url": "https://home.treasury.gov/news/press-releases/sb0415",
+          "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
+          "url": "https://home.treasury.gov/news/press-releases/sb0416",
           "action_title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260312",
           "date": "2026-03-12",
@@ -117255,16 +117389,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "PRESS CHART - Picado Grijalba Costa Rican Drug Trafficking Network",
-          "url": "https://ofac.treasury.gov/media/934916/download?inline",
+          "title": "Treasury Sanctions One of the Caribbean’s Largest Narcotics Traffickers and His Network",
+          "url": "https://home.treasury.gov/news/press-releases/sb0369",
           "action_title": "Counter Narcotics Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260122",
           "date": "2026-01-22",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions One of the Caribbean’s Largest Narcotics Traffickers and His Network",
-          "url": "https://home.treasury.gov/news/press-releases/sb0369",
+          "title": "PRESS CHART - Picado Grijalba Costa Rican Drug Trafficking Network",
+          "url": "https://ofac.treasury.gov/media/934916/download?inline",
           "action_title": "Counter Narcotics Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260122",
           "date": "2026-01-22",
@@ -117341,28 +117475,21 @@
           "action_url": "https://ofac.treasury.gov/recent-actions/20251218",
           "date": "2025-12-18",
           "source": "OFAC/Treasury"
-        },
-        {
-          "title": "CHART - CSRL and CJNG \"Bermuda Triangle\" Fuel Theft Region - December 2025",
-          "url": "https://ofac.treasury.gov/media/934841/download?inline",
-          "action_title": "Transnational Criminal Organizations Designations; Issuance of Amended Russia-related General Licenses; Publication of Updated Russia-related Frequently Asked Questions",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20251217",
-          "date": "2025-12-17",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Secretary Bessent Orders Sanctions Against Violent Mexican Cartel",
-          "url": "https://home.treasury.gov/news/press-releases/sb0339",
-          "action_title": "Transnational Criminal Organizations Designations; Issuance of Amended Russia-related General Licenses; Publication of Updated Russia-related Frequently Asked Questions",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20251217",
-          "date": "2025-12-17",
-          "source": "OFAC/Treasury"
         }
       ],
       "pages": 4,
       "cached": false
     },
     "news_articles": [
+      {
+        "title": "EU court raises evidential bar for Russia sanctions freezes",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xbU5ZOXpEdjluSnVUTFMxeWJwLTI1dWhsenJvS2pHTVFNX1M3aTJfdjBvUm42VndYbzlxeTFFSC16Y3FsZUlZbzNkaVUyWU5BWkFnTkJNX2RzQQ?oc=5",
+        "domain": "eutoday.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T073104Z",
+        "source": "GoogleNews"
+      },
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
@@ -117373,21 +117500,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU court raises evidential bar for Russia sanctions freezes",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xbU5ZOXpEdjluSnVUTFMxeWJwLTI1dWhsenJvS2pHTVFNX1M3aTJfdjBvUm42VndYbzlxeTFFSC16Y3FsZUlZbzNkaVUyWU5BWkFnTkJNX2RzQQ?oc=5",
-        "domain": "eutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260904T073104Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Putin's regime not enough to freeze Russia-linked firms, EU rules",
+        "title": "Putin's autocratic regime not enough to freeze assets of Russia-linked companies, EU's court rules",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEw5dXVtekpnWFZUS0Nka29qempDYV8zdWNMdnBkbk8zWXVBV3Rra0JUcHZ6LTJBbTN1elI3NGxhNVh4cEVPT3RTa2NiWkpESFVuRFY2YkxvVFlFaU5aSlI0a2NCWF9BSDlOS2tTUHNUdUVLWFpYLWVyLW9DaGpWVS0wQkNqSHI4OU5KWkpWM0tPbGdDV3N2WGFZWXBaSkw1bWFfZHpvcHFHMzZJTW1nazFUOG1PclEzeGFKSm5yR3hIWDk3cW9FRDliZGRyWnJybWc?oc=5",
-        "domain": "euronews",
+        "domain": "euronews.com",
         "language": "",
         "tone": 0,
         "seendate": "20260903T094142Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China Rare Earth Firms Freeze U.S. Exports Weeks Before Xi-Trump Summit",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzNkZzNab3Q0TUxJTmUwUll6YzE3MUVoYUxkU3hIY09tejhoWkRZWW5zd0ZBcnJUX2VIX0R0d1VJTmJLTkJzWnZoUFRIYXhzOE9IdnN5QnYwc1FBd1N4a3pGcUNKTFprczBSQWNtS2lCWFJlVGs5eGVqTnd1WkJBQzNIRkcxaktWY0hxU1pObGtWQ0RkOG91REdSU2lURktwX0NFdzl5Ni0zM0dNU1o4YXBZZ1Z4VnhwWWU4enAxNU5kYkHSAcgBQVVfeXFMTlJoNGVtaERrejgyX05GVUhtR2s3bmZoa1JaTE52WWo1RU5mTnhWUmpTd0t1WEdrU3VNdEFqNHk5MFNFenk4VVZ3RTZYOVZxcTA5Sl9iUnEzQzRfMkJIR05pQnA3eEtUQTM3dHpYVlRQY0JGUHlJVjBNRFMzUFY2NnNjdldld1RMS1E0dFY0bUJsMWp2aXM1SWtpOURQUEh2eU42Y0VJMWZ6Z0FncjlLMGdLcTRuTXd3Vzc0akxacDNnOElXQTl5bnE?oc=5",
+        "domain": "crudeoilpricestodayoilprice.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T153000Z",
         "source": "GoogleNews"
       },
       {
@@ -117406,6 +117533,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T180100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
+        "domain": "mlex",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T072700Z",
         "source": "GoogleNews"
       },
       {
@@ -117438,16 +117574,25 @@
       {
         "title": "Citibank Hit With £4.7M OFSI Fine Over Control Failures",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdUtOdHFvaHQwajRSWkZRTmowQjdHbU1wdWR2V0xKVS1tTjRqWHdhMlUwSUF2RXFBc1pxSXZFOGVDUDNqdUpiSzJiVkNVNTdkak45WXdsSmpoOW4zNi1TUzZSdjhMNG9ZdFM2RHFnNC1hUEJFclN0bFY1b1oxVlk?oc=5",
-        "domain": "fincrimecentral.com",
+        "domain": "fincrimecentral",
         "language": "",
         "tone": 0,
         "seendate": "20260902T173833Z",
         "source": "GoogleNews"
       },
       {
+        "title": "Chinese Court Freezes $318 Million of Nexperia Assets in Wingtech Fight",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUtHYzFTN0NVb3ZIdXgteGgtZ2FVMVpqdVFJNjJPR3poNjJySFdSRjlJZXFtRS1OMWxnOHBZUUdUTXg3ZEgxVTl1Y0dvRS00RVhScml3Q2ZPSzh6Yl9WUXVhbFlmU1FhQWdwZDg0WmdQOHBYRjlKa0lwNmRGdlJtcjlqek5aWUxPRHdCNHltV2gzdzZnVFpOR1BncGhTYWc?oc=5",
+        "domain": "startupfortune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T095426Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "China and Netherlands continue to fight on chip giant Nexperia, now Chinese court freezes $300 million of",
         "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQamJoNTRmRXJubmNRcTVZOUF0RjN6aTExLUhCN04waWxEdkxDaXByTTMyWTlMZ0JEUVBzZ1plcVpYZmNpYnJlQnRJNWpxemtNNUlTbmVEcFVHcGdYUEQ0MkJwdHlrR2Zna1p2OTIzcEtJNlF1dHl5cjh3ODdpQl9GMXhpTGNOa1RqR0JmWnBwVjU5Nl8zcVBzZ3Yyc3QxSUdYSEFsVnBSX3FCU1pueExLUDBEMUpXNmdVYW5rRjZFaXhncXM0RF93MGJtbUNaeEpHN1lEVzlJTkxjLU51S253TnAwdUgwWG4zUW9zTGVjTTVvQ1gtcjZrNHYxTVRubEJkNlYwSTB0RWRFM2haZ2RkM1FoYlhuRUpYMHh6QUZTbndGdjhpSDBDZC1B0gGvAkFVX3lxTFBTMnZWcGdXa0Z5dFFhVlhCd1psX2JDdEI3aDBvMEZYb3dQdjlWU2g4WGxHRVIzNEFyOVlVeE1jUzJTenlHaW9Zak15Y2F5UHk2MVB5Y2tEVnpEQUlQQmd5cDdzX1FhbFV2Qm9JVU1feDJ5Z3FzNzYyenJtX0Fyc2RaYk1LTl80Smd2LThmVW9uNWlVdUpKTU1EcVZycnZYYk9tOXVONmE4cV8tVFVIM085d3dic1JXTlhVdkNVbXdNbzhWZm1NUFNzSE9keG1rV2ZpQXpvSDlwa3BVd3ZHZXJLMHpOUlQ4dWZjWURJTFpBbzk0M2VtWjNETVgybG15QTBHd3lPWXpYWGNqd05SdkdMWDVsR05nMFcwMW9EQW10QW90X0xVMVpZek1vNHVCdw?oc=5",
-        "domain": "timesofindia.indiatimes.com",
+        "domain": "thetimesofindia",
         "language": "",
         "tone": 0,
         "seendate": "20260831T134800Z",
@@ -117469,6 +117614,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T180000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Chinese court freezes Nexperia assets in Wingtech case",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1NLUjB2U0tZODdjT1F0eHVBNGNIWnlFRWhsbDUwc0xaVEVMaURiYk02eDR0aEZNU2hBa0l4X1JiWkxSUVozNTlzMUg1MUt4U0Y4R2piZDJScXVqTmpaSS1tY3RwcTNsd2RvZDNSU0ZjajY1N1Jta1RQX3IzUmh1dU0taVVzRUlwazNPRGc3a3JWQU94ZFB1cjA3cw?oc=5",
+        "domain": "idnfinancials",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T042000Z",
         "source": "GoogleNews"
       },
       {
@@ -117495,12 +117649,28 @@
         "domain": "ihararenews",
         "language": "",
         "tone": 0,
-        "seendate": "20260904T105455Z",
+        "seendate": "20260904T144807Z",
         "source": "GoogleNews"
       }
     ]
   },
   "events": [
+    {
+      "title": "Treasury Severs Iranian Regime’s Financial Lifelines in Türkiye",
+      "url": "https://home.treasury.gov/news/press-releases/treasury-severs-iranian-regime-s-financial-lifelines-turkiye/",
+      "action_title": "Iran-related Designations; Issuance of Iran-related General License",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260904",
+      "date": "2026-09-04",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "Further Sanctions on Cuba’s Elites, Financial Channels, and Resource Exploitation Apparatus",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/further-sanctions-on-cubas-elites-financial-channels-and-resource-exploitation-apparatus-fact-sheet/",
+      "action_title": "Cuba Designations; Russia-related Designation Removal; Issuance of Amended Cuba General License",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260903",
+      "date": "2026-09-03",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "Iran’s Access to UAE Banks Targeted Under Operation Economic Outcast",
       "url": "https://home.treasury.gov/news/press-releases/sb0617/",
@@ -117603,22 +117773,6 @@
       "action_title": "Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260806",
       "date": "2026-08-06",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Treasury Cracks Down on Global Networks Enabling Iran's Mahan Air and IRGC",
-      "url": "https://home.treasury.gov/news/press-releases/sb0582",
-      "action_title": "Counter Terrorism Designations; Non-Proliferation Designation Update",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260730",
-      "date": "2026-07-30",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Treasury Disrupts Iranian Regime’s Strait of Hormuz Extortion Network",
-      "url": "https://home.treasury.gov/news/press-releases/sb0581",
-      "action_title": "Iran-related Designations",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260729",
-      "date": "2026-07-29",
       "source": "OFAC/Treasury"
     }
   ],
