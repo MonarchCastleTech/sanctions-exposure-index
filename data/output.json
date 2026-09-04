@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-04T16:19:54.646323+00:00",
+    "generated": "2026-09-04T20:45:06.906070+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-04T16:18:08.175073+00:00",
+    "issued_at": "2026-09-04T20:43:20.615689+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 17.2,
+    "score": 15.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -81,12 +81,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 7.5,
+        "score": 0.0,
         "current_count": 19329,
-        "previous_count": 19326,
-        "added_count": 3,
+        "previous_count": 19329,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-09-03",
         "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
         "top_programs": [
@@ -157,26 +157,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58544",
-            "name": "GOLDEN GLOBAL YATIRIM BANKASI ANONIM SIRKETI",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58545",
-            "name": "GOLDEN GLOBAL VARLIK KIRALAMA ANONIM SIRKETI",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58548",
-            "name": "GOLDEN GLOBAL PORTFOY YONETIMI ANONIM SIRKETI",
-            "type": "",
-            "program": "IRAN-EO13902"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -608,6 +589,17 @@
           "official_posture_shift": 3.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-04T20:43:20.615689+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -672,13 +664,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "17.2/100",
+      "value": "15.7/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,329",
-      "delta": "+3 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -117484,7 +117476,7 @@
       {
         "title": "EU court raises evidential bar for Russia sanctions freezes",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xbU5ZOXpEdjluSnVUTFMxeWJwLTI1dWhsenJvS2pHTVFNX1M3aTJfdjBvUm42VndYbzlxeTFFSC16Y3FsZUlZbzNkaVUyWU5BWkFnTkJNX2RzQQ?oc=5",
-        "domain": "eutoday.net",
+        "domain": "eutoday",
         "language": "",
         "tone": 0,
         "seendate": "20260904T073104Z",
@@ -117500,9 +117492,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Putin's autocratic regime not enough to freeze assets of Russia-linked companies, EU's court rules",
+        "title": "Putin's regime not enough to freeze Russia-linked firms, EU rules",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEw5dXVtekpnWFZUS0Nka29qempDYV8zdWNMdnBkbk8zWXVBV3Rra0JUcHZ6LTJBbTN1elI3NGxhNVh4cEVPT3RTa2NiWkpESFVuRFY2YkxvVFlFaU5aSlI0a2NCWF9BSDlOS2tTUHNUdUVLWFpYLWVyLW9DaGpWVS0wQkNqSHI4OU5KWkpWM0tPbGdDV3N2WGFZWXBaSkw1bWFfZHpvcHFHMzZJTW1nazFUOG1PclEzeGFKSm5yR3hIWDk3cW9FRDliZGRyWnJybWc?oc=5",
-        "domain": "euronews.com",
+        "domain": "euronews",
         "language": "",
         "tone": 0,
         "seendate": "20260903T094142Z",
@@ -117529,7 +117521,7 @@
       {
         "title": "Treasury Secretary Bessent Warns of Banking Sanctions for Iran's IRGC - News and Statistics",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnItV0hGa2lBMlN6TXVWX19CYmFjT3Z0SkNMY05DYkgxV2M3TGY5Z3FfYTRYLWQtdzd5SHE1SUJUMEtuWGpyN3Ffc05nVlJya28yb3hBSEc3NjhoUXowXzlkNmFxSXBSaXAwOENMYzlEVWdkX0ZjbHRqdEU0SHIwRHE5cThmeHM4eGFQY0VOTXI?oc=5",
-        "domain": "indexbox",
+        "domain": "indexbox.io",
         "language": "",
         "tone": 0,
         "seendate": "20260901T180100Z",
@@ -117644,12 +117636,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Zimbabwe Ambassador Katrin Hagemann Dies At 53",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tS2tkaDliYVQ0Tlp4ejRqMlMwczFNeFllRU1pNFJRMkpsQ09xY2h5UExzYU9DdUtDZ0x1ZkFiNUdpeWwxZ3dyaTdzNllKNzlDa1pmOFl0WHdIR0NYNWg5MHM4Z21TaUVXeDYtVWJOR0cyTFVmY3ZfdTNR?oc=5",
+        "title": "EU Zimbabwe Ambassador Katrin Hagemann Dies Suddenly At 53 in Harare",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaThsNnR5SVdpdmhPX3BRVzhkS0d0RkcxWDRwR0pfN1ltMU1GZE9wWjhoU2U2QUJHbTBrZXhjM0w1aHo0VjdrQ3JVSjk2Qjc1eEZUMUpSaFdYYURaWjNEcFJuNFNiZzlSd3IwMm1QUFZNU1ZsR2JZN0I2UmQwVno4OUNVbVNSd0phek9IRUk5RUlXVUk?oc=5",
         "domain": "ihararenews",
         "language": "",
         "tone": 0,
-        "seendate": "20260904T144807Z",
+        "seendate": "20260904T104458Z",
         "source": "GoogleNews"
       }
     ]
