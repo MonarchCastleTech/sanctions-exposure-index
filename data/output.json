@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-04T20:45:06.906070+00:00",
+    "generated": "2026-09-05T04:22:26.450412+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-04T20:43:20.615689+00:00",
+    "issued_at": "2026-09-05T04:20:39.825390+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -592,6 +592,17 @@
       },
       {
         "timestamp": "2026-09-04T20:43:20.615689+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-05T04:20:39.825390+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117519,9 +117530,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T112626Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Treasury Secretary Bessent Warns of Banking Sanctions for Iran's IRGC - News and Statistics",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnItV0hGa2lBMlN6TXVWX19CYmFjT3Z0SkNMY05DYkgxV2M3TGY5Z3FfYTRYLWQtdzd5SHE1SUJUMEtuWGpyN3Ffc05nVlJya28yb3hBSEc3NjhoUXowXzlkNmFxSXBSaXAwOENMYzlEVWdkX0ZjbHRqdEU0SHIwRHE5cThmeHM4eGFQY0VOTXI?oc=5",
-        "domain": "indexbox.io",
+        "domain": "indexbox",
         "language": "",
         "tone": 0,
         "seendate": "20260901T180100Z",
@@ -117539,19 +117559,19 @@
       {
         "title": "Britain: Sirajuddin and Jalaluddin Haqqani Remain on Sanctions List",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORUxzNFpXOUNyUDE4LUI4R0ZNa0RmWHdCbDczX205dXRSbmNmMHhKX1MtdVpOck1LY2VPd3lxZ2xzUEtUWmFLTkt2OUtjQUJZYTRMZ1Bha1dZWjBjOF9GUkdqWWh0NVptcHhkSG1SRFpNVEczUUY4T1JjdzJENkwxUk40ZGkxcDMybXUzTkVRam1VVDA?oc=5",
-        "domain": "8ammedia",
+        "domain": "8am.media",
         "language": "",
         "tone": 0,
         "seendate": "20260830T023948Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
-        "domain": "coindesk",
+        "title": "Citibank Hit With £4.7M OFSI Fine Over Control Failures",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdUtOdHFvaHQwajRSWkZRTmowQjdHbU1wdWR2V0xKVS1tTjRqWHdhMlUwSUF2RXFBc1pxSXZFOGVDUDNqdUpiSzJiVkNVNTdkak45WXdsSmpoOW4zNi1TUzZSdjhMNG9ZdFM2RHFnNC1hUEJFclN0bFY1b1oxVlk?oc=5",
+        "domain": "fincrimecentral",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T112626Z",
+        "seendate": "20260902T173833Z",
         "source": "GoogleNews"
       },
       {
@@ -117564,12 +117584,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Citibank Hit With £4.7M OFSI Fine Over Control Failures",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdUtOdHFvaHQwajRSWkZRTmowQjdHbU1wdWR2V0xKVS1tTjRqWHdhMlUwSUF2RXFBc1pxSXZFOGVDUDNqdUpiSzJiVkNVNTdkak45WXdsSmpoOW4zNi1TUzZSdjhMNG9ZdFM2RHFnNC1hUEJFclN0bFY1b1oxVlk?oc=5",
-        "domain": "fincrimecentral",
+        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
+        "domain": "perspectivemedia.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260902T173833Z",
+        "seendate": "20260902T130004Z",
         "source": "GoogleNews"
       },
       {
@@ -117591,21 +117611,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWXdZN1AwclFIdUFvR2VYNDM0bUNRLUd4V2U2VzEwVllZZ2ZOOC02b3kzd0R3bW9hRzFVSTdOa21wazFIOEFCblo1N0stMHJjZGtXWmlxOGV1RHl1eFoyblF1WmVxVVZ2eGlhLVFWdk1PU3Z4MkNZTktlY0VvcWttdnJIelRVNzFBX1VQRkxXcVVpUTNRQ01Z?oc=5",
-        "domain": "rayo",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260903T041629Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US to impose fresh sanctions on banks aiding Iran: Treasury Secretary Bessent",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONy15VkF5N3FET0JycmZIQy1hTGRQQklYQmdybHN0TzU0WG14R2ZfbTJEd1c1VHdnOWhDQVJuQ0FYUnI3azNnZ0xlUEVFRm1ndU9tWkNUcVB0bEZiRm1yRXhJWEhLelEtVERCNU9PdDVZQ3VsaG03emgteEtkamtGa1cyYVZsX1M3bXFTbE9hS2p1R0JkMXNkRlNZcktDUVoyZE9LbHlR?oc=5",
         "domain": "telanganatoday",
         "language": "",
         "tone": 0,
         "seendate": "20260901T180000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Claimant based in Donbas and under sanctions loses appeal over council tax liability",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSzg1b2FNTC02WVlPZ0kyNy1aRVM1VHQwRWxUUUc5MlpSWHZGcXlnWDNQTWgyMTgxTGNfN1djaDU2WkgtWEVqaEg0M1N6THR3Mm80WVkxREh3azFlaE9VMnBBUnU4a0VjT1JiR2lGZWx1WlJreS1JLU91QXd3Y0RncXRqUWRfZHEtVWpvV2EyNkdkM0Z6VWVoOFc3RDZ2SWZxSUphX3JiSzBNckg1dF9qUEQxVGZEdHB6NERfd1lPd2w1dTc5Z1UxUlVVZXZKM2RSU2xQcEw4SndlOC11bnRvY2x1cTlWeFRULTY4ZTc4VTN4TTF6c2c?oc=5",
+        "domain": "localgovernmentlawyer",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260902T173019Z",
         "source": "GoogleNews"
       },
       {
