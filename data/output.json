@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-05T10:32:13.383943+00:00",
+    "generated": "2026-09-05T15:10:42.330967+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-05T10:30:26.635722+00:00",
+    "issued_at": "2026-09-05T15:08:55.744752+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -614,6 +614,17 @@
       },
       {
         "timestamp": "2026-09-05T10:30:26.635722+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-05T15:08:55.744752+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117496,6 +117507,15 @@
     },
     "news_articles": [
       {
+        "title": "Russia/Ukraine Sanctions Update - Month of August 2026",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFNNWVZjVUJKckkwUjNPUkYtdHRWMXpRYmxmb21ZbHJ1TEE5X3hmNTF3Q2dFSDZFTUlKTUtHOThSQUhNekxVRTFQSnBVcy16QU9xd1dXOVZKeldFeDRCZzlpYnVPaWJDSUMtT2NIbkRzN2JVMnRHVU8tbDJqSFlEdTI3UC1hT1lYTlg3ZXJSTmtwZUpzV0lGWDZVaDN3X3ZXVElRQUM1el9nQ1NUVHFQR1RXX1Y?oc=5",
+        "domain": "mayerbrown",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T190730Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "China Rare Earth Firms Freeze U.S. Exports Weeks Before Xi-Trump Summit",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzNkZzNab3Q0TUxJTmUwUll6YzE3MUVoYUxkU3hIY09tejhoWkRZWW5zd0ZBcnJUX2VIX0R0d1VJTmJLTkJzWnZoUFRIYXhzOE9IdnN5QnYwc1FBd1N4a3pGcUNKTFprczBSQWNtS2lCWFJlVGs5eGVqTnd1WkJBQzNIRkcxaktWY0hxU1pObGtWQ0RkOG91REdSU2lURktwX0NFdzl5Ni0zM0dNU1o4YXBZZ1Z4VnhwWWU4enAxNU5kYkHSAcgBQVVfeXFMTlJoNGVtaERrejgyX05GVUhtR2s3bmZoa1JaTE52WWo1RU5mTnhWUmpTd0t1WEdrU3VNdEFqNHk5MFNFenk4VVZ3RTZYOVZxcTA5Sl9iUnEzQzRfMkJIR05pQnA3eEtUQTM3dHpYVlRQY0JGUHlJVjBNRFMzUFY2NnNjdldld1RMS1E0dFY0bUJsMWp2aXM1SWtpOURQUEh2eU42Y0VJMWZ6Z0FncjlLMGdLcTRuTXd3Vzc0akxacDNnOElXQTl5bnE?oc=5",
         "domain": "crudeoilpricestodayoilprice.com",
@@ -117516,7 +117536,7 @@
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
-        "domain": "reuters.com",
+        "domain": "reuters",
         "language": "",
         "tone": 0,
         "seendate": "20260831T182222Z",
@@ -117534,7 +117554,7 @@
       {
         "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
-        "domain": "coindesk",
+        "domain": "coindesk.com",
         "language": "",
         "tone": 0,
         "seendate": "20260831T112626Z",
@@ -117561,7 +117581,7 @@
       {
         "title": "Britain: Sirajuddin and Jalaluddin Haqqani Remain on Sanctions List",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORUxzNFpXOUNyUDE4LUI4R0ZNa0RmWHdCbDczX205dXRSbmNmMHhKX1MtdVpOck1LY2VPd3lxZ2xzUEtUWmFLTkt2OUtjQUJZYTRMZ1Bha1dZWjBjOF9GUkdqWWh0NVptcHhkSG1SRFpNVEczUUY4T1JjdzJENkwxUk40ZGkxcDMybXUzTkVRam1VVDA?oc=5",
-        "domain": "8am.media",
+        "domain": "8ammedia",
         "language": "",
         "tone": 0,
         "seendate": "20260830T023948Z",
@@ -117570,7 +117590,7 @@
       {
         "title": "Citibank Hit With £4.7M OFSI Fine Over Control Failures",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdUtOdHFvaHQwajRSWkZRTmowQjdHbU1wdWR2V0xKVS1tTjRqWHdhMlUwSUF2RXFBc1pxSXZFOGVDUDNqdUpiSzJiVkNVNTdkak45WXdsSmpoOW4zNi1TUzZSdjhMNG9ZdFM2RHFnNC1hUEJFclN0bFY1b1oxVlk?oc=5",
-        "domain": "fincrimecentral.com",
+        "domain": "fincrimecentral",
         "language": "",
         "tone": 0,
         "seendate": "20260902T173833Z",
@@ -117579,7 +117599,7 @@
       {
         "title": "A Chinese court has frozen Nexperia’s stakes in four of its own subsidiaries",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoTXZwaTV4dV9JMTRCVFNmM3lBTWxpNndORkhHaTB0NkVKR1RBd2lHSFhiWTNDbm5hNmhxa3R1SzdremlKZXNjSm1BZDgtU0tWQVVSQWxmamU2dkZKS2MtSlFnRkNRZ1FzTVFRREpXU2FrV2kzUkJZbDRB?oc=5",
-        "domain": "thenextweb",
+        "domain": "thenextweb.com",
         "language": "",
         "tone": 0,
         "seendate": "20260901T114414Z",
@@ -117633,7 +117653,7 @@
       {
         "title": "Claimant based in Donbas and under sanctions loses appeal over council tax liability",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSzg1b2FNTC02WVlPZ0kyNy1aRVM1VHQwRWxUUUc5MlpSWHZGcXlnWDNQTWgyMTgxTGNfN1djaDU2WkgtWEVqaEg0M1N6THR3Mm80WVkxREh3azFlaE9VMnBBUnU4a0VjT1JiR2lGZWx1WlJreS1JLU91QXd3Y0RncXRqUWRfZHEtVWpvV2EyNkdkM0Z6VWVoOFc3RDZ2SWZxSUphX3JiSzBNckg1dF9qUEQxVGZEdHB6NERfd1lPd2w1dTc5Z1UxUlVVZXZKM2RSU2xQcEw4SndlOC11bnRvY2x1cTlWeFRULTY4ZTc4VTN4TTF6c2c?oc=5",
-        "domain": "localgovernmentlawyer",
+        "domain": "localgovernmentlawyer.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20260902T173019Z",
