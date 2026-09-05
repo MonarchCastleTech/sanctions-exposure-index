@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-05T15:10:42.330967+00:00",
+    "generated": "2026-09-05T20:18:59.489289+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-05T15:08:55.744752+00:00",
+    "issued_at": "2026-09-05T20:17:12.779793+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -625,6 +625,17 @@
       },
       {
         "timestamp": "2026-09-05T15:08:55.744752+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-05T20:17:12.779793+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117554,7 +117565,7 @@
       {
         "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
-        "domain": "coindesk.com",
+        "domain": "coindesk",
         "language": "",
         "tone": 0,
         "seendate": "20260831T112626Z",
@@ -117599,7 +117610,7 @@
       {
         "title": "A Chinese court has frozen Nexperia’s stakes in four of its own subsidiaries",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoTXZwaTV4dV9JMTRCVFNmM3lBTWxpNndORkhHaTB0NkVKR1RBd2lHSFhiWTNDbm5hNmhxa3R1SzdremlKZXNjSm1BZDgtU0tWQVVSQWxmamU2dkZKS2MtSlFnRkNRZ1FzTVFRREpXU2FrV2kzUkJZbDRB?oc=5",
-        "domain": "thenextweb.com",
+        "domain": "thenextweb",
         "language": "",
         "tone": 0,
         "seendate": "20260901T114414Z",
@@ -117626,7 +117637,7 @@
       {
         "title": "China and Netherlands continue to fight on chip giant Nexperia, now Chinese court freezes $300 million of",
         "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQamJoNTRmRXJubmNRcTVZOUF0RjN6aTExLUhCN04waWxEdkxDaXByTTMyWTlMZ0JEUVBzZ1plcVpYZmNpYnJlQnRJNWpxemtNNUlTbmVEcFVHcGdYUEQ0MkJwdHlrR2Zna1p2OTIzcEtJNlF1dHl5cjh3ODdpQl9GMXhpTGNOa1RqR0JmWnBwVjU5Nl8zcVBzZ3Yyc3QxSUdYSEFsVnBSX3FCU1pueExLUDBEMUpXNmdVYW5rRjZFaXhncXM0RF93MGJtbUNaeEpHN1lEVzlJTkxjLU51S253TnAwdUgwWG4zUW9zTGVjTTVvQ1gtcjZrNHYxTVRubEJkNlYwSTB0RWRFM2haZ2RkM1FoYlhuRUpYMHh6QUZTbndGdjhpSDBDZC1B0gGvAkFVX3lxTFBTMnZWcGdXa0Z5dFFhVlhCd1psX2JDdEI3aDBvMEZYb3dQdjlWU2g4WGxHRVIzNEFyOVlVeE1jUzJTenlHaW9Zak15Y2F5UHk2MVB5Y2tEVnpEQUlQQmd5cDdzX1FhbFV2Qm9JVU1feDJ5Z3FzNzYyenJtX0Fyc2RaYk1LTl80Smd2LThmVW9uNWlVdUpKTU1EcVZycnZYYk9tOXVONmE4cV8tVFVIM085d3dic1JXTlhVdkNVbXdNbzhWZm1NUFNzSE9keG1rV2ZpQXpvSDlwa3BVd3ZHZXJLMHpOUlQ4dWZjWURJTFpBbzk0M2VtWjNETVgybG15QTBHd3lPWXpYWGNqd05SdkdMWDVsR05nMFcwMW9EQW10QW90X0xVMVpZek1vNHVCdw?oc=5",
-        "domain": "thetimesofindia",
+        "domain": "timesofindia.indiatimes.com",
         "language": "",
         "tone": 0,
         "seendate": "20260831T134800Z",
@@ -117642,6 +117653,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Gold comes home as nations hedge against Americana",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLWJOYXhHcDIwdUFud1BadC1wNEh0QlNPc1FtYlZZbE12RXBfa0hPMDhCZGR0TWE1d1JhWnZGcTI0dTJKUDgxdzY5VVdtMmRRM3RMeG9CQmdIYl96QmdWRU93X1Q4bDVNVXMzUjc3MlF6YzFkUUlFU2hvNzNFbEhqU2JiLUgyQmdiMU1TcXdnYVRweElSUjN6NjVPWDhaRTdUMWxrRWV2a2JkTG9GQTJfSlFTMHJBY2lqaWJrVkNDakk1aDY40gHSAUFVX3lxTFBDdkEtX2hrcGNBZjQ4ajc1eUY3WGduUThOR1AtaFRYLXY0ZEZja1RXVWdtSGFPY19GcWp5d0VIXzRpc0thcTdPMGFMSmhScDh1ZEVuR1dzWFBCT0JZdVFQbGk0ZGpwM1RZQ24wYnZJMS11WGFtT1lhWDBUMmtRQS1JUElQYjZOaW92UzlYX1lTOEpBZUc5Skp0elFPWTUwUW5TNWp3cG5qajAyQ3BSdmIwSVZGS1VaODdQM0Fpd25Fenc5VUdsbFhkYXFMWjBIREV6QQ?oc=5",
+        "domain": "newindianexpress.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260905T185912Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US to impose fresh sanctions on banks aiding Iran: Treasury Secretary Bessent",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONy15VkF5N3FET0JycmZIQy1hTGRQQklYQmdybHN0TzU0WG14R2ZfbTJEd1c1VHdnOWhDQVJuQ0FYUnI3azNnZ0xlUEVFRm1ndU9tWkNUcVB0bEZiRm1yRXhJWEhLelEtVERCNU9PdDVZQ3VsaG03emgteEtkamtGa1cyYVZsX1M3bXFTbE9hS2p1R0JkMXNkRlNZcktDUVoyZE9LbHlR?oc=5",
         "domain": "telanganatoday",
@@ -117653,7 +117673,7 @@
       {
         "title": "Claimant based in Donbas and under sanctions loses appeal over council tax liability",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSzg1b2FNTC02WVlPZ0kyNy1aRVM1VHQwRWxUUUc5MlpSWHZGcXlnWDNQTWgyMTgxTGNfN1djaDU2WkgtWEVqaEg0M1N6THR3Mm80WVkxREh3azFlaE9VMnBBUnU4a0VjT1JiR2lGZWx1WlJreS1JLU91QXd3Y0RncXRqUWRfZHEtVWpvV2EyNkdkM0Z6VWVoOFc3RDZ2SWZxSUphX3JiSzBNckg1dF9qUEQxVGZEdHB6NERfd1lPd2w1dTc5Z1UxUlVVZXZKM2RSU2xQcEw4SndlOC11bnRvY2x1cTlWeFRULTY4ZTc4VTN4TTF6c2c?oc=5",
-        "domain": "localgovernmentlawyer.co.uk",
+        "domain": "localgovernmentlawyer",
         "language": "",
         "tone": 0,
         "seendate": "20260902T173019Z",
@@ -117684,15 +117704,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T163355Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Zimbabwe Ambassador Katrin Hagemann Dies Suddenly At 53 in Harare",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaThsNnR5SVdpdmhPX3BRVzhkS0d0RkcxWDRwR0pfN1ltMU1GZE9wWjhoU2U2QUJHbTBrZXhjM0w1aHo0VjdrQ3JVSjk2Qjc1eEZUMUpSaFdYYURaWjNEcFJuNFNiZzlSd3IwMm1QUFZNU1ZsR2JZN0I2UmQwVno4OUNVbVNSd0phek9IRUk5RUlXVUk?oc=5",
-        "domain": "ihararenews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260904T104458Z",
         "source": "GoogleNews"
       }
     ]
