@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-05T04:22:26.450412+00:00",
+    "generated": "2026-09-05T10:32:13.383943+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-05T04:20:39.825390+00:00",
+    "issued_at": "2026-09-05T10:30:26.635722+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -603,6 +603,17 @@
       },
       {
         "timestamp": "2026-09-05T04:20:39.825390+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-05T10:30:26.635722+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117485,6 +117496,15 @@
     },
     "news_articles": [
       {
+        "title": "China Rare Earth Firms Freeze U.S. Exports Weeks Before Xi-Trump Summit",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzNkZzNab3Q0TUxJTmUwUll6YzE3MUVoYUxkU3hIY09tejhoWkRZWW5zd0ZBcnJUX2VIX0R0d1VJTmJLTkJzWnZoUFRIYXhzOE9IdnN5QnYwc1FBd1N4a3pGcUNKTFprczBSQWNtS2lCWFJlVGs5eGVqTnd1WkJBQzNIRkcxaktWY0hxU1pObGtWQ0RkOG91REdSU2lURktwX0NFdzl5Ni0zM0dNU1o4YXBZZ1Z4VnhwWWU4enAxNU5kYkHSAcgBQVVfeXFMTlJoNGVtaERrejgyX05GVUhtR2s3bmZoa1JaTE52WWo1RU5mTnhWUmpTd0t1WEdrU3VNdEFqNHk5MFNFenk4VVZ3RTZYOVZxcTA5Sl9iUnEzQzRfMkJIR05pQnA3eEtUQTM3dHpYVlRQY0JGUHlJVjBNRFMzUFY2NnNjdldld1RMS1E0dFY0bUJsMWp2aXM1SWtpOURQUEh2eU42Y0VJMWZ6Z0FncjlLMGdLcTRuTXd3Vzc0akxacDNnOElXQTl5bnE?oc=5",
+        "domain": "crudeoilpricestodayoilprice.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T153000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU court raises evidential bar for Russia sanctions freezes",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xbU5ZOXpEdjluSnVUTFMxeWJwLTI1dWhsenJvS2pHTVFNX1M3aTJfdjBvUm42VndYbzlxeTFFSC16Y3FsZUlZbzNkaVUyWU5BWkFnTkJNX2RzQQ?oc=5",
         "domain": "eutoday",
@@ -117496,28 +117516,10 @@
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
-        "domain": "reuters",
+        "domain": "reuters.com",
         "language": "",
         "tone": 0,
         "seendate": "20260831T182222Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Putin's regime not enough to freeze Russia-linked firms, EU rules",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEw5dXVtekpnWFZUS0Nka29qempDYV8zdWNMdnBkbk8zWXVBV3Rra0JUcHZ6LTJBbTN1elI3NGxhNVh4cEVPT3RTa2NiWkpESFVuRFY2YkxvVFlFaU5aSlI0a2NCWF9BSDlOS2tTUHNUdUVLWFpYLWVyLW9DaGpWVS0wQkNqSHI4OU5KWkpWM0tPbGdDV3N2WGFZWXBaSkw1bWFfZHpvcHFHMzZJTW1nazFUOG1PclEzeGFKSm5yR3hIWDk3cW9FRDliZGRyWnJybWc?oc=5",
-        "domain": "euronews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260903T094142Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "China Rare Earth Firms Freeze U.S. Exports Weeks Before Xi-Trump Summit",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzNkZzNab3Q0TUxJTmUwUll6YzE3MUVoYUxkU3hIY09tejhoWkRZWW5zd0ZBcnJUX2VIX0R0d1VJTmJLTkJzWnZoUFRIYXhzOE9IdnN5QnYwc1FBd1N4a3pGcUNKTFprczBSQWNtS2lCWFJlVGs5eGVqTnd1WkJBQzNIRkcxaktWY0hxU1pObGtWQ0RkOG91REdSU2lURktwX0NFdzl5Ni0zM0dNU1o4YXBZZ1Z4VnhwWWU4enAxNU5kYkHSAcgBQVVfeXFMTlJoNGVtaERrejgyX05GVUhtR2s3bmZoa1JaTE52WWo1RU5mTnhWUmpTd0t1WEdrU3VNdEFqNHk5MFNFenk4VVZ3RTZYOVZxcTA5Sl9iUnEzQzRfMkJIR05pQnA3eEtUQTM3dHpYVlRQY0JGUHlJVjBNRFMzUFY2NnNjdldld1RMS1E0dFY0bUJsMWp2aXM1SWtpOURQUEh2eU42Y0VJMWZ6Z0FncjlLMGdLcTRuTXd3Vzc0akxacDNnOElXQTl5bnE?oc=5",
-        "domain": "crudeoilpricestodayoilprice.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260904T153000Z",
         "source": "GoogleNews"
       },
       {
@@ -117568,7 +117570,7 @@
       {
         "title": "Citibank Hit With £4.7M OFSI Fine Over Control Failures",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdUtOdHFvaHQwajRSWkZRTmowQjdHbU1wdWR2V0xKVS1tTjRqWHdhMlUwSUF2RXFBc1pxSXZFOGVDUDNqdUpiSzJiVkNVNTdkak45WXdsSmpoOW4zNi1TUzZSdjhMNG9ZdFM2RHFnNC1hUEJFclN0bFY1b1oxVlk?oc=5",
-        "domain": "fincrimecentral",
+        "domain": "fincrimecentral.com",
         "language": "",
         "tone": 0,
         "seendate": "20260902T173833Z",
@@ -117586,7 +117588,7 @@
       {
         "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
-        "domain": "perspectivemedia.com",
+        "domain": "perspectivemedia",
         "language": "",
         "tone": 0,
         "seendate": "20260902T130004Z",
@@ -117608,6 +117610,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260831T134800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Putin's autocratic regime not enough to freeze assets of Russia-linked companies, EU's court rules",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDR6VGNCZFJ3QllEYnExbHZFbllNTWg5RTU2VWd0bGpBVWVBQUowR1RXQWZVaUVqQjVhZ0hBVVFkRFJHcjlvYVU3VVVwTDRTUWs5b05wUUhZY0U4OVRPaXFUTnBTUUxLc1QzUnYtMlVkSDdyV3NxZnM0bWdyYW5fdUN3?oc=5",
+        "domain": "yahoonewsaustralia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260903T094142Z",
         "source": "GoogleNews"
       },
       {
