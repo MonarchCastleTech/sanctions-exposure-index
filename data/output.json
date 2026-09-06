@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-06T04:33:16.551520+00:00",
+    "generated": "2026-09-06T10:52:29.653243+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-06T04:31:30.075957+00:00",
+    "issued_at": "2026-09-06T10:50:42.982098+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -647,6 +647,17 @@
       },
       {
         "timestamp": "2026-09-06T04:31:30.075957+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-06T10:50:42.982098+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117558,7 +117569,7 @@
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
-        "domain": "reuters",
+        "domain": "reuters.com",
         "language": "",
         "tone": 0,
         "seendate": "20260831T182222Z",
@@ -117583,6 +117594,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
+        "domain": "mlex",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T072700Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Chinese court freezes 300 million in Nexperia assets",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
         "domain": "techzineglobal",
@@ -117601,9 +117621,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "A Chinese court has frozen Nexperia’s stakes in four of its own subsidiaries",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoTXZwaTV4dV9JMTRCVFNmM3lBTWxpNndORkhHaTB0NkVKR1RBd2lHSFhiWTNDbm5hNmhxa3R1SzdremlKZXNjSm1BZDgtU0tWQVVSQWxmamU2dkZKS2MtSlFnRkNRZ1FzTVFRREpXU2FrV2kzUkJZbDRB?oc=5",
+        "domain": "thenextweb",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T114414Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
-        "domain": "perspectivemedia",
+        "domain": "perspectivemedia.com",
         "language": "",
         "tone": 0,
         "seendate": "20260902T130004Z",
@@ -117625,6 +117654,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260903T094142Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Chinese Court Freezes $318 Million of Nexperia Assets in Wingtech Fight",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUtHYzFTN0NVb3ZIdXgteGgtZ2FVMVpqdVFJNjJPR3poNjJySFdSRjlJZXFtRS1OMWxnOHBZUUdUTXg3ZEgxVTl1Y0dvRS00RVhScml3Q2ZPSzh6Yl9WUXVhbFlmU1FhQWdwZDg0WmdQOHBYRjlKa0lwNmRGdlJtcjlqek5aWUxPRHdCNHltV2gzdzZnVFpOR1BncGhTYWc?oc=5",
+        "domain": "startupfortune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T095426Z",
         "source": "GoogleNews"
       },
       {
@@ -117661,15 +117699,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T042000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "No objection to UN blacklisting Jaish-e-Mohammed founder: FO",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0pJS215X2xZSEtaX2VxQzhzNkQybnRvU0hyRDhTNkNuTGZ2UmNkZEhjN3RUSnlHWVI4Szd5V1NQZHVZd2ptMDdCUDBnc3FscGVpZTNoWnBqVC1SZk1VZTlzVEhKQk82eEE3RktjdFphUkphdUtFRXRnQzFJN3ZMZVd4WTh2bDg3eWRXbkR6bWgtS1hneGNxTEktUXFxbm9oaGc?oc=5",
-        "domain": "arabnewspk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260904T175511Z",
         "source": "GoogleNews"
       },
       {
