@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-06T10:52:29.653243+00:00",
+    "generated": "2026-09-06T15:26:40.265134+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-06T10:50:42.982098+00:00",
+    "issued_at": "2026-09-06T15:24:53.564209+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -658,6 +658,17 @@
       },
       {
         "timestamp": "2026-09-06T10:50:42.982098+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-06T15:24:53.564209+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117569,19 +117580,19 @@
       {
         "title": "Chinese court freezes $300 million of Nexperia assets in Wingtech case",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMy1Xal9hQU5QWHU2R2NGN1FBMFZoNEM0dzVlbVd5Z2poTnlLZi1vcU05aGJzZnoyQWZQbUxQQUtmSGdZQ0ZYMWEtZHJhN1lTdy1SeUFBQXpfYXJlMXBfQ29JbUxsc0dJcWRjaDFmWUJmNTRmWWVJdjJLOWhkYmk4cjFGc3NFbjdmcUJRdzZ0UHI0ajF0OE5EMUNXYUZlRmExeUJtQlpfQmhlZ1VOYmdKNVR5WnYtUkszZ1FfV1dFQURkNGs0bzRmZg?oc=5",
-        "domain": "reuters.com",
+        "domain": "reuters",
         "language": "",
         "tone": 0,
         "seendate": "20260831T182222Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
-        "domain": "coindesk",
+        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
+        "domain": "mlex.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T112626Z",
+        "seendate": "20260901T072700Z",
         "source": "GoogleNews"
       },
       {
@@ -117594,21 +117605,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
-        "domain": "mlex",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T072700Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Chinese court freezes 300 million in Nexperia assets",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
         "domain": "techzineglobal",
         "language": "",
         "tone": 0,
         "seendate": "20260831T123415Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260831T112626Z",
         "source": "GoogleNews"
       },
       {
@@ -117630,21 +117641,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
-        "domain": "perspectivemedia.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260902T130004Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US Weekly Iran Sanctions: Treasury Targets New Entities",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZzBaSWdhWGJXaU1pTVB5eXhrUFRuMG53c2sxMFJXNzVOaDd0TGxvcElBRUJYY3hwUnh4akFEYkpQSTViX0tYSEU2ZkQ4MC1qTGpNb0s0RDFQZE9zdWZkbTY2ckxiRm5DelliMXJtVm5kT0Jrb0lUY2hObFFQU2czeHZkVGVqTXJRcnVsZ0hGUTFkbTJ2YmI2SnVDZVRNb0JQNnNwbWk5Uk5Jbm9KR2FvRlQtcUlJR1ppZ1E?oc=5",
         "domain": "wansomai",
         "language": "",
         "tone": 0,
         "seendate": "20260901T000000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
+        "domain": "perspectivemedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260902T130004Z",
         "source": "GoogleNews"
       },
       {
