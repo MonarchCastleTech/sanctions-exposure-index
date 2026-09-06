@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-06T15:26:40.265134+00:00",
+    "generated": "2026-09-06T20:23:29.013327+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-06T15:24:53.564209+00:00",
+    "issued_at": "2026-09-06T20:21:42.461566+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -669,6 +669,17 @@
       },
       {
         "timestamp": "2026-09-06T15:24:53.564209+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-06T20:21:42.461566+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117587,12 +117598,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
-        "domain": "mlex.com",
+        "title": "Chinese court freezes 300 million in Nexperia assets",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
+        "domain": "techzineglobal",
         "language": "",
         "tone": 0,
-        "seendate": "20260901T072700Z",
+        "seendate": "20260831T123415Z",
         "source": "GoogleNews"
       },
       {
@@ -117605,12 +117616,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chinese court freezes 300 million in Nexperia assets",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
-        "domain": "techzineglobal",
+        "title": "China freezes $318m in Nexperia assets amid anti-sanctions lawsuit",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUd0dlk2WHliaFlja3V3UXg1cWpiOEVhdk5uOXV2bzNpR2lsMUEwbVg0MmdNUzlZZkVoSGhkZzdmLTVHSC15aHA5ZlNnclpiYk1VOFJIVWd5QWkxUHd5NWh1Sy1XeG9sUzUzSkFvbUZtNHFGS2g2eVRhXzFMSUJXalpQWHc5Qzg0c2xFRTdGZV9NR3NrcHU2LW9pVHVWVTVlTmFPM1otcnI1MXVa0gFaQVVfeXFMUGdTc25ablRGZk1zOEdqd2hWZjFPTzZ1RzJIWEZNNzhsWERDVjVKMDJJbUJ1NWk4V2NDSXJDTlI5WEoyclZpS0lBeW1WbDBocURZdlJ4REdjUVJn?oc=5",
+        "domain": "mlex",
         "language": "",
         "tone": 0,
-        "seendate": "20260831T123415Z",
+        "seendate": "20260901T072700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Putin's autocratic regime not enough to freeze assets of Russia-linked companies, EU's court rules",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUFdkMGI5bVJVZzBPLV9yMV9WTm9faVlfMEhKNld6YnJmNFhtTkNFemhOUXJ6TE8zTnIzMEhlbVZTTmMzcW9XZ0VQczgxMWI2bk9hQ2IteVR0dFcxT2poRjRyYXJSTS1GOVVNa291eGJocm14NjlVcHNRT2N2ZTlYVWFR?oc=5",
+        "domain": "yahoonewssingapore",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260903T094142Z",
         "source": "GoogleNews"
       },
       {
@@ -117650,24 +117670,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
-        "domain": "perspectivemedia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260902T130004Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Putin's autocratic regime not enough to freeze assets of Russia-linked companies, EU's court rules",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDR6VGNCZFJ3QllEYnExbHZFbllNTWg5RTU2VWd0bGpBVWVBQUowR1RXQWZVaUVqQjVhZ0hBVVFkRFJHcjlvYVU3VVVwTDRTUWs5b05wUUhZY0U4OVRPaXFUTnBTUUxLc1QzUnYtMlVkSDdyV3NxZnM0bWdyYW5fdUN3?oc=5",
-        "domain": "yahoonewsaustralia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260903T094142Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Chinese Court Freezes $318 Million of Nexperia Assets in Wingtech Fight",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUtHYzFTN0NVb3ZIdXgteGgtZ2FVMVpqdVFJNjJPR3poNjJySFdSRjlJZXFtRS1OMWxnOHBZUUdUTXg3ZEgxVTl1Y0dvRS00RVhScml3Q2ZPSzh6Yl9WUXVhbFlmU1FhQWdwZDg0WmdQOHBYRjlKa0lwNmRGdlJtcjlqek5aWUxPRHdCNHltV2gzdzZnVFpOR1BncGhTYWc?oc=5",
         "domain": "startupfortune",
@@ -117701,6 +117703,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T180000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWVZMbUF6Vm00b0xMMUYtUU4zUUNScjBab1FZSFFJbjV0QTJab2tzbFN1X0lVVlozRENvbmJLZXVfcHEwc2w3LWFRb09RSGQ1S3RKRE5ZQ3M3eUIxREczcTlwMTljd0w1dGpVRDNJbmNpTGtzOUR0T0xhdEtMallzWFFOY2NpYk0xa0g2LUw0TC12aE0?oc=5",
+        "domain": "rayo",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260902T170308Z",
         "source": "GoogleNews"
       },
       {
