@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-06T20:23:29.013327+00:00",
+    "generated": "2026-09-07T04:32:56.939417+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-06T20:21:42.461566+00:00",
+    "issued_at": "2026-09-07T04:31:10.499243+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -28,10 +28,10 @@
         "releases_considered": 100,
         "current_7d_designation_releases": 2,
         "current_7d_all_releases": 2,
-        "prior_7d_designation_releases": 6,
+        "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": -0.67,
+        "baseline_weekly_median": 2.5,
+        "anomaly_z": -0.34,
         "themes": [
           "cuba",
           "iran",
@@ -168,7 +168,7 @@
         "score": 3.6,
         "current_7d_releases": 2,
         "current_weighted_term_rate": 0.5,
-        "baseline_weeks": 10,
+        "baseline_weeks": 11,
         "anomaly_z": -1.8,
         "matched_release_count": 1,
         "relief_release_count": 2,
@@ -680,6 +680,17 @@
       },
       {
         "timestamp": "2026-09-06T20:21:42.461566+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-07T04:31:10.499243+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117598,6 +117609,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Could billions in frozen Iranian assets help the US unlock a deal?",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc2tWdjZUVEFVMC03a05mRjRQMWFaTEN4ZTBZaTNZRHlQVFBlVUkxbGpuVXBCUUpTUklNc0t2dTUzZmQ4QVJDX2tlYktOMTEyTjNVWTQ0dzNlSHNQQ2M2YVphNlBWd0xQWW5FdDRRNTdKcEV0RTJSTWg1YzBBSE05S0Z2S1BEOUM5RHlYMzZIOGtfODItTW9XQmVWZWY2ZUEyQUNsVUw5WnRZRTl4eUsw?oc=5",
+        "domain": "euronews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T131800Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Chinese court freezes 300 million in Nexperia assets",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdXFBOTBFSHA3TnM0MlV1WkhhaG1XYzE0ZVUzeW1MaUdxZTFyMnJDV3ZzY3V5clpxR1E0eVRuT0laVFY3ZzdfcDMyQTltOVlvc3NZaWQ3cFNpU3pkQVZWaGFzNDhXUktLcEZ3cFA2RS12dVVBUjBFMmJEVDRWNmdObDlOanA5aEpXUm1MM25nb3I3M1hvWndvM1QwMG9OZndKNUZPMkZHUWlHNDZC?oc=5",
         "domain": "techzineglobal",
@@ -117636,7 +117656,7 @@
       {
         "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmRLcEUtM0ZIMk0tME01ZmY3NXAxOWR1QkJ4Z3QyRjVHOFBuVEZYMG5QR05Cb190RXUzMnFNa1dLX1JTSGdiTXpaLUN2WlpFWDVoTVdvMEZ0UzdnWkFhdHBWQmxMd3BNNGNvOEN1MllUX1ozS191aXRfaHNDdXJqZFlBUWlnZjJOa3VTUURYUm45UGtNOUJKb0pvZ0t6bTd4dDBhQnJTWF9RWG5KYXZHQllJRHlzaF9zekVr?oc=5",
-        "domain": "coindesk",
+        "domain": "coindesk.com",
         "language": "",
         "tone": 0,
         "seendate": "20260831T112626Z",
@@ -117654,7 +117674,7 @@
       {
         "title": "A Chinese court has frozen Nexperia’s stakes in four of its own subsidiaries",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoTXZwaTV4dV9JMTRCVFNmM3lBTWxpNndORkhHaTB0NkVKR1RBd2lHSFhiWTNDbm5hNmhxa3R1SzdremlKZXNjSm1BZDgtU0tWQVVSQWxmamU2dkZKS2MtSlFnRkNRZ1FzTVFRREpXU2FrV2kzUkJZbDRB?oc=5",
-        "domain": "thenextweb",
+        "domain": "thenextweb.com",
         "language": "",
         "tone": 0,
         "seendate": "20260901T114414Z",
@@ -117667,15 +117687,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260901T000000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Chinese Court Freezes $318 Million of Nexperia Assets in Wingtech Fight",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUtHYzFTN0NVb3ZIdXgteGgtZ2FVMVpqdVFJNjJPR3poNjJySFdSRjlJZXFtRS1OMWxnOHBZUUdUTXg3ZEgxVTl1Y0dvRS00RVhScml3Q2ZPSzh6Yl9WUXVhbFlmU1FhQWdwZDg0WmdQOHBYRjlKa0lwNmRGdlJtcjlqek5aWUxPRHdCNHltV2gzdzZnVFpOR1BncGhTYWc?oc=5",
-        "domain": "startupfortune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T095426Z",
         "source": "GoogleNews"
       },
       {
@@ -117694,6 +117705,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260905T185912Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "£35.75 million London penthouses linked to Iran leader Mojtaba Khamenei put up for sale",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYTNLSHhSc0lOekpYb0VDRzhGN3B6NFc4SGQtS3JYV1A1alpTbktvZXhxSDRfQW1FN00wLTBQa1kyNnFyb05YQVJ0aUZfM2doVGozVDBXNTZHVG9Sd1h2OXpGWFB5eEplaEY0X2g5Nk5fTnJ6S2V6MXRia2hocFZQSmFEY3hMZThKLUMwLXN1WDdXWURXV0ZwdmtFdG1mQdIBsAFBVV95cUxNMmdBS0QyNktpTmg4aHI1SVJ5OEpyVlpBWEVaUEFXeUJKX2paNVFkMk1PUVdEZTFpaXdJQWpiUFFBUXhhbks4cHdtSGE4cGNrV0NyTXhZVmN3SWZFTm5uUnQ3bkw4a3FiRV83NElCUXdhYXktUTZuTGZ4MjE2bmdWNFYwUzA1Nm9vaWtCaGt6aW5ycjk1YTRHMTFzNUd6SnQ4bHYyNDlJa19KbDNISVJQUQ?oc=5",
+        "domain": "gulfnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260907T010700Z",
         "source": "GoogleNews"
       },
       {
@@ -117724,12 +117744,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nexperia’s assets worth $318M frozen by Chinese court amid control dispute",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mUE16dGZTNWhnd0NzaHRXc3VKaUxYUjFGYnRaUU9EV0NQeUJ0Um1SbWpzcF91SE5tVGVFQ3gyMndpWmVhTVFvQ0RJc2ViREFCUDYtbWxMTlJKSTQ4N0lvTE5zWW5BV1o3cm9Ya2FsN09qaDQ5cDFXbGhOclU?oc=5",
-        "domain": "cryptobriefing",
+        "title": "No objection to UN blacklisting Jaish-e-Mohammed founder: FO",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0pJS215X2xZSEtaX2VxQzhzNkQybnRvU0hyRDhTNkNuTGZ2UmNkZEhjN3RUSnlHWVI4Szd5V1NQZHVZd2ptMDdCUDBnc3FscGVpZTNoWnBqVC1SZk1VZTlzVEhKQk82eEE3RktjdFphUkphdUtFRXRnQzFJN3ZMZVd4WTh2bDg3eWRXbkR6bWgtS1hneGNxTEktUXFxbm9oaGc?oc=5",
+        "domain": "arabnewspk",
         "language": "",
         "tone": 0,
-        "seendate": "20260901T120831Z",
+        "seendate": "20260904T175511Z",
         "source": "GoogleNews"
       },
       {
