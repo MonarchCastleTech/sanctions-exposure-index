@@ -1,22 +1,24 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-08T11:13:46.837340+00:00",
+    "generated": "2026-09-08T16:36:47.845496+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
       "OFAC press releases",
       "FRED Brent/WTI"
     ],
-    "source_notes": [],
+    "source_notes": [
+      "Context news unavailable; retained last accepted snapshot."
+    ],
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-08T11:12:00.010991+00:00",
+    "issued_at": "2026-09-08T16:35:01.338917+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 15.7,
-    "level": "BASELINE",
+    "score": 44.1,
+    "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,20 +26,40 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 28.0,
-        "releases_considered": 100,
-        "current_7d_designation_releases": 2,
-        "current_7d_all_releases": 2,
+        "score": 56.9,
+        "releases_considered": 99,
+        "current_7d_designation_releases": 3,
+        "current_7d_all_releases": 3,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
         "baseline_weekly_median": 2.0,
-        "anomaly_z": 0.0,
+        "anomaly_z": 1.35,
         "themes": [
+          "counter_terrorism",
           "cuba",
           "iran",
           "russia"
         ],
         "evidence": [
+          {
+            "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
+            "url": "https://home.treasury.gov/news/press-releases/sb0623/",
+            "action_title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260908",
+            "date": "2026-09-08",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "counter_terrorism",
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
             "url": "https://home.treasury.gov/news/press-releases/treasury-severs-iranian-regime-s-financial-lifelines-turkiye/",
@@ -81,14 +103,14 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19329,
+        "score": 90.0,
+        "current_count": 19365,
         "previous_count": 19329,
-        "added_count": 0,
+        "added_count": 36,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-09-03",
-        "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
+        "changed": true,
+        "publish_date": "2026-09-04",
+        "sha256": "1c878982988268de843cd09f5fbc511bd0f0591928db5af5e8e0a5807064c520",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -132,7 +154,7 @@
           },
           {
             "program": "SDGT] [IFSR",
-            "count": 427
+            "count": 436
           },
           {
             "program": "TCO",
@@ -142,11 +164,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 9929
+            "count": 9964
           },
           {
             "type": "individual",
-            "count": 7518
+            "count": 7519
           },
           {
             "type": "vessel",
@@ -157,7 +179,128 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "58492",
+            "name": "S SISTEM LOJISTIK HIZMETLER ANONIM SIRKETI",
+            "type": "",
+            "program": "SDGT] [IFSR"
+          },
+          {
+            "id": "58494",
+            "name": "ATA AIRLINES COMPANY",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58495",
+            "name": "IRAN AIR TOUR",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58496",
+            "name": "ICARGO SDN BHD",
+            "type": "",
+            "program": "SDGT] [IFSR"
+          },
+          {
+            "id": "58497",
+            "name": "IRAN ASEMAN AIRLINES",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58498",
+            "name": "KARUN AIRLINES COMPANY",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58499",
+            "name": "TOUR INVEST LLC",
+            "type": "",
+            "program": "SDGT] [IFSR"
+          },
+          {
+            "id": "58500",
+            "name": "MES CARGO TRANSPORTATION TOURISM AND FOREIGN TRADE LIMITED COMPANY",
+            "type": "",
+            "program": "SDGT] [IFSR"
+          },
+          {
+            "id": "58505",
+            "name": "ECT AVIATION SUPPORT LLC",
+            "type": "",
+            "program": "SDGT] [IFSR"
+          },
+          {
+            "id": "58508",
+            "name": "VARESH AIRLINES",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58509",
+            "name": "AIR SHIRAZ",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58510",
+            "name": "KISH AIRLINES",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58511",
+            "name": "TOOS AIRLINES",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58512",
+            "name": "ERWAN AIRLINE COMPANY",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58513",
+            "name": "ASA JET AIRLINE",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58514",
+            "name": "SOROUSH AIR",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58515",
+            "name": "ATLAS AVIATION GROUP",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58516",
+            "name": "SEPEHRAN AIRLINES",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58517",
+            "name": "QESHM AIR",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          },
+          {
+            "id": "58518",
+            "name": "TABAN AIRLINES",
+            "type": "",
+            "program": "IFSR] [IRAN-EO13902"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -165,14 +308,33 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 3.6,
-        "current_7d_releases": 2,
-        "current_weighted_term_rate": 0.5,
+        "score": 4.8,
+        "current_7d_releases": 3,
+        "current_weighted_term_rate": 0.667,
         "baseline_weeks": 12,
-        "anomaly_z": -1.19,
-        "matched_release_count": 1,
-        "relief_release_count": 2,
+        "anomaly_z": -0.94,
+        "matched_release_count": 2,
+        "relief_release_count": 3,
         "evidence": [
+          {
+            "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
+            "url": "https://home.treasury.gov/news/press-releases/sb0623/",
+            "action_title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260908",
+            "date": "2026-09-08",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "counter_terrorism",
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Further Sanctions on Cuba's Elites, Financial Channels, and Resource Exploitation Apparatus",
             "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/further-sanctions-on-cubas-elites-financial-channels-and-resource-exploitation-apparatus-fact-sheet/",
@@ -265,11 +427,29 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "ofac_action_velocity",
+        "sdn_delta_breadth"
+      ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [],
+    "alerts": [
+      {
+        "id": "sdn_delta_breadth",
+        "title": "Exact SDN list delta",
+        "score": 90.0,
+        "level": "SEVERE",
+        "why": "The official SDN file changed materially since the previous accepted snapshot."
+      },
+      {
+        "id": "ofac_action_velocity",
+        "title": "OFAC action velocity",
+        "score": 56.9,
+        "level": "ELEVATED",
+        "why": "Official designation-linked releases are elevated against prior weekly activity."
+      }
+    ],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -743,11 +923,22 @@
           "official_posture_shift": 3.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-08T16:35:01.338917+00:00",
+        "score": 44.1,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 56.9,
+          "sdn_delta_breadth": 90.0,
+          "official_posture_shift": 4.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19329,
-      "ofac_releases": 100,
+      "sdn_entries": 19365,
+      "ofac_releases": 99,
       "market_series_available": 2,
       "available_components": 4,
       "retained_components": [
@@ -807,17 +998,17 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "15.7/100",
-      "delta": "BASELINE"
+      "value": "44.1/100",
+      "delta": "WATCH"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,329",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,365",
+      "delta": "+36 since accepted snapshot"
     },
     {
       "label": "Official Releases",
-      "value": "100",
+      "value": "99",
       "delta": "rolling official baseline"
     },
     {
@@ -828,9 +1019,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-09-03",
-      "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
-      "count": 19329,
+      "publish_date": "2026-09-04",
+      "sha256": "1c878982988268de843cd09f5fbc511bd0f0591928db5af5e8e0a5807064c520",
+      "count": 19365,
       "entries": [
         {
           "id": "36",
@@ -116789,6 +116980,222 @@
           "program": "CUBA-EO14404"
         },
         {
+          "id": "58492",
+          "name": "S SISTEM LOJISTIK HIZMETLER ANONIM SIRKETI",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58494",
+          "name": "ATA AIRLINES COMPANY",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58495",
+          "name": "IRAN AIR TOUR",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58496",
+          "name": "ICARGO SDN BHD",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58497",
+          "name": "IRAN ASEMAN AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58498",
+          "name": "KARUN AIRLINES COMPANY",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58499",
+          "name": "TOUR INVEST LLC",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58500",
+          "name": "MES CARGO TRANSPORTATION TOURISM AND FOREIGN TRADE LIMITED COMPANY",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58505",
+          "name": "ECT AVIATION SUPPORT LLC",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58508",
+          "name": "VARESH AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58509",
+          "name": "AIR SHIRAZ",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58510",
+          "name": "KISH AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58511",
+          "name": "TOOS AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58512",
+          "name": "ERWAN AIRLINE COMPANY",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58513",
+          "name": "ASA JET AIRLINE",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58514",
+          "name": "SOROUSH AIR",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58515",
+          "name": "ATLAS AVIATION GROUP",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58516",
+          "name": "SEPEHRAN AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58517",
+          "name": "QESHM AIR",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58518",
+          "name": "TABAN AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58519",
+          "name": "SAHA AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58520",
+          "name": "SKY PHOENIX HAVA YOLLARI TASIMACILIGI TICARET LIMITED SIRKETI",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58521",
+          "name": "ECT AVIATION SUPPORT LTD",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58522",
+          "name": "MAHRAN, Ibrahim Ali Mohamed Mohamed",
+          "type": "individual",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58523",
+          "name": "ZAGROS AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58524",
+          "name": "AEROBRAVO AIRPLANE MANAGEMENT AND OPERATION LLC",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "58526",
+          "name": "AVA AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58529",
+          "name": "CHABAHAR AIRLINES COMPANY",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58530",
+          "name": "FLY KISH AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58531",
+          "name": "FLY PERSIA AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58532",
+          "name": "JSKY AIRLINES",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58533",
+          "name": "LAD AIRWAYS",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58534",
+          "name": "MEHR AIRWAYS",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58535",
+          "name": "NASIM AIR",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58537",
+          "name": "PARS OGHYANOUS KISH COMPANY",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
+          "id": "58538",
+          "name": "RAIMON AIRWAYS",
+          "type": "",
+          "program": "IFSR] [IRAN-EO13902"
+        },
+        {
           "id": "58544",
           "name": "GOLDEN GLOBAL YATIRIM BANKASI ANONIM SIRKETI",
           "type": "",
@@ -116811,6 +117218,14 @@
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
+          "url": "https://home.treasury.gov/news/press-releases/sb0623/",
+          "action_title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260908",
+          "date": "2026-09-08",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
           "url": "https://home.treasury.gov/news/press-releases/treasury-severs-iranian-regime-s-financial-lifelines-turkiye/",
@@ -116956,16 +117371,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Additional Sanctions Designations Targeting the Corrupt Cuban Communist Regime and its Financial Backers",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/additional-sanctions-designations-targeting-the-corrupt-cuban-communist-regime-and-its-financial-backers/",
+          "title": "CHART - CJNG-Linked Networks - July 2026",
+          "url": "https://ofac.treasury.gov/media/936616/download?inline",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
-          "url": "https://home.treasury.gov/news/press-releases/sb0573",
+          "title": "CHART - CJNG Leadership - July 2026",
+          "url": "https://ofac.treasury.gov/media/936611/download?inline",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
@@ -116980,16 +117395,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - CJNG-Linked Networks - July 2026",
-          "url": "https://ofac.treasury.gov/media/936616/download?inline",
+          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+          "url": "https://home.treasury.gov/news/press-releases/sb0573",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - CJNG Leadership - July 2026",
-          "url": "https://ofac.treasury.gov/media/936611/download?inline",
+          "title": "Additional Sanctions Designations Targeting the Corrupt Cuban Communist Regime and its Financial Backers",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/additional-sanctions-designations-targeting-the-corrupt-cuban-communist-regime-and-its-financial-backers/",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
@@ -117156,16 +117571,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran’s Largest Digital Asset Exchange for Terror Finance and Sanctions Evasion",
-          "url": "https://home.treasury.gov/news/press-releases/sb0519",
+          "title": "Treasury Sanctions Rebel Commanders Driving Conflict in the Democratic Republic of the Congo",
+          "url": "https://home.treasury.gov/news/press-releases/sb0518",
           "action_title": "Counter Terrorism and Iran-related Designations; Democratic Republic of the Congo-related Designations; Issuance of Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260602",
           "date": "2026-06-02",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Rebel Commanders Driving Conflict in the Democratic Republic of the Congo",
-          "url": "https://home.treasury.gov/news/press-releases/sb0518",
+          "title": "Economic Fury Targets Iran’s Largest Digital Asset Exchange for Terror Finance and Sanctions Evasion",
+          "url": "https://home.treasury.gov/news/press-releases/sb0519",
           "action_title": "Counter Terrorism and Iran-related Designations; Democratic Republic of the Congo-related Designations; Issuance of Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260602",
           "date": "2026-06-02",
@@ -117180,16 +117595,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
+          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
+          "url": "https://home.treasury.gov/news/press-releases/sb0510",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
-          "url": "https://home.treasury.gov/news/press-releases/sb0510",
+          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
@@ -117284,16 +117699,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Warns of Sanctions Risks Linked to China-Based Independent \"Teapot\" Oil Refineries",
-          "url": "https://home.treasury.gov/news/press-releases/sb0476",
+          "title": "Economic Fury Targets Iran Shadow Banking Facilitators",
+          "url": "https://home.treasury.gov/news/press-releases/sb0477",
           "action_title": "Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260428",
           "date": "2026-04-28",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran Shadow Banking Facilitators",
-          "url": "https://home.treasury.gov/news/press-releases/sb0477",
+          "title": "Treasury Warns of Sanctions Risks Linked to China-Based Independent \"Teapot\" Oil Refineries",
+          "url": "https://home.treasury.gov/news/press-releases/sb0476",
           "action_title": "Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260428",
           "date": "2026-04-28",
@@ -117332,16 +117747,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Recruitment Network Enabling War in Sudan, Calls for Humanitarian Truce",
-          "url": "https://home.treasury.gov/news/press-releases/sb0457",
+          "title": "Economic Fury Targets Iran-Backed Iraqi Militia Commanders",
+          "url": "https://home.treasury.gov/news/press-releases/sb0458",
           "action_title": "Counter Terrorism Designations; Sudan Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
           "date": "2026-04-17",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran-Backed Iraqi Militia Commanders",
-          "url": "https://home.treasury.gov/news/press-releases/sb0458",
+          "title": "Treasury Sanctions Recruitment Network Enabling War in Sudan, Calls for Humanitarian Truce",
+          "url": "https://home.treasury.gov/news/press-releases/sb0457",
           "action_title": "Counter Terrorism Designations; Sudan Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
           "date": "2026-04-17",
@@ -117398,14 +117813,6 @@
         {
           "title": "Treasury Continues to Disrupt Hamas' Sham Charity Network as the Group Refuses to Disarm",
           "url": "https://home.treasury.gov/news/press-releases/sb0415",
-          "action_title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260312",
-          "date": "2026-03-12",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
-          "url": "https://home.treasury.gov/news/press-releases/sb0416",
           "action_title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260312",
           "date": "2026-03-12",
@@ -117596,14 +118003,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Sanctioning ICC Judges Directly Engaged in the Illegitimate Targeting of Israel",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2025/12/sanctioning-icc-judges-directly-engaged-in-the-illegitimate-targeting-of-israel/",
-          "action_title": "Iran-related Designations; International Criminal Court-related Designations; Russia-related Designations Removals; Foreign Sanctions Evaders Determination Removal; Issuance of Iran-related and International Criminal Court-related General Licenses",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20251218",
-          "date": "2025-12-18",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Treasury Increases Pressure on Iran’s Sanctions-Evading Shadow Fleet",
           "url": "https://home.treasury.gov/news/press-releases/sb0341",
           "action_title": "Iran-related Designations; International Criminal Court-related Designations; Russia-related Designations Removals; Foreign Sanctions Evaders Determination Removal; Issuance of Iran-related and International Criminal Court-related General Licenses",
@@ -117791,6 +118190,14 @@
   },
   "events": [
     {
+      "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
+      "url": "https://home.treasury.gov/news/press-releases/sb0623/",
+      "action_title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260908",
+      "date": "2026-09-08",
+      "source": "OFAC/Treasury"
+    },
+    {
       "title": "Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
       "url": "https://home.treasury.gov/news/press-releases/treasury-severs-iranian-regime-s-financial-lifelines-turkiye/",
       "action_title": "Iran-related Designations; Issuance of Iran-related General License",
@@ -117900,14 +118307,6 @@
       "action_title": "Counter Terrorism and Iran-related Designations; Counter Narcotics Designations Removals; Issuance of Amended Iran-related Frequently Asked Question",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260807",
       "date": "2026-08-07",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Targeting Enablers of the Cuban Regime’s Arms Imports and Foreign Military Cooperation",
-      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/targeting-enablers-of-the-cuban-regimes-arms-imports-and-foreign-military-cooperation-fact-sheet/?",
-      "action_title": "Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260806",
-      "date": "2026-08-06",
       "source": "OFAC/Treasury"
     }
   ],
