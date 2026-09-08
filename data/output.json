@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-07T21:30:14.138372+00:00",
+    "generated": "2026-09-08T04:30:34.065264+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-07T21:28:27.883727+00:00",
+    "issued_at": "2026-09-08T04:28:47.669662+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -30,8 +30,8 @@
         "current_7d_all_releases": 2,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.5,
-        "anomaly_z": -0.34,
+        "baseline_weekly_median": 2.0,
+        "anomaly_z": 0.0,
         "themes": [
           "cuba",
           "iran",
@@ -168,8 +168,8 @@
         "score": 3.6,
         "current_7d_releases": 2,
         "current_weighted_term_rate": 0.5,
-        "baseline_weeks": 11,
-        "anomaly_z": -1.8,
+        "baseline_weeks": 12,
+        "anomaly_z": -1.19,
         "matched_release_count": 1,
         "relief_release_count": 2,
         "evidence": [
@@ -713,6 +713,17 @@
       },
       {
         "timestamp": "2026-09-07T21:28:27.883727+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-08T04:28:47.669662+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117597,7 +117608,7 @@
       {
         "title": "China Rare Earth Firms Freeze U.S. Exports Weeks Before Xi-Trump Summit",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzNkZzNab3Q0TUxJTmUwUll6YzE3MUVoYUxkU3hIY09tejhoWkRZWW5zd0ZBcnJUX2VIX0R0d1VJTmJLTkJzWnZoUFRIYXhzOE9IdnN5QnYwc1FBd1N4a3pGcUNKTFprczBSQWNtS2lCWFJlVGs5eGVqTnd1WkJBQzNIRkcxaktWY0hxU1pObGtWQ0RkOG91REdSU2lURktwX0NFdzl5Ni0zM0dNU1o4YXBZZ1Z4VnhwWWU4enAxNU5kYkHSAcgBQVVfeXFMTlJoNGVtaERrejgyX05GVUhtR2s3bmZoa1JaTE52WWo1RU5mTnhWUmpTd0t1WEdrU3VNdEFqNHk5MFNFenk4VVZ3RTZYOVZxcTA5Sl9iUnEzQzRfMkJIR05pQnA3eEtUQTM3dHpYVlRQY0JGUHlJVjBNRFMzUFY2NnNjdldld1RMS1E0dFY0bUJsMWp2aXM1SWtpOURQUEh2eU42Y0VJMWZ6Z0FncjlLMGdLcTRuTXd3Vzc0akxacDNnOElXQTl5bnE?oc=5",
-        "domain": "crudeoilpricestodayoilprice.com",
+        "domain": "oilprice.com",
         "language": "",
         "tone": 0,
         "seendate": "20260904T153000Z",
@@ -117631,24 +117642,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "A Chinese court has frozen Nexperia’s stakes in four of its own subsidiaries",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoTXZwaTV4dV9JMTRCVFNmM3lBTWxpNndORkhHaTB0NkVKR1RBd2lHSFhiWTNDbm5hNmhxa3R1SzdremlKZXNjSm1BZDgtU0tWQVVSQWxmamU2dkZKS2MtSlFnRkNRZ1FzTVFRREpXU2FrV2kzUkJZbDRB?oc=5",
-        "domain": "thenextweb",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T114414Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US Weekly Iran Sanctions: Treasury Targets New Entities",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZzBaSWdhWGJXaU1pTVB5eXhrUFRuMG53c2sxMFJXNzVOaDd0TGxvcElBRUJYY3hwUnh4akFEYkpQSTViX0tYSEU2ZkQ4MC1qTGpNb0s0RDFQZE9zdWZkbTY2ckxiRm5DelliMXJtVm5kT0Jrb0lUY2hObFFQU2czeHZkVGVqTXJRcnVsZ0hGUTFkbTJ2YmI2SnVDZVRNb0JQNnNwbWk5Uk5Jbm9KR2FvRlQtcUlJR1ppZ1E?oc=5",
-        "domain": "wansomai",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T000000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
         "domain": "perspectivemedia",
@@ -117664,6 +117657,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260907T104522Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Philippines Plans 12-Month Freeze on New Payment System Operator Registrations",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdlVmck40WDBnSlJvZ2dDUnhkcTNpLWlwWFZ1bEVjYk5uOUJseUxEZmpWMkpEOGhFUHZGZWd3TDBsdkdQR3ZHN2xEX1oyODAySUt2cGp4Z2RaQVV5ajlVYTlfdEdNb1JIc1RrZ1c5SC1Ub2NpV0xzVlJUbTlMaDVQWTVpaHcyaGNxemphZGlxU21uNDFLZExWSUcyMkFwYzRCRHVybDhud1JFTFNRZkJtRUJ5eEl4bHhjaGV0dzdGN0pnWUlmbGhqanJFSEpjSHRDdUZqczFxWDZPbHZU?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260907T194000Z",
         "source": "GoogleNews"
       },
       {
@@ -117712,18 +117714,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chinese court freezes Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1NLUjB2U0tZODdjT1F0eHVBNGNIWnlFRWhsbDUwc0xaVEVMaURiYk02eDR0aEZNU2hBa0l4X1JiWkxSUVozNTlzMUg1MUt4U0Y4R2piZDJScXVqTmpaSS1tY3RwcTNsd2RvZDNSU0ZjajY1N1Jta1RQX3IzUmh1dU0taVVzRUlwazNPRGc3a3JWQU94ZFB1cjA3cw?oc=5",
-        "domain": "idnfinancials",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T042000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "No objection to UN blacklisting Jaish-e-Mohammed founder: FO",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0pJS215X2xZSEtaX2VxQzhzNkQybnRvU0hyRDhTNkNuTGZ2UmNkZEhjN3RUSnlHWVI4Szd5V1NQZHVZd2ptMDdCUDBnc3FscGVpZTNoWnBqVC1SZk1VZTlzVEhKQk82eEE3RktjdFphUkphdUtFRXRnQzFJN3ZMZVd4WTh2bDg3eWRXbkR6bWgtS1hneGNxTEktUXFxbm9oaGc?oc=5",
-        "domain": "arabnews.pk",
+        "domain": "arabnewspk",
         "language": "",
         "tone": 0,
         "seendate": "20260904T175511Z",
@@ -117732,19 +117725,28 @@
       {
         "title": "£35.75 million London penthouses linked to Iran leader Mojtaba Khamenei put up for sale",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYTNLSHhSc0lOekpYb0VDRzhGN3B6NFc4SGQtS3JYV1A1alpTbktvZXhxSDRfQW1FN00wLTBQa1kyNnFyb05YQVJ0aUZfM2doVGozVDBXNTZHVG9Sd1h2OXpGWFB5eEplaEY0X2g5Nk5fTnJ6S2V6MXRia2hocFZQSmFEY3hMZThKLUMwLXN1WDdXWURXV0ZwdmtFdG1mQdIBsAFBVV95cUxNMmdBS0QyNktpTmg4aHI1SVJ5OEpyVlpBWEVaUEFXeUJKX2paNVFkMk1PUVdEZTFpaXdJQWpiUFFBUXhhbks4cHdtSGE4cGNrV0NyTXhZVmN3SWZFTm5uUnQ3bkw4a3FiRV83NElCUXdhYXktUTZuTGZ4MjE2bmdWNFYwUzA1Nm9vaWtCaGt6aW5ycjk1YTRHMTFzNUd6SnQ4bHYyNDlJa19KbDNISVJQUQ?oc=5",
-        "domain": "gulfnews",
+        "domain": "gulfnews.com",
         "language": "",
         "tone": 0,
         "seendate": "20260907T010700Z",
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury tracks IRGC-linked assets worldwide, warns businesses of action",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sYkFPb2I0R2VZRFVVNjY2dGJhcWpfeXg2cjRqemkyeHduLWRINGE5THZPek85Wk96aGhzUlFvYWxKSHg3YzI4VUdOY2VpSUlINHZaZjZaRHZBTnVhQmZBRnNWMGNzRmZDdHR3ZmhMQVZDQQ?oc=5",
+        "title": "Nexperia’s assets worth $318M frozen by Chinese court amid control dispute",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mUE16dGZTNWhnd0NzaHRXc3VKaUxYUjFGYnRaUU9EV0NQeUJ0Um1SbWpzcF91SE5tVGVFQ3gyMndpWmVhTVFvQ0RJc2ViREFCUDYtbWxMTlJKSTQ4N0lvTE5zWW5BV1o3cm9Ya2FsN09qaDQ5cDFXbGhOclU?oc=5",
         "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20260901T163355Z",
+        "seendate": "20260901T120831Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "London Penthouses Linked to Iran’s Supreme Leader Put Up for Sale After Mortgage Default",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMDZSVndpdTZ2S0t3akxJdEtVYkM4MmxGamJ6OVZVb0FhbS10eEpSM0dVUlRvaFdqU3c2V2FCdExpRXVFNW92N2M5QWE2eDBRQTFVUVJLZmZTei1lVWo0NmJNYTZSNUdzemZ4d3RGR3pLUEdpdkJUQi10bTRPbS11VnJmci1CRVQ2UUNzUHo3TWZhMHhkWUVrVnhKSTRaZXBGRWd4YXZ0Y0g3Sm1XVnAtSDE3MDRReVhJeVVF?oc=5",
+        "domain": "vinnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260907T133035Z",
         "source": "GoogleNews"
       },
       {
