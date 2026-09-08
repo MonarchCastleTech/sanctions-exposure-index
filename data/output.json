@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-08T04:30:34.065264+00:00",
+    "generated": "2026-09-08T11:13:46.837340+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-08T04:28:47.669662+00:00",
+    "issued_at": "2026-09-08T11:12:00.010991+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 15.7,
@@ -724,6 +724,17 @@
       },
       {
         "timestamp": "2026-09-08T04:28:47.669662+00:00",
+        "score": 15.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-08T11:12:00.010991+00:00",
         "score": 15.7,
         "level": "BASELINE",
         "components": {
@@ -117608,10 +117619,37 @@
       {
         "title": "China Rare Earth Firms Freeze U.S. Exports Weeks Before Xi-Trump Summit",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzNkZzNab3Q0TUxJTmUwUll6YzE3MUVoYUxkU3hIY09tejhoWkRZWW5zd0ZBcnJUX2VIX0R0d1VJTmJLTkJzWnZoUFRIYXhzOE9IdnN5QnYwc1FBd1N4a3pGcUNKTFprczBSQWNtS2lCWFJlVGs5eGVqTnd1WkJBQzNIRkcxaktWY0hxU1pObGtWQ0RkOG91REdSU2lURktwX0NFdzl5Ni0zM0dNU1o4YXBZZ1Z4VnhwWWU4enAxNU5kYkHSAcgBQVVfeXFMTlJoNGVtaERrejgyX05GVUhtR2s3bmZoa1JaTE52WWo1RU5mTnhWUmpTd0t1WEdrU3VNdEFqNHk5MFNFenk4VVZ3RTZYOVZxcTA5Sl9iUnEzQzRfMkJIR05pQnA3eEtUQTM3dHpYVlRQY0JGUHlJVjBNRFMzUFY2NnNjdldld1RMS1E0dFY0bUJsMWp2aXM1SWtpOURQUEh2eU42Y0VJMWZ6Z0FncjlLMGdLcTRuTXd3Vzc0akxacDNnOElXQTl5bnE?oc=5",
-        "domain": "oilprice.com",
+        "domain": "crudeoilpricestodayoilprice.com",
         "language": "",
         "tone": 0,
         "seendate": "20260904T153000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU court raises evidential bar for Russia sanctions freezes",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xbU5ZOXpEdjluSnVUTFMxeWJwLTI1dWhsenJvS2pHTVFNX1M3aTJfdjBvUm42VndYbzlxeTFFSC16Y3FsZUlZbzNkaVUyWU5BWkFnTkJNX2RzQQ?oc=5",
+        "domain": "eutoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T073104Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What’s next after China court freezes US$318 million in Nexperia assets?",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPem5oUTJyR1VCTGxHVTlKVER4UkM0blpUU0lhel9CTVVmM0JJb2xQSk5uNkRDSlhCU1RZaXVUdE9zU2xZeUZpVkhlUkJ5eTJtZF94WXBXVW9GV1JqSXM1dEs5TkNYZG4zaGxpOFZMOHJ2UXBGdWVRWTZaYUpINkxSZnFINnVFWE56aS1CdFpZZlR5QUVvU2V4TUlvRHJhM0Y1SllFclpFRDFiS3UxTUN2LU5uNnVvbWl4ZW04RDNaSdIBvwFBVV95cUxQOUh0enFqRmFfc1N2M09raFJMX2xReXd5MjdrRkVhajNKSmUtTzlJdE5peHBsM1c0U3I0U25KMnM2OHN0QUl2cDQxa1NlNUFaa0xPUnN2eUJpdktqUnQtdU82V051MEtQZUg2WW5DeVpBT0Jnc1RYVHNkUThIdk40U210aVg3c0tMbUNWTEpvTEFaWVNqTVRnT0l5eTBpemZINndRV0dFWUtJaG9POGtXQkM4NTJBVFh0bU1jd29Dcw?oc=5",
+        "domain": "southchinamorningpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T133007Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Could billions in frozen Iranian assets help the US unlock a deal?",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc2tWdjZUVEFVMC03a05mRjRQMWFaTEN4ZTBZaTNZRHlQVFBlVUkxbGpuVXBCUUpTUklNc0t2dTUzZmQ4QVJDX2tlYktOMTEyTjNVWTQ0dzNlSHNQQ2M2YVphNlBWd0xQWW5FdDRRNTdKcEV0RTJSTWg1YzBBSE05S0Z2S1BEOUM5RHlYMzZIOGtfODItTW9XQmVWZWY2ZUEyQUNsVUw5WnRZRTl4eUsw?oc=5",
+        "domain": "euronews.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T131800Z",
         "source": "GoogleNews"
       },
       {
@@ -117662,19 +117700,10 @@
       {
         "title": "Philippines Plans 12-Month Freeze on New Payment System Operator Registrations",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdlVmck40WDBnSlJvZ2dDUnhkcTNpLWlwWFZ1bEVjYk5uOUJseUxEZmpWMkpEOGhFUHZGZWd3TDBsdkdQR3ZHN2xEX1oyODAySUt2cGp4Z2RaQVV5ajlVYTlfdEdNb1JIc1RrZ1c5SC1Ub2NpV0xzVlJUbTlMaDVQWTVpaHcyaGNxemphZGlxU21uNDFLZExWSUcyMkFwYzRCRHVybDhud1JFTFNRZkJtRUJ5eEl4bHhjaGV0dzdGN0pnWUlmbGhqanJFSEpjSHRDdUZqczFxWDZPbHZU?oc=5",
-        "domain": "tradingview",
+        "domain": "tradingview.com",
         "language": "",
         "tone": 0,
         "seendate": "20260907T194000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Chinese Court Freezes $318 Million of Nexperia Assets in Wingtech Fight",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUtHYzFTN0NVb3ZIdXgteGgtZ2FVMVpqdVFJNjJPR3poNjJySFdSRjlJZXFtRS1OMWxnOHBZUUdUTXg3ZEgxVTl1Y0dvRS00RVhScml3Q2ZPSzh6Yl9WUXVhbFlmU1FhQWdwZDg0WmdQOHBYRjlKa0lwNmRGdlJtcjlqek5aWUxPRHdCNHltV2gzdzZnVFpOR1BncGhTYWc?oc=5",
-        "domain": "startupfortune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T095426Z",
         "source": "GoogleNews"
       },
       {
@@ -117705,15 +117734,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chinese court freezes 2.14 bln yuan of Nexperia assets in Wingtech case",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMl9aenAwMmRhalVEUVROV2MwLTZ6Z0E4blVJeHlQeHVtOHBfeTZtV2RxM2ZHQzNoZVV1V0NibEVzZWplVmk3Q2haRGc1a2ljanZYcnFXU3QtMUZrdGs1SmphemoyWjF6Zk03bkZVc2JrOU10TVNZRW5acmR6MUpuQ1lfbzM3OUN2azkta2Njei00TzlYRWJFRFQ5SlRyelIyTDZ6MGM2djdMc0NpWXduMUcxUXZXWG9leXpEWFc5Q1ZEZw?oc=5",
-        "domain": "thestandardhk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260901T092441Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "No objection to UN blacklisting Jaish-e-Mohammed founder: FO",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0pJS215X2xZSEtaX2VxQzhzNkQybnRvU0hyRDhTNkNuTGZ2UmNkZEhjN3RUSnlHWVI4Szd5V1NQZHVZd2ptMDdCUDBnc3FscGVpZTNoWnBqVC1SZk1VZTlzVEhKQk82eEE3RktjdFphUkphdUtFRXRnQzFJN3ZMZVd4WTh2bDg3eWRXbkR6bWgtS1hneGNxTEktUXFxbm9oaGc?oc=5",
         "domain": "arabnewspk",
@@ -117725,7 +117745,7 @@
       {
         "title": "£35.75 million London penthouses linked to Iran leader Mojtaba Khamenei put up for sale",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYTNLSHhSc0lOekpYb0VDRzhGN3B6NFc4SGQtS3JYV1A1alpTbktvZXhxSDRfQW1FN00wLTBQa1kyNnFyb05YQVJ0aUZfM2doVGozVDBXNTZHVG9Sd1h2OXpGWFB5eEplaEY0X2g5Nk5fTnJ6S2V6MXRia2hocFZQSmFEY3hMZThKLUMwLXN1WDdXWURXV0ZwdmtFdG1mQdIBsAFBVV95cUxNMmdBS0QyNktpTmg4aHI1SVJ5OEpyVlpBWEVaUEFXeUJKX2paNVFkMk1PUVdEZTFpaXdJQWpiUFFBUXhhbks4cHdtSGE4cGNrV0NyTXhZVmN3SWZFTm5uUnQ3bkw4a3FiRV83NElCUXdhYXktUTZuTGZ4MjE2bmdWNFYwUzA1Nm9vaWtCaGt6aW5ycjk1YTRHMTFzNUd6SnQ4bHYyNDlJa19KbDNISVJQUQ?oc=5",
-        "domain": "gulfnews.com",
+        "domain": "gulfnews",
         "language": "",
         "tone": 0,
         "seendate": "20260907T010700Z",
