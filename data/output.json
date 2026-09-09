@@ -1,23 +1,21 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-09T16:36:29.649280+00:00",
+    "generated": "2026-09-09T20:55:46.969901+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
       "OFAC press releases",
       "FRED Brent/WTI"
     ],
-    "source_notes": [
-      "Context news unavailable; retained last accepted snapshot."
-    ],
+    "source_notes": [],
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-09T16:34:42.926540+00:00",
+    "issued_at": "2026-09-09T20:54:00.087467+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 31.7,
+    "score": 29.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -121,12 +119,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 10.0,
+        "score": 0.0,
         "current_count": 19369,
-        "previous_count": 19365,
-        "added_count": 4,
+        "previous_count": 19369,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-09-08",
         "sha256": "1420bb7f85703354657128718c8e670f94c01d461b6dff9c446582bb0eaeeb70",
         "top_programs": [
@@ -197,32 +195,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58005",
-            "name": "LOS TIGUERONES",
-            "type": "",
-            "program": "FTO] [SDGT"
-          },
-          {
-            "id": "58361",
-            "name": "XINBI GUARANTEE",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58362",
-            "name": "ANWEN TECHNOLOGY CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58365",
-            "name": "SAFEW TECHNOLOGY CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -909,6 +882,17 @@
           "official_posture_shift": 6.3,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-09T20:54:00.087467+00:00",
+        "score": 29.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 66.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 6.3,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -973,13 +957,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "31.7/100",
+      "value": "29.7/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,369",
-      "delta": "+4 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -118050,12 +118034,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran turns to crypto for export payments amid sanctions: FT",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12Zko4VVd5MHpLby04V0F1OURobzVkbVpLV0dKa0lqeGJkTG5mRHlSOHoxMl9sOWp4NEVRZ3N1SUxzSTNFbk94eThyOTBtdDF1U3ltZDFhbFZaUmlQeHU2RGNhODJJZGZrem5yN1h3?oc=5",
-        "domain": "cryptonews",
+        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVlBHYjIzNGhRc2pHejk2QmVfM0ZEdDJXUzl6NnNJY0ZfM2FPRDIxdVlDTXc4Z3RZeGRKSWpPaWRTLWxZbzlqYXZrOXZtLTNtaDBQTnFzNGE1bDM5QzQyclVFXzdNVDA2SzRtWUpfNVNwWmlfcFpsTDdlbFI0ejZYNVdKa3lUNi04U0h3X21aRUJLQjgzeFU4bjk2QmM5cl9UcXdOWVNlUENZQQ?oc=5",
+        "domain": "rfi",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T061300Z",
+        "seendate": "20260909T151053Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US sanctions Turkish bank as Iran financial crackdown widens",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40MV9GZHZhY1YtZU42OWxPYUpqWTllV2dHUzU5ZF80ZGpZa1NEbXh4cUhhd0N5UjJJMWVmWWFlWHY5R3BHVlBOcUN0N19rOWVTNUE?oc=5",
+        "domain": "iranintl.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T195808Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian oligarch Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmt1djY3TGgtbG9FVWNuVnB5czhmeXFoR0RKSkE4c3Z6V1BSVTc2dVAyQ1pmUGxxVDU0RVRsSVUtNzFUMnUxbDFSVmNGRVpxb2dVcDdZVHJPSWRvSmlNa3hxRDdrYnJobWstTXJGb2JfbDYxNUdjeXEwY0VNejRJakVSa0hOSmtXTlNYVndMRU9CRFpTU0VaZjJQMjZIOWtOOWhnUVdR0gGrAUFVX3lxTFBfRGRPQ3lwS1FULXg2eTA5VWJSWWN3OElpd3VrSndtR2RPcHVJc2IwOHNsVmdsanFrZE5FUVBPLVFVcVlFMFNmTVpkTHlPQ1RlTVVUd0tGejRuWjg2M2prZDBZU0RxUXJCb0xEdDBMVC1hcHBIN3JuNWN3OE1YNGdDQ0JIWGJnbkt3Y2w4X3p3S3VWal9qSWJRYUd5blhhNnBPSXl3ZzRIdXlYbw?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T151341Z",
         "source": "GoogleNews"
       },
       {
@@ -118064,7 +118066,7 @@
         "domain": "euperspectives",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T093955Z",
+        "seendate": "20260909T114019Z",
         "source": "GoogleNews"
       },
       {
@@ -118088,19 +118090,28 @@
       {
         "title": "Putin's autocratic regime not enough to freeze assets of Russia-linked companies, EU's court rules",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUFdkMGI5bVJVZzBPLV9yMV9WTm9faVlfMEhKNld6YnJmNFhtTkNFemhOUXJ6TE8zTnIzMEhlbVZTTmMzcW9XZ0VQczgxMWI2bk9hQ2IteVR0dFcxT2poRjRyYXJSTS1GOVVNa291eGJocm14NjlVcHNRT2N2ZTlYVWFR?oc=5",
-        "domain": "sg.news.yahoo.com",
+        "domain": "yahoonewssingapore",
         "language": "",
         "tone": 0,
         "seendate": "20260903T094142Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Citibank Hit With £4.7M OFSI Fine Over Control Failures",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdUtOdHFvaHQwajRSWkZRTmowQjdHbU1wdWR2V0xKVS1tTjRqWHdhMlUwSUF2RXFBc1pxSXZFOGVDUDNqdUpiSzJiVkNVNTdkak45WXdsSmpoOW4zNi1TUzZSdjhMNG9ZdFM2RHFnNC1hUEJFclN0bFY1b1oxVlk?oc=5",
-        "domain": "fincrimecentral",
+        "title": "EU court rejects Abramovich’s third bid to lift sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdklXRGxQQWIybFRNQVJFZURoUkE1VllTMGhxQ0gxTzNyRG0taEtJcmFJcHNMXzgwYl9PN3c5M25KLXB1akhhZHhDQlltMmV4YWNVSlJTMmd3d2lYMDEyQzlGQjFGa1RacEJfSlByUjVwcTVVd3pTTDhLT3JpZGVhcUhDaXJLZzUyNkYyTElLN0sxMGZyMWk1aEloVi00dGtyWEdPQV9MVTBZOXdVX0o1WWhUcjBhX3VSTkV5WHV3VjbSAbwBQVVfeXFMUG9qWjBJdHB0V3JuSkZ6STgyOXEwWmNoN1BaYjVPUkpzUlVKZWw5TGktRE9kb3JzQ0RsM200NFFnWkRCdFNqUDBpeUhUVXAzSnN0cF9DMUVrMzF1UkZ6Ny0xMFdEdllNZ0dheDdCWThUbUQtRzhoQ1htM2h6eG1xR09POElrZXo0OVdvSEVtc0xqbm51U1FqdFQ2R3cwWWV3LS1xTVlucEl3eW9BVldRQ0YxdDd2V2kzV3I5eVc?oc=5",
+        "domain": "thenewvoiceofukraine",
         "language": "",
         "tone": 0,
-        "seendate": "20260902T173833Z",
+        "seendate": "20260909T120600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran Is Using Tether to Bypass Sanctions: Crypto’s Biggest Real-World Use Case Just Got Darker",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSVA4S0FuUVh6SmEzUjd4VWdoU2NWN01GTU1BY1FJU0dnWXh1My1uaEQ5NWFhYW9pb0xGNWl3UFlDV3VVT082V0JMZFZqcHlYa20wemxicElkdmlOVDg0a2pzSWZwb1ByX0ZfQWF0bk81SVR3eFZKU3FPM3VXVVdIQ2p6MDFjVWlHZEx4ZlBhZmswY3dqRVJqYy0zakVBSjBocVdqTmNseXdTaVpxSmNQT1JkcmFxb09maUMyZFBlOWhaQkU2c0ZmR1RTVjMtZUhXd1JJdWM2aw?oc=5",
+        "domain": "bitcoinfoundation",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T151145Z",
         "source": "GoogleNews"
       },
       {
@@ -118122,12 +118133,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
-        "domain": "perspectivemedia",
+        "title": "Iran turns to crypto for export payments amid sanctions: FT",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12Zko4VVd5MHpLby04V0F1OURobzVkbVpLV0dKa0lqeGJkTG5mRHlSOHoxMl9sOWp4NEVRZ3N1SUxzSTNFbk94eThyOTBtdDF1U3ltZDFhbFZaUmlQeHU2RGNhODJJZGZrem5yN1h3?oc=5",
+        "domain": "cryptonews",
         "language": "",
         "tone": 0,
-        "seendate": "20260902T130004Z",
+        "seendate": "20260909T061300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian billionaire Roman Abramovich loses his third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPalJMSlFyYWJ4bFJRaTljRzNpSkRneGFkUXB4UjF5b01FTUVqeExrNEljM21QSk1lWURUTkVJMTdSVnhwTWxVLTZ0WkZYakdiYW9WWGxWU2FrTmhMMDNVbzV6a29lLUFXbFJXQXRKQ0ZXWlFVZnhDSC1VSUZ0czFLd0pKQUo5MHhqbzBCTzhrM3ZhYVhWS0JMTUc3QW9iWEd3NnpQRWJkVHkySlhGYVZiQjRoZWtkcmRtVkxsX2YzRjJiTGJNMks4cA?oc=5",
+        "domain": "billionaires.africa",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T165822Z",
         "source": "GoogleNews"
       },
       {
@@ -118140,6 +118160,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU court rejects Abramovich challenge to sanctions renewal",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02TGZ0bFBMWUg4M092a2o4QlczblFjRUoxamg2bzF0NmJUMXZTRExlUndBMDJNdjFfZHliaXotNE9kMHptTnRENnFUdnB4QWxudzlkM2wxdERSTG9lZ3ZNSHJMQ0tjS3RmTExVcHpraGJLWkFKazVF?oc=5",
+        "domain": "eutoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T101416Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "CZ’s Kyrgyzstan visit highlights why state backing cannot guarantee a stablecoin exit",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRaS2tmbEhOTmNudnA2WWowTnlnOUdCdjJZZGE3LTRGYlVya09JSUhxZndhV0czWVA5SzZ1THJYd3d5M1prOS1IZHdKM3Vuc0dXWHpjbXVDcEFuWjZybTlGQUZtVUlzcC1wbWJhb0FZRC13S0JPNUx2SFRocFFzSnRLLWZIS3dQN3FlQ01pUlZVVUdvc2RuU0lmM0wxaG9OVklXb0tjRnRoblBDNE1fQQ?oc=5",
         "domain": "cryptoslate",
@@ -118149,12 +118178,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "CZ’s Kyrgyzstan visit highlights why state backing cannot guarantee a stablecoin exit",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaHlKeHdrazR5Zzc5NTMtOVlZbS1GNDUxWFNqNUhpTmtVM2pWd3FWcXN1U2ZsX1R6YjNYVlk4OGtJVDJZZHRkNXNDOEIwSUdYSjRTNjV6eDc2X1cyN2VLelNtdDEyX0VRYnFNSEZRTmRkRUp1Y3lrY3Z3RHdmMm03cDNsWDBENUlHeTBkT2hSQkJZQzdUMWJwMTJJTDhKYmE0OENTS1J1MnJxdjhxY3V5aHNXT3pvbEMzZmhjSWtVTGxHdw?oc=5",
-        "domain": "cryptorank",
+        "title": "Italy’s central bank orders sanctions screening for crypto transfers",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11ZG1XamlScjFYeTNTWUZLWWtOR2g1Y1E0SWdLbU9qYkpnNE1PcXlDUHNDa2dwclh4QndSQ2lWZGs3azU5Z1A1MUhhdlBjaXppdUFYMURR?oc=5",
+        "domain": "cryptonews.net",
         "language": "",
         "tone": 0,
-        "seendate": "20260907T105455Z",
+        "seendate": "20260909T144047Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaE1CVFd5cmNiTmFBTVlYY3ZtSHJCaWRIUTR0SmJiVU5zN1BZbFJnWmRrX245THRHTnhGTGc4X1FaVV9GYTM4cHc2dEJvM3NHODhnTmRET2s5SnlLMERSSmdKYVR6TThLSjhFNWZXbVhIc21VaTEzaEpHQW1BVExxLTM2dnhjMXlKWFNLZ0lNendiQkVVNUxLSVVn0gGYAUFVX3lxTE9rVWsxUFpkTE5sSzU3LU9RekVzQmVTbDgyd19EQlJTdVJGUWIyUUprb3hwc3ZhUHBHOGxhbDhMYnNXbC1Hd2xSeEphWFBmZ3dPdjJXWGx2dXdJTUQ4Uk9yM0JiLVpQb05HcTlqeXR4TVR2enIwUzFGOUNsMDRCM1ozUU9Fa18wbUlYMnhyNWhnYjRIQVlzOFJp?oc=5",
+        "domain": "modernghana",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T184830Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Libyan Long-Term Investment Portfolio Reports US$ 1.25 Billion Profit",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRE5sejJfbFAyRVVMQ0xOcUhGaDdtTDZobUpGbVlqRFFIU1dMeTlxOVZUdGFHQ2JicmJqdW5Tdks0RUhWb3hzNVNwZlpybTNPOEhoUF9zNjk4WkFoazk2NHpBSm9SZUhBYW9JZnhScFFibmN5WkQ5amNvQjk4WllzU0taX2Q0aXFodUtHMU8wcWMxYlBvNUJnX3JPczF5N1d3MnBBTXRLUTdrRVJwbmVGbk5Zd2s2bGJhbEgzcVZhQWJ5WUlFUndITEM0UHVfbm10MGhj?oc=5",
+        "domain": "libyaherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T090400Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury Targets Iran’s $7.8B Sanctions Evasion Crypto Sector",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ETkZZUlhLbTBXRElzU21vQ3R5UXJ4Vy15X2JoNkJSSUYxUW1pTlZsd19XWFVHODNQOXRHWVJ3d2Z0LXRjTGMwcEdpSTVvYWRWSURwSVFHQTNSdEFpXzJUWDMxTkNmSTNLWjNwNldhdXdtVl8ycVdrX1d4S0M?oc=5",
+        "domain": "thecryptonomist",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T070857Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury Proposes AML and Sanctions Rules for Stablecoin Issuers",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ1FLTVlabC1qamxNV3c4UzN6LVVHY0JiWDBEUkZVLXBCMDZ0RkFIcFQxc0l6Wm5zTllWLWNwamlYekhPWGJFY0hfRzZ1MjZxNDUtUXo5UUl1WDdEa0dIWXZJNy1CQVk3S3JyVkkxMlhFaVhsR2tDdlEyUWpJaVZYcU5sN0s4Y2wtMXJIb29YeTJCSE5QVVB2dllqUlV2YXJQS18zZjFYWXA3YmpNa3c?oc=5",
+        "domain": "coinmarketcap",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T180358Z",
         "source": "GoogleNews"
       },
       {
@@ -118173,24 +118238,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260907T062911Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU court rejects Abramovich challenge to sanctions renewal",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02TGZ0bFBMWUg4M092a2o4QlczblFjRUoxamg2bzF0NmJUMXZTRExlUndBMDJNdjFfZHliaXotNE9kMHptTnRENnFUdnB4QWxudzlkM2wxdERSTG9lZ3ZNSHJMQ0tjS3RmTExVcHpraGJLWkFKazVF?oc=5",
-        "domain": "eutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T101416Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOHZtN0t0cTkxbFNiN3hKa0l4WWlpbDhRdlgtMDlMZmgxVThsWnREemxvRkt4aklvWldCTW4zUEtuZXFJdWRUMDMzc3Rvc1ZFU1VLVTRmYVBtQ0NtSTUwT1gtMHhSMjRZakpIWTVHa2dyOGlqWXhWck1oai1SM0RTUkVHZnI4NHZIU2c?oc=5",
-        "domain": "punchnewspapers",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T092206Z",
         "source": "GoogleNews"
       },
       {
@@ -118250,10 +118297,19 @@
       {
         "title": "US-Israel-Iran War Latest Live News: Canada, France to Join Ban on Settlement Goods from Israeli Settlements, Says UK",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdlU4bl9xOWtBbS13NnBoRFZIRDVjdk9HbG42ME1ydmN3RmZrTnhpVm9EeTRQX1pOZHpwaW16ZGVkaFYtd1FvNG5EaEIzSW9IWmVtM3NmRTZXZ1NfMXFPbHZOVnh4bmJlOTNVdjRfdlI3TDVCdHRoeV9PN09STXg1cUgtQWgwVHlkZkR0ZGV0dWJuRlRXQWFzSldEbDVBTDJ4ajVpV0FVRUhyS0ZlREZBa1ZYSUhOWG1Fb1E4Nk5tYjRLUW9fZEdoSmZ5c2NmTmx4VXlMTE82Q3VHa1lmZUY1ZVlpMml3cjlVX09qR2ZHUDYzdmZNMHfSAfYBQVVfeXFMT3ZVOG5fcTlrQW0tdzZwaERWSEQ1Y3ZPR2xuNjBNcnZjd0Zma054aVZvRHk0UF9aTmR6cGltemRlZGhWLXdRbzRuRGhCM0lvSFplbTNzZkU2V2dTXzFxT2x2TlZ4eG5iZTkzVXY0X3ZSN0w1QnR0aHlfTzdPUk14NXFILUFoMFR5ZGZEdGRldHVibkZUV0Fhc0pXRGw1QUwyeGo1aVdBVUVIcktGZURGQWtWWElITlhtRW9RODZObWI0S1FvX2RHaEpmeXNjZk5seFV5TExPNkN1R2tZZmVGNWVZaTJpd3I5VV9PakdmR1A2M3ZmTTB3?oc=5",
-        "domain": "sundayguardianlive.com",
+        "domain": "thesundayguardian",
         "language": "",
         "tone": 0,
         "seendate": "20260908T133623Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ex-Chelsea owner Abramovich loses third bid to overturn EU sanctions |",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUVhPRXkwYnd6NHFkVTNBZHprdFdVYy1pSk84T0g0UzNMUXdqd29pQ3JLRUNXaEpWWnJZVThwR0RxM04yMFhXeHg3Z0ZacURaeFR1T2RmR1NDYTJlWHJud3lCaXdkMEFXTnZPLXpPNHZRcFRwZUEwVnpIRWtYdS1TeHBFbEFFVF92dTNFcWJSYTFMOEhBWjBac1pzMDlFSjB6?oc=5",
+        "domain": "theeagleonline.com.ng",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T134905Z",
         "source": "GoogleNews"
       },
       {
