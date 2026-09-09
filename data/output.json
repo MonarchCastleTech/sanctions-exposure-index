@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-08T21:07:43.485740+00:00",
+    "generated": "2026-09-09T04:37:21.906184+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-08T21:05:56.908164+00:00",
+    "issued_at": "2026-09-09T04:35:35.191197+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 26.1,
+    "score": 23.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 56.9,
+        "score": 48.4,
         "releases_considered": 99,
         "current_7d_designation_releases": 3,
         "current_7d_all_releases": 3,
-        "prior_7d_designation_releases": 2,
+        "prior_7d_designation_releases": 1,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.0,
-        "anomaly_z": 1.35,
+        "baseline_weekly_median": 1.5,
+        "anomaly_z": 0.67,
         "themes": [
           "counter_terrorism",
           "cuba",
@@ -188,8 +188,8 @@
         "score": 4.8,
         "current_7d_releases": 3,
         "current_weighted_term_rate": 0.667,
-        "baseline_weeks": 12,
-        "anomaly_z": -0.94,
+        "baseline_weeks": 10,
+        "anomaly_z": -0.33,
         "matched_release_count": 2,
         "relief_release_count": 3,
         "evidence": [
@@ -314,8 +314,8 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 56.9,
-        "level": "ELEVATED",
+        "score": 48.4,
+        "level": "WATCH",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
@@ -814,6 +814,17 @@
           "official_posture_shift": 4.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-09T04:35:35.191197+00:00",
+        "score": 23.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 48.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 4.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -878,7 +889,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "26.1/100",
+      "value": "23.1/100",
       "delta": "BASELINE"
     },
     {
@@ -117941,9 +117952,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Ukraine Faces Potential Arbitration Claim Over Fridman-Linked IDS Ukraine Asset Freeze",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWFMtLUlmbTlhb2c0c0VnM3pJQWVUTUhvZEEwSFd6d3dQTm5ITkgxd0duaXFuNWdqTnNOV2ludkQ2QXBzSjBSZUNHT1VsZ09kWlVwMy1RNlkyRkJhVE5ZMVNNUTdSVzE2cm8yWU9FdmNPb19tSHZLTnJwZXA3ZHcwYzVWQXBpVlNEeWJGbDg3RThuN1RQYng1M1hKbk14NlJxYUt2WmVjcTBwSVpISEZMb3FWWGl4ZmVHSEJ2ZE9qU1RSTE9ISkgzTFln?oc=5",
+        "domain": "eurasiabusinessnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260908T194432Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Citibank’s London unit fined £4.7m for breaching Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGpnS1loTnBKbFFMeWtSMmVDRzVvQmVNaEtjb1RwaTZIWGZFbHBhdGUyNm1LQWt5dkM4SHZYWWxFcmtNekxaUUlkZTczbWpfRllyNGF3cFNWUTYwYmxEdUtLVHdSdldvU2FVNERiSGtyOGh2aFZjSkphNmlXSmdMY3kwUHlQeFV4bkRLNmQ5Z2xkMlJLaUliYXFTdGxCUQ?oc=5",
-        "domain": "perspectivemedia",
+        "domain": "perspectivemedia.com",
         "language": "",
         "tone": 0,
         "seendate": "20260902T130004Z",
@@ -118004,12 +118024,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US-Israel-Iran War Latest Live News: Canada, France to Join Ban on Settlement Goods from Israeli Settlements, Says UK",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdlU4bl9xOWtBbS13NnBoRFZIRDVjdk9HbG42ME1ydmN3RmZrTnhpVm9EeTRQX1pOZHpwaW16ZGVkaFYtd1FvNG5EaEIzSW9IWmVtM3NmRTZXZ1NfMXFPbHZOVnh4bmJlOTNVdjRfdlI3TDVCdHRoeV9PN09STXg1cUgtQWgwVHlkZkR0ZGV0dWJuRlRXQWFzSldEbDVBTDJ4ajVpV0FVRUhyS0ZlREZBa1ZYSUhOWG1Fb1E4Nk5tYjRLUW9fZEdoSmZ5c2NmTmx4VXlMTE82Q3VHa1lmZUY1ZVlpMml3cjlVX09qR2ZHUDYzdmZNMHfSAfYBQVVfeXFMT3ZVOG5fcTlrQW0tdzZwaERWSEQ1Y3ZPR2xuNjBNcnZjd0Zma054aVZvRHk0UF9aTmR6cGltemRlZGhWLXdRbzRuRGhCM0lvSFplbTNzZkU2V2dTXzFxT2x2TlZ4eG5iZTkzVXY0X3ZSN0w1QnR0aHlfTzdPUk14NXFILUFoMFR5ZGZEdGRldHVibkZUV0Fhc0pXRGw1QUwyeGo1aVdBVUVIcktGZURGQWtWWElITlhtRW9RODZObWI0S1FvX2RHaEpmeXNjZk5seFV5TExPNkN1R2tZZmVGNWVZaTJpd3I5VV9PakdmR1A2M3ZmTTB3?oc=5",
-        "domain": "thesundayguardian",
+        "title": "UK sanctions Israeli West Bank settlements to support two-state solution",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3Ym5RX0c3TFNyNzFfLUNOTW01SFNWeGVsSnRUN2hqdHY0cF93RzE2NHhkQmRET2hLRElEeFhPbFZ5aTRla3c1YTM2dWM1ZkdZRC1DWXY3LV9jR3lmcXBDZkhkUnpDemllZHY1NWUzQXNwV2IyVHBQZzhR?oc=5",
+        "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20260908T133623Z",
+        "seendate": "20260908T112300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "London Penthouses Linked to Iran’s Supreme Leader Put Up for Sale After Mortgage Default",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMDZSVndpdTZ2S0t3akxJdEtVYkM4MmxGamJ6OVZVb0FhbS10eEpSM0dVUlRvaFdqU3c2V2FCdExpRXVFNW92N2M5QWE2eDBRQTFVUVJLZmZTei1lVWo0NmJNYTZSNUdzemZ4d3RGR3pLUEdpdkJUQi10bTRPbS11VnJmci1CRVQ2UUNzUHo3TWZhMHhkWUVrVnhKSTRaZXBGRWd4YXZ0Y0g3Sm1XVnAtSDE3MDRReVhJeVVF?oc=5",
+        "domain": "vinnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260907T133035Z",
         "source": "GoogleNews"
       },
       {
@@ -118019,6 +118048,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20260908T120000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US-Israel-Iran War Latest Live News: Canada, France to Join Ban on Settlement Goods from Israeli Settlements, Says UK",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdlU4bl9xOWtBbS13NnBoRFZIRDVjdk9HbG42ME1ydmN3RmZrTnhpVm9EeTRQX1pOZHpwaW16ZGVkaFYtd1FvNG5EaEIzSW9IWmVtM3NmRTZXZ1NfMXFPbHZOVnh4bmJlOTNVdjRfdlI3TDVCdHRoeV9PN09STXg1cUgtQWgwVHlkZkR0ZGV0dWJuRlRXQWFzSldEbDVBTDJ4ajVpV0FVRUhyS0ZlREZBa1ZYSUhOWG1Fb1E4Nk5tYjRLUW9fZEdoSmZ5c2NmTmx4VXlMTE82Q3VHa1lmZUY1ZVlpMml3cjlVX09qR2ZHUDYzdmZNMHfSAfYBQVVfeXFMT3ZVOG5fcTlrQW0tdzZwaERWSEQ1Y3ZPR2xuNjBNcnZjd0Zma054aVZvRHk0UF9aTmR6cGltemRlZGhWLXdRbzRuRGhCM0lvSFplbTNzZkU2V2dTXzFxT2x2TlZ4eG5iZTkzVXY0X3ZSN0w1QnR0aHlfTzdPUk14NXFILUFoMFR5ZGZEdGRldHVibkZUV0Fhc0pXRGw1QUwyeGo1aVdBVUVIcktGZURGQWtWWElITlhtRW9RODZObWI0S1FvX2RHaEpmeXNjZk5seFV5TExPNkN1R2tZZmVGNWVZaTJpd3I5VV9PakdmR1A2M3ZmTTB3?oc=5",
+        "domain": "thesundayguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260908T133623Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Central Bank of Nigeria orders freeze of sanctioned accounts and tightens terrorism financing supervision",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSVJXajY0YmY3YUgxeHVudWxsVmtLUU16bE1DNUwzaFE3RmtJTzR5U2FaVHk1SlBiVURCRlFkRlhUYzN2YU9FdHRHNXg1SHRUQmJmU3dFT0wyaTc0ajF2OVN3QXdIRG1wc0dUNlIxLXlIaHI4TTMtWk9JbWpGVE9NNW1qSEZJYk1DbHE1NjNXUEV6eG1GTndXOFdsdTU3LTRO?oc=5",
+        "domain": "headtopics",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260908T184000Z",
         "source": "GoogleNews"
       },
       {
