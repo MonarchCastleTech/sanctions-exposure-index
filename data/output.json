@@ -1,22 +1,24 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-10T16:22:43.450258+00:00",
+    "generated": "2026-09-10T20:50:35.813825+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
       "OFAC press releases",
       "FRED Brent/WTI"
     ],
-    "source_notes": [],
+    "source_notes": [
+      "Context news unavailable; retained last accepted snapshot."
+    ],
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T16:20:57.135129+00:00",
+    "issued_at": "2026-09-10T20:48:49.534758+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 21.5,
-    "level": "BASELINE",
+    "score": 37.6,
+    "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,20 +26,37 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 44.0,
+        "score": 60.4,
         "releases_considered": 99,
-        "current_7d_designation_releases": 4,
-        "current_7d_all_releases": 4,
+        "current_7d_designation_releases": 5,
+        "current_7d_all_releases": 5,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 4.0,
-        "anomaly_z": 0.0,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": 0.67,
         "themes": [
           "counter_terrorism",
           "cyber",
           "iran"
         ],
         "evidence": [
+          {
+            "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
+            "url": "https://home.treasury.gov/news/press-releases/sb0626/",
+            "action_title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260910",
+            "date": "2026-09-10",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "economic outcast"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_terrorism",
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Terrorist Designation of Los Tiguerones",
             "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/terrorist-designation-of-los-tiguerones/",
@@ -111,14 +130,14 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19369,
+        "score": 47.5,
+        "current_count": 19388,
         "previous_count": 19369,
-        "added_count": 0,
+        "added_count": 19,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-09-08",
-        "sha256": "1420bb7f85703354657128718c8e670f94c01d461b6dff9c446582bb0eaeeb70",
+        "changed": true,
+        "publish_date": "2026-09-09",
+        "sha256": "4da825621635b7d3c36039be0e83fdb2619200616292b5204bcffda78be9c89d",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -126,7 +145,7 @@
           },
           {
             "program": "SDGT",
-            "count": 2164
+            "count": 2180
           },
           {
             "program": "SDNTK",
@@ -134,7 +153,7 @@
           },
           {
             "program": "IRAN-EO13902",
-            "count": 917
+            "count": 920
           },
           {
             "program": "GLOMAG",
@@ -172,11 +191,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 9968
+            "count": 9973
           },
           {
             "type": "individual",
-            "count": 7519
+            "count": 7533
           },
           {
             "type": "vessel",
@@ -187,7 +206,122 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "57834",
+            "name": "AL-DHUHAIBAWI, Hussein Ahmed Hussein",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "57835",
+            "name": "AL-SHAIKHLI, Mohamed Ameen Fadhil Ali",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "57896",
+            "name": "AL-HRAISHAWI, Karrar Mohammed Qasim",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "57897",
+            "name": "AL-LAMI, Ali Hasan Farhan",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "57915",
+            "name": "SHAMS AND BAHR TRADING COMPANY L.L.C.",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "57916",
+            "name": "AL-MANDALAWI, Majid Ali Akbar Namdar",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "57917",
+            "name": "AL-MANDALAWI, Abdulhasan Ali Akbar Namdar",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58525",
+            "name": "IBRAHIM, Hussein",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "58552",
+            "name": "HAMIEH, Abdallah",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "58553",
+            "name": "WEHBE, Ghaith Hussein",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "58554",
+            "name": "ZAHRELDINE, Mervat Jamil",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "58555",
+            "name": "YOUSEF IBRAHIM MANSOUR AND PARTNER FOR EXCHANGE",
+            "type": "",
+            "program": "SDGT"
+          },
+          {
+            "id": "58556",
+            "name": "GOLD PRO SARL",
+            "type": "",
+            "program": "SDGT"
+          },
+          {
+            "id": "58557",
+            "name": "AL-MAKANSI, Amir",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "58558",
+            "name": "AL-TAMEEMI, Abbas Jawad Kadhim",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "58559",
+            "name": "AL AMERI, Abdullah Nadhim Luaibi",
+            "type": "individual",
+            "program": "SDGT"
+          },
+          {
+            "id": "58560",
+            "name": "AL BROUJ FOR GENERAL CONTRACTING COMPANY",
+            "type": "",
+            "program": "SDGT"
+          },
+          {
+            "id": "58561",
+            "name": "AIN AL IRAQ FOR PROTECTION SYSTEMS TECHNOLOGY AND AUDIO, VISUAL, AND COMMUNICATIONS SOLUTIONS COMPANY LTD",
+            "type": "",
+            "program": "SDGT"
+          },
+          {
+            "id": "58562",
+            "name": "AL ABADA, Khaldoon Naser Maryoosh",
+            "type": "individual",
+            "program": "SDGT"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -195,14 +329,31 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 4.5,
-        "current_7d_releases": 4,
-        "current_weighted_term_rate": 0.625,
+        "score": 7.9,
+        "current_7d_releases": 5,
+        "current_weighted_term_rate": 1.1,
         "baseline_weeks": 10,
-        "anomaly_z": -1.18,
-        "matched_release_count": 2,
+        "anomaly_z": -0.54,
+        "matched_release_count": 3,
         "relief_release_count": 2,
         "evidence": [
+          {
+            "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
+            "url": "https://home.treasury.gov/news/press-releases/sb0626/",
+            "action_title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260910",
+            "date": "2026-09-10",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "economic outcast"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_terrorism",
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
             "url": "https://home.treasury.gov/news/press-releases/sb0624/",
@@ -312,7 +463,8 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity"
+        "ofac_action_velocity",
+        "sdn_delta_breadth"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
@@ -321,9 +473,16 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 44.0,
-        "level": "WATCH",
+        "score": 60.4,
+        "level": "ELEVATED",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
+      },
+      {
+        "id": "sdn_delta_breadth",
+        "title": "Exact SDN list delta",
+        "score": 47.5,
+        "level": "WATCH",
+        "why": "The official SDN file changed materially since the previous accepted snapshot."
       }
     ],
     "history": [
@@ -898,10 +1057,21 @@
           "official_posture_shift": 4.5,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-10T20:48:49.534758+00:00",
+        "score": 37.6,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 60.4,
+          "sdn_delta_breadth": 47.5,
+          "official_posture_shift": 7.9,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19369,
+      "sdn_entries": 19388,
       "ofac_releases": 99,
       "market_series_available": 2,
       "available_components": 4,
@@ -962,13 +1132,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "21.5/100",
-      "delta": "BASELINE"
+      "value": "37.6/100",
+      "delta": "WATCH"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,369",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,388",
+      "delta": "+19 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -983,9 +1153,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-09-08",
-      "sha256": "1420bb7f85703354657128718c8e670f94c01d461b6dff9c446582bb0eaeeb70",
-      "count": 19369,
+      "publish_date": "2026-09-09",
+      "sha256": "4da825621635b7d3c36039be0e83fdb2619200616292b5204bcffda78be9c89d",
+      "count": 19388,
       "entries": [
         {
           "id": "36",
@@ -114178,6 +114348,18 @@
           "program": "TCO"
         },
         {
+          "id": "57834",
+          "name": "AL-DHUHAIBAWI, Hussein Ahmed Hussein",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "57835",
+          "name": "AL-SHAIKHLI, Mohamed Ameen Fadhil Ali",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
           "id": "57837",
           "name": "FUTURE WING FINANCIAL COMPANY LIMITED",
           "type": "",
@@ -114526,6 +114708,18 @@
           "program": "CUBA-EO14404"
         },
         {
+          "id": "57896",
+          "name": "AL-HRAISHAWI, Karrar Mohammed Qasim",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "57897",
+          "name": "AL-LAMI, Ali Hasan Farhan",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
           "id": "57898",
           "name": "MINISTRY OF THE REVOLUTIONARY ARMED FORCES OF CUBA",
           "type": "",
@@ -114590,6 +114784,24 @@
           "name": "SOLOS INTERNATIONAL LIMITED",
           "type": "",
           "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "57915",
+          "name": "SHAMS AND BAHR TRADING COMPANY L.L.C.",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "57916",
+          "name": "AL-MANDALAWI, Majid Ali Akbar Namdar",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "57917",
+          "name": "AL-MANDALAWI, Abdulhasan Ali Akbar Namdar",
+          "type": "individual",
+          "program": "IRAN-EO13902"
         },
         {
           "id": "57918",
@@ -117124,6 +117336,12 @@
           "program": "SDGT] [IFSR"
         },
         {
+          "id": "58525",
+          "name": "IBRAHIM, Hussein",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
           "id": "58526",
           "name": "AVA AIRLINES",
           "type": "",
@@ -117200,12 +117418,86 @@
           "name": "GOLDEN GLOBAL PORTFOY YONETIMI ANONIM SIRKETI",
           "type": "",
           "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58552",
+          "name": "HAMIEH, Abdallah",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "58553",
+          "name": "WEHBE, Ghaith Hussein",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "58554",
+          "name": "ZAHRELDINE, Mervat Jamil",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "58555",
+          "name": "YOUSEF IBRAHIM MANSOUR AND PARTNER FOR EXCHANGE",
+          "type": "",
+          "program": "SDGT"
+        },
+        {
+          "id": "58556",
+          "name": "GOLD PRO SARL",
+          "type": "",
+          "program": "SDGT"
+        },
+        {
+          "id": "58557",
+          "name": "AL-MAKANSI, Amir",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "58558",
+          "name": "AL-TAMEEMI, Abbas Jawad Kadhim",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "58559",
+          "name": "AL AMERI, Abdullah Nadhim Luaibi",
+          "type": "individual",
+          "program": "SDGT"
+        },
+        {
+          "id": "58560",
+          "name": "AL BROUJ FOR GENERAL CONTRACTING COMPANY",
+          "type": "",
+          "program": "SDGT"
+        },
+        {
+          "id": "58561",
+          "name": "AIN AL IRAQ FOR PROTECTION SYSTEMS TECHNOLOGY AND AUDIO, VISUAL, AND COMMUNICATIONS SOLUTIONS COMPANY LTD",
+          "type": "",
+          "program": "SDGT"
+        },
+        {
+          "id": "58562",
+          "name": "AL ABADA, Khaldoon Naser Maryoosh",
+          "type": "individual",
+          "program": "SDGT"
         }
       ],
       "cached": false
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
+          "url": "https://home.treasury.gov/news/press-releases/sb0626/",
+          "action_title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260910",
+          "date": "2026-09-10",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "Terrorist Designation of Los Tiguerones",
           "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/terrorist-designation-of-los-tiguerones/",
@@ -117407,14 +117699,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Disrupts Muslim Brotherhood and Hamas Financial Networks",
-          "url": "https://home.treasury.gov/news/press-releases/sb0572",
-          "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
-          "date": "2026-07-23",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
           "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
@@ -117599,6 +117883,14 @@
           "source": "OFAC/Treasury"
         },
         {
+          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
+          "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
+          "date": "2026-05-28",
+          "source": "OFAC/Treasury"
+        },
+        {
           "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
           "url": "https://home.treasury.gov/news/press-releases/sb0510",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
@@ -117743,16 +118035,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Recruitment Network Enabling War in Sudan, Calls for Humanitarian Truce",
-          "url": "https://home.treasury.gov/news/press-releases/sb0457",
+          "title": "Economic Fury Targets Iran-Backed Iraqi Militia Commanders",
+          "url": "https://home.treasury.gov/news/press-releases/sb0458",
           "action_title": "Counter Terrorism Designations; Sudan Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
           "date": "2026-04-17",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran-Backed Iraqi Militia Commanders",
-          "url": "https://home.treasury.gov/news/press-releases/sb0458",
+          "title": "Treasury Sanctions Recruitment Network Enabling War in Sudan, Calls for Humanitarian Truce",
+          "url": "https://home.treasury.gov/news/press-releases/sb0457",
           "action_title": "Counter Terrorism Designations; Sudan Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
           "date": "2026-04-17",
@@ -117775,16 +118067,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - Casinos Connected to Cartel del Noreste",
-          "url": "https://ofac.treasury.gov/media/935506/download?inline",
+          "title": "Treasury Sanctions Cartel-Linked Casinos and Key Associates on U.S.-Mexico Border",
+          "url": "https://home.treasury.gov/news/press-releases/sb0440",
           "action_title": "Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260414",
           "date": "2026-04-14",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Cartel-Linked Casinos and Key Associates on U.S.-Mexico Border",
-          "url": "https://home.treasury.gov/news/press-releases/sb0440",
+          "title": "CHART - Casinos Connected to Cartel del Noreste",
+          "url": "https://ofac.treasury.gov/media/935506/download?inline",
           "action_title": "Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260414",
           "date": "2026-04-14",
@@ -117988,14 +118280,6 @@
           "action_title": "Venezuela-related Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20251231",
           "date": "2025-12-31",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Targets Iran-Venezuela Weapons Trade",
-          "url": "https://home.treasury.gov/news/press-releases/sb0347",
-          "action_title": "Non-Proliferation and Iran-related Designations; Cyber-related and Russia-related Designations Removals",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20251230",
-          "date": "2025-12-30",
           "source": "OFAC/Treasury"
         }
       ],
@@ -118412,6 +118696,14 @@
   },
   "events": [
     {
+      "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
+      "url": "https://home.treasury.gov/news/press-releases/sb0626/",
+      "action_title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260910",
+      "date": "2026-09-10",
+      "source": "OFAC/Treasury"
+    },
+    {
       "title": "Terrorist Designation of Los Tiguerones",
       "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/terrorist-designation-of-los-tiguerones/",
       "action_title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
@@ -118518,14 +118810,6 @@
     {
       "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
       "url": "https://home.treasury.gov/news/press-releases/sb0611",
-      "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
-      "date": "2026-08-20",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
-      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-cuban-regime-actors-associated-with-marxist-subversive-networks-and-corrupt-economic-dealings-fact-sheet/",
       "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
       "date": "2026-08-20",
