@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-11T16:26:46.228495+00:00",
+    "generated": "2026-09-11T20:56:50.175710+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-11T16:24:59.818283+00:00",
+    "issued_at": "2026-09-11T20:55:03.727230+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.8,
@@ -952,6 +952,17 @@
       },
       {
         "timestamp": "2026-09-11T16:24:59.818283+00:00",
+        "score": 23.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 46.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 9.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-11T20:55:03.727230+00:00",
         "score": 23.8,
         "level": "BASELINE",
         "components": {
@@ -118225,24 +118236,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU court orders Abramovich travel ban, asset freeze to stand",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
-        "domain": "euperspectives",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T114019Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US sanctions Turkish bank as Iran financial crackdown widens",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40MV9GZHZhY1YtZU42OWxPYUpqWTllV2dHUzU5ZF80ZGpZa1NEbXh4cUhhd0N5UjJJMWVmWWFlWHY5R3BHVlBOcUN0N19rOWVTNUE?oc=5",
-        "domain": "iraninternational",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260904T195808Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU targets Russia's Patriarch Kirill in new sanctions proposal",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZXVqcVZWcFJSam45V0FlLTVfdnd6eWhyMjgzZnkwWmhVcjl2NEc5Sm1NMlIzcTJrWGhQMVFRZ3hnd1ZnSFRha2o0c0ViQjQ0c1N6dG51M1dHVm82M1FleFlfdmduQVdnbVplLUVqTW5wbzJ4VWpMRmgzUWtqOExHMFA5aWNqOHI4cFJLRDRIX1dDd25zanZ0YjhHQmEza1d2Z1Fvc3lwTUYycGs?oc=5",
         "domain": "euronews.com",
@@ -118254,7 +118247,7 @@
       {
         "title": "Iran Is Using Tether to Bypass Sanctions: Crypto’s Biggest Real-World Use Case Just Got Darker",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSVA4S0FuUVh6SmEzUjd4VWdoU2NWN01GTU1BY1FJU0dnWXh1My1uaEQ5NWFhYW9pb0xGNWl3UFlDV3VVT082V0JMZFZqcHlYa20wemxicElkdmlOVDg0a2pzSWZwb1ByX0ZfQWF0bk81SVR3eFZKU3FPM3VXVVdIQ2p6MDFjVWlHZEx4ZlBhZmswY3dqRVJqYy0zakVBSjBocVdqTmNseXdTaVpxSmNQT1JkcmFxb09maUMyZFBlOWhaQkU2c0ZmR1RTVjMtZUhXd1JJdWM2aw?oc=5",
-        "domain": "bitcoinfoundation",
+        "domain": "bitcoinfoundation.org",
         "language": "",
         "tone": 0,
         "seendate": "20260909T151145Z",
@@ -118263,7 +118256,7 @@
       {
         "title": "easyJet dragged into £53 million court fight over jets stranded by Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYkFGcW0zUER3VmZZS2JsX05qQm1vb2c4UmdxQXNXRmh3dGNwWFhXekhBdHRwVDc1al9vdE5KOUJFNEJhcVpfdjRSUkJwX0JxU2diT2tPdGNvLVhPMDRhOWRqZGpNWEFkNlFOVVQwMFVtRDVNVTBld0RacG9QQ0k0bFNEU0FGZFVRSFl2UUpZTXN2aUs5aDgtMTdBakkwd2V4aEkxd3VnQU1YVjFiUlBvc0ZRMlhMRHJ4SjMzOVlBaUlBSVVLVWFJeng4T2tvS0huS0M3V0F5WXN5T0p5OUpLS2pyRFl1QkNN?oc=5",
-        "domain": "insurancebusinessmag.com",
+        "domain": "insurancebusiness",
         "language": "",
         "tone": 0,
         "seendate": "20260909T105458Z",
@@ -118290,7 +118283,7 @@
       {
         "title": "EU court rejects Abramovich challenge to sanctions renewal",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02TGZ0bFBMWUg4M092a2o4QlczblFjRUoxamg2bzF0NmJUMXZTRExlUndBMDJNdjFfZHliaXotNE9kMHptTnRENnFUdnB4QWxudzlkM2wxdERSTG9lZ3ZNSHJMQ0tjS3RmTExVcHpraGJLWkFKazVF?oc=5",
-        "domain": "eutoday",
+        "domain": "eutoday.net",
         "language": "",
         "tone": 0,
         "seendate": "20260909T101416Z",
@@ -118326,7 +118319,7 @@
       {
         "title": "Iran eases currency controls to let traders bring earnings home in crypto: FT",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc3JDa09oZWhUamNaY2p0a01lSUl5bzdDaVUyR2NmamtUcF9ScGwzQ2tjZWk2dTlxU1RWenRrd21nNnFsTjhKdGFYaDVpeTY1VG93aFpZYjctZjZKSFNZamdTOHdmdmN2d0MwazUtdFUwcjZvYXZlbV9BeHJzT3hsNjljT1BRVXdxUFVNMmJWT2RFemhlODNxdW5VSkdKajZzNElTLU1aT0hoOGx6blFqcHF0Z0xobXBoZW1lajdn?oc=5",
-        "domain": "coindesk.com",
+        "domain": "coindesk",
         "language": "",
         "tone": 0,
         "seendate": "20260909T095939Z",
@@ -118342,21 +118335,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian billionaire Roman Abramovich loses his third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPalJMSlFyYWJ4bFJRaTljRzNpSkRneGFkUXB4UjF5b01FTUVqeExrNEljM21QSk1lWURUTkVJMTdSVnhwTWxVLTZ0WkZYakdiYW9WWGxWU2FrTmhMMDNVbzV6a29lLUFXbFJXQXRKQ0ZXWlFVZnhDSC1VSUZ0czFLd0pKQUo5MHhqbzBCTzhrM3ZhYVhWS0JMTUc3QW9iWEd3NnpQRWJkVHkySlhGYVZiQjRoZWtkcmRtVkxsX2YzRjJiTGJNMks4cA?oc=5",
-        "domain": "billionaires.africa",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T165822Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Iran turns to crypto for export payments amid sanctions: FT",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12Zko4VVd5MHpLby04V0F1OURobzVkbVpLV0dKa0lqeGJkTG5mRHlSOHoxMl9sOWp4NEVRZ3N1SUxzSTNFbk94eThyOTBtdDF1U3ltZDFhbFZaUmlQeHU2RGNhODJJZGZrem5yN1h3?oc=5",
         "domain": "cryptonews",
         "language": "",
         "tone": 0,
         "seendate": "20260909T061300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian billionaire Roman Abramovich loses his third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPalJMSlFyYWJ4bFJRaTljRzNpSkRneGFkUXB4UjF5b01FTUVqeExrNEljM21QSk1lWURUTkVJMTdSVnhwTWxVLTZ0WkZYakdiYW9WWGxWU2FrTmhMMDNVbzV6a29lLUFXbFJXQXRKQ0ZXWlFVZnhDSC1VSUZ0czFLd0pKQUo5MHhqbzBCTzhrM3ZhYVhWS0JMTUc3QW9iWEd3NnpQRWJkVHkySlhGYVZiQjRoZWtkcmRtVkxsX2YzRjJiTGJNMks4cA?oc=5",
+        "domain": "billionaires.africa",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T165822Z",
         "source": "GoogleNews"
       },
       {
@@ -118441,6 +118434,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The U.S.–China Tug of Law: When National Law Becomes a Weapon of Global Power",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRGQzZGRIUjZzVUtkOERWYzV2WHR1WnlTY09rV1ZpQmF3THU5Qm1SWUpCRi1fZTd0SGNxZHg4M2d1c0FwTUZJWFpHQXM4TlpDWFN2eHVtYVRkbmk0VVNwYU9UZVI2NW9Bd2syZmNQSG1Na0F4NG02UkN3YWFjOVlJd0VZdEp1VGhvaVIxN1g4SEdVSnc3WWs4WkdPTnlqZ1ZTUEIwS2tXZjRoaWNfN1JMQ2Z3?oc=5",
+        "domain": "kbanews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260910T000040Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury sanctions $24B scam platform Xinbi as it shifts from Tether to rival stablecoin USDD",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZDQxZHB3bkFfaG1GaDBTVzRTYjl0YnhUa2NNbUJUM0NEUE5BcjZoRDdPUnNOV1NNNXlPTW82TUcyekl5alRuZGhMTWJ5dEdpc2FGdDlUVjJKNUpaaldVeGhoSjZ0MmNoRVl0enFqdFhQc3VxdkQ4bktSWVU1WGl0RU1sbm8zVy1wZ09DTHhSVy15aE80T1N1RHIwRGhGUjRHY1RqS0pybldtVm8?oc=5",
+        "domain": "pluang",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T223601Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Apartments linked to Iran’s leader put up for sale in London — Asharq Al-Awsat",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSFJPMHlCSTJNVHlxZXdoeUFiZUZCSTF6amZDZ2xKOHUyZmFUSjNCR1Z2SUd4UXlCQkZHbDN4MUhXcF81QjF3UWtJcTVMazR3SHdoUHVPQlp4ZVE1UUNZM3dYZXNjVHRIMExMaUlhSW1XMTdjaF82bWtvNktRcnhGMGY5RlJVRU11NHBDTXVlR1dRZExSazBYYi1R?oc=5",
         "domain": "ua.news",
@@ -118450,18 +118461,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury sanctions $24B scam platform Xinbi as it shifts from Tether to rival stablecoin USDD",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZDQxZHB3bkFfaG1GaDBTVzRTYjl0YnhUa2NNbUJUM0NEUE5BcjZoRDdPUnNOV1NNNXlPTW82TUcyekl5alRuZGhMTWJ5dEdpc2FGdDlUVjJKNUpaaldVeGhoSjZ0MmNoRVl0enFqdFhQc3VxdkQ4bktSWVU1WGl0RU1sbm8zVy1wZ09DTHhSVy15aE80T1N1RHIwRGhGUjRHY1RqS0pybldtVm8?oc=5",
-        "domain": "pluang.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T223601Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US Treasury Targets Iran’s $7.8B Sanctions Evasion Crypto Sector",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ETkZZUlhLbTBXRElzU21vQ3R5UXJ4Vy15X2JoNkJSSUYxUW1pTlZsd19XWFVHODNQOXRHWVJ3d2Z0LXRjTGMwcEdpSTVvYWRWSURwSVFHQTNSdEFpXzJUWDMxTkNmSTNLWjNwNldhdXdtVl8ycVdrX1d4S0M?oc=5",
-        "domain": "en.cryptonomist.ch",
+        "domain": "thecryptonomist",
         "language": "",
         "tone": 0,
         "seendate": "20260909T070857Z",
@@ -118488,7 +118490,7 @@
       {
         "title": "Crypto News: Iran Turns to Bitcoin and USDT Under U.S. Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbTNsRUFkTDhxQWo5QldvTTQ3SVFIVkFISHM3dmdCbnpuOTFKbjdPMlN1djFDYk5zUkJ1OTVhbS1Bb0hKNUd0ajlHTGpZMV82RTNCYU1yazJOeERqREpVT2Z5d19DSXBLeG0zdEpGdVRGeUk1b2haV0lqbTh6T0lhc2xHNzBhWDhEbjVxMnNKS2gzTlhjcE4xUUFuVVhFdHlxVGhqWVR0bDVzQdIBrwFBVV95cUxQX213SENyVXlDSFE0d1JiSXo0NGNGMzBmTGlKbkRqbWhkMmtIZG9JT0NmRnRmV3NYM3RlLUZDV0VtSU8tWXRIQVVUNmtmZVBiaHN1Z1ZwZjJZUHhtXzFfckc1aEZWZU1BNFRMLWFucGI5OUhtemJReWhXaFVRU2xORnk3a05kdVVaTTJuNjk0YnpJTG5DUFhtMGkzR3A3ekpySVVyOW5xNlA2QS1DRi1F?oc=5",
-        "domain": "thecoinrepublic.com",
+        "domain": "thecoinrepublic",
         "language": "",
         "tone": 0,
         "seendate": "20260909T103000Z",
@@ -118618,6 +118620,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T080000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Court dismisses Hungary’s challenge over profits from frozen Russian assets for Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnJXMDcybFdwMGJfdnBCZTY2ZWZ0N0FnZEJXcXFIS1hRWl9tVlF3dlVXbDk2LVJSM3FRNzBrNzNIdTNyeFlnQWVsQmNVMEt5QS1KTW1pbjhGUEExTllQTzJDb1pNUndmeUJ6Wi1pdk1ncW96d0cxRkJMSXIxOFloaC1rcjlBNWtBSTMtd3FEVWVEc3NJazNjSVluV1RrNTA2SmlIZEJXeDhkZ1ZFZll4Y3NJWUlhVVVaRVNId3BvSGFPM2hQRHBGRFhPOTlXbW9IM05WeDhTLWdCUlE?oc=5",
+        "domain": "businessupturn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T075452Z",
         "source": "GoogleNews"
       }
     ]
