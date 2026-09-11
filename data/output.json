@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-11T04:33:57.279633+00:00",
+    "generated": "2026-09-11T11:16:13.741349+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-11T04:32:10.706298+00:00",
+    "issued_at": "2026-09-11T11:14:26.828611+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.8,
@@ -930,6 +930,17 @@
       },
       {
         "timestamp": "2026-09-11T04:32:10.706298+00:00",
+        "score": 23.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 46.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 9.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-11T11:14:26.828611+00:00",
         "score": 23.8,
         "level": "BASELINE",
         "components": {
@@ -118178,7 +118189,7 @@
       {
         "title": "Roman Abramovich Scores Legal ‘Hattrick’ of Losses in Fight Against EU Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HQmh6T3F0RmJWLVZhd2F5NENENmhpRXNrZU5LWW9VU1RYcTNxaFBScDdFMHJfTXhjUnpxdGh6LVBhRkZBV3FSRE4xNA?oc=5",
-        "domain": "kyivpost",
+        "domain": "kyivpost.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T104546Z",
@@ -118205,7 +118216,7 @@
       {
         "title": "Russian oligarch Abramovich loses third attempt to overturn EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmt1djY3TGgtbG9FVWNuVnB5czhmeXFoR0RKSkE4c3Z6V1BSVTc2dVAyQ1pmUGxxVDU0RVRsSVUtNzFUMnUxbDFSVmNGRVpxb2dVcDdZVHJPSWRvSmlNa3hxRDdrYnJobWstTXJGb2JfbDYxNUdjeXEwY0VNejRJakVSa0hOSmtXTlNYVndMRU9CRFpTU0VaZjJQMjZIOWtOOWhnUVdR0gGrAUFVX3lxTFBfRGRPQ3lwS1FULXg2eTA5VWJSWWN3OElpd3VrSndtR2RPcHVJc2IwOHNsVmdsanFrZE5FUVBPLVFVcVlFMFNmTVpkTHlPQ1RlTVVUd0tGejRuWjg2M2prZDBZU0RxUXJCb0xEdDBMVC1hcHBIN3JuNWN3OE1YNGdDQ0JIWGJnbkt3Y2w4X3p3S3VWal9qSWJRYUd5blhhNnBPSXl3ZzRIdXlYbw?oc=5",
-        "domain": "thetimesofisrael",
+        "domain": "timesofisrael.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T150600Z",
@@ -118214,7 +118225,7 @@
       {
         "title": "EU court orders Abramovich travel ban, asset freeze to stand",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
-        "domain": "euperspectives",
+        "domain": "euperspectives.eu",
         "language": "",
         "tone": 0,
         "seendate": "20260909T114019Z",
@@ -118250,7 +118261,7 @@
       {
         "title": "easyJet dragged into £53 million court fight over jets stranded by Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYkFGcW0zUER3VmZZS2JsX05qQm1vb2c4UmdxQXNXRmh3dGNwWFhXekhBdHRwVDc1al9vdE5KOUJFNEJhcVpfdjRSUkJwX0JxU2diT2tPdGNvLVhPMDRhOWRqZGpNWEFkNlFOVVQwMFVtRDVNVTBld0RacG9QQ0k0bFNEU0FGZFVRSFl2UUpZTXN2aUs5aDgtMTdBakkwd2V4aEkxd3VnQU1YVjFiUlBvc0ZRMlhMRHJ4SjMzOVlBaUlBSVVLVWFJeng4T2tvS0huS0M3V0F5WXN5T0p5OUpLS2pyRFl1QkNN?oc=5",
-        "domain": "insurancebusiness",
+        "domain": "insurancebusinessmag.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T105458Z",
@@ -118295,7 +118306,7 @@
       {
         "title": "Ukraine Faces Potential Arbitration Claim Over Fridman-Linked IDS Ukraine Asset Freeze",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWFMtLUlmbTlhb2c0c0VnM3pJQWVUTUhvZEEwSFd6d3dQTm5ITkgxd0duaXFuNWdqTnNOV2ludkQ2QXBzSjBSZUNHT1VsZ09kWlVwMy1RNlkyRkJhVE5ZMVNNUTdSVzE2cm8yWU9FdmNPb19tSHZLTnJwZXA3ZHcwYzVWQXBpVlNEeWJGbDg3RThuN1RQYng1M1hKbk14NlJxYUt2WmVjcTBwSVpISEZMb3FWWGl4ZmVHSEJ2ZE9qU1RSTE9ISkgzTFln?oc=5",
-        "domain": "eurasiabusinessnews",
+        "domain": "eurasiabusinessnews.com",
         "language": "",
         "tone": 0,
         "seendate": "20260908T194432Z",
@@ -118304,7 +118315,7 @@
       {
         "title": "Italy’s central bank orders sanctions screening for crypto transfers",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVklIdHIxQS1haWZMN3h1SjA3Tzh5akZiZ1RTOXFaTWtvMkY3LVFMQXZpZTNXOS1FaGRZWTFrcXpwSDFHT1VrU3FsR3Q1SUdCVmxRSTUwdHR6NFVxMndLX3lqU3R1TmJDdy0wZ0tWUTgwNTEwd1I0NmZOaXhxcUxVVWdyalhqc0tybV9xRVRhY25GczJEWk1EbTd2SG5ITG9BODRPY2xxU1pVRjE5VmNoajlHNzNrRm1XSm1hTmJ0YmQ5TDB4dWdsbzRkMUg?oc=5",
-        "domain": "tradingview.com",
+        "domain": "tradingview",
         "language": "",
         "tone": 0,
         "seendate": "20260909T122033Z",
@@ -118340,7 +118351,7 @@
       {
         "title": "Philippines Plans 12-Month Freeze on New Payment System Operator Registrations",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdlVmck40WDBnSlJvZ2dDUnhkcTNpLWlwWFZ1bEVjYk5uOUJseUxEZmpWMkpEOGhFUHZGZWd3TDBsdkdQR3ZHN2xEX1oyODAySUt2cGp4Z2RaQVV5ajlVYTlfdEdNb1JIc1RrZ1c5SC1Ub2NpV0xzVlJUbTlMaDVQWTVpaHcyaGNxemphZGlxU21uNDFLZExWSUcyMkFwYzRCRHVybDhud1JFTFNRZkJtRUJ5eEl4bHhjaGV0dzdGN0pnWUlmbGhqanJFSEpjSHRDdUZqczFxWDZPbHZU?oc=5",
-        "domain": "tradingview.com",
+        "domain": "tradingview",
         "language": "",
         "tone": 0,
         "seendate": "20260907T194000Z",
@@ -118349,7 +118360,7 @@
       {
         "title": "CZ’s Kyrgyzstan visit highlights why state backing cannot guarantee a stablecoin exit",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRaS2tmbEhOTmNudnA2WWowTnlnOUdCdjJZZGE3LTRGYlVya09JSUhxZndhV0czWVA5SzZ1THJYd3d5M1prOS1IZHdKM3Vuc0dXWHpjbXVDcEFuWjZybTlGQUZtVUlzcC1wbWJhb0FZRC13S0JPNUx2SFRocFFzSnRLLWZIS3dQN3FlQ01pUlZVVUdvc2RuU0lmM0wxaG9OVklXb0tjRnRoblBDNE1fQQ?oc=5",
-        "domain": "cryptoslate",
+        "domain": "cryptoslate.com",
         "language": "",
         "tone": 0,
         "seendate": "20260907T104522Z",
@@ -118410,21 +118421,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury sanctions $24B scam platform Xinbi as it shifts from Tether to rival stablecoin USDD",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZDQxZHB3bkFfaG1GaDBTVzRTYjl0YnhUa2NNbUJUM0NEUE5BcjZoRDdPUnNOV1NNNXlPTW82TUcyekl5alRuZGhMTWJ5dEdpc2FGdDlUVjJKNUpaaldVeGhoSjZ0MmNoRVl0enFqdFhQc3VxdkQ4bktSWVU1WGl0RU1sbm8zVy1wZ09DTHhSVy15aE80T1N1RHIwRGhGUjRHY1RqS0pybldtVm8?oc=5",
-        "domain": "pluang.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T223601Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Apartments linked to Iran’s leader put up for sale in London — Asharq Al-Awsat",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSFJPMHlCSTJNVHlxZXdoeUFiZUZCSTF6amZDZ2xKOHUyZmFUSjNCR1Z2SUd4UXlCQkZHbDN4MUhXcF81QjF3UWtJcTVMazR3SHdoUHVPQlp4ZVE1UUNZM3dYZXNjVHRIMExMaUlhSW1XMTdjaF82bWtvNktRcnhGMGY5RlJVRU11NHBDTXVlR1dRZExSazBYYi1R?oc=5",
         "domain": "ua.news",
         "language": "",
         "tone": 0,
         "seendate": "20260907T062911Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury sanctions $24B scam platform Xinbi as it shifts from Tether to rival stablecoin USDD",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZDQxZHB3bkFfaG1GaDBTVzRTYjl0YnhUa2NNbUJUM0NEUE5BcjZoRDdPUnNOV1NNNXlPTW82TUcyekl5alRuZGhMTWJ5dEdpc2FGdDlUVjJKNUpaaldVeGhoSjZ0MmNoRVl0enFqdFhQc3VxdkQ4bktSWVU1WGl0RU1sbm8zVy1wZ09DTHhSVy15aE80T1N1RHIwRGhGUjRHY1RqS0pybldtVm8?oc=5",
+        "domain": "pluang",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T223601Z",
         "source": "GoogleNews"
       },
       {
@@ -118491,15 +118502,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US-Israel-Iran War Latest Live News: Canada, France to Join Ban on Settlement Goods from Israeli Settlements, Says UK",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdlU4bl9xOWtBbS13NnBoRFZIRDVjdk9HbG42ME1ydmN3RmZrTnhpVm9EeTRQX1pOZHpwaW16ZGVkaFYtd1FvNG5EaEIzSW9IWmVtM3NmRTZXZ1NfMXFPbHZOVnh4bmJlOTNVdjRfdlI3TDVCdHRoeV9PN09STXg1cUgtQWgwVHlkZkR0ZGV0dWJuRlRXQWFzSldEbDVBTDJ4ajVpV0FVRUhyS0ZlREZBa1ZYSUhOWG1Fb1E4Nk5tYjRLUW9fZEdoSmZ5c2NmTmx4VXlMTE82Q3VHa1lmZUY1ZVlpMml3cjlVX09qR2ZHUDYzdmZNMHfSAfYBQVVfeXFMT3ZVOG5fcTlrQW0tdzZwaERWSEQ1Y3ZPR2xuNjBNcnZjd0Zma054aVZvRHk0UF9aTmR6cGltemRlZGhWLXdRbzRuRGhCM0lvSFplbTNzZkU2V2dTXzFxT2x2TlZ4eG5iZTkzVXY0X3ZSN0w1QnR0aHlfTzdPUk14NXFILUFoMFR5ZGZEdGRldHVibkZUV0Fhc0pXRGw1QUwyeGo1aVdBVUVIcktGZURGQWtWWElITlhtRW9RODZObWI0S1FvX2RHaEpmeXNjZk5seFV5TExPNkN1R2tZZmVGNWVZaTJpd3I5VV9PakdmR1A2M3ZmTTB3?oc=5",
-        "domain": "thesundayguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260908T133623Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Raiffeisen Sues Russian Oligarch in €3.15 Billion Strabag Battle",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVldpM2JFX3ZqcGw1WkxxQkE4cmNUMU1BQmhqeGhqUnZDSTdFMW1lMzU4RGctU09QOXB4X0hWYW9hVzZmdHpkWTJhUDNRMGpIcFNtamR6ekl4a1lwOGMxMExRSU50Mzd2MW81eWV1U2M2TnA4TE1fX3VsV3hUcGZGMTJfazZpSzRIa1R3dWpVS0J2TGZ2LW1UM1F5aEo?oc=5",
         "domain": "streamlinefeed.co.ke",
@@ -118524,6 +118526,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T134905Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US-Israel-Iran War Latest Live News: Canada, France to Join Ban on Settlement Goods from Israeli Settlements, Says UK",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQ1hxellPMVJHVFNjanlOQWlRTUd6TDV3SjFFcHAzMXNjSFdBOF83TW1EclpEdTdraUVoT25kNklsRGV2S0w4V1kxVnJqMWIzLUJRRWQ4MENFUXMyT1hWSXJPN1IwWG9hdzZUM2ZmbFFzY2JXYmVwZjRSMVFjRkc2YmFrVDltei1qeFExOWFKZWIydHJTeW8zMzV4bWZzYzFVVUNMWE5BNlcxRmxVd0xnZGJTbDY0MzEtSm9FS1RnTEN6R3JST09fMjZ2WEl1OHBISmc3cUozZkdoOUtSWXdwcUVrNTJEb2tHRmNUTk53Z0LSAfYBQVVfeXFMT3ZVOG5fcTlrQW0tdzZwaERWSEQ1Y3ZPR2xuNjBNcnZjd0Zma054aVZvRHk0UF9aTmR6cGltemRlZGhWLXdRbzRuRGhCM0lvSFplbTNzZkU2V2dTXzFxT2x2TlZ4eG5iZTkzVXY0X3ZSN0w1QnR0aHlfTzdPUk14NXFILUFoMFR5ZGZEdGRldHVibkZUV0Fhc0pXRGw1QUwyeGo1aVdBVUVIcktGZURGQWtWWElITlhtRW9RODZObWI0S1FvX2RHaEpmeXNjZk5seFV5TExPNkN1R2tZZmVGNWVZaTJpd3I5VV9PakdmR1A2M3ZmTTB3?oc=5",
+        "domain": "thesundayguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260908T133621Z",
         "source": "GoogleNews"
       },
       {
@@ -118554,12 +118565,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Zimbabwe Ambassador Katrin Hagemann Dies At 53",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tS2tkaDliYVQ0Tlp4ejRqMlMwczFNeFllRU1pNFJRMkpsQ09xY2h5UExzYU9DdUtDZ0x1ZkFiNUdpeWwxZ3dyaTdzNllKNzlDa1pmOFl0WHdIR0NYNWg5MHM4Z21TaUVXeDYtVWJOR0cyTFVmY3ZfdTNR?oc=5",
-        "domain": "ihararenews",
+        "title": "Ex-Chelsea Owner Roman Abramovich Loses Third Attempt To Overturn EU Eanctions | Kanyi Daily News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSGFIMEt3QXA2dHZndE43dHZuZEgzNlp2R25kWlI1bVliQ1dUTEVmR3VHVXJvNUNkbUJjbk9ISkRoTUpGRkJqajdsOGFVT1U4SnZpZW1zSFFfQjUzNjlNcFNvWlBpZWliTTMwUjd1U29LMFBVUTJvMkxtWVU5VVozS2ZEQmdqbzJHdkdiNFQwQXZtQ1ZNVkpJMnVuTkN3SkJPOEpNOXpCRWZEVUkxQkhCZnA3Q0tJcVJudWfSAb8BQVVfeXFMTWFrNmJweGpBTF9NR3FQbTA4VEJBS0lXdzRiS2VjVmVod09rM0RSZFBfQkNucDVkejk2RGxlV2h0ajBiZVZFVFQ4cXJQdlpNOUJZQnNXS3BoQ0UwQXVWQXM4ZEpIclkwVVRvdm03SkpnMHJ6U0ZwSEpfemdDWFhWQzVNQmZhZFNaaDQ1dGd5ZkNhb1ZSTUxXaFRWMXJuNnpnbUFFQ0tRNzB1YTkwbzgtMGZZRzVjLWdEYVNMUk9JN0U?oc=5",
+        "domain": "kanyidaily.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260904T104458Z",
+        "seendate": "20260909T105616Z",
         "source": "GoogleNews"
       },
       {
