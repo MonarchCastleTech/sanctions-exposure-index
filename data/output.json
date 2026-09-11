@@ -1,24 +1,22 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-10T20:50:35.813825+00:00",
+    "generated": "2026-09-11T04:33:57.279633+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
       "OFAC press releases",
       "FRED Brent/WTI"
     ],
-    "source_notes": [
-      "Context news unavailable; retained last accepted snapshot."
-    ],
+    "source_notes": [],
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T20:48:49.534758+00:00",
+    "issued_at": "2026-09-11T04:32:10.706298+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 37.6,
-    "level": "WATCH",
+    "score": 23.8,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -26,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 60.4,
+        "score": 46.8,
         "releases_considered": 99,
-        "current_7d_designation_releases": 5,
-        "current_7d_all_releases": 5,
+        "current_7d_designation_releases": 4,
+        "current_7d_all_releases": 4,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.5,
-        "anomaly_z": 0.67,
+        "anomaly_z": 0.22,
         "themes": [
           "counter_terrorism",
           "cyber",
@@ -106,22 +104,6 @@
               "iran"
             ],
             "designation_signal": true
-          },
-          {
-            "title": "Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
-            "url": "https://home.treasury.gov/news/press-releases/sb0622/",
-            "action_title": "Iran-related Designations; Issuance of Iran-related General License",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260904",
-            "date": "2026-09-04",
-            "source": "OFAC/Treasury",
-            "posture_terms": [],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran"
-            ],
-            "designation_signal": true
           }
         ],
         "retained": false
@@ -130,12 +112,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 47.5,
+        "score": 0.0,
         "current_count": 19388,
-        "previous_count": 19369,
-        "added_count": 19,
+        "previous_count": 19388,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-09-09",
         "sha256": "4da825621635b7d3c36039be0e83fdb2619200616292b5204bcffda78be9c89d",
         "top_programs": [
@@ -206,122 +188,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "57834",
-            "name": "AL-DHUHAIBAWI, Hussein Ahmed Hussein",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "57835",
-            "name": "AL-SHAIKHLI, Mohamed Ameen Fadhil Ali",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "57896",
-            "name": "AL-HRAISHAWI, Karrar Mohammed Qasim",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "57897",
-            "name": "AL-LAMI, Ali Hasan Farhan",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "57915",
-            "name": "SHAMS AND BAHR TRADING COMPANY L.L.C.",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "57916",
-            "name": "AL-MANDALAWI, Majid Ali Akbar Namdar",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "57917",
-            "name": "AL-MANDALAWI, Abdulhasan Ali Akbar Namdar",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58525",
-            "name": "IBRAHIM, Hussein",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "58552",
-            "name": "HAMIEH, Abdallah",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "58553",
-            "name": "WEHBE, Ghaith Hussein",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "58554",
-            "name": "ZAHRELDINE, Mervat Jamil",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "58555",
-            "name": "YOUSEF IBRAHIM MANSOUR AND PARTNER FOR EXCHANGE",
-            "type": "",
-            "program": "SDGT"
-          },
-          {
-            "id": "58556",
-            "name": "GOLD PRO SARL",
-            "type": "",
-            "program": "SDGT"
-          },
-          {
-            "id": "58557",
-            "name": "AL-MAKANSI, Amir",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "58558",
-            "name": "AL-TAMEEMI, Abbas Jawad Kadhim",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "58559",
-            "name": "AL AMERI, Abdullah Nadhim Luaibi",
-            "type": "individual",
-            "program": "SDGT"
-          },
-          {
-            "id": "58560",
-            "name": "AL BROUJ FOR GENERAL CONTRACTING COMPANY",
-            "type": "",
-            "program": "SDGT"
-          },
-          {
-            "id": "58561",
-            "name": "AIN AL IRAQ FOR PROTECTION SYSTEMS TECHNOLOGY AND AUDIO, VISUAL, AND COMMUNICATIONS SOLUTIONS COMPANY LTD",
-            "type": "",
-            "program": "SDGT"
-          },
-          {
-            "id": "58562",
-            "name": "AL ABADA, Khaldoon Naser Maryoosh",
-            "type": "individual",
-            "program": "SDGT"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -329,13 +196,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 7.9,
-        "current_7d_releases": 5,
-        "current_weighted_term_rate": 1.1,
+        "score": 9.9,
+        "current_7d_releases": 4,
+        "current_weighted_term_rate": 1.375,
         "baseline_weeks": 10,
-        "anomaly_z": -0.54,
+        "anomaly_z": -0.05,
         "matched_release_count": 3,
-        "relief_release_count": 2,
+        "relief_release_count": 1,
         "evidence": [
           {
             "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
@@ -463,8 +330,7 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity",
-        "sdn_delta_breadth"
+        "ofac_action_velocity"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
@@ -473,16 +339,9 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 60.4,
-        "level": "ELEVATED",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
-      },
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 47.5,
+        "score": 46.8,
         "level": "WATCH",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
+        "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
@@ -1068,6 +927,17 @@
           "official_posture_shift": 7.9,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-11T04:32:10.706298+00:00",
+        "score": 23.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 46.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 9.9,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1132,13 +1002,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "37.6/100",
-      "delta": "WATCH"
+      "value": "23.8/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,388",
-      "delta": "+19 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -118299,10 +118169,10 @@
       {
         "title": "The UK Sanctions Hezbollah’s Shadow Bank. Lebanon Should Shut It Down.",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVhnUUhMT3hiMDNKREpLY244VFg0bW9lSnMtRnhLZFpSRU5FZkExN1NQYndCLUZaMlhOUWNQNV9mbEREQWEtbW01RlBKbWRLenNPSndaRGF2cFdGbGVYWXp4MlJHS0Z4VzU2MHBLUDByZG9STVprM3EzeFlTdF9FWkZRVFlSZ3pOaDIwNmhocXpIeEl1QTlnMnZyWGNOTDU3aFJGZ0ZRY3R1NTRX?oc=5",
-        "domain": "fdd.org",
+        "domain": "foundationfordefenseofdemocracies",
         "language": "",
         "tone": 0,
-        "seendate": "20260910T145158Z",
+        "seendate": "20260910T211523Z",
         "source": "GoogleNews"
       },
       {
@@ -118321,6 +118191,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T151053Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU court hands another defeat to Abramovich in fight against sanctions",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmtSTTA1T09nTFk1RmJITG1LUGQ2MlFYTWhzR1FPdXZGTzIwR1FMZlF6NENwd214ZWZtTkk2ZWt4TENRaVRrRkVDNzV1VnZWYlR0R0kybXdKWW9WdnN5NmZTUkJ1LTFNMmhHNzQ4VkJvT1B2Y0ROUWFNQVFZcGlzTWpGaUlGU05taUM0M1pFN2VST1U5QU1waXdmSjFlVmI5QmljVHpB?oc=5",
+        "domain": "politico.eu",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T102400Z",
         "source": "GoogleNews"
       },
       {
@@ -118351,12 +118230,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Updated online course enhances knowledge of sanctions",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNkZJay1MMjJLTm41OWpaS01VVnNkSi1Yc2lfQW90WGFaZHJ5QWRRTHJtTzI2Zi12aDJaXzdIUFdEQll0SGlabGtzVm56YWZoMG5HcjdmY3ZickNEUWZ6UU1xOXRmd19uQ3F1M2pudm1xSWtFRFVDb0lEYkl2eTZCc193OUJqd2FWcmpGbA?oc=5",
-        "domain": "valtioneuvosto",
+        "title": "EU court rejects Abramovich’s third bid to lift sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdklXRGxQQWIybFRNQVJFZURoUkE1VllTMGhxQ0gxTzNyRG0taEtJcmFJcHNMXzgwYl9PN3c5M25KLXB1akhhZHhDQlltMmV4YWNVSlJTMmd3d2lYMDEyQzlGQjFGa1RacEJfSlByUjVwcTVVd3pTTDhLT3JpZGVhcUhDaXJLZzUyNkYyTElLN0sxMGZyMWk1aEloVi00dGtyWEdPQV9MVTBZOXdVX0o1WWhUcjBhX3VSTkV5WHV3VjbSAbwBQVVfeXFMUG9qWjBJdHB0V3JuSkZ6STgyOXEwWmNoN1BaYjVPUkpzUlVKZWw5TGktRE9kb3JzQ0RsM200NFFnWkRCdFNqUDBpeUhUVXAzSnN0cF9DMUVrMzF1UkZ6Ny0xMFdEdllNZ0dheDdCWThUbUQtRzhoQ1htM2h6eG1xR09POElrZXo0OVdvSEVtc0xqbm51U1FqdFQ2R3cwWWV3LS1xTVlucEl3eW9BVldRQ0YxdDd2V2kzV3I5eVc?oc=5",
+        "domain": "thenewvoiceofukraine",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T092700Z",
+        "seendate": "20260909T120600Z",
         "source": "GoogleNews"
       },
       {
@@ -118366,15 +118245,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T151145Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU court rejects Abramovich’s third bid to lift sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdklXRGxQQWIybFRNQVJFZURoUkE1VllTMGhxQ0gxTzNyRG0taEtJcmFJcHNMXzgwYl9PN3c5M25KLXB1akhhZHhDQlltMmV4YWNVSlJTMmd3d2lYMDEyQzlGQjFGa1RacEJfSlByUjVwcTVVd3pTTDhLT3JpZGVhcUhDaXJLZzUyNkYyTElLN0sxMGZyMWk1aEloVi00dGtyWEdPQV9MVTBZOXdVX0o1WWhUcjBhX3VSTkV5WHV3VjbSAbwBQVVfeXFMUG9qWjBJdHB0V3JuSkZ6STgyOXEwWmNoN1BaYjVPUkpzUlVKZWw5TGktRE9kb3JzQ0RsM200NFFnWkRCdFNqUDBpeUhUVXAzSnN0cF9DMUVrMzF1UkZ6Ny0xMFdEdllNZ0dheDdCWThUbUQtRzhoQ1htM2h6eG1xR09POElrZXo0OVdvSEVtc0xqbm51U1FqdFQ2R3cwWWV3LS1xTVlucEl3eW9BVldRQ0YxdDd2V2kzV3I5eVc?oc=5",
-        "domain": "thenewvoiceofukraine",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T120600Z",
         "source": "GoogleNews"
       },
       {
@@ -118425,7 +118295,7 @@
       {
         "title": "Ukraine Faces Potential Arbitration Claim Over Fridman-Linked IDS Ukraine Asset Freeze",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWFMtLUlmbTlhb2c0c0VnM3pJQWVUTUhvZEEwSFd6d3dQTm5ITkgxd0duaXFuNWdqTnNOV2ludkQ2QXBzSjBSZUNHT1VsZ09kWlVwMy1RNlkyRkJhVE5ZMVNNUTdSVzE2cm8yWU9FdmNPb19tSHZLTnJwZXA3ZHcwYzVWQXBpVlNEeWJGbDg3RThuN1RQYng1M1hKbk14NlJxYUt2WmVjcTBwSVpISEZMb3FWWGl4ZmVHSEJ2ZE9qU1RSTE9ISkgzTFln?oc=5",
-        "domain": "eurasiabusinessnews.com",
+        "domain": "eurasiabusinessnews",
         "language": "",
         "tone": 0,
         "seendate": "20260908T194432Z",
@@ -118434,7 +118304,7 @@
       {
         "title": "Italy’s central bank orders sanctions screening for crypto transfers",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVklIdHIxQS1haWZMN3h1SjA3Tzh5akZiZ1RTOXFaTWtvMkY3LVFMQXZpZTNXOS1FaGRZWTFrcXpwSDFHT1VrU3FsR3Q1SUdCVmxRSTUwdHR6NFVxMndLX3lqU3R1TmJDdy0wZ0tWUTgwNTEwd1I0NmZOaXhxcUxVVWdyalhqc0tybV9xRVRhY25GczJEWk1EbTd2SG5ITG9BODRPY2xxU1pVRjE5VmNoajlHNzNrRm1XSm1hTmJ0YmQ5TDB4dWdsbzRkMUg?oc=5",
-        "domain": "tradingview",
+        "domain": "tradingview.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T122033Z",
@@ -118470,7 +118340,7 @@
       {
         "title": "Philippines Plans 12-Month Freeze on New Payment System Operator Registrations",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdlVmck40WDBnSlJvZ2dDUnhkcTNpLWlwWFZ1bEVjYk5uOUJseUxEZmpWMkpEOGhFUHZGZWd3TDBsdkdQR3ZHN2xEX1oyODAySUt2cGp4Z2RaQVV5ajlVYTlfdEdNb1JIc1RrZ1c5SC1Ub2NpV0xzVlJUbTlMaDVQWTVpaHcyaGNxemphZGlxU21uNDFLZExWSUcyMkFwYzRCRHVybDhud1JFTFNRZkJtRUJ5eEl4bHhjaGV0dzdGN0pnWUlmbGhqanJFSEpjSHRDdUZqczFxWDZPbHZU?oc=5",
-        "domain": "tradingview",
+        "domain": "tradingview.com",
         "language": "",
         "tone": 0,
         "seendate": "20260907T194000Z",
@@ -118492,6 +118362,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T184830Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "DOJ Restrains $52.8M in Crypto Tied to Chinese Scam Marketplace Xinbi",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBad3JaemRGT0RkX1N5TlprLVdXaG5Ed2gwTnkxUHBnMGZxRlRDeDZaZ3I0MnBVYjgybWpzNmpWakxidXlDMC01NFptR2tPVzR4cTdFa1hDRXRoNVpvUU9ZWWpweVdhRVpGN1htdjFWWHRQVGFaZFFDYVg2aw?oc=5",
+        "domain": "altcoinbuzz",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260910T201917Z",
         "source": "GoogleNews"
       },
       {
@@ -118533,7 +118412,7 @@
       {
         "title": "US Treasury sanctions $24B scam platform Xinbi as it shifts from Tether to rival stablecoin USDD",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZDQxZHB3bkFfaG1GaDBTVzRTYjl0YnhUa2NNbUJUM0NEUE5BcjZoRDdPUnNOV1NNNXlPTW82TUcyekl5alRuZGhMTWJ5dEdpc2FGdDlUVjJKNUpaaldVeGhoSjZ0MmNoRVl0enFqdFhQc3VxdkQ4bktSWVU1WGl0RU1sbm8zVy1wZ09DTHhSVy15aE80T1N1RHIwRGhGUjRHY1RqS0pybldtVm8?oc=5",
-        "domain": "pluang",
+        "domain": "pluang.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T223601Z",
@@ -118612,21 +118491,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Raiffeisen Sues Russian Oligarch in €3.15 Billion Strabag Battle",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVldpM2JFX3ZqcGw1WkxxQkE4cmNUMU1BQmhqeGhqUnZDSTdFMW1lMzU4RGctU09QOXB4X0hWYW9hVzZmdHpkWTJhUDNRMGpIcFNtamR6ekl4a1lwOGMxMExRSU50Mzd2MW81eWV1U2M2TnA4TE1fX3VsV3hUcGZGMTJfazZpSzRIa1R3dWpVS0J2TGZ2LW1UM1F5aEo?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260908T120000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US-Israel-Iran War Latest Live News: Canada, France to Join Ban on Settlement Goods from Israeli Settlements, Says UK",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdlU4bl9xOWtBbS13NnBoRFZIRDVjdk9HbG42ME1ydmN3RmZrTnhpVm9EeTRQX1pOZHpwaW16ZGVkaFYtd1FvNG5EaEIzSW9IWmVtM3NmRTZXZ1NfMXFPbHZOVnh4bmJlOTNVdjRfdlI3TDVCdHRoeV9PN09STXg1cUgtQWgwVHlkZkR0ZGV0dWJuRlRXQWFzSldEbDVBTDJ4ajVpV0FVRUhyS0ZlREZBa1ZYSUhOWG1Fb1E4Nk5tYjRLUW9fZEdoSmZ5c2NmTmx4VXlMTE82Q3VHa1lmZUY1ZVlpMml3cjlVX09qR2ZHUDYzdmZNMHfSAfYBQVVfeXFMT3ZVOG5fcTlrQW0tdzZwaERWSEQ1Y3ZPR2xuNjBNcnZjd0Zma054aVZvRHk0UF9aTmR6cGltemRlZGhWLXdRbzRuRGhCM0lvSFplbTNzZkU2V2dTXzFxT2x2TlZ4eG5iZTkzVXY0X3ZSN0w1QnR0aHlfTzdPUk14NXFILUFoMFR5ZGZEdGRldHVibkZUV0Fhc0pXRGw1QUwyeGo1aVdBVUVIcktGZURGQWtWWElITlhtRW9RODZObWI0S1FvX2RHaEpmeXNjZk5seFV5TExPNkN1R2tZZmVGNWVZaTJpd3I5VV9PakdmR1A2M3ZmTTB3?oc=5",
         "domain": "thesundayguardian",
         "language": "",
         "tone": 0,
         "seendate": "20260908T133623Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Raiffeisen Sues Russian Oligarch in €3.15 Billion Strabag Battle",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVldpM2JFX3ZqcGw1WkxxQkE4cmNUMU1BQmhqeGhqUnZDSTdFMW1lMzU4RGctU09QOXB4X0hWYW9hVzZmdHpkWTJhUDNRMGpIcFNtamR6ekl4a1lwOGMxMExRSU50Mzd2MW81eWV1U2M2TnA4TE1fX3VsV3hUcGZGMTJfazZpSzRIa1R3dWpVS0J2TGZ2LW1UM1F5aEo?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260908T120000Z",
         "source": "GoogleNews"
       },
       {
