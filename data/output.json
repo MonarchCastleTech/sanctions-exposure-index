@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-13T11:46:34.493963+00:00",
+    "generated": "2026-09-13T16:14:33.128487+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-13T11:44:47.957487+00:00",
+    "issued_at": "2026-09-13T16:12:46.693356+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.8,
@@ -1029,6 +1029,17 @@
       },
       {
         "timestamp": "2026-09-13T11:44:47.957487+00:00",
+        "score": 23.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 46.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 9.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-13T16:12:46.693356+00:00",
         "score": 23.8,
         "level": "BASELINE",
         "components": {
@@ -118259,7 +118270,7 @@
       {
         "title": "The UK Sanctions Hezbollah’s Shadow Bank. Lebanon Should Shut It Down.",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVhnUUhMT3hiMDNKREpLY244VFg0bW9lSnMtRnhLZFpSRU5FZkExN1NQYndCLUZaMlhOUWNQNV9mbEREQWEtbW01RlBKbWRLenNPSndaRGF2cFdGbGVYWXp4MlJHS0Z4VzU2MHBLUDByZG9STVprM3EzeFlTdF9FWkZRVFlSZ3pOaDIwNmhocXpIeEl1QTlnMnZyWGNOTDU3aFJGZ0ZRY3R1NTRX?oc=5",
-        "domain": "foundationfordefenseofdemocracies",
+        "domain": "fdd.org",
         "language": "",
         "tone": 0,
         "seendate": "20260910T211523Z",
@@ -118284,15 +118295,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian oligarch Abramovich loses third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmt1djY3TGgtbG9FVWNuVnB5czhmeXFoR0RKSkE4c3Z6V1BSVTc2dVAyQ1pmUGxxVDU0RVRsSVUtNzFUMnUxbDFSVmNGRVpxb2dVcDdZVHJPSWRvSmlNa3hxRDdrYnJobWstTXJGb2JfbDYxNUdjeXEwY0VNejRJakVSa0hOSmtXTlNYVndMRU9CRFpTU0VaZjJQMjZIOWtOOWhnUVdR0gGrAUFVX3lxTFBfRGRPQ3lwS1FULXg2eTA5VWJSWWN3OElpd3VrSndtR2RPcHVJc2IwOHNsVmdsanFrZE5FUVBPLVFVcVlFMFNmTVpkTHlPQ1RlTVVUd0tGejRuWjg2M2prZDBZU0RxUXJCb0xEdDBMVC1hcHBIN3JuNWN3OE1YNGdDQ0JIWGJnbkt3Y2w4X3p3S3VWal9qSWJRYUd5blhhNnBPSXl3ZzRIdXlYbw?oc=5",
-        "domain": "thetimesofisrael",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T150600Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU court hands another defeat to Abramovich in fight against sanctions",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmtSTTA1T09nTFk1RmJITG1LUGQ2MlFYTWhzR1FPdXZGTzIwR1FMZlF6NENwd214ZWZtTkk2ZWt4TENRaVRrRkVDNzV1VnZWYlR0R0kybXdKWW9WdnN5NmZTUkJ1LTFNMmhHNzQ4VkJvT1B2Y0ROUWFNQVFZcGlzTWpGaUlGU05taUM0M1pFN2VST1U5QU1waXdmSjFlVmI5QmljVHpB?oc=5",
         "domain": "politico.eu",
@@ -118308,6 +118310,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T114019Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian oligarch Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmt1djY3TGgtbG9FVWNuVnB5czhmeXFoR0RKSkE4c3Z6V1BSVTc2dVAyQ1pmUGxxVDU0RVRsSVUtNzFUMnUxbDFSVmNGRVpxb2dVcDdZVHJPSWRvSmlNa3hxRDdrYnJobWstTXJGb2JfbDYxNUdjeXEwY0VNejRJakVSa0hOSmtXTlNYVndMRU9CRFpTU0VaZjJQMjZIOWtOOWhnUVdR0gGrAUFVX3lxTFBfRGRPQ3lwS1FULXg2eTA5VWJSWWN3OElpd3VrSndtR2RPcHVJc2IwOHNsVmdsanFrZE5FUVBPLVFVcVlFMFNmTVpkTHlPQ1RlTVVUd0tGejRuWjg2M2prZDBZU0RxUXJCb0xEdDBMVC1hcHBIN3JuNWN3OE1YNGdDQ0JIWGJnbkt3Y2w4X3p3S3VWal9qSWJRYUd5blhhNnBPSXl3ZzRIdXlYbw?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T150600Z",
         "source": "GoogleNews"
       },
       {
@@ -118385,7 +118396,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "news.google.com",
+        "domain": "bastillepost.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
@@ -118403,7 +118414,7 @@
       {
         "title": "Iran Is Settling Trade in Bitcoin and Tether to Dodge US Sanctions",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV3lZSTYyanE1aG1Ea3RaQ3VudWxKd3BHN19RZWhsTWc3dWFyVGhZUTJOYncybkZKZE53M280YW5WdGZVOVN2OEFLakR3MHlRNE1OSEg3X19Pd2FlWjlxUE1RcnVIUUdGVXVhNGhZa2RfNlZTTG03UFNuR3FOR0o4RGY0VkpPYmN3M3o3QUFtMGJLOWk0RWhSWWFB?oc=5",
-        "domain": "startupfortune.com",
+        "domain": "startupfortune",
         "language": "",
         "tone": 0,
         "seendate": "20260909T153324Z",
@@ -118470,6 +118481,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T084250Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Treasury Sanctions a $24 Billion Scam Marketplace as It Flees Tether for a Rival Stablecoin",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdUpWR2VwaDJKRHd3N1VDQ2dfYmhqR2NEbGVGQjlTcWFtNHNlSnZOS3dCeWJRN21neHE3Z1FrcmRQdFFaR2UwSlRQT0hud0dhcThGeF9OeVVYTk5NWWJHbWlUWVl0ckwzSm9kZ1JuUTIwaE9wR3hqTVpfOHdFQ3JfbHFjbnJtMXpHM0x3M1p2cWIzeXd4QmxoMmZFSVNBMjY0Zl9feVBrdkx6ZFJTM2QxVWRqa0szWHpTeVlJ?oc=5",
+        "domain": "unchainedcrypto.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T231800Z",
         "source": "GoogleNews"
       },
       {
@@ -118610,7 +118630,7 @@
       {
         "title": "London penthouses ‘owned’ by Iran’s supreme leader go up for sale",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFJkR3pNMmw0VkMtbjdJYmF2ajN2cHR0UjU3aHFaalpOUUowQ3hYdnNTbF9DS3k3T01BUDlNbUkxNVNobEt5UE0wVm9YNF94TUxXTU9BbkJqYnJ0RTZUQTliWVdaNXJld09GeHlZZG1rRjJabFZpWlctSDBxdVlOZkV3dktyYzFndkw3OVVRQUFOQU03cWxHbzZHODI5amFmeHp3QUJfNU1Qdw?oc=5",
-        "domain": "arabianbusiness.com",
+        "domain": "arabianbusiness",
         "language": "",
         "tone": 0,
         "seendate": "20260907T091725Z",
@@ -118695,15 +118715,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260910T113000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "British Billionaire Family Battles Ukraine Over Seized IDS Bottled Water Empire",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcWNYNFFQVXdjeEl1SGg1cnl0QjA3QmdRZ19rSHI0UkhkcDJSSElSS2RCQ3FzbXVQY1IzbG41Wmt3THNUaFRHMlNOcG9OM1IwTHpDVGhGVTRrZ2RfUnZoYng5SG5OVUt3SjVUY1VVTHdBRUxCTWxHbXphWVRQSkNtOGFVMS03bTI5S0lveWprSldiZkE1V09JWklMY1E0YmZNMFNVVlFPQ1g4UEQtZldFYzJPUQ?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260907T121205Z",
         "source": "GoogleNews"
       }
     ]
