@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-13T04:42:39.290456+00:00",
+    "generated": "2026-09-13T11:46:34.493963+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-13T04:40:52.690081+00:00",
+    "issued_at": "2026-09-13T11:44:47.957487+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.8,
@@ -1018,6 +1018,17 @@
       },
       {
         "timestamp": "2026-09-13T04:40:52.690081+00:00",
+        "score": 23.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 46.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 9.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-13T11:44:47.957487+00:00",
         "score": 23.8,
         "level": "BASELINE",
         "components": {
@@ -118293,7 +118304,7 @@
       {
         "title": "EU court orders Abramovich travel ban, asset freeze to stand",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
-        "domain": "euperspectives.eu",
+        "domain": "euperspectives",
         "language": "",
         "tone": 0,
         "seendate": "20260909T114019Z",
@@ -118338,7 +118349,7 @@
       {
         "title": "EU court rejects Abramovich challenge to sanctions renewal",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02TGZ0bFBMWUg4M092a2o4QlczblFjRUoxamg2bzF0NmJUMXZTRExlUndBMDJNdjFfZHliaXotNE9kMHptTnRENnFUdnB4QWxudzlkM2wxdERSTG9lZ3ZNSHJMQ0tjS3RmTExVcHpraGJLWkFKazVF?oc=5",
-        "domain": "eutoday.net",
+        "domain": "eutoday",
         "language": "",
         "tone": 0,
         "seendate": "20260909T101416Z",
@@ -118374,7 +118385,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "bastillepost.com",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
@@ -118392,7 +118403,7 @@
       {
         "title": "Iran Is Settling Trade in Bitcoin and Tether to Dodge US Sanctions",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV3lZSTYyanE1aG1Ea3RaQ3VudWxKd3BHN19RZWhsTWc3dWFyVGhZUTJOYncybkZKZE53M280YW5WdGZVOVN2OEFLakR3MHlRNE1OSEg3X19Pd2FlWjlxUE1RcnVIUUdGVXVhNGhZa2RfNlZTTG03UFNuR3FOR0o4RGY0VkpPYmN3M3o3QUFtMGJLOWk0RWhSWWFB?oc=5",
-        "domain": "startupfortune",
+        "domain": "startupfortune.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T153324Z",
@@ -118414,15 +118425,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T095939Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Italy’s central bank orders sanctions screening for crypto transfers",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVklIdHIxQS1haWZMN3h1SjA3Tzh5akZiZ1RTOXFaTWtvMkY3LVFMQXZpZTNXOS1FaGRZWTFrcXpwSDFHT1VrU3FsR3Q1SUdCVmxRSTUwdHR6NFVxMndLX3lqU3R1TmJDdy0wZ0tWUTgwNTEwd1I0NmZOaXhxcUxVVWdyalhqc0tybV9xRVRhY25GczJEWk1EbTd2SG5ITG9BODRPY2xxU1pVRjE5VmNoajlHNzNrRm1XSm1hTmJ0YmQ5TDB4dWdsbzRkMUg?oc=5",
-        "domain": "tradingview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T122033Z",
         "source": "GoogleNews"
       },
       {
@@ -118462,12 +118464,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "CZ’s Kyrgyzstan visit highlights why state backing cannot guarantee a stablecoin exit",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRaS2tmbEhOTmNudnA2WWowTnlnOUdCdjJZZGE3LTRGYlVya09JSUhxZndhV0czWVA5SzZ1THJYd3d5M1prOS1IZHdKM3Vuc0dXWHpjbXVDcEFuWjZybTlGQUZtVUlzcC1wbWJhb0FZRC13S0JPNUx2SFRocFFzSnRLLWZIS3dQN3FlQ01pUlZVVUdvc2RuU0lmM0wxaG9OVklXb0tjRnRoblBDNE1fQQ?oc=5",
-        "domain": "cryptoslate.com",
+        "title": "UK Iran Sanctions Amendments Tighten Financial Crime Controls",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAybkczQUxyOHZhLXZMYllUUktmOHlqTi04bmNWampSNVpqYS1NYzEyZXRBV3ZrQVdvQUwwR0RKRnprZkM1aklvQ001b0I4MXRDUW9xNFBVeEdiQXVRZkVldmlLWUpMbXhjYzNvT0d1ZkFJdktWbUF0SHNaQXF5QQ?oc=5",
+        "domain": "fincrimecentral",
         "language": "",
         "tone": 0,
-        "seendate": "20260907T104522Z",
+        "seendate": "20260909T084250Z",
         "source": "GoogleNews"
       },
       {
@@ -118579,6 +118581,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Italy’s central bank orders sanctions screening for crypto t|Cointelegraph",
+        "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxPaDVvM0xRXzd4S1NpcFVaaWl2RlpwaXg5WEpMYldObnJVOE5zT0hBV0dhcS1xYlNhMno5UUV0ZllOUU5kR09ZZmJQQU5qejBWM2NYbzJaOWJDaHlhandXWXBNZWp0eWxHc3owemtlRlBNOWp0ME5tTTdBZHl5cS1qbjhzbDhUei1zQ0lNZWpHOE9teGNYdzZKTUpSY1B3a1NkQWNxdk5iVllYSVJvblF5ZW1XT2p6aGpSZWtGaVRYQ3g2QkZOQmI2SEFRc3F6bjFUT0V5eFNBWTN4MW95TlJVeXdGdWE0ODZkSHpvX1pUYXF6SmZ6YVlwaFBVLWw5YXdkT2ZubW1WUmlsOU5nVFM2OFV5b3RRWVdldGdzdWhGTzlSejFITzhpYnNQbEFYQTQtakdHZVpXdV9jTFNxTmNILU9JTEotdXZWWDFQZ3QxbUVGUXFMU2xuWXdtVWpPWS0wMHJkaGVfejJPWkZ1TWZXOVQ5eGRmUnRNVUl4ODJOZnVSUmh4YlktdndRM1QxbHBwaUw2YkpqS252SXJaQUx2el9Qc0RBN0NVbmlsY1hqRVJNOHV3aTZLZjNUUHdzaDNPZXczU2JGanNIbDViSmdWcEV2S192d2ZSbDZDSXZCeF9wVldtaEVEam9sS3JIY0VD?oc=5",
+        "domain": "khabarpu.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T182012Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Why North Korea's Kim Jong Un Doesn't Need a US Deal",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ21PWlR4dDFuOHNwdFVheC1SekVKcU1VVVN4TS04X0YzQ1BKVl9SWXhCeHlrTHVSUzgySllMYmVYY1ZyaXlhRmJqYWkzQ2xVVkNVdHhhdkVhbE9YaTJ1eEVZZ1RORVRlVGoxNi1mUFRBbGdHbXgyNEhHT1d0c3YzX2RUeUpPbDhvSHc?oc=5",
         "domain": "tempo.coenglish",
@@ -118590,10 +118601,19 @@
       {
         "title": "Iran eases currency rules to bypass US sanctions with crypto|Cointelegraph",
         "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPVm1USGlDXzZ5b1pXWms1cVJpQ0dQNXpzVTNNSWJDYU9JdlR2NmpRaFEtLVVGamxiWnZRcEFid1dDT05Cd19XMGo1ZWVoUERRRGNQRVFBcW9YNXRPa1VfVEo2djNNcDR5V0RwbEZVdVlGcFNnUVl1MmdJSWN1MVZsQ0JYX0xCODMyenJvdXF1aWh6eWViaWw5OTVEWGZLUnRQemhkRWpQcThuc2d5LWVNalhsZl96ZEdnWW5ZQVF6T3pCRUhfZ2dKWWVNTzV1enBBQUVKS01qZmNlbTlheHhoaHp4RGZmUWtYd1BCSHRoSlNXbXhuZzB3bS00SzBvTmlQSlBRT3Z1Q1RidmVhSlRQak5Pd0x4dGlBc2ljU3pucmlnNGNpX3R6Um14WXdlR0I1VkRoQ2hReUllV3M3VGtMWm83aXhQYzNWQzRfUEFyaWVvQm40SEh6NEFSNEpMS000TFBDOU1fSFNmdjdwc1dZZmc4M1c4elF2MUdmU1dybkF2UVhLejBLTzdHcl9TTXE1d0hvQUVVb3VBUE9OYUZKSDVxc0RtdklfMkJCanZYWnZfcVI3ajlJVVlBRUFUbV9sa0N3UnZuOUI?oc=5",
-        "domain": "news.google.com",
+        "domain": "khabarpu.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T101413Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "London penthouses ‘owned’ by Iran’s supreme leader go up for sale",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFJkR3pNMmw0VkMtbjdJYmF2ajN2cHR0UjU3aHFaalpOUUowQ3hYdnNTbF9DS3k3T01BUDlNbUkxNVNobEt5UE0wVm9YNF94TUxXTU9BbkJqYnJ0RTZUQTliWVdaNXJld09GeHlZZG1rRjJabFZpWlctSDBxdVlOZkV3dktyYzFndkw3OVVRQUFOQU03cWxHbzZHODI5amFmeHp3QUJfNU1Qdw?oc=5",
+        "domain": "arabianbusiness.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260907T091725Z",
         "source": "GoogleNews"
       },
       {
@@ -118621,6 +118641,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260907T133035Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran Lets Exporters Settle Trade in USDT as Sanctions Bite",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRFdfTXNydUFLbFVPMVBGcnFqTE9sNzBOVEJRVVRFa045cURnTHRwcWIxZ0pGa3NQWS1oUXlxVGRNdXhrYy1EbXMtQ3lmbVhsMTJyTmE5Z1ptb1NMaTNoMHR0X2dtYzZRZmxpVFdNX3I3WUN6NEk1ZmR2c2FTWkRpR3FxcjJYODJEZTZEZnZWY3JFdnY5SFkxUm9zRDQ?oc=5",
+        "domain": "financefeeds",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T163823Z",
         "source": "GoogleNews"
       },
       {
@@ -118675,24 +118704,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260907T121205Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ex-Chelsea Owner Roman Abramovich Loses Third Attempt To Overturn EU Eanctions | Kanyi Daily News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSGFIMEt3QXA2dHZndE43dHZuZEgzNlp2R25kWlI1bVliQ1dUTEVmR3VHVXJvNUNkbUJjbk9ISkRoTUpGRkJqajdsOGFVT1U4SnZpZW1zSFFfQjUzNjlNcFNvWlBpZWliTTMwUjd1U29LMFBVUTJvMkxtWVU5VVozS2ZEQmdqbzJHdkdiNFQwQXZtQ1ZNVkpJMnVuTkN3SkJPOEpNOXpCRWZEVUkxQkhCZnA3Q0tJcVJudWfSAb8BQVVfeXFMTWFrNmJweGpBTF9NR3FQbTA4VEJBS0lXdzRiS2VjVmVod09rM0RSZFBfQkNucDVkejk2RGxlV2h0ajBiZVZFVFQ4cXJQdlpNOUJZQnNXS3BoQ0UwQXVWQXM4ZEpIclkwVVRvdm03SkpnMHJ6U0ZwSEpfemdDWFhWQzVNQmZhZFNaaDQ1dGd5ZkNhb1ZSTUxXaFRWMXJuNnpnbUFFQ0tRNzB1YTkwbzgtMGZZRzVjLWdEYVNMUk9JN0U?oc=5",
-        "domain": "kanyidailynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T105616Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tether USDT Freeze Hits $39.27M Across 10 TRON Addresses Linked To Xinbi",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04eVFaVEJ0YXB2ZDZkUFNMek8ySjQ3djhWN1F6MnRiWnEyaWlIWmN6ZTNySjEwNEZrS1RESkkySmN0TEJic3dEWW5hbW9ZVVNGVWlEc0ZqWFVySno2RzdpdXBPcjY2X1JOOW5uckNRcmwyck1fWmd0MzlYbDkwUQ?oc=5",
-        "domain": "tronweekly",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T080000Z",
         "source": "GoogleNews"
       }
     ]
