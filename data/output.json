@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-12T20:32:35.343916+00:00",
+    "generated": "2026-09-13T04:42:39.290456+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-12T20:30:48.109686+00:00",
+    "issued_at": "2026-09-13T04:40:52.690081+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.8,
@@ -1007,6 +1007,17 @@
       },
       {
         "timestamp": "2026-09-12T20:30:48.109686+00:00",
+        "score": 23.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 46.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 9.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-13T04:40:52.690081+00:00",
         "score": 23.8,
         "level": "BASELINE",
         "components": {
@@ -118246,7 +118257,7 @@
       {
         "title": "Roman Abramovich Scores Legal ‘Hattrick’ of Losses in Fight Against EU Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HQmh6T3F0RmJWLVZhd2F5NENENmhpRXNrZU5LWW9VU1RYcTNxaFBScDdFMHJfTXhjUnpxdGh6LVBhRkZBV3FSRE4xNA?oc=5",
-        "domain": "kyivpost.com",
+        "domain": "kyivpost",
         "language": "",
         "tone": 0,
         "seendate": "20260909T104546Z",
@@ -118264,7 +118275,7 @@
       {
         "title": "Russian oligarch Abramovich loses third attempt to overturn EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmt1djY3TGgtbG9FVWNuVnB5czhmeXFoR0RKSkE4c3Z6V1BSVTc2dVAyQ1pmUGxxVDU0RVRsSVUtNzFUMnUxbDFSVmNGRVpxb2dVcDdZVHJPSWRvSmlNa3hxRDdrYnJobWstTXJGb2JfbDYxNUdjeXEwY0VNejRJakVSa0hOSmtXTlNYVndMRU9CRFpTU0VaZjJQMjZIOWtOOWhnUVdR0gGrAUFVX3lxTFBfRGRPQ3lwS1FULXg2eTA5VWJSWWN3OElpd3VrSndtR2RPcHVJc2IwOHNsVmdsanFrZE5FUVBPLVFVcVlFMFNmTVpkTHlPQ1RlTVVUd0tGejRuWjg2M2prZDBZU0RxUXJCb0xEdDBMVC1hcHBIN3JuNWN3OE1YNGdDQ0JIWGJnbkt3Y2w4X3p3S3VWal9qSWJRYUd5blhhNnBPSXl3ZzRIdXlYbw?oc=5",
-        "domain": "timesofisrael.com",
+        "domain": "thetimesofisrael",
         "language": "",
         "tone": 0,
         "seendate": "20260909T150600Z",
@@ -118282,7 +118293,7 @@
       {
         "title": "EU court orders Abramovich travel ban, asset freeze to stand",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
-        "domain": "euperspectives",
+        "domain": "euperspectives.eu",
         "language": "",
         "tone": 0,
         "seendate": "20260909T114019Z",
@@ -118352,15 +118363,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Grigory Berezkin Sanctions: How a Business Leader Was Cleared of EU Restrictions",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XbWxHM3p4VDhsbXdSdEtQR0ZZZHBjbE9FWmZ2RV8tTDhfdE45QU1JaDB2dTN2QVNLdVAxQmVPaXM2UmNSNTkzMFlRUTFaWkMtTHM3ckd1b05rUndlcWt6MTZhSm9fSlZNSkUtWVJjRVNiclg3dmc?oc=5",
-        "domain": "ocnjdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260910T104628Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU court rejects Abramovich’s third bid to lift sanctions",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdklXRGxQQWIybFRNQVJFZURoUkE1VllTMGhxQ0gxTzNyRG0taEtJcmFJcHNMXzgwYl9PN3c5M25KLXB1akhhZHhDQlltMmV4YWNVSlJTMmd3d2lYMDEyQzlGQjFGa1RacEJfSlByUjVwcTVVd3pTTDhLT3JpZGVhcUhDaXJLZzUyNkYyTElLN0sxMGZyMWk1aEloVi00dGtyWEdPQV9MVTBZOXdVX0o1WWhUcjBhX3VSTkV5WHV3VjbSAbwBQVVfeXFMUG9qWjBJdHB0V3JuSkZ6STgyOXEwWmNoN1BaYjVPUkpzUlVKZWw5TGktRE9kb3JzQ0RsM200NFFnWkRCdFNqUDBpeUhUVXAzSnN0cF9DMUVrMzF1UkZ6Ny0xMFdEdllNZ0dheDdCWThUbUQtRzhoQ1htM2h6eG1xR09POElrZXo0OVdvSEVtc0xqbm51U1FqdFQ2R3cwWWV3LS1xTVlucEl3eW9BVldRQ0YxdDd2V2kzV3I5eVc?oc=5",
         "domain": "thenewvoiceofukraine",
@@ -118372,7 +118374,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "news.google.com",
+        "domain": "bastillepost.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
@@ -118394,6 +118396,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T153324Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ukraine Faces Potential Arbitration Claim Over Fridman-Linked IDS Ukraine Asset Freeze",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWFMtLUlmbTlhb2c0c0VnM3pJQWVUTUhvZEEwSFd6d3dQTm5ITkgxd0duaXFuNWdqTnNOV2ludkQ2QXBzSjBSZUNHT1VsZ09kWlVwMy1RNlkyRkJhVE5ZMVNNUTdSVzE2cm8yWU9FdmNPb19tSHZLTnJwZXA3ZHcwYzVWQXBpVlNEeWJGbDg3RThuN1RQYng1M1hKbk14NlJxYUt2WmVjcTBwSVpISEZMb3FWWGl4ZmVHSEJ2ZE9qU1RSTE9ISkgzTFln?oc=5",
+        "domain": "eurasiabusinessnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260908T194432Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran eases currency controls to let traders bring earnings home in crypto: FT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc3JDa09oZWhUamNaY2p0a01lSUl5bzdDaVUyR2NmamtUcF9ScGwzQ2tjZWk2dTlxU1RWenRrd21nNnFsTjhKdGFYaDVpeTY1VG93aFpZYjctZjZKSFNZamdTOHdmdmN2d0MwazUtdFUwcjZvYXZlbV9BeHJzT3hsNjljT1BRVXdxUFVNMmJWT2RFemhlODNxdW5VSkdKajZzNElTLU1aT0hoOGx6blFqcHF0Z0xobXBoZW1lajdn?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T095939Z",
         "source": "GoogleNews"
       },
       {
@@ -118444,10 +118464,19 @@
       {
         "title": "CZ’s Kyrgyzstan visit highlights why state backing cannot guarantee a stablecoin exit",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRaS2tmbEhOTmNudnA2WWowTnlnOUdCdjJZZGE3LTRGYlVya09JSUhxZndhV0czWVA5SzZ1THJYd3d5M1prOS1IZHdKM3Vuc0dXWHpjbXVDcEFuWjZybTlGQUZtVUlzcC1wbWJhb0FZRC13S0JPNUx2SFRocFFzSnRLLWZIS3dQN3FlQ01pUlZVVUdvc2RuU0lmM0wxaG9OVklXb0tjRnRoblBDNE1fQQ?oc=5",
-        "domain": "cryptoslate",
+        "domain": "cryptoslate.com",
         "language": "",
         "tone": 0,
         "seendate": "20260907T104522Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "CZ’s Kyrgyzstan visit highlights why state backing cannot guarantee a stablecoin exit",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaHlKeHdrazR5Zzc5NTMtOVlZbS1GNDUxWFNqNUhpTmtVM2pWd3FWcXN1U2ZsX1R6YjNYVlk4OGtJVDJZZHRkNXNDOEIwSUdYSjRTNjV6eDc2X1cyN2VLelNtdDEyX0VRYnFNSEZRTmRkRUp1Y3lrY3Z3RHdmMm03cDNsWDBENUlHeTBkT2hSQkJZQzdUMWJwMTJJTDhKYmE0OENTS1J1MnJxdjhxY3V5aHNXT3pvbEMzZmhjSWtVTGxHdw?oc=5",
+        "domain": "cryptorank",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260907T105455Z",
         "source": "GoogleNews"
       },
       {
@@ -118466,6 +118495,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260911T115152Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Libyan Long-Term Investment Portfolio Reports US$ 1.25 Billion Profit",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRE5sejJfbFAyRVVMQ0xOcUhGaDdtTDZobUpGbVlqRFFIU1dMeTlxOVZUdGFHQ2JicmJqdW5Tdks0RUhWb3hzNVNwZlpybTNPOEhoUF9zNjk4WkFoazk2NHpBSm9SZUhBYW9JZnhScFFibmN5WkQ5amNvQjk4WllzU0taX2Q0aXFodUtHMU8wcWMxYlBvNUJnX3JPczF5N1d3MnBBTXRLUTdrRVJwbmVGbk5Zd2s2bGJhbEgzcVZhQWJ5WUlFUndITEM0UHVfbm10MGhj?oc=5",
+        "domain": "libyaherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T090400Z",
         "source": "GoogleNews"
       },
       {
@@ -118489,7 +118527,7 @@
       {
         "title": "US Treasury sanctions $24B scam platform Xinbi as it shifts from Tether to rival stablecoin USDD",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZDQxZHB3bkFfaG1GaDBTVzRTYjl0YnhUa2NNbUJUM0NEUE5BcjZoRDdPUnNOV1NNNXlPTW82TUcyekl5alRuZGhMTWJ5dEdpc2FGdDlUVjJKNUpaaldVeGhoSjZ0MmNoRVl0enFqdFhQc3VxdkQ4bktSWVU1WGl0RU1sbm8zVy1wZ09DTHhSVy15aE80T1N1RHIwRGhGUjRHY1RqS0pybldtVm8?oc=5",
-        "domain": "pluang.com",
+        "domain": "pluang",
         "language": "",
         "tone": 0,
         "seendate": "20260909T223601Z",
@@ -118547,6 +118585,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260912T020100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran eases currency rules to bypass US sanctions with crypto|Cointelegraph",
+        "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPVm1USGlDXzZ5b1pXWms1cVJpQ0dQNXpzVTNNSWJDYU9JdlR2NmpRaFEtLVVGamxiWnZRcEFid1dDT05Cd19XMGo1ZWVoUERRRGNQRVFBcW9YNXRPa1VfVEo2djNNcDR5V0RwbEZVdVlGcFNnUVl1MmdJSWN1MVZsQ0JYX0xCODMyenJvdXF1aWh6eWViaWw5OTVEWGZLUnRQemhkRWpQcThuc2d5LWVNalhsZl96ZEdnWW5ZQVF6T3pCRUhfZ2dKWWVNTzV1enBBQUVKS01qZmNlbTlheHhoaHp4RGZmUWtYd1BCSHRoSlNXbXhuZzB3bS00SzBvTmlQSlBRT3Z1Q1RidmVhSlRQak5Pd0x4dGlBc2ljU3pucmlnNGNpX3R6Um14WXdlR0I1VkRoQ2hReUllV3M3VGtMWm83aXhQYzNWQzRfUEFyaWVvQm40SEh6NEFSNEpMS000TFBDOU1fSFNmdjdwc1dZZmc4M1c4elF2MUdmU1dybkF2UVhLejBLTzdHcl9TTXE1d0hvQUVVb3VBUE9OYUZKSDVxc0RtdklfMkJCanZYWnZfcVI3ajlJVVlBRUFUbV9sa0N3UnZuOUI?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T101413Z",
         "source": "GoogleNews"
       },
       {
@@ -118628,15 +118675,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260907T121205Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran’s USDT Trade Route Has U.S. Chokepoints",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QcE91ejFaNlRLQ1RxejV0SFRjdDR0RERITi1fekVnVEk5MDZackQzYzF1VWhwdDdLNE5UZEVuNWlYNmhhXzNSemk1VUZyV2tVVTRYRUlOd0FfOE9LYUJqWlRnREpvYUg2LUE?oc=5",
-        "domain": "coindoo",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T081448Z",
         "source": "GoogleNews"
       },
       {
