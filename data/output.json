@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-14T04:51:08.008011+00:00",
+    "generated": "2026-09-14T12:39:59.512594+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-14T04:49:21.547122+00:00",
+    "issued_at": "2026-09-14T12:38:13.022664+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 27.3,
@@ -1062,6 +1062,17 @@
       },
       {
         "timestamp": "2026-09-14T04:49:21.547122+00:00",
+        "score": 27.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 56.6,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 9.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-14T12:38:13.022664+00:00",
         "score": 27.3,
         "level": "BASELINE",
         "components": {
@@ -118299,6 +118310,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "INSIGHT: Venezuela Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaUpXVEFRWnkxYTVuUDhrWGRyV05TRFI0R011aWotd3VfSlRSN1NDdml5Q3o1NjBNRWRyaXJ3Z3RaZEx4d0dlVlhaRW1GQ3pNY1ZEdFdtOVlJaHFMNHIzdFJ1MVBOcjN4WnczMktPWEI3b3BvVjM5ZmZFMU1EbGdGVlpFdG5CRk03UURF?oc=5",
+        "domain": "skuld",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260911T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Ukraine's Zelenskiy imposes sanctions on former press secretary",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd1VBMmEzZldmZWJscDBPb3hwTERGU2hNYVhFOUh1b0Q1NjhDYXlMRWlRUDFZNXdWdjR6bmZkR0UxTGs0MFlvcXViM1F1aTdzSjdpUEFGMldoRHhvRE5PYkVad19FLU15RHNUdHhpYy1KUHp6d3hiX0w3T2puNnRtNlNNNzlVb0x5cWs2eHZHLW5yckJJV2p0cnlLTDFxWTZpTGx3?oc=5",
         "domain": "reuters",
@@ -118355,7 +118375,7 @@
       {
         "title": "EU Court rejects Abramovich’s third appeal, sanctions remain in force",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlZ5SEs4MXZBOElTcEVHNjJjWjRqZ1RUZjlRM28yTGlucFR4czNQX09URzhOeVFnb0t3dkMyWnk5T3BXemprTk9zRE9rQzRUUkFuWFVLbkE3c2NiLWV3dTNBOWpBdEFHaGdLV3BXNkJRMEpxRE9VNXVTbVZKejJvX01MTi1KWXhHYUNjYTJ6dTJFNElEWHJLV2h6WDc?oc=5",
-        "domain": "lawxyai",
+        "domain": "lawxyai.com",
         "language": "",
         "tone": 0,
         "seendate": "20260911T052901Z",
@@ -118364,7 +118384,7 @@
       {
         "title": "EU sanctions rollover stalls over Russian oligarch Usmanov as Paris backs Bratislava's demand to delist him",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDVablVyVjg2M1FYOFVUd0RXU2lqa0FHR284T1VOcXRtMnhvZ0VvdGdZT3FCOGpZdGZEanJ6T3lMSy0tZ0hSZklyUXRVYjJyU2NMbEJzeGRXLUFlNkRMeXRhZ2VoWGNlNktZUWpmN08xNkx3ZXRhalVmemxlQ1Z2V1owMjRJX0VrRUhDclhyVlJ4N0R2ZFBQWDJKdVFkVTdDUTFWd0lyM2xlVU9DS1ZwdEdyQVVua1dURE1nNHYxMFVnWG1UMkh0MkNZRllvY2VpT2ZVOHZWbERyVFZBaHl3?oc=5",
-        "domain": "euromaidanpress.com",
+        "domain": "euromaidanpress",
         "language": "",
         "tone": 0,
         "seendate": "20260912T102121Z",
@@ -118391,7 +118411,7 @@
       {
         "title": "EU court rejects Abramovich’s third bid to lift sanctions",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdklXRGxQQWIybFRNQVJFZURoUkE1VllTMGhxQ0gxTzNyRG0taEtJcmFJcHNMXzgwYl9PN3c5M25KLXB1akhhZHhDQlltMmV4YWNVSlJTMmd3d2lYMDEyQzlGQjFGa1RacEJfSlByUjVwcTVVd3pTTDhLT3JpZGVhcUhDaXJLZzUyNkYyTElLN0sxMGZyMWk1aEloVi00dGtyWEdPQV9MVTBZOXdVX0o1WWhUcjBhX3VSTkV5WHV3VjbSAbwBQVVfeXFMUG9qWjBJdHB0V3JuSkZ6STgyOXEwWmNoN1BaYjVPUkpzUlVKZWw5TGktRE9kb3JzQ0RsM200NFFnWkRCdFNqUDBpeUhUVXAzSnN0cF9DMUVrMzF1UkZ6Ny0xMFdEdllNZ0dheDdCWThUbUQtRzhoQ1htM2h6eG1xR09POElrZXo0OVdvSEVtc0xqbm51U1FqdFQ2R3cwWWV3LS1xTVlucEl3eW9BVldRQ0YxdDd2V2kzV3I5eVc?oc=5",
-        "domain": "thenewvoiceofukraine",
+        "domain": "english.nv.ua",
         "language": "",
         "tone": 0,
         "seendate": "20260909T120600Z",
@@ -118404,6 +118424,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "CRYPTO CRIME | U.S Sanctions a $20 Billion Chinese-Language Online Market with Assistance from Tether",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95eThZZ3N0S2c1OVBxeGNYVUJ1OHV3bEFTVTM5ckZfVGRIbWd4R1FOcm5NaWJTZVRZNV9GNGdIWDBWaElab2Vhak1Ha0FZZWNGTVNRSUVDRjVHZlpXVkJEc3BIVi1Pa1k5MjlCTW9CVWo2T1FiUWc?oc=5",
+        "domain": "bitke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T100036Z",
         "source": "GoogleNews"
       },
       {
@@ -118443,21 +118472,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Freezes $52.8 Million in Tether and Sanctions Chinese-Language Scam Marketplace",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EU3ViVG9VT0ZHQjlhRkltcG5nY1pXQi1CcGhiclZrdWM3amlBcDVyR0hoVmZhenpGWnllN1cwb2lycFk5SE40WndPbVh6UUZNcFFSTmp0d1hnSjlqUV9iUTNRX1ZyNk5lUV9yVDIyQ1NzS09XeGc?oc=5",
-        "domain": "finance.biggo.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260910T052500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Philippines Plans 12-Month Freeze on New Payment System Operator Registrations",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdlVmck40WDBnSlJvZ2dDUnhkcTNpLWlwWFZ1bEVjYk5uOUJseUxEZmpWMkpEOGhFUHZGZWd3TDBsdkdQR3ZHN2xEX1oyODAySUt2cGp4Z2RaQVV5ajlVYTlfdEdNb1JIc1RrZ1c5SC1Ub2NpV0xzVlJUbTlMaDVQWTVpaHcyaGNxemphZGlxU21uNDFLZExWSUcyMkFwYzRCRHVybDhud1JFTFNRZkJtRUJ5eEl4bHhjaGV0dzdGN0pnWUlmbGhqanJFSEpjSHRDdUZqczFxWDZPbHZU?oc=5",
         "domain": "tradingview",
         "language": "",
         "tone": 0,
         "seendate": "20260907T194000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Freezes $52.8 Million in Tether and Sanctions Chinese-Language Scam Marketplace",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EU3ViVG9VT0ZHQjlhRkltcG5nY1pXQi1CcGhiclZrdWM3amlBcDVyR0hoVmZhenpGWnllN1cwb2lycFk5SE40WndPbVh6UUZNcFFSTmp0d1hnSjlqUV9iUTNRX1ZyNk5lUV9yVDIyQ1NzS09XeGc?oc=5",
+        "domain": "finance.biggo.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260910T052500Z",
         "source": "GoogleNews"
       },
       {
@@ -118497,15 +118526,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Apartments linked to Iran’s leader put up for sale in London — Asharq Al-Awsat",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSFJPMHlCSTJNVHlxZXdoeUFiZUZCSTF6amZDZ2xKOHUyZmFUSjNCR1Z2SUd4UXlCQkZHbDN4MUhXcF81QjF3UWtJcTVMazR3SHdoUHVPQlp4ZVE1UUNZM3dYZXNjVHRIMExMaUlhSW1XMTdjaF82bWtvNktRcnhGMGY5RlJVRU11NHBDTXVlR1dRZExSazBYYi1R?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260907T062911Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Gulf-Iran Talks on Strategic Strait of Hormuz Postponed",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVVA4RGs4eWlOdXotSHlyVTRzNWpxdTV2bkpaZHk2bWxLbkZPa2tWWndLOUxnWk5sSHVnNzl3bnVWcHIwb3BJdVMwRW92a3RHc0hpcXpJaFV4WnpBYUxlSVdjUzhwOEVjOTFoUE9UMFpvSEJrRUFEbVhZdFQzUTFxV0UteER1eVpSSVBHM3pTNXVLbW56bVNtNVNzSTczU3lJZThjLWhlVmdsWmt5aDBsZk1SRdIBswFBVV95cUxPVVA4RGs4eWlOdXotSHlyVTRzNWpxdTV2bkpaZHk2bWxLbkZPa2tWWndLOUxnWk5sSHVnNzl3bnVWcHIwb3BJdVMwRW92a3RHc0hpcXpJaFV4WnpBYUxlSVdjUzhwOEVjOTFoUE9UMFpvSEJrRUFEbVhZdFQzUTFxV0UteER1eVpSSVBHM3pTNXVLbW56bVNtNVNzSTczU3lJZThjLWhlVmdsWmt5aDBsZk1SRQ?oc=5",
         "domain": "devdiscourse",
@@ -118533,15 +118553,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sweden's Electoral Shift: A New Government Awaits",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPejZ1X0xDYVpScVJXRUlZQ1R0M3ZXZXJwWGZfb1E2ZXJBQVBOcGh2Y3U2Y19nX2xudW1qVGpxUm16M0FwMWJ0S0hQTDI0MjVWWDRTTzJiZm5CZ1IyZTBSQmtOMl9pd0ZiME9HbnlvS1RpRE9xTmdNZlZCb3VWWWR4NnBTMUhNeEQxX20yZWlVMHFJLXoxdUhWWm1tdi1md2x1dlJWR2NoVjjSAagBQVVfeXFMT3o2dV9MQ2FaUnFSV0VJWUNUdDN2V2VycFhmX29RNmVyQUFQTnBodmN1NmNfZ19sbnVtalRqcVJtejNBcDFidEtIUEwyNDI1Vlg0U08yYmZuQmdSMmUwUkJrTjJfaXdGYjBPR255b0tUaURPcU5nTWZWQm91VllkeDZwUzFITXhEMV9tMmVpVTBxSS16MXVIVlptbXYtZndsdXZSVkdjaFY4?oc=5",
-        "domain": "devdiscourse",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T220758Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tight Race: Sweden's Right-Wing Bloc Clinches Victory by a Seat",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzFBdjVQTXFrUEVHM2Jld2ZuUVZ6dHl1SzR4VDJ0NjFhbm9iTERCNW54bnRvY1RPUXpqd2hHOTdoOUZyNU5xcmdXWUJtbndlRWVqeWRjamF1Z01KVG9aN0NYdTg5MUlmNy1sSHdvaE5fWVFPRXNCejI5dHN0MU50Umc4ZnNibWxVTnRicWs1ajMzODNINXJrSDc5dzI2T29MRno0TDlkM3N2YTg3M0xCeHRHa2lxUVlfbkZN0gG7AUFVX3lxTE9vMUF2NVBNcWtQRUczYmV3Zm5RVnp0eXVLNHhUMnQ2MWFub2JMREI1bnhudG9jVE9Remp3aEc5N2g5RnI1TnFyZ1dZQm1ud2VFZWp5ZGNqYXVnTUpUb1o3Q1h1ODkxSWY3LWxId29oTl9ZUU9Fc0J6Mjl0c3QxTnRSZzhmc2JtbFVOdGJxazVqMzM4M0g1cmtINzl3MjZPb0xGejRMOWQzc3ZhODczTEJ4dEdraXFRWV9uRk0?oc=5",
         "domain": "devdiscourse",
@@ -118557,6 +118568,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T045503Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Fails to Renew Russia Sanctions a Day Before Expiry",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNajRFWFM1MjdhMTg2VDhhdjZCLTMxalgzWndtb3NTcW5HQUlXM2hDbFBUeXc3SVA1MmRfTHg3dnRuMlEydS1KZkYxbFduaHZmMmd6aFBhTTEwRDRxVFU3c0Rna1UxT0ZnUTJYZFFISi1qS2RKaDdfa2FsbUdJaDJIVEdTNHRaSkJHSG9GZUgzU3RMZw?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T082714Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Zelenskiy Sanctions Former Spokeswoman Over Wartime Russian Propaganda",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOREs1ZGFxXy0xcExNYlVKNnptZ3IydzE4RHhPWnM5TkZ3Q1MwSDVNU0ZjQXByVTFIZ2dYOWpkVnFDbFZvVVdkZkRZUkp2Qi05NFc2ZV9aa0haNlV4bzA2WmlrejNKV1psUkNZb3FSRFl4c0o1R2dwYlhTVktZY2M2aG9Ha1Q0RmEyQlFMQzI1T1k2Tm01dFgxRTRNY0tvb3hSYVlnT01jdw?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T083529Z",
         "source": "GoogleNews"
       },
       {
@@ -118578,30 +118607,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ex-Chelsea owner Abramovich loses third bid to overturn EU sanctions |",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUVhPRXkwYnd6NHFkVTNBZHprdFdVYy1pSk84T0g0UzNMUXdqd29pQ3JLRUNXaEpWWnJZVThwR0RxM04yMFhXeHg3Z0ZacURaeFR1T2RmR1NDYTJlWHJud3lCaXdkMEFXTnZPLXpPNHZRcFRwZUEwVnpIRWtYdS1TeHBFbEFFVF92dTNFcWJSYTFMOEhBWjBac1pzMDlFSjB6?oc=5",
-        "domain": "theeagleonline.com.ng",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T134905Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US imposes sanctions on Kazakhstan company for cooperating with Iran",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQS1KWVh1Qm1KZ2J1Q2picWxiZzBOYkEzemRlS2VlT2pNbHZTdVU5MUxHeDFTS0hXWERZRWV5QUwtbmZ1TUxEUllJNmttYlBUdE8zT0Q0WHdQT3M1Y1NKc1BrNDhZTThBN1g1YWdmbkdCRzhyd1ZPTzFUelQ3dTR0WGlqTjcyQnIyaThGZ0JQVEJXZktfYkFhaGJMdC1FVWpqVmRFUjNraW9WQQ?oc=5",
         "domain": "zamin.uz",
         "language": "",
         "tone": 0,
         "seendate": "20260910T113000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "British Billionaire Family Battles Ukraine Over Seized IDS Bottled Water Empire",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcWNYNFFQVXdjeEl1SGg1cnl0QjA3QmdRZ19rSHI0UkhkcDJSSElSS2RCQ3FzbXVQY1IzbG41Wmt3THNUaFRHMlNOcG9OM1IwTHpDVGhGVTRrZ2RfUnZoYng5SG5OVUt3SjVUY1VVTHdBRUxCTWxHbXphWVRQSkNtOGFVMS03bTI5S0lveWprSldiZkE1V09JWklMY1E0YmZNMFNVVlFPQ1g4UEQtZldFYzJPUQ?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260907T121205Z",
         "source": "GoogleNews"
       }
     ]
