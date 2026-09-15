@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-14T21:48:12.071190+00:00",
+    "generated": "2026-09-15T04:50:32.519823+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-14T21:46:25.543868+00:00",
+    "issued_at": "2026-09-15T04:48:46.038189+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 38.9,
+    "score": 37.7,
     "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 77.1,
+        "score": 73.3,
         "releases_considered": 97,
-        "current_7d_designation_releases": 5,
-        "current_7d_all_releases": 5,
-        "prior_7d_designation_releases": 2,
+        "current_7d_designation_releases": 4,
+        "current_7d_all_releases": 4,
+        "prior_7d_designation_releases": 3,
         "baseline_weeks": 12,
         "baseline_weekly_median": 2.5,
-        "anomaly_z": 1.69,
+        "anomaly_z": 2.02,
         "themes": [
           "counter_terrorism",
           "cyber",
@@ -104,25 +104,6 @@
             "themes": [
               "counter_terrorism",
               "cyber"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
-            "url": "https://home.treasury.gov/news/press-releases/sb0623/",
-            "action_title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260908",
-            "date": "2026-09-08",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
             ],
             "designation_signal": true
           }
@@ -217,13 +198,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 27.7,
-        "current_7d_releases": 5,
-        "current_weighted_term_rate": 1.9,
-        "baseline_weeks": 11,
-        "anomaly_z": 1.75,
-        "matched_release_count": 4,
-        "relief_release_count": 2,
+        "score": 28.3,
+        "current_7d_releases": 4,
+        "current_weighted_term_rate": 2.125,
+        "baseline_weeks": 12,
+        "anomaly_z": 1.62,
+        "matched_release_count": 3,
+        "relief_release_count": 1,
         "evidence": [
           {
             "title": "Operation Economic Outcast Sanctions Major Bank Helping Iran Evade Sanctions",
@@ -276,25 +257,6 @@
             "themes": [
               "counter_terrorism",
               "cyber"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
-            "url": "https://home.treasury.gov/news/press-releases/sb0623/",
-            "action_title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260908",
-            "date": "2026-09-08",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "counter_terrorism",
-              "iran"
             ],
             "designation_signal": true
           }
@@ -380,8 +342,8 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 77.1,
-        "level": "SEVERE",
+        "score": 73.3,
+        "level": "ELEVATED",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
@@ -1133,6 +1095,17 @@
           "official_posture_shift": 27.7,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-15T04:48:46.038189+00:00",
+        "score": 37.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 73.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 28.3,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1197,7 +1170,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "38.9/100",
+      "value": "37.7/100",
       "delta": "WATCH"
     },
     {
@@ -118364,15 +118337,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Roman Abramovich Scores Legal ‘Hattrick’ of Losses in Fight Against EU Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HQmh6T3F0RmJWLVZhd2F5NENENmhpRXNrZU5LWW9VU1RYcTNxaFBScDdFMHJfTXhjUnpxdGh6LVBhRkZBV3FSRE4xNA?oc=5",
-        "domain": "kyivpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T104546Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU court hands another defeat to Abramovich in fight against sanctions",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmtSTTA1T09nTFk1RmJITG1LUGQ2MlFYTWhzR1FPdXZGTzIwR1FMZlF6NENwd214ZWZtTkk2ZWt4TENRaVRrRkVDNzV1VnZWYlR0R0kybXdKWW9WdnN5NmZTUkJ1LTFNMmhHNzQ4VkJvT1B2Y0ROUWFNQVFZcGlzTWpGaUlGU05taUM0M1pFN2VST1U5QU1waXdmSjFlVmI5QmljVHpB?oc=5",
         "domain": "politico.eu",
@@ -118411,7 +118375,7 @@
       {
         "title": "EU sanctions rollover stalls over Russian oligarch Usmanov as Paris backs Bratislava's demand to delist him",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDVablVyVjg2M1FYOFVUd0RXU2lqa0FHR284T1VOcXRtMnhvZ0VvdGdZT3FCOGpZdGZEanJ6T3lMSy0tZ0hSZklyUXRVYjJyU2NMbEJzeGRXLUFlNkRMeXRhZ2VoWGNlNktZUWpmN08xNkx3ZXRhalVmemxlQ1Z2V1owMjRJX0VrRUhDclhyVlJ4N0R2ZFBQWDJKdVFkVTdDUTFWd0lyM2xlVU9DS1ZwdEdyQVVua1dURE1nNHYxMFVnWG1UMkh0MkNZRllvY2VpT2ZVOHZWbERyVFZBaHl3?oc=5",
-        "domain": "euromaidanpress.com",
+        "domain": "euromaidanpress",
         "language": "",
         "tone": 0,
         "seendate": "20260912T102121Z",
@@ -118433,6 +118397,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T120600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "CRYPTO CRIME | U.S Sanctions a $20 Billion Chinese-Language Online Market with Assistance from Tether",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95eThZZ3N0S2c1OVBxeGNYVUJ1OHV3bEFTVTM5ckZfVGRIbWd4R1FOcm5NaWJTZVRZNV9GNGdIWDBWaElab2Vhak1Ha0FZZWNGTVNRSUVDRjVHZlpXVkJEc3BIVi1Pa1k5MjlCTW9CVWo2T1FiUWc?oc=5",
+        "domain": "bitke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T100036Z",
         "source": "GoogleNews"
       },
       {
@@ -118481,6 +118454,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "France and Slovakia have made it more difficult to extend EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbFZBdk1hdmtBeWRzcXpPcm5sUmhLVkFmdmd1ZnYxZ05IR1J0YnlLcWFtQjBtWXV2OU9ITGs5dkZDam5QRzllUENfUHRGUzlsbHgxNnp5RVQya2tUSG9wV2E2RU1BeklxRHlycTh5Z0NvQUJGQldaUVRESzlQZ2daWGt1RS1DN2VLX2ladkhVeEc?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T155352Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US Freezes $52.8 Million in Tether and Sanctions Chinese-Language Scam Marketplace",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EU3ViVG9VT0ZHQjlhRkltcG5nY1pXQi1CcGhiclZrdWM3amlBcDVyR0hoVmZhenpGWnllN1cwb2lycFk5SE40WndPbVh6UUZNcFFSTmp0d1hnSjlqUV9iUTNRX1ZyNk5lUV9yVDIyQ1NzS09XeGc?oc=5",
         "domain": "finance.biggo.com",
@@ -118501,7 +118483,7 @@
       {
         "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
-        "domain": "thestraitstimes",
+        "domain": "straitstimes.com",
         "language": "",
         "tone": 0,
         "seendate": "20260913T183100Z",
@@ -118550,15 +118532,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260913T191239Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council approves technical rollover of Sudan sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb0diMjNPdlZqaDh2WERpMGZUeEQ3X09keS1fbUFobXUwQW1nOFl3SkxocUs0R0FMQUJtelZZX3pWLUNzalF0djhoVVIyY3F3SVVZVkVLN2pHNTBCaVN2SmlVNm5jeU5adThlaGxPZTc3czUxOWx2a2YwSUNTUGYzbWQzQ1QyMmVjMmR1WDYtckw1YVlQaWxJR042UHU0T2huRnpyU3ItMUVsS3FCVHBiVzBQcnl6ck9H?oc=5",
-        "domain": "theeastleighvoice",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260912T051657Z",
         "source": "GoogleNews"
       },
       {
@@ -118622,6 +118595,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T152600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US imposes sanctions on Kazakhstan company for cooperating with Iran",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQS1KWVh1Qm1KZ2J1Q2picWxiZzBOYkEzemRlS2VlT2pNbHZTdVU5MUxHeDFTS0hXWERZRWV5QUwtbmZ1TUxEUllJNmttYlBUdE8zT0Q0WHdQT3M1Y1NKc1BrNDhZTThBN1g1YWdmbkdCRzhyd1ZPTzFUelQ3dTR0WGlqTjcyQnIyaThGZ0JQVEJXZktfYkFhaGJMdC1FVWpqVmRFUjNraW9WQQ?oc=5",
+        "domain": "zamin.uz",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260910T113000Z",
         "source": "GoogleNews"
       }
     ]
