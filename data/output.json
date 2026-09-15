@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-15T04:50:32.519823+00:00",
+    "generated": "2026-09-15T11:40:46.405669+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-15T04:48:46.038189+00:00",
+    "issued_at": "2026-09-15T11:39:00.107151+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.7,
@@ -1098,6 +1098,17 @@
       },
       {
         "timestamp": "2026-09-15T04:48:46.038189+00:00",
+        "score": 37.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 73.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 28.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-15T11:39:00.107151+00:00",
         "score": 37.7,
         "level": "WATCH",
         "components": {
@@ -118321,10 +118332,19 @@
       {
         "title": "The UK Sanctions Hezbollah’s Shadow Bank. Lebanon Should Shut It Down.",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVhnUUhMT3hiMDNKREpLY244VFg0bW9lSnMtRnhLZFpSRU5FZkExN1NQYndCLUZaMlhOUWNQNV9mbEREQWEtbW01RlBKbWRLenNPSndaRGF2cFdGbGVYWXp4MlJHS0Z4VzU2MHBLUDByZG9STVprM3EzeFlTdF9FWkZRVFlSZ3pOaDIwNmhocXpIeEl1QTlnMnZyWGNOTDU3aFJGZ0ZRY3R1NTRX?oc=5",
-        "domain": "foundationfordefenseofdemocracies",
+        "domain": "fdd.org",
         "language": "",
         "tone": 0,
         "seendate": "20260910T211523Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What the UN’s Darfur Sanctions Rollover Reveals About the Next Phase of Sudan’s War",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3ZzakZjODllLTMySURRQXNfZWF4enYwcExnTlZCZHc0MFdLblFTQ21uNU85aFdmTlZ1UTVnelRUTHgxNGRjVWpGckJXQW5lQXZQNHhkLVVOcnMyaklMTVBiMGJJWUpOTVhxYW1WWkdRdTl1a2tsSUJxUkdEaGxWYlRWSk5qU0tfcjZMSWlpaEJfb3FNSVhiVF9WVy00aUM1c244ZlBhSUhHUUN3Q2NkVHp0bGkwczQ?oc=5",
+        "domain": "hornreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260915T063402Z",
         "source": "GoogleNews"
       },
       {
@@ -118337,6 +118357,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVlBHYjIzNGhRc2pHejk2QmVfM0ZEdDJXUzl6NnNJY0ZfM2FPRDIxdVlDTXc4Z3RZeGRKSWpPaWRTLWxZbzlqYXZrOXZtLTNtaDBQTnFzNGE1bDM5QzQyclVFXzdNVDA2SzRtWUpfNVNwWmlfcFpsTDdlbFI0ejZYNVdKa3lUNi04U0h3X21aRUJLQjgzeFU4bjk2QmM5cl9UcXdOWVNlUENZQQ?oc=5",
+        "domain": "rfi",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T151053Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU court hands another defeat to Abramovich in fight against sanctions",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmtSTTA1T09nTFk1RmJITG1LUGQ2MlFYTWhzR1FPdXZGTzIwR1FMZlF6NENwd214ZWZtTkk2ZWt4TENRaVRrRkVDNzV1VnZWYlR0R0kybXdKWW9WdnN5NmZTUkJ1LTFNMmhHNzQ4VkJvT1B2Y0ROUWFNQVFZcGlzTWpGaUlGU05taUM0M1pFN2VST1U5QU1waXdmSjFlVmI5QmljVHpB?oc=5",
         "domain": "politico.eu",
@@ -118346,12 +118375,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVlBHYjIzNGhRc2pHejk2QmVfM0ZEdDJXUzl6NnNJY0ZfM2FPRDIxdVlDTXc4Z3RZeGRKSWpPaWRTLWxZbzlqYXZrOXZtLTNtaDBQTnFzNGE1bDM5QzQyclVFXzdNVDA2SzRtWUpfNVNwWmlfcFpsTDdlbFI0ejZYNVdKa3lUNi04U0h3X21aRUJLQjgzeFU4bjk2QmM5cl9UcXdOWVNlUENZQQ?oc=5",
-        "domain": "rfi",
+        "title": "EU court orders Abramovich travel ban, asset freeze to stand",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
+        "domain": "euperspectives",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T151053Z",
+        "seendate": "20260909T114019Z",
         "source": "GoogleNews"
       },
       {
@@ -118427,6 +118456,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
+        "domain": "eualive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260915T095811Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran Is Using Tether to Bypass Sanctions: Crypto’s Biggest Real-World Use Case Just Got Darker",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSVA4S0FuUVh6SmEzUjd4VWdoU2NWN01GTU1BY1FJU0dnWXh1My1uaEQ5NWFhYW9pb0xGNWl3UFlDV3VVT082V0JMZFZqcHlYa20wemxicElkdmlOVDg0a2pzSWZwb1ByX0ZfQWF0bk81SVR3eFZKU3FPM3VXVVdIQ2p6MDFjVWlHZEx4ZlBhZmswY3dqRVJqYy0zakVBSjBocVdqTmNseXdTaVpxSmNQT1JkcmFxb09maUMyZFBlOWhaQkU2c0ZmR1RTVjMtZUhXd1JJdWM2aw?oc=5",
+        "domain": "bitcoinfoundation",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T151145Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Iran turns to crypto for export payments amid sanctions: FT",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12Zko4VVd5MHpLby04V0F1OURobzVkbVpLV0dKa0lqeGJkTG5mRHlSOHoxMl9sOWp4NEVRZ3N1SUxzSTNFbk94eThyOTBtdDF1U3ltZDFhbFZaUmlQeHU2RGNhODJJZGZrem5yN1h3?oc=5",
         "domain": "cryptonews",
@@ -118483,7 +118530,7 @@
       {
         "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
-        "domain": "straitstimes.com",
+        "domain": "thestraitstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260913T183100Z",
@@ -118496,15 +118543,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T184830Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Trump Considers Release of Additional 9/11 Records",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN3E3RDkxUkc2T29pdXk3Z01vRHpkOG9oaEQ1UndUN0dSdGtHU1h4S1ZjaEt2QlZMTE1zVjZfR3A4YnBydGVac3BXZVRtLUtVSW93TWhmdUIzOWJZWTVld3lud2dWYXZOZkNldU9ZWDFndVZYalBmOFU4VnBLeGM3U1dDbTB3Vks2U014Rkp4TFhGc2djWGdUbGI5S0V2YjBRakJzYlc1YVlfbG_SAasBQVVfeXFMTzdxN0Q5MVJHNk9vaXV5N2dNb0R6ZDhvaGhENVJ3VDdHUnRrR1NYeEtWY2hLdkJWTExNc1Y2X0dwOGJwcnRlWnNwV2VUbS1LVUlvd01oZnVCMzliWVk1ZXd5bndnVmF2TmZDZXVPWVgxZ3VWWGpQZjhVOFZwS3hjN1NXQ20wd1ZLNlNNeEZKeExYRnNnY1hnVGxiOUtFdmIwUWpCc2JXNWFZX2xv?oc=5",
-        "domain": "devdiscourse",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T190236Z",
         "source": "GoogleNews"
       },
       {
@@ -118523,15 +118561,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260913T185435Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Gulf-Iran Talks on Strategic Strait of Hormuz Postponed",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVVA4RGs4eWlOdXotSHlyVTRzNWpxdTV2bkpaZHk2bWxLbkZPa2tWWndLOUxnWk5sSHVnNzl3bnVWcHIwb3BJdVMwRW92a3RHc0hpcXpJaFV4WnpBYUxlSVdjUzhwOEVjOTFoUE9UMFpvSEJrRUFEbVhZdFQzUTFxV0UteER1eVpSSVBHM3pTNXVLbW56bVNtNVNzSTczU3lJZThjLWhlVmdsWmt5aDBsZk1SRdIBswFBVV95cUxPVVA4RGs4eWlOdXotSHlyVTRzNWpxdTV2bkpaZHk2bWxLbkZPa2tWWndLOUxnWk5sSHVnNzl3bnVWcHIwb3BJdVMwRW92a3RHc0hpcXpJaFV4WnpBYUxlSVdjUzhwOEVjOTFoUE9UMFpvSEJrRUFEbVhZdFQzUTFxV0UteER1eVpSSVBHM3pTNXVLbW56bVNtNVNzSTczU3lJZThjLWhlVmdsWmt5aDBsZk1SRQ?oc=5",
-        "domain": "devdiscourse",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T191239Z",
         "source": "GoogleNews"
       },
       {
