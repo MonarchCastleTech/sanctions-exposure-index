@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-15T11:40:46.405669+00:00",
+    "generated": "2026-09-15T16:55:54.079890+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-15T11:39:00.107151+00:00",
+    "issued_at": "2026-09-15T16:54:07.842755+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.7,
@@ -1109,6 +1109,17 @@
       },
       {
         "timestamp": "2026-09-15T11:39:00.107151+00:00",
+        "score": 37.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 73.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 28.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-15T16:54:07.842755+00:00",
         "score": 37.7,
         "level": "WATCH",
         "components": {
@@ -118332,7 +118343,7 @@
       {
         "title": "The UK Sanctions Hezbollah’s Shadow Bank. Lebanon Should Shut It Down.",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVhnUUhMT3hiMDNKREpLY244VFg0bW9lSnMtRnhLZFpSRU5FZkExN1NQYndCLUZaMlhOUWNQNV9mbEREQWEtbW01RlBKbWRLenNPSndaRGF2cFdGbGVYWXp4MlJHS0Z4VzU2MHBLUDByZG9STVprM3EzeFlTdF9FWkZRVFlSZ3pOaDIwNmhocXpIeEl1QTlnMnZyWGNOTDU3aFJGZ0ZRY3R1NTRX?oc=5",
-        "domain": "fdd.org",
+        "domain": "foundationfordefenseofdemocracies",
         "language": "",
         "tone": 0,
         "seendate": "20260910T211523Z",
@@ -118344,7 +118355,7 @@
         "domain": "hornreview",
         "language": "",
         "tone": 0,
-        "seendate": "20260915T063402Z",
+        "seendate": "20260915T072414Z",
         "source": "GoogleNews"
       },
       {
@@ -118357,12 +118368,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVlBHYjIzNGhRc2pHejk2QmVfM0ZEdDJXUzl6NnNJY0ZfM2FPRDIxdVlDTXc4Z3RZeGRKSWpPaWRTLWxZbzlqYXZrOXZtLTNtaDBQTnFzNGE1bDM5QzQyclVFXzdNVDA2SzRtWUpfNVNwWmlfcFpsTDdlbFI0ejZYNVdKa3lUNi04U0h3X21aRUJLQjgzeFU4bjk2QmM5cl9UcXdOWVNlUENZQQ?oc=5",
-        "domain": "rfi",
+        "title": "Roman Abramovich Scores Legal ‘Hattrick’ of Losses in Fight Against EU Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HQmh6T3F0RmJWLVZhd2F5NENENmhpRXNrZU5LWW9VU1RYcTNxaFBScDdFMHJfTXhjUnpxdGh6LVBhRkZBV3FSRE4xNA?oc=5",
+        "domain": "kyivpost",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T151053Z",
+        "seendate": "20260909T104546Z",
         "source": "GoogleNews"
       },
       {
@@ -118375,12 +118386,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU court orders Abramovich travel ban, asset freeze to stand",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
-        "domain": "euperspectives",
+        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVlBHYjIzNGhRc2pHejk2QmVfM0ZEdDJXUzl6NnNJY0ZfM2FPRDIxdVlDTXc4Z3RZeGRKSWpPaWRTLWxZbzlqYXZrOXZtLTNtaDBQTnFzNGE1bDM5QzQyclVFXzdNVDA2SzRtWUpfNVNwWmlfcFpsTDdlbFI0ejZYNVdKa3lUNi04U0h3X21aRUJLQjgzeFU4bjk2QmM5cl9UcXdOWVNlUENZQQ?oc=5",
+        "domain": "rfi.fr",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T114019Z",
+        "seendate": "20260909T151053Z",
         "source": "GoogleNews"
       },
       {
@@ -118404,7 +118415,7 @@
       {
         "title": "EU sanctions rollover stalls over Russian oligarch Usmanov as Paris backs Bratislava's demand to delist him",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDVablVyVjg2M1FYOFVUd0RXU2lqa0FHR284T1VOcXRtMnhvZ0VvdGdZT3FCOGpZdGZEanJ6T3lMSy0tZ0hSZklyUXRVYjJyU2NMbEJzeGRXLUFlNkRMeXRhZ2VoWGNlNktZUWpmN08xNkx3ZXRhalVmemxlQ1Z2V1owMjRJX0VrRUhDclhyVlJ4N0R2ZFBQWDJKdVFkVTdDUTFWd0lyM2xlVU9DS1ZwdEdyQVVua1dURE1nNHYxMFVnWG1UMkh0MkNZRllvY2VpT2ZVOHZWbERyVFZBaHl3?oc=5",
-        "domain": "euromaidanpress",
+        "domain": "euromaidanpress.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T102121Z",
@@ -118461,16 +118472,7 @@
         "domain": "eualive",
         "language": "",
         "tone": 0,
-        "seendate": "20260915T095811Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran Is Using Tether to Bypass Sanctions: Crypto’s Biggest Real-World Use Case Just Got Darker",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSVA4S0FuUVh6SmEzUjd4VWdoU2NWN01GTU1BY1FJU0dnWXh1My1uaEQ5NWFhYW9pb0xGNWl3UFlDV3VVT082V0JMZFZqcHlYa20wemxicElkdmlOVDg0a2pzSWZwb1ByX0ZfQWF0bk81SVR3eFZKU3FPM3VXVVdIQ2p6MDFjVWlHZEx4ZlBhZmswY3dqRVJqYy0zakVBSjBocVdqTmNseXdTaVpxSmNQT1JkcmFxb09maUMyZFBlOWhaQkU2c0ZmR1RTVjMtZUhXd1JJdWM2aw?oc=5",
-        "domain": "bitcoinfoundation",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T151145Z",
+        "seendate": "20260915T095757Z",
         "source": "GoogleNews"
       },
       {
@@ -118498,15 +118500,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260913T182506Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France and Slovakia have made it more difficult to extend EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbFZBdk1hdmtBeWRzcXpPcm5sUmhLVkFmdmd1ZnYxZ05IR1J0YnlLcWFtQjBtWXV2OU9ITGs5dkZDam5QRzllUENfUHRGUzlsbHgxNnp5RVQya2tUSG9wV2E2RU1BeklxRHlycTh5Z0NvQUJGQldaUVRESzlQZ2daWGt1RS1DN2VLX2ladkhVeEc?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T155352Z",
         "source": "GoogleNews"
       },
       {
@@ -118539,7 +118532,7 @@
       {
         "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaE1CVFd5cmNiTmFBTVlYY3ZtSHJCaWRIUTR0SmJiVU5zN1BZbFJnWmRrX245THRHTnhGTGc4X1FaVV9GYTM4cHc2dEJvM3NHODhnTmRET2s5SnlLMERSSmdKYVR6TThLSjhFNWZXbVhIc21VaTEzaEpHQW1BVExxLTM2dnhjMXlKWFNLZ0lNendiQkVVNUxLSVVn0gGYAUFVX3lxTE9rVWsxUFpkTE5sSzU3LU9RekVzQmVTbDgyd19EQlJTdVJGUWIyUUprb3hwc3ZhUHBHOGxhbDhMYnNXbC1Hd2xSeEphWFBmZ3dPdjJXWGx2dXdJTUQ4Uk9yM0JiLVpQb05HcTlqeXR4TVR2enIwUzFGOUNsMDRCM1ozUU9Fa18wbUlYMnhyNWhnYjRIQVlzOFJp?oc=5",
-        "domain": "modernghana",
+        "domain": "modernghana.com",
         "language": "",
         "tone": 0,
         "seendate": "20260909T184830Z",
@@ -118557,7 +118550,7 @@
       {
         "title": "Zelensky imposes sanctions on former spokeswoman",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZlVkc2lVOWxBUERTd0gzVTk3Vi1FV09teGxxMW5HZThnZm0wRjdIbmFzOVNUUmcyYVJXMXBqS0V3RDBHRlhHTWVwa3hUOWVCa0JQVE9Sa2lpZnEyMUtMVjd3NVdmWWM2aGQ5ZnBtOVlQQmZPUmM3XzFoNUd0Rzl5RVJfaWFiSUc1UC02THBoQ0J2blV5WnQ40gGIAUFVX3lxTE1hZnNWSGQ5RTF6MlBuZ1VYa1NMdlZCVEtzV2Y1THRpUWhYNHlvZkxsbjdtUVo4ckFwSy15RmxhRjVJMEtNN0gzVFdjWDEwMDllUXAwZWRGR3ZSdlN5RWgzaEREYXdJc2Mxei1WUWJJWS1vRGlqOVJFRTl5M20tcWV0NFpSN0piaEE?oc=5",
-        "domain": "vijesti.me",
+        "domain": "en.vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260913T185435Z",
@@ -118606,15 +118599,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260914T083529Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Raiffeisen Sues Russian Oligarch in €3.15 Billion Strabag Battle",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVldpM2JFX3ZqcGw1WkxxQkE4cmNUMU1BQmhqeGhqUnZDSTdFMW1lMzU4RGctU09QOXB4X0hWYW9hVzZmdHpkWTJhUDNRMGpIcFNtamR6ekl4a1lwOGMxMExRSU50Mzd2MW81eWV1U2M2TnA4TE1fX3VsV3hUcGZGMTJfazZpSzRIa1R3dWpVS0J2TGZ2LW1UM1F5aEo?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260908T120000Z",
         "source": "GoogleNews"
       },
       {
