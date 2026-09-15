@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-15T16:55:54.079890+00:00",
+    "generated": "2026-09-15T21:18:23.373041+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-15T16:54:07.842755+00:00",
+    "issued_at": "2026-09-15T21:16:36.946088+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.7,
@@ -1120,6 +1120,17 @@
       },
       {
         "timestamp": "2026-09-15T16:54:07.842755+00:00",
+        "score": 37.7,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 73.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 28.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-15T21:16:36.946088+00:00",
         "score": 37.7,
         "level": "WATCH",
         "components": {
@@ -118352,7 +118363,7 @@
       {
         "title": "What the UN’s Darfur Sanctions Rollover Reveals About the Next Phase of Sudan’s War",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3ZzakZjODllLTMySURRQXNfZWF4enYwcExnTlZCZHc0MFdLblFTQ21uNU85aFdmTlZ1UTVnelRUTHgxNGRjVWpGckJXQW5lQXZQNHhkLVVOcnMyaklMTVBiMGJJWUpOTVhxYW1WWkdRdTl1a2tsSUJxUkdEaGxWYlRWSk5qU0tfcjZMSWlpaEJfb3FNSVhiVF9WVy00aUM1c244ZlBhSUhHUUN3Q2NkVHp0bGkwczQ?oc=5",
-        "domain": "hornreview",
+        "domain": "hornreview.org",
         "language": "",
         "tone": 0,
         "seendate": "20260915T072414Z",
@@ -118388,7 +118399,7 @@
       {
         "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVlBHYjIzNGhRc2pHejk2QmVfM0ZEdDJXUzl6NnNJY0ZfM2FPRDIxdVlDTXc4Z3RZeGRKSWpPaWRTLWxZbzlqYXZrOXZtLTNtaDBQTnFzNGE1bDM5QzQyclVFXzdNVDA2SzRtWUpfNVNwWmlfcFpsTDdlbFI0ejZYNVdKa3lUNi04U0h3X21aRUJLQjgzeFU4bjk2QmM5cl9UcXdOWVNlUENZQQ?oc=5",
-        "domain": "rfi.fr",
+        "domain": "rfi",
         "language": "",
         "tone": 0,
         "seendate": "20260909T151053Z",
@@ -118415,7 +118426,7 @@
       {
         "title": "EU sanctions rollover stalls over Russian oligarch Usmanov as Paris backs Bratislava's demand to delist him",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDVablVyVjg2M1FYOFVUd0RXU2lqa0FHR284T1VOcXRtMnhvZ0VvdGdZT3FCOGpZdGZEanJ6T3lMSy0tZ0hSZklyUXRVYjJyU2NMbEJzeGRXLUFlNkRMeXRhZ2VoWGNlNktZUWpmN08xNkx3ZXRhalVmemxlQ1Z2V1owMjRJX0VrRUhDclhyVlJ4N0R2ZFBQWDJKdVFkVTdDUTFWd0lyM2xlVU9DS1ZwdEdyQVVua1dURE1nNHYxMFVnWG1UMkh0MkNZRllvY2VpT2ZVOHZWbERyVFZBaHl3?oc=5",
-        "domain": "euromaidanpress.com",
+        "domain": "euromaidanpress",
         "language": "",
         "tone": 0,
         "seendate": "20260912T102121Z",
@@ -118451,7 +118462,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "news.google.com",
+        "domain": "bastillepost.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
@@ -118521,18 +118532,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
-        "domain": "thestraitstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T183100Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaE1CVFd5cmNiTmFBTVlYY3ZtSHJCaWRIUTR0SmJiVU5zN1BZbFJnWmRrX245THRHTnhGTGc4X1FaVV9GYTM4cHc2dEJvM3NHODhnTmRET2s5SnlLMERSSmdKYVR6TThLSjhFNWZXbVhIc21VaTEzaEpHQW1BVExxLTM2dnhjMXlKWFNLZ0lNendiQkVVNUxLSVVn0gGYAUFVX3lxTE9rVWsxUFpkTE5sSzU3LU9RekVzQmVTbDgyd19EQlJTdVJGUWIyUUprb3hwc3ZhUHBHOGxhbDhMYnNXbC1Hd2xSeEphWFBmZ3dPdjJXWGx2dXdJTUQ4Uk9yM0JiLVpQb05HcTlqeXR4TVR2enIwUzFGOUNsMDRCM1ozUU9Fa18wbUlYMnhyNWhnYjRIQVlzOFJp?oc=5",
-        "domain": "modernghana.com",
+        "domain": "modernghana",
         "language": "",
         "tone": 0,
         "seendate": "20260909T184830Z",
@@ -118550,7 +118552,7 @@
       {
         "title": "Zelensky imposes sanctions on former spokeswoman",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZlVkc2lVOWxBUERTd0gzVTk3Vi1FV09teGxxMW5HZThnZm0wRjdIbmFzOVNUUmcyYVJXMXBqS0V3RDBHRlhHTWVwa3hUOWVCa0JQVE9Sa2lpZnEyMUtMVjd3NVdmWWM2aGQ5ZnBtOVlQQmZPUmM3XzFoNUd0Rzl5RVJfaWFiSUc1UC02THBoQ0J2blV5WnQ40gGIAUFVX3lxTE1hZnNWSGQ5RTF6MlBuZ1VYa1NMdlZCVEtzV2Y1THRpUWhYNHlvZkxsbjdtUVo4ckFwSy15RmxhRjVJMEtNN0gzVFdjWDEwMDllUXAwZWRGR3ZSdlN5RWgzaEREYXdJc2Mxei1WUWJJWS1vRGlqOVJFRTl5M20tcWV0NFpSN0piaEE?oc=5",
-        "domain": "en.vijesti.me",
+        "domain": "vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260913T185435Z",
