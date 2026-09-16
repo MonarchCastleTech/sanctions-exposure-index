@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-16T16:50:48.530359+00:00",
+    "generated": "2026-09-16T21:16:27.734517+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-16T16:49:01.571220+00:00",
+    "issued_at": "2026-09-16T21:14:41.309473+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 25.6,
+    "score": 25.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -82,12 +82,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 3.0,
+        "score": 0.0,
         "current_count": 19385,
-        "previous_count": 19388,
+        "previous_count": 19385,
         "added_count": 0,
-        "removed_count": 3,
-        "changed": true,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-09-15",
         "sha256": "f4424647eb39496c234a1586ef1af11f9d202813aaac732f3ceeaba21bed0884",
         "top_programs": [
@@ -159,26 +159,7 @@
           }
         ],
         "added": [],
-        "removed": [
-          {
-            "id": "10982",
-            "name": "VEGA SANCHEZ, Jose Raul",
-            "type": "individual",
-            "program": "SDNTK"
-          },
-          {
-            "id": "40948",
-            "name": "BOMATTER, Hans Peter",
-            "type": "individual",
-            "program": "RUSSIA-EO14024"
-          },
-          {
-            "id": "51041",
-            "name": "MODULSAN MAKINA KESICI TAKIM VE DISLI SANAYI TICARET LIMITED SIRKETI",
-            "type": "",
-            "program": "RUSSIA-EO14024"
-          }
-        ],
+        "removed": [],
         "retained": false
       },
       {
@@ -1142,6 +1123,17 @@
           "official_posture_shift": 40.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-16T21:14:41.309473+00:00",
+        "score": 25.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 40.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1206,7 +1198,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "25.6/100",
+      "value": "25.0/100",
       "delta": "BASELINE"
     },
     {
@@ -118330,7 +118322,7 @@
       {
         "title": "INSIGHT: Venezuela Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaUpXVEFRWnkxYTVuUDhrWGRyV05TRFI0R011aWotd3VfSlRSN1NDdml5Q3o1NjBNRWRyaXJ3Z3RaZEx4d0dlVlhaRW1GQ3pNY1ZEdFdtOVlJaHFMNHIzdFJ1MVBOcjN4WnczMktPWEI3b3BvVjM5ZmZFMU1EbGdGVlpFdG5CRk03UURF?oc=5",
-        "domain": "skuld",
+        "domain": "skuld.com",
         "language": "",
         "tone": 0,
         "seendate": "20260911T070000Z",
@@ -118420,7 +118412,7 @@
       {
         "title": "EU Court rejects Abramovich’s third appeal, sanctions remain in force",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlZ5SEs4MXZBOElTcEVHNjJjWjRqZ1RUZjlRM28yTGlucFR4czNQX09URzhOeVFnb0t3dkMyWnk5T3BXemprTk9zRE9rQzRUUkFuWFVLbkE3c2NiLWV3dTNBOWpBdEFHaGdLV3BXNkJRMEpxRE9VNXVTbVZKejJvX01MTi1KWXhHYUNjYTJ6dTJFNElEWHJLV2h6WDc?oc=5",
-        "domain": "lawxyai",
+        "domain": "lawxyai.com",
         "language": "",
         "tone": 0,
         "seendate": "20260911T052901Z",
@@ -118433,6 +118425,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260912T102121Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Belgian court ruling raises new legal problem over €200bn in frozen Russian assets",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fVlFwM3FHdXdMM0FhdFF6UF9qLTJtU1JFU0Y4NlFNYTJCSHdDNXFlTHUyZDFPMnphdHlDSUw1NmUwRlYzOXRBT1BZWHBZZ3hzRVRwbi1LemFyNkxqWDlDMFRLSmVxWnRmX0M4cEh4N2ZYRVpi?oc=5",
+        "domain": "eutoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260916T204327Z",
         "source": "GoogleNews"
       },
       {
@@ -118454,21 +118455,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN Security Council approves technical rollover of Sudan sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
+        "domain": "bastillepost.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260912T112000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US Freezes $52.8 Million in Tether and Sanctions Chinese-Language Scam Marketplace",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EU3ViVG9VT0ZHQjlhRkltcG5nY1pXQi1CcGhiclZrdWM3amlBcDVyR0hoVmZhenpGWnllN1cwb2lycFk5SE40WndPbVh6UUZNcFFSTmp0d1hnSjlqUV9iUTNRX1ZyNk5lUV9yVDIyQ1NzS09XeGc?oc=5",
         "domain": "finance.biggo.com",
         "language": "",
         "tone": 0,
         "seendate": "20260910T052500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russian billionaire Roman Abramovich loses his third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPalJMSlFyYWJ4bFJRaTljRzNpSkRneGFkUXB4UjF5b01FTUVqeExrNEljM21QSk1lWURUTkVJMTdSVnhwTWxVLTZ0WkZYakdiYW9WWGxWU2FrTmhMMDNVbzV6a29lLUFXbFJXQXRKQ0ZXWlFVZnhDSC1VSUZ0czFLd0pKQUo5MHhqbzBCTzhrM3ZhYVhWS0JMTUc3QW9iWEd3NnpQRWJkVHkySlhGYVZiQjRoZWtkcmRtVkxsX2YzRjJiTGJNMks4cA?oc=5",
-        "domain": "billionaires.africa",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T165822Z",
         "source": "GoogleNews"
       },
       {
@@ -118501,7 +118502,7 @@
       {
         "title": "Politico: The EU Did Not Extend One of Its Sanctions Regimes Against Russia Due to the Stance of Two Countries",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa2g4Q3hQVVFIazhwZTN4anBLcFR1cWRIdU1JQTN1SXZMLWZ3cF96UmRYUmZ1ZWJPVXcxckxPUHgzM29LT3ozZW4ybWpzbkFlcU91LTZoSm1nLTB1YVpNODlfcWJTb3lPaW1VeEhKcUdBMmhfWmVNOXZ0emVGZjVmc3dyNFpMVFNybFlTX1NmVk41aDgwdjltWTg3TWFtTzZmLV9ESXExMDZaZnlIbXRwVzlnMGcyY2RrRG5QQktWbVowS29vNUtIdm14aFlweDVDMHpIdDdYaVFQcWtLQ2QzY3lB0gHnAUFVX3lxTFBBZFRwQkpFWC0xbjg0Z0VqTjlFRzQ2eEtwVFVUWEMwVjROUmFJMmhjVkU2OFFXczRJNE44UDN0ci1EVHp1S1Jwci0tZFk1Z0xHd1RKS2wxUVRLUE9aNUVTS3pJcmlydEd2MmgtYklHbFNSSzJ4QmNXUEcwd0dIZzlhcjJkcEhKOHp1N2k3MzZJQmdLOGFxQ05xMEJQc1M4WGxCWXNKNDNzR19YZHJYOHJPS0E1WmhRbDltc2NjaDdTTkQ4dFJkTnhMYXVXSXBhLU1ValhHczhOYXJ4TDdiTThjZDZ0ck5NTQ?oc=5",
-        "domain": "news.liga.net",
+        "domain": "liga.net",
         "language": "",
         "tone": 0,
         "seendate": "20260914T110900Z",
@@ -118553,6 +118554,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US Sanctions Russia's VTB for Aiding Iranian Financial Network, Warns of Secondary Penalties",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UcW9adHpVLTJzVjB0OVd6djllTU9vTVFRVGVQdWpSZzlSeEg0dThHWjktb1BrY0Etb002VG5NTE0zYzBteFFJLW5B?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T203000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Why North Korea's Kim Jong Un Doesn't Need a US Deal",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbW8yZU84aVdJdnhWZW5CTmx1cHV0VTB1SVYta3BMbU4xYkxSNkxNZkpMS21BQnJRUzFtRENhRDZ3OG5feElwZ2d1bmZrdHFORXFVQzN0Q1hHeG83ZEdHRGxnQ0VUTlcxSm5nNkgtQmxfOTlnMVN6elR5YzBZVkRfSFRwUktUSXYtbHpF?oc=5",
         "domain": "tempo.coenglish",
@@ -118564,7 +118574,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOW9BdjM4YnZFa0txZURHMDUya2lLRmRUbkUtT3M4Ml9sUkFKMEdXTVJsam9BZl82eV9VSnBsd1czUGdNajl3ZTBzR3ctOElROGdpaXZqaGhaYzFrd0R4QWYxVkJhOEFiX25iRG1EVWdlcEV6NDRQQVI2X1V6WHpDU3I4NmVJQ3c2RjNaM1FfMEh5d2RRN0RNb3EwU2JfSl96c2pjQXV0UXdjWEJv?oc=5",
-        "domain": "eastleighvoice.co.ke",
+        "domain": "theeastleighvoice",
         "language": "",
         "tone": 0,
         "seendate": "20260912T051657Z",
@@ -118595,15 +118605,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260914T185840Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Deadlocked Over Russian Billionaire, Extends Sanctions List One Week",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMEYzMnJkTzBtTnpIU19zSS1vSzhvb2o2RnRibWFZVE0yak1FM3BXSEhxa0p3bGlzY1Z4ZUxRWEVZNFRzazFEUG1iMHlKRWFKaEt4VGw4Rkp1Uy1nYVlpeGRNLXFOUlRRN21WZnh2elFMT1duc2t0emJqc3ZtQnpvb0ZWSi1mbVVhb3ZLWlltTHhBVUZoTWQ5LWF3VlNROTJadnc?oc=5",
-        "domain": "menafn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260916T084308Z",
         "source": "GoogleNews"
       },
       {
