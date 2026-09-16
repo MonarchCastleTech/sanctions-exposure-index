@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-16T04:46:10.625211+00:00",
+    "generated": "2026-09-16T11:27:48.252235+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-16T04:44:24.214579+00:00",
+    "issued_at": "2026-09-16T11:26:01.780685+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 25.0,
@@ -1093,6 +1093,17 @@
       },
       {
         "timestamp": "2026-09-16T04:44:24.214579+00:00",
+        "score": 25.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 40.8,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-16T11:26:01.780685+00:00",
         "score": 25.0,
         "level": "BASELINE",
         "components": {
@@ -118334,28 +118345,10 @@
       {
         "title": "Ukraine's Zelenskiy imposes sanctions on former press secretary",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd1VBMmEzZldmZWJscDBPb3hwTERGU2hNYVhFOUh1b0Q1NjhDYXlMRWlRUDFZNXdWdjR6bmZkR0UxTGs0MFlvcXViM1F1aTdzSjdpUEFGMldoRHhvRE5PYkVad19FLU15RHNUdHhpYy1KUHp6d3hiX0w3T2puNnRtNlNNNzlVb0x5cWs2eHZHLW5yckJJV2p0cnlLTDFxWTZpTGx3?oc=5",
-        "domain": "reuters.com",
+        "domain": "reuters",
         "language": "",
         "tone": 0,
         "seendate": "20260913T182743Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Roman Abramovich Scores Legal ‘Hattrick’ of Losses in Fight Against EU Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HQmh6T3F0RmJWLVZhd2F5NENENmhpRXNrZU5LWW9VU1RYcTNxaFBScDdFMHJfTXhjUnpxdGh6LVBhRkZBV3FSRE4xNA?oc=5",
-        "domain": "kyivpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T104546Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU court hands another defeat to Abramovich in fight against sanctions",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmtSTTA1T09nTFk1RmJITG1LUGQ2MlFYTWhzR1FPdXZGTzIwR1FMZlF6NENwd214ZWZtTkk2ZWt4TENRaVRrRkVDNzV1VnZWYlR0R0kybXdKWW9WdnN5NmZTUkJ1LTFNMmhHNzQ4VkJvT1B2Y0ROUWFNQVFZcGlzTWpGaUlGU05taUM0M1pFN2VST1U5QU1waXdmSjFlVmI5QmljVHpB?oc=5",
-        "domain": "politico.eu",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T102400Z",
         "source": "GoogleNews"
       },
       {
@@ -118368,12 +118361,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU extends Russia sanctions for one week only, after France insists on delisting Usmanov",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDVqc2NJeVdHTWEzS3RtaHI0T184OVRrcXpBUjFwdVFwMVZRMUlPN1hLZ1Z0MDBVR29DSzhzQjJPZUJuOVFtNTFlQndZbHU4ZHFXLXZhdE9BbTZ2QUN4cTdjbG1qRkZOUV9sRUhxY2NNMWdSR1VLeUJtUjltMjNKa2lvVi1rMXhkQ1BKS0loOGsxS0NGY1VlejhMZ3RMOVhOLUJDWjhEemlYTzRPX2NieC1OUXVlSmZvS2NYWjhSY2VQVHVWUzNMOVdB?oc=5",
+        "domain": "euobserver",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T151129Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian oligarch Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmt1djY3TGgtbG9FVWNuVnB5czhmeXFoR0RKSkE4c3Z6V1BSVTc2dVAyQ1pmUGxxVDU0RVRsSVUtNzFUMnUxbDFSVmNGRVpxb2dVcDdZVHJPSWRvSmlNa3hxRDdrYnJobWstTXJGb2JfbDYxNUdjeXEwY0VNejRJakVSa0hOSmtXTlNYVndMRU9CRFpTU0VaZjJQMjZIOWtOOWhnUVdR0gGrAUFVX3lxTFBfRGRPQ3lwS1FULXg2eTA5VWJSWWN3OElpd3VrSndtR2RPcHVJc2IwOHNsVmdsanFrZE5FUVBPLVFVcVlFMFNmTVpkTHlPQ1RlTVVUd0tGejRuWjg2M2prZDBZU0RxUXJCb0xEdDBMVC1hcHBIN3JuNWN3OE1YNGdDQ0JIWGJnbkt3Y2w4X3p3S3VWal9qSWJRYUd5blhhNnBPSXl3ZzRIdXlYbw?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T150600Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU court orders Abramovich travel ban, asset freeze to stand",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
-        "domain": "euperspectives.eu",
+        "domain": "euperspectives",
         "language": "",
         "tone": 0,
         "seendate": "20260909T114019Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sanctions Update: Key UK and US Developments",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBEZDVZWnpwOFVSSkp0ZjNPblFHeUdRSlhxdnZNQ3RhVHR5WUlWbWloZi00SHZpWWJ0SFM3TUhEdldmRTdMVUNTcDNKdWxLalpPT0ZoVzk2N3c5ekVjWW9MOVJfb3NxQUg5cVI3bzNWX2F5QW1hXzRn?oc=5",
+        "domain": "bclsolicitorsllp",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260913T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -118383,6 +118403,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260911T232315Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Zelensky Imposes 10-Year Sanctions on His Former Press Secretary Yulia Mendel",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3V1pWS3Z1eEJSSVExYTN0NHBqbWljZ2tfM0R5TlpyeTRaWmNLVGVyZUVXblhsdDJxekxock5QWG9vQk9wdzZaRkVjek1NV0FpVFNQN0ZNQVppWFp0QnJkRGIzR21aaWpNSmhrcFM0dzVrUQ?oc=5",
+        "domain": "sfgmedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T030406Z",
         "source": "GoogleNews"
       },
       {
@@ -118404,18 +118433,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU court rejects Abramovich challenge to sanctions renewal",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02TGZ0bFBMWUg4M092a2o4QlczblFjRUoxamg2bzF0NmJUMXZTRExlUndBMDJNdjFfZHliaXotNE9kMHptTnRENnFUdnB4QWxudzlkM2wxdERSTG9lZ3ZNSHJMQ0tjS3RmTExVcHpraGJLWkFKazVF?oc=5",
-        "domain": "eutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T101416Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU court rejects Abramovich’s third bid to lift sanctions",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdklXRGxQQWIybFRNQVJFZURoUkE1VllTMGhxQ0gxTzNyRG0taEtJcmFJcHNMXzgwYl9PN3c5M25KLXB1akhhZHhDQlltMmV4YWNVSlJTMmd3d2lYMDEyQzlGQjFGa1RacEJfSlByUjVwcTVVd3pTTDhLT3JpZGVhcUhDaXJLZzUyNkYyTElLN0sxMGZyMWk1aEloVi00dGtyWEdPQV9MVTBZOXdVX0o1WWhUcjBhX3VSTkV5WHV3VjbSAbwBQVVfeXFMUG9qWjBJdHB0V3JuSkZ6STgyOXEwWmNoN1BaYjVPUkpzUlVKZWw5TGktRE9kb3JzQ0RsM200NFFnWkRCdFNqUDBpeUhUVXAzSnN0cF9DMUVrMzF1UkZ6Ny0xMFdEdllNZ0dheDdCWThUbUQtRzhoQ1htM2h6eG1xR09POElrZXo0OVdvSEVtc0xqbm51U1FqdFQ2R3cwWWV3LS1xTVlucEl3eW9BVldRQ0YxdDd2V2kzV3I5eVc?oc=5",
-        "domain": "thenewvoiceofukraine",
+        "domain": "english.nv.ua",
         "language": "",
         "tone": 0,
         "seendate": "20260909T120600Z",
@@ -118431,15 +118451,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council approves technical rollover of Sudan sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "bastillepost.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260912T112000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
         "domain": "eualive",
@@ -118449,12 +118460,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran turns to crypto for export payments amid sanctions: FT",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12Zko4VVd5MHpLby04V0F1OURobzVkbVpLV0dKa0lqeGJkTG5mRHlSOHoxMl9sOWp4NEVRZ3N1SUxzSTNFbk94eThyOTBtdDF1U3ltZDFhbFZaUmlQeHU2RGNhODJJZGZrem5yN1h3?oc=5",
-        "domain": "cryptonews",
+        "title": "Russian oligarch Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMlNUZDQ0bGZWaGo2cnJmSzlvaHRTX0J6WUpmbmxqemEwdzVCb2hIUVBCb1ZRRjAxVUFuX3JuR3ZlM0ZRb2dlZXNUU2loemxUWWZnTU1DWVB2SWhCSDBQSV91dUVwaS1FWF90Qk01NnFUMkVxSnhScTFUclRhNHlmcFVpbDVwM2ptRGl5NnQzSE9iT2tqcGN3RHFEMFJwRGlC?oc=5",
+        "domain": "macaubusiness",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T061300Z",
+        "seendate": "20260909T115142Z",
         "source": "GoogleNews"
       },
       {
@@ -118494,6 +118505,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Thirty years without sanctions: Why international law failed to protect Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdE1tNGhTREt6OVM1Qzd0S2FfanNucnZMUmJwb0o5dWRYZ0J3dGtwVEw5RnBva1A3VE5janhHNVhYN0tmQVVhX2lyTzVOZDU3NGtqY3drNEFoRHZrMF84WmRNTWppYW5YM1NOendLdTJkWUV3XzZlT3dfczlNemFNVmZxd0xpc29lWTl3YkFkTENUMjVOcV9CT3lnNWNOR3VQdG8yYQ?oc=5",
+        "domain": "latestnewsfromazerbaijan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260916T104550Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Politico: The EU Did Not Extend One of Its Sanctions Regimes Against Russia Due to the Stance of Two Countries",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa2g4Q3hQVVFIazhwZTN4anBLcFR1cWRIdU1JQTN1SXZMLWZ3cF96UmRYUmZ1ZWJPVXcxckxPUHgzM29LT3ozZW4ybWpzbkFlcU91LTZoSm1nLTB1YVpNODlfcWJTb3lPaW1VeEhKcUdBMmhfWmVNOXZ0emVGZjVmc3dyNFpMVFNybFlTX1NmVk41aDgwdjltWTg3TWFtTzZmLV9ESXExMDZaZnlIbXRwVzlnMGcyY2RrRG5QQktWbVowS29vNUtIdm14aFlweDVDMHpIdDdYaVFQcWtLQ2QzY3lB0gHnAUFVX3lxTFBBZFRwQkpFWC0xbjg0Z0VqTjlFRzQ2eEtwVFVUWEMwVjROUmFJMmhjVkU2OFFXczRJNE44UDN0ci1EVHp1S1Jwci0tZFk1Z0xHd1RKS2wxUVRLUE9aNUVTS3pJcmlydEd2MmgtYklHbFNSSzJ4QmNXUEcwd0dIZzlhcjJkcEhKOHp1N2k3MzZJQmdLOGFxQ05xMEJQc1M4WGxCWXNKNDNzR19YZHJYOHJPS0E1WmhRbDltc2NjaDdTTkQ4dFJkTnhMYXVXSXBhLU1ValhHczhOYXJ4TDdiTThjZDZ0ck5NTQ?oc=5",
         "domain": "liga.net",
@@ -118530,21 +118550,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOHZtN0t0cTkxbFNiN3hKa0l4WWlpbDhRdlgtMDlMZmgxVThsWnREemxvRkt4aklvWldCTW4zUEtuZXFJdWRUMDMzc3Rvc1ZFU1VLVTRmYVBtQ0NtSTUwT1gtMHhSMjRZakpIWTVHa2dyOGlqWXhWck1oai1SM0RTUkVHZnI4NHZIU2c?oc=5",
-        "domain": "punchnewspapers",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T092206Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tragedy at Sea: 25 Migrants Missing Off Greek Coast",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcDdnNExHQUJsUFN0UUY4M1JhV3Y1V0gxQ3VVSjA0UU1kaHUxMEFyYmo2cV9sSFd3eFZjc1ZDQkY3Z2E2OUxYUV9hYk5Pa05Qam1PZjk4MUNyQ2RnbVhzb2lreElJV2dXZ29lTkU5amJ5WU1TT3djcm81VTZoVGJYNkhXaFJrSHdMYnJXenZ1X1k1MC13TTZ1TnpFUndBMnl5NlFSWDN4WWtMMHdW0gGsAUFVX3lxTE5wN2c0TEdBQmxQU3RRRjgzUmFXdjVXSDFDdVVKMDRRTWRodTEwQXJiajZxX2xIV3d4VmNzVkNCRjdnYTY5TFhRX2FiTk9rTlBqbU9mOTgxQ3JDZGdtWHNvaWt4SUlXZ1dnb2VORTlqYnlZTVNPd2NybzVVNmhUYlg2SFdoUmtId0xicld6dnVfWTUwLXdNNnVOekVSd0EyeXk2UVJYM3hZa0wwd1Y?oc=5",
         "domain": "devdiscourse",
         "language": "",
         "tone": 0,
         "seendate": "20260913T194405Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump asks Zelensky to stop attacking Russian refineries",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEd9IBTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEdw?oc=5",
+        "domain": "dawn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T020849Z",
         "source": "GoogleNews"
       },
       {
@@ -118557,12 +118577,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran Uses Bitcoin and USDT to Evade US Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMcEZzQml1ZjlBY1V1VWdUU1JxQjlndmNYOVo5SmxNZHRvT2g5MVY1eGtsZTR6cXkxaGpXeUVzRkdSNnhvS1ltTHpXc3lQNk5lU2RnZm1IZ1V3TWZQLU9JbmJfRmtsN0tZMkFJQUVnWjYzLUFK?oc=5",
-        "domain": "ababnews.com",
+        "title": "US Sanctions Russia's VTB for Aiding Iranian Financial Network, Warns of Secondary Penalties",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UcW9adHpVLTJzVjB0OVd6djllTU9vTVFRVGVQdWpSZzlSeEg0dThHWjktb1BrY0Etb002VG5NTE0zYzBteFFJLW5B?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T045503Z",
+        "seendate": "20260914T203000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council approves technical rollover of Sudan sanctions",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOW9BdjM4YnZFa0txZURHMDUya2lLRmRUbkUtT3M4Ml9sUkFKMEdXTVJsam9BZl82eV9VSnBsd1czUGdNajl3ZTBzR3ctOElROGdpaXZqaGhaYzFrd0R4QWYxVkJhOEFiX25iRG1EVWdlcEV6NDRQQVI2X1V6WHpDU3I4NmVJQ3c2RjNaM1FfMEh5d2RRN0RNb3EwU2JfSl96c2pjQXV0UXdjWEJv?oc=5",
+        "domain": "theeastleighvoice",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260912T051657Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Zelensky sanctions ex-press secretary turned fierce critic",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUEJxWW1BeW9EdjlnRkhaUEVxVUJYSlBvRUozVjN0WlJpMmtnZDJlNWtrZTZZcEt6U1I5TGZfMlZtWVd2RElYQWZleWJldk9HNkwzV3dyZGdOTWFfMVlfVllNRXh0VHV4RkRXM0VvbWthTUo1MV9VTmhabXVXRDA5eTZTLTdDRW9JR29ucy1XMEwzNWk3RGk4MUZhUlRvcVBWV3RGajE3QQ?oc=5",
+        "domain": "bignewsnetwork.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260913T233500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury imposes sanctions on Russia’s VTB Bank for Iranian sanctions evasion",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNOGtvOUkwM3VzZnFGSkJLTHNLd0hHa21CQjB1M21jbjRxZnhGQjh4MTVuWGU0bDlNNEFfcWRRS1Z1ZEJmeV9ldzE1MjB1NExIMFo2aWtRR1YxNzBCcDZKaVdkNE1LNXJHLWNXWExOcmQ?oc=5",
+        "domain": "cryptobriefing",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T185840Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU extends Russia sanctions talks for a week over dispute on delisting Russian billionaire: Report",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdmxfcDNVcndCaDZ6b3NlcHZHdlIxdzQ0UnQxM3RTY0Fnam1VbXVXQkZZRzhYSElTUVFJb0gwSl9hTjBjOHlCdi15V3Nmcm5aMVJLTUdGQVZIa0hPOHE4VnFERGRjNXB6dDhWNVdsbTJkSFZfaGZ6SEpFSkpYSXlaaTAzajU4SzlqNGNELWw5b1JXOEZ6clN1WjFmTEwyWmNSOERkdDhhdWx0LVFSU3piZVoxUExRZWfSAccBQVVfeXFMTWdjMktGY0ttUGlfRFY5N3VRT3BSRENLVUNCSENMTk1sWEI4OEd5TEdLWEU0dEhsNlUwN2ZZMzVZUXI0WGMxOU9ac3lUc3pDLU5TMkRESjE0QzFjc1pIRjlVWXlGX01CU2w4bktTdmNHMVN6cFdTY1h3LWJTMWNGZEo5cFlVODZ1SmNmYW1pRzE5Zk9SRkV2WmZmcW1DYklkWjdCWnFaT05qQjlTcE9tTnQ2TTN0T3c5Wk1jUk1uZW83MWNwSWlPRQ?oc=5",
+        "domain": "usmuslims.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260915T093830Z",
         "source": "GoogleNews"
       },
       {
@@ -118590,6 +118646,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T152600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ex-Chelsea owner Abramovich loses third bid to overturn EU sanctions |",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUVhPRXkwYnd6NHFkVTNBZHprdFdVYy1pSk84T0g0UzNMUXdqd29pQ3JLRUNXaEpWWnJZVThwR0RxM04yMFhXeHg3Z0ZacURaeFR1T2RmR1NDYTJlWHJud3lCaXdkMEFXTnZPLXpPNHZRcFRwZUEwVnpIRWtYdS1TeHBFbEFFVF92dTNFcWJSYTFMOEhBWjBac1pzMDlFSjB6?oc=5",
+        "domain": "theeagleonline.com.ng",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T134905Z",
         "source": "GoogleNews"
       }
     ]
