@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-15T21:18:23.373041+00:00",
+    "generated": "2026-09-16T04:46:10.625211+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-15T21:16:36.946088+00:00",
+    "issued_at": "2026-09-16T04:44:24.214579+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 37.7,
-    "level": "WATCH",
+    "score": 25.0,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,17 +24,16 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 73.3,
+        "score": 28.0,
         "releases_considered": 97,
-        "current_7d_designation_releases": 4,
-        "current_7d_all_releases": 4,
-        "prior_7d_designation_releases": 3,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
+        "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
         "baseline_weekly_median": 2.5,
-        "anomaly_z": 2.02,
+        "anomaly_z": -0.13,
         "themes": [
           "counter_terrorism",
-          "cyber",
           "iran",
           "venezuela"
         ],
@@ -73,37 +72,6 @@
             "themes": [
               "counter_terrorism",
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Terrorist Designation of Los Tiguerones",
-            "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/terrorist-designation-of-los-tiguerones/",
-            "action_title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260909",
-            "date": "2026-09-09",
-            "source": "OFAC/Treasury",
-            "posture_terms": [],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
-            "url": "https://home.treasury.gov/news/press-releases/sb0624/",
-            "action_title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260909",
-            "date": "2026-09-09",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "targeting"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "cyber"
             ],
             "designation_signal": true
           }
@@ -198,12 +166,12 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 28.3,
-        "current_7d_releases": 4,
-        "current_weighted_term_rate": 2.125,
-        "baseline_weeks": 12,
-        "anomaly_z": 1.62,
-        "matched_release_count": 3,
+        "score": 40.8,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 3.5,
+        "baseline_weeks": 10,
+        "anomaly_z": 1.95,
+        "matched_release_count": 2,
         "relief_release_count": 1,
         "evidence": [
           {
@@ -240,23 +208,6 @@
             "themes": [
               "counter_terrorism",
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
-            "url": "https://home.treasury.gov/news/press-releases/sb0624/",
-            "action_title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260909",
-            "date": "2026-09-09",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "targeting"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "cyber"
             ],
             "designation_signal": true
           }
@@ -333,18 +284,18 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity"
+        "official_posture_shift"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
     "alerts": [
       {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 73.3,
-        "level": "ELEVATED",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
+        "id": "official_posture_shift",
+        "title": "Official coercive-language shift",
+        "score": 40.8,
+        "level": "WATCH",
+        "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
       }
     ],
     "history": [
@@ -1139,6 +1090,17 @@
           "official_posture_shift": 28.3,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-16T04:44:24.214579+00:00",
+        "score": 25.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 28.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 40.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1203,8 +1165,8 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "37.7/100",
-      "delta": "WATCH"
+      "value": "25.0/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
@@ -118363,7 +118325,7 @@
       {
         "title": "What the UN’s Darfur Sanctions Rollover Reveals About the Next Phase of Sudan’s War",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3ZzakZjODllLTMySURRQXNfZWF4enYwcExnTlZCZHc0MFdLblFTQ21uNU85aFdmTlZ1UTVnelRUTHgxNGRjVWpGckJXQW5lQXZQNHhkLVVOcnMyaklMTVBiMGJJWUpOTVhxYW1WWkdRdTl1a2tsSUJxUkdEaGxWYlRWSk5qU0tfcjZMSWlpaEJfb3FNSVhiVF9WVy00aUM1c244ZlBhSUhHUUN3Q2NkVHp0bGkwczQ?oc=5",
-        "domain": "hornreview.org",
+        "domain": "hornreview",
         "language": "",
         "tone": 0,
         "seendate": "20260915T072414Z",
@@ -118372,7 +118334,7 @@
       {
         "title": "Ukraine's Zelenskiy imposes sanctions on former press secretary",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd1VBMmEzZldmZWJscDBPb3hwTERGU2hNYVhFOUh1b0Q1NjhDYXlMRWlRUDFZNXdWdjR6bmZkR0UxTGs0MFlvcXViM1F1aTdzSjdpUEFGMldoRHhvRE5PYkVad19FLU15RHNUdHhpYy1KUHp6d3hiX0w3T2puNnRtNlNNNzlVb0x5cWs2eHZHLW5yckJJV2p0cnlLTDFxWTZpTGx3?oc=5",
-        "domain": "reuters",
+        "domain": "reuters.com",
         "language": "",
         "tone": 0,
         "seendate": "20260913T182743Z",
@@ -118403,6 +118365,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T151053Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU court orders Abramovich travel ban, asset freeze to stand",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxsdFdfdHpZcjF1N0hWWXR4QlBGbXN1bE1NdHNnRGVRZHdKd0Y5SkdEQzcwQ1k0NncwWlpCb1Vsc0V2WnpScWNPdGE1RFJCSjRyelByYWlUYUNCREJNRTUzWFNFeVBEVnMwZ3hYVUV2Ri1jSnlnRUR2Sk1zV21rVEpaRTQ5b3QzbERudVl5OThidWxPNzBOR2FR?oc=5",
+        "domain": "euperspectives.eu",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T114019Z",
         "source": "GoogleNews"
       },
       {
@@ -118469,15 +118440,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Anthropic’s Mythos Successor Is Ready, But Washington Still Holds The Switch",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTGZzX2Rjdms5R0VXS2hWLWNNcDRMRXR3Vkhmb19QVDNmUzdRc2JtUko0NHlabUFLdUh0TUU5STBoY3k5VXNWNXZ0M2RJaFB5ZjA4aHItLWQ2LXBrajhMMC1JRzFlX081NnFVNmhudUlUZU95dXJhYjN1dU85cEtSbmx2cWRPRXFMeGJfdmFuVGZrR3c5QWVHU0VqQ2JjazJSc2xVZl9PbHo1Mk1xYU1wWWxoaWQ4bkEwTm1DUTlXX3lOM19CRTN6NkJ5Q2ViVTJCbUZ1V09xXzE1OVFjUHc3eThTVQ?oc=5",
-        "domain": "yellow.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260909T043627Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
         "domain": "eualive",
@@ -118514,6 +118476,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "France and Slovakia have made it more difficult to extend EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbFZBdk1hdmtBeWRzcXpPcm5sUmhLVkFmdmd1ZnYxZ05IR1J0YnlLcWFtQjBtWXV2OU9ITGs5dkZDam5QRzllUENfUHRGUzlsbHgxNnp5RVQya2tUSG9wV2E2RU1BeklxRHlycTh5Z0NvQUJGQldaUVRESzlQZ2daWGt1RS1DN2VLX2ladkhVeEc?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T155352Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US Freezes $52.8 Million in Tether and Sanctions Chinese-Language Scam Marketplace",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EU3ViVG9VT0ZHQjlhRkltcG5nY1pXQi1CcGhiclZrdWM3amlBcDVyR0hoVmZhenpGWnllN1cwb2lycFk5SE40WndPbVh6UUZNcFFSTmp0d1hnSjlqUV9iUTNRX1ZyNk5lUV9yVDIyQ1NzS09XeGc?oc=5",
         "domain": "finance.biggo.com",
@@ -118532,12 +118503,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaE1CVFd5cmNiTmFBTVlYY3ZtSHJCaWRIUTR0SmJiVU5zN1BZbFJnWmRrX245THRHTnhGTGc4X1FaVV9GYTM4cHc2dEJvM3NHODhnTmRET2s5SnlLMERSSmdKYVR6TThLSjhFNWZXbVhIc21VaTEzaEpHQW1BVExxLTM2dnhjMXlKWFNLZ0lNendiQkVVNUxLSVVn0gGYAUFVX3lxTE9rVWsxUFpkTE5sSzU3LU9RekVzQmVTbDgyd19EQlJTdVJGUWIyUUprb3hwc3ZhUHBHOGxhbDhMYnNXbC1Hd2xSeEphWFBmZ3dPdjJXWGx2dXdJTUQ4Uk9yM0JiLVpQb05HcTlqeXR4TVR2enIwUzFGOUNsMDRCM1ozUU9Fa18wbUlYMnhyNWhnYjRIQVlzOFJp?oc=5",
-        "domain": "modernghana",
+        "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
+        "domain": "thestraitstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20260909T184830Z",
+        "seendate": "20260913T183100Z",
         "source": "GoogleNews"
       },
       {
@@ -118556,6 +118527,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260913T185435Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Roman Abramovich loses third attempt to overturn EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOHZtN0t0cTkxbFNiN3hKa0l4WWlpbDhRdlgtMDlMZmgxVThsWnREemxvRkt4aklvWldCTW4zUEtuZXFJdWRUMDMzc3Rvc1ZFU1VLVTRmYVBtQ0NtSTUwT1gtMHhSMjRZakpIWTVHa2dyOGlqWXhWck1oai1SM0RTUkVHZnI4NHZIU2c?oc=5",
+        "domain": "punchnewspapers",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260909T092206Z",
         "source": "GoogleNews"
       },
       {
@@ -118610,15 +118590,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260909T152600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US imposes sanctions on Kazakhstan company for cooperating with Iran",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQS1KWVh1Qm1KZ2J1Q2picWxiZzBOYkEzemRlS2VlT2pNbHZTdVU5MUxHeDFTS0hXWERZRWV5QUwtbmZ1TUxEUllJNmttYlBUdE8zT0Q0WHdQT3M1Y1NKc1BrNDhZTThBN1g1YWdmbkdCRzhyd1ZPTzFUelQ3dTR0WGlqTjcyQnIyaThGZ0JQVEJXZktfYkFhaGJMdC1FVWpqVmRFUjNraW9WQQ?oc=5",
-        "domain": "zamin.uz",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260910T113000Z",
         "source": "GoogleNews"
       }
     ]
