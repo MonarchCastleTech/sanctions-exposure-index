@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-16T21:16:27.734517+00:00",
+    "generated": "2026-09-17T04:49:03.931179+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-16T21:14:41.309473+00:00",
+    "issued_at": "2026-09-17T04:47:17.129047+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 25.0,
+    "score": 22.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,16 +24,15 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 28.0,
+        "score": 16.0,
         "releases_considered": 97,
-        "current_7d_designation_releases": 2,
-        "current_7d_all_releases": 2,
+        "current_7d_designation_releases": 1,
+        "current_7d_all_releases": 1,
         "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.5,
-        "anomaly_z": -0.13,
+        "baseline_weekly_median": 4.0,
+        "anomaly_z": -2.02,
         "themes": [
-          "counter_terrorism",
           "iran",
           "venezuela"
         ],
@@ -55,23 +54,6 @@
             "themes": [
               "iran",
               "venezuela"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0626/",
-            "action_title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260910",
-            "date": "2026-09-10",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "iran"
             ],
             "designation_signal": true
           }
@@ -166,12 +148,12 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 40.8,
-        "current_7d_releases": 2,
-        "current_weighted_term_rate": 3.5,
-        "baseline_weeks": 10,
-        "anomaly_z": 1.95,
-        "matched_release_count": 2,
+        "score": 46.8,
+        "current_7d_releases": 1,
+        "current_weighted_term_rate": 4.0,
+        "baseline_weeks": 11,
+        "anomaly_z": 5.4,
+        "matched_release_count": 1,
         "relief_release_count": 1,
         "evidence": [
           {
@@ -191,23 +173,6 @@
             "themes": [
               "iran",
               "venezuela"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0626/",
-            "action_title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260910",
-            "date": "2026-09-10",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "iran"
             ],
             "designation_signal": true
           }
@@ -293,7 +258,7 @@
       {
         "id": "official_posture_shift",
         "title": "Official coercive-language shift",
-        "score": 40.8,
+        "score": 46.8,
         "level": "WATCH",
         "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
       }
@@ -1134,6 +1099,17 @@
           "official_posture_shift": 40.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-17T04:47:17.129047+00:00",
+        "score": 22.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 46.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1198,7 +1174,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "25.0/100",
+      "value": "22.3/100",
       "delta": "BASELINE"
     },
     {
@@ -118320,15 +118296,6 @@
     },
     "news_articles": [
       {
-        "title": "INSIGHT: Venezuela Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaUpXVEFRWnkxYTVuUDhrWGRyV05TRFI0R011aWotd3VfSlRSN1NDdml5Q3o1NjBNRWRyaXJ3Z3RaZEx4d0dlVlhaRW1GQ3pNY1ZEdFdtOVlJaHFMNHIzdFJ1MVBOcjN4WnczMktPWEI3b3BvVjM5ZmZFMU1EbGdGVlpFdG5CRk03UURF?oc=5",
-        "domain": "skuld.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260911T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The UK Sanctions Hezbollah’s Shadow Bank. Lebanon Should Shut It Down.",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVhnUUhMT3hiMDNKREpLY244VFg0bW9lSnMtRnhLZFpSRU5FZkExN1NQYndCLUZaMlhOUWNQNV9mbEREQWEtbW01RlBKbWRLenNPSndaRGF2cFdGbGVYWXp4MlJHS0Z4VzU2MHBLUDByZG9STVprM3EzeFlTdF9FWkZRVFlSZ3pOaDIwNmhocXpIeEl1QTlnMnZyWGNOTDU3aFJGZ0ZRY3R1NTRX?oc=5",
         "domain": "foundationfordefenseofdemocracies",
@@ -118358,7 +118325,7 @@
       {
         "title": "US Government Announces New Iran Sanctions Measures",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMHBLLW9QNG5ZSDl2cTRkTWpCdm1PTU1FaloyMG5yOTFiWjNLZGE0QTFDbkx5OWZxeVM0WC1idl9FN1N4bWZyM3R5NWxhMjRxN0lTUW9NdEVXMHFSVFI5R1l3azhlVm5JSzRhaS0weTJMQ3c1Z1lZeDktYl8tQnhGUw?oc=5",
-        "domain": "jdsupra",
+        "domain": "jdsupra.com",
         "language": "",
         "tone": 0,
         "seendate": "20260914T194950Z",
@@ -118412,7 +118379,7 @@
       {
         "title": "EU Court rejects Abramovich’s third appeal, sanctions remain in force",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlZ5SEs4MXZBOElTcEVHNjJjWjRqZ1RUZjlRM28yTGlucFR4czNQX09URzhOeVFnb0t3dkMyWnk5T3BXemprTk9zRE9rQzRUUkFuWFVLbkE3c2NiLWV3dTNBOWpBdEFHaGdLV3BXNkJRMEpxRE9VNXVTbVZKejJvX01MTi1KWXhHYUNjYTJ6dTJFNElEWHJLV2h6WDc?oc=5",
-        "domain": "lawxyai.com",
+        "domain": "lawxyai",
         "language": "",
         "tone": 0,
         "seendate": "20260911T052901Z",
@@ -118439,7 +118406,7 @@
       {
         "title": "CRYPTO CRIME | U.S Sanctions a $20 Billion Chinese-Language Online Market with Assistance from Tether",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95eThZZ3N0S2c1OVBxeGNYVUJ1OHV3bEFTVTM5ckZfVGRIbWd4R1FOcm5NaWJTZVRZNV9GNGdIWDBWaElab2Vhak1Ha0FZZWNGTVNRSUVDRjVHZlpXVkJEc3BIVi1Pa1k5MjlCTW9CVWo2T1FiUWc?oc=5",
-        "domain": "bitke",
+        "domain": "bitcoinke.io",
         "language": "",
         "tone": 0,
         "seendate": "20260914T100036Z",
@@ -118457,7 +118424,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "bastillepost.com",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
@@ -118482,21 +118449,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France and Slovakia have made it more difficult to extend EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbFZBdk1hdmtBeWRzcXpPcm5sUmhLVkFmdmd1ZnYxZ05IR1J0YnlLcWFtQjBtWXV2OU9ITGs5dkZDam5QRzllUENfUHRGUzlsbHgxNnp5RVQya2tUSG9wV2E2RU1BeklxRHlycTh5Z0NvQUJGQldaUVRESzlQZ2daWGt1RS1DN2VLX2ladkhVeEc?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T155352Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Thirty years without sanctions: Why international law failed to protect Azerbaijan",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdE1tNGhTREt6OVM1Qzd0S2FfanNucnZMUmJwb0o5dWRYZ0J3dGtwVEw5RnBva1A3VE5janhHNVhYN0tmQVVhX2lyTzVOZDU3NGtqY3drNEFoRHZrMF84WmRNTWppYW5YM1NOendLdTJkWUV3XzZlT3dfczlNemFNVmZxd0xpc29lWTl3YkFkTENUMjVOcV9CT3lnNWNOR3VQdG8yYQ?oc=5",
         "domain": "latestnewsfromazerbaijan",
         "language": "",
         "tone": 0,
         "seendate": "20260916T110043Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "France and Slovakia have made it more difficult to extend EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbFZBdk1hdmtBeWRzcXpPcm5sUmhLVkFmdmd1ZnYxZ05IR1J0YnlLcWFtQjBtWXV2OU9ITGs5dkZDam5QRzllUENfUHRGUzlsbHgxNnp5RVQya2tUSG9wV2E2RU1BeklxRHlycTh5Z0NvQUJGQldaUVRESzlQZ2daWGt1RS1DN2VLX2ladkhVeEc?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T155352Z",
         "source": "GoogleNews"
       },
       {
@@ -118518,9 +118485,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "10 years in jail for sending $1 to terrorist Brenton Tarrant",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQVnlzSDJZNjlWbVBWZzNXWklubmhkclZJeVl3MjB1S2VnWnFqemg4bmZ2QkQzRWx2SVRoR3Q4VllrbTJHY2xSN2syNmFRWlktVld0MTk3dldNd2tKQXlJa0RHMmJEWG02Z29rUFFfTkRWUVgwNE1oaFJKYk9lQjRyckpuakpEaGFzcHlOR1htSm55VkpEUjlLYVJpYUt0dWYwVHBhUVNEbkIwdWRuLTdCVDY3M1I4ZHdfOXlpdjFpX0wyMTJZV0JMTk1td1JPY01XUU5pV2JxSnRlSlFscHN6NVNTQXVWTzg1N1BRRmFWQTM4M1NhLUlkdkdzYXdvb0VLbnQxbHJrcDVWM0FrS0hHUWV2SjBvNVo1ZkEyQg?oc=5",
+        "domain": "thedailytelegraph",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T011109Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Zelensky imposes sanctions on former spokeswoman",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZlVkc2lVOWxBUERTd0gzVTk3Vi1FV09teGxxMW5HZThnZm0wRjdIbmFzOVNUUmcyYVJXMXBqS0V3RDBHRlhHTWVwa3hUOWVCa0JQVE9Sa2lpZnEyMUtMVjd3NVdmWWM2aGQ5ZnBtOVlQQmZPUmM3XzFoNUd0Rzl5RVJfaWFiSUc1UC02THBoQ0J2blV5WnQ40gGIAUFVX3lxTE1hZnNWSGQ5RTF6MlBuZ1VYa1NMdlZCVEtzV2Y1THRpUWhYNHlvZkxsbjdtUVo4ckFwSy15RmxhRjVJMEtNN0gzVFdjWDEwMDllUXAwZWRGR3ZSdlN5RWgzaEREYXdJc2Mxei1WUWJJWS1vRGlqOVJFRTl5M20tcWV0NFpSN0piaEE?oc=5",
-        "domain": "vijesti.me",
+        "domain": "en.vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260913T185435Z",
@@ -118554,39 +118530,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Sanctions Russia's VTB for Aiding Iranian Financial Network, Warns of Secondary Penalties",
-        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UcW9adHpVLTJzVjB0OVd6djllTU9vTVFRVGVQdWpSZzlSeEg0dThHWjktb1BrY0Etb002VG5NTE0zYzBteFFJLW5B?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T203000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Why North Korea's Kim Jong Un Doesn't Need a US Deal",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbW8yZU84aVdJdnhWZW5CTmx1cHV0VTB1SVYta3BMbU4xYkxSNkxNZkpMS21BQnJRUzFtRENhRDZ3OG5feElwZ2d1bmZrdHFORXFVQzN0Q1hHeG83ZEdHRGxnQ0VUTlcxSm5nNkgtQmxfOTlnMVN6elR5YzBZVkRfSFRwUktUSXYtbHpF?oc=5",
-        "domain": "tempo.coenglish",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260912T020134Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOW9BdjM4YnZFa0txZURHMDUya2lLRmRUbkUtT3M4Ml9sUkFKMEdXTVJsam9BZl82eV9VSnBsd1czUGdNajl3ZTBzR3ctOElROGdpaXZqaGhaYzFrd0R4QWYxVkJhOEFiX25iRG1EVWdlcEV6NDRQQVI2X1V6WHpDU3I4NmVJQ3c2RjNaM1FfMEh5d2RRN0RNb3EwU2JfSl96c2pjQXV0UXdjWEJv?oc=5",
         "domain": "theeastleighvoice",
         "language": "",
         "tone": 0,
         "seendate": "20260912T051657Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Court rules Belgium had no right to withhold Russian bank's assets",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV0sta0d0eUZocUZZM0dIMDFLVjdkcU1fM2hMcjhyNlRSUE95ZGY4ckRWMUc1dEpqc0NwNy1Dem9kLUEteVFKQmtKYzI5NVotTzlVWEVVbWVhT1d6azUwN29nYkhTbEdhNWZlX0pxckZpMjZVQmhQSzNzVkJJNjZTdEtQQU03RnVEbk5hbnY3YzBfVXlmQzEwNkxrendhMkFHOWpnOXdJcFF0d1Vnd0kw?oc=5",
-        "domain": "bignewsnetwork.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T211500Z",
         "source": "GoogleNews"
       },
       {
