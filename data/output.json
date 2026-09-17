@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-17T04:49:03.931179+00:00",
+    "generated": "2026-09-17T11:37:02.606172+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-17T04:47:17.129047+00:00",
+    "issued_at": "2026-09-17T11:35:16.159476+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 22.3,
@@ -1102,6 +1102,17 @@
       },
       {
         "timestamp": "2026-09-17T04:47:17.129047+00:00",
+        "score": 22.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 46.8,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-17T11:35:16.159476+00:00",
         "score": 22.3,
         "level": "BASELINE",
         "components": {
@@ -118325,7 +118336,7 @@
       {
         "title": "US Government Announces New Iran Sanctions Measures",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMHBLLW9QNG5ZSDl2cTRkTWpCdm1PTU1FaloyMG5yOTFiWjNLZGE0QTFDbkx5OWZxeVM0WC1idl9FN1N4bWZyM3R5NWxhMjRxN0lTUW9NdEVXMHFSVFI5R1l3azhlVm5JSzRhaS0weTJMQ3c1Z1lZeDktYl8tQnhGUw?oc=5",
-        "domain": "jdsupra.com",
+        "domain": "jdsupra",
         "language": "",
         "tone": 0,
         "seendate": "20260914T194950Z",
@@ -118359,21 +118370,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Raiffeisen Bank International-Linked Customs Records Show $1.19 Billion in Trade Matching Sanctions and Export-Control Restrictions While €12.6 Billion Remains Trapped in Russia – Grizzly Research LLC",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wSFljeW82eTcyZkN1MGU0cmc2TjcxT19OQ1pnWURERnROcmJXMjdmbVdzMTI2OGNPdkswR0I0Q2dUX0ZSMGc?oc=5",
+        "domain": "grizzlyresearch",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T050000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Zelensky Imposes 10-Year Sanctions on His Former Press Secretary Yulia Mendel",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3V1pWS3Z1eEJSSVExYTN0NHBqbWljZ2tfM0R5TlpyeTRaWmNLVGVyZUVXblhsdDJxekxock5QWG9vQk9wdzZaRkVjek1NV0FpVFNQN0ZNQVppWFp0QnJkRGIzR21aaWpNSmhrcFM0dzVrUQ?oc=5",
         "domain": "sfgmedia",
         "language": "",
         "tone": 0,
         "seendate": "20260914T030406Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU extends Russia sanctions talks for a week over dispute on delisting Russian billionaire: Report",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdjlyWl9VNWc5blgyUW1SSWo0STBhd3NUSGx3OTNkaFNhT0NyUWsybzJXOTZCMG5pR2gwaVF3OUJlYWRsYkZ1dnRTLUFHdFRZaEZFQVBSb3ZzNk5IRnRoMWFsWEs2aTVCbHIyREx0RHliZlNGVHhkQWMyMnYtcnRjNXZrMzJlZXFtRXhRZjJkSjNiSzdkV3FJaVE5NHZUcERHSXlId2FicVFxR1hWT1JxbG9vLTc5VFQxN1NfVEgzeTZmbzFVT0dLRGszemloMDlNaEJj?oc=5",
-        "domain": "anadoluajans",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T095129Z",
         "source": "GoogleNews"
       },
       {
@@ -118395,21 +118406,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Belgian court ruling raises new legal problem over €200bn in frozen Russian assets",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fVlFwM3FHdXdMM0FhdFF6UF9qLTJtU1JFU0Y4NlFNYTJCSHdDNXFlTHUyZDFPMnphdHlDSUw1NmUwRlYzOXRBT1BZWHBZZ3hzRVRwbi1LemFyNkxqWDlDMFRLSmVxWnRmX0M4cEh4N2ZYRVpi?oc=5",
-        "domain": "eutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260916T204327Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "CRYPTO CRIME | U.S Sanctions a $20 Billion Chinese-Language Online Market with Assistance from Tether",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95eThZZ3N0S2c1OVBxeGNYVUJ1OHV3bEFTVTM5ckZfVGRIbWd4R1FOcm5NaWJTZVRZNV9GNGdIWDBWaElab2Vhak1Ha0FZZWNGTVNRSUVDRjVHZlpXVkJEc3BIVi1Pa1k5MjlCTW9CVWo2T1FiUWc?oc=5",
         "domain": "bitcoinke.io",
         "language": "",
         "tone": 0,
         "seendate": "20260914T100036Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Belgian court ruling raises new legal problem over €200bn in frozen Russian assets",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fVlFwM3FHdXdMM0FhdFF6UF9qLTJtU1JFU0Y4NlFNYTJCSHdDNXFlTHUyZDFPMnphdHlDSUw1NmUwRlYzOXRBT1BZWHBZZ3hzRVRwbi1LemFyNkxqWDlDMFRLSmVxWnRmX0M4cEh4N2ZYRVpi?oc=5",
+        "domain": "eutoday.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260916T204327Z",
         "source": "GoogleNews"
       },
       {
@@ -118431,30 +118442,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Freezes $52.8 Million in Tether and Sanctions Chinese-Language Scam Marketplace",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EU3ViVG9VT0ZHQjlhRkltcG5nY1pXQi1CcGhiclZrdWM3amlBcDVyR0hoVmZhenpGWnllN1cwb2lycFk5SE40WndPbVh6UUZNcFFSTmp0d1hnSjlqUV9iUTNRX1ZyNk5lUV9yVDIyQ1NzS09XeGc?oc=5",
-        "domain": "finance.biggo.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260910T052500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Sanctions Stir Controversy: Ukraine Targets Former Aide",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV2VTbDAtZDhPUzZyTm5YYV9TT0p3dmNJMzJkdU5FdXRKU0V4RjZ1U0VZVGRoOWhDcHFoc25JN0pmODZFUFY0WHV0ZVp6dms3NC14UzdvVnN2SFk4QmMyN2FOVXh6LTM5a3hXRjBhM0U5QVIwNXBEel9SN1ZjNlNnSnp5MWpia1VOTkZSelZaSGVxZUdmTUR4NDJwdmhyWkE3akR3aFRycHdnVUNIVWlxWGxB0gGyAUFVX3lxTE5XZVNsMC1kOE9TNnJOblhhX1NPSnd2Y0kzMmR1TkV1dEpTRXhGNnVTRVlUZGg5aENwcWhzbkk3SmY4NkVQVjRYdXRlWnp2azc0LXhTN29Wc3ZIWThCYzI3YU5VeHotMzlreFdGMGEzRTlBUjA1cER6X1I3VmM2U2dKenkxamJrVU5ORlJ6VlpIZXFlR2ZNRHg0MnB2aHJaQTdqRHdoVHJwd2dVQ0hVaXFYbEE?oc=5",
         "domain": "devdiscourse",
         "language": "",
         "tone": 0,
         "seendate": "20260913T182506Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Thirty years without sanctions: Why international law failed to protect Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdE1tNGhTREt6OVM1Qzd0S2FfanNucnZMUmJwb0o5dWRYZ0J3dGtwVEw5RnBva1A3VE5janhHNVhYN0tmQVVhX2lyTzVOZDU3NGtqY3drNEFoRHZrMF84WmRNTWppYW5YM1NOendLdTJkWUV3XzZlT3dfczlNemFNVmZxd0xpc29lWTl3YkFkTENUMjVOcV9CT3lnNWNOR3VQdG8yYQ?oc=5",
-        "domain": "latestnewsfromazerbaijan",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260916T110043Z",
         "source": "GoogleNews"
       },
       {
@@ -118467,6 +118460,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Thirty years without sanctions: Why international law failed to protect Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdE1tNGhTREt6OVM1Qzd0S2FfanNucnZMUmJwb0o5dWRYZ0J3dGtwVEw5RnBva1A3VE5janhHNVhYN0tmQVVhX2lyTzVOZDU3NGtqY3drNEFoRHZrMF84WmRNTWppYW5YM1NOendLdTJkWUV3XzZlT3dfczlNemFNVmZxd0xpc29lWTl3YkFkTENUMjVOcV9CT3lnNWNOR3VQdG8yYQ?oc=5",
+        "domain": "latestnewsfromazerbaijan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260916T110043Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Politico: The EU Did Not Extend One of Its Sanctions Regimes Against Russia Due to the Stance of Two Countries",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa2g4Q3hQVVFIazhwZTN4anBLcFR1cWRIdU1JQTN1SXZMLWZ3cF96UmRYUmZ1ZWJPVXcxckxPUHgzM29LT3ozZW4ybWpzbkFlcU91LTZoSm1nLTB1YVpNODlfcWJTb3lPaW1VeEhKcUdBMmhfWmVNOXZ0emVGZjVmc3dyNFpMVFNybFlTX1NmVk41aDgwdjltWTg3TWFtTzZmLV9ESXExMDZaZnlIbXRwVzlnMGcyY2RrRG5QQktWbVowS29vNUtIdm14aFlweDVDMHpIdDdYaVFQcWtLQ2QzY3lB0gHnAUFVX3lxTFBBZFRwQkpFWC0xbjg0Z0VqTjlFRzQ2eEtwVFVUWEMwVjROUmFJMmhjVkU2OFFXczRJNE44UDN0ci1EVHp1S1Jwci0tZFk1Z0xHd1RKS2wxUVRLUE9aNUVTS3pJcmlydEd2MmgtYklHbFNSSzJ4QmNXUEcwd0dIZzlhcjJkcEhKOHp1N2k3MzZJQmdLOGFxQ05xMEJQc1M4WGxCWXNKNDNzR19YZHJYOHJPS0E1WmhRbDltc2NjaDdTTkQ4dFJkTnhMYXVXSXBhLU1ValhHczhOYXJ4TDdiTThjZDZ0ck5NTQ?oc=5",
         "domain": "liga.net",
@@ -118476,12 +118478,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Zelenskyy Sanctions Former Press Secretary Over Propaganda Claims",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNUdaWExqVVJPNUxMLVo3ZTlsN05KNWRrZllfUmhXN0hscnNUeEtqNEszUnBQQU51Q015R3hMT1JzTTI1SV9XVzRtRHp2WmZ4WDZucUw5UTBUUzcySExacjhLclpsQVh5d2FxcnVKRlRJb1NNWktlaklZeENuZVB2X3F4aW9BQnZ5eGlBa0Jkbi12NnBQa0FsWV9lOGJVbUdW0gGgAUFVX3lxTE81R1pYTGpVUk81TEwtWjdlOWw3Tko1ZGtmWV9SaFc3SGxyc1R4S2o0SzNScFBBTnVDTXlHeExPUnNNMjVJX1dXNG1EenZaZnhYNm5xTDlRMFRTNzJITFpyOEtyWmxBWHl3YXFydUpGVElvU01aS2VqSVl4Q25lUHZfcXhpb0FCdnl4aUFrQmRuLXY2cFBrQWxZX2U4YlVtR1Y?oc=5",
-        "domain": "tovima.com",
+        "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
+        "domain": "thestraitstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20260914T115528Z",
+        "seendate": "20260913T183100Z",
         "source": "GoogleNews"
       },
       {
@@ -118494,9 +118496,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Zelenskyy Sanctions Former Press Secretary Over Propaganda Claims",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNUdaWExqVVJPNUxMLVo3ZTlsN05KNWRrZllfUmhXN0hscnNUeEtqNEszUnBQQU51Q015R3hMT1JzTTI1SV9XVzRtRHp2WmZ4WDZucUw5UTBUUzcySExacjhLclpsQVh5d2FxcnVKRlRJb1NNWktlaklZeENuZVB2X3F4aW9BQnZ5eGlBa0Jkbi12NnBQa0FsWV9lOGJVbUdW0gGgAUFVX3lxTE81R1pYTGpVUk81TEwtWjdlOWw3Tko1ZGtmWV9SaFc3SGxyc1R4S2o0SzNScFBBTnVDTXlHeExPUnNNMjVJX1dXNG1EenZaZnhYNm5xTDlRMFRTNzJITFpyOEtyWmxBWHl3YXFydUpGVElvU01aS2VqSVl4Q25lUHZfcXhpb0FCdnl4aUFrQmRuLXY2cFBrQWxZX2U4YlVtR1Y?oc=5",
+        "domain": "tovima.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T115528Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Zelensky imposes sanctions on former spokeswoman",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZlVkc2lVOWxBUERTd0gzVTk3Vi1FV09teGxxMW5HZThnZm0wRjdIbmFzOVNUUmcyYVJXMXBqS0V3RDBHRlhHTWVwa3hUOWVCa0JQVE9Sa2lpZnEyMUtMVjd3NVdmWWM2aGQ5ZnBtOVlQQmZPUmM3XzFoNUd0Rzl5RVJfaWFiSUc1UC02THBoQ0J2blV5WnQ40gGIAUFVX3lxTE1hZnNWSGQ5RTF6MlBuZ1VYa1NMdlZCVEtzV2Y1THRpUWhYNHlvZkxsbjdtUVo4ckFwSy15RmxhRjVJMEtNN0gzVFdjWDEwMDllUXAwZWRGR3ZSdlN5RWgzaEREYXdJc2Mxei1WUWJJWS1vRGlqOVJFRTl5M20tcWV0NFpSN0piaEE?oc=5",
-        "domain": "en.vijesti.me",
+        "domain": "vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260913T185435Z",
