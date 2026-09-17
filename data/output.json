@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-17T11:37:02.606172+00:00",
+    "generated": "2026-09-17T16:57:35.184574+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-17T11:35:16.159476+00:00",
+    "issued_at": "2026-09-17T16:55:48.910014+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 22.3,
@@ -1113,6 +1113,17 @@
       },
       {
         "timestamp": "2026-09-17T11:35:16.159476+00:00",
+        "score": 22.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 46.8,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-17T16:55:48.910014+00:00",
         "score": 22.3,
         "level": "BASELINE",
         "components": {
@@ -118370,21 +118381,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Raiffeisen Bank International-Linked Customs Records Show $1.19 Billion in Trade Matching Sanctions and Export-Control Restrictions While €12.6 Billion Remains Trapped in Russia – Grizzly Research LLC",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wSFljeW82eTcyZkN1MGU0cmc2TjcxT19OQ1pnWURERnROcmJXMjdmbVdzMTI2OGNPdkswR0I0Q2dUX0ZSMGc?oc=5",
-        "domain": "grizzlyresearch",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260917T050000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Zelensky Imposes 10-Year Sanctions on His Former Press Secretary Yulia Mendel",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3V1pWS3Z1eEJSSVExYTN0NHBqbWljZ2tfM0R5TlpyeTRaWmNLVGVyZUVXblhsdDJxekxock5QWG9vQk9wdzZaRkVjek1NV0FpVFNQN0ZNQVppWFp0QnJkRGIzR21aaWpNSmhrcFM0dzVrUQ?oc=5",
         "domain": "sfgmedia",
         "language": "",
         "tone": 0,
         "seendate": "20260914T030406Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU extends Russia sanctions talks for a week over dispute on delisting Russian billionaire: Report",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdjlyWl9VNWc5blgyUW1SSWo0STBhd3NUSGx3OTNkaFNhT0NyUWsybzJXOTZCMG5pR2gwaVF3OUJlYWRsYkZ1dnRTLUFHdFRZaEZFQVBSb3ZzNk5IRnRoMWFsWEs2aTVCbHIyREx0RHliZlNGVHhkQWMyMnYtcnRjNXZrMzJlZXFtRXhRZjJkSjNiSzdkV3FJaVE5NHZUcERHSXlId2FicVFxR1hWT1JxbG9vLTc5VFQxN1NfVEgzeTZmbzFVT0dLRGszemloMDlNaEJj?oc=5",
+        "domain": "anadoluajans",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260915T095129Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Raiffeisen Bank International-Linked Customs Records Show $1.19 Billion in Trade Matching Sanctions and Export-Control Restrictions While €12.6 Billion Remains Trapped in Russia – Grizzly Research LLC",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wSFljeW82eTcyZkN1MGU0cmc2TjcxT19OQ1pnWURERnROcmJXMjdmbVdzMTI2OGNPdkswR0I0Q2dUX0ZSMGc?oc=5",
+        "domain": "grizzlyresearch",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T050000Z",
         "source": "GoogleNews"
       },
       {
@@ -118417,10 +118437,19 @@
       {
         "title": "Belgian court ruling raises new legal problem over €200bn in frozen Russian assets",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fVlFwM3FHdXdMM0FhdFF6UF9qLTJtU1JFU0Y4NlFNYTJCSHdDNXFlTHUyZDFPMnphdHlDSUw1NmUwRlYzOXRBT1BZWHBZZ3hzRVRwbi1LemFyNkxqWDlDMFRLSmVxWnRmX0M4cEh4N2ZYRVpi?oc=5",
-        "domain": "eutoday.net",
+        "domain": "eutoday",
         "language": "",
         "tone": 0,
         "seendate": "20260916T204327Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian Central Bank Appeals to EU Court Over Euroclear Asset Dispute",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1lFcnNjNTRxSUFSeWR3Q19WSmJwRzE1YjZURnR3cjcxYWxNTi1CbFBLdlpNZWVZZlp2aUNUR19pUS01UFRJclB0Tm02ZzRMSTdKQ00tcDNGeUJucGlRbm9vcl9mc1h2LTRkVnZiM2RNX28xR2VwRFRJQjRjdEZOY0xTN0QxdXRsYUxPTEFtOEFxbjFUclRhT3UxaWtxQQ?oc=5",
+        "domain": "globalbankingfinancereview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T164036Z",
         "source": "GoogleNews"
       },
       {
@@ -118475,15 +118504,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260914T110900Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
-        "domain": "thestraitstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T183100Z",
         "source": "GoogleNews"
       },
       {
