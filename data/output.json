@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-17T21:20:03.696510+00:00",
+    "generated": "2026-09-18T04:38:52.602143+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-17T21:18:16.864955+00:00",
+    "issued_at": "2026-09-18T04:37:05.787673+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 36.5,
-    "level": "WATCH",
+    "score": 28.1,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -28,10 +28,10 @@
         "releases_considered": 99,
         "current_7d_designation_releases": 3,
         "current_7d_all_releases": 3,
-        "prior_7d_designation_releases": 5,
+        "prior_7d_designation_releases": 4,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 4.5,
-        "anomaly_z": -1.01,
+        "baseline_weekly_median": 4.0,
+        "anomaly_z": -0.45,
         "themes": [
           "cuba",
           "iran",
@@ -104,12 +104,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 42.0,
+        "score": 0.0,
         "current_count": 19399,
-        "previous_count": 19385,
-        "added_count": 16,
-        "removed_count": 2,
-        "changed": true,
+        "previous_count": 19399,
+        "added_count": 0,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-09-16",
         "sha256": "01df2c64828bd5471d0e512c5d609d45f80ea13972d3397491b90e375899e09b",
         "top_programs": [
@@ -180,118 +180,8 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58614",
-            "name": "EMPRESA DE SERVICIOS TECNICOS DE COMPUTACION COMUNICACIONES Y ELECTRONICA",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58615",
-            "name": "EMPRESA DE INGENIERIA Y PROYECTOS DEL NIQUEL",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58616",
-            "name": "CENTRO DE INVESTIGACIONES DEL NIQUEL CAPITAN ALBERTO FERNANDEZ MONTES DE OCA",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58617",
-            "name": "PINARES S.A.",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58618",
-            "name": "PISHTAZ SIMORGH ELECTRONIC TRADE COMPANY",
-            "type": "",
-            "program": "IRAN] [IRAN-EO13902"
-          },
-          {
-            "id": "58619",
-            "name": "BITBANK",
-            "type": "",
-            "program": "IRAN] [IRAN-EO13902"
-          },
-          {
-            "id": "58620",
-            "name": "ZAKER HOSSEIN, Hossein Ali",
-            "type": "individual",
-            "program": "IRAN] [IRAN-EO13902"
-          },
-          {
-            "id": "58630",
-            "name": "ZAKER HOSSEIN, Mohammad Mahdi",
-            "type": "individual",
-            "program": "IRAN] [IRAN-EO13902"
-          },
-          {
-            "id": "58631",
-            "name": "HEIDARI, Seyed Adel",
-            "type": "individual",
-            "program": "IRAN] [IRAN-EO13902"
-          },
-          {
-            "id": "58647",
-            "name": "CENTRO DE INVESTIGACION Y DESARROLLO DE SIMULADORES",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58648",
-            "name": "CANCIO MONTEAGUDO, Joaquin Francisco",
-            "type": "individual",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58649",
-            "name": "CENTRO DE INVESTIGACION Y DESARROLLO NAVAL",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58650",
-            "name": "PEDRERA ARGUELLO, Dioglis",
-            "type": "individual",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58651",
-            "name": "CENTRO DE INVESTIGACION Y DESARROLLO DE ARMAMENTO DE INFANTERIA",
-            "type": "",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58652",
-            "name": "HURTADO BETANCOURT, Julio",
-            "type": "individual",
-            "program": "CUBA-EO14404"
-          },
-          {
-            "id": "58653",
-            "name": "CENTRO DE INVESTIGACION, DESARROLLO Y PRODUCCION GRITO DE BAIRE",
-            "type": "",
-            "program": "CUBA-EO14404"
-          }
-        ],
-        "removed": [
-          {
-            "id": "10756",
-            "name": "LAKOKRASKA OAO",
-            "type": "",
-            "program": "BELARUS"
-          },
-          {
-            "id": "46477",
-            "name": "BELARUSIAN PRODUCTION AND TRADE CONCERN OF TIMBER WOODWORKING AND PULP AND PAPER INDUSTRY",
-            "type": "",
-            "program": "BELARUS-EO14038"
-          }
-        ],
+        "added": [],
+        "removed": [],
         "retained": false
       },
       {
@@ -302,7 +192,7 @@
         "current_7d_releases": 3,
         "current_weighted_term_rate": 3.333,
         "baseline_weeks": 11,
-        "anomaly_z": 3.09,
+        "anomaly_z": 5.28,
         "matched_release_count": 3,
         "relief_release_count": 3,
         "evidence": [
@@ -439,20 +329,12 @@
       "active": false,
       "official_components": [
         "ofac_action_velocity",
-        "sdn_delta_breadth",
         "official_posture_shift"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
     "alerts": [
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 42.0,
-        "level": "WATCH",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
-      },
       {
         "id": "official_posture_shift",
         "title": "Official coercive-language shift",
@@ -1348,6 +1230,17 @@
           "official_posture_shift": 42.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-18T04:37:05.787673+00:00",
+        "score": 28.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 42.0,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1412,13 +1305,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "36.5/100",
-      "delta": "WATCH"
+      "value": "28.1/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,399",
-      "delta": "+16 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -118661,15 +118554,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Government Announces New Iran Sanctions Measures",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMHBLLW9QNG5ZSDl2cTRkTWpCdm1PTU1FaloyMG5yOTFiWjNLZGE0QTFDbkx5OWZxeVM0WC1idl9FN1N4bWZyM3R5NWxhMjRxN0lTUW9NdEVXMHFSVFI5R1l3azhlVm5JSzRhaS0weTJMQ3c1Z1lZeDktYl8tQnhGUw?oc=5",
-        "domain": "jdsupra",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T194950Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends Russia sanctions for one week only, after France insists on delisting Usmanov",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDVqc2NJeVdHTWEzS3RtaHI0T184OVRrcXpBUjFwdVFwMVZRMUlPN1hLZ1Z0MDBVR29DSzhzQjJPZUJuOVFtNTFlQndZbHU4ZHFXLXZhdE9BbTZ2QUN4cTdjbG1qRkZOUV9sRUhxY2NNMWdSR1VLeUJtUjltMjNKa2lvVi1rMXhkQ1BKS0loOGsxS0NGY1VlejhMZ3RMOVhOLUJDWjhEemlYTzRPX2NieC1OUXVlSmZvS2NYWjhSY2VQVHVWUzNMOVdB?oc=5",
         "domain": "euobserver",
@@ -118708,7 +118592,7 @@
       {
         "title": "Raiffeisen Bank International-Linked Customs Records Show $1.19 Billion in Trade Matching Sanctions and Export-Control Restrictions While €12.6 Billion Remains Trapped in Russia – Grizzly Research LLC",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wSFljeW82eTcyZkN1MGU0cmc2TjcxT19OQ1pnWURERnROcmJXMjdmbVdzMTI2OGNPdkswR0I0Q2dUX0ZSMGc?oc=5",
-        "domain": "grizzlyresearch",
+        "domain": "grizzlyreports.com",
         "language": "",
         "tone": 0,
         "seendate": "20260917T050000Z",
@@ -118717,7 +118601,7 @@
       {
         "title": "EU Court rejects Abramovich’s third appeal, sanctions remain in force",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlZ5SEs4MXZBOElTcEVHNjJjWjRqZ1RUZjlRM28yTGlucFR4czNQX09URzhOeVFnb0t3dkMyWnk5T3BXemprTk9zRE9rQzRUUkFuWFVLbkE3c2NiLWV3dTNBOWpBdEFHaGdLV3BXNkJRMEpxRE9VNXVTbVZKejJvX01MTi1KWXhHYUNjYTJ6dTJFNElEWHJLV2h6WDc?oc=5",
-        "domain": "lawxyai",
+        "domain": "lawxyai.com",
         "language": "",
         "tone": 0,
         "seendate": "20260911T052901Z",
@@ -118726,7 +118610,7 @@
       {
         "title": "EU sanctions rollover stalls over Russian oligarch Usmanov as Paris backs Bratislava's demand to delist him",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDVablVyVjg2M1FYOFVUd0RXU2lqa0FHR284T1VOcXRtMnhvZ0VvdGdZT3FCOGpZdGZEanJ6T3lMSy0tZ0hSZklyUXRVYjJyU2NMbEJzeGRXLUFlNkRMeXRhZ2VoWGNlNktZUWpmN08xNkx3ZXRhalVmemxlQ1Z2V1owMjRJX0VrRUhDclhyVlJ4N0R2ZFBQWDJKdVFkVTdDUTFWd0lyM2xlVU9DS1ZwdEdyQVVua1dURE1nNHYxMFVnWG1UMkh0MkNZRllvY2VpT2ZVOHZWbERyVFZBaHl3?oc=5",
-        "domain": "euromaidanpress",
+        "domain": "euromaidanpress.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T102121Z",
@@ -118744,7 +118628,7 @@
       {
         "title": "Belgian court ruling raises new legal problem over €200bn in frozen Russian assets",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fVlFwM3FHdXdMM0FhdFF6UF9qLTJtU1JFU0Y4NlFNYTJCSHdDNXFlTHUyZDFPMnphdHlDSUw1NmUwRlYzOXRBT1BZWHBZZ3hzRVRwbi1LemFyNkxqWDlDMFRLSmVxWnRmX0M4cEh4N2ZYRVpi?oc=5",
-        "domain": "eutoday",
+        "domain": "eutoday.net",
         "language": "",
         "tone": 0,
         "seendate": "20260916T204327Z",
@@ -118760,6 +118644,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK Freezes $72-million London Townhouse in Connection to Sanctioned Prince Group Associate",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWNodUM3T0RuTE9PNEJwb2pfbzJOaDZMR053ajhWUkxHSXZWNFl1ckdaTGdxb0twNVhOYUgwcmJMcjhpb3F5dV9NeUZtVUxRZWJHOGIxWHNvMkxtVmU0MUVOMzc5d1lZbUFWUTdETXBwRkhqMFlIN2RORjA0U2lkSTlnMXlSYmZpUU5SYTBzNl9lY25ONzFQV0wwdlZ4UHUxakd2alhlM2JabHY5S2pyX3pSSW51N0gzRy1B?oc=5",
+        "domain": "occrp.org",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T101931Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
         "domain": "eualive",
@@ -118771,19 +118664,10 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "bastillepost.com",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sanctions Stir Controversy: Ukraine Targets Former Aide",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV2VTbDAtZDhPUzZyTm5YYV9TT0p3dmNJMzJkdU5FdXRKU0V4RjZ1U0VZVGRoOWhDcHFoc25JN0pmODZFUFY0WHV0ZVp6dms3NC14UzdvVnN2SFk4QmMyN2FOVXh6LTM5a3hXRjBhM0U5QVIwNXBEel9SN1ZjNlNnSnp5MWpia1VOTkZSelZaSGVxZUdmTUR4NDJwdmhyWkE3akR3aFRycHdnVUNIVWlxWGxB0gGyAUFVX3lxTE5XZVNsMC1kOE9TNnJOblhhX1NPSnd2Y0kzMmR1TkV1dEpTRXhGNnVTRVlUZGg5aENwcWhzbkk3SmY4NkVQVjRYdXRlWnp2azc0LXhTN29Wc3ZIWThCYzI3YU5VeHotMzlreFdGMGEzRTlBUjA1cER6X1I3VmM2U2dKenkxamJrVU5ORlJ6VlpIZXFlR2ZNRHg0MnB2aHJaQTdqRHdoVHJwd2dVQ0hVaXFYbEE?oc=5",
-        "domain": "devdiscourse",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T182506Z",
         "source": "GoogleNews"
       },
       {
@@ -118805,15 +118689,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Criminalisation of Sanctions Evasion in the European Union",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdFhKYXU3eDRBcDl5S3hvZ3hfWDlEYTJEYUpmeVFDNWVmeW4zVHVFV0JWZThWNXNSd3NmY2MtSG9PcGIzZEU2VU5LT25LUUtQU2ZYV2NLb0I3Y2d4REtPaVRvSzJxZlFMTzNvOTFSWGJETEltRnp6cXdOSmV0dUhLQnB4a2V1ZkZhOXNMcjd0c0wyY0I1cmlWVS1jcWQyNVdFbjE3dW0wRU5rSUZvcUxMUGp2d0JkTmRpaHZycDJxWGlza21xYlhCREJxZFlVN0pKR3RiMkdGelF1ZlQ5UjBGTVJNNG5CMDVockFjalZR?oc=5",
-        "domain": "iclg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260917T084427Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Politico: The EU Did Not Extend One of Its Sanctions Regimes Against Russia Due to the Stance of Two Countries",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa2g4Q3hQVVFIazhwZTN4anBLcFR1cWRIdU1JQTN1SXZMLWZ3cF96UmRYUmZ1ZWJPVXcxckxPUHgzM29LT3ozZW4ybWpzbkFlcU91LTZoSm1nLTB1YVpNODlfcWJTb3lPaW1VeEhKcUdBMmhfWmVNOXZ0emVGZjVmc3dyNFpMVFNybFlTX1NmVk41aDgwdjltWTg3TWFtTzZmLV9ESXExMDZaZnlIbXRwVzlnMGcyY2RrRG5QQktWbVowS29vNUtIdm14aFlweDVDMHpIdDdYaVFQcWtLQ2QzY3lB0gHnAUFVX3lxTFBBZFRwQkpFWC0xbjg0Z0VqTjlFRzQ2eEtwVFVUWEMwVjROUmFJMmhjVkU2OFFXczRJNE44UDN0ci1EVHp1S1Jwci0tZFk1Z0xHd1RKS2wxUVRLUE9aNUVTS3pJcmlydEd2MmgtYklHbFNSSzJ4QmNXUEcwd0dIZzlhcjJkcEhKOHp1N2k3MzZJQmdLOGFxQ05xMEJQc1M4WGxCWXNKNDNzR19YZHJYOHJPS0E1WmhRbDltc2NjaDdTTkQ4dFJkTnhMYXVXSXBhLU1ValhHczhOYXJ4TDdiTThjZDZ0ck5NTQ?oc=5",
         "domain": "liga.net",
@@ -118823,9 +118698,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The Criminalisation of Sanctions Evasion in the European Union",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdFhKYXU3eDRBcDl5S3hvZ3hfWDlEYTJEYUpmeVFDNWVmeW4zVHVFV0JWZThWNXNSd3NmY2MtSG9PcGIzZEU2VU5LT25LUUtQU2ZYV2NLb0I3Y2d4REtPaVRvSzJxZlFMTzNvOTFSWGJETEltRnp6cXdOSmV0dUhLQnB4a2V1ZkZhOXNMcjd0c0wyY0I1cmlWVS1jcWQyNVdFbjE3dW0wRU5rSUZvcUxMUGp2d0JkTmRpaHZycDJxWGlza21xYlhCREJxZFlVN0pKR3RiMkdGelF1ZlQ5UjBGTVJNNG5CMDVockFjalZR?oc=5",
+        "domain": "iclg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T084427Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
-        "domain": "straitstimes.com",
+        "domain": "thestraitstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260913T183100Z",
@@ -118852,19 +118736,10 @@
       {
         "title": "Zelensky imposes sanctions on former spokeswoman",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZlVkc2lVOWxBUERTd0gzVTk3Vi1FV09teGxxMW5HZThnZm0wRjdIbmFzOVNUUmcyYVJXMXBqS0V3RDBHRlhHTWVwa3hUOWVCa0JQVE9Sa2lpZnEyMUtMVjd3NVdmWWM2aGQ5ZnBtOVlQQmZPUmM3XzFoNUd0Rzl5RVJfaWFiSUc1UC02THBoQ0J2blV5WnQ40gGIAUFVX3lxTE1hZnNWSGQ5RTF6MlBuZ1VYa1NMdlZCVEtzV2Y1THRpUWhYNHlvZkxsbjdtUVo4ckFwSy15RmxhRjVJMEtNN0gzVFdjWDEwMDllUXAwZWRGR3ZSdlN5RWgzaEREYXdJc2Mxei1WUWJJWS1vRGlqOVJFRTl5M20tcWV0NFpSN0piaEE?oc=5",
-        "domain": "en.vijesti.me",
+        "domain": "vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260913T185435Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Abdul Malik al-Houthi: The leader driving the fight against Saudi | Gravitas",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTE5OWEJwTVd5ejVySXRCMDlvaXhUZXl2V1ZMalRrVUg5dnRWd0ZGNzFFTm11U3hZTTNJLXlkdm5sb0NyWGRfRlZRLTFXdE42NjFSVF90TlUyemlEVFRyQWs0clpZY2NPRkNwU2ttZE90TTdWWTZIenl1b3pLQUdZTnpvdHNMUERZYW1lek9Tem9hTVVVTm12eWNfT2V4NURKNWFDSjJYSUsxOTc5R29Ldmk1dXlLVjBRUGc3c9IBwgFBVV95cUxNMFBDMzBmZkdva05GQmhKaF9Id1p0YjFhY0l5cC1GMVBmb2pWeXJVNjJPTTVZRUx0M2NLX29iMU1FQ3YzOHd0MmI4UkFQMGY5b2dUVWhzampMcjVHbC02eV92VXVmVEFxRTByS1V6RHhaOFF2ZWdmcnJrRFF2VG5HckJoeS1PWEpCQ3NKNmJLWk5CT0NIQTQ3UzNBN2oyWEg2cTVCTWNqX0xjSE9tOVdxSmwxc3RiYVlzTFlQTi0wejB5UQ?oc=5",
-        "domain": "wion",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260917T181700Z",
         "source": "GoogleNews"
       },
       {
@@ -118874,6 +118749,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260914T083255Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Abdul Malik al-Houthi: The leader driving the fight against Saudi | Gravitas",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMFBDMzBmZkdva05GQmhKaF9Id1p0YjFhY0l5cC1GMVBmb2pWeXJVNjJPTTVZRUx0M2NLX29iMU1FQ3YzOHd0MmI4UkFQMGY5b2dUVWhzampMcjVHbC02eV92VXVmVEFxRTByS1V6RHhaOFF2ZWdmcnJrRFF2VG5HckJoeS1PWEpCQ3NKNmJLWk5CT0NIQTQ3UzNBN2oyWEg2cTVCTWNqX0xjSE9tOVdxSmwxc3RiYVlzTFlQTi0wejB5UdIBwgFBVV95cUxNMFBDMzBmZkdva05GQmhKaF9Id1p0YjFhY0l5cC1GMVBmb2pWeXJVNjJPTTVZRUx0M2NLX29iMU1FQ3YzOHd0MmI4UkFQMGY5b2dUVWhzampMcjVHbC02eV92VXVmVEFxRTByS1V6RHhaOFF2ZWdmcnJrRFF2VG5HckJoeS1PWEpCQ3NKNmJLWk5CT0NIQTQ3UzNBN2oyWEg2cTVCTWNqX0xjSE9tOVdxSmwxc3RiYVlzTFlQTi0wejB5UQ?oc=5",
+        "domain": "wion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T181700Z",
         "source": "GoogleNews"
       },
       {
