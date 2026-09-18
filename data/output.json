@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-18T16:22:35.847750+00:00",
+    "generated": "2026-09-18T20:53:15.317901+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-18T16:20:49.235195+00:00",
+    "issued_at": "2026-09-18T20:51:28.854440+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 29.3,
+    "score": 28.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -104,12 +104,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 6.0,
+        "score": 0.0,
         "current_count": 19393,
-        "previous_count": 19399,
+        "previous_count": 19393,
         "added_count": 0,
-        "removed_count": 6,
-        "changed": true,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-09-17",
         "sha256": "2739bd07a7401aa19930b959e3665772b900924fd54a0d63fd41d20d459f9dce",
         "top_programs": [
@@ -181,44 +181,7 @@
           }
         ],
         "added": [],
-        "removed": [
-          {
-            "id": "33451",
-            "name": "PEOPLE'S FRONT FOR DEMOCRACY AND JUSTICE",
-            "type": "",
-            "program": "ETHIOPIA-EO14046"
-          },
-          {
-            "id": "33534",
-            "name": "W KIDAN, Hagos Ghebrehiwet",
-            "type": "individual",
-            "program": "ETHIOPIA-EO14046"
-          },
-          {
-            "id": "33535",
-            "name": "NEMARIAM, Abraha Kassa",
-            "type": "individual",
-            "program": "ETHIOPIA-EO14046"
-          },
-          {
-            "id": "33597",
-            "name": "ERITREAN DEFENSE FORCES",
-            "type": "",
-            "program": "ETHIOPIA-EO14046"
-          },
-          {
-            "id": "33918",
-            "name": "RED SEA TRADING CORPORATION",
-            "type": "",
-            "program": "ETHIOPIA-EO14046"
-          },
-          {
-            "id": "33919",
-            "name": "HIDRI TRUST",
-            "type": "",
-            "program": "ETHIOPIA-EO14046"
-          }
-        ],
+        "removed": [],
         "retained": false
       },
       {
@@ -1300,6 +1263,17 @@
           "official_posture_shift": 42.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-18T20:51:28.854440+00:00",
+        "score": 28.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 42.0,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1364,7 +1338,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "29.3/100",
+      "value": "28.1/100",
       "delta": "BASELINE"
     },
     {
@@ -118577,21 +118551,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Government Announces New Iran Sanctions Measures",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMHBLLW9QNG5ZSDl2cTRkTWpCdm1PTU1FaloyMG5yOTFiWjNLZGE0QTFDbkx5OWZxeVM0WC1idl9FN1N4bWZyM3R5NWxhMjRxN0lTUW9NdEVXMHFSVFI5R1l3azhlVm5JSzRhaS0weTJMQ3c1Z1lZeDktYl8tQnhGUw?oc=5",
-        "domain": "jdsupra",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T194950Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "When a sanctioned person dies: the next compliance problem",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXlBc01jNWFOUU5LUGFEMElESEx0d3lQcWx3SjRDcHJpMnpxcThXckZlTXlOYW85cmprMGIzVERxWDFScGNrTGt6U3FhNklWX2ZqbC1iSlR2NWFGSlJfT0xmZFgyVGVJaHY0M1c2WE92clBWV1RfYXNCNmNGSEV4eXBCT0JER1RPdHpnaE1Dci1NaHlwdFVHbUJSb1BsZGVYdUY2am5HQkFoWlBfek9UaUFDbnZpNmI0?oc=5",
         "domain": "globalinvestigationsreview",
         "language": "",
         "tone": 0,
-        "seendate": "20260918T141218Z",
+        "seendate": "20260918T141622Z",
         "source": "GoogleNews"
       },
       {
@@ -118615,7 +118580,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2Wnl0YTVfdTM1VG9IaXFtaGMwOGI4ZV9XNWdWT1dRSFhNT3ZEeFhTYkhTT1BBS2xXdlBfUGpwMlV2UEZMVUpLdnU5TmJ5b1VpOFhpT2VITXpsdnNwRXdfQzVOMmdTNUFFSjhqNFU3eFZhTlhWcy0yNEhSYmU?oc=5",
-        "domain": "xinhua",
+        "domain": "english.news.cn",
         "language": "",
         "tone": 0,
         "seendate": "20260911T232315Z",
@@ -118633,10 +118598,19 @@
       {
         "title": "Raiffeisen Bank International-Linked Customs Records Show $1.19 Billion in Trade Matching Sanctions and Export-Control Restrictions While €12.6 Billion Remains Trapped in Russia – Grizzly Research LLC",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wSFljeW82eTcyZkN1MGU0cmc2TjcxT19OQ1pnWURERnROcmJXMjdmbVdzMTI2OGNPdkswR0I0Q2dUX0ZSMGc?oc=5",
-        "domain": "grizzlyresearch",
+        "domain": "grizzlyreports.com",
         "language": "",
         "tone": 0,
         "seendate": "20260917T050000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "U.S Sanctions Iran’s BitBank Over Bitcoin Payments Linked To Strait Of Hormuz Shipping Tolls",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSV9xdThVUkZLWVNzREprYXU3cVhwOUUydFRtVWdhR0lNMkJ5UTU4OFhyLWVPNVJYc1ZMb1ByVG1Vaktwc2dMMEUzTHlMMWVISVc4dEtDUS1iSFpVVUk5MWlUcm9qVWhLSjgyOUlHOWljNTF1STRfSU9HdjJrMFpxODVib1hhV2p5QlhjWjZrYzdqNnNtaGs1R2kyZEs2QXUxdHhoeDNsWmJGOExSOGNtc1NKeXVKQjExUmV3eXA2RQ?oc=5",
+        "domain": "marineinsight",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T120345Z",
         "source": "GoogleNews"
       },
       {
@@ -118649,18 +118623,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "U.S Sanctions Iran’s BitBank Over Bitcoin Payments Linked To Strait Of Hormuz Shipping Tolls",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSV9xdThVUkZLWVNzREprYXU3cVhwOUUydFRtVWdhR0lNMkJ5UTU4OFhyLWVPNVJYc1ZMb1ByVG1Vaktwc2dMMEUzTHlMMWVISVc4dEtDUS1iSFpVVUk5MWlUcm9qVWhLSjgyOUlHOWljNTF1STRfSU9HdjJrMFpxODVib1hhV2p5QlhjWjZrYzdqNnNtaGs1R2kyZEs2QXUxdHhoeDNsWmJGOExSOGNtc1NKeXVKQjExUmV3eXA2RQ?oc=5",
-        "domain": "marineinsight.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T120345Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "CRYPTO CRIME | U.S Sanctions a $20 Billion Chinese-Language Online Market with Assistance from Tether",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95eThZZ3N0S2c1OVBxeGNYVUJ1OHV3bEFTVTM5ckZfVGRIbWd4R1FOcm5NaWJTZVRZNV9GNGdIWDBWaElab2Vhak1Ha0FZZWNGTVNRSUVDRjVHZlpXVkJEc3BIVi1Pa1k5MjlCTW9CVWo2T1FiUWc?oc=5",
-        "domain": "bitke",
+        "domain": "bitcoinke.io",
         "language": "",
         "tone": 0,
         "seendate": "20260914T100036Z",
@@ -118676,9 +118641,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan - Sanctions Laws and Regulations 2027",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tcjJNQXNRZjd6OFlMN0RkanFnQkd0cVpNYVJyUkNWMVlCOEZpN0I4bUl5ZGtkV2dVZ0hqN1NRdmt5eEFOQWlpQTI2NXhab0NQTGNSbjI3T21yM0Vu?oc=5",
+        "domain": "iclg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
-        "domain": "eualive",
+        "domain": "eualive.net",
         "language": "",
         "tone": 0,
         "seendate": "20260915T095757Z",
@@ -118687,7 +118661,7 @@
       {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "news.google.com",
+        "domain": "bastillepost.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
@@ -118721,12 +118695,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Politico: The EU Did Not Extend One of Its Sanctions Regimes Against Russia Due to the Stance of Two Countries",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa2g4Q3hQVVFIazhwZTN4anBLcFR1cWRIdU1JQTN1SXZMLWZ3cF96UmRYUmZ1ZWJPVXcxckxPUHgzM29LT3ozZW4ybWpzbkFlcU91LTZoSm1nLTB1YVpNODlfcWJTb3lPaW1VeEhKcUdBMmhfWmVNOXZ0emVGZjVmc3dyNFpMVFNybFlTX1NmVk41aDgwdjltWTg3TWFtTzZmLV9ESXExMDZaZnlIbXRwVzlnMGcyY2RrRG5QQktWbVowS29vNUtIdm14aFlweDVDMHpIdDdYaVFQcWtLQ2QzY3lB0gHnAUFVX3lxTFBBZFRwQkpFWC0xbjg0Z0VqTjlFRzQ2eEtwVFVUWEMwVjROUmFJMmhjVkU2OFFXczRJNE44UDN0ci1EVHp1S1Jwci0tZFk1Z0xHd1RKS2wxUVRLUE9aNUVTS3pJcmlydEd2MmgtYklHbFNSSzJ4QmNXUEcwd0dIZzlhcjJkcEhKOHp1N2k3MzZJQmdLOGFxQ05xMEJQc1M4WGxCWXNKNDNzR19YZHJYOHJPS0E1WmhRbDltc2NjaDdTTkQ4dFJkTnhMYXVXSXBhLU1ValhHczhOYXJ4TDdiTThjZDZ0ck5NTQ?oc=5",
-        "domain": "liga.net",
+        "title": "Australia - Sanctions Laws and Regulations 2027",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YWEM2S2VDbng0VGVra3kwQ1BHNVlhUGVCX0psYnp4dXpnR0ZHaDg4WVRkLUN4cDJ6WTJpQmxQeVpENG8yQTFpZEVkanpLMkdQODFwLWg3TWQxeVUyRG41ckZR?oc=5",
+        "domain": "iclg",
         "language": "",
         "tone": 0,
-        "seendate": "20260914T110900Z",
+        "seendate": "20260918T132433Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU weighs compromise over Usmanov sanctions amid warnings of ‘dangerous precedent’ - FT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcUlMSnFVXzR1UmJSODdma21Gd2ZYLWFOZGU1TGtSd0xoc0psOEhhMk9TN1dBd0k5NWVDRTVUSTVfR0RuNW5UeTlGaEFNZXNfNUVKdVQ1anFud2xueVpXOHFldUhscHpQQ2NiZWVKQmkzR2NURXI0NVNlQnBsRkwzSTFqZk1oSzJka2xSWVdFdlVCY2dkOHBKLS1vN1FCa1MxWGpfUnlnZDJJLTZ1ai0xbjJNQjJqVks4RGxXS2ZlajVTYVXSAcMBQVVfeXFMT3FJTEpxVV80dVJiUjg3ZmttRndmWC1hTmRlNUxrUndMaHNKbDhIYTJPUzdXQXdJOTVlQ0U1VEk1X0dEbjVuVHk5RmhBTWVzXzVFSnVUNWpxbndsbnlaVzhxZXVIbHB6UENjYmVlSkJpM0djVEVyNDVTZUJwbEZMM0kxamZNaEsyZGtsUllXRXZVQmNnZDhwSi0tbzdRQmtTMVhqX1J5Z2QySS02dWotMW4yTUIyalZLOERsV0tmZWo1U2FV?oc=5",
+        "domain": "hromadske",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T143700Z",
         "source": "GoogleNews"
       },
       {
@@ -118745,24 +118728,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260918T113523Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Trump Considers Release of Additional 9/11 Records",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN3E3RDkxUkc2T29pdXk3Z01vRHpkOG9oaEQ1UndUN0dSdGtHU1h4S1ZjaEt2QlZMTE1zVjZfR3A4YnBydGVac3BXZVRtLUtVSW93TWhmdUIzOWJZWTVld3lud2dWYXZOZkNldU9ZWDFndVZYalBmOFU4VnBLeGM3U1dDbTB3Vks2U014Rkp4TFhGc2djWGdUbGI5S0V2YjBRakJzYlc1YVlfbG_SAasBQVVfeXFMTzdxN0Q5MVJHNk9vaXV5N2dNb0R6ZDhvaGhENVJ3VDdHUnRrR1NYeEtWY2hLdkJWTExNc1Y2X0dwOGJwcnRlWnNwV2VUbS1LVUlvd01oZnVCMzliWVk1ZXd5bndnVmF2TmZDZXVPWVgxZ3VWWGpQZjhVOFZwS3hjN1NXQ20wd1ZLNlNNeEZKeExYRnNnY1hnVGxiOUtFdmIwUWpCc2JXNWFZX2xv?oc=5",
-        "domain": "devdiscourse",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T190236Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU weighs compromise over Usmanov sanctions amid warnings of ‘dangerous precedent’ - FT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLWhKNU1WdGo5LVRwTzlTNVpDZFZXNlI0RmlQX2JxbUVtdGhWc01fWDc1X2tJTnpqV2dyNnRqNmdGWkJ3bm54QUNzYTl4Y1Utb0FMQ2p2b3lKR2pyeXRVazUxWkp3c2U4WmE3TzN1QzFlNnVrNzI0anNJUmg5Sm9lby1YZmVKb2xmUi05blUtTnhWUGIteWI3dGp4bGp6TWJQdVNGOEN6NnVmbW9iMGttQW5YVXlXbkthT21waWFB0gHDAUFVX3lxTE9xSUxKcVVfNHVSYlI4N2ZrbUZ3ZlgtYU5kZTVMa1J3TGhzSmw4SGEyT1M3V0F3STk1ZUNFNVRJNV9HRG41blR5OUZoQU1lc181RUp1VDVqcW53bG55Wlc4cWV1SGxwelBDY2JlZUpCaTNHY1RFcjQ1U2VCcGxGTDNJMWpmTWhLMmRrbFJZV0V2VUJjZ2Q4cEotLW83UUJrUzFYal9SeWdkMkktNnVqLTFuMk1CMmpWSzhEbFdLZmVqNVNhVQ?oc=5",
-        "domain": "hromadske.ua",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T143700Z",
         "source": "GoogleNews"
       },
       {
@@ -118829,15 +118794,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump asks Zelensky to stop attacking Russian refineries",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEd9IBTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEdw?oc=5",
-        "domain": "dawn.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T020849Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tight Race: Sweden's Right-Wing Bloc Clinches Victory by a Seat",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzFBdjVQTXFrUEVHM2Jld2ZuUVZ6dHl1SzR4VDJ0NjFhbm9iTERCNW54bnRvY1RPUXpqd2hHOTdoOUZyNU5xcmdXWUJtbndlRWVqeWRjamF1Z01KVG9aN0NYdTg5MUlmNy1sSHdvaE5fWVFPRXNCejI5dHN0MU50Umc4ZnNibWxVTnRicWs1ajMzODNINXJrSDc5dzI2T29MRno0TDlkM3N2YTg3M0xCeHRHa2lxUVlfbkZN0gG7AUFVX3lxTE9vMUF2NVBNcWtQRUczYmV3Zm5RVnp0eXVLNHhUMnQ2MWFub2JMREI1bnhudG9jVE9Remp3aEc5N2g5RnI1TnFyZ1dZQm1ud2VFZWp5ZGNqYXVnTUpUb1o3Q1h1ODkxSWY3LWxId29oTl9ZUU9Fc0J6Mjl0c3QxTnRSZzhmc2JtbFVOdGJxazVqMzM4M0g1cmtINzl3MjZPb0xGejRMOWQzc3ZhODczTEJ4dEdraXFRWV9uRk0?oc=5",
         "domain": "devdiscourse",
@@ -118880,6 +118836,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260914T185840Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Fails to Renew Russia Sanctions a Day Before Expiry",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNajRFWFM1MjdhMTg2VDhhdjZCLTMxalgzWndtb3NTcW5HQUlXM2hDbFBUeXc3SVA1MmRfTHg3dnRuMlEydS1KZkYxbFduaHZmMmd6aFBhTTEwRDRxVFU3c0Rna1UxT0ZnUTJYZFFISi1qS2RKaDdfa2FsbUdJaDJIVEdTNHRaSkJHSG9GZUgzU3RMZw?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T082714Z",
         "source": "GoogleNews"
       },
       {
