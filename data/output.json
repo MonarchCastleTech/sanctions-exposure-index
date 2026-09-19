@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-18T20:53:15.317901+00:00",
+    "generated": "2026-09-19T04:34:25.953731+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-18T20:51:28.854440+00:00",
+    "issued_at": "2026-09-19T04:32:38.936760+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 28.1,
@@ -1266,6 +1266,17 @@
       },
       {
         "timestamp": "2026-09-18T20:51:28.854440+00:00",
+        "score": 28.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 42.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-19T04:32:38.936760+00:00",
         "score": 28.1,
         "level": "BASELINE",
         "components": {
@@ -118526,7 +118537,7 @@
       {
         "title": "What the UN’s Darfur Sanctions Rollover Reveals About the Next Phase of Sudan’s War",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3ZzakZjODllLTMySURRQXNfZWF4enYwcExnTlZCZHc0MFdLblFTQ21uNU85aFdmTlZ1UTVnelRUTHgxNGRjVWpGckJXQW5lQXZQNHhkLVVOcnMyaklMTVBiMGJJWUpOTVhxYW1WWkdRdTl1a2tsSUJxUkdEaGxWYlRWSk5qU0tfcjZMSWlpaEJfb3FNSVhiVF9WVy00aUM1c244ZlBhSUhHUUN3Q2NkVHp0bGkwczQ?oc=5",
-        "domain": "hornreview",
+        "domain": "hornreview.org",
         "language": "",
         "tone": 0,
         "seendate": "20260915T072414Z",
@@ -118578,15 +118589,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council approves technical rollover of Sudan sanctions",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2Wnl0YTVfdTM1VG9IaXFtaGMwOGI4ZV9XNWdWT1dRSFhNT3ZEeFhTYkhTT1BBS2xXdlBfUGpwMlV2UEZMVUpLdnU5TmJ5b1VpOFhpT2VITXpsdnNwRXdfQzVOMmdTNUFFSjhqNFU3eFZhTlhWcy0yNEhSYmU?oc=5",
-        "domain": "english.news.cn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260911T232315Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Zelensky Imposes 10-Year Sanctions on His Former Press Secretary Yulia Mendel",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3V1pWS3Z1eEJSSVExYTN0NHBqbWljZ2tfM0R5TlpyeTRaWmNLVGVyZUVXblhsdDJxekxock5QWG9vQk9wdzZaRkVjek1NV0FpVFNQN0ZNQVppWFp0QnJkRGIzR21aaWpNSmhrcFM0dzVrUQ?oc=5",
         "domain": "sfgmedia",
@@ -118598,7 +118600,7 @@
       {
         "title": "Raiffeisen Bank International-Linked Customs Records Show $1.19 Billion in Trade Matching Sanctions and Export-Control Restrictions While €12.6 Billion Remains Trapped in Russia – Grizzly Research LLC",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wSFljeW82eTcyZkN1MGU0cmc2TjcxT19OQ1pnWURERnROcmJXMjdmbVdzMTI2OGNPdkswR0I0Q2dUX0ZSMGc?oc=5",
-        "domain": "grizzlyreports.com",
+        "domain": "grizzlyresearch",
         "language": "",
         "tone": 0,
         "seendate": "20260917T050000Z",
@@ -118625,10 +118627,19 @@
       {
         "title": "CRYPTO CRIME | U.S Sanctions a $20 Billion Chinese-Language Online Market with Assistance from Tether",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95eThZZ3N0S2c1OVBxeGNYVUJ1OHV3bEFTVTM5ckZfVGRIbWd4R1FOcm5NaWJTZVRZNV9GNGdIWDBWaElab2Vhak1Ha0FZZWNGTVNRSUVDRjVHZlpXVkJEc3BIVi1Pa1k5MjlCTW9CVWo2T1FiUWc?oc=5",
-        "domain": "bitcoinke.io",
+        "domain": "bitke",
         "language": "",
         "tone": 0,
         "seendate": "20260914T100036Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Belgian court ruling raises new legal problem over €200bn in frozen Russian assets",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fVlFwM3FHdXdMM0FhdFF6UF9qLTJtU1JFU0Y4NlFNYTJCSHdDNXFlTHUyZDFPMnphdHlDSUw1NmUwRlYzOXRBT1BZWHBZZ3hzRVRwbi1LemFyNkxqWDlDMFRLSmVxWnRmX0M4cEh4N2ZYRVpi?oc=5",
+        "domain": "eutoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260916T204327Z",
         "source": "GoogleNews"
       },
       {
@@ -118641,27 +118652,36 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan - Sanctions Laws and Regulations 2027",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tcjJNQXNRZjd6OFlMN0RkanFnQkd0cVpNYVJyUkNWMVlCOEZpN0I4bUl5ZGtkV2dVZ0hqN1NRdmt5eEFOQWlpQTI2NXhab0NQTGNSbjI3T21yM0Vu?oc=5",
-        "domain": "iclg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
-        "domain": "eualive.net",
+        "domain": "eualive",
         "language": "",
         "tone": 0,
         "seendate": "20260915T095757Z",
         "source": "GoogleNews"
       },
       {
+        "title": "Japan - Sanctions Laws and Regulations 2027",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tcjJNQXNRZjd6OFlMN0RkanFnQkd0cVpNYVJyUkNWMVlCOEZpN0I4bUl5ZGtkV2dVZ0hqN1NRdmt5eEFOQWlpQTI2NXhab0NQTGNSbjI3T21yM0Vu?oc=5",
+        "domain": "iclg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T132433Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council approves technical rollover of Sudan sanctions",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNTNYX2hyWlEySnlzN3BTMnBkTmhfbWdGOEc5ODAza0NEdFVWZW5CX1N4aGVNay1DV2NVX3NIcGNoRG1vdFNWS0dUb1dTS0luNGQ3ZlJLQnFlZGJid3pTMHd4ZFh0d1VYdG1BSU5tNEhIWTlERFViRUc3STQ0eFB4OXd3Ym01NkFoLWJWemR4UFVBMWd1U050cg?oc=5",
+        "domain": "macaubusiness.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260912T100853Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Security Council approves technical rollover of Sudan sanctions",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "bastillepost.com",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20260912T112000Z",
@@ -118686,21 +118706,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Thirty years without sanctions: Why international law failed to protect Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdE1tNGhTREt6OVM1Qzd0S2FfanNucnZMUmJwb0o5dWRYZ0J3dGtwVEw5RnBva1A3VE5janhHNVhYN0tmQVVhX2lyTzVOZDU3NGtqY3drNEFoRHZrMF84WmRNTWppYW5YM1NOendLdTJkWUV3XzZlT3dfczlNemFNVmZxd0xpc29lWTl3YkFkTENUMjVOcV9CT3lnNWNOR3VQdG8yYQ?oc=5",
-        "domain": "latestnewsfromazerbaijan",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260916T110043Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Australia - Sanctions Laws and Regulations 2027",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YWEM2S2VDbng0VGVra3kwQ1BHNVlhUGVCX0psYnp4dXpnR0ZHaDg4WVRkLUN4cDJ6WTJpQmxQeVpENG8yQTFpZEVkanpLMkdQODFwLWg3TWQxeVUyRG41ckZR?oc=5",
         "domain": "iclg",
         "language": "",
         "tone": 0,
         "seendate": "20260918T132433Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Thirty years without sanctions: Why international law failed to protect Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdE1tNGhTREt6OVM1Qzd0S2FfanNucnZMUmJwb0o5dWRYZ0J3dGtwVEw5RnBva1A3VE5janhHNVhYN0tmQVVhX2lyTzVOZDU3NGtqY3drNEFoRHZrMF84WmRNTWppYW5YM1NOendLdTJkWUV3XzZlT3dfczlNemFNVmZxd0xpc29lWTl3YkFkTENUMjVOcV9CT3lnNWNOR3VQdG8yYQ?oc=5",
+        "domain": "latestnewsfromazerbaijan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260916T110043Z",
         "source": "GoogleNews"
       },
       {
@@ -118731,6 +118751,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Trump Considers Release of Additional 9/11 Records",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN3E3RDkxUkc2T29pdXk3Z01vRHpkOG9oaEQ1UndUN0dSdGtHU1h4S1ZjaEt2QlZMTE1zVjZfR3A4YnBydGVac3BXZVRtLUtVSW93TWhmdUIzOWJZWTVld3lud2dWYXZOZkNldU9ZWDFndVZYalBmOFU4VnBLeGM3U1dDbTB3Vks2U014Rkp4TFhGc2djWGdUbGI5S0V2YjBRakJzYlc1YVlfbG_SAasBQVVfeXFMTzdxN0Q5MVJHNk9vaXV5N2dNb0R6ZDhvaGhENVJ3VDdHUnRrR1NYeEtWY2hLdkJWTExNc1Y2X0dwOGJwcnRlWnNwV2VUbS1LVUlvd01oZnVCMzliWVk1ZXd5bndnVmF2TmZDZXVPWVgxZ3VWWGpQZjhVOFZwS3hjN1NXQ20wd1ZLNlNNeEZKeExYRnNnY1hnVGxiOUtFdmIwUWpCc2JXNWFZX2xv?oc=5",
+        "domain": "devdiscourse",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260913T190236Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "10 years in jail for sending $1 to terrorist Brenton Tarrant",
         "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQVnlzSDJZNjlWbVBWZzNXWklubmhkclZJeVl3MjB1S2VnWnFqemg4bmZ2QkQzRWx2SVRoR3Q4VllrbTJHY2xSN2syNmFRWlktVld0MTk3dldNd2tKQXlJa0RHMmJEWG02Z29rUFFfTkRWUVgwNE1oaFJKYk9lQjRyckpuakpEaGFzcHlOR1htSm55VkpEUjlLYVJpYUt0dWYwVHBhUVNEbkIwdWRuLTdCVDY3M1I4ZHdfOXlpdjFpX0wyMTJZV0JMTk1td1JPY01XUU5pV2JxSnRlSlFscHN6NVNTQXVWTzg1N1BRRmFWQTM4M1NhLUlkdkdzYXdvb0VLbnQxbHJrcDVWM0FrS0hHUWV2SjBvNVo1ZkEyQg?oc=5",
         "domain": "thedailytelegraph",
@@ -118754,7 +118783,7 @@
         "domain": "wion",
         "language": "",
         "tone": 0,
-        "seendate": "20260917T204845Z",
+        "seendate": "20260917T181700Z",
         "source": "GoogleNews"
       },
       {
@@ -118767,30 +118796,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "HTX Crypto Exchange Review 2026: 3.0 Out of 5, a 0.20% Entry Fee, Two 2023 Incidents and a Sanctions Timeline You Need to Read First",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNC1pdlU1SEI1Z0p4dHBzUkU2eFZFSGVJTUpIMlFwVkg1cFJmVEZtNDB3QzBIOTBZYzZSc1hWSFpHUUQxYnZpQm44STVueTkzVWhFby1jYkRvZG1nSURjcTlzczU3aHFtWlE3aGIxYW1kS1V5czRRTkV3VWl4NF80dnJVODZGLW9wRnctRXZCVldVWGFONWl1XzJ3WDFacE9KaWhQcVYzRGczTVFsMXprRGFBVVVpc2xZNXJyaW1SR2Y?oc=5",
-        "domain": "mexc",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T025339Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Zelenskiy imposes ‘unconstitutional’ sanctions",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSDY1blRSNlUyUWdSQ1BTdElidm9EbmRRanFoLVVuem1tajBUZmRYTndNdnoybG5wVmR3WkpGbzRlYlE2YzVtdE96d3JIWHBLRmdGb0J1M0QtNEFHSkViVFRXS2xyY0daZHZWQXAxTXJDZ250TUZ0YUtHNC1xVEdZSmNndzdic2lDcmlldFNLc0RRdnBKSmNacGZ3Qm8yeDR5bF9MZjNjYWwtNDExUnRVNjJzc1YwOXk2cjc2MENPb0Y0TF9Zb2JRRlEySDItRG9KSlFRNmktd1VDMmF4enBYSU1rcXF4Q1hU?oc=5",
-        "domain": "thenightly",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T083255Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tragedy at Sea: 25 Migrants Missing Off Greek Coast",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcDdnNExHQUJsUFN0UUY4M1JhV3Y1V0gxQ3VVSjA0UU1kaHUxMEFyYmo2cV9sSFd3eFZjc1ZDQkY3Z2E2OUxYUV9hYk5Pa05Qam1PZjk4MUNyQ2RnbVhzb2lreElJV2dXZ29lTkU5amJ5WU1TT3djcm81VTZoVGJYNkhXaFJrSHdMYnJXenZ1X1k1MC13TTZ1TnpFUndBMnl5NlFSWDN4WWtMMHdW0gGsAUFVX3lxTE5wN2c0TEdBQmxQU3RRRjgzUmFXdjVXSDFDdVVKMDRRTWRodTEwQXJiajZxX2xIV3d4VmNzVkNCRjdnYTY5TFhRX2FiTk9rTlBqbU9mOTgxQ3JDZGdtWHNvaWt4SUlXZ1dnb2VORTlqYnlZTVNPd2NybzVVNmhUYlg2SFdoUmtId0xicld6dnVfWTUwLXdNNnVOekVSd0EyeXk2UVJYM3hZa0wwd1Y?oc=5",
         "domain": "devdiscourse",
         "language": "",
         "tone": 0,
         "seendate": "20260913T194405Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump asks Zelensky to stop attacking Russian refineries",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEd9IBTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEdw?oc=5",
+        "domain": "dawn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T020849Z",
         "source": "GoogleNews"
       },
       {
@@ -118809,15 +118829,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260918T060708Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council approves technical rollover of Sudan sanctions",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOW9BdjM4YnZFa0txZURHMDUya2lLRmRUbkUtT3M4Ml9sUkFKMEdXTVJsam9BZl82eV9VSnBsd1czUGdNajl3ZTBzR3ctOElROGdpaXZqaGhaYzFrd0R4QWYxVkJhOEFiX25iRG1EVWdlcEV6NDRQQVI2X1V6WHpDU3I4NmVJQ3c2RjNaM1FfMEh5d2RRN0RNb3EwU2JfSl96c2pjQXV0UXdjWEJv?oc=5",
-        "domain": "eastleighvoice.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260912T051657Z",
         "source": "GoogleNews"
       },
       {
@@ -118845,6 +118856,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260914T082714Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Zelenskiy Sanctions Former Spokeswoman Over Wartime Russian Propaganda",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOREs1ZGFxXy0xcExNYlVKNnptZ3IydzE4RHhPWnM5TkZ3Q1MwSDVNU0ZjQXByVTFIZ2dYOWpkVnFDbFZvVVdkZkRZUkp2Qi05NFc2ZV9aa0haNlV4bzA2WmlrejNKV1psUkNZb3FSRFl4c0o1R2dwYlhTVktZY2M2aG9Ha1Q0RmEyQlFMQzI1T1k2Tm01dFgxRTRNY0tvb3hSYVlnT01jdw?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T083529Z",
         "source": "GoogleNews"
       },
       {
