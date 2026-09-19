@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-19T10:54:15.391095+00:00",
+    "generated": "2026-09-19T15:52:20.069675+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-19T10:52:28.968880+00:00",
+    "issued_at": "2026-09-19T15:50:33.605252+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 28.1,
@@ -1288,6 +1288,17 @@
       },
       {
         "timestamp": "2026-09-19T10:52:28.968880+00:00",
+        "score": 28.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 42.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-19T15:50:33.605252+00:00",
         "score": 28.1,
         "level": "BASELINE",
         "components": {
@@ -118593,7 +118604,7 @@
       {
         "title": "EU extends Russia sanctions for one week only, after France insists on delisting Usmanov",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDVqc2NJeVdHTWEzS3RtaHI0T184OVRrcXpBUjFwdVFwMVZRMUlPN1hLZ1Z0MDBVR29DSzhzQjJPZUJuOVFtNTFlQndZbHU4ZHFXLXZhdE9BbTZ2QUN4cTdjbG1qRkZOUV9sRUhxY2NNMWdSR1VLeUJtUjltMjNKa2lvVi1rMXhkQ1BKS0loOGsxS0NGY1VlejhMZ3RMOVhOLUJDWjhEemlYTzRPX2NieC1OUXVlSmZvS2NYWjhSY2VQVHVWUzNMOVdB?oc=5",
-        "domain": "euobserver.com",
+        "domain": "euobserver",
         "language": "",
         "tone": 0,
         "seendate": "20260914T151129Z",
@@ -118611,7 +118622,7 @@
       {
         "title": "Treasury Sanctions Iranian Crypto Exchange Linked To Hormuz Ship Tolls",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUZwNFZWVGJpaGtrWVBHcW9BR25Na2UtQjJ0Z3hYRTVwNDZNNkJsS0oyNlhXYzhaRHpqd2RUaUk0VDNONjZQYmpsVVRCYWJBbnVielZYZm82Vm9PeXM3a0xGc2dHd3NueXlsY3JVUTVwNExGZUF4UnRWY0gzODR2MzdnSnFKelcxeTJrQWQ2ZkktSndhOW04TS1VdHJiQVBpUWdVTjlMVVJyaTFRbHc?oc=5",
-        "domain": "northeasttimes",
+        "domain": "northeasttimes.com",
         "language": "",
         "tone": 0,
         "seendate": "20260918T150103Z",
@@ -118620,7 +118631,7 @@
       {
         "title": "Zelensky Imposes 10-Year Sanctions on His Former Press Secretary Yulia Mendel",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3V1pWS3Z1eEJSSVExYTN0NHBqbWljZ2tfM0R5TlpyeTRaWmNLVGVyZUVXblhsdDJxekxock5QWG9vQk9wdzZaRkVjek1NV0FpVFNQN0ZNQVppWFp0QnJkRGIzR21aaWpNSmhrcFM0dzVrUQ?oc=5",
-        "domain": "sfgmedia",
+        "domain": "sfg.media",
         "language": "",
         "tone": 0,
         "seendate": "20260914T030406Z",
@@ -118690,21 +118701,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council approves technical rollover of Sudan sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjNVM05iNlVYQlJHeTVEbjdVazRIRGRIRmdtcEQ5am5VNjZ1dmItYXI5NDM4TWQtcElScTQzbGdhUlZlaERjNDBod1JrTjQ2UTFwaGxfdng0dzJvNnVsNXNNZzJ3LW5ETHRqczFUem94ajhka0g0N0pjODZHRmtYN0YyOHk5QWdfMXFHR3Noc2JMbEJkalRvb0J2dTJ1SG9PbWpmeW5iTDJCVlJjaERMXzVEd1Btb2ZwWkE?oc=5",
-        "domain": "bastillepost.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260912T112000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia is attacking Europe. Let’s stop calling it 'hybrid' [OPINION]",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRU9oTmZac0x6WnJFSk44Mnc4dXF5SUpIMm1uWlJmQWxzX1dWNWtPZzJsOFY0TUxQLTE0NVB4eVBzbDVhN29hUDI1QVBHcllwbDBTOWlmSDdJUElRU0pBdlFiaUM2WkRIREdOVEtSX0ZxMzdBd0V6X2J0Mk9TVXB0aEJ6dw?oc=5",
         "domain": "tvpworld",
         "language": "",
         "tone": 0,
         "seendate": "20260918T150200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Eritrea’s Sanctions Expired, Not Formally Lifted",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEV3bWt5dEJHakhCTm1MOUc3clVFV0RiRXYwX014MWh3V2dvSEdmQXBhS3ZZYWlaZW0xQWFUTERXRzZMdWNqRndNTzVERXRWOVBlV0wtZHdpaldYWHZldThyWkt6cU1qNkRSRjBsRUxWbnItQ0F4SVBoUGJBeDlLYkJ3U0JKOEFV?oc=5",
+        "domain": "hornreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260919T152647Z",
         "source": "GoogleNews"
       },
       {
@@ -118762,6 +118773,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Politico: The EU Did Not Extend One of Its Sanctions Regimes Against Russia Due to the Stance of Two Countries",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa2g4Q3hQVVFIazhwZTN4anBLcFR1cWRIdU1JQTN1SXZMLWZ3cF96UmRYUmZ1ZWJPVXcxckxPUHgzM29LT3ozZW4ybWpzbkFlcU91LTZoSm1nLTB1YVpNODlfcWJTb3lPaW1VeEhKcUdBMmhfWmVNOXZ0emVGZjVmc3dyNFpMVFNybFlTX1NmVk41aDgwdjltWTg3TWFtTzZmLV9ESXExMDZaZnlIbXRwVzlnMGcyY2RrRG5QQktWbVowS29vNUtIdm14aFlweDVDMHpIdDdYaVFQcWtLQ2QzY3lB0gHnAUFVX3lxTFBBZFRwQkpFWC0xbjg0Z0VqTjlFRzQ2eEtwVFVUWEMwVjROUmFJMmhjVkU2OFFXczRJNE44UDN0ci1EVHp1S1Jwci0tZFk1Z0xHd1RKS2wxUVRLUE9aNUVTS3pJcmlydEd2MmgtYklHbFNSSzJ4QmNXUEcwd0dIZzlhcjJkcEhKOHp1N2k3MzZJQmdLOGFxQ05xMEJQc1M4WGxCWXNKNDNzR19YZHJYOHJPS0E1WmhRbDltc2NjaDdTTkQ4dFJkTnhMYXVXSXBhLU1ValhHczhOYXJ4TDdiTThjZDZ0ck5NTQ?oc=5",
+        "domain": "news.liga.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T110900Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Belgian Court Limits Treasury's Role on Russian Bank Frozen Assets",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd2pFQ2Z3Z3cwbkFhRWtOam41UW9LTVNHZ2F3bUFyMUgxNFRyMzhlTEtxWlZJSXBMdlNnaGtXU2I3Tm5SdnhlZXJFd3RLWWJKVTMzY0k2UXRpOGRyQS1MU29ncVZ4WklUR1Z3Qk1Vc1UyM29DazBfVFdRbzI0TkR0d3NpTUE3aG43UWZhT2JCSm1iOEJpOWEzdWJzSQ?oc=5",
         "domain": "globalbankingfinancereview",
@@ -118786,6 +118806,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260918T113523Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Treasury Sanctions Iranian Crypto Exchange BitBank Over Bitcoin Transfers to IRGC",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQM09USGRnaGNFcC14d2hxUFBZZkY4VUxjeXpPYzl4LXBHcDBoRUwtUFk5X1I3MGh3UzdzWWlKS3Q1VW5SazBrN0RyeDZJVzFXX2lFMkNCTGU1TjlyTW1qOFQ1ZUJ1R2hyVFpxLW80SkRqTmxkd3lHSW5sVXF0YlAzVjdZeGo?oc=5",
+        "domain": "cryptorank",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T000151Z",
         "source": "GoogleNews"
       },
       {
@@ -118834,21 +118863,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "10 years in jail for sending $1 to terrorist Brenton Tarrant",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNEpfTmU5c0xLN1FwQmx5RklHb2VnVlpNZy11N0d4b2cyS1VBLU1FcHhqVktmb0JVZ1N5UEF0VlpXSGZOUmZwb0c1N3dDMjRyREs5RENOeV8yUkpPZGUwT051cGs1Wkd4WldRRHJVb2M4RDktQ29UTV9UdHVQRUFMbzJVSjYxVzBINW9ZVWc5RklqY2FHZW05UFBPV2NULTlRU09FSEdlZF83aVlLeTJnWXZaUlBieTdHZDF4RkI4VFlXYlptNFFKeTlUdEtncVpTd3Q2LTlXVlhnZExwUElsSzVEMk5LTVp4LW1sM1o2bm05Vk1UdUFiTGc0Ujd0aURoc3VyM3l3bUtPN0k?oc=5",
-        "domain": "heraldsun",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260917T101711Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tight Race: Sweden's Right-Wing Bloc Clinches Victory by a Seat",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzFBdjVQTXFrUEVHM2Jld2ZuUVZ6dHl1SzR4VDJ0NjFhbm9iTERCNW54bnRvY1RPUXpqd2hHOTdoOUZyNU5xcmdXWUJtbndlRWVqeWRjamF1Z01KVG9aN0NYdTg5MUlmNy1sSHdvaE5fWVFPRXNCejI5dHN0MU50Umc4ZnNibWxVTnRicWs1ajMzODNINXJrSDc5dzI2T29MRno0TDlkM3N2YTg3M0xCeHRHa2lxUVlfbkZN0gG7AUFVX3lxTE9vMUF2NVBNcWtQRUczYmV3Zm5RVnp0eXVLNHhUMnQ2MWFub2JMREI1bnhudG9jVE9Remp3aEc5N2g5RnI1TnFyZ1dZQm1ud2VFZWp5ZGNqYXVnTUpUb1o3Q1h1ODkxSWY3LWxId29oTl9ZUU9Fc0J6Mjl0c3QxTnRSZzhmc2JtbFVOdGJxazVqMzM4M0g1cmtINzl3MjZPb0xGejRMOWQzc3ZhODczTEJ4dEdraXFRWV9uRk0?oc=5",
         "domain": "devdiscourse",
         "language": "",
         "tone": 0,
         "seendate": "20260913T195319Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "10 years in jail for sending $1 to terrorist Brenton Tarrant",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNEpfTmU5c0xLN1FwQmx5RklHb2VnVlpNZy11N0d4b2cyS1VBLU1FcHhqVktmb0JVZ1N5UEF0VlpXSGZOUmZwb0c1N3dDMjRyREs5RENOeV8yUkpPZGUwT051cGs1Wkd4WldRRHJVb2M4RDktQ29UTV9UdHVQRUFMbzJVSjYxVzBINW9ZVWc5RklqY2FHZW05UFBPV2NULTlRU09FSEdlZF83aVlLeTJnWXZaUlBieTdHZDF4RkI4VFlXYlptNFFKeTlUdEtncVpTd3Q2LTlXVlhnZExwUElsSzVEMk5LTVp4LW1sM1o2bm05Vk1UdUFiTGc0Ujd0aURoc3VyM3l3bUtPN0k?oc=5",
+        "domain": "heraldsun",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T180000Z",
         "source": "GoogleNews"
       },
       {
@@ -118897,30 +118926,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury imposes sanctions on Russia’s VTB Bank for Iranian sanctions evasion",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNOGtvOUkwM3VzZnFGSkJLTHNLd0hHa21CQjB1M21jbjRxZnhGQjh4MTVuWGU0bDlNNEFfcWRRS1Z1ZEJmeV9ldzE1MjB1NExIMFo2aWtRR1YxNzBCcDZKaVdkNE1LNXJHLWNXWExOcmQ?oc=5",
-        "domain": "cryptobriefing.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T185840Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU Fails to Renew Russia Sanctions a Day Before Expiry",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNajRFWFM1MjdhMTg2VDhhdjZCLTMxalgzWndtb3NTcW5HQUlXM2hDbFBUeXc3SVA1MmRfTHg3dnRuMlEydS1KZkYxbFduaHZmMmd6aFBhTTEwRDRxVFU3c0Rna1UxT0ZnUTJYZFFISi1qS2RKaDdfa2FsbUdJaDJIVEdTNHRaSkJHSG9GZUgzU3RMZw?oc=5",
         "domain": "streamlinefeed.co.ke",
         "language": "",
         "tone": 0,
         "seendate": "20260914T082714Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Zelenskiy Sanctions Former Spokeswoman Over Wartime Russian Propaganda",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOREs1ZGFxXy0xcExNYlVKNnptZ3IydzE4RHhPWnM5TkZ3Q1MwSDVNU0ZjQXByVTFIZ2dYOWpkVnFDbFZvVVdkZkRZUkp2Qi05NFc2ZV9aa0haNlV4bzA2WmlrejNKV1psUkNZb3FSRFl4c0o1R2dwYlhTVktZY2M2aG9Ha1Q0RmEyQlFMQzI1T1k2Tm01dFgxRTRNY0tvb3hSYVlnT01jdw?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T083529Z",
         "source": "GoogleNews"
       },
       {
