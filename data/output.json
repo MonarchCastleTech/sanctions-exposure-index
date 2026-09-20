@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-20T04:50:52.623180+00:00",
+    "generated": "2026-09-20T11:18:13.437680+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-20T04:49:06.077773+00:00",
+    "issued_at": "2026-09-20T11:16:27.054183+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 28.1,
@@ -1321,6 +1321,17 @@
       },
       {
         "timestamp": "2026-09-20T04:49:06.077773+00:00",
+        "score": 28.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 42.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-20T11:16:27.054183+00:00",
         "score": 28.1,
         "level": "BASELINE",
         "components": {
@@ -118590,7 +118601,7 @@
       {
         "title": "What the UN’s Darfur Sanctions Rollover Reveals About the Next Phase of Sudan’s War",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3ZzakZjODllLTMySURRQXNfZWF4enYwcExnTlZCZHc0MFdLblFTQ21uNU85aFdmTlZ1UTVnelRUTHgxNGRjVWpGckJXQW5lQXZQNHhkLVVOcnMyaklMTVBiMGJJWUpOTVhxYW1WWkdRdTl1a2tsSUJxUkdEaGxWYlRWSk5qU0tfcjZMSWlpaEJfb3FNSVhiVF9WVy00aUM1c244ZlBhSUhHUUN3Q2NkVHp0bGkwczQ?oc=5",
-        "domain": "hornreview.org",
+        "domain": "hornreview",
         "language": "",
         "tone": 0,
         "seendate": "20260915T072414Z",
@@ -118615,12 +118626,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "When a sanctioned person dies: the next compliance problem",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXlBc01jNWFOUU5LUGFEMElESEx0d3lQcWx3SjRDcHJpMnpxcThXckZlTXlOYW85cmprMGIzVERxWDFScGNrTGt6U3FhNklWX2ZqbC1iSlR2NWFGSlJfT0xmZFgyVGVJaHY0M1c2WE92clBWV1RfYXNCNmNGSEV4eXBCT0JER1RPdHpnaE1Dci1NaHlwdFVHbUJSb1BsZGVYdUY2am5HQkFoWlBfek9UaUFDbnZpNmI0?oc=5",
-        "domain": "globalinvestigationsreview",
+        "title": "A Preview of the Upcoming Xi-Trump Summit",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeExOQV9vZUQxR0U5VkVhZUNOTXBtczVPWHh5WkhXMXJpMHF0dTR6RkFqaHVlbG9FYlFWeWdhWHBndENaVElVTnJYeVAxdV9EX1VPb1hhZW16bnE3SVIzb09TbDh1MnVhcHFKdWlMcWhDa2VNSFh0aVJGZkRwYUdRd2ctQ1NmMUxKWExrOWxn?oc=5",
+        "domain": "china-usfocus",
         "language": "",
         "tone": 0,
-        "seendate": "20260918T141622Z",
+        "seendate": "20260918T133434Z",
         "source": "GoogleNews"
       },
       {
@@ -118639,15 +118650,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260917T050000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sanctions Update: Key UK and US Developments",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBEZDVZWnpwOFVSSkp0ZjNPblFHeUdRSlhxdnZNQ3RhVHR5WUlWbWloZi00SHZpWWJ0SFM3TUhEdldmRTdMVUNTcDNKdWxLalpPT0ZoVzk2N3c5ekVjWW9MOVJfb3NxQUg5cVI3bzNWX2F5QW1hXzRn?oc=5",
-        "domain": "bcl.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -118714,18 +118716,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia is attacking Europe. Let’s stop calling it 'hybrid' [OPINION]",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRU9oTmZac0x6WnJFSk44Mnc4dXF5SUpIMm1uWlJmQWxzX1dWNWtPZzJsOFY0TUxQLTE0NVB4eVBzbDVhN29hUDI1QVBHcllwbDBTOWlmSDdJUElRU0pBdlFiaUM2WkRIREdOVEtSX0ZxMzdBd0V6X2J0Mk9TVXB0aEJ6dw?oc=5",
-        "domain": "tvpworld",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T150200Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Eritrea’s Sanctions Expired, Not Formally Lifted",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEV3bWt5dEJHakhCTm1MOUc3clVFV0RiRXYwX014MWh3V2dvSEdmQXBhS3ZZYWlaZW0xQWFUTERXRzZMdWNqRndNTzVERXRWOVBlV0wtZHdpaldYWHZldThyWkt6cU1qNkRSRjBsRUxWbnItQ0F4SVBoUGJBeDlLYkJ3U0JKOEFV?oc=5",
-        "domain": "hornreview.org",
+        "domain": "hornreview",
         "language": "",
         "tone": 0,
         "seendate": "20260919T152647Z",
@@ -118738,6 +118731,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260918T132433Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Broadening Reach of EU Sanctions Against Russia",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOQ3lraHpsekEwMFJyV3IyYVhSa3pTTllaejRwaU1Ib1c0SnZUdGxndFpEeDdUdHB0aG5uZmcwbURIbXc5dHMxX21nYVZLeW1WbGRZOWZ1Rlp4X2NQV0JTTUFoYXJhMnhYRC0wZG92b2lvU1FSNThUNzRYd0RjeWYwaWNnMFpNVHR2ektLQzk5VVJUejhHWDRGY2JhaEFidlVwVGRXa1NHd0gzZ0RPc090QmNUTHUyM1F2aW5ZcUR2UEQtTDV1QW12OWhWTDA4RkZBMHY2VmpTNVVpY19RVWJfeXZxR1dTNTFUNEFIRXJyWUg0QzdYclRRWTFMVW45dHk0c18yTmM2TQ?oc=5",
+        "domain": "iclg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T084426Z",
         "source": "GoogleNews"
       },
       {
@@ -118759,18 +118761,36 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France and Slovakia have made it more difficult to extend EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbFZBdk1hdmtBeWRzcXpPcm5sUmhLVkFmdmd1ZnYxZ05IR1J0YnlLcWFtQjBtWXV2OU9ITGs5dkZDam5QRzllUENfUHRGUzlsbHgxNnp5RVQya2tUSG9wV2E2RU1BeklxRHlycTh5Z0NvQUJGQldaUVRESzlQZ2daWGt1RS1DN2VLX2ladkhVeEc?oc=5",
-        "domain": "ua.news",
+        "title": "The Criminalisation of Sanctions Evasion in the European Union",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdFhKYXU3eDRBcDl5S3hvZ3hfWDlEYTJEYUpmeVFDNWVmeW4zVHVFV0JWZThWNXNSd3NmY2MtSG9PcGIzZEU2VU5LT25LUUtQU2ZYV2NLb0I3Y2d4REtPaVRvSzJxZlFMTzNvOTFSWGJETEltRnp6cXdOSmV0dUhLQnB4a2V1ZkZhOXNMcjd0c0wyY0I1cmlWVS1jcWQyNVdFbjE3dW0wRU5rSUZvcUxMUGp2d0JkTmRpaHZycDJxWGlza21xYlhCREJxZFlVN0pKR3RiMkdGelF1ZlQ5UjBGTVJNNG5CMDVockFjalZR?oc=5",
+        "domain": "iclg",
         "language": "",
         "tone": 0,
-        "seendate": "20260914T155352Z",
+        "seendate": "20260917T084427Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia is attacking Europe. Let’s stop calling it 'hybrid' [OPINION]",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRU9oTmZac0x6WnJFSk44Mnc4dXF5SUpIMm1uWlJmQWxzX1dWNWtPZzJsOFY0TUxQLTE0NVB4eVBzbDVhN29hUDI1QVBHcllwbDBTOWlmSDdJUElRU0pBdlFiaUM2WkRIREdOVEtSX0ZxMzdBd0V6X2J0Mk9TVXB0aEJ6dw?oc=5",
+        "domain": "tvpworld.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T150200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QV3FkdjdOYmZUckxNeVlnbU0yVWw3ajRMMFp6RmhtVXQ1a0FzdXc2T2FGX2hHV1ZlV3NqUHU3eDJZbVUxR1JtUzdxQQ?oc=5",
+        "domain": "kyivpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260920T081641Z",
         "source": "GoogleNews"
       },
       {
         "title": "Politico: The EU Did Not Extend One of Its Sanctions Regimes Against Russia Due to the Stance of Two Countries",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa2g4Q3hQVVFIazhwZTN4anBLcFR1cWRIdU1JQTN1SXZMLWZ3cF96UmRYUmZ1ZWJPVXcxckxPUHgzM29LT3ozZW4ybWpzbkFlcU91LTZoSm1nLTB1YVpNODlfcWJTb3lPaW1VeEhKcUdBMmhfWmVNOXZ0emVGZjVmc3dyNFpMVFNybFlTX1NmVk41aDgwdjltWTg3TWFtTzZmLV9ESXExMDZaZnlIbXRwVzlnMGcyY2RrRG5QQktWbVowS29vNUtIdm14aFlweDVDMHpIdDdYaVFQcWtLQ2QzY3lB0gHnAUFVX3lxTFBBZFRwQkpFWC0xbjg0Z0VqTjlFRzQ2eEtwVFVUWEMwVjROUmFJMmhjVkU2OFFXczRJNE44UDN0ci1EVHp1S1Jwci0tZFk1Z0xHd1RKS2wxUVRLUE9aNUVTS3pJcmlydEd2MmgtYklHbFNSSzJ4QmNXUEcwd0dIZzlhcjJkcEhKOHp1N2k3MzZJQmdLOGFxQ05xMEJQc1M4WGxCWXNKNDNzR19YZHJYOHJPS0E1WmhRbDltc2NjaDdTTkQ4dFJkTnhMYXVXSXBhLU1ValhHczhOYXJ4TDdiTThjZDZ0ck5NTQ?oc=5",
-        "domain": "liga.net",
+        "domain": "news.liga.net",
         "language": "",
         "tone": 0,
         "seendate": "20260914T110900Z",
@@ -118779,10 +118799,19 @@
       {
         "title": "UK Freezes $72-Million London Townhouse in Connection to Sanctioned Prince Group Associate",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWNodUM3T0RuTE9PNEJwb2pfbzJOaDZMR053ajhWUkxHSXZWNFl1ckdaTGdxb0twNVhOYUgwcmJMcjhpb3F5dV9NeUZtVUxRZWJHOGIxWHNvMkxtVmU0MUVOMzc5d1lZbUFWUTdETXBwRkhqMFlIN2RORjA0U2lkSTlnMXlSYmZpUU5SYTBzNl9lY25ONzFQV0wwdlZ4UHUxakd2alhlM2JabHY5S2pyX3pSSW51N0gzRy1B?oc=5",
-        "domain": "occrp.org",
+        "domain": "occrp",
         "language": "",
         "tone": 0,
         "seendate": "20260917T101931Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "African Union slaps sanctions on Mali coup leaders",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXcFFfdFpwNl8xYkllNl92ODI5TVlaazdPYjlfR21FemtOTUM3QUJBNnFwMWp1VkdocnVpOUNiQmxsV0NtVHpwYk5CcEhXYnpB?oc=5",
+        "domain": "arabnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T083157Z",
         "source": "GoogleNews"
       },
       {
@@ -118795,21 +118824,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Ukraine’s Zelensky imposes sanctions on former press secretary",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQems4SVQ4YmdLdVh5T2d6cHlNNjJlVWlZWjNZMXctSjgzQ0Mya1pkaFdHek45dWhUYzFxTEdVY21xTjVEWFgxZV94WEdCM3pVeHBFd2M0cEVvME9oSXJrYzYzSHQtaTBHUmJyZXRmQlhGUDd3YVZqaFExeVBoUEo3c2pfclp4OFRCaGJ1TDlrVnlTcjJFc2gwZTVBS0ljb2xJc1VpZV93TQ?oc=5",
+        "domain": "thestraitstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260913T183100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury Sanctions Iran's BitBank For Crypto-Based Sanctions Evasion",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0waXJtQ0ZDcmZoVVZtSTIwT19KbVlVTzVKQ1ZPeF9MQXQ2aVg4RWtKUjVkeEZaNWo3YzVnaWktUHBLT05XWVQ4QW1DclRzeFdfNUF0Y0tUdUZxRjAtXzBpcjVOTl8wNjI0NmMxUmRVMVgwR00?oc=5",
+        "domain": "yellow.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T190821Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury Proposes AML and Sanctions Rules for Stablecoin Issuers",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ1FLTVlabC1qamxNV3c4UzN6LVVHY0JiWDBEUkZVLXBCMDZ0RkFIcFQxc0l6Wm5zTllWLWNwamlYekhPWGJFY0hfRzZ1MjZxNDUtUXo5UUl1WDdEa0dIWXZJNy1CQVk3S3JyVkkxMlhFaVhsR2tDdlEyUWpJaVZYcU5sN0s4Y2wtMXJIb29YeTJCSE5QVVB2dllqUlV2YXJQS18zZjFYWXA3YmpNa3c?oc=5",
+        "domain": "coinmarketcap",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260915T082205Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Morning Digest: Trump signs Russia sanctions bill into law; Mamata moves SC against freeze on TMC symbol, and more",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3FtSlJsdUFGczU0UFRnZkdNaE1jdnJZcENfLTdXeU5xal9PMXRVSzJrcDBrWjF2NzlFcWd5ellFd3JvanFKY3Mxa0tHQ2IwZW5WaFBKaTFiUlNDSkhwSjAzSFpiQ2p4OVFiYlJUZE9WUXN4cEF4eDNhOGczRnlNX2c4YWxzUnVmNXfSAZABQVVfeXFMUEJpN2pTNjhIT0k5RTA3azBOYjJIR0daYTkyLUEwU2NieUJoOEdvTTN2bExXblUwbHB6bEt4eXZ4YTdOblZUMlF0NjBvMXlKNDNaR2lrNG80NzVLUnFfOUVUT3JLV1RsSWtXMlhIUmtrTFVhUnpHZGNuVk9fV1YzSGlMcDQxb2pfS0wybmxUYi1h?oc=5",
         "domain": "thehindu",
         "language": "",
         "tone": 0,
         "seendate": "20260919T015221Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Zelenskyy Sanctions Former Press Secretary Over Propaganda Claims",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcWFUNGFsVHJWY3BLWWxtMkRtcUdBOE0yUFFOWEFoMlNTSWMzRDVQUnlLWDlScVNkZmlMTWZ3Ukh3ZFpFNXRGNmhSZnZybEZzaGJ2VmRGUUQ5UmZwclJFeFlMeHBSc0FRQjFOTENTN2JFUEZrSmdWa3BPLVBIRVV5emV5MmRydEhUaVZkNFV0N3NzYXowY3Q2dXUza9IBoAFBVV95cUxPNUdaWExqVVJPNUxMLVo3ZTlsN05KNWRrZllfUmhXN0hscnNUeEtqNEszUnBQQU51Q015R3hMT1JzTTI1SV9XVzRtRHp2WmZ4WDZucUw5UTBUUzcySExacjhLclpsQVh5d2FxcnVKRlRJb1NNWktlaklZeENuZVB2X3F4aW9BQnZ5eGlBa0Jkbi12NnBQa0FsWV9lOGJVbUdW?oc=5",
-        "domain": "tovima.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T115500Z",
         "source": "GoogleNews"
       },
       {
@@ -118849,21 +118896,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump asks Zelensky to stop attacking Russian refineries",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE41SVA5OFJDbFJFWWlKRGRtaHFGYUlpX3NYbjlBX3lnaEFkbFZCQ1dna1BnVDBrTVpUNndFLURMaFV4ajQtNm0wQ9IBTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEdw?oc=5",
-        "domain": "dawn",
+        "title": "The Congress that Rahul Gandhi controls: Born of a split, symbol freeze",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTG4tdmU3MEdVQVlPc1dUazI0d3ExbVFlU21SUWxzbFFDX2RFd090NThUX3VYQUh6M3lIU3N4OUx6aFdQUVFUNV9vN01MMEpEbTBCZDQ2RGdRb3YtWXNBV1YzaG5UX2xpSWtCQ3dvUEszWWxUUVhiZlJjVFdKdWZKR0FKNi1mSXg5YVQ0Wk9ZZG1wbDNocmdnYmxVZG41aGJsa0VVYlQ2VWpZejIxSjdMRi16eWNDODI2OHAyTFBiUVNLQlpaSTc1bjl6UEVVRWNRSHJF0gHYAUFVX3lxTE01ZFhrYkZ6WDJlbjZKOGhQRmtRdXdLUWk3bzJjQ091X0V1U2dEdU5QdzkzbW1NZ29raHRtTnVoRGZjeWJiZlR1WmwyNG40dlEyZlpZZVhjTE9VbDBnak5XVlJSXy1XZ1NSWXdKclItWmdlOS1LYjh6YUVvSjNwRExRSGd6bWQtXzJqaE9KUEw2eTREQXdRUFViWENYSlVGazVaNmRNNTltWGpPMlZ0MnpxVjE2b1VBN081VnlEYnlFa2Y0SGRIYU1mamN6dW5ieTI4TFRpY1VCNw?oc=5",
+        "domain": "theeconomictimes",
         "language": "",
         "tone": 0,
-        "seendate": "20260914T020849Z",
+        "seendate": "20260918T183543Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Tight Race: Sweden's Right-Wing Bloc Clinches Victory by a Seat",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzFBdjVQTXFrUEVHM2Jld2ZuUVZ6dHl1SzR4VDJ0NjFhbm9iTERCNW54bnRvY1RPUXpqd2hHOTdoOUZyNU5xcmdXWUJtbndlRWVqeWRjamF1Z01KVG9aN0NYdTg5MUlmNy1sSHdvaE5fWVFPRXNCejI5dHN0MU50Umc4ZnNibWxVTnRicWs1ajMzODNINXJrSDc5dzI2T29MRno0TDlkM3N2YTg3M0xCeHRHa2lxUVlfbkZN0gG7AUFVX3lxTE9vMUF2NVBNcWtQRUczYmV3Zm5RVnp0eXVLNHhUMnQ2MWFub2JMREI1bnhudG9jVE9Remp3aEc5N2g5RnI1TnFyZ1dZQm1ud2VFZWp5ZGNqYXVnTUpUb1o3Q1h1ODkxSWY3LWxId29oTl9ZUU9Fc0J6Mjl0c3QxTnRSZzhmc2JtbFVOdGJxazVqMzM4M0g1cmtINzl3MjZPb0xGejRMOWQzc3ZhODczTEJ4dEdraXFRWV9uRk0?oc=5",
-        "domain": "devdiscourse",
+        "title": "Justice Department Moves to Seize $61 Million in Crypto From Alleged Iranian Oil Laundering Ring",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WTDdDUUdaNmJILWRmRmZGN3k5UENPR3ZmOXliYjh2WXVkQ2ZFaTRqN3E5cDkzekpkMFVqVmVBa2xIWVI5dUVNVk1qQjBjaEVYLXQySEdYSEdaNEZaU1lGNkNDeUlFNmF0T0lfOXd1akVTaW1VTHc?oc=5",
+        "domain": "finance.biggo.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260913T195319Z",
+        "seendate": "20260915T180500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump asks Zelensky to stop attacking Russian refineries",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE41SVA5OFJDbFJFWWlKRGRtaHFGYUlpX3NYbjlBX3lnaEFkbFZCQ1dna1BnVDBrTVpUNndFLURMaFV4ajQtNm0wQ9IBTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEdw?oc=5",
+        "domain": "dawn.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T020849Z",
         "source": "GoogleNews"
       },
       {
@@ -118930,12 +118986,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Fails to Renew Russia Sanctions a Day Before Expiry",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNajRFWFM1MjdhMTg2VDhhdjZCLTMxalgzWndtb3NTcW5HQUlXM2hDbFBUeXc3SVA1MmRfTHg3dnRuMlEydS1KZkYxbFduaHZmMmd6aFBhTTEwRDRxVFU3c0Rna1UxT0ZnUTJYZFFISi1qS2RKaDdfa2FsbUdJaDJIVEdTNHRaSkJHSG9GZUgzU3RMZw?oc=5",
-        "domain": "streamlinefeed.co.ke",
+        "title": "EU seeks sanctions compromise in France dispute over Usmanov listing",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLTZHb1BZNVpOZTJVTDhGZEtOQjhlajFIbnFabWVEdV8xWDZ5Mk9OejY5ak81NE1BdlFqekRXWHQtTW4wMW5BS1phbFlfRnFIczRyMl82enZ6WTgxSElUblVwZXh4LTA4NDlLWXRlWnQ2V21uM3NvNGpUVklfeU5XVVo2TW91cUZlLXlsSDUtamdQblNtdGIyaHJYYnV6dw?oc=5",
+        "domain": "tradersunion",
         "language": "",
         "tone": 0,
-        "seendate": "20260914T082714Z",
+        "seendate": "20260918T092530Z",
         "source": "GoogleNews"
       },
       {
