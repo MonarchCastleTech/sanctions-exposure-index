@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-21T12:43:26.801403+00:00",
+    "generated": "2026-09-21T21:58:26.417486+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-21T12:41:40.390393+00:00",
+    "issued_at": "2026-09-21T21:56:39.679688+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.3,
@@ -1327,6 +1327,17 @@
       },
       {
         "timestamp": "2026-09-21T12:41:40.390393+00:00",
+        "score": 23.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 39.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-21T21:56:39.679688+00:00",
         "score": 23.3,
         "level": "BASELINE",
         "components": {
@@ -118603,27 +118614,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Government Announces New Iran Sanctions Measures",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMHBLLW9QNG5ZSDl2cTRkTWpCdm1PTU1FaloyMG5yOTFiWjNLZGE0QTFDbkx5OWZxeVM0WC1idl9FN1N4bWZyM3R5NWxhMjRxN0lTUW9NdEVXMHFSVFI5R1l3azhlVm5JSzRhaS0weTJMQ3c1Z1lZeDktYl8tQnhGUw?oc=5",
-        "domain": "jdsupra",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T194950Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU extends Russia sanctions for one week only, after France insists on delisting Usmanov",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDVqc2NJeVdHTWEzS3RtaHI0T184OVRrcXpBUjFwdVFwMVZRMUlPN1hLZ1Z0MDBVR29DSzhzQjJPZUJuOVFtNTFlQndZbHU4ZHFXLXZhdE9BbTZ2QUN4cTdjbG1qRkZOUV9sRUhxY2NNMWdSR1VLeUJtUjltMjNKa2lvVi1rMXhkQ1BKS0loOGsxS0NGY1VlejhMZ3RMOVhOLUJDWjhEemlYTzRPX2NieC1OUXVlSmZvS2NYWjhSY2VQVHVWUzNMOVdB?oc=5",
-        "domain": "euobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T151129Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Raiffeisen Bank International-Linked Customs Records Show $1.19 Billion in Trade Matching Sanctions and Export-Control Restrictions While €12.6 Billion Remains Trapped in Russia",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wSFljeW82eTcyZkN1MGU0cmc2TjcxT19OQ1pnWURERnROcmJXMjdmbVdzMTI2OGNPdkswR0I0Q2dUX0ZSMGc?oc=5",
-        "domain": "grizzlyresearch",
+        "domain": "grizzlyreports.com",
         "language": "",
         "tone": 0,
         "seendate": "20260917T050000Z",
@@ -118657,15 +118650,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends Russia sanctions talks for a week over dispute on delisting Russian billionaire: Report",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdjlyWl9VNWc5blgyUW1SSWo0STBhd3NUSGx3OTNkaFNhT0NyUWsybzJXOTZCMG5pR2gwaVF3OUJlYWRsYkZ1dnRTLUFHdFRZaEZFQVBSb3ZzNk5IRnRoMWFsWEs2aTVCbHIyREx0RHliZlNGVHhkQWMyMnYtcnRjNXZrMzJlZXFtRXhRZjJkSjNiSzdkV3FJaVE5NHZUcERHSXlId2FicVFxR1hWT1JxbG9vLTc5VFQxN1NfVEgzeTZmbzFVT0dLRGszemloMDlNaEJj?oc=5",
-        "domain": "anadoluajans",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T095129Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "A Preview of the Upcoming Xi-Trump Summit",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeExOQV9vZUQxR0U5VkVhZUNOTXBtczVPWHh5WkhXMXJpMHF0dTR6RkFqaHVlbG9FYlFWeWdhWHBndENaVElVTnJYeVAxdV9EX1VPb1hhZW16bnE3SVIzb09TbDh1MnVhcHFKdWlMcWhDa2VNSFh0aVJGZkRwYUdRd2ctQ1NmMUxKWExrOWxn?oc=5",
         "domain": "china-usfocus",
@@ -118684,12 +118668,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "France and Slovakia remove Russian oligarchs from EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHp3OHZFbmpMOEFGSXF6VnJxNE5TTTQxREVVaVE3UU9GZ0tkdmQzZ1otXzd1RXMwVmFJVEktV3JQUnZ3eU9fd1E2cGE0enVhZmFDZy04T2JIZ2tJSjU0UnU3UDJmaUdKV2dCQlFuM2paVWFYRlVMVEdlcmlFY0lwQkhUNm90ZThCQmhMdEE0bF9kRnE1TzZ1bg?oc=5",
+        "domain": "euractiv.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T184235Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK extends sectoral sanctions on Iran: The Iran (Sanctions) (Amendment) Regulations 2026",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOXBFYXJHWXpYWjRJR01uLVlqcjhESVhWazNMMl8wOTFteFVibmN0QjJ3RjBtbkgtaHRyNUp0WTNIRkluUHNySklaclk3SElQMDNxVWZDcHBEdUc3U0E4bzBNNldDaFgyQ19vc2JfWUxGWnR4S0E4bzBvZ1IwaEVUa0NGS1BERF9hT3c2QWF5NVF4VmdTMzNONU56YXZZbHFySnZfQUNpM2xtRVVOWTI3N2pQOFVpRDFCbEV2V21YSzBSUmQ2VXJiVHhnNA?oc=5",
+        "domain": "ashurstperkinscoie",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T142750Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Russian Central Bank Appeals to EU Court Over Euroclear Asset Dispute",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1lFcnNjNTRxSUFSeWR3Q19WSmJwRzE1YjZURnR3cjcxYWxNTi1CbFBLdlpNZWVZZlp2aUNUR19pUS01UFRJclB0Tm02ZzRMSTdKQ00tcDNGeUJucGlRbm9vcl9mc1h2LTRkVnZiM2RNX28xR2VwRFRJQjRjdEZOY0xTN0QxdXRsYUxPTEFtOEFxbjFUclRhT3UxaWtxQQ?oc=5",
         "domain": "globalbankingfinancereview",
         "language": "",
         "tone": 0,
         "seendate": "20260917T163940Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
+        "domain": "eualive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260915T095757Z",
         "source": "GoogleNews"
       },
       {
@@ -118765,24 +118776,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France and Slovakia have made it more difficult to extend EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbFZBdk1hdmtBeWRzcXpPcm5sUmhLVkFmdmd1ZnYxZ05IR1J0YnlLcWFtQjBtWXV2OU9ITGs5dkZDam5QRzllUENfUHRGUzlsbHgxNnp5RVQya2tUSG9wV2E2RU1BeklxRHlycTh5Z0NvQUJGQldaUVRESzlQZ2daWGt1RS1DN2VLX2ladkhVeEc?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T155352Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
-        "domain": "eualive",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T095757Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QV3FkdjdOYmZUckxNeVlnbU0yVWw3ajRMMFp6RmhtVXQ1a0FzdXc2T2FGX2hHV1ZlV3NqUHU3eDJZbVUxR1JtUzdxQQ?oc=5",
         "domain": "kyivpost",
@@ -118830,7 +118823,7 @@
       {
         "title": "EU weighs compromise over Usmanov sanctions amid warnings of ‘dangerous precedent’ - FT",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLWhKNU1WdGo5LVRwTzlTNVpDZFZXNlI0RmlQX2JxbUVtdGhWc01fWDc1X2tJTnpqV2dyNnRqNmdGWkJ3bm54QUNzYTl4Y1Utb0FMQ2p2b3lKR2pyeXRVazUxWkp3c2U4WmE3TzN1QzFlNnVrNzI0anNJUmg5Sm9lby1YZmVKb2xmUi05blUtTnhWUGIteWI3dGp4bGp6TWJQdVNGOEN6NnVmbW9iMGttQW5YVXlXbkthT21waWFB0gHDAUFVX3lxTE9xSUxKcVVfNHVSYlI4N2ZrbUZ3ZlgtYU5kZTVMa1J3TGhzSmw4SGEyT1M3V0F3STk1ZUNFNVRJNV9HRG41blR5OUZoQU1lc181RUp1VDVqcW53bG55Wlc4cWV1SGxwelBDY2JlZUpCaTNHY1RFcjQ1U2VCcGxGTDNJMWpmTWhLMmRrbFJZV0V2VUJjZ2Q4cEotLW83UUJrUzFYal9SeWdkMkktNnVqLTFuMk1CMmpWSzhEbFdLZmVqNVNhVQ?oc=5",
-        "domain": "hromadske",
+        "domain": "hromadske.ua",
         "language": "",
         "tone": 0,
         "seendate": "20260918T143700Z",
@@ -118891,6 +118884,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU: Agreement to lift sanctions on two Russian oligarchs at the request of France and Luxembourg",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVDhkZTdUWE1kTnY1Zko5aHpYLTV0T1JKX0xRa1luNE1GLXA1VWFJLWFHejNHbS1OOE1JUXhWZnIzX0MtYmVUcmlHQ0gwRk43VDhvNy1fLUdBdnhBRllLN1Z2WVlNSENkcktRLXhWSlVqc044MUJKZ09KSHZxOV9LRG9td1UtQThhUVAyNWtYOV9iRkIwcFVGai0xVGRrTWNwNXgxOUdab2t6bExvU1J3MnpTNVZ0WGc1ZkVManVwdXR3c0pjN1VmMg?oc=5",
+        "domain": "agenzianova",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T182058Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The EU’s Merz problem",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nNjI0WWY2X0tGOXJoRThyQ3lWdGh6Qm1JV0g5dExuZm52MjBIeGZOYk0tLXB4X2c1b3lkdGl0UElKQnAtMFUySE9XM0ozUWtHdTFSVVl2ZTNWVkU5MktvZF8xQmxHckZzY3hlU00yQQ?oc=5",
         "domain": "euractiv.com",
@@ -118909,15 +118911,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ube export freeze firm evidence of global demand strength — BMI",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORWsyTXFNN25DT2tlWDV5X2o3MUJ3aS02dzRvRW5nTzFHR1R5Sko5Q0d3M2hqaEljTDB6N29PN21zZEdHUlJjQkg2aEQ5YkIzOUZkRUNja1Fxd01WMS1aWnctcklDNUViWTllSXNuS2w2QVNwTEZpODhaLTNSQ09pMHZKbnhHb19FWjFOWFBWZ19EZWZ5UTJlY20tTmNEa0N0cDFwbGNKSk9rbnZiZTJ3TUp1TQ?oc=5",
-        "domain": "bworldonline.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T124717Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia Challenges EU Over Asset Freeze",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHVwMUVjdTd2ODlJS0o0UEpyU1VGTW1OQmtsblJvMW5vWldXZGpGeDlmbkpfUGNwY2xkWlZETjZkYm5vNzMtWjlUQzRoUHRLcDR1VkJ1N1BLXzc3ZHZLaGY2QzFkUU53REN3Vi0xY3ZLUVpqR3dVOG9aVk40Q0lJbENoNm12MUdLdUZ4cFJaRlZzSWVtQ0w3TNIBngFBVV95cUxNUlRKZ3RheTlHVlBBd0x5NDVCNXVlaFAzOE5zSF9MNDFNZXVFMWMza1V0TkFEOEhWM2dEMHJFTlVNRi01dk1iMUktVTVqbVVQMld6T1ozeUZDNGcyQUNndFIwc2RCSHROYWVMRXJsUERRUHFabTQzbHlYYVF5MzFQN0RGc0hVem1ra0tMa0hyaWhVaFI3MXhnaFRBTEdLQQ?oc=5",
         "domain": "devdiscourse",
@@ -118929,7 +118922,7 @@
       {
         "title": "The Congress that Rahul Gandhi controls: Born of a split, symbol freeze",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTG4tdmU3MEdVQVlPc1dUazI0d3ExbVFlU21SUWxzbFFDX2RFd090NThUX3VYQUh6M3lIU3N4OUx6aFdQUVFUNV9vN01MMEpEbTBCZDQ2RGdRb3YtWXNBV1YzaG5UX2xpSWtCQ3dvUEszWWxUUVhiZlJjVFdKdWZKR0FKNi1mSXg5YVQ0Wk9ZZG1wbDNocmdnYmxVZG41aGJsa0VVYlQ2VWpZejIxSjdMRi16eWNDODI2OHAyTFBiUVNLQlpaSTc1bjl6UEVVRWNRSHJF0gHYAUFVX3lxTE01ZFhrYkZ6WDJlbjZKOGhQRmtRdXdLUWk3bzJjQ091X0V1U2dEdU5QdzkzbW1NZ29raHRtTnVoRGZjeWJiZlR1WmwyNG40dlEyZlpZZVhjTE9VbDBnak5XVlJSXy1XZ1NSWXdKclItWmdlOS1LYjh6YUVvSjNwRExRSGd6bWQtXzJqaE9KUEw2eTREQXdRUFViWENYSlVGazVaNmRNNTltWGpPMlZ0MnpxVjE2b1VBN081VnlEYnlFa2Y0SGRIYU1mamN6dW5ieTI4TFRpY1VCNw?oc=5",
-        "domain": "economictimes.com",
+        "domain": "theeconomictimes",
         "language": "",
         "tone": 0,
         "seendate": "20260918T183543Z",
@@ -118947,7 +118940,7 @@
       {
         "title": "10 years in jail for sending $1 to terrorist Brenton Tarrant",
         "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNEpfTmU5c0xLN1FwQmx5RklHb2VnVlpNZy11N0d4b2cyS1VBLU1FcHhqVktmb0JVZ1N5UEF0VlpXSGZOUmZwb0c1N3dDMjRyREs5RENOeV8yUkpPZGUwT051cGs1Wkd4WldRRHJVb2M4RDktQ29UTV9UdHVQRUFMbzJVSjYxVzBINW9ZVWc5RklqY2FHZW05UFBPV2NULTlRU09FSEdlZF83aVlLeTJnWXZaUlBieTdHZDF4RkI4VFlXYlptNFFKeTlUdEtncVpTd3Q2LTlXVlhnZExwUElsSzVEMk5LTVp4LW1sM1o2bm05Vk1UdUFiTGc0Ujd0aURoc3VyM3l3bUtPN0k?oc=5",
-        "domain": "heraldsun",
+        "domain": "heraldsun.com.au",
         "language": "",
         "tone": 0,
         "seendate": "20260917T180000Z",
@@ -118965,7 +118958,7 @@
       {
         "title": "Banks and fintechs face tougher compliance duties under Kenya’s revised terror-financing rules",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSXBkMGRqOUYwdU02aGVZUVNVNkV3b0ZvT3A0R2JobDVRRF9CdE9hVzJRM243MXRMTkp2YXVBdW1jczBBWlVOd3BSTGJBbTJIcjJlYlhfSzEyX2FiSGh0OUlCUG9pT1R4WDdZUUVJeGNYWUNpdXpfY19JZkZFcmhYM3k0TTJIZw?oc=5",
-        "domain": "techtrendske",
+        "domain": "techtrendske.co.ke",
         "language": "",
         "tone": 0,
         "seendate": "20260918T060708Z",
@@ -118977,13 +118970,13 @@
         "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260921T052206Z",
+        "seendate": "20260921T053557Z",
         "source": "GoogleNews"
       },
       {
         "title": "Brussels remains divided over sanctions against Russia",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWdtOWc0QzVKdXVyOHFaMFBvQmhoWGVWeGxYcWVTRTJoZGdJbmNLYW1BVkZvNWg1T1hhenMyMUY1LWVZM2twaUFzSmRBWjAxaGx3NzhCR2hlSWJiTnQyblUyVjVPSE1uQzJDSGhreEQ3V2UxT2lDVVBkcWtSQ05sd0dFOHJBb2J4TkZWWlVWUEVDbUF4UzU3TmhpMEtmUzhfeU9RVURZQUdRRlhpR1FFSA?oc=5",
-        "domain": "ilfoglio.it",
+        "domain": "ilfoglio",
         "language": "",
         "tone": 0,
         "seendate": "20260915T040000Z",
@@ -119017,21 +119010,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury imposes sanctions on Russia’s VTB Bank for Iranian sanctions evasion",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNOGtvOUkwM3VzZnFGSkJLTHNLd0hHa21CQjB1M21jbjRxZnhGQjh4MTVuWGU0bDlNNEFfcWRRS1Z1ZEJmeV9ldzE1MjB1NExIMFo2aWtRR1YxNzBCcDZKaVdkNE1LNXJHLWNXWExOcmQ?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T185840Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU seeks sanctions compromise in France dispute over Usmanov listing",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLTZHb1BZNVpOZTJVTDhGZEtOQjhlajFIbnFabWVEdV8xWDZ5Mk9OejY5ak81NE1BdlFqekRXWHQtTW4wMW5BS1phbFlfRnFIczRyMl82enZ6WTgxSElUblVwZXh4LTA4NDlLWXRlWnQ2V21uM3NvNGpUVklfeU5XVVo2TW91cUZlLXlsSDUtamdQblNtdGIyaHJYYnV6dw?oc=5",
         "domain": "tradersunion",
         "language": "",
         "tone": 0,
         "seendate": "20260918T092530Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Five Years, No Classrooms: The Expanding Restrictions On Afghan Women Under Taliban Rule",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYS1sTEhfbjJOTmZXTEtsOFFvM0w3OXlfY3huR1FZZ0NuVnY4Q3FvOGJnRjNLYXdnejNsMlVhNThqNEFURXpsMlIwMnRTR0dTeXd6bjNiZUw0czhBeWtvTmRYYlpFZW5QUUlGU3ktSmt3RXF3cTFwUnhkNDEzYjlLd3hhMW1tdEFacGthYWVPSUl1UWdRQXJySXo4Wjh4Z0VSdkw0Qm1tX1A4RDlFaDBaOdIBsAFBVV95cUxQYS1sTEhfbjJOTmZXTEtsOFFvM0w3OXlfY3huR1FZZ0NuVnY4Q3FvOGJnRjNLYXdnejNsMlVhNThqNEFURXpsMlIwMnRTR0dTeXd6bjNiZUw0czhBeWtvTmRYYlpFZW5QUUlGU3ktSmt3RXF3cTFwUnhkNDEzYjlLd3hhMW1tdEFacGthYWVPSUl1UWdRQXJySXo4Wjh4Z0VSdkw0Qm1tX1A4RDlFaDBaOQ?oc=5",
+        "domain": "outlookindia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T101943Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU seeks compromise on Usmanov sanctions after French veto",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlhLQ3ktZmpMMlA2bE9rcnJITzEyVksyNjFKblFpSE04QTFSczN3QWxhZ2hBcnRWVkdXZWhnVUJ1T052U19VejhtMGloZmhIYlgwekhGRzFjVHdMd3ZSdHJ3Z09UX0E4eTJhcGkyZWdIZ0k4TlJ3ZzNZellLeVBFZHlSNFNWUjA3UzFOS2xZN2ZfWFMwckRF?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T080744Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China Marks 95th Anniversary of Japanese Invasion Amid Tokyo Rift",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0sxd3RaektPSV8zOGhoTU53TDl2X29tWXFSYWo4WmJtWnBwc1M4em56a19DdzM1bTBCZW9EM3RBTXE3dENmbEkyeEEtcFRacnlvN2JiZWNRYkdRdE1XT3dnQ05VSm8wMGhBUXl5M0Z1NkNhWnFuQXpWQk5mamRvUGp4djB5SGVfbUdta1FfSGpyN2pIQlZ3ckxENldCWVQx?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T072408Z",
         "source": "GoogleNews"
       }
     ]
