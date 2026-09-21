@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-20T20:47:28.701891+00:00",
+    "generated": "2026-09-21T04:51:18.825313+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-20T20:45:42.227157+00:00",
+    "issued_at": "2026-09-21T04:49:32.023662+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 28.1,
+    "score": 23.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,18 +24,17 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 36.0,
+        "score": 24.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 3,
-        "current_7d_all_releases": 3,
-        "prior_7d_designation_releases": 4,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
+        "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 4.0,
-        "anomaly_z": -0.45,
+        "baseline_weekly_median": 3.0,
+        "anomaly_z": -0.67,
         "themes": [
           "cuba",
-          "iran",
-          "venezuela"
+          "iran"
         ],
         "evidence": [
           {
@@ -74,26 +73,6 @@
             "themes": [
               "cuba",
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Sanctions Major Bank Helping Iran Evade Sanctions",
-            "url": "https://home.treasury.gov/news/press-releases/sb0629/",
-            "action_title": "Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260914",
-            "date": "2026-09-14",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "venezuela"
             ],
             "designation_signal": true
           }
@@ -188,13 +167,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 42.0,
-        "current_7d_releases": 3,
-        "current_weighted_term_rate": 3.333,
+        "score": 39.6,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 3.0,
         "baseline_weeks": 11,
-        "anomaly_z": 5.28,
-        "matched_release_count": 3,
-        "relief_release_count": 3,
+        "anomaly_z": 3.04,
+        "matched_release_count": 2,
+        "relief_release_count": 2,
         "evidence": [
           {
             "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
@@ -232,26 +211,6 @@
             "themes": [
               "cuba",
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Sanctions Major Bank Helping Iran Evade Sanctions",
-            "url": "https://home.treasury.gov/news/press-releases/sb0629/",
-            "action_title": "Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260914",
-            "date": "2026-09-14",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "venezuela"
             ],
             "designation_signal": true
           }
@@ -328,7 +287,6 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity",
         "official_posture_shift"
       ],
       "market_component_elevated": false,
@@ -338,16 +296,9 @@
       {
         "id": "official_posture_shift",
         "title": "Official coercive-language shift",
-        "score": 42.0,
+        "score": 39.6,
         "level": "WATCH",
         "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
-      },
-      {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 36.0,
-        "level": "WATCH",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
@@ -1362,6 +1313,17 @@
           "official_posture_shift": 42.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-21T04:49:32.023662+00:00",
+        "score": 23.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 39.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -1426,7 +1388,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "28.1/100",
+      "value": "23.3/100",
       "delta": "BASELINE"
     },
     {
@@ -118639,15 +118601,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "A Preview of the Upcoming Xi-Trump Summit",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeExOQV9vZUQxR0U5VkVhZUNOTXBtczVPWHh5WkhXMXJpMHF0dTR6RkFqaHVlbG9FYlFWeWdhWHBndENaVElVTnJYeVAxdV9EX1VPb1hhZW16bnE3SVIzb09TbDh1MnVhcHFKdWlMcWhDa2VNSFh0aVJGZkRwYUdRd2ctQ1NmMUxKWExrOWxn?oc=5",
-        "domain": "china-usfocus",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T133434Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends Russia sanctions for one week only, after France insists on delisting Usmanov",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDVqc2NJeVdHTWEzS3RtaHI0T184OVRrcXpBUjFwdVFwMVZRMUlPN1hLZ1Z0MDBVR29DSzhzQjJPZUJuOVFtNTFlQndZbHU4ZHFXLXZhdE9BbTZ2QUN4cTdjbG1qRkZOUV9sRUhxY2NNMWdSR1VLeUJtUjltMjNKa2lvVi1rMXhkQ1BKS0loOGsxS0NGY1VlejhMZ3RMOVhOLUJDWjhEemlYTzRPX2NieC1OUXVlSmZvS2NYWjhSY2VQVHVWUzNMOVdB?oc=5",
         "domain": "euobserver",
@@ -118684,12 +118637,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US Treasury Secretary Bessent says had a very successful engagement with Chinese on trade and AI, while they agreed to hold another meeting on al dialogue",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOLVFfWDdGRVRrbTFka0dzeV9GRWRxQW1kZ0Z0Qk5WTGJ2c1JSRzlEdzI0WV9jeDFiXzJZak1feWxabGRUaWlEcWNuMnVsZjY0MkR6VFFPY29nenRPTnlCNUVfNVpLeHRxUG5yU1VXQmJkN3lVd21WMEV2VW9va1RDRGV5MkVXV3VwdWhLM01HTk1vMTcxVEd5RGRrOHRWXzd5cy1LR1RWSW80RlZtNU1LbEZ5dkFMNC1QX0cyZlBnX09VWTJoWHBmWkdsLVFLcmtqZ0xjM3JvdU4ydGxsd1VlUklYdTJUQktidzdzaS1YSVd1Sy1nQlZXY0I0RkhZc3RLSGY1Y2lhNDVTNW9qdGl2NEItclBDYk1H?oc=5",
+        "domain": "newsquawk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T001500Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU extends Russia sanctions talks for a week over dispute on delisting Russian billionaire: Report",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdjlyWl9VNWc5blgyUW1SSWo0STBhd3NUSGx3OTNkaFNhT0NyUWsybzJXOTZCMG5pR2gwaVF3OUJlYWRsYkZ1dnRTLUFHdFRZaEZFQVBSb3ZzNk5IRnRoMWFsWEs2aTVCbHIyREx0RHliZlNGVHhkQWMyMnYtcnRjNXZrMzJlZXFtRXhRZjJkSjNiSzdkV3FJaVE5NHZUcERHSXlId2FicVFxR1hWT1JxbG9vLTc5VFQxN1NfVEgzeTZmbzFVT0dLRGszemloMDlNaEJj?oc=5",
         "domain": "anadoluajans",
         "language": "",
         "tone": 0,
         "seendate": "20260915T095129Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "A Preview of the Upcoming Xi-Trump Summit",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeExOQV9vZUQxR0U5VkVhZUNOTXBtczVPWHh5WkhXMXJpMHF0dTR6RkFqaHVlbG9FYlFWeWdhWHBndENaVElVTnJYeVAxdV9EX1VPb1hhZW16bnE3SVIzb09TbDh1MnVhcHFKdWlMcWhDa2VNSFh0aVJGZkRwYUdRd2ctQ1NmMUxKWExrOWxn?oc=5",
+        "domain": "china-usfocus",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T133434Z",
         "source": "GoogleNews"
       },
       {
@@ -118708,15 +118679,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260914T053400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russian Central Bank Appeals to EU Court Over Euroclear Asset Dispute",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1lFcnNjNTRxSUFSeWR3Q19WSmJwRzE1YjZURnR3cjcxYWxNTi1CbFBLdlpNZWVZZlp2aUNUR19pUS01UFRJclB0Tm02ZzRMSTdKQ00tcDNGeUJucGlRbm9vcl9mc1h2LTRkVnZiM2RNX28xR2VwRFRJQjRjdEZOY0xTN0QxdXRsYUxPTEFtOEFxbjFUclRhT3UxaWtxQQ?oc=5",
-        "domain": "globalbankingfinancereview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260917T163940Z",
         "source": "GoogleNews"
       },
       {
@@ -118792,6 +118754,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Russian Central Bank Appeals to EU Court Over Euroclear Asset Dispute",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1lFcnNjNTRxSUFSeWR3Q19WSmJwRzE1YjZURnR3cjcxYWxNTi1CbFBLdlpNZWVZZlp2aUNUR19pUS01UFRJclB0Tm02ZzRMSTdKQ00tcDNGeUJucGlRbm9vcl9mc1h2LTRkVnZiM2RNX28xR2VwRFRJQjRjdEZOY0xTN0QxdXRsYUxPTEFtOEFxbjFUclRhT3UxaWtxQQ?oc=5",
+        "domain": "globalbankingandfinance.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T163940Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "From hawk to holdout: France’s surprising stance on Russian oligarch sanctions",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT1ZBUURZQmlVbFIyam42ZGxDRGhidmZIaG1UNWx6aUhvd1AyaDRWTkNZSm1WRlpIUWgzMmFMNi1keXlfLTNhWWZqMEdjZVFTTmdYa0VVMzJiLVVYUDhOSW5mTFhMeEh0ODB4VG9DbFdSTHNJRDBWc0RyWlV3NEtPS29IM3ZTNERLMHNMb210NEctSWRuZktyVWRsZW5IQQ?oc=5",
         "domain": "eualive",
@@ -118857,7 +118828,7 @@
       {
         "title": "Trump’s sanctions hole-in-one: How to freeze Putin’s Arctic empire and end Europe’s double game",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNkhtZERLVk8wLU8xNGRaQ0ctbXdNMkpISHpKTTc2ZWVhNkd1eUMtZk16N1FWdE1UOHk1T3g0aW0xS09JdXlMLTFucTEzM0pnekhYYzVYYnd5ektWNUotT29BN21udENMM01zOEdCTnY1Q19QUWI0aGYxNUJzYnhQNFQ3Njk1cnlDSGNmNWpwdF96Sms?oc=5",
-        "domain": "washingtonexaminer",
+        "domain": "washingtonexaminer.com",
         "language": "",
         "tone": 0,
         "seendate": "20260918T100000Z",
@@ -118879,15 +118850,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260917T190821Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Competing AI Doomsday Clock Scenarios – OpEd",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdE1EZ1MyWVk0Z1RsQjlRWm1jTXZSdmlEY2tLN0JyQllHNXpVRE5pbkdJb1JqQ25tcjJuak9ralJ0YkhOSzZncUlMWkNHQWR1QnRHU1g2Y0xYQ3p5c19wQ3p2OE01OHlVbnlvMWc5enJiZmxMOHdQNXU3X1RPTFc1aTNLeTZQRkpBT2E2amozZw?oc=5",
-        "domain": "eurasiareview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T231747Z",
         "source": "GoogleNews"
       },
       {
@@ -118936,15 +118898,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ube export freeze firm evidence of global demand strength — BMI",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORWsyTXFNN25DT2tlWDV5X2o3MUJ3aS02dzRvRW5nTzFHR1R5Sko5Q0d3M2hqaEljTDB6N29PN21zZEdHUlJjQkg2aEQ5YkIzOUZkRUNja1Fxd01WMS1aWnctcklDNUViWTllSXNuS2w2QVNwTEZpODhaLTNSQ09pMHZKbnhHb19FWjFOWFBWZ19EZWZ5UTJlY20tTmNEa0N0cDFwbGNKSk9rbnZiZTJ3TUp1TQ?oc=5",
-        "domain": "bworldonline.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T124717Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia Challenges EU Over Asset Freeze",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHVwMUVjdTd2ODlJS0o0UEpyU1VGTW1OQmtsblJvMW5vWldXZGpGeDlmbkpfUGNwY2xkWlZETjZkYm5vNzMtWjlUQzRoUHRLcDR1VkJ1N1BLXzc3ZHZLaGY2QzFkUU53REN3Vi0xY3ZLUVpqR3dVOG9aVk40Q0lJbENoNm12MUdLdUZ4cFJaRlZzSWVtQ0w3TNIBngFBVV95cUxNUlRKZ3RheTlHVlBBd0x5NDVCNXVlaFAzOE5zSF9MNDFNZXVFMWMza1V0TkFEOEhWM2dEMHJFTlVNRi01dk1iMUktVTVqbVVQMld6T1ozeUZDNGcyQUNndFIwc2RCSHROYWVMRXJsUERRUHFabTQzbHlYYVF5MzFQN0RGc0hVem1ra0tMa0hyaWhVaFI3MXhnaFRBTEdLQQ?oc=5",
         "domain": "devdiscourse",
@@ -118960,15 +118913,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260918T183543Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Trump asks Zelensky to stop attacking Russian refineries",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE41SVA5OFJDbFJFWWlKRGRtaHFGYUlpX3NYbjlBX3lnaEFkbFZCQ1dna1BnVDBrTVpUNndFLURMaFV4ajQtNm0wQ9IBTkFVX3lxTE1TWk53RXVBM1c3QVM0cW90MWtZd3ktOFFTOXZTMEJzdjJkdThpZXlGZVF2WjZnOXJNMUlubjYtWEpqYXhKQlJQNXVUNHpEdw?oc=5",
-        "domain": "dawn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T020849Z",
         "source": "GoogleNews"
       },
       {
@@ -119001,7 +118945,7 @@
       {
         "title": "Banks and fintechs face tougher compliance duties under Kenya’s revised terror-financing rules",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSXBkMGRqOUYwdU02aGVZUVNVNkV3b0ZvT3A0R2JobDVRRF9CdE9hVzJRM243MXRMTkp2YXVBdW1jczBBWlVOd3BSTGJBbTJIcjJlYlhfSzEyX2FiSGh0OUlCUG9pT1R4WDdZUUVJeGNYWUNpdXpfY19JZkZFcmhYM3k0TTJIZw?oc=5",
-        "domain": "techtrendske.co.ke",
+        "domain": "techtrendske",
         "language": "",
         "tone": 0,
         "seendate": "20260918T060708Z",
@@ -119044,21 +118988,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Zelensky sanctions ex-press secretary turned fierce critic",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUEJxWW1BeW9EdjlnRkhaUEVxVUJYSlBvRUozVjN0WlJpMmtnZDJlNWtrZTZZcEt6U1I5TGZfMlZtWVd2RElYQWZleWJldk9HNkwzV3dyZGdOTWFfMVlfVllNRXh0VHV4RkRXM0VvbWthTUo1MV9VTmhabXVXRDA5eTZTLTdDRW9JR29ucy1XMEwzNWk3RGk4MUZhUlRvcVBWV3RGajE3QQ?oc=5",
-        "domain": "bignewsnetwork.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260913T233500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US Treasury imposes sanctions on Russia’s VTB Bank for Iranian sanctions evasion",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNOGtvOUkwM3VzZnFGSkJLTHNLd0hHa21CQjB1M21jbjRxZnhGQjh4MTVuWGU0bDlNNEFfcWRRS1Z1ZEJmeV9ldzE1MjB1NExIMFo2aWtRR1YxNzBCcDZKaVdkNE1LNXJHLWNXWExOcmQ?oc=5",
         "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
         "seendate": "20260914T185840Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU seeks sanctions compromise in France dispute over Usmanov listing",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLTZHb1BZNVpOZTJVTDhGZEtOQjhlajFIbnFabWVEdV8xWDZ5Mk9OejY5ak81NE1BdlFqekRXWHQtTW4wMW5BS1phbFlfRnFIczRyMl82enZ6WTgxSElUblVwZXh4LTA4NDlLWXRlWnQ2V21uM3NvNGpUVklfeU5XVVo2TW91cUZlLXlsSDUtamdQblNtdGIyaHJYYnV6dw?oc=5",
+        "domain": "tradersunion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T092530Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Five Years, No Classrooms: The Expanding Restrictions On Afghan Women Under Taliban Rule",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYS1sTEhfbjJOTmZXTEtsOFFvM0w3OXlfY3huR1FZZ0NuVnY4Q3FvOGJnRjNLYXdnejNsMlVhNThqNEFURXpsMlIwMnRTR0dTeXd6bjNiZUw0czhBeWtvTmRYYlpFZW5QUUlGU3ktSmt3RXF3cTFwUnhkNDEzYjlLd3hhMW1tdEFacGthYWVPSUl1UWdRQXJySXo4Wjh4Z0VSdkw0Qm1tX1A4RDlFaDBaOdIBsAFBVV95cUxQYS1sTEhfbjJOTmZXTEtsOFFvM0w3OXlfY3huR1FZZ0NuVnY4Q3FvOGJnRjNLYXdnejNsMlVhNThqNEFURXpsMlIwMnRTR0dTeXd6bjNiZUw0czhBeWtvTmRYYlpFZW5QUUlGU3ktSmt3RXF3cTFwUnhkNDEzYjlLd3hhMW1tdEFacGthYWVPSUl1UWdRQXJySXo4Wjh4Z0VSdkw0Qm1tX1A4RDlFaDBaOQ?oc=5",
+        "domain": "outlookindia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T101943Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU seeks compromise on Usmanov sanctions after French veto",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlhLQ3ktZmpMMlA2bE9rcnJITzEyVksyNjFKblFpSE04QTFSczN3QWxhZ2hBcnRWVkdXZWhnVUJ1T052U19VejhtMGloZmhIYlgwekhGRzFjVHdMd3ZSdHJ3Z09UX0E4eTJhcGkyZWdIZ0k4TlJ3ZzNZellLeVBFZHlSNFNWUjA3UzFOS2xZN2ZfWFMwckRF?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T080744Z",
         "source": "GoogleNews"
       }
     ]
