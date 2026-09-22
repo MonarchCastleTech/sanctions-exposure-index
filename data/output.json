@@ -1,20 +1,18 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-22T16:55:06.330272+00:00",
+    "generated": "2026-09-22T21:16:53.112229+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
       "OFAC press releases",
       "FRED Brent/WTI"
     ],
-    "source_notes": [
-      "Context news unavailable; retained last accepted snapshot."
-    ],
+    "source_notes": [],
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-22T16:53:19.682868+00:00",
+    "issued_at": "2026-09-22T21:15:06.697148+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.3,
@@ -1373,6 +1371,17 @@
       },
       {
         "timestamp": "2026-09-22T16:53:19.682868+00:00",
+        "score": 23.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 39.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-22T21:15:06.697148+00:00",
         "score": 23.3,
         "level": "BASELINE",
         "components": {
@@ -118642,7 +118651,7 @@
       {
         "title": "Eritrea’s Sanctions Expired, Not Formally Lifted",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEV3bWt5dEJHakhCTm1MOUc3clVFV0RiRXYwX014MWh3V2dvSEdmQXBhS3ZZYWlaZW0xQWFUTERXRzZMdWNqRndNTzVERXRWOVBlV0wtZHdpaldYWHZldThyWkt6cU1qNkRSRjBsRUxWbnItQ0F4SVBoUGJBeDlLYkJ3U0JKOEFV?oc=5",
-        "domain": "hornreview.org",
+        "domain": "hornreview",
         "language": "",
         "tone": 0,
         "seendate": "20260919T152647Z",
@@ -118658,30 +118667,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQnBSLTROVE8tUWJ1LUx6OU9zOWtXYThNWnVfSEp3dlU1U0Z1ZkZjVS15cXc2MmNEUUpLZVRVUlh5UkdlOWotVTJPNWhHYXl3RzVnV2o2c2FOejhyS2dvWVREY08wYThDdXczTDZEcWtHUDV5V0VRT3dkXzVrTUQ1ZTdFNTloa2thdUlzZElZQzVpa3F6bW1fTG5zdVBkTmlDZUs4THNwZFk?oc=5",
-        "domain": "euronews.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T064123Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Treasury Sanctions Iranian Crypto Exchange Linked To Hormuz Ship Tolls",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUZwNFZWVGJpaGtrWVBHcW9BR25Na2UtQjJ0Z3hYRTVwNDZNNkJsS0oyNlhXYzhaRHpqd2RUaUk0VDNONjZQYmpsVVRCYWJBbnVielZYZm82Vm9PeXM3a0xGc2dHd3NueXlsY3JVUTVwNExGZUF4UnRWY0gzODR2MzdnSnFKelcxeTJrQWQ2ZkktSndhOW04TS1VdHJiQVBpUWdVTjlMVVJyaTFRbHc?oc=5",
-        "domain": "northeasttimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T150103Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Switzerland - Sanctions Laws and Regulations 2027",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Va1VGQjNpVDFYc1pjeDVFVXF5R19RWVVqVFJYdFJfVWdreG9hcnBydG13b2V4U0RDVGYyMXVsVTgxbTI1aXVPVnFqTERfejE4WmFpSU84SVJlOWhRR3NBMTl3V2Y?oc=5",
         "domain": "iclg",
         "language": "",
         "tone": 0,
         "seendate": "20260918T132433Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Treasury Sanctions Iranian Crypto Exchange Linked To Hormuz Ship Tolls",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUZwNFZWVGJpaGtrWVBHcW9BR25Na2UtQjJ0Z3hYRTVwNDZNNkJsS0oyNlhXYzhaRHpqd2RUaUk0VDNONjZQYmpsVVRCYWJBbnVielZYZm82Vm9PeXM3a0xGc2dHd3NueXlsY3JVUTVwNExGZUF4UnRWY0gzODR2MzdnSnFKelcxeTJrQWQ2ZkktSndhOW04TS1VdHJiQVBpUWdVTjlMVVJyaTFRbHc?oc=5",
+        "domain": "northeasttimes.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T150103Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQnBSLTROVE8tUWJ1LUx6OU9zOWtXYThNWnVfSEp3dlU1U0Z1ZkZjVS15cXc2MmNEUUpLZVRVUlh5UkdlOWotVTJPNWhHYXl3RzVnV2o2c2FOejhyS2dvWVREY08wYThDdXczTDZEcWtHUDV5V0VRT3dkXzVrTUQ1ZTdFNTloa2thdUlzZElZQzVpa3F6bW1fTG5zdVBkTmlDZUs4THNwZFk?oc=5",
+        "domain": "euronews.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T064123Z",
         "source": "GoogleNews"
       },
       {
@@ -118694,12 +118703,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU removes two Russian oligarchs from sanctions blacklist",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU21BSEZOM0VYMTRUbnF1b2huTXhDRERCZnB1ZU1oNWszMEk4MGZRdDdFbHpOS0hWbFphNENjOC1JWUhhOV9uajBNQWZxY0JGeFVVR1ZyRktFMndjQVlOOUJhR3RNSjlrWS1fNW1YX05vTkFkU2F4OTVqeFBMdkRkT3NWYUJyNmpReWFvNjdBVDk5QQ?oc=5",
+        "domain": "euractiv.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T190657Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "A Preview of the Upcoming Xi-Trump Summit",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeExOQV9vZUQxR0U5VkVhZUNOTXBtczVPWHh5WkhXMXJpMHF0dTR6RkFqaHVlbG9FYlFWeWdhWHBndENaVElVTnJYeVAxdV9EX1VPb1hhZW16bnE3SVIzb09TbDh1MnVhcHFKdWlMcWhDa2VNSFh0aVJGZkRwYUdRd2ctQ1NmMUxKWExrOWxn?oc=5",
         "domain": "china-usfocus",
         "language": "",
         "tone": 0,
         "seendate": "20260918T133434Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3RrMDNXbEoyV21nV19sVk9TUTdJY3VJQXNPZEUxUWJ6X1VEckd6X1VNYXpPTUU2V2ZnZnp1a3VTOUd4c2VlaVpXenA2aTd6cEhTMFRISjJSdzMyTE91bDR2akJfVWF0SHFrdXpJS2pPSkFWZi1UVTRsSThDOVVvaFFWLWNoT1B0Rndz?oc=5",
+        "domain": "yahoonewssingapore",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T182032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU in showdown over Russian oligarch sanctions as deadline nears",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONndfaDVrSmNsSEZLajhvdFhUcllDOGQ1c1VyZmZ3d21LUW9rYXNxbldPQ3hDZkNkTXVTWHExd0Rheko1S3RidVlNckhZazA2aGZlOXdfazlLLUk0dDRNUVBDd2dkVDdoTXJQc3YtenFydjNKNEdISGJsNzd0VTZRMHNfSDRzM1MyQmdtd0xmQWFsOEh1VXJRaFdyVXNIZm9lTDhIcmRwQmw?oc=5",
+        "domain": "hrriyetdailynews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T083228Z",
         "source": "GoogleNews"
       },
       {
@@ -118712,15 +118748,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France and Slovakia remove Russian oligarchs from EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHp3OHZFbmpMOEFGSXF6VnJxNE5TTTQxREVVaVE3UU9GZ0tkdmQzZ1otXzd1RXMwVmFJVEktV3JQUnZ3eU9fd1E2cGE0enVhZmFDZy04T2JIZ2tJSjU0UnU3UDJmaUdKV2dCQlFuM2paVWFYRlVMVEdlcmlFY0lwQkhUNm90ZThCQmhMdEE0bF9kRnE1TzZ1bg?oc=5",
-        "domain": "euractiv.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T184235Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK extends sectoral sanctions on Iran: The Iran (Sanctions) (Amendment) Regulations 2026",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOXBFYXJHWXpYWjRJR01uLVlqcjhESVhWazNMMl8wOTFteFVibmN0QjJ3RjBtbkgtaHRyNUp0WTNIRkluUHNySklaclk3SElQMDNxVWZDcHBEdUc3U0E4bzBNNldDaFgyQ19vc2JfWUxGWnR4S0E4bzBvZ1IwaEVUa0NGS1BERF9hT3c2QWF5NVF4VmdTMzNONU56YXZZbHFySnZfQUNpM2xtRVVOWTI3N2pQOFVpRDFCbEV2V21YSzBSUmQ2VXJiVHhnNA?oc=5",
         "domain": "ashurstperkinscoie",
@@ -118730,30 +118757,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian Central Bank Appeals to EU Court Over Euroclear Asset Dispute",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1lFcnNjNTRxSUFSeWR3Q19WSmJwRzE1YjZURnR3cjcxYWxNTi1CbFBLdlpNZWVZZlp2aUNUR19pUS01UFRJclB0Tm02ZzRMSTdKQ00tcDNGeUJucGlRbm9vcl9mc1h2LTRkVnZiM2RNX28xR2VwRFRJQjRjdEZOY0xTN0QxdXRsYUxPTEFtOEFxbjFUclRhT3UxaWtxQQ?oc=5",
-        "domain": "globalbankingfinancereview",
+        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYVZITXpKRnNKSHczMkhUcG93YVg5THZHY3ZkeGQ0QS1UMnBPemJ4bEFOaUZkbWJvZ0V0RjhWc2NVNFlsU3g3SjNyNjJ3enJ4Sk0zQWVDS2ozX0lSbFQ2VzZ2ejRDX2NLenF1QXduUW16WUx4MFUyeGNfVmNaVmVBclM1RTNYeXpzSGhjUmNUQUdlMUdWRzZWNFhZc1c2OUM2VVBidl83cElXTDlseERNQQ?oc=5",
+        "domain": "euronews.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260917T163940Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Wider Europe Briefing: EU To Sanction Russian Military With New Focus",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ReXhVQkQ0WUdnT2FVbmdxX3ZNNXVvckRrUG9CU1lJM09tVnhxUm84LU5qZVVLaFJnUWk1bVZWeDhZdzhmNnNkTDFuOHV3QdIBUEFVX3lxTE9sNGlzWGhVelpTYlRkNm54QmpUYW1HOEdDc2QwWEswR0hCZ2swZWEyM1NmQ2h6UzVIMjlyWWJPLVNkOVZqcGF3WVBzcVpVTzBk?oc=5",
-        "domain": "radiofreeeuroperadioliberty",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T095408Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sweden - Sanctions Laws and Regulations 2027",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10WENfV2dNbmhfcllUamVRSDN5Q2t3RnZjb2JhVnZIYk1fcFItcy10LTM2ZkJZV1FfaDBBb3pGVm1DOWluaVpPLTh1eTF1MHlSRXJ3QTNEYkFjUzhMTHc?oc=5",
-        "domain": "iclg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260917T084429Z",
+        "seendate": "20260922T144722Z",
         "source": "GoogleNews"
       },
       {
@@ -118763,6 +118772,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260917T084427Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sweden - Sanctions Laws and Regulations 2027",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10WENfV2dNbmhfcllUamVRSDN5Q2t3RnZjb2JhVnZIYk1fcFItcy10LTM2ZkJZV1FfaDBBb3pGVm1DOWluaVpPLTh1eTF1MHlSRXJ3QTNEYkFjUzhMTHc?oc=5",
+        "domain": "iclg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T084429Z",
         "source": "GoogleNews"
       },
       {
@@ -118784,15 +118802,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "USA - Sanctions Laws and Regulations 2027",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aQkJHdmtjU2dvei1XLXJFZXk2c1UtUnpyZUozOEVCbjRHWWRQM3pMMHlXaDVrT3plcjJfZU0zaTVSck5wckZGM0NtUFF3VTRPVWVTR04waDVxZw?oc=5",
-        "domain": "iclg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Australia - Sanctions Laws and Regulations 2027",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YWEM2S2VDbng0VGVra3kwQ1BHNVlhUGVCX0psYnp4dXpnR0ZHaDg4WVRkLUN4cDJ6WTJpQmxQeVpENG8yQTFpZEVkanpLMkdQODFwLWg3TWQxeVUyRG41ckZR?oc=5",
         "domain": "iclg",
@@ -118811,9 +118820,36 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK Freezes $72-Million London Townhouse in Connection to Sanctioned Prince Group Associate",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWNodUM3T0RuTE9PNEJwb2pfbzJOaDZMR053ajhWUkxHSXZWNFl1ckdaTGdxb0twNVhOYUgwcmJMcjhpb3F5dV9NeUZtVUxRZWJHOGIxWHNvMkxtVmU0MUVOMzc5d1lZbUFWUTdETXBwRkhqMFlIN2RORjA0U2lkSTlnMXlSYmZpUU5SYTBzNl9lY25ONzFQV0wwdlZ4UHUxakd2alhlM2JabHY5S2pyX3pSSW51N0gzRy1B?oc=5",
+        "domain": "occrp",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T101931Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian Central Bank Appeals to EU Court Over Euroclear Asset Dispute",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1lFcnNjNTRxSUFSeWR3Q19WSmJwRzE1YjZURnR3cjcxYWxNTi1CbFBLdlpNZWVZZlp2aUNUR19pUS01UFRJclB0Tm02ZzRMSTdKQ00tcDNGeUJucGlRbm9vcl9mc1h2LTRkVnZiM2RNX28xR2VwRFRJQjRjdEZOY0xTN0QxdXRsYUxPTEFtOEFxbjFUclRhT3UxaWtxQQ?oc=5",
+        "domain": "globalbankingfinancereview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260917T163940Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "France and Slovakia remove Russian oligarchs from EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHp3OHZFbmpMOEFGSXF6VnJxNE5TTTQxREVVaVE3UU9GZ0tkdmQzZ1otXzd1RXMwVmFJVEktV3JQUnZ3eU9fd1E2cGE0enVhZmFDZy04T2JIZ2tJSjU0UnU3UDJmaUdKV2dCQlFuM2paVWFYRlVMVEdlcmlFY0lwQkhUNm90ZThCQmhMdEE0bF9kRnE1TzZ1bg?oc=5",
+        "domain": "euractiv.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T184235Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "South Korea urges Donald Trump to ease North Korea sanctions for nuclear freeze deal",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FcFlTTjZqM3R6QVVUZmxVRENFVmU1UnJqYVkycXdUMmdfc3A1dDViMVItU2JVOXYwVmlBMnYxYlZ4elc5N3lwZ1AtUThXV2tJWlBpcFpQb2R2Y0NaTnNv?oc=5",
-        "domain": "jpost.com",
+        "domain": "thejerusalempost",
         "language": "",
         "tone": 0,
         "seendate": "20260922T062337Z",
@@ -118830,11 +118866,20 @@
       },
       {
         "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
-        "domain": "kyivpost",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QV3FkdjdOYmZUckxNeVlnbU0yVWw3ajRMMFp6RmhtVXQ1a0FzdXc2T2FGX2hHV1ZlV3NqUHU3eDJZbVUxR1JtUzdxQQ?oc=5",
+        "domain": "kyivpost.com",
         "language": "",
         "tone": 0,
         "seendate": "20260920T081641Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Freezes £53 Million London Townhouse Linked to Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzVsUFl1a0pvQnBuOFhiX1RXanhOV1BzdF9TeXpxRUVCX2YtOUEySUs1N0ZYNk5YYjBJeGhLV3RmLUc4SkJNN3NkdzJabm5SWE9SemhMNWJyR18xTk5aMVhJQXhLck5QcTRyekN6MlRGTjB0QUstS25NUGdIeUJ1aQ?oc=5",
+        "domain": "fincrimecentral",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T094110Z",
         "source": "GoogleNews"
       },
       {
@@ -118847,21 +118892,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Freezes $72-Million London Townhouse in Connection to Sanctioned Prince Group Associate",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWNodUM3T0RuTE9PNEJwb2pfbzJOaDZMR053ajhWUkxHSXZWNFl1ckdaTGdxb0twNVhOYUgwcmJMcjhpb3F5dV9NeUZtVUxRZWJHOGIxWHNvMkxtVmU0MUVOMzc5d1lZbUFWUTdETXBwRkhqMFlIN2RORjA0U2lkSTlnMXlSYmZpUU5SYTBzNl9lY25ONzFQV0wwdlZ4UHUxakd2alhlM2JabHY5S2pyX3pSSW51N0gzRy1B?oc=5",
-        "domain": "occrp",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260917T101931Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Shadow of Xi summit hangs over Trump’s high-stakes talks with Japan’s Takaichi",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSGJqeWkzdzdtV1FSLVdEVXBVSTlVUzJsVjVMSUJEUk0xZHNycjg4VnlhckZNQkQtT01vVkJhUmdDcW9hQWlMRGdWZE52Nl94eHBWM1l2Rmd5SEpCTTBnWF9waVRvYkpIMnp0Zk9oLWdweWhZZUZ6SjdmTEs3S3F0TXNYM0R3aW1OQTNKMElqX0luWDhQRTRJSVNVZ0hjeUs0TGczM3E4VDNSaUpHdE1JUEN4UGcyRGd6ampGbFI4MWphdGNR0gHEAUFVX3lxTFBzN3liM1UtcWF0Y09hdHFESDFRTkhQSHBqemdydTQ4dXFBVFVpM1NyZVVmeVEwTEpvY2Mtcmp1UXMwWm5LWE9USGN6UG1PWHJGSjFVQ1lVWXZWQ2JLVnFRWGNWUlN1YlZacS1sLUwxVENFVFhrbEJlOWF5NjVsa2ptYzFHU1lqODIzQUtqM3JFY0U2SzFOM0NOYnJodUVqX2hOZlU0MmdZdi10djJFLTRUYk9UeDd3NjNWSzJ4ZEZwWTFWejk?oc=5",
-        "domain": "southchinamorningpost",
+        "domain": "scmp",
         "language": "",
         "tone": 0,
         "seendate": "20260922T010007Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU agrees to delist Usmanov, Fridman while extending Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSml4azMwVy1EVXJTblVvemhKR3Z4enpzVHM4SGROS1VNcUw3cXVaUDdNSlpzU203U09jazgySzROSkFUcTNRQVo1UG43U21rV1kwWU5hQVJEWV9EazFPN3JkaU9DejU5T0l0YlUxOExqWThSazRKbzNwRDZ3a1FwZ1hQcUl2VXNiOE5MVE13TC1PS04zcGNhMFp5TzZzTGhKbzdqTlJNdDZoN05yMWx4Z2o4NzVDbFZx0gG0AUFVX3lxTFBJMVRsWEJMRkx3MkRFUnJXcTlFZ0JjTnJuTWdZOFA5bXluQk5yTDhQSU5FS0JGbTRTYjAtUmRRSmVuM0d0LTJ5aWVWVEdWZkFzNTdGZUdfSy1VVmV2elBURHQzN0d1Vm11ZHNqanliNGVCcGl5TTRrQlJLb1QxbUFHY2FIcm5yaTJZWnByWmxmNW40cklQZkJTSzNOQ3NoSDByY05ycHgxN3psQVRRSHM0dXhrdw?oc=5",
+        "domain": "thenewvoiceofukraine",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T162700Z",
         "source": "GoogleNews"
       },
       {
@@ -118910,24 +118955,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Binance in Trouble Again? U.S. Probes Possible Iran Sanctions Violations",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPczducEdpdUdXTS1UN210a2pIVVhHUUsxTUFwcy0zRHJDajM3VExHQXRpYThaSnVjOExlRDJjckVhQmhRVFJNTFYyeVhWaGdVLTJSNXBnb3ZVNFVIRVoyX0NMVDlURmtpOFlpdFYxbUotYy1oY2F5UXYtM3VackFwaHZob1RqMUlmYklzMDd3V2JPQmVidW1oQVpPZDRqb3BNeF8xT2dTMldhWmJQS0VseEJRVzhmY19hSm1NTDB0bmU3N3NoZTVIS1pn?oc=5",
-        "domain": "tradingview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T060900Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU: Agreement to lift sanctions on two Russian oligarchs at the request of France and Luxembourg",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVDhkZTdUWE1kTnY1Zko5aHpYLTV0T1JKX0xRa1luNE1GLXA1VWFJLWFHejNHbS1OOE1JUXhWZnIzX0MtYmVUcmlHQ0gwRk43VDhvNy1fLUdBdnhBRllLN1Z2WVlNSENkcktRLXhWSlVqc044MUJKZ09KSHZxOV9LRG9td1UtQThhUVAyNWtYOV9iRkIwcFVGai0xVGRrTWNwNXgxOUdab2t6bExvU1J3MnpTNVZ0WGc1ZkVManVwdXR3c0pjN1VmMg?oc=5",
-        "domain": "agenzianova",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T182058Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Abdul Malik al-Houthi: The leader driving the fight against Saudi | Gravitas",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTE5OWEJwTVd5ejVySXRCMDlvaXhUZXl2V1ZMalRrVUg5dnRWd0ZGNzFFTm11U3hZTTNJLXlkdm5sb0NyWGRfRlZRLTFXdE42NjFSVF90TlUyemlEVFRyQWs0clpZY2NPRkNwU2ttZE90TTdWWTZIenl1b3pLQUdZTnpvdHNMUERZYW1lek9Tem9hTVVVTm12eWNfT2V4NURKNWFDSjJYSUsxOTc5R29Ldmk1dXlLVjBRUGc3c9IBwgFBVV95cUxNMFBDMzBmZkdva05GQmhKaF9Id1p0YjFhY0l5cC1GMVBmb2pWeXJVNjJPTTVZRUx0M2NLX29iMU1FQ3YzOHd0MmI4UkFQMGY5b2dUVWhzampMcjVHbC02eV92VXVmVEFxRTByS1V6RHhaOFF2ZWdmcnJrRFF2VG5HckJoeS1PWEpCQ3NKNmJLWk5CT0NIQTQ3UzNBN2oyWEg2cTVCTWNqX0xjSE9tOVdxSmwxc3RiYVlzTFlQTi0wejB5UQ?oc=5",
         "domain": "wion",
@@ -118937,30 +118964,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The EU’s Merz problem",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nNjI0WWY2X0tGOXJoRThyQ3lWdGh6Qm1JV0g5dExuZm52MjBIeGZOYk0tLXB4X2c1b3lkdGl0UElKQnAtMFUySE9XM0ozUWtHdTFSVVl2ZTNWVkU5MktvZF8xQmxHckZzY3hlU00yQQ?oc=5",
-        "domain": "euractiv.com",
+        "title": "EU: Agreement to lift sanctions on two Russian oligarchs at the request of France and Luxembourg",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcWRUS2JfUDY5WGFSVDZpOW85bG1uWnIxRC1Fa19saG9Dalh4aXpDMDRuZHI3Z1Rremx5bUFDSHA3MGZudEVNSHU5QjFqamIwZnBQZk9FeURodjJEQjJuY1F4Qm1tZkpBbE9KZm43SnNDNUlCSWd4X0FmTnplVFF3M0ZEVHJQSmZndWo4SFpoSl9VcHo4REJkZjFTQ3lwbzBUT1BpY2ZvTW9EREdzMC1hd1d5R3c2d1FDYm9oNXhWeks0bEkydjQ1TWNmc3k?oc=5",
+        "domain": "agenzianova.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260921T055128Z",
+        "seendate": "20260921T182058Z",
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions deal hangs in balance as deadline nears",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ1NybGsybno2dHYwR1ozMEUwR0hBUkJCaG83emdsQ0hiZXpUaW9MRlZQbV9qendWVi13bjhWSHgxSDBnRTRHWnFrV2JmcTZKVUxuT252R0Zuelc1ei1zYXk0d2xoT3ZxWThVMXdwYmtUVmh2MEJtNHl1Qzlnd3lBaS0wQWNWY1V6YlhQZVdZbWNQci14V01hSkVNLTNuQklZdFFWYTFSTU0xWFF0UU5PNDg1MA?oc=5",
-        "domain": "thesunmalaysia",
+        "title": "Shooting wounds students outside school in western Turkey",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTd9IBvAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTdw?oc=5",
+        "domain": "devdiscourse",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T093448Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Justice Department Moves to Seize $61 Million in Crypto From Alleged Iranian Oil Laundering Ring",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WTDdDUUdaNmJILWRmRmZGN3k5UENPR3ZmOXliYjh2WXVkQ2ZFaTRqN3E5cDkzekpkMFVqVmVBa2xIWVI5dUVNVk1qQjBjaEVYLXQySEdYSEdaNEZaU1lGNkNDeUlFNmF0T0lfOXd1akVTaW1VTHc?oc=5",
-        "domain": "finance.biggo.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T180500Z",
+        "seendate": "20260922T072645Z",
         "source": "GoogleNews"
       },
       {
@@ -119000,39 +119018,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kremlin Demands Europe Lift Sanctions on All Russians",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SVFZBcVB2U1JZTFpDTDRONGl6UlZpVEs3cXhOS280djJmVU9WRkNoOUVRX1hqWVU2dldGQWdIZzNVQ095bm5RNTNaQ3NHY1o4VUZVRjBmbVAtZ0E?oc=5",
-        "domain": "newsofbahrain",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T090043Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Ferrexpo's 9.75% Lifeline: A Miner Caught Between Black Sea Blockades and a Swiss Asset Freeze",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNmlFUkpXWU9pYndsc1hLMUdqcVJnU0NzRkFZZlN0QVlJanBRMWFXQWFvNEUyeENuRzJ1UmtkY09rS0JzRS1fUDZPUjdQZFBlNThqTkM1b3pzRUl2eUo3cVlOWXFXN1NQcmF5Yi1rVDQ0RHctNjFIS2ZlUXByakYxOWlOVm0zNHhPa2MyN3hUZGRKOExnVzl4dHhjcDFLZmNhSHVyY3dhc3BLdDk2Uk5uWDZJaFpMY0UtU1VOUWJIVjAyQ0puRC1KaHprcnNNUktUZUpZ?oc=5",
-        "domain": "adhocnews",
+        "domain": "ad-hoc-news.de",
         "language": "",
         "tone": 0,
         "seendate": "20260919T004031Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Kuwait suspends 11 exchange companies over money-laundering compliance failures",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzk0TGRsZV9SWFhVdDNYdG1yY0RXaldtQ1N2ejRVV0kxZU10dVVxdUhNSzF4aGhvSnFtOGxqbmIyMFVWcXVRVFV4T3NTWjhVOU1CdnZSdTJuTEtxX2s3V19yOWNCWm1IUV8xNTlHWUhZcUo5NnMyQ2h1RUwxMTQzQjR2eHRLYjJjTzRJSzdvWFgtSHF5Z1NpSW5XcmZkRjNoTzNrWVh3MA?oc=5",
-        "domain": "timeskuwait.com",
+        "title": "How France And Luxembourg Quietly Undermined Eu Russia Sanct",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSG5FTXYwSnIwYkludlBic1hhTkNGNE1mcVJmOXlTZVNJRjdNZVpad3lJOWJQM2VDR0xJSnF6OTZ0X2hlS2tGVVVoYURPd0JRY1JKRFlFM3ItaGZMeGFvLVNPUFhDYU1hRkUtR3laRFYtVVEwTlJJdnpxUWZYMkdMM2V5OE9zY3pQ?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260918T113058Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Court rules Belgium had no right to withhold Russian bank's assets",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV0sta0d0eUZocUZZM0dIMDFLVjdkcU1fM2hMcjhyNlRSUE95ZGY4ckRWMUc1dEpqc0NwNy1Dem9kLUEteVFKQmtKYzI5NVotTzlVWEVVbWVhT1d6azUwN29nYkhTbEdhNWZlX0pxckZpMjZVQmhQSzNzVkJJNjZTdEtQQU03RnVEbk5hbnY3YzBfVXlmQzEwNkxrendhMkFHOWpnOXdJcFF0d1Vnd0kw?oc=5",
-        "domain": "bignewsnetwork.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260915T211500Z",
+        "seendate": "20260922T113859Z",
         "source": "GoogleNews"
       },
       {
@@ -119042,15 +119042,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T092600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU seeks sanctions compromise in France dispute over Usmanov listing",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLTZHb1BZNVpOZTJVTDhGZEtOQjhlajFIbnFabWVEdV8xWDZ5Mk9OejY5ak81NE1BdlFqekRXWHQtTW4wMW5BS1phbFlfRnFIczRyMl82enZ6WTgxSElUblVwZXh4LTA4NDlLWXRlWnQ2V21uM3NvNGpUVklfeU5XVVo2TW91cUZlLXlsSDUtamdQblNtdGIyaHJYYnV6dw?oc=5",
-        "domain": "tradersunion",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T092530Z",
         "source": "GoogleNews"
       },
       {
