@@ -1,18 +1,20 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-22T11:32:28.796092+00:00",
+    "generated": "2026-09-22T16:55:06.330272+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
       "OFAC press releases",
       "FRED Brent/WTI"
     ],
-    "source_notes": [],
+    "source_notes": [
+      "Context news unavailable; retained last accepted snapshot."
+    ],
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-22T11:30:42.543663+00:00",
+    "issued_at": "2026-09-22T16:53:19.682868+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.3,
@@ -1360,6 +1362,17 @@
       },
       {
         "timestamp": "2026-09-22T11:30:42.543663+00:00",
+        "score": 23.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 39.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-22T16:53:19.682868+00:00",
         "score": 23.3,
         "level": "BASELINE",
         "components": {
