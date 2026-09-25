@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-25T04:53:09.620371+00:00",
+    "generated": "2026-09-25T11:46:59.187942+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-25T04:51:22.984950+00:00",
+    "issued_at": "2026-09-25T11:45:12.834018+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1388,6 +1388,17 @@
       },
       {
         "timestamp": "2026-09-25T04:51:22.984950+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-25T11:45:12.834018+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118661,6 +118672,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Yemen tells UN that Houthi rebels' moves on key strait threaten global economy",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQkt1SkVTV1Q5Vl9RWE9ZWXpKMlNXQWdpRktiNlc5RWFpU1NNRTNFYlpucG8tOFJiWUlzZWExR2FSZlZjZmVyVzRjQkRNQjhRR2JuZlh6TjA5b3ZsTUlUZ3dwWUFrU1FNTHBRRUpGamQwZFE1TGd6YjdVc1FaekJGa2czNDlmX0F1M1UxS2UxdVlsZWtwY2xsQmNB0gGfAUFVX3lxTFBWcTdmQ2VMMGFpaHNfUU4xLUVCQ29RVzlCRF90UnBmTkVjb3EwajVJdGdxeTRCRGtnc25ERTVCM2F3N0tqN1pldkdHMDJ5NEdwVFpZUzNqT0ZYUGxScHRwTlM0Rk54Sy01dlJReC1XVGZQNnZWNkdyLUJxWjJvNEVmYnpLTHM1OGFlWHRqaHc5THl2QjNjN2FDcTRmMlFjVQ?oc=5",
+        "domain": "abcnews-breakingnewslatestnewsandvideos",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T064840Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Europe Trades Two Oligarchs for a Three-Year Freeze as Washington Aims at Russia's Oil Buyers: Who Wins, Who Pays?",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMXVJNGNwNXVBU2lZRGV3cFFzQ2NadVdLYnFSNUxpaDVYNkNiY2VkQnNNUGw2SkdQUC1QN0o2Y0U2LVFWZ3RkNGl2aGl2aHVEM0ZQaVlibXRqYXpDNGNDckN4aHkyS3lXVGdLbEZQRUpxQjJzX1ZtVk9oeXExTkttaVBTdlJxU3N2WVBfOHBXUzRCTFcy?oc=5",
         "domain": "moderndiplomacy",
@@ -118715,15 +118735,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK extends sectoral sanctions on Iran: The Iran (Sanctions) (Amendment) Regulations 2026",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOXBFYXJHWXpYWjRJR01uLVlqcjhESVhWazNMMl8wOTFteFVibmN0QjJ3RjBtbkgtaHRyNUp0WTNIRkluUHNySklaclk3SElQMDNxVWZDcHBEdUc3U0E4bzBNNldDaFgyQ19vc2JfWUxGWnR4S0E4bzBvZ1IwaEVUa0NGS1BERF9hT3c2QWF5NVF4VmdTMzNONU56YXZZbHFySnZfQUNpM2xtRVVOWTI3N2pQOFVpRDFCbEV2V21YSzBSUmQ2VXJiVHhnNA?oc=5",
-        "domain": "ashurstperkinscoie",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T142750Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan - Sanctions Laws and Regulations 2027",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tcjJNQXNRZjd6OFlMN0RkanFnQkd0cVpNYVJyUkNWMVlCOEZpN0I4bUl5ZGtkV2dVZ0hqN1NRdmt5eEFOQWlpQTI2NXhab0NQTGNSbjI3T21yM0Vu?oc=5",
         "domain": "iclg",
@@ -118739,15 +118750,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T060348Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sanctions eased in exchange for prisoner: Usmanov removed from list as Aliyev pardons French citizen",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd1NMQW9LWjFqNEQ0R0FuTnF4aUpVZDNNOVlrSVJyT0RPcmxPTWhhS3BMMWEzYjU2SHVKUkdRejdiZ0ZYT25zOU1SNWpsZ25zQzd6QWVNWm4xWWdzOFB0enRnVkJGUFZIRVZrem03N05hZXdwaHVEMkltX2JKWFdJcnJrYlAySjlOVGtZWkpOeTBONDZhWDRBTlgzM2JTNEpZVFJhTWFEZ0tkTTNuZFM3YnhzMEdPOG1uTTBybER3?oc=5",
-        "domain": "jamnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T135822Z",
         "source": "GoogleNews"
       },
       {
@@ -118850,30 +118852,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The High Court of England and Wales has lifted the global asset freeze on VTB Bank assets belonging to the Kuanishev family",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3pPZFVsQW1tdG80Wmc2RFhfR3lrb1dGeEZ4N3RGZnhnRDZ3NmRUNmdIYWh5TWtlWW9TMVNhTzc4TGNLelBRc0lOS0wtbTBFQzZnRDlhQmIteHVkU2hzUUV1TGpaLWJ2dXQ5RWdacFpIZFJ2VlpPNEFLR0ZvMEJkSGUtSkxRUzA4YVpQQ0JxQjBhcTU3bjV2ZXJNeEFHNEdrb0hiVW1EMjExbGpYRTdJ?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T113523Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
         "domain": "inkl",
         "language": "",
         "tone": 0,
         "seendate": "20260921T101500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Corinthians leadership face court cases and club sanctions since 2015",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT2cxLWpLdkVLV2NCNWxoU0NoMEwxWElKdF9nOFd1aDJTWE83ZkM3WUt1eDZhQ1hZRXd3eGdRa0JkVTNwd05KN1Z0UXpWUkhoRm1TSTN6MWticTRVUDhTM0thN1VWLXFxWEQ0c0F5dHlmR1JzWF9YOHhpUEVUMjBhaXIyaEF3ZFdfUHV3bU1iLXZRam0zdjVDbTA3cnFYX2NISzJFOEtMN1JPRDl4YXFr?oc=5",
-        "domain": "onefootball",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T120243Z",
         "source": "GoogleNews"
       },
       {
@@ -118906,7 +118890,7 @@
       {
         "title": "A heavy blow to the EU sanctions regime against Russia",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
-        "domain": "en.vijesti.me",
+        "domain": "vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260923T044750Z",
@@ -118915,7 +118899,7 @@
       {
         "title": "Shooting wounds students outside school in western Turkey",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTd9IBvAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTdw?oc=5",
-        "domain": "devdiscourse.com",
+        "domain": "devdiscourse",
         "language": "",
         "tone": 0,
         "seendate": "20260922T072645Z",
@@ -118924,7 +118908,7 @@
       {
         "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2NlSEgwc0JIZktNZWtoT2N4dktPTnZYLVdZRDZoejBsQWN1VC1ZdFZTaTU2eHBVbmQycEoyVXZXRmtnaWNuWTViTHpDOVZUWktTbjU3V3ROUFJSekhkaVVvbHgxRktlNGp2c2JXZEFmUXp5OXlGUkMzLXB6Y3JWOVRWMTNDTEtSbnZwRnFUNThTZw?oc=5",
-        "domain": "aol.com",
+        "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20260922T185710Z",
@@ -118946,15 +118930,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260923T084943Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Yemen Tells UN That Houthi Rebels' Moves On Key Strait Threaten Global Economy",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEtpMVg0UkNzbjFfMWxfZXZfLU93SENaYVY4YUVlRlBtTS10N09WYWZMMElIS3Y1Z3FNM0YzbGRoSWRiWGxFYlR2dkxVbGVSenl3RWtPZDNTMXdYTmdvdGsxclEtem4taEI5TkVmZGwtSUQyRnMzUERTaUR1QzlfOERRa3VRc05vNVdSS0xfNlY3aC1RaF9QamxBOHdDNW42WXN3TUs3TE5WaUx5VnB4dXNvQUpBTmpudVgwTkFwMGhabnR0OHExNDBLaUJWSzRt0gHWAUFVX3lxTE92dlRBV25uRDJ1WFlyX3MteTFuRlcxQkREa2w0angxSnJQbFBQeVVQVWRmcUlVTTd5Y1FKQzRWUGE0ZmIydW9VSC0xNFhBMTI1Qlo2cDN0bERZZ09jaldKc0c0eVlmb0x5WTNDWU5QQ0cydEExcHBFX3pRTEhfSkY3QlI4WEJXYU4zbXNrbGJSVEE3S0lzMXQ4ZDdKUTNSQ0JLN0RiME9aRkxEQ2RZMmZYVjdKbWxGdEhHYktKN2x6SWZlb0w3U0Y1Y1c0eFZLV3J5RzhYU0E?oc=5",
-        "domain": "etvbharat",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T012621Z",
         "source": "GoogleNews"
       },
       {
@@ -118996,7 +118971,7 @@
       {
         "title": "EU extends individual Ukraine-related sanctions until 2029",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFBpREpkaDBaNVJqd0lqd2pUeGVvVG5UdE5PUHlXNURhZHlkdzhjSnk0TjhRbmRpNXZpYzZIMFBBOE42bDZSMFhqQnkwVDhlX1FlTzlIdll1SGF4dGhjTU9mdDJ5a3cwX3M1LWo5YTlYQXJCQTVWYkNKa0N5QmNqQVFZZ25GQ1RUaDA4SS11ZVNoUQ?oc=5",
-        "domain": "londondaily.news",
+        "domain": "londondailynews",
         "language": "",
         "tone": 0,
         "seendate": "20260924T132146Z",
@@ -119009,24 +118984,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260923T115300Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France's ANJ Tightens AML And Asset-Freezing Rules For Gambling Operators",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQjVicDFjTjAyUGRYQUZVWXBkSXdzTExub1A0R3l6bGZtN3A1RjlkZjNoeE1acHZnTFNZdlZBTFlweUZ1LVRZMjFlWVdSWTI4Mnk0LVk2dDhIRGRvTGZLTURic0FYS3drWk5NQWlIQUlQQnhFb1RkT2xCdnlfSWhrQ0puM3RXTVdSMW00ZHY2OGoxOVl6NjlxZkNCYUpiMkJmLWlGZ2tn?oc=5",
-        "domain": "gambling.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T164343Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU seeks compromise on Usmanov sanctions after French veto",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlhLQ3ktZmpMMlA2bE9rcnJITzEyVksyNjFKblFpSE04QTFSczN3QWxhZ2hBcnRWVkdXZWhnVUJ1T052U19VejhtMGloZmhIYlgwekhGRzFjVHdMd3ZSdHJ3Z09UX0E4eTJhcGkyZWdIZ0k4TlJ3ZzNZellLeVBFZHlSNFNWUjA3UzFOS2xZN2ZfWFMwckRF?oc=5",
-        "domain": "streamlinefeed.co.ke",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T080744Z",
         "source": "GoogleNews"
       }
     ]
