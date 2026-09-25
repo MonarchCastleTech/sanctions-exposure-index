@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-25T17:07:54.608597+00:00",
+    "generated": "2026-09-25T21:33:12.505476+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-25T17:06:08.091605+00:00",
+    "issued_at": "2026-09-25T21:31:26.260319+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1410,6 +1410,17 @@
       },
       {
         "timestamp": "2026-09-25T17:06:08.091605+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-25T21:31:26.260319+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118683,15 +118694,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Europe Trades Two Oligarchs for a Three-Year Freeze as Washington Aims at Russia's Oil Buyers: Who Wins, Who Pays?",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMXVJNGNwNXVBU2lZRGV3cFFzQ2NadVdLYnFSNUxpaDVYNkNiY2VkQnNNUGw2SkdQUC1QN0o2Y0U2LVFWZ3RkNGl2aGl2aHVEM0ZQaVlibXRqYXpDNGNDckN4aHkyS3lXVGdLbEZQRUpxQjJzX1ZtVk9oeXExTkttaVBTdlJxU3N2WVBfOHBXUzRCTFcy?oc=5",
-        "domain": "moderndiplomacy",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T140325Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU removes two Russian oligarchs from sanctions blacklist",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU21BSEZOM0VYMTRUbnF1b2huTXhDRERCZnB1ZU1oNWszMEk4MGZRdDdFbHpOS0hWbFphNENjOC1JWUhhOV9uajBNQWZxY0JGeFVVR1ZyRktFMndjQVlOOUJhR3RNSjlrWS1fNW1YX05vTkFkU2F4OTVqeFBMdkRkT3NWYUJyNmpReWFvNjdBVDk5QQ?oc=5",
         "domain": "euractiv.com",
@@ -118701,30 +118703,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Europe Trades Two Oligarchs for a Three-Year Freeze as Washington Aims at Russia's Oil Buyers: Who Wins, Who Pays?",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMXVJNGNwNXVBU2lZRGV3cFFzQ2NadVdLYnFSNUxpaDVYNkNiY2VkQnNNUGw2SkdQUC1QN0o2Y0U2LVFWZ3RkNGl2aGl2aHVEM0ZQaVlibXRqYXpDNGNDckN4aHkyS3lXVGdLbEZQRUpxQjJzX1ZtVk9oeXExTkttaVBTdlJxU3N2WVBfOHBXUzRCTFcy?oc=5",
+        "domain": "moderndiplomacy",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T140325Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU in showdown over Russian oligarch sanctions as deadline nears",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONndfaDVrSmNsSEZLajhvdFhUcllDOGQ1c1VyZmZ3d21LUW9rYXNxbldPQ3hDZkNkTXVTWHExd0Rheko1S3RidVlNckhZazA2aGZlOXdfazlLLUk0dDRNUVBDd2dkVDdoTXJQc3YtenFydjNKNEdISGJsNzd0VTZRMHNfSDRzM1MyQmdtd0xmQWFsOEh1VXJRaFdyVXNIZm9lTDhIcmRwQmw?oc=5",
-        "domain": "hurriyetdailynews.com",
+        "domain": "hrriyetdailynews",
         "language": "",
         "tone": 0,
         "seendate": "20260922T083228Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Latvia blocked an EU compromise on sanctions against Russian oligarchs",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZi1UVW4yZTZRd3I3aHA5WmU2Rno2TGwwSF9IVHJiU1ZxNWp6NEVLMjl3ekhCRVUwVUZJTjIwVVNOQ0dUVllGZmZsTzYtaHVnRTBmTXRnbTVfdjBMSEFwTDIwa0hqZ25pTm9jeHJ6TVB3WEdlaTZrWG9YS2VaVVhTZ1FqRmxjZUM3WUEwT2MzOGhOVDJJakY3TUx5Tnl1dGNuM2psSA?oc=5",
-        "domain": "ua.news",
+        "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
+        "domain": "kyivpost",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T060348Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sanctions eased in exchange for prisoner: Usmanov removed from list as Aliyev pardons French citizen",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd1NMQW9LWjFqNEQ0R0FuTnF4aUpVZDNNOVlrSVJyT0RPcmxPTWhhS3BMMWEzYjU2SHVKUkdRejdiZ0ZYT25zOU1SNWpsZ25zQzd6QWVNWm4xWWdzOFB0enRnVkJGUFZIRVZrem03N05hZXdwaHVEMkltX2JKWFdJcnJrYlAySjlOVGtZWkpOeTBONDZhWDRBTlgzM2JTNEpZVFJhTWFEZ0tkTTNuZFM3YnhzMEdPOG1uTTBybER3?oc=5",
-        "domain": "jamnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T135822Z",
+        "seendate": "20260920T081641Z",
         "source": "GoogleNews"
       },
       {
@@ -118737,12 +118739,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
-        "domain": "kyivpost",
+        "title": "Latvia blocked an EU compromise on sanctions against Russian oligarchs",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZi1UVW4yZTZRd3I3aHA5WmU2Rno2TGwwSF9IVHJiU1ZxNWp6NEVLMjl3ekhCRVUwVUZJTjIwVVNOQ0dUVllGZmZsTzYtaHVnRTBmTXRnbTVfdjBMSEFwTDIwa0hqZ25pTm9jeHJ6TVB3WEdlaTZrWG9YS2VaVVhTZ1FqRmxjZUM3WUEwT2MzOGhOVDJJakY3TUx5Tnl1dGNuM2psSA?oc=5",
+        "domain": "ua.news",
         "language": "",
         "tone": 0,
-        "seendate": "20260920T081641Z",
+        "seendate": "20260922T060348Z",
         "source": "GoogleNews"
       },
       {
@@ -118782,6 +118784,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU sanctions media figure for Russian manipulation in war narratives",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1hRdjhZMjRmejA2b2JOa3pNZjc5b0g4ZG9aS3hpQmlEczVKVHkwdndvSndGel85amtRWDdXT1A4SDYwOXd2V29wSkhmakV2bTliUkR5YzBWQ3JFLVR5cGtuUjJkQ1VZTXZkWGk1UVFPRWFxeFNMZldjbExBSTZsWDJZcEV6Nnc2am50V3U0YnNUNTVPNldJR1BZMFNWZzdVY0dvM1BGVTZSQnBUcDFjd2IxcWlxSGNU?oc=5",
+        "domain": "brusselstimes.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T175400Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQnBSLTROVE8tUWJ1LUx6OU9zOWtXYThNWnVfSEp3dlU1U0Z1ZkZjVS15cXc2MmNEUUpLZVRVUlh5UkdlOWotVTJPNWhHYXl3RzVnV2o2c2FOejhyS2dvWVREY08wYThDdXczTDZEcWtHUDV5V0VRT3dkXzVrTUQ1ZTdFNTloa2thdUlzZElZQzVpa3F6bW1fTG5zdVBkTmlDZUs4THNwZFk?oc=5",
         "domain": "euronews.com",
@@ -118809,15 +118820,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
-        "domain": "inkl",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T101500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Why No One Can Copy ASML's $370M Machine (Even With Unlimited Money) Alert (mXvbAraxxB)",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5Q1czcVpwZGRfZm5wdEUzNTA1eUZhQ1RyRmdzWmZlMW1NaUpfQ2ZNQjNPeDdRU2pTZWhKU3FYTnpxMTFHaTRHMmJsdkdpcmZiUTdjZGtMVmViejh1Y25ReFJLc3pCUQ?oc=5",
         "domain": "unisbamedia",
@@ -118827,21 +118829,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU: Agreement to lift sanctions on two Russian oligarchs at the request of France and Luxembourg",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcWRUS2JfUDY5WGFSVDZpOW85bG1uWnIxRC1Fa19saG9Dalh4aXpDMDRuZHI3Z1Rremx5bUFDSHA3MGZudEVNSHU5QjFqamIwZnBQZk9FeURodjJEQjJuY1F4Qm1tZkpBbE9KZm43SnNDNUlCSWd4X0FmTnplVFF3M0ZEVHJQSmZndWo4SFpoSl9VcHo4REJkZjFTQ3lwbzBUT1BpY2ZvTW9EREdzMC1hd1d5R3c2d1FDYm9oNXhWeks0bEkydjQ1TWNmc3k?oc=5",
-        "domain": "agenzianova",
+        "title": "Eight non-EU countries back new decision on exemptions to Ukraine war sanctions",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGs4VXpDSllUZ0RZMmZ1N29DNXBxZ2lucHJjUzNBSjNVYWsyWWsteWJjQUgyQmhIaUhNTXMtUlRSaWV5SzYxczhJNXF0WGVGZUhoY2Q2a2Znb1FkeWRaLWJrVVJ0aC1QaGRaaHVlZWZ4VGpFWm4wZU51Skx0ZlFVVk9Pa3J3eUItdUlfYkpLSmRJZFBzQ2thOGtxVVFtUUxGWW9QUlFvS1BsX1RWUWQ1T3V6OGlvMzdxeTRVMVA0WmVWLXVrd1hv?oc=5",
+        "domain": "brusselstimes.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260921T182058Z",
+        "seendate": "20260925T175355Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Ukraine reacted to the lifting of EU sanctions on Usmanov and Fridman",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ0RlaEFUMkM5UnlIVFJ2MXN3UzBHazZiZlkzZ0pMLVVVY210NVp5TzNnLWNJd253cmMyc190dnZKUUtaYU0zRDJaQS14R0tNNV9jWTZ5cnRrS3lRYWUwX080T0pvY3o2aGNxOFg0Ym5KbTIxQzdYRVQyaTlFNlkyRkRnY0VyNWpvMDJQRjFIQ3kyQQ?oc=5",
-        "domain": "news.google.com",
+        "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
+        "domain": "inkl",
         "language": "",
         "tone": 0,
-        "seendate": "20260923T092457Z",
+        "seendate": "20260921T101500Z",
         "source": "GoogleNews"
       },
       {
@@ -118854,21 +118856,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Shooting wounds students outside school in western Turkey",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTd9IBvAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTdw?oc=5",
-        "domain": "devdiscourse",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T072645Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2NlSEgwc0JIZktNZWtoT2N4dktPTnZYLVdZRDZoejBsQWN1VC1ZdFZTaTU2eHBVbmQycEoyVXZXRmtnaWNuWTViTHpDOVZUWktTbjU3V3ROUFJSekhkaVVvbHgxRktlNGp2c2JXZEFmUXp5OXlGUkMzLXB6Y3JWOVRWMTNDTEtSbnZwRnFUNThTZw?oc=5",
         "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20260922T185710Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ukraine reacted to the lifting of EU sanctions on Usmanov and Fridman",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ0RlaEFUMkM5UnlIVFJ2MXN3UzBHazZiZlkzZ0pMLVVVY210NVp5TzNnLWNJd253cmMyc190dnZKUUtaYU0zRDJaQS14R0tNNV9jWTZ5cnRrS3lRYWUwX080T0pvY3o2aGNxOFg0Ym5KbTIxQzdYRVQyaTlFNlkyRkRnY0VyNWpvMDJQRjFIQ3kyQQ?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260923T092457Z",
         "source": "GoogleNews"
       },
       {
@@ -118881,12 +118883,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU faces backlash over lifting sanctions on two Russian billionaires",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWR1dHFpVHVzTjU5X3UxaWRIZ3FtZlVBZ3NkeHlQelN3cFI1R2h6Qk1DMlBLaUhpMmRLb2JuWVNZZGd1cjFXQzBIRnFRaHp4N1Z3eEVsTV8tZTlvUC1YeGN1cVJRdmlJckhHWnE1Qmkyc3c4MFJ6S3hzbWpYekJRZHdrQTZScEhSWnkxNnhjdWtHV2FOQ3dRZHg4VlZ5cjZkR2VVblE5Yw?oc=5",
-        "domain": "cyprusinform",
+        "title": "Shooting wounds students outside school in western Turkey",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTd9IBvAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTdw?oc=5",
+        "domain": "devdiscourse",
         "language": "",
         "tone": 0,
-        "seendate": "20260923T162411Z",
+        "seendate": "20260922T072645Z",
         "source": "GoogleNews"
       },
       {
@@ -118896,6 +118898,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260923T084943Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU faces backlash over lifting sanctions on two Russian billionaires",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWR1dHFpVHVzTjU5X3UxaWRIZ3FtZlVBZ3NkeHlQelN3cFI1R2h6Qk1DMlBLaUhpMmRLb2JuWVNZZGd1cjFXQzBIRnFRaHp4N1Z3eEVsTV8tZTlvUC1YeGN1cVJRdmlJckhHWnE1Qmkyc3c4MFJ6S3hzbWpYekJRZHdrQTZScEhSWnkxNnhjdWtHV2FOQ3dRZHg4VlZ5cjZkR2VVblE5Yw?oc=5",
+        "domain": "kiprinform.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260923T162411Z",
         "source": "GoogleNews"
       },
       {
@@ -118923,6 +118934,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260924T132556Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "French betting operator fined after asset-freezing alert was missed",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOXRmRE5zeGxRUXBSX2NkSEhxclE2SGwxajBvTW5HV09EWGVUSEtGWmliQWpLdTFnN296U016ZVFFWWJVLWpvcG9xb1NUekd4aXVrc3dHYVlUcW5iWk9OTkQ4Z3RaWUZtN2ZOako2UnBrY3FYdmdYTmN1X0d0SlB5MVY5TFNnWHpWNEtjYlVjYUNUMS12aUJWVkk5ZGU3SW1samNycnVmM2c?oc=5",
+        "domain": "casino.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T183842Z",
         "source": "GoogleNews"
       },
       {
