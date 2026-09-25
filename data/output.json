@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-24T21:29:38.660720+00:00",
+    "generated": "2026-09-25T04:53:09.620371+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-24T21:27:51.898365+00:00",
+    "issued_at": "2026-09-25T04:51:22.984950+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -128,7 +128,7 @@
         "current_7d_releases": 0,
         "current_weighted_term_rate": 0.0,
         "baseline_weeks": 11,
-        "anomaly_z": -2.53,
+        "anomaly_z": -3.71,
         "matched_release_count": 0,
         "relief_release_count": 0,
         "evidence": [],
@@ -1377,6 +1377,17 @@
       },
       {
         "timestamp": "2026-09-24T21:27:51.898365+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-25T04:51:22.984950+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118650,15 +118661,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU removes two Russian oligarchs from sanctions blacklist",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU21BSEZOM0VYMTRUbnF1b2huTXhDRERCZnB1ZU1oNWszMEk4MGZRdDdFbHpOS0hWbFphNENjOC1JWUhhOV9uajBNQWZxY0JGeFVVR1ZyRktFMndjQVlOOUJhR3RNSjlrWS1fNW1YX05vTkFkU2F4OTVqeFBMdkRkT3NWYUJyNmpReWFvNjdBVDk5QQ?oc=5",
-        "domain": "euractiv.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T190657Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Europe Trades Two Oligarchs for a Three-Year Freeze as Washington Aims at Russia's Oil Buyers: Who Wins, Who Pays?",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMXVJNGNwNXVBU2lZRGV3cFFzQ2NadVdLYnFSNUxpaDVYNkNiY2VkQnNNUGw2SkdQUC1QN0o2Y0U2LVFWZ3RkNGl2aGl2aHVEM0ZQaVlibXRqYXpDNGNDckN4aHkyS3lXVGdLbEZQRUpxQjJzX1ZtVk9oeXExTkttaVBTdlJxU3N2WVBfOHBXUzRCTFcy?oc=5",
         "domain": "moderndiplomacy",
@@ -118668,12 +118670,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "𝐊𝐞𝐧𝐲𝐚 𝐑𝐚𝐢𝐬𝐞𝐬 𝐓𝐞𝐫𝐫𝐨𝐫-𝐅𝐢𝐧𝐚𝐧𝐜𝐢𝐧𝐠 𝐅𝐢𝐧𝐞𝐬 𝐟𝐨𝐫 𝐁𝐚𝐧𝐤𝐬 𝐭𝐨 𝐒𝐡𝟐𝟎 𝐌𝐢𝐥𝐥𝐢𝐨𝐧. Kenya has raised the maximum fine for banks and other financial institutions that breach terror-financing rules to Sh20 million from Sh3 million and increased the maxi",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS01XUWxJWWZka3kwNm1tR25DZTlFRG1yX3R0SU1BT01Dby1lU3RhVnJFaTlEMllmc3ZWZW4tTFNfekNSSGNRRGZ1dGc5dzFvNHg4QTBNekdqblFSbmRVUHVOdE91NTVLVDBnbWtWamxvT05Cd1NhcUhjYXdFOFR5MXBZb29mSWNlQ1Nma2RWN01uZm4xYktDM09HRi0zRUhOZHJDLXFBWElxckIxV3JBbmlsdy0taFRQVkZjeVJFbGgzblFDMnI2MEhwY2VISXFfcU81TGRObm13akpmVm10WDU5M0NkWXlGemc?oc=5",
-        "domain": "linkedin",
+        "title": "EU removes two Russian oligarchs from sanctions blacklist",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU21BSEZOM0VYMTRUbnF1b2huTXhDRERCZnB1ZU1oNWszMEk4MGZRdDdFbHpOS0hWbFphNENjOC1JWUhhOV9uajBNQWZxY0JGeFVVR1ZyRktFMndjQVlOOUJhR3RNSjlrWS1fNW1YX05vTkFkU2F4OTVqeFBMdkRkT3NWYUJyNmpReWFvNjdBVDk5QQ?oc=5",
+        "domain": "euractiv.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260918T044407Z",
+        "seendate": "20260922T190657Z",
         "source": "GoogleNews"
       },
       {
@@ -118701,6 +118703,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T115025Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWi1iMzItbkI3MVFGV19NN3VJRFFxMWRRRE5kVEhKdjN5bnV3NU1Ga2tUUjB1RXZHWFUyeUp1RExlLWctc1dZdWpoSDJIS3Y2eWtnNnVMVXNwS1ZlUWZQRllPTU9lZ1lTa01DS2xqM1FobEh3YldxOTRWdm5fWjh5MA?oc=5",
+        "domain": "yahoonewscanada",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T151613Z",
         "source": "GoogleNews"
       },
       {
@@ -118740,15 +118751,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions former Russia Today executive Xenia Fedorova",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMERZOWg5Y0dRMTlnVU5aclQwQVNOSkxESml6NU81Y2M3MG9uU1M2VDVoRWNLbk5yRW85c254TFJJMExEZHNtR0RkMzBnQS1rZTJEaHJaVl9KeU9mOHRIRWxuaVdnaFZtb2RoVkVQemxVVXlNZDVERWs1SGpVeUJGaTlTTkxPMlNsVmtURi1BYXByRFR4T3dmYUUyWTIwTEk?oc=5",
-        "domain": "globalbankingfinancereview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T163508Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK Freezes £53 Million London Townhouse Linked to Sanctions",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzVsUFl1a0pvQnBuOFhiX1RXanhOV1BzdF9TeXpxRUVCX2YtOUEySUs1N0ZYNk5YYjBJeGhLV3RmLUc4SkJNN3NkdzJabm5SWE9SemhMNWJyR18xTk5aMVhJQXhLck5QcTRyekN6MlRGTjB0QUstS25NUGdIeUJ1aQ?oc=5",
         "domain": "fincrimecentral",
@@ -118764,6 +118766,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20260920T081641Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions former Russia Today executive Xenia Fedorova",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMERZOWg5Y0dRMTlnVU5aclQwQVNOSkxESml6NU81Y2M3MG9uU1M2VDVoRWNLbk5yRW85c254TFJJMExEZHNtR0RkMzBnQS1rZTJEaHJaVl9KeU9mOHRIRWxuaVdnaFZtb2RoVkVQemxVVXlNZDVERWs1SGpVeUJGaTlTTkxPMlNsVmtURi1BYXByRFR4T3dmYUUyWTIwTEk?oc=5",
+        "domain": "globalbankingfinancereview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T163508Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Extends Russia Sanctions to 2029",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBqQkxkU0RkVHhVZWlucl9uVFlFRTk5aTJTaWl6bm1ZbGVHUUVvN2ZLQzRLSjNuU1VoVzgycFZIbTRHMkRJMDM5dEdCdEZtUGpTQjlqaFQ1ODRHaG1KRTVIQ3RBWGdwVGhFd05VXzNjUnBsUjBzZ09rUkR1UQ?oc=5",
+        "domain": "theeuropeantimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260923T075827Z",
         "source": "GoogleNews"
       },
       {
@@ -118794,24 +118814,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYVZITXpKRnNKSHczMkhUcG93YVg5THZHY3ZkeGQ0QS1UMnBPemJ4bEFOaUZkbWJvZ0V0RjhWc2NVNFlsU3g3SjNyNjJ3enJ4Sk0zQWVDS2ozX0lSbFQ2VzZ2ejRDX2NLenF1QXduUW16WUx4MFUyeGNfVmNaVmVBclM1RTNYeXpzSGhjUmNUQUdlMUdWRzZWNFhZc1c2OUM2VVBidl83cElXTDlseERNQQ?oc=5",
-        "domain": "euronews.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T144722Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Extends Russia Sanctions to 2029",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBqQkxkU0RkVHhVZWlucl9uVFlFRTk5aTJTaWl6bm1ZbGVHUUVvN2ZLQzRLSjNuU1VoVzgycFZIbTRHMkRJMDM5dEdCdEZtUGpTQjlqaFQ1ODRHaG1KRTVIQ3RBWGdwVGhFd05VXzNjUnBsUjBzZ09rUkR1UQ?oc=5",
-        "domain": "theeuropeantimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T075827Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "France and Slovakia seek oligarch delistings in EU sanctions deal",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmw3RTNFVkRnTV81ZmJGNE4xakU1WVlXTW8xYUdIZExiU0dIdkQ1eHF2Sm1aRDhWcF81M2MwWHF4eTZLZmxFWUs4X3h2V3VUeGNUalEwbENsLXFlcVRQSmUtQTZqbEptS0ZZU1l5V0dvX0R6Y2tIRlVpYlpGUEZSY3Y4bnFmckJSV2VkUzZ3X2lBdnZWMUdCX3dFdlRxa3hMWDNN?oc=5",
         "domain": "euractiv.com",
@@ -118827,15 +118829,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T162700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan PM spotlights strong ties with Trump before Xi's U.S. visit",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xSzRpVzFZLUlFVl83WGU1bHRCTUlIcTVEUWJaUnlpWXRqQUtJWjJiQzZkSmEyazJFdHdnTVQ1MVk1TXJDcUU2UHVJUXFtS2pDN2tyMkowd3FEZw?oc=5",
-        "domain": "japanwirebykyodonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T022926Z",
         "source": "GoogleNews"
       },
       {
@@ -118863,6 +118856,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260918T113523Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
+        "domain": "inkl",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T101500Z",
         "source": "GoogleNews"
       },
       {
@@ -118904,7 +118906,7 @@
       {
         "title": "A heavy blow to the EU sanctions regime against Russia",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
-        "domain": "vijesti.me",
+        "domain": "en.vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260923T044750Z",
@@ -118922,7 +118924,7 @@
       {
         "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2NlSEgwc0JIZktNZWtoT2N4dktPTnZYLVdZRDZoejBsQWN1VC1ZdFZTaTU2eHBVbmQycEoyVXZXRmtnaWNuWTViTHpDOVZUWktTbjU3V3ROUFJSekhkaVVvbHgxRktlNGp2c2JXZEFmUXp5OXlGUkMzLXB6Y3JWOVRWMTNDTEtSbnZwRnFUNThTZw?oc=5",
-        "domain": "aol.co.uk",
+        "domain": "aol.com",
         "language": "",
         "tone": 0,
         "seendate": "20260922T185710Z",
@@ -118944,6 +118946,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260923T084943Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Yemen Tells UN That Houthi Rebels' Moves On Key Strait Threaten Global Economy",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEtpMVg0UkNzbjFfMWxfZXZfLU93SENaYVY4YUVlRlBtTS10N09WYWZMMElIS3Y1Z3FNM0YzbGRoSWRiWGxFYlR2dkxVbGVSenl3RWtPZDNTMXdYTmdvdGsxclEtem4taEI5TkVmZGwtSUQyRnMzUERTaUR1QzlfOERRa3VRc05vNVdSS0xfNlY3aC1RaF9QamxBOHdDNW42WXN3TUs3TE5WaUx5VnB4dXNvQUpBTmpudVgwTkFwMGhabnR0OHExNDBLaUJWSzRt0gHWAUFVX3lxTE92dlRBV25uRDJ1WFlyX3MteTFuRlcxQkREa2w0angxSnJQbFBQeVVQVWRmcUlVTTd5Y1FKQzRWUGE0ZmIydW9VSC0xNFhBMTI1Qlo2cDN0bERZZ09jaldKc0c0eVlmb0x5WTNDWU5QQ0cydEExcHBFX3pRTEhfSkY3QlI4WEJXYU4zbXNrbGJSVEE3S0lzMXQ4ZDdKUTNSQ0JLN0RiME9aRkxEQ2RZMmZYVjdKbWxGdEhHYktKN2x6SWZlb0w3U0Y1Y1c0eFZLV3J5RzhYU0E?oc=5",
+        "domain": "etvbharat",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T012621Z",
         "source": "GoogleNews"
       },
       {
@@ -118985,7 +118996,7 @@
       {
         "title": "EU extends individual Ukraine-related sanctions until 2029",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFBpREpkaDBaNVJqd0lqd2pUeGVvVG5UdE5PUHlXNURhZHlkdzhjSnk0TjhRbmRpNXZpYzZIMFBBOE42bDZSMFhqQnkwVDhlX1FlTzlIdll1SGF4dGhjTU9mdDJ5a3cwX3M1LWo5YTlYQXJCQTVWYkNKa0N5QmNqQVFZZ25GQ1RUaDA4SS11ZVNoUQ?oc=5",
-        "domain": "londondailynews",
+        "domain": "londondaily.news",
         "language": "",
         "tone": 0,
         "seendate": "20260924T132146Z",
