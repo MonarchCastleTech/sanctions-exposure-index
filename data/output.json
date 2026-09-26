@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-25T21:33:12.505476+00:00",
+    "generated": "2026-09-26T04:52:59.140133+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-25T21:31:26.260319+00:00",
+    "issued_at": "2026-09-26T04:51:12.482911+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1421,6 +1421,17 @@
       },
       {
         "timestamp": "2026-09-25T21:31:26.260319+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-26T04:51:12.482911+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118721,12 +118732,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
-        "domain": "kyivpost",
+        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWi1iMzItbkI3MVFGV19NN3VJRFFxMWRRRE5kVEhKdjN5bnV3NU1Ga2tUUjB1RXZHWFUyeUp1RExlLWctc1dZdWpoSDJIS3Y2eWtnNnVMVXNwS1ZlUWZQRllPTU9lZ1lTa01DS2xqM1FobEh3YldxOTRWdm5fWjh5MA?oc=5",
+        "domain": "yahoonewscanada",
         "language": "",
         "tone": 0,
-        "seendate": "20260920T081641Z",
+        "seendate": "20260922T151613Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Latvia blocked an EU compromise on sanctions against Russian oligarchs",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZi1UVW4yZTZRd3I3aHA5WmU2Rno2TGwwSF9IVHJiU1ZxNWp6NEVLMjl3ekhCRVUwVUZJTjIwVVNOQ0dUVllGZmZsTzYtaHVnRTBmTXRnbTVfdjBMSEFwTDIwa0hqZ25pTm9jeHJ6TVB3WEdlaTZrWG9YS2VaVVhTZ1FqRmxjZUM3WUEwT2MzOGhOVDJJakY3TUx5Tnl1dGNuM2psSA?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T060348Z",
         "source": "GoogleNews"
       },
       {
@@ -118739,12 +118759,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Latvia blocked an EU compromise on sanctions against Russian oligarchs",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZi1UVW4yZTZRd3I3aHA5WmU2Rno2TGwwSF9IVHJiU1ZxNWp6NEVLMjl3ekhCRVUwVUZJTjIwVVNOQ0dUVllGZmZsTzYtaHVnRTBmTXRnbTVfdjBMSEFwTDIwa0hqZ25pTm9jeHJ6TVB3WEdlaTZrWG9YS2VaVVhTZ1FqRmxjZUM3WUEwT2MzOGhOVDJJakY3TUx5Tnl1dGNuM2psSA?oc=5",
-        "domain": "ua.news",
+        "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
+        "domain": "kyivpost",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T060348Z",
+        "seendate": "20260920T081641Z",
         "source": "GoogleNews"
       },
       {
@@ -118775,26 +118795,8 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France’s stance threatens continuation of EU sanctions against Russia, - Politico",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYm1HQ1M4RHZVYVJPbHZVX2Nuc1lZaG5XdGt2Y2VOQmlrbjZobVRqWGdHNEZVeV9VT2IwQkR4VzZVOXlKQXNvVzRGdWJJUkZlVFZSNjR4RFFycUFKZnRuVVljVGNYczJPczlCUDFVRkxIbGxoaUVhYmh0RnFrYmJYSDJZcUxwU0NqcmhUeThDbXRmUV9McXp2eGR4RUU?oc=5",
-        "domain": ".",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T091200Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions media figure for Russian manipulation in war narratives",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1hRdjhZMjRmejA2b2JOa3pNZjc5b0g4ZG9aS3hpQmlEczVKVHkwdndvSndGel85amtRWDdXT1A4SDYwOXd2V29wSkhmakV2bTliUkR5YzBWQ3JFLVR5cGtuUjJkQ1VZTXZkWGk1UVFPRWFxeFNMZldjbExBSTZsWDJZcEV6Nnc2am50V3U0YnNUNTVPNldJR1BZMFNWZzdVY0dvM1BGVTZSQnBUcDFjd2IxcWlxSGNU?oc=5",
-        "domain": "brusselstimes.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T175400Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQnBSLTROVE8tUWJ1LUx6OU9zOWtXYThNWnVfSEp3dlU1U0Z1ZkZjVS15cXc2MmNEUUpLZVRVUlh5UkdlOWotVTJPNWhHYXl3RzVnV2o2c2FOejhyS2dvWVREY08wYThDdXczTDZEcWtHUDV5V0VRT3dkXzVrTUQ1ZTdFNTloa2thdUlzZElZQzVpa3F6bW1fTG5zdVBkTmlDZUs4THNwZFk?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVDhaSnpCclFlRWZMbG9GenlQRDB6TUJuZ0h4S1RKYmYtTkxYOEtxallTT1ZHTzNOMlNOaVlaVkczdkJCSlJSSEdZNXl2WDM0V1ZKVm1nNV9DWkxTUXptN2Z2b2lmYl9OVHB5VUtaRVdZQmxVM0ZMTWJxT0JPT29ZT0FlMTVKTEVtdW5ZV1JMR1lrQnIwNWxtaVJjOA?oc=5",
         "domain": "euronews.com",
         "language": "",
         "tone": 0,
@@ -118811,12 +118813,57 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYVZITXpKRnNKSHczMkhUcG93YVg5THZHY3ZkeGQ0QS1UMnBPemJ4bEFOaUZkbWJvZ0V0RjhWc2NVNFlsU3g3SjNyNjJ3enJ4Sk0zQWVDS2ozX0lSbFQ2VzZ2ejRDX2NLenF1QXduUW16WUx4MFUyeGNfVmNaVmVBclM1RTNYeXpzSGhjUmNUQUdlMUdWRzZWNFhZc1c2OUM2VVBidl83cElXTDlseERNQQ?oc=5",
+        "title": "'Cherry-picking sanctions' normalises Russia, Latvian PM warns",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS216MGRjeUlLNVRVQkNsX0dhek16MEFSa1EyWlFpTC01eUgwV2t5Z2xJZndoOWdOUFJtV2FiS2pkZjlKS2xiUnV0MmNKNi04d29FY1ZOUjFKSVkya05xUTYxLU5GbjhFbnNoaXFjS0h1aXBWOXViZ3hRTEk3cndrT2lCcjNfRzdUSmpVdmpacFMtMUNWbk1vbXl6cE9rZmNDOGFKdzdBWUlXUGFPR01Ba0hfSmREMUZQanc?oc=5",
         "domain": "euronews.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T144722Z",
+        "seendate": "20260922T182032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "France’s stance threatens continuation of EU sanctions against Russia, - Politico",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYm1HQ1M4RHZVYVJPbHZVX2Nuc1lZaG5XdGt2Y2VOQmlrbjZobVRqWGdHNEZVeV9VT2IwQkR4VzZVOXlKQXNvVzRGdWJJUkZlVFZSNjR4RFFycUFKZnRuVVljVGNYczJPczlCUDFVRkxIbGxoaUVhYmh0RnFrYmJYSDJZcUxwU0NqcmhUeThDbXRmUV9McXp2eGR4RUU?oc=5",
+        "domain": ".",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T091200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions media figure for Russian manipulation in war narratives",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1hRdjhZMjRmejA2b2JOa3pNZjc5b0g4ZG9aS3hpQmlEczVKVHkwdndvSndGel85amtRWDdXT1A4SDYwOXd2V29wSkhmakV2bTliUkR5YzBWQ3JFLVR5cGtuUjJkQ1VZTXZkWGk1UVFPRWFxeFNMZldjbExBSTZsWDJZcEV6Nnc2am50V3U0YnNUNTVPNldJR1BZMFNWZzdVY0dvM1BGVTZSQnBUcDFjd2IxcWlxSGNU?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T183315Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Eight non-EU countries back new decision on exemptions to Ukraine war sanctions",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGs4VXpDSllUZ0RZMmZ1N29DNXBxZ2lucHJjUzNBSjNVYWsyWWsteWJjQUgyQmhIaUhNTXMtUlRSaWV5SzYxczhJNXF0WGVGZUhoY2Q2a2Znb1FkeWRaLWJrVVJ0aC1QaGRaaHVlZWZ4VGpFWm4wZU51Skx0ZlFVVk9Pa3J3eUItdUlfYkpLSmRJZFBzQ2thOGtxVVFtUUxGWW9QUlFvS1BsX1RWUWQ1T3V6OGlvMzdxeTRVMVA0WmVWLXVrd1hv?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T183315Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
+        "domain": "inkl.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260921T101500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Despite Global Reserve Asset Reshuffling Including \"Increased Gold Holdings,\" Dollar-Centric System Remains",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rVmw1YVVuMEt2enFHNFN4Mm5zXzQzc05VLURkZXJLeVZJUzc4WmcwVW5FS2tBZ3l1SmJ3TXhTTFhDRGNMMmVQUDlNNk5qbmdweFJrdnpJRk5XLWMzM3d5dlZPVzlWQ3JPVXVhMjE3WlU0R3l3Y3BCRGtR?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260926T010000Z",
         "source": "GoogleNews"
       },
       {
@@ -118829,42 +118876,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Eight non-EU countries back new decision on exemptions to Ukraine war sanctions",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGs4VXpDSllUZ0RZMmZ1N29DNXBxZ2lucHJjUzNBSjNVYWsyWWsteWJjQUgyQmhIaUhNTXMtUlRSaWV5SzYxczhJNXF0WGVGZUhoY2Q2a2Znb1FkeWRaLWJrVVJ0aC1QaGRaaHVlZWZ4VGpFWm4wZU51Skx0ZlFVVk9Pa3J3eUItdUlfYkpLSmRJZFBzQ2thOGtxVVFtUUxGWW9QUlFvS1BsX1RWUWQ1T3V6OGlvMzdxeTRVMVA0WmVWLXVrd1hv?oc=5",
-        "domain": "brusselstimes.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T175355Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
-        "domain": "inkl",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T101500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "A heavy blow to the EU sanctions regime against Russia",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
-        "domain": "vijesti.me",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T044750Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2NlSEgwc0JIZktNZWtoT2N4dktPTnZYLVdZRDZoejBsQWN1VC1ZdFZTaTU2eHBVbmQycEoyVXZXRmtnaWNuWTViTHpDOVZUWktTbjU3V3ROUFJSekhkaVVvbHgxRktlNGp2c2JXZEFmUXp5OXlGUkMzLXB6Y3JWOVRWMTNDTEtSbnZwRnFUNThTZw?oc=5",
-        "domain": "aol.co.uk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T185710Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Ukraine reacted to the lifting of EU sanctions on Usmanov and Fridman",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ0RlaEFUMkM5UnlIVFJ2MXN3UzBHazZiZlkzZ0pMLVVVY210NVp5TzNnLWNJd253cmMyc190dnZKUUtaYU0zRDJaQS14R0tNNV9jWTZ5cnRrS3lRYWUwX080T0pvY3o2aGNxOFg0Ym5KbTIxQzdYRVQyaTlFNlkyRkRnY0VyNWpvMDJQRjFIQ3kyQQ?oc=5",
         "domain": "news.google.com",
@@ -118874,12 +118885,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Provisional List of the 9 Candidates Registered for the Presidency in Haiti",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbXQyLW1ncGhHdWtSc0NXQXpQbDZxVzZNOTRqZDNIM2k5VDZPbWpUaDN3ZXVwX1B3SHY2VkhNTllhcFNaeGhrbUlIUWVNbURuTllDd0h1aDl0N3lPSWJoem1sTkh6S0IySkV0S3FyS1JUS2MySTVJcU8zNzRXdk9HSWtBYVZsbnZLeVJVY1pVZjhfQ1VQWVpMd3BFX2hNT0Zjcl9lRk1jb3VEdW5mMEplT1B5YVBRdkw0OUhpWEJn?oc=5",
-        "domain": "haitilibre.com",
+        "title": "A heavy blow to the EU sanctions regime against Russia",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
+        "domain": "en.vijesti.me",
         "language": "",
         "tone": 0,
-        "seendate": "20260924T131944Z",
+        "seendate": "20260923T044750Z",
         "source": "GoogleNews"
       },
       {
@@ -118889,6 +118900,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T072645Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Provisional List of the 9 Candidates Registered for the Presidency in Haiti",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbXQyLW1ncGhHdWtSc0NXQXpQbDZxVzZNOTRqZDNIM2k5VDZPbWpUaDN3ZXVwX1B3SHY2VkhNTllhcFNaeGhrbUlIUWVNbURuTllDd0h1aDl0N3lPSWJoem1sTkh6S0IySkV0S3FyS1JUS2MySTVJcU8zNzRXdk9HSWtBYVZsbnZLeVJVY1pVZjhfQ1VQWVpMd3BFX2hNT0Zjcl9lRk1jb3VEdW5mMEplT1B5YVBRdkw0OUhpWEJn?oc=5",
+        "domain": "haitilibre.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T131944Z",
         "source": "GoogleNews"
       },
       {
@@ -118903,37 +118923,10 @@
       {
         "title": "EU faces backlash over lifting sanctions on two Russian billionaires",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWR1dHFpVHVzTjU5X3UxaWRIZ3FtZlVBZ3NkeHlQelN3cFI1R2h6Qk1DMlBLaUhpMmRLb2JuWVNZZGd1cjFXQzBIRnFRaHp4N1Z3eEVsTV8tZTlvUC1YeGN1cVJRdmlJckhHWnE1Qmkyc3c4MFJ6S3hzbWpYekJRZHdrQTZScEhSWnkxNnhjdWtHV2FOQ3dRZHg4VlZ5cjZkR2VVblE5Yw?oc=5",
-        "domain": "kiprinform.com",
+        "domain": "cyprusinform",
         "language": "",
         "tone": 0,
         "seendate": "20260923T162411Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Kremlin Demands Europe Lift Sanctions on All Russians",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SVFZBcVB2U1JZTFpDTDRONGl6UlZpVEs3cXhOS280djJmVU9WRkNoOUVRX1hqWVU2dldGQWdIZzNVQ095bm5RNTNaQ3NHY1o4VUZVRjBmbVAtZ0E?oc=5",
-        "domain": "newsofbahrain",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T090043Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ferrexpo's 9.75% Lifeline: A Miner Caught Between Black Sea Blockades and a Swiss Asset Freeze",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNmlFUkpXWU9pYndsc1hLMUdqcVJnU0NzRkFZZlN0QVlJanBRMWFXQWFvNEUyeENuRzJ1UmtkY09rS0JzRS1fUDZPUjdQZFBlNThqTkM1b3pzRUl2eUo3cVlOWXFXN1NQcmF5Yi1rVDQ0RHctNjFIS2ZlUXByakYxOWlOVm0zNHhPa2MyN3hUZGRKOExnVzl4dHhjcDFLZmNhSHVyY3dhc3BLdDk2Uk5uWDZJaFpMY0UtU1VOUWJIVjAyQ0puRC1KaHprcnNNUktUZUpZ?oc=5",
-        "domain": "adhocnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260919T004031Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia raises 2026 oil export outlook to 244.7 million tons despite lowest production since 2009",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82Mi1BbnVjVUh0dHpzelhpYU0yNEFYam4ydWpQLUw4b29LX3NHZlZObUVRYWk2c1Y0cG1CekZ5c01BV3Zqd09WY0F1YlNFZjNTeFUwVGlzWmRqUTQ2OGZ3X1NlNDRnUUFNR2dF?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T132556Z",
         "source": "GoogleNews"
       },
       {
@@ -118943,6 +118936,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260925T183842Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia raises 2026 oil export outlook to 244.7 million tons despite lowest production since 2009",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82Mi1BbnVjVUh0dHpzelhpYU0yNEFYam4ydWpQLUw4b29LX3NHZlZObUVRYWk2c1Y0cG1CekZ5c01BV3Zqd09WY0F1YlNFZjNTeFUwVGlzWmRqUTQ2OGZ3X1NlNDRnUUFNR2dF?oc=5",
+        "domain": "cryptobriefing",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T132556Z",
         "source": "GoogleNews"
       },
       {
