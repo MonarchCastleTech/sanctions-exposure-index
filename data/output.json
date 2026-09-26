@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-26T04:52:59.140133+00:00",
+    "generated": "2026-09-26T11:20:38.087119+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-26T04:51:12.482911+00:00",
+    "issued_at": "2026-09-26T11:18:51.729180+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1432,6 +1432,17 @@
       },
       {
         "timestamp": "2026-09-26T04:51:12.482911+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-26T11:18:51.729180+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118696,6 +118707,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "France Imposes €45,000 in Fines Over Betting Asset-Freeze Failure",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQVVNxeWdfZWNxaVdudmhTYjJ0WEFTUklVbTNUQVJNMDdDV21fc0VCM1R5dnZKWFBoNW85Z0tPSkJ1bGk3dVZjTndENmtXVjlqVDVncngzOEwwc2czWXNoazM3c2pSTUZxT09vSUZtQV9ZMVloVjhGNUtmOXZjdw?oc=5",
+        "domain": "fincrimecentral",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T092255Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Yemen tells UN that Houthi rebels' moves on key strait threaten global economy",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQkt1SkVTV1Q5Vl9RWE9ZWXpKMlNXQWdpRktiNlc5RWFpU1NNRTNFYlpucG8tOFJiWUlzZWExR2FSZlZjZmVyVzRjQkRNQjhRR2JuZlh6TjA5b3ZsTUlUZ3dwWUFrU1FNTHBRRUpGamQwZFE1TGd6YjdVc1FaekJGa2czNDlmX0F1M1UxS2UxdVlsZWtwY2xsQmNB0gGfAUFVX3lxTFBWcTdmQ2VMMGFpaHNfUU4xLUVCQ29RVzlCRF90UnBmTkVjb3EwajVJdGdxeTRCRGtnc25ERTVCM2F3N0tqN1pldkdHMDJ5NEdwVFpZUzNqT0ZYUGxScHRwTlM0Rk54Sy01dlJReC1XVGZQNnZWNkdyLUJxWjJvNEVmYnpLTHM1OGFlWHRqaHc5THl2QjNjN2FDcTRmMlFjVQ?oc=5",
         "domain": "abcnews-breakingnewslatestnewsandvideos",
@@ -118732,12 +118752,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWi1iMzItbkI3MVFGV19NN3VJRFFxMWRRRE5kVEhKdjN5bnV3NU1Ga2tUUjB1RXZHWFUyeUp1RExlLWctc1dZdWpoSDJIS3Y2eWtnNnVMVXNwS1ZlUWZQRllPTU9lZ1lTa01DS2xqM1FobEh3YldxOTRWdm5fWjh5MA?oc=5",
-        "domain": "yahoonewscanada",
+        "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3RrMDNXbEoyV21nV19sVk9TUTdJY3VJQXNPZEUxUWJ6X1VEckd6X1VNYXpPTUU2V2ZnZnp1a3VTOUd4c2VlaVpXenA2aTd6cEhTMFRISjJSdzMyTE91bDR2akJfVWF0SHFrdXpJS2pPSkFWZi1UVTRsSThDOVVvaFFWLWNoT1B0Rndz?oc=5",
+        "domain": "yahoonewssingapore",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T151613Z",
+        "seendate": "20260923T140803Z",
         "source": "GoogleNews"
       },
       {
@@ -118750,18 +118770,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Freezes £53 Million London Townhouse Linked to Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzVsUFl1a0pvQnBuOFhiX1RXanhOV1BzdF9TeXpxRUVCX2YtOUEySUs1N0ZYNk5YYjBJeGhLV3RmLUc4SkJNN3NkdzJabm5SWE9SemhMNWJyR18xTk5aMVhJQXhLck5QcTRyekN6MlRGTjB0QUstS25NUGdIeUJ1aQ?oc=5",
-        "domain": "fincrimecentral",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T094110Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
         "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
-        "domain": "kyivpost",
+        "domain": "kyivpost.com",
         "language": "",
         "tone": 0,
         "seendate": "20260920T081641Z",
@@ -118804,6 +118815,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWi1iMzItbkI3MVFGV19NN3VJRFFxMWRRRE5kVEhKdjN5bnV3NU1Ga2tUUjB1RXZHWFUyeUp1RExlLWctc1dZdWpoSDJIS3Y2eWtnNnVMVXNwS1ZlUWZQRllPTU9lZ1lTa01DS2xqM1FobEh3YldxOTRWdm5fWjh5MA?oc=5",
+        "domain": "yahoonewscanada",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T151613Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "France and Slovakia remove Russian oligarchs from EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHp3OHZFbmpMOEFGSXF6VnJxNE5TTTQxREVVaVE3UU9GZ0tkdmQzZ1otXzd1RXMwVmFJVEktV3JQUnZ3eU9fd1E2cGE0enVhZmFDZy04T2JIZ2tJSjU0UnU3UDJmaUdKV2dCQlFuM2paVWFYRlVMVEdlcmlFY0lwQkhUNm90ZThCQmhMdEE0bF9kRnE1TzZ1bg?oc=5",
         "domain": "euractiv.com",
@@ -118813,12 +118833,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "'Cherry-picking sanctions' normalises Russia, Latvian PM warns",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS216MGRjeUlLNVRVQkNsX0dhek16MEFSa1EyWlFpTC01eUgwV2t5Z2xJZndoOWdOUFJtV2FiS2pkZjlKS2xiUnV0MmNKNi04d29FY1ZOUjFKSVkya05xUTYxLU5GbjhFbnNoaXFjS0h1aXBWOXViZ3hRTEk3cndrT2lCcjNfRzdUSmpVdmpacFMtMUNWbk1vbXl6cE9rZmNDOGFKdzdBWUlXUGFPR01Ba0hfSmREMUZQanc?oc=5",
-        "domain": "euronews.com",
+        "title": "UK Freezes £53 Million London Townhouse Linked to Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzVsUFl1a0pvQnBuOFhiX1RXanhOV1BzdF9TeXpxRUVCX2YtOUEySUs1N0ZYNk5YYjBJeGhLV3RmLUc4SkJNN3NkdzJabm5SWE9SemhMNWJyR18xTk5aMVhJQXhLck5QcTRyekN6MlRGTjB0QUstS25NUGdIeUJ1aQ?oc=5",
+        "domain": "fincrimecentral",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T182032Z",
+        "seendate": "20260922T094110Z",
         "source": "GoogleNews"
       },
       {
@@ -118851,7 +118871,7 @@
       {
         "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
-        "domain": "inkl.com",
+        "domain": "inkl",
         "language": "",
         "tone": 0,
         "seendate": "20260921T101500Z",
@@ -118887,7 +118907,7 @@
       {
         "title": "A heavy blow to the EU sanctions regime against Russia",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
-        "domain": "en.vijesti.me",
+        "domain": "vijesti.me",
         "language": "",
         "tone": 0,
         "seendate": "20260923T044750Z",
