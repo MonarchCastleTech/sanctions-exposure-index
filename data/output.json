@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-26T16:20:32.470202+00:00",
+    "generated": "2026-09-26T21:06:58.010758+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-26T16:18:45.856946+00:00",
+    "issued_at": "2026-09-26T21:05:11.435155+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1454,6 +1454,17 @@
       },
       {
         "timestamp": "2026-09-26T16:18:45.856946+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-26T21:05:11.435155+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118801,7 +118812,7 @@
       {
         "title": "EU agrees to delist Usmanov, Fridman while extending Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSml4azMwVy1EVXJTblVvemhKR3Z4enpzVHM4SGROS1VNcUw3cXVaUDdNSlpzU203U09jazgySzROSkFUcTNRQVo1UG43U21rV1kwWU5hQVJEWV9EazFPN3JkaU9DejU5T0l0YlUxOExqWThSazRKbzNwRDZ3a1FwZ1hQcUl2VXNiOE5MVE13TC1PS04zcGNhMFp5TzZzTGhKbzdqTlJNdDZoN05yMWx4Z2o4NzVDbFZx0gG0AUFVX3lxTFBJMVRsWEJMRkx3MkRFUnJXcTlFZ0JjTnJuTWdZOFA5bXluQk5yTDhQSU5FS0JGbTRTYjAtUmRRSmVuM0d0LTJ5aWVWVEdWZkFzNTdGZUdfSy1VVmV2elBURHQzN0d1Vm11ZHNqanliNGVCcGl5TTRrQlJLb1QxbUFHY2FIcm5yaTJZWnByWmxmNW40cklQZkJTSzNOQ3NoSDByY05ycHgxN3psQVRRSHM0dXhrdw?oc=5",
-        "domain": "english.nv.ua",
+        "domain": "thenewvoiceofukraine",
         "language": "",
         "tone": 0,
         "seendate": "20260922T162700Z",
@@ -118837,7 +118848,7 @@
       {
         "title": "France’s stance threatens continuation of EU sanctions against Russia, - Politico",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYm1HQ1M4RHZVYVJPbHZVX2Nuc1lZaG5XdGt2Y2VOQmlrbjZobVRqWGdHNEZVeV9VT2IwQkR4VzZVOXlKQXNvVzRGdWJJUkZlVFZSNjR4RFFycUFKZnRuVVljVGNYczJPczlCUDFVRkxIbGxoaUVhYmh0RnFrYmJYSDJZcUxwU0NqcmhUeThDbXRmUV9McXp2eGR4RUU?oc=5",
-        "domain": ".",
+        "domain": "censor.net",
         "language": "",
         "tone": 0,
         "seendate": "20260921T091200Z",
@@ -118859,6 +118870,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260925T183315Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Corinthians leadership face court cases and club sanctions since 2015",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT2cxLWpLdkVLV2NCNWxoU0NoMEwxWElKdF9nOFd1aDJTWE83ZkM3WUt1eDZhQ1hZRXd3eGdRa0JkVTNwd05KN1Z0UXpWUkhoRm1TSTN6MWticTRVUDhTM0thN1VWLXFxWEQ0c0F5dHlmR1JzWF9YOHhpUEVUMjBhaXIyaEF3ZFdfUHV3bU1iLXZRam0zdjVDbTA3cnFYX2NISzJFOEtMN1JPRDl4YXFr?oc=5",
+        "domain": "onefootball",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T120243Z",
         "source": "GoogleNews"
       },
       {
@@ -118895,6 +118915,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260923T092457Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Abramovich Loses in EU Court. Why Offshore Shields Less",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iZUpjYjZIZ2lQd0ZLSG1PTy1TRGtiYTE0WjBvaGNRLTFGdlZ0Y1BfeW9waTJUcFhhX3h2TkhHMlVob3o1R1l5eVFFTFlRLVFtTXpWM01oQTdoNV9nT0R0bg?oc=5",
+        "domain": "kancelariaskarbiec",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260926T165628Z",
         "source": "GoogleNews"
       },
       {
@@ -118936,7 +118965,7 @@
       {
         "title": "EU faces backlash over lifting sanctions on two Russian billionaires",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWR1dHFpVHVzTjU5X3UxaWRIZ3FtZlVBZ3NkeHlQelN3cFI1R2h6Qk1DMlBLaUhpMmRLb2JuWVNZZGd1cjFXQzBIRnFRaHp4N1Z3eEVsTV8tZTlvUC1YeGN1cVJRdmlJckhHWnE1Qmkyc3c4MFJ6S3hzbWpYekJRZHdrQTZScEhSWnkxNnhjdWtHV2FOQ3dRZHg4VlZ5cjZkR2VVblE5Yw?oc=5",
-        "domain": "cyprusinform",
+        "domain": "kiprinform.com",
         "language": "",
         "tone": 0,
         "seendate": "20260923T162411Z",
@@ -118954,7 +118983,7 @@
       {
         "title": "Russia raises 2026 oil export outlook to 244.7 million tons despite lowest production since 2009",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82Mi1BbnVjVUh0dHpzelhpYU0yNEFYam4ydWpQLUw4b29LX3NHZlZObUVRYWk2c1Y0cG1CekZ5c01BV3Zqd09WY0F1YlNFZjNTeFUwVGlzWmRqUTQ2OGZ3X1NlNDRnUUFNR2dF?oc=5",
-        "domain": "cryptobriefing",
+        "domain": "cryptobriefing.com",
         "language": "",
         "tone": 0,
         "seendate": "20260924T132556Z",
@@ -118963,7 +118992,7 @@
       {
         "title": "EU extends individual Ukraine-related sanctions until 2029",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFBpREpkaDBaNVJqd0lqd2pUeGVvVG5UdE5PUHlXNURhZHlkdzhjSnk0TjhRbmRpNXZpYzZIMFBBOE42bDZSMFhqQnkwVDhlX1FlTzlIdll1SGF4dGhjTU9mdDJ5a3cwX3M1LWo5YTlYQXJCQTVWYkNKa0N5QmNqQVFZZ25GQ1RUaDA4SS11ZVNoUQ?oc=5",
-        "domain": "londondailynews",
+        "domain": "londondaily.news",
         "language": "",
         "tone": 0,
         "seendate": "20260924T132146Z",
@@ -118981,19 +119010,10 @@
       {
         "title": "EU places Xenia Fedorova under Russia destabilisation sanctions",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQREg2U1VHTUZZUU53NzZ1b2ZSWXRiU0pURnVkTXc5YmdzeWxyLVdKVUlEc3hGS3FwTkJlSTNjWW8zTy1FX1JRTGxTQW5KQ3RfSEFMWGd6TUJGdHlIUDlHcGZOYmMxLWNaR0c5VnN3R2JnMlk2SzBHdldLQ1RmMjZxWnZ0VEVlQXlkelhCekxPR0JNZlZzeXFpNg?oc=5",
-        "domain": "londondailynews",
+        "domain": "londondaily.news",
         "language": "",
         "tone": 0,
         "seendate": "20260925T070425Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Following France, the European Union also sanctions Xenia Fedorova",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU0V3Y0FpYlRweG9LODQzWTZlekxOMHpiNWJSVFJwN2FBTEVBT2xONzJRdmlLMWFrMUthTUZXQXN1d3RhaWY3ekxmcWJHTk96MXBFU3pGQ0twQjEtQlJNNkVvWXRVcmZtaWZjWmhEb091SXk5WXp3TUxKcHNCTGlQQ2dJRlNPcERkZEF6bHlnajBVUGVPanVFQS1FQVhuUUt5M29F?oc=5",
-        "domain": "entrevue.fr",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T130821Z",
         "source": "GoogleNews"
       }
     ]
