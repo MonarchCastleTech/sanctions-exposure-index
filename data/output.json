@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-26T11:20:38.087119+00:00",
+    "generated": "2026-09-26T16:20:32.470202+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-26T11:18:51.729180+00:00",
+    "issued_at": "2026-09-26T16:18:45.856946+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1443,6 +1443,17 @@
       },
       {
         "timestamp": "2026-09-26T11:18:51.729180+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-26T16:18:45.856946+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118772,19 +118783,10 @@
       {
         "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
         "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
-        "domain": "kyivpost.com",
+        "domain": "kyivpost",
         "language": "",
         "tone": 0,
         "seendate": "20260920T081641Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions former Russia Today executive Xenia Fedorova",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMERZOWg5Y0dRMTlnVU5aclQwQVNOSkxESml6NU81Y2M3MG9uU1M2VDVoRWNLbk5yRW85c254TFJJMExEZHNtR0RkMzBnQS1rZTJEaHJaVl9KeU9mOHRIRWxuaVdnaFZtb2RoVkVQemxVVXlNZDVERWs1SGpVeUJGaTlTTkxPMlNsVmtURi1BYXByRFR4T3dmYUUyWTIwTEk?oc=5",
-        "domain": "globalbankingfinancereview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T163508Z",
         "source": "GoogleNews"
       },
       {
@@ -118799,7 +118801,7 @@
       {
         "title": "EU agrees to delist Usmanov, Fridman while extending Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSml4azMwVy1EVXJTblVvemhKR3Z4enpzVHM4SGROS1VNcUw3cXVaUDdNSlpzU203U09jazgySzROSkFUcTNRQVo1UG43U21rV1kwWU5hQVJEWV9EazFPN3JkaU9DejU5T0l0YlUxOExqWThSazRKbzNwRDZ3a1FwZ1hQcUl2VXNiOE5MVE13TC1PS04zcGNhMFp5TzZzTGhKbzdqTlJNdDZoN05yMWx4Z2o4NzVDbFZx0gG0AUFVX3lxTFBJMVRsWEJMRkx3MkRFUnJXcTlFZ0JjTnJuTWdZOFA5bXluQk5yTDhQSU5FS0JGbTRTYjAtUmRRSmVuM0d0LTJ5aWVWVEdWZkFzNTdGZUdfSy1VVmV2elBURHQzN0d1Vm11ZHNqanliNGVCcGl5TTRrQlJLb1QxbUFHY2FIcm5yaTJZWnByWmxmNW40cklQZkJTSzNOQ3NoSDByY05ycHgxN3psQVRRSHM0dXhrdw?oc=5",
-        "domain": "thenewvoiceofukraine",
+        "domain": "english.nv.ua",
         "language": "",
         "tone": 0,
         "seendate": "20260922T162700Z",
@@ -118821,15 +118823,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T151613Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France and Slovakia remove Russian oligarchs from EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHp3OHZFbmpMOEFGSXF6VnJxNE5TTTQxREVVaVE3UU9GZ0tkdmQzZ1otXzd1RXMwVmFJVEktV3JQUnZ3eU9fd1E2cGE0enVhZmFDZy04T2JIZ2tJSjU0UnU3UDJmaUdKV2dCQlFuM2paVWFYRlVMVEdlcmlFY0lwQkhUNm90ZThCQmhMdEE0bF9kRnE1TzZ1bg?oc=5",
-        "domain": "euractiv.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T184235Z",
         "source": "GoogleNews"
       },
       {
@@ -118878,21 +118871,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Despite Global Reserve Asset Reshuffling Including \"Increased Gold Holdings,\" Dollar-Centric System Remains",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rVmw1YVVuMEt2enFHNFN4Mm5zXzQzc05VLURkZXJLeVZJUzc4WmcwVW5FS2tBZ3l1SmJ3TXhTTFhDRGNMMmVQUDlNNk5qbmdweFJrdnpJRk5XLWMzM3d5dlZPVzlWQ3JPVXVhMjE3WlU0R3l3Y3BCRGtR?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260926T010000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Why No One Can Copy ASML's $370M Machine (Even With Unlimited Money) Alert (mXvbAraxxB)",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5Q1czcVpwZGRfZm5wdEUzNTA1eUZhQ1RyRmdzWmZlMW1NaUpfQ2ZNQjNPeDdRU2pTZWhKU3FYTnpxMTFHaTRHMmJsdkdpcmZiUTdjZGtMVmViejh1Y25ReFJLc3pCUQ?oc=5",
         "domain": "unisbamedia",
         "language": "",
         "tone": 0,
         "seendate": "20260923T133032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Despite Global Reserve Asset Reshuffling Including \"Increased Gold Holdings,\" Dollar-Centric System Remains",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWHNDWGNMZ3dVSzVoN0E2R09NOEpTaHJMUEw0X3FRMXpTM1dnTVBzXzJ2RUlhaUpmUUdHWXlGN05YXzZsYzBCc09CdGRxb3JmM3ZZejRqbUZCNWNSVlR6Wk1jTGk?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260926T010000Z",
         "source": "GoogleNews"
       },
       {
