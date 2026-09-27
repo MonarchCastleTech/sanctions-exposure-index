@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-27T05:14:57.852034+00:00",
+    "generated": "2026-09-27T11:59:46.961237+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-27T05:13:11.478968+00:00",
+    "issued_at": "2026-09-27T11:58:00.409502+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1476,6 +1476,17 @@
       },
       {
         "timestamp": "2026-09-27T05:13:11.478968+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-27T11:58:00.409502+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118758,15 +118769,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Yemen tells UN that Houthi rebels' moves on key strait threaten global economy",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQkt1SkVTV1Q5Vl9RWE9ZWXpKMlNXQWdpRktiNlc5RWFpU1NNRTNFYlpucG8tOFJiWUlzZWExR2FSZlZjZmVyVzRjQkRNQjhRR2JuZlh6TjA5b3ZsTUlUZ3dwWUFrU1FNTHBRRUpGamQwZFE1TGd6YjdVc1FaekJGa2czNDlmX0F1M1UxS2UxdVlsZWtwY2xsQmNB0gGfAUFVX3lxTFBWcTdmQ2VMMGFpaHNfUU4xLUVCQ29RVzlCRF90UnBmTkVjb3EwajVJdGdxeTRCRGtnc25ERTVCM2F3N0tqN1pldkdHMDJ5NEdwVFpZUzNqT0ZYUGxScHRwTlM0Rk54Sy01dlJReC1XVGZQNnZWNkdyLUJxWjJvNEVmYnpLTHM1OGFlWHRqaHc5THl2QjNjN2FDcTRmMlFjVQ?oc=5",
-        "domain": "abcnews-breakingnewslatestnewsandvideos",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T064840Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU removes two Russian oligarchs from sanctions blacklist",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU21BSEZOM0VYMTRUbnF1b2huTXhDRERCZnB1ZU1oNWszMEk4MGZRdDdFbHpOS0hWbFphNENjOC1JWUhhOV9uajBNQWZxY0JGeFVVR1ZyRktFMndjQVlOOUJhR3RNSjlrWS1fNW1YX05vTkFkU2F4OTVqeFBMdkRkT3NWYUJyNmpReWFvNjdBVDk5QQ?oc=5",
         "domain": "euractiv.com",
@@ -118776,9 +118778,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Yemen tells UN that Houthi rebels' moves on key strait threaten global economy",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQkt1SkVTV1Q5Vl9RWE9ZWXpKMlNXQWdpRktiNlc5RWFpU1NNRTNFYlpucG8tOFJiWUlzZWExR2FSZlZjZmVyVzRjQkRNQjhRR2JuZlh6TjA5b3ZsTUlUZ3dwWUFrU1FNTHBRRUpGamQwZFE1TGd6YjdVc1FaekJGa2czNDlmX0F1M1UxS2UxdVlsZWtwY2xsQmNB0gGfAUFVX3lxTFBWcTdmQ2VMMGFpaHNfUU4xLUVCQ29RVzlCRF90UnBmTkVjb3EwajVJdGdxeTRCRGtnc25ERTVCM2F3N0tqN1pldkdHMDJ5NEdwVFpZUzNqT0ZYUGxScHRwTlM0Rk54Sy01dlJReC1XVGZQNnZWNkdyLUJxWjJvNEVmYnpLTHM1OGFlWHRqaHc5THl2QjNjN2FDcTRmMlFjVQ?oc=5",
+        "domain": "abcnews-breakingnewslatestnewsandvideos",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T064840Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Europe Trades Two Oligarchs for a Three-Year Freeze as Washington Aims at Russia's Oil Buyers: Who Wins, Who Pays?",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMXVJNGNwNXVBU2lZRGV3cFFzQ2NadVdLYnFSNUxpaDVYNkNiY2VkQnNNUGw2SkdQUC1QN0o2Y0U2LVFWZ3RkNGl2aGl2aHVEM0ZQaVlibXRqYXpDNGNDckN4aHkyS3lXVGdLbEZQRUpxQjJzX1ZtVk9oeXExTkttaVBTdlJxU3N2WVBfOHBXUzRCTFcy?oc=5",
-        "domain": "moderndiplomacy.eu",
+        "domain": "moderndiplomacy",
         "language": "",
         "tone": 0,
         "seendate": "20260924T140325Z",
@@ -118796,19 +118807,10 @@
       {
         "title": "EU in showdown over Russian oligarch sanctions as deadline nears",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONndfaDVrSmNsSEZLajhvdFhUcllDOGQ1c1VyZmZ3d21LUW9rYXNxbldPQ3hDZkNkTXVTWHExd0Rheko1S3RidVlNckhZazA2aGZlOXdfazlLLUk0dDRNUVBDd2dkVDdoTXJQc3YtenFydjNKNEdISGJsNzd0VTZRMHNfSDRzM1MyQmdtd0xmQWFsOEh1VXJRaFdyVXNIZm9lTDhIcmRwQmw?oc=5",
-        "domain": "hrriyetdailynews",
+        "domain": "hurriyetdailynews.com",
         "language": "",
         "tone": 0,
         "seendate": "20260922T083228Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK extends sectoral sanctions on Iran: The Iran (Sanctions) (Amendment) Regulations 2026",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOXBFYXJHWXpYWjRJR01uLVlqcjhESVhWazNMMl8wOTFteFVibmN0QjJ3RjBtbkgtaHRyNUp0WTNIRkluUHNySklaclk3SElQMDNxVWZDcHBEdUc3U0E4bzBNNldDaFgyQ19vc2JfWUxGWnR4S0E4bzBvZ1IwaEVUa0NGS1BERF9hT3c2QWF5NVF4VmdTMzNONU56YXZZbHFySnZfQUNpM2xtRVVOWTI3N2pQOFVpRDFCbEV2V21YSzBSUmQ2VXJiVHhnNA?oc=5",
-        "domain": "ashurstperkinscoie",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T142750Z",
         "source": "GoogleNews"
       },
       {
@@ -118818,15 +118820,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T060348Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Europe Urged to Treat Russian Sabotage as War Campaign",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00cHRqZk9pNWJQdXZkM05Pb1gwRHBDRGxxbDNMcmRoX09TZ01mWTE0WnloelFyakNjUWtpRFlza0VxNmtWUjRrdHAtVFF6WHc?oc=5",
-        "domain": "kyivpost.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260920T081641Z",
         "source": "GoogleNews"
       },
       {
@@ -118875,21 +118868,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions media figure for Russian manipulation in war narratives",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1hRdjhZMjRmejA2b2JOa3pNZjc5b0g4ZG9aS3hpQmlEczVKVHkwdndvSndGel85amtRWDdXT1A4SDYwOXd2V29wSkhmakV2bTliUkR5YzBWQ3JFLVR5cGtuUjJkQ1VZTXZkWGk1UVFPRWFxeFNMZldjbExBSTZsWDJZcEV6Nnc2am50V3U0YnNUNTVPNldJR1BZMFNWZzdVY0dvM1BGVTZSQnBUcDFjd2IxcWlxSGNU?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T183315Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "France’s stance threatens continuation of EU sanctions against Russia, - Politico",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYm1HQ1M4RHZVYVJPbHZVX2Nuc1lZaG5XdGt2Y2VOQmlrbjZobVRqWGdHNEZVeV9VT2IwQkR4VzZVOXlKQXNvVzRGdWJJUkZlVFZSNjR4RFFycUFKZnRuVVljVGNYczJPczlCUDFVRkxIbGxoaUVhYmh0RnFrYmJYSDJZcUxwU0NqcmhUeThDbXRmUV9McXp2eGR4RUU?oc=5",
         "domain": ".",
         "language": "",
         "tone": 0,
         "seendate": "20260921T091200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions media figure for Russian manipulation in war narratives",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1hRdjhZMjRmejA2b2JOa3pNZjc5b0g4ZG9aS3hpQmlEczVKVHkwdndvSndGel85amtRWDdXT1A4SDYwOXd2V29wSkhmakV2bTliUkR5YzBWQ3JFLVR5cGtuUjJkQ1VZTXZkWGk1UVFPRWFxeFNMZldjbExBSTZsWDJZcEV6Nnc2am50V3U0YnNUNTVPNldJR1BZMFNWZzdVY0dvM1BGVTZSQnBUcDFjd2IxcWlxSGNU?oc=5",
+        "domain": "brusselstimes.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T183315Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Eight non-EU countries back new decision on exemptions to Ukraine war sanctions",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGs4VXpDSllUZ0RZMmZ1N29DNXBxZ2lucHJjUzNBSjNVYWsyWWsteWJjQUgyQmhIaUhNTXMtUlRSaWV5SzYxczhJNXF0WGVGZUhoY2Q2a2Znb1FkeWRaLWJrVVJ0aC1QaGRaaHVlZWZ4VGpFWm4wZU51Skx0ZlFVVk9Pa3J3eUItdUlfYkpLSmRJZFBzQ2thOGtxVVFtUUxGWW9QUlFvS1BsX1RWUWQ1T3V6OGlvMzdxeTRVMVA0WmVWLXVrd1hv?oc=5",
+        "domain": "brusselstimes.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T183315Z",
         "source": "GoogleNews"
       },
       {
@@ -118902,18 +118904,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Eight non-EU countries back new decision on exemptions to Ukraine war sanctions",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGs4VXpDSllUZ0RZMmZ1N29DNXBxZ2lucHJjUzNBSjNVYWsyWWsteWJjQUgyQmhIaUhNTXMtUlRSaWV5SzYxczhJNXF0WGVGZUhoY2Q2a2Znb1FkeWRaLWJrVVJ0aC1QaGRaaHVlZWZ4VGpFWm4wZU51Skx0ZlFVVk9Pa3J3eUItdUlfYkpLSmRJZFBzQ2thOGtxVVFtUUxGWW9QUlFvS1BsX1RWUWQ1T3V6OGlvMzdxeTRVMVA0WmVWLXVrd1hv?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T183315Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
-        "domain": "inkl.com",
+        "domain": "inkl",
         "language": "",
         "tone": 0,
         "seendate": "20260921T101500Z",
@@ -118947,6 +118940,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "A heavy blow to the EU sanctions regime against Russia",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
+        "domain": "en.vijesti.me",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260923T044750Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Abramovich Loses in EU Court. Why Offshore Shields Less",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iZUpjYjZIZ2lQd0ZLSG1PTy1TRGtiYTE0WjBvaGNRLTFGdlZ0Y1BfeW9waTJUcFhhX3h2TkhHMlVob3o1R1l5eVFFTFlRLVFtTXpWM01oQTdoNV9nT0R0bg?oc=5",
         "domain": "kancelariaskarbiec",
@@ -118956,18 +118958,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "A heavy blow to the EU sanctions regime against Russia",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
-        "domain": "vijesti.me",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T044750Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Shooting wounds students outside school in western Turkey",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTd9IBvAFBVV95cUxNTDlpQVJ3VnNNZE1Ia3F6XzRDa2VmUGZMS2dRWlZ0VWtaUEFHdnlHYU81QzlsbFZETDhOYzgzTFJVemxJdXFsZjFFZ0JoUjhBNkRQSDVaMjMzVmlaTEduWERya3RPdTQ4SVdScGhJcEVIbnd2NzFOaUxBOXBsUkxUR3duX3BaVFB6bEtHQ3NhM1V0TURTYWpSNVZhZF96YnRVbHhNd29JWERpSWF4VTN5Uld2el9fYWhQMHpTdw?oc=5",
-        "domain": "devdiscourse",
+        "domain": "devdiscourse.com",
         "language": "",
         "tone": 0,
         "seendate": "20260922T072645Z",
@@ -119001,15 +118994,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "French betting operator fined after asset-freezing alert was missed",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOXRmRE5zeGxRUXBSX2NkSEhxclE2SGwxajBvTW5HV09EWGVUSEtGWmliQWpLdTFnN296U016ZVFFWWJVLWpvcG9xb1NUekd4aXVrc3dHYVlUcW5iWk9OTkQ4Z3RaWUZtN2ZOako2UnBrY3FYdmdYTmN1X0d0SlB5MVY5TFNnWHpWNEtjYlVjYUNUMS12aUJWVkk5ZGU3SW1samNycnVmM2c?oc=5",
-        "domain": "casino.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T183842Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia raises 2026 oil export outlook to 244.7 million tons despite lowest production since 2009",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82Mi1BbnVjVUh0dHpzelhpYU0yNEFYam4ydWpQLUw4b29LX3NHZlZObUVRYWk2c1Y0cG1CekZ5c01BV3Zqd09WY0F1YlNFZjNTeFUwVGlzWmRqUTQ2OGZ3X1NlNDRnUUFNR2dF?oc=5",
         "domain": "cryptobriefing",
@@ -119025,6 +119009,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260924T132146Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "French betting operator fined after asset-freezing alert was missed",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOXRmRE5zeGxRUXBSX2NkSEhxclE2SGwxajBvTW5HV09EWGVUSEtGWmliQWpLdTFnN296U016ZVFFWWJVLWpvcG9xb1NUekd4aXVrc3dHYVlUcW5iWk9OTkQ4Z3RaWUZtN2ZOako2UnBrY3FYdmdYTmN1X0d0SlB5MVY5TFNnWHpWNEtjYlVjYUNUMS12aUJWVkk5ZGU3SW1samNycnVmM2c?oc=5",
+        "domain": "casino.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T183842Z",
         "source": "GoogleNews"
       },
       {
