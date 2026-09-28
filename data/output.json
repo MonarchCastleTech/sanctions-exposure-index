@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-28T05:18:37.937175+00:00",
+    "generated": "2026-09-28T13:48:06.203253+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-28T05:16:51.378503+00:00",
+    "issued_at": "2026-09-28T13:46:19.716338+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1520,6 +1520,17 @@
       },
       {
         "timestamp": "2026-09-28T05:16:51.378503+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-28T13:46:19.716338+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118822,10 +118833,19 @@
       {
         "title": "Europe Trades Two Oligarchs for a Three-Year Freeze as Washington Aims at Russia's Oil Buyers: Who Wins, Who Pays?",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMXVJNGNwNXVBU2lZRGV3cFFzQ2NadVdLYnFSNUxpaDVYNkNiY2VkQnNNUGw2SkdQUC1QN0o2Y0U2LVFWZ3RkNGl2aGl2aHVEM0ZQaVlibXRqYXpDNGNDckN4aHkyS3lXVGdLbEZQRUpxQjJzX1ZtVk9oeXExTkttaVBTdlJxU3N2WVBfOHBXUzRCTFcy?oc=5",
-        "domain": "moderndiplomacy",
+        "domain": "moderndiplomacy.eu",
         "language": "",
         "tone": 0,
         "seendate": "20260924T140325Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU expands sanctions for deportation and Russification of Ukrainian children, adding 10 individuals and 17 entities",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1OUQtcDFnd3ZEMUlSUVlscEZLTGNZUm5FSFp4OEpmRHZhclhkY2JJNUhRSXZBZ3JaQ085TkFpTlFtdXdsVi1WN3NONWdFY2hYR0JrakxuVnVJRmNJZE9lV05jRHU?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T111300Z",
         "source": "GoogleNews"
       },
       {
@@ -118840,19 +118860,19 @@
       {
         "title": "EU in showdown over Russian oligarch sanctions as deadline nears",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONndfaDVrSmNsSEZLajhvdFhUcllDOGQ1c1VyZmZ3d21LUW9rYXNxbldPQ3hDZkNkTXVTWHExd0Rheko1S3RidVlNckhZazA2aGZlOXdfazlLLUk0dDRNUVBDd2dkVDdoTXJQc3YtenFydjNKNEdISGJsNzd0VTZRMHNfSDRzM1MyQmdtd0xmQWFsOEh1VXJRaFdyVXNIZm9lTDhIcmRwQmw?oc=5",
-        "domain": "hrriyetdailynews",
+        "domain": "hurriyetdailynews.com",
         "language": "",
         "tone": 0,
         "seendate": "20260922T083228Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UK extends sectoral sanctions on Iran: The Iran (Sanctions) (Amendment) Regulations 2026",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOXBFYXJHWXpYWjRJR01uLVlqcjhESVhWazNMMl8wOTFteFVibmN0QjJ3RjBtbkgtaHRyNUp0WTNIRkluUHNySklaclk3SElQMDNxVWZDcHBEdUc3U0E4bzBNNldDaFgyQ19vc2JfWUxGWnR4S0E4bzBvZ1IwaEVUa0NGS1BERF9hT3c2QWF5NVF4VmdTMzNONU56YXZZbHFySnZfQUNpM2xtRVVOWTI3N2pQOFVpRDFCbEV2V21YSzBSUmQ2VXJiVHhnNA?oc=5",
-        "domain": "ashurstperkinscoie",
+        "title": "EU sanctions 10 individuals, 17 entities over unlawful deportation of Ukrainian children to Russia",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRlNvV01TS1FQdHFfMDE2NkR6VEtXN3ZsV0JZNXRUOG51eFFZeGt6RTcyaC05NF9pemdIRHVpZjYxYWRhVnhjX3ZfZXdwSXBROUhZRjRFZ1IzVWp6V0J3S0tYdlFQSXZnd2Y2clFpM1I3eDRjV0dWNU1LOTh4VzdRc0xHUmtVeGZoaWViZDRubE1jVjVEdmZMN0NTMVpiYjRSZFYyTUhzYjVsUXBza05RakhzOHl2UlZmck5CVFJ2ak9VV2tWbU9tajJsOXo?oc=5",
+        "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
-        "seendate": "20260921T142750Z",
+        "seendate": "20260928T105245Z",
         "source": "GoogleNews"
       },
       {
@@ -118865,12 +118885,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU sanctions 10 Russians over anti-war party ban",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHluNVdxaXRUclhpNXVvaVJoUF9vb2tEZjVJbVRESW1uNTc0b0NDTEMtWmR4TU1XUVd3RFVpSGNIR1haajFGa0p2RktqREVQd2swSnIwblBQeTV6QzdSRlNLM3U2Y2x6VWlLcmxWOHB3Uk9YYnNtazMzeFBfODh6Mlc0MFhLLXYwOHBNcWMyUUQ1SFhLeUtGRw?oc=5",
+        "domain": "breakingthenews.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T113300Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU Extends Russia Sanctions to 2029",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBqQkxkU0RkVHhVZWlucl9uVFlFRTk5aTJTaWl6bm1ZbGVHUUVvN2ZLQzRLSjNuU1VoVzgycFZIbTRHMkRJMDM5dEdCdEZtUGpTQjlqaFQ1ODRHaG1KRTVIQ3RBWGdwVGhFd05VXzNjUnBsUjBzZ09rUkR1UQ?oc=5",
         "domain": "theeuropeantimes",
         "language": "",
         "tone": 0,
         "seendate": "20260923T075827Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The EU has imposed sanctions on those involved in the deportation of Ukrainian children to Russia",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOampFVjhzOWR6NVJZOU1sMWdRbElHNlNWa1kxSUdDUzJfa1VpUndsZ1lOSThCYVcxMWZyWDJYVUl2TWZRVFpaV1gtbDVrT3QwcjRSYkU3MjBsMWF6WnBBWXlRczFpM20xODFnenhyWUd5dkJlazJ3WGExam5IbFdsQzVmRzBvU0p2ODI1eElPdnc1b2l3Nm5MQV9WYVJaNWdwV182bERjWXZINVNDTU9yT0ZNT2VoS240MFdJ0gG7AUFVX3lxTE5qakVWOHM5ZHo1Ulk5TWwxZ1FsSUc2U1ZrWTFJR0NTMl9rVWlSd2xnWU5JOEJhVzExZnJYMlhVSXZNZlFUWlpXWC1sNWtPdDByNFJiRTcyMGwxYXpacEFZeVFzMWkzbTE4MWd6eHJZR3l2QmVrMndYYTFqbkhsV2xDNWZHMG9TSnY4MjV4SU92dzVvaXc2bkxBX1ZhUlo1Z3BXXzZsRGNZdkg1U0NNT3JPRk1PZWhLbjQwV0k?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T112431Z",
         "source": "GoogleNews"
       },
       {
@@ -118883,21 +118921,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France’s stance threatens continuation of EU sanctions against Russia, - Politico",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYm1HQ1M4RHZVYVJPbHZVX2Nuc1lZaG5XdGt2Y2VOQmlrbjZobVRqWGdHNEZVeV9VT2IwQkR4VzZVOXlKQXNvVzRGdWJJUkZlVFZSNjR4RFFycUFKZnRuVVljVGNYczJPczlCUDFVRkxIbGxoaUVhYmh0RnFrYmJYSDJZcUxwU0NqcmhUeThDbXRmUV9McXp2eGR4RUU?oc=5",
-        "domain": ".",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T091200Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU renews Russia sanctions but removes Usmanov at France's request",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWi1iMzItbkI3MVFGV19NN3VJRFFxMWRRRE5kVEhKdjN5bnV3NU1Ga2tUUjB1RXZHWFUyeUp1RExlLWctc1dZdWpoSDJIS3Y2eWtnNnVMVXNwS1ZlUWZQRllPTU9lZ1lTa01DS2xqM1FobEh3YldxOTRWdm5fWjh5MA?oc=5",
         "domain": "yahoonewscanada",
         "language": "",
         "tone": 0,
         "seendate": "20260922T151613Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions individuals involved in barring Yabloko party from Russia’s Duma elections",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KSUNWVTY3UERxSXJEdEtHUjdmclBNS2VRdEJMN1pHaEh0VTRPMFN4SEJwSjNBbXVTc0gzRkJCdHczWmNOcms4S0JMdURKUU9NZmRrZzNVTWx1d3F3RlJHSnNWbmjSAXBBVV95cUxOZENDaGJUWktpTEdCUTFZQXVXcDRpamRyMXJtbFFNTGRYTk90V3F0Xzg5VHlpbVIxN0Vkektmdzk5VDRVcWhYSGZGN0JBajUtWjdFNE5KeXpVZXp2aEMzVzB4UkI0QWc2WFVqaEdqRGx2?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T113200Z",
         "source": "GoogleNews"
       },
       {
@@ -118910,12 +118948,48 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU Sanctions Russian and North Korean Organisations Over Deportation of Ukrainian Children",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NR3AyZTAyb0s2Unl6anVjWkF6LTNuVDFOX0ZNVmRSYTlsTHdyRE1YSEo5UWtfbTZiNFhQRU5RRVd5Mzhfczc3WEhmNmxhVHB0VjB3SFBhQ1dZb0JEMG8yYUJlVk5UejFjS3V3ZDVZNVdWaG9iSGJWbUpxUQ?oc=5",
+        "domain": "eutoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T132655Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU expands Russia sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcER6aW1LU1JnZHhDWVhkVXlPeEFpT1RidF9kYlEzbk1rMmJpSGU2Tk1GUzRnVy1oYVJfRjlJanlHWlYzX1ZHMndIYXJoQTZmVHZvelBUYm9BXzZLQ1N2VFN2SFFTanJaeGdJUnRiRHhyQmg2a3ZYRy1KczI4R25DaElTaw?oc=5",
+        "domain": "breakingthenews.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T103500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU imposes sanctions against the head of Tatarstan",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdm51RFdKOWJ6SS1mYmwySHhxVnhCSkZ4MjJ0b1U5MDVzV2JnRVdTb2xxTHpzdXNRbGhPVFhpME5ZWnFuOTJ5Vnh5RWtaSy1JUF9CZDJSUWJpRURCeldoRzlOd3FuMVdXMXI2cC00a3ppQTdndVhQc3BXRFBzWVplUFVBRU5LSGNHb05fekNxMGJCY0VTQmk2cQ?oc=5",
+        "domain": "1news.az",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T114707Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU sanctions media figure for Russian manipulation in war narratives",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1hRdjhZMjRmejA2b2JOa3pNZjc5b0g4ZG9aS3hpQmlEczVKVHkwdndvSndGel85amtRWDdXT1A4SDYwOXd2V29wSkhmakV2bTliUkR5YzBWQ3JFLVR5cGtuUjJkQ1VZTXZkWGk1UVFPRWFxeFNMZldjbExBSTZsWDJZcEV6Nnc2am50V3U0YnNUNTVPNldJR1BZMFNWZzdVY0dvM1BGVTZSQnBUcDFjd2IxcWlxSGNU?oc=5",
-        "domain": "thebrusselstimes",
+        "domain": "brusselstimes.com",
         "language": "",
         "tone": 0,
         "seendate": "20260925T183315Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions Tatarstan head over evacuation of children from Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnFqWlpDM2N6QlM2WElzcFpFSjZ1Q0cwUUgwVUNSTGQ3RGJpNkdEQ21oTWR1VGl6QVhfaVc0bW1HVHRqWGpiU0dOYmRXUnRaR041Um1qVVFSOE9yUEtxcFlRTGZwT3VFR0R3dDBmbGxuSXRCYUdyWlVENnE3dEszcTZsVW1rY3h4OXF4czhDYlMySF82eWdVa0dNYw?oc=5",
+        "domain": "caliber.az",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T110127Z",
         "source": "GoogleNews"
       },
       {
@@ -118930,28 +119004,28 @@
       {
         "title": "Eight non-EU countries back new decision on exemptions to Ukraine war sanctions",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGs4VXpDSllUZ0RZMmZ1N29DNXBxZ2lucHJjUzNBSjNVYWsyWWsteWJjQUgyQmhIaUhNTXMtUlRSaWV5SzYxczhJNXF0WGVGZUhoY2Q2a2Znb1FkeWRaLWJrVVJ0aC1QaGRaaHVlZWZ4VGpFWm4wZU51Skx0ZlFVVk9Pa3J3eUItdUlfYkpLSmRJZFBzQ2thOGtxVVFtUUxGWW9QUlFvS1BsX1RWUWQ1T3V6OGlvMzdxeTRVMVA0WmVWLXVrd1hv?oc=5",
-        "domain": "thebrusselstimes",
+        "domain": "brusselstimes.com",
         "language": "",
         "tone": 0,
         "seendate": "20260925T183315Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Corinthians leadership face court cases and club sanctions since 2015",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT2cxLWpLdkVLV2NCNWxoU0NoMEwxWElKdF9nOFd1aDJTWE83ZkM3WUt1eDZhQ1hZRXd3eGdRa0JkVTNwd05KN1Z0UXpWUkhoRm1TSTN6MWticTRVUDhTM0thN1VWLXFxWEQ0c0F5dHlmR1JzWF9YOHhpUEVUMjBhaXIyaEF3ZFdfUHV3bU1iLXZRam0zdjVDbTA3cnFYX2NISzJFOEtMN1JPRDl4YXFr?oc=5",
-        "domain": "onefootball",
+        "title": "Lithuania bans two Russian billionaires the EU just set free",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZXNXaE1aLV9td0syOGVJX1BhLTdUVVJUU0JBQ1YwanJ4MTRvbnc0VmZHUEt3UEhYdjNqb1M4T3FFUnBXbmNmNGFzZnhPNzU1b0tpUjkyOXY5dW1wNzJId05zYk1mYWxxaEFwNEk2dkYwZ0ZTSy16VTlKWi1aUVVPRS1EVnZzVFdSWWkzdTNmYm9QZVNBYjdNdUhRdDJjNWI0OHdlazBwSnFpOGhGd3lOeWc2T0NCallmNGNCbHhsWUg3ZVhoRWJGOTVLWmU?oc=5",
+        "domain": "billionaires.africa",
         "language": "",
         "tone": 0,
-        "seendate": "20260924T120243Z",
+        "seendate": "20260928T133622Z",
         "source": "GoogleNews"
       },
       {
-        "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
-        "domain": "inkl.com",
+        "title": "Why No One Can Copy ASML's $370M Machine (Even With Unlimited Money) Alert (mXvbAraxxB)",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5Q1czcVpwZGRfZm5wdEUzNTA1eUZhQ1RyRmdzWmZlMW1NaUpfQ2ZNQjNPeDdRU2pTZWhKU3FYTnpxMTFHaTRHMmJsdkdpcmZiUTdjZGtMVmViejh1Y25ReFJLc3pCUQ?oc=5",
+        "domain": "unisbamedia",
         "language": "",
         "tone": 0,
-        "seendate": "20260921T101500Z",
+        "seendate": "20260923T133032Z",
         "source": "GoogleNews"
       },
       {
@@ -118964,30 +119038,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Why No One Can Copy ASML's $370M Machine (Even With Unlimited Money) Alert (mXvbAraxxB)",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5Q1czcVpwZGRfZm5wdEUzNTA1eUZhQ1RyRmdzWmZlMW1NaUpfQ2ZNQjNPeDdRU2pTZWhKU3FYTnpxMTFHaTRHMmJsdkdpcmZiUTdjZGtMVmViejh1Y25ReFJLc3pCUQ?oc=5",
-        "domain": "media.unisba.ac.id",
+        "title": "EU Council imposes sanctions on Tatarstan head Rustam Minnikhanov",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeXJFdE9wVVRLQUxraWN1RDRxMG1WR2p0TWF4UVY1clZWeTV3VWdFTzkzc29FVlg3WnlUYWwxaTRreDBORGoxX2R1dldrdXJJNWJxaGIwaFpoWW9NeVZBdFBhX0ZLcXNuelVkdUVIQVlYa1VYc28wUTRWZTUtSzNzRDdxYkhwUFphdmJuWWJQcmE4bnFLN0pSWGVrN3dSNWIwLTdnZ3J6Yw?oc=5",
+        "domain": "apa.az",
         "language": "",
         "tone": 0,
-        "seendate": "20260923T133032Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMkZqdHFORm9sbFBYbGtBdlpid2gzMFdwWUNIU0liMTNXZ2pOWkZXWnJtTWJyMnZKOXpVX3owMENLOGJ2Ylg0U3hkV3Z6OHd2T2w3TmFIYnNjaTFqSTh0UTByd1ZtQ05uLXRCTkpOT1pqczhrZi1zOGVRMkl6ZzJuemhieE5vQXY4VnlKa3J3?oc=5",
-        "domain": "inkl.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T064504Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Abramovich Loses in EU Court. Why Offshore Shields Less",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iZUpjYjZIZ2lQd0ZLSG1PTy1TRGtiYTE0WjBvaGNRLTFGdlZ0Y1BfeW9waTJUcFhhX3h2TkhHMlVob3o1R1l5eVFFTFlRLVFtTXpWM01oQTdoNV9nT0R0bg?oc=5",
-        "domain": "kancelariaskarbiec",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260926T165628Z",
+        "seendate": "20260928T104300Z",
         "source": "GoogleNews"
       },
       {
@@ -119009,15 +119065,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Provisional List of the 9 Candidates Registered for the Presidency in Haiti",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbXQyLW1ncGhHdWtSc0NXQXpQbDZxVzZNOTRqZDNIM2k5VDZPbWpUaDN3ZXVwX1B3SHY2VkhNTllhcFNaeGhrbUlIUWVNbURuTllDd0h1aDl0N3lPSWJoem1sTkh6S0IySkV0S3FyS1JUS2MySTVJcU8zNzRXdk9HSWtBYVZsbnZLeVJVY1pVZjhfQ1VQWVpMd3BFX2hNT0Zjcl9lRk1jb3VEdW5mMEplT1B5YVBRdkw0OUhpWEJn?oc=5",
-        "domain": "haitilibre.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T131944Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUGJzT0phQ2psSzBTaGdDLW9fYjhfdFVCeEI5cTFGVVF2aWFsYWFkQ1NIcThqYUplSDBpYkdYRl9XcTdMY0FOZHFYRnh3ZHdZSkp6YVU5WlpWM3B4RkFSaVBOR3lUektvbzZYa0hhejhzY0VCTkpPR3U5S1BVN2YxVEwyVmlqUQ?oc=5",
         "domain": "aol.co.uk",
@@ -119033,6 +119080,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260923T084943Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdUFVYVhzRXhBdFBOUExKY1NGSEgydU1yRjhidHBLX3hLb2pYOVdUMmhNVkdGNW0tR1cwcFpxQldkdEk2dVhOYUZwRlNLcVF5THBjX2QzV2Jod1o5LW1XeHFvZGhPMU5UR1ppMFV6aFA3bzZ0UW92UVRCbGgxUHMxNWxB?oc=5",
+        "domain": "aol.ca",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T095339Z",
         "source": "GoogleNews"
       },
       {
