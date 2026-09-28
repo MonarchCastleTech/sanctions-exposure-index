@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-27T21:20:15.285046+00:00",
+    "generated": "2026-09-28T05:18:37.937175+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-27T21:18:28.467593+00:00",
+    "issued_at": "2026-09-28T05:16:51.378503+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -28,10 +28,10 @@
         "releases_considered": 99,
         "current_7d_designation_releases": 0,
         "current_7d_all_releases": 0,
-        "prior_7d_designation_releases": 3,
+        "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": -1.57,
+        "baseline_weekly_median": 2.5,
+        "anomaly_z": -3.37,
         "themes": [],
         "evidence": [],
         "retained": false
@@ -128,7 +128,7 @@
         "current_7d_releases": 0,
         "current_weighted_term_rate": 0.0,
         "baseline_weeks": 11,
-        "anomaly_z": -3.71,
+        "anomaly_z": -2.7,
         "matched_release_count": 0,
         "relief_release_count": 0,
         "evidence": [],
@@ -1509,6 +1509,17 @@
       },
       {
         "timestamp": "2026-09-27T21:18:28.467593+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-28T05:16:51.378503+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118766,7 +118777,7 @@
       {
         "title": "China’s Continued Control of Rare Earths Looms Over Trump-Xi Meeting",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mcXRJc2xBY045VThocndCdDFubHNKOV84WFRyR0hBNlE5TjZtZ3AtMHR5R0NCNVM1MnpPV3Z1UE0xcWFyYjRqcDRQWW1RSEhwbHBXV0RJTGxUdFFjTjhiSFFWdHVTNG9hM3pSMjhEQ3ktVUU5NTJQNktiSjY?oc=5",
-        "domain": "nytimes.com",
+        "domain": "thenewyorktimes",
         "language": "",
         "tone": 0,
         "seendate": "20260922T020006Z",
@@ -118872,12 +118883,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVDhaSnpCclFlRWZMbG9GenlQRDB6TUJuZ0h4S1RKYmYtTkxYOEtxallTT1ZHTzNOMlNOaVlaVkczdkJCSlJSSEdZNXl2WDM0V1ZKVm1nNV9DWkxTUXptN2Z2b2lmYl9OVHB5VUtaRVdZQmxVM0ZMTWJxT0JPT29ZT0FlMTVKTEVtdW5ZV1JMR1lrQnIwNWxtaVJjOA?oc=5",
-        "domain": "euronews.com",
+        "title": "France’s stance threatens continuation of EU sanctions against Russia, - Politico",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYm1HQ1M4RHZVYVJPbHZVX2Nuc1lZaG5XdGt2Y2VOQmlrbjZobVRqWGdHNEZVeV9VT2IwQkR4VzZVOXlKQXNvVzRGdWJJUkZlVFZSNjR4RFFycUFKZnRuVVljVGNYczJPczlCUDFVRkxIbGxoaUVhYmh0RnFrYmJYSDJZcUxwU0NqcmhUeThDbXRmUV9McXp2eGR4RUU?oc=5",
+        "domain": ".",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T064123Z",
+        "seendate": "20260921T091200Z",
         "source": "GoogleNews"
       },
       {
@@ -118896,15 +118907,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260922T094110Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France’s stance threatens continuation of EU sanctions against Russia, - Politico",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYm1HQ1M4RHZVYVJPbHZVX2Nuc1lZaG5XdGt2Y2VOQmlrbjZobVRqWGdHNEZVeV9VT2IwQkR4VzZVOXlKQXNvVzRGdWJJUkZlVFZSNjR4RFFycUFKZnRuVVljVGNYczJPczlCUDFVRkxIbGxoaUVhYmh0RnFrYmJYSDJZcUxwU0NqcmhUeThDbXRmUV9McXp2eGR4RUU?oc=5",
-        "domain": ".",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260921T091200Z",
         "source": "GoogleNews"
       },
       {
@@ -118946,7 +118948,7 @@
       {
         "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXQzanZtdHVwbEg5UnNUcE5pakVaOUdEclFzQmRGMDNkOElLS1ZaaHlqZjZ1Ujd4VkY3Ti1mTDFsdE1uUmlyQ3Rlc1Jsa0tyU09zUkxIOXhoajBVQUROWW5FNDVHd2ttWFVIbHR2NGpWVm51OTRacVZ4dzVUWGYxQklRNnVuVGJuNk1BSVpJT3l5RDRmVXpPZkt3UURHSng5RWVWbjF4eGlOTkJrU2tUc09PeUs?oc=5",
-        "domain": "inkl",
+        "domain": "inkl.com",
         "language": "",
         "tone": 0,
         "seendate": "20260921T101500Z",
@@ -118954,8 +118956,8 @@
       },
       {
         "title": "Despite Global Reserve Asset Reshuffling Including \"Increased Gold Holdings,\" Dollar-Centric System Remains",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWHNDWGNMZ3dVSzVoN0E2R09NOEpTaHJMUEw0X3FRMXpTM1dnTVBzXzJ2RUlhaUpmUUdHWXlGN05YXzZsYzBCc09CdGRxb3JmM3ZZejRqbUZCNWNSVlR6Wk1jTGk?oc=5",
-        "domain": "asiae.co.kr",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rVmw1YVVuMEt2enFHNFN4Mm5zXzQzc05VLURkZXJLeVZJUzc4WmcwVW5FS2tBZ3l1SmJ3TXhTTFhDRGNMMmVQUDlNNk5qbmdweFJrdnpJRk5XLWMzM3d5dlZPVzlWQ3JPVXVhMjE3WlU0R3l3Y3BCRGtR?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20260926T010000Z",
@@ -118964,10 +118966,19 @@
       {
         "title": "Why No One Can Copy ASML's $370M Machine (Even With Unlimited Money) Alert (mXvbAraxxB)",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5Q1czcVpwZGRfZm5wdEUzNTA1eUZhQ1RyRmdzWmZlMW1NaUpfQ2ZNQjNPeDdRU2pTZWhKU3FYTnpxMTFHaTRHMmJsdkdpcmZiUTdjZGtMVmViejh1Y25ReFJLc3pCUQ?oc=5",
-        "domain": "unisbamedia",
+        "domain": "media.unisba.ac.id",
         "language": "",
         "tone": 0,
         "seendate": "20260923T133032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMkZqdHFORm9sbFBYbGtBdlpid2gzMFdwWUNIU0liMTNXZ2pOWkZXWnJtTWJyMnZKOXpVX3owMENLOGJ2Ylg0U3hkV3Z6OHd2T2w3TmFIYnNjaTFqSTh0UTByd1ZtQ05uLXRCTkpOT1pqczhrZi1zOGVRMkl6ZzJuemhieE5vQXY4VnlKa3J3?oc=5",
+        "domain": "inkl.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T064504Z",
         "source": "GoogleNews"
       },
       {
@@ -119004,6 +119015,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260924T131944Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Latvia blocks deal to remove Usmanov from EU sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUGJzT0phQ2psSzBTaGdDLW9fYjhfdFVCeEI5cTFGVVF2aWFsYWFkQ1NIcThqYUplSDBpYkdYRl9XcTdMY0FOZHFYRnh3ZHdZSkp6YVU5WlpWM3B4RkFSaVBOR3lUektvbzZYa0hhejhzY0VCTkpPR3U5S1BVN2YxVEwyVmlqUQ?oc=5",
+        "domain": "aol.co.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T095339Z",
         "source": "GoogleNews"
       },
       {
