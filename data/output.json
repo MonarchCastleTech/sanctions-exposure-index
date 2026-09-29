@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-29T05:40:10.230409+00:00",
+    "generated": "2026-09-29T12:47:07.126287+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-29T05:38:23.628233+00:00",
+    "issued_at": "2026-09-29T12:45:20.536452+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 5.0,
@@ -1553,6 +1553,17 @@
       },
       {
         "timestamp": "2026-09-29T05:38:23.628233+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-09-29T12:45:20.536452+00:00",
         "score": 5.0,
         "level": "BASELINE",
         "components": {
@@ -118799,15 +118810,6 @@
     },
     "news_articles": [
       {
-        "title": "UK, EU and US sanctions on Russia",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
-        "domain": "fieldfisher",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU sanctions former RT France chief Xenia Fedorova over pro-Russian propaganda",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmZJXzcwbUhMajBaalBqUjgyUmk1UUFOcDBEUVFrQVZTekEybXdjQ1RlM19VTDAzVWxCVF9BSjRXMGQ1RXZHZERJeGlRdFduM2o5clF6amhqTUdlNlVjaW5aME9uY0NkODh1dExHemhkcXFHY09BUDJvQ1BlU2ZyY3otU01FdDEzTmlncmRXbkJ0U2gtN3FvclcyUWtmU2xjS0NhdjUybFZGeTd3WEhiOHQyczI?oc=5",
         "domain": "euronews.com",
@@ -118826,9 +118828,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan lifts asset freeze on 16 Syrian entities as it eases sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QSF9YNmFPdmxSbjhVUXlBMmQ2OTlGNzhOaEZGUG90a3ZVeUpFdlZIV2R3VHJXTGZmSWx6UnhDOGFjMnRfRm1IcA?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T101039Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU removes two Russian oligarchs from sanctions blacklist",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU21BSEZOM0VYMTRUbnF1b2huTXhDRERCZnB1ZU1oNWszMEk4MGZRdDdFbHpOS0hWbFphNENjOC1JWUhhOV9uajBNQWZxY0JGeFVVR1ZyRktFMndjQVlOOUJhR3RNSjlrWS1fNW1YX05vTkFkU2F4OTVqeFBMdkRkT3NWYUJyNmpReWFvNjdBVDk5QQ?oc=5",
-        "domain": "euractiv.com",
+        "domain": "rapporteur.com",
         "language": "",
         "tone": 0,
         "seendate": "20260922T190657Z",
@@ -118841,6 +118852,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260924T140325Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions target judges behind ban on Russia's only anti-war party",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRjNvMC1Pb1V6TzN5cDYxQUN5d2FPQmFzdEdiMXQ5MnRrWGdIeHlzVF9tZkZuWS1DOWVxc2E2WUszUlczY0d3V0pYd2lxLUlNX0tJT0ZnTlM1V3NCQnRlS0RnMWt1QlR4UGlIb3A2ZVVBSXdkejlpYWZiNktyZDdMOUNaU0hWQmFpU2JjTHEyYlJnWlNlWHp5TmhOcExYeXFoR2VyaWZEUFJJZw?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T213345Z",
         "source": "GoogleNews"
       },
       {
@@ -118862,12 +118882,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU in showdown over Russian oligarch sanctions as deadline nears",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONndfaDVrSmNsSEZLajhvdFhUcllDOGQ1c1VyZmZ3d21LUW9rYXNxbldPQ3hDZkNkTXVTWHExd0Rheko1S3RidVlNckhZazA2aGZlOXdfazlLLUk0dDRNUVBDd2dkVDdoTXJQc3YtenFydjNKNEdISGJsNzd0VTZRMHNfSDRzM1MyQmdtd0xmQWFsOEh1VXJRaFdyVXNIZm9lTDhIcmRwQmw?oc=5",
-        "domain": "hrriyetdailynews",
+        "title": "EU sanctions 10 individuals, 17 entities over unlawful deportation of Ukrainian children to Russia",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRlNvV01TS1FQdHFfMDE2NkR6VEtXN3ZsV0JZNXRUOG51eFFZeGt6RTcyaC05NF9pemdIRHVpZjYxYWRhVnhjX3ZfZXdwSXBROUhZRjRFZ1IzVWp6V0J3S0tYdlFQSXZnd2Y2clFpM1I3eDRjV0dWNU1LOTh4VzdRc0xHUmtVeGZoaWViZDRubE1jVjVEdmZMN0NTMVpiYjRSZFYyTUhzYjVsUXBza05RakhzOHl2UlZmck5CVFJ2ak9VV2tWbU9tajJsOXo?oc=5",
+        "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T083228Z",
+        "seendate": "20260928T105245Z",
         "source": "GoogleNews"
       },
       {
@@ -118880,39 +118900,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions 10 individuals, 17 entities over unlawful deportation of Ukrainian children to Russia",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRlNvV01TS1FQdHFfMDE2NkR6VEtXN3ZsV0JZNXRUOG51eFFZeGt6RTcyaC05NF9pemdIRHVpZjYxYWRhVnhjX3ZfZXdwSXBROUhZRjRFZ1IzVWp6V0J3S0tYdlFQSXZnd2Y2clFpM1I3eDRjV0dWNU1LOTh4VzdRc0xHUmtVeGZoaWViZDRubE1jVjVEdmZMN0NTMVpiYjRSZFYyTUhzYjVsUXBza05RakhzOHl2UlZmck5CVFJ2ak9VV2tWbU9tajJsOXo?oc=5",
-        "domain": "thesofiaglobe",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T105245Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU issues sanctions for illegal deportations of Ukrainian children",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc2gwU2FBZWFQaGZZSkdNd1FEZ0ZLd0l4emhnLTUtdm5sVUczOUU5T3ZOcm4ya19MRk1tbDVfOHRmQW02RDVtS011QjNQYjhkTFg5S05LYjh0RVQwbkNXY0Z3VWpDSWlDa1g1QmN5clVFOUoxUlMzSVRqU09ldU40T3d0RW9RbHJoZm5VTjZGUXM0VmpEUzc3RWFmU1VNRjV6M2plcV9uUF9kOGM4dTBBaEg0Z3NYZw?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T185304Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU sanctions 10 Russians over anti-war party ban",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHluNVdxaXRUclhpNXVvaVJoUF9vb2tEZjVJbVRESW1uNTc0b0NDTEMtWmR4TU1XUVd3RFVpSGNIR1haajFGa0p2RktqREVQd2swSnIwblBQeTV6QzdSRlNLM3U2Y2x6VWlLcmxWOHB3Uk9YYnNtazMzeFBfODh6Mlc0MFhLLXYwOHBNcWMyUUQ1SFhLeUtGRw?oc=5",
         "domain": "breakingthenews.net",
         "language": "",
         "tone": 0,
         "seendate": "20260928T113300Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions individuals involved in barring Yabloko party from Russia’s Duma elections",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kQ0NoYlRaS2lMR0JRMVlBdVdwNGlqZHIxcm1sUU1MZFhOT3RXcXRfODlUeWltUjE3RWR6S2Z3OTlUNFVxaFhIZkY3QkFqNS1aN0U0Tkp5elVlenZoQzNXMHhSQjRBZzZYVWpoR2pEbHbSAXBBVV95cUxOZENDaGJUWktpTEdCUTFZQXVXcDRpamRyMXJtbFFNTGRYTk90V3F0Xzg5VHlpbVIxN0Vkektmdzk5VDRVcWhYSGZGN0JBajUtWjdFNE5KeXpVZXp2aEMzVzB4UkI0QWc2WFVqaEdqRGx2?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T113200Z",
         "source": "GoogleNews"
       },
       {
@@ -118952,6 +118945,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The EU has imposed sanctions on Russian judges for barring the opposition from participating in elections",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWE3T3E2Q1dUOVJOUzk1ZFBmMk83ajZtT1pDc0RsU3N1djR6ZUs1U3pwYXNrenJmMXJnSHAtOWFDNVV3a0dzQkZ4aE1sQmFIV3ZxRW1NYzVjTnJvN3JWMG44cUpNaEJ6dmVWUTJ3Qks5WFZCUGkzVmlDM3pvNV9FREZyZ3pnVTNuNkRNelNsU253Q2pFTXpCQmFLRTUyek1aTFk3cS10dU8xQQ?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T145223Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU renews Russia sanctions but removes Usmanov at France's request",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWi1iMzItbkI3MVFGV19NN3VJRFFxMWRRRE5kVEhKdjN5bnV3NU1Ga2tUUjB1RXZHWFUyeUp1RExlLWctc1dZdWpoSDJIS3Y2eWtnNnVMVXNwS1ZlUWZQRllPTU9lZ1lTa01DS2xqM1FobEh3YldxOTRWdm5fWjh5MA?oc=5",
         "domain": "yahoonewscanada",
@@ -118961,21 +118963,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Freezes £53 Million London Townhouse Linked to Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzVsUFl1a0pvQnBuOFhiX1RXanhOV1BzdF9TeXpxRUVCX2YtOUEySUs1N0ZYNk5YYjBJeGhLV3RmLUc4SkJNN3NkdzJabm5SWE9SemhMNWJyR18xTk5aMVhJQXhLck5QcTRyekN6MlRGTjB0QUstS25NUGdIeUJ1aQ?oc=5",
-        "domain": "fincrimecentral",
+        "title": "EU issues sanctions for illegal deportations of Ukrainian children",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc2gwU2FBZWFQaGZZSkdNd1FEZ0ZLd0l4emhnLTUtdm5sVUczOUU5T3ZOcm4ya19MRk1tbDVfOHRmQW02RDVtS011QjNQYjhkTFg5S05LYjh0RVQwbkNXY0Z3VWpDSWlDa1g1QmN5clVFOUoxUlMzSVRqU09ldU40T3d0RW9RbHJoZm5VTjZGUXM0VmpEUzc3RWFmU1VNRjV6M2plcV9uUF9kOGM4dTBBaEg0Z3NYZw?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T094110Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The EU has imposed sanctions on Russian judges for barring the opposition from participating in elections",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWE3T3E2Q1dUOVJOUzk1ZFBmMk83ajZtT1pDc0RsU3N1djR6ZUs1U3pwYXNrenJmMXJnSHAtOWFDNVV3a0dzQkZ4aE1sQmFIV3ZxRW1NYzVjTnJvN3JWMG44cUpNaEJ6dmVWUTJ3Qks5WFZCUGkzVmlDM3pvNV9FREZyZ3pnVTNuNkRNelNsU253Q2pFTXpCQmFLRTUyek1aTFk3cS10dU8xQQ?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T145223Z",
+        "seendate": "20260928T185304Z",
         "source": "GoogleNews"
       },
       {
@@ -118997,12 +118990,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions target Russia's forced deportation, indoctrination of Ukrainian children",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd0J4TnltQW1UZEFrRENHQ2s4RlJQMklWTlQ1ay1KdmwwMnR5T0toa0xHd0xYSEYzMmVueEpRVDZ2TEQxZFNlbUwtdG1fVVZWQWNoenNwTmZFS3I2c1RWcl9ydmM3Qmd3eF9JY2hldG5acjZ2WndmN0xrQWZHZ0ZpWTkwUkxpLVhHN3N3OFozRXFnc1JEM29BYWoxdU11Njl1MDhIazhoRTFweFZIQk9IczB2MFkxTzQ5S2xlOE1iOWtZRnBUOTNTclRoclg?oc=5",
-        "domain": "thebrusselstimes",
+        "title": "EU sanctions Tatarstan head over evacuation of children from Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnFqWlpDM2N6QlM2WElzcFpFSjZ1Q0cwUUgwVUNSTGQ3RGJpNkdEQ21oTWR1VGl6QVhfaVc0bW1HVHRqWGpiU0dOYmRXUnRaR041Um1qVVFSOE9yUEtxcFlRTGZwT3VFR0R3dDBmbGxuSXRCYUdyWlVENnE3dEszcTZsVW1rY3h4OXF4czhDYlMySF82eWdVa0dNYw?oc=5",
+        "domain": "caliber.az",
         "language": "",
         "tone": 0,
-        "seendate": "20260928T234350Z",
+        "seendate": "20260928T110127Z",
         "source": "GoogleNews"
       },
       {
@@ -119015,12 +119008,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions Tatarstan head over evacuation of children from Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnFqWlpDM2N6QlM2WElzcFpFSjZ1Q0cwUUgwVUNSTGQ3RGJpNkdEQ21oTWR1VGl6QVhfaVc0bW1HVHRqWGpiU0dOYmRXUnRaR041Um1qVVFSOE9yUEtxcFlRTGZwT3VFR0R3dDBmbGxuSXRCYUdyWlVENnE3dEszcTZsVW1rY3h4OXF4czhDYlMySF82eWdVa0dNYw?oc=5",
-        "domain": "caliber.az",
+        "title": "EU sanctions target Russia's forced deportation, indoctrination of Ukrainian children",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd0J4TnltQW1UZEFrRENHQ2s4RlJQMklWTlQ1ay1KdmwwMnR5T0toa0xHd0xYSEYzMmVueEpRVDZ2TEQxZFNlbUwtdG1fVVZWQWNoenNwTmZFS3I2c1RWcl9ydmM3Qmd3eF9JY2hldG5acjZ2WndmN0xrQWZHZ0ZpWTkwUkxpLVhHN3N3OFozRXFnc1JEM29BYWoxdU11Njl1MDhIazhoRTFweFZIQk9IczB2MFkxTzQ5S2xlOE1iOWtZRnBUOTNTclRoclg?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20260928T110127Z",
+        "seendate": "20260929T000307Z",
         "source": "GoogleNews"
       },
       {
@@ -119060,6 +119053,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU sanctions 10 individuals, 17 entities over alleged unlawful deportation of Ukrainian children to Russia",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMXpESUs2SjVqcWZsLWpNYWxkMlI2ZjlJc05fbnRPSTR4cDlaT2Z3MmYzNHI0QWZXZndYZTlKUERYN3B3TEg0UWFXbzdjd0o2ZkVKVTNNQ3ozYUpzTTE2aW55LWZZV3o0NXBodnh6TkpHRUhEVVdXVVo0STBmSVlUeWxabThtQzRZRzBseTVKaEZyT3d2ZDhuMnlFbkx4SVlIb3preHhpdVlQc1NfaWtWc0pvUFVQTEFIZ2ZJY0xHWlJoOE9IYnRxRVN0UXNONFJTX0w3Qk4wRU9RZURHTkE?oc=5",
+        "domain": "irishsun.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T134900Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Despite Global Reserve Asset Reshuffling Including \"Increased Gold Holdings,\" Dollar-Centric System Remains",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWHNDWGNMZ3dVSzVoN0E2R09NOEpTaHJMUEw0X3FRMXpTM1dnTVBzXzJ2RUlhaUpmUUdHWXlGN05YXzZsYzBCc09CdGRxb3JmM3ZZejRqbUZCNWNSVlR6Wk1jTGk?oc=5",
         "domain": "asiae.co.kr",
@@ -119069,12 +119071,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions 10 individuals, 17 entities over alleged unlawful deportation of Ukrainian children to Russia",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMXpESUs2SjVqcWZsLWpNYWxkMlI2ZjlJc05fbnRPSTR4cDlaT2Z3MmYzNHI0QWZXZndYZTlKUERYN3B3TEg0UWFXbzdjd0o2ZkVKVTNNQ3ozYUpzTTE2aW55LWZZV3o0NXBodnh6TkpHRUhEVVdXVVo0STBmSVlUeWxabThtQzRZRzBseTVKaEZyT3d2ZDhuMnlFbkx4SVlIb3preHhpdVlQc1NfaWtWc0pvUFVQTEFIZ2ZJY0xHWlJoOE9IYnRxRVN0UXNONFJTX0w3Qk4wRU9RZURHTkE?oc=5",
-        "domain": "irishsun.com",
+        "title": "Japan lifts sanctions on Syrian Ministries, oil, banking and Telecom entities",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWERhcG16UnBOV05RLUFKMWJTN2I5LXpsajV1aWVNSzlsRjBKRWFvOEY0ZkNiR1h4ckpQMm4zM1FtdTZBNW10X1BFdjU1N05yYUtURnVNaVVKRlJGU0djbzNKQU1ucXlyX1pyS2NZUk5pdEhaVXgwRzdOUXRwcF9Vb2xZc1F4YW1PVlVfMEVWSHIxRUVKbkc4ME95cEZIb3o3WmVlX2xqS3lDN2NObkNObVBqVDgyY1psVV9NUzl5SUlHUm9sMkp5NW1B?oc=5",
+        "domain": "mtvlebanon",
         "language": "",
         "tone": 0,
-        "seendate": "20260928T134900Z",
+        "seendate": "20260929T090010Z",
         "source": "GoogleNews"
       },
       {
@@ -119087,21 +119089,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "A heavy blow to the EU sanctions regime against Russia",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDgxd1Y2RE1aNlp3YTY2TGtyRnA1bFd2bGMwSjg4ODJXYm1BZUs4S1VzU1FGLWV6dko0UVpiY1Q4QjRoTkZhNkVCM0NiZzRONlE2b0dtM2oyOE4ySXJrSHM4cmQydW52WlhVdkZDZXBNcUVUREowSTBySU5qc1FTaWlXZXFlWktvVEZIT1IxZ1dXb1lpVzNFRnVQUVk2Z2PSAZABQVVfeXFMUEhFY3Zsdkh5OFI2a3ZUTXZ3aVZiTUpoRDJNNk1DNWZmcUVzcUdQeWE5bUFBaF96N2NMWHByNEtuVTdWaExvQ2hLYzhlaWRhZnlaQk9SZ0NOSUs0T1hfVHBRNHdYTWwtbzdJYm5mVzBUdUx2TUpPcWNWS1lab3N0Ml9EcndYb2hBUG9UOFhjbFc4?oc=5",
-        "domain": "vijesti.me",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T044750Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Trump denies reported plan to ease Iran sanctions",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42UkVld1liN1I4UFRwWXpBdmoxUU80X185cEhGYVhobzgxX21BaU5UZ2xlQkZES2N3dExUZmRBUThVaHZlRlgwd0UwZTk4X0ZXSGR4QmRyVHZpcktiQ2NMcDB3c2dyV19BZlBQSXQyTWF0aHhqdkVRemZEaWdGeFk?oc=5",
         "domain": "timeskuwait",
         "language": "",
         "tone": 0,
-        "seendate": "20260929T045933Z",
+        "seendate": "20260929T051902Z",
         "source": "GoogleNews"
       },
       {
@@ -119125,7 +119118,7 @@
       {
         "title": "EU faces backlash over lifting sanctions on two Russian billionaires",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWR1dHFpVHVzTjU5X3UxaWRIZ3FtZlVBZ3NkeHlQelN3cFI1R2h6Qk1DMlBLaUhpMmRLb2JuWVNZZGd1cjFXQzBIRnFRaHp4N1Z3eEVsTV8tZTlvUC1YeGN1cVJRdmlJckhHWnE1Qmkyc3c4MFJ6S3hzbWpYekJRZHdrQTZScEhSWnkxNnhjdWtHV2FOQ3dRZHg4VlZ5cjZkR2VVblE5Yw?oc=5",
-        "domain": "cyprusinform",
+        "domain": "kiprinform.com",
         "language": "",
         "tone": 0,
         "seendate": "20260923T162411Z",
@@ -119141,12 +119134,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Why The New Eu Sanctions On Ukrainian Child Deportations Wil",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMnFFeFJfZk54Y0NiRFdiUHA5a0RXdlBOMDZzb3V2MU1kNElwbkVuYzFzRW5sUW82X3NJODF5VHAwMVNuQlBBZzZjbHFYWnh6NzlnRkhlY09GNldWdDJTWUZEZHk3UmNISURNckJkSVR6dHNCbzE1OFV3MXdSeFhJajJQMW0wd2NyLXBQNE1R?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T053613Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU extends individual Ukraine-related sanctions until 2029",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFBpREpkaDBaNVJqd0lqd2pUeGVvVG5UdE5PUHlXNURhZHlkdzhjSnk0TjhRbmRpNXZpYzZIMFBBOE42bDZSMFhqQnkwVDhlX1FlTzlIdll1SGF4dGhjTU9mdDJ5a3cwX3M1LWo5YTlYQXJCQTVWYkNKa0N5QmNqQVFZZ25GQ1RUaDA4SS11ZVNoUQ?oc=5",
         "domain": "londondailynews",
         "language": "",
         "tone": 0,
         "seendate": "20260924T132146Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Japan Lifts Asset Freezes on 16 Syrian State Entities Following Regime Collapse",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZUhOcUxLR0tRN3BqeVh2VU5MT05tdHQ5Tm51cUtkbklpeXE2SDEyS29aTEgwUlZxUkUwU2NJUTd0TzU5MzdQczhjVG91aEVTaGhXZjJGTlZvUl92c0ZaLVNqdThkTk1sX3lwMnI2ekY0UFVYanYtVjN2ZHhoeGdhQWZyZ3I1ZlYzNjN2aW9LWTFwSkxDa193bHVrVGpkaDZyaW9QRVdtSnpOQ0QyQXRvZ28wOA?oc=5",
+        "domain": "streamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T090121Z",
         "source": "GoogleNews"
       },
       {
@@ -119168,21 +119179,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctions against Russia: why Usmanov and Fridman were removed ᐉ News from Fakti.bg - Opinions",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQVBkYTdINTRlbEZwVVlIMjlNLUE2MndFbUFnSDA3WkpCV1BWWTRpdjNmZFNwZklTSDFjNHYtdmtiVU9IOGZ6bzB3OGtJaXhPNFZuRGdldHAwOTM0NXUzcDVrUnFSOHI1X1o1RnVBMnkxQ2tKT0duVlRuT2NmdEN2OVRYZFUwRGFSNzNnTk91Uzl0WEpIQlZYOGxJeDM?oc=5",
-        "domain": "fakti.bg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T115300Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU places Xenia Fedorova under Russia destabilisation sanctions",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQREg2U1VHTUZZUU53NzZ1b2ZSWXRiU0pURnVkTXc5YmdzeWxyLVdKVUlEc3hGS3FwTkJlSTNjWW8zTy1FX1JRTGxTQW5KQ3RfSEFMWGd6TUJGdHlIUDlHcGZOYmMxLWNaR0c5VnN3R2JnMlk2SzBHdldLQ1RmMjZxWnZ0VEVlQXlkelhCekxPR0JNZlZzeXFpNg?oc=5",
         "domain": "londondailynews",
         "language": "",
         "tone": 0,
         "seendate": "20260925T070425Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran-Linked USDT Faces New Scrutiny From Senate Investigators",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb1dac1VDaVZPbXhTSmNtRnIyX0tuOEpjNFMyb05qTEdHbHBjZXpPVWdNYXVlWk5kWk13dHplVGtQRlJfRkZpWjJYRjVReVNJS3lwa3l1aUJzZERsRWtsTHdKdmlxVXppdTFxbGppMVUxbnBkTUdRbTBDYmIyVXNfSQ?oc=5",
+        "domain": "tronweekly",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T080000Z",
         "source": "GoogleNews"
       }
     ]
