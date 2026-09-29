@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-09-29T12:47:07.126287+00:00",
+    "generated": "2026-09-29T22:13:08.782682+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-29T12:45:20.536452+00:00",
+    "issued_at": "2026-09-29T22:11:22.214745+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 5.0,
-    "level": "BASELINE",
+    "score": 55.4,
+    "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,34 +24,112 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 0.0,
-        "releases_considered": 99,
-        "current_7d_designation_releases": 0,
-        "current_7d_all_releases": 0,
+        "score": 81.7,
+        "releases_considered": 100,
+        "current_7d_designation_releases": 4,
+        "current_7d_all_releases": 4,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
         "baseline_weekly_median": 2.0,
-        "anomaly_z": -2.7,
-        "themes": [],
-        "evidence": [],
+        "anomaly_z": 2.7,
+        "themes": [
+          "counter_narcotics",
+          "counter_terrorism",
+          "iran",
+          "non_proliferation"
+        ],
+        "evidence": [
+          {
+            "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0636/",
+            "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+            "date": "2026-09-29",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism",
+              "iran",
+              "non_proliferation"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0637/",
+            "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+            "date": "2026-09-29",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "economic outcast"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism",
+              "iran",
+              "non_proliferation"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "CHART - Los Mayos Narco-Corruption in Baja California - September 2026",
+            "url": "https://ofac.treasury.gov/media/937021/download?inline",
+            "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+            "date": "2026-09-29",
+            "source": "OFAC/Treasury",
+            "posture_terms": [],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism",
+              "iran",
+              "non_proliferation"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
+            "url": "https://ofac.treasury.gov/media/937016/download?inline",
+            "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+            "date": "2026-09-29",
+            "source": "OFAC/Treasury",
+            "posture_terms": [],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism",
+              "iran",
+              "non_proliferation"
+            ],
+            "designation_signal": true
+          }
+        ],
         "retained": false
       },
       {
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19391,
+        "score": 100.0,
+        "current_count": 19444,
         "previous_count": 19391,
-        "added_count": 0,
+        "added_count": 53,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-09-22",
-        "sha256": "cf3ffced4675aa1542f616a15c285266bd0466d8d4508c08a1aa9851a639b276",
+        "changed": true,
+        "publish_date": "2026-09-29",
+        "sha256": "26206e164ec23658ba0282536a0b0b5295e508dfd6a03387f1a84fdde8bdf932",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
-            "count": 5666
+            "count": 5664
           },
           {
             "program": "SDGT",
@@ -71,7 +149,7 @@
           },
           {
             "program": "NPWMD] [IFSR",
-            "count": 636
+            "count": 646
           },
           {
             "program": "UKRAINE-EO13662] [RUSSIA-EO14024",
@@ -82,11 +160,11 @@
             "count": 481
           },
           {
-            "program": "ILLICIT-DRUGS-EO14059",
-            "count": 476
+            "program": "IRAN",
+            "count": 473
           },
           {
-            "program": "IRAN",
+            "program": "ILLICIT-DRUGS-EO14059",
             "count": 473
           },
           {
@@ -101,11 +179,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 9975
+            "count": 10005
           },
           {
             "type": "individual",
-            "count": 7534
+            "count": 7557
           },
           {
             "type": "vessel",
@@ -116,7 +194,128 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "58279",
+            "name": "KAVOSHCOM ASIA R AND D GROUP",
+            "type": "",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58280",
+            "name": "EC MOJO TECHNOLOGY CO LIMITED",
+            "type": "",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58281",
+            "name": "LALI, Parisa",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58282",
+            "name": "LI, Fen",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58283",
+            "name": "AHMADY, Ali Fotowat",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58302",
+            "name": "ZAMBADA SICAIROS, Ismael",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58304",
+            "name": "GASTELUM GARCIA, Hildegardo",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58596",
+            "name": "TAJAMMAL, Waseem Pasha",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58598",
+            "name": "CAVALIER DYNAMICS PRIVATE LIMITED",
+            "type": "",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58599",
+            "name": "CAVALIER DYNAMICS FOR TECHNOLOGIES COMPANY",
+            "type": "",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58600",
+            "name": "CAVALIER DYNAMICS TEKNOLOJI TICARET ANONIM SIRKETI",
+            "type": "",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58624",
+            "name": "MIA CENTRO CAMBIARIO, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58654",
+            "name": "TABATABAI, Seyyed Asghar Alizadeh",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58693",
+            "name": "CHAPOTIN VILLALBA, Diosvany Samuel",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58694",
+            "name": "MARTINEZ RODRIGUEZ, Pedro Humberto",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58695",
+            "name": "YOCUPICIO YOCUPICIO, Jesus Rafael",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58696",
+            "name": "HUEZO HERNANDEZ, Franklin Ernesto",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58697",
+            "name": "CASTILLO MALDONADO, Lorenzo",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58698",
+            "name": "MENDOZA URIARTE, Jorge Luis",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58700",
+            "name": "MENDOZA URIARTE, Francisco Javier",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -124,14 +323,53 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 0.0,
-        "current_7d_releases": 0,
-        "current_weighted_term_rate": 0.0,
+        "score": 7.2,
+        "current_7d_releases": 4,
+        "current_weighted_term_rate": 1.0,
         "baseline_weeks": 12,
-        "anomaly_z": -1.39,
-        "matched_release_count": 0,
+        "anomaly_z": -0.36,
+        "matched_release_count": 2,
         "relief_release_count": 0,
-        "evidence": [],
+        "evidence": [
+          {
+            "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0636/",
+            "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+            "date": "2026-09-29",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism",
+              "iran",
+              "non_proliferation"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0637/",
+            "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+            "date": "2026-09-29",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "economic outcast"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism",
+              "iran",
+              "non_proliferation"
+            ],
+            "designation_signal": true
+          }
+        ],
         "terms": {
           "unprecedented": 3.5,
           "maximum pressure": 3.5,
@@ -203,11 +441,29 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "ofac_action_velocity",
+        "sdn_delta_breadth"
+      ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [],
+    "alerts": [
+      {
+        "id": "sdn_delta_breadth",
+        "title": "Exact SDN list delta",
+        "score": 100.0,
+        "level": "SEVERE",
+        "why": "The official SDN file changed materially since the previous accepted snapshot."
+      },
+      {
+        "id": "ofac_action_velocity",
+        "title": "OFAC action velocity",
+        "score": 81.7,
+        "level": "SEVERE",
+        "why": "Official designation-linked releases are elevated against prior weekly activity."
+      }
+    ],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -1572,11 +1828,22 @@
           "official_posture_shift": 0.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-09-29T22:11:22.214745+00:00",
+        "score": 55.4,
+        "level": "ELEVATED",
+        "components": {
+          "ofac_action_velocity": 81.7,
+          "sdn_delta_breadth": 100.0,
+          "official_posture_shift": 7.2,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19391,
-      "ofac_releases": 99,
+      "sdn_entries": 19444,
+      "ofac_releases": 100,
       "market_series_available": 2,
       "available_components": 4,
       "retained_components": [
@@ -1636,17 +1903,17 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "5.0/100",
-      "delta": "BASELINE"
+      "value": "55.4/100",
+      "delta": "ELEVATED"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,391",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,444",
+      "delta": "+53 since accepted snapshot"
     },
     {
       "label": "Official Releases",
-      "value": "99",
+      "value": "100",
       "delta": "rolling official baseline"
     },
     {
@@ -1657,9 +1924,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-09-22",
-      "sha256": "cf3ffced4675aa1542f616a15c285266bd0466d8d4508c08a1aa9851a639b276",
-      "count": 19391,
+      "publish_date": "2026-09-29",
+      "sha256": "26206e164ec23658ba0282536a0b0b5295e508dfd6a03387f1a84fdde8bdf932",
+      "count": 19444,
       "entries": [
         {
           "id": "36",
@@ -57111,7 +57378,7 @@
           "id": "37049",
           "name": "MG-FLOT LIMITED LIABILITY COMPANY",
           "type": "",
-          "program": "RUSSIA-EO14024"
+          "program": "IRAN-CON-ARMS-EO] [RUSSIA-EO14024"
         },
         {
           "id": "37050",
@@ -60441,7 +60708,7 @@
           "id": "38496",
           "name": "RIVERA ZAZUETA, Jose Angel",
           "type": "individual",
-          "program": "ILLICIT-DRUGS-EO14059"
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         },
         {
           "id": "38497",
@@ -61017,13 +61284,13 @@
           "id": "39162",
           "name": "ARZATE GARCIA, Alfonso",
           "type": "individual",
-          "program": "ILLICIT-DRUGS-EO14059"
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         },
         {
           "id": "39163",
           "name": "ARZATE GARCIA, Rene",
           "type": "individual",
-          "program": "ILLICIT-DRUGS-EO14059"
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         },
         {
           "id": "39164",
@@ -68697,7 +68964,7 @@
           "id": "43068",
           "name": "JOINT STOCK COMPANY EXPERIMENTAL DESIGN BUREAU NAMED AFTER A.S. YAKOVLEV",
           "type": "",
-          "program": "RUSSIA-EO14024"
+          "program": "IRAN-CON-ARMS-EO] [RUSSIA-EO14024"
         },
         {
           "id": "43069",
@@ -116712,6 +116979,36 @@
           "program": "VENEZUELA-EO13850"
         },
         {
+          "id": "58279",
+          "name": "KAVOSHCOM ASIA R AND D GROUP",
+          "type": "",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58280",
+          "name": "EC MOJO TECHNOLOGY CO LIMITED",
+          "type": "",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58281",
+          "name": "LALI, Parisa",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58282",
+          "name": "LI, Fen",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58283",
+          "name": "AHMADY, Ali Fotowat",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
           "id": "58284",
           "name": "KAYVANPOUR, Siavash",
           "type": "individual",
@@ -116814,10 +117111,22 @@
           "program": "SDGT"
         },
         {
+          "id": "58302",
+          "name": "ZAMBADA SICAIROS, Ismael",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
           "id": "58303",
           "name": "MOUSAFAR, Masoud",
           "type": "individual",
           "program": "SDGT"
+        },
+        {
+          "id": "58304",
+          "name": "GASTELUM GARCIA, Hildegardo",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         },
         {
           "id": "58305",
@@ -117729,7 +118038,7 @@
           "id": "58519",
           "name": "SAHA AIRLINES",
           "type": "",
-          "program": "IFSR] [IRAN-EO13902"
+          "program": "IFSR] [IRAN-EO13902] [IRAN-CON-ARMS-EO"
         },
         {
           "id": "58520",
@@ -117912,6 +118221,30 @@
           "program": "SDGT"
         },
         {
+          "id": "58596",
+          "name": "TAJAMMAL, Waseem Pasha",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58598",
+          "name": "CAVALIER DYNAMICS PRIVATE LIMITED",
+          "type": "",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58599",
+          "name": "CAVALIER DYNAMICS FOR TECHNOLOGIES COMPANY",
+          "type": "",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58600",
+          "name": "CAVALIER DYNAMICS TEKNOLOJI TICARET ANONIM SIRKETI",
+          "type": "",
+          "program": "NPWMD] [IFSR"
+        },
+        {
           "id": "58614",
           "name": "EMPRESA DE SERVICIOS TECNICOS DE COMPUTACION COMUNICACIONES Y ELECTRONICA",
           "type": "",
@@ -117952,6 +118285,12 @@
           "name": "ZAKER HOSSEIN, Hossein Ali",
           "type": "individual",
           "program": "IRAN] [IRAN-EO13902"
+        },
+        {
+          "id": "58624",
+          "name": "MIA CENTRO CAMBIARIO, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         },
         {
           "id": "58630",
@@ -118006,12 +118345,290 @@
           "name": "CENTRO DE INVESTIGACION, DESARROLLO Y PRODUCCION GRITO DE BAIRE",
           "type": "",
           "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58654",
+          "name": "TABATABAI, Seyyed Asghar Alizadeh",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58693",
+          "name": "CHAPOTIN VILLALBA, Diosvany Samuel",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58694",
+          "name": "MARTINEZ RODRIGUEZ, Pedro Humberto",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58695",
+          "name": "YOCUPICIO YOCUPICIO, Jesus Rafael",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58696",
+          "name": "HUEZO HERNANDEZ, Franklin Ernesto",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58697",
+          "name": "CASTILLO MALDONADO, Lorenzo",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58698",
+          "name": "MENDOZA URIARTE, Jorge Luis",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58700",
+          "name": "MENDOZA URIARTE, Francisco Javier",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58701",
+          "name": "FELIX RIVERA, Ilia Elizabeth",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58702",
+          "name": "VERA AYALA, Jeronimo Javier",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58703",
+          "name": "VERA AYALA, Jorge Mario",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58704",
+          "name": "TORRES TORRES, Carlos Alberto",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58705",
+          "name": "TORRES TORRES, Luis Alfonso",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58706",
+          "name": "MENDIVIL GARCIA, Pedro Ariel",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58707",
+          "name": "MORENO GOMEZ SANTELICES, Marco Antonio",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58708",
+          "name": "VILLELA GOMEZ SANTELICES, Carlos",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58709",
+          "name": "BUENROSTRO MARTIN, Rafael",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58711",
+          "name": "RIVOS SERVICIOS, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58712",
+          "name": "SERVICIOS HOTELEROS GASTELUM, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58713",
+          "name": "GALERIAS CENTRO CAMBIARIO, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58714",
+          "name": "GRUPO GASOLINERO NUEVA ESPERANZA, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58719",
+          "name": "BAJA FIXER GROUP, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58720",
+          "name": "INTELIPROOF EFFICIENT, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58721",
+          "name": "PRIVATE EQUITY BAJA S.A.P.I. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58722",
+          "name": "FESTIVALES ARTISTAS MOBILIARIO ASESORIA, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58723",
+          "name": "PRIVATE EQUITY BURSATIL, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58724",
+          "name": "CONCIERTOS Y ESPECTACULOS INHOUSE S.A.P.I. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58725",
+          "name": "WERMAK PUBLIRED, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58726",
+          "name": "HOLISTIC WELLWAVES S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58727",
+          "name": "PROYECTO ALERTA VERDE, S.A.P.I. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58729",
+          "name": "VIDEOVIGILANCIA COLABORATIVA, S.A.P.I. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58730",
+          "name": "LTHINGS MEXICO, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58731",
+          "name": "XOLO GAS DE BAJA CALIFORNIA, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58732",
+          "name": "CODESUAM, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58733",
+          "name": "GRUPO BAJA FIRME, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58734",
+          "name": "VIDA ORGANICA TIJUANA, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58736",
+          "name": "EDIFIKA DESARROLLOS BAJA, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58737",
+          "name": "THE WOODS BAR, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58738",
+          "name": "RAES RESTAURANTE S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58739",
+          "name": "DISTRIBUIDORA Y COMERCIALIZADORA ATAF",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58740",
+          "name": "PUBLICIDAD E IMAGEN INTEGRAL ENLA-C, S. DE R.L. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         }
       ],
       "cached": false
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0636/",
+          "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+          "date": "2026-09-29",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0637/",
+          "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+          "date": "2026-09-29",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "CHART - Los Mayos Narco-Corruption in Baja California - September 2026",
+          "url": "https://ofac.treasury.gov/media/937021/download?inline",
+          "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+          "date": "2026-09-29",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
+          "url": "https://ofac.treasury.gov/media/937016/download?inline",
+          "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+          "date": "2026-09-29",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
           "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
@@ -118101,22 +118718,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
-          "url": "https://home.treasury.gov/news/press-releases/sb0613/",
-          "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-          "date": "2026-08-24",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
-          "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-          "date": "2026-08-24",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
           "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/rescission-of-syrias-designation-as-a-state-sponsor-of-terrorism/",
           "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
@@ -118133,16 +118734,24 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-cuban-regime-actors-associated-with-marxist-subversive-networks-and-corrupt-economic-dealings-fact-sheet/",
-          "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
-          "date": "2026-08-20",
+          "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
+          "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
+          "date": "2026-08-24",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
-          "url": "https://home.treasury.gov/news/press-releases/sb0611",
+          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
+          "url": "https://home.treasury.gov/news/press-releases/sb0613/",
+          "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
+          "date": "2026-08-24",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "CHART - Ecuadorian Maritime Cocaine Trafficking Network - August 2026",
+          "url": "https://ofac.treasury.gov/media/936726/download?inline",
           "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
           "date": "2026-08-20",
@@ -118157,8 +118766,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - Ecuadorian Maritime Cocaine Trafficking Network - August 2026",
-          "url": "https://ofac.treasury.gov/media/936726/download?inline",
+          "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-cuban-regime-actors-associated-with-marxist-subversive-networks-and-corrupt-economic-dealings-fact-sheet/",
+          "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
+          "date": "2026-08-20",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
+          "url": "https://home.treasury.gov/news/press-releases/sb0611",
           "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
           "date": "2026-08-20",
@@ -118213,6 +118830,14 @@
           "source": "OFAC/Treasury"
         },
         {
+          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+          "url": "https://home.treasury.gov/news/press-releases/sb0573",
+          "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
+          "date": "2026-07-23",
+          "source": "OFAC/Treasury"
+        },
+        {
           "title": "CHART - CJNG Leadership - July 2026",
           "url": "https://ofac.treasury.gov/media/936611/download?inline",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
@@ -118221,8 +118846,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
-          "url": "https://home.treasury.gov/news/press-releases/sb0573",
+          "title": "CHART - CJNG-Linked Networks - July 2026",
+          "url": "https://ofac.treasury.gov/media/936616/download?inline",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
@@ -118237,8 +118862,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - CJNG-Linked Networks - July 2026",
-          "url": "https://ofac.treasury.gov/media/936616/download?inline",
+          "title": "Additional Sanctions Designations Targeting the Corrupt Cuban Communist Regime and its Financial Backers",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/additional-sanctions-designations-targeting-the-corrupt-cuban-communist-regime-and-its-financial-backers/",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
@@ -118309,16 +118934,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Targets Criminal Facilitators Behind CJNG's Cross‑Border Fuel Smuggling Schemes",
-          "url": "https://home.treasury.gov/news/press-releases/sb0545",
+          "title": "CHART - Mexican Cartel Fuel Smuggling Schemes - June 2026",
+          "url": "https://ofac.treasury.gov/media/936411/download?inline",
           "action_title": "Counter Narcotics Designations; Russia-related Designations Removals; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260630",
           "date": "2026-06-30",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - Mexican Cartel Fuel Smuggling Schemes - June 2026",
-          "url": "https://ofac.treasury.gov/media/936411/download?inline",
+          "title": "Treasury Targets Criminal Facilitators Behind CJNG's Cross‑Border Fuel Smuggling Schemes",
+          "url": "https://home.treasury.gov/news/press-releases/sb0545",
           "action_title": "Counter Narcotics Designations; Russia-related Designations Removals; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260630",
           "date": "2026-06-30",
@@ -118349,16 +118974,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Further Dismantles Overseas Scam Operations Targeting Americans",
-          "url": "https://home.treasury.gov/news/press-releases/sb0538",
+          "title": "Further Sanctions on the Cuban Regime’s Revenue Generation Network",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/further-sanctions-on-the-cuban-regimes-revenue-generation-network-fact-sheet/",
           "action_title": "Transnational Criminal Organizations Designations; Cuba Designations; Russia-related Designations Removals; Issuance of TCO-related General License; Publication of OFAC-OFSI Comparative Overview",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260623",
           "date": "2026-06-23",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Further Sanctions on the Cuban Regime’s Revenue Generation Network",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/further-sanctions-on-the-cuban-regimes-revenue-generation-network-fact-sheet/",
+          "title": "Treasury Further Dismantles Overseas Scam Operations Targeting Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0538",
           "action_title": "Transnational Criminal Organizations Designations; Cuba Designations; Russia-related Designations Removals; Issuance of TCO-related General License; Publication of OFAC-OFSI Comparative Overview",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260623",
           "date": "2026-06-23",
@@ -118581,16 +119206,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran-Backed Iraqi Militia Commanders",
-          "url": "https://home.treasury.gov/news/press-releases/sb0458",
+          "title": "Treasury Sanctions Recruitment Network Enabling War in Sudan, Calls for Humanitarian Truce",
+          "url": "https://home.treasury.gov/news/press-releases/sb0457",
           "action_title": "Counter Terrorism Designations; Sudan Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
           "date": "2026-04-17",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Recruitment Network Enabling War in Sudan, Calls for Humanitarian Truce",
-          "url": "https://home.treasury.gov/news/press-releases/sb0457",
+          "title": "Economic Fury Targets Iran-Backed Iraqi Militia Commanders",
+          "url": "https://home.treasury.gov/news/press-releases/sb0458",
           "action_title": "Counter Terrorism Designations; Sudan Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
           "date": "2026-04-17",
@@ -118709,6 +119334,14 @@
           "source": "OFAC/Treasury"
         },
         {
+          "title": "Treasury Targets Cartel-Linked Timeshare Resort Defrauding U.S. Citizens",
+          "url": "https://home.treasury.gov/news/press-releases/sb0400",
+          "action_title": "Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260219",
+          "date": "2026-02-19",
+          "source": "OFAC/Treasury"
+        },
+        {
           "title": "Treasury Sanctions Sudanese Paramilitary Commanders for Atrocities in El-Fasher",
           "url": "https://home.treasury.gov/news/press-releases/sb0399",
           "action_title": "Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License",
@@ -118725,24 +119358,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Targets Cartel-Linked Timeshare Resort Defrauding U.S. Citizens",
-          "url": "https://home.treasury.gov/news/press-releases/sb0400",
-          "action_title": "Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260219",
-          "date": "2026-02-19",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Sanctioning Hizballah Finance Operatives",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/02/sanctioning-hizballah-finance-operatives-2/",
+          "title": "Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon's Cash Economy",
+          "url": "https://home.treasury.gov/news/press-releases/sb0393",
           "action_title": "Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260210",
           "date": "2026-02-10",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon's Cash Economy",
-          "url": "https://home.treasury.gov/news/press-releases/sb0393",
+          "title": "Sanctioning Hizballah Finance Operatives",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/02/sanctioning-hizballah-finance-operatives-2/",
           "action_title": "Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260210",
           "date": "2026-02-10",
@@ -118771,38 +119396,6 @@
           "action_url": "https://ofac.treasury.gov/recent-actions/20260123",
           "date": "2026-01-23",
           "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Sanctions One of the Caribbean’s Largest Narcotics Traffickers and His Network",
-          "url": "https://home.treasury.gov/news/press-releases/sb0369",
-          "action_title": "Counter Narcotics Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260122",
-          "date": "2026-01-22",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "PRESS CHART - Picado Grijalba Costa Rican Drug Trafficking Network",
-          "url": "https://ofac.treasury.gov/media/934916/download?inline",
-          "action_title": "Counter Narcotics Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260122",
-          "date": "2026-01-22",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Exposes and Disrupts Hamas's Covert Support Network",
-          "url": "https://home.treasury.gov/news/press-releases/sb0368",
-          "action_title": "Counter Terrorism Designations and Designations Removals",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260121",
-          "date": "2026-01-21",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Increases Pressure on Houthi Smuggling and Illicit Revenue Generation Networks",
-          "url": "https://home.treasury.gov/news/press-releases/sb0367",
-          "action_title": "Counter Terrorism Designations and Designation Update",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260116",
-          "date": "2026-01-16",
-          "source": "OFAC/Treasury"
         }
       ],
       "pages": 4,
@@ -118816,6 +119409,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260924T181216Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether Freezes $550 Million in Iran-Linked USDT as Senate Report Raises New Questions",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYU12VFdJbkRPRkctWDJ2QndfZzY0cTVzVDVoc2xILVhFazNZaWw2NnViczl2WWdTdF9aQ2NfaGhzdGJXTnMtMjE2dlBpUmZ0bnB6ZWxOcHZrZ0RiMDI3M1pnQlZqU0xKT1ctSE4wTERsMWZWZXh5aEg1TmlPcUI1RGZPRnlrTm1sZ3pmM0ZZSE1uY29zMWphYnBkM29rSHRxbEdQVExPT18tbUxMa1Z5N3JjeWppVzc4d0tDbXhwRzBURl9TLVo4RA?oc=5",
+        "domain": "bitcoinfoundation",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T141452Z",
         "source": "GoogleNews"
       },
       {
@@ -118837,15 +119439,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU removes two Russian oligarchs from sanctions blacklist",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU21BSEZOM0VYMTRUbnF1b2huTXhDRERCZnB1ZU1oNWszMEk4MGZRdDdFbHpOS0hWbFphNENjOC1JWUhhOV9uajBNQWZxY0JGeFVVR1ZyRktFMndjQVlOOUJhR3RNSjlrWS1fNW1YX05vTkFkU2F4OTVqeFBMdkRkT3NWYUJyNmpReWFvNjdBVDk5QQ?oc=5",
-        "domain": "rapporteur.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T190657Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Europe Trades Two Oligarchs for a Three-Year Freeze as Washington Aims at Russia's Oil Buyers: Who Wins, Who Pays?",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMXVJNGNwNXVBU2lZRGV3cFFzQ2NadVdLYnFSNUxpaDVYNkNiY2VkQnNNUGw2SkdQUC1QN0o2Y0U2LVFWZ3RkNGl2aGl2aHVEM0ZQaVlibXRqYXpDNGNDckN4aHkyS3lXVGdLbEZQRUpxQjJzX1ZtVk9oeXExTkttaVBTdlJxU3N2WVBfOHBXUzRCTFcy?oc=5",
         "domain": "moderndiplomacy",
@@ -118855,30 +119448,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions target judges behind ban on Russia's only anti-war party",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRjNvMC1Pb1V6TzN5cDYxQUN5d2FPQmFzdEdiMXQ5MnRrWGdIeHlzVF9tZkZuWS1DOWVxc2E2WUszUlczY0d3V0pYd2lxLUlNX0tJT0ZnTlM1V3NCQnRlS0RnMWt1QlR4UGlIb3A2ZVVBSXdkejlpYWZiNktyZDdMOUNaU0hWQmFpU2JjTHEyYlJnWlNlWHp5TmhOcExYeXFoR2VyaWZEUFJJZw?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T213345Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3RrMDNXbEoyV21nV19sVk9TUTdJY3VJQXNPZEUxUWJ6X1VEckd6X1VNYXpPTUU2V2ZnZnp1a3VTOUd4c2VlaVpXenA2aTd6cEhTMFRISjJSdzMyTE91bDR2akJfVWF0SHFrdXpJS2pPSkFWZi1UVTRsSThDOVVvaFFWLWNoT1B0Rndz?oc=5",
-        "domain": "yahoonewssingapore",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260923T140803Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tether Says It Helped Freeze Nearly $550 Million in Iran-Linked USDT",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTWRhQUEwNmF0VXVCWWdGVzg5dWd1QUJZT01XWDVQcHJhTEw3eWdXVEdITG9PYTNWQzh2Nlg1UFJ0VkdaZ3hiUFVtQk13TnpQNFZFNExkMEMzdTJFTlhSY1Zjek9qb054QW5WaU9jSjkyRmxVeHhwdXRYVk9sc1RNdDhUZGwyaG1ES0N3c3JXZ2VLSUxjSnU3VjJwTmwwOEoyQzFjVEtFQ1k?oc=5",
         "domain": "thedefiant",
         "language": "",
         "tone": 0,
-        "seendate": "20260928T185030Z",
+        "seendate": "20260929T063016Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions target judges behind ban on Russia's only anti-war party",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRjNvMC1Pb1V6TzN5cDYxQUN5d2FPQmFzdEdiMXQ5MnRrWGdIeHlzVF9tZkZuWS1DOWVxc2E2WUszUlczY0d3V0pYd2lxLUlNX0tJT0ZnTlM1V3NCQnRlS0RnMWt1QlR4UGlIb3A2ZVVBSXdkejlpYWZiNktyZDdMOUNaU0hWQmFpU2JjTHEyYlJnWlNlWHp5TmhOcExYeXFoR2VyaWZEUFJJZw?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T213700Z",
         "source": "GoogleNews"
       },
       {
@@ -118918,6 +119502,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Tether Helps Freeze Nearly $550 Million in Iran-Linked Digital Assets",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOclhGd2lsdEJVcDFFbHZJRlphNGpYWW1DbnB3aEFCV1FiTVZ1S0hrSnc3ZEJhY3dkY3l6QVFjeDNEMFBqV1p0aGVlUHlLUHVicHV4OWhrandrdDRHV0c1Nk40ZzFNd0gyNXdyWmZOYWludmttNUNWa2VlbHJ0QkZjWlFwZTlRMF80VkF1d2lvSWM5Y0MydTBmNGtrb05SRTVoWlFQQkRXV3hxeWZCS21uQ9IBsAFBVV95cUxOclhGd2lsdEJVcDFFbHZJRlphNGpYWW1DbnB3aEFCV1FiTVZ1S0hrSnc3ZEJhY3dkY3l6QVFjeDNEMFBqV1p0aGVlUHlLUHVicHV4OWhrandrdDRHV0c1Nk40ZzFNd0gyNXdyWmZOYWludmttNUNWa2VlbHJ0QkZjWlFwZTlRMF80VkF1d2lvSWM5Y0MydTBmNGtrb05SRTVoWlFQQkRXV3hxeWZCS21uQw?oc=5",
+        "domain": "irannewsupdate.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T163850Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The EU has imposed sanctions on those involved in the deportation of Ukrainian children to Russia",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOampFVjhzOWR6NVJZOU1sMWdRbElHNlNWa1kxSUdDUzJfa1VpUndsZ1lOSThCYVcxMWZyWDJYVUl2TWZRVFpaV1gtbDVrT3QwcjRSYkU3MjBsMWF6WnBBWXlRczFpM20xODFnenhyWUd5dkJlazJ3WGExam5IbFdsQzVmRzBvU0p2ODI1eElPdnc1b2l3Nm5MQV9WYVJaNWdwV182bERjWXZINVNDTU9yT0ZNT2VoS240MFdJ0gG7AUFVX3lxTE5qakVWOHM5ZHo1Ulk5TWwxZ1FsSUc2U1ZrWTFJR0NTMl9rVWlSd2xnWU5JOEJhVzExZnJYMlhVSXZNZlFUWlpXWC1sNWtPdDByNFJiRTcyMGwxYXpacEFZeVFzMWkzbTE4MWd6eHJZR3l2QmVrMndYYTFqbkhsV2xDNWZHMG9TSnY4MjV4SU92dzVvaXc2bkxBX1ZhUlo1Z3BXXzZsRGNZdkg1U0NNT3JPRk1PZWhLbjQwV0k?oc=5",
         "domain": "news.google.com",
@@ -118936,12 +119529,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU agrees to delist Usmanov, Fridman while extending Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSml4azMwVy1EVXJTblVvemhKR3Z4enpzVHM4SGROS1VNcUw3cXVaUDdNSlpzU203U09jazgySzROSkFUcTNRQVo1UG43U21rV1kwWU5hQVJEWV9EazFPN3JkaU9DejU5T0l0YlUxOExqWThSazRKbzNwRDZ3a1FwZ1hQcUl2VXNiOE5MVE13TC1PS04zcGNhMFp5TzZzTGhKbzdqTlJNdDZoN05yMWx4Z2o4NzVDbFZx0gG0AUFVX3lxTFBJMVRsWEJMRkx3MkRFUnJXcTlFZ0JjTnJuTWdZOFA5bXluQk5yTDhQSU5FS0JGbTRTYjAtUmRRSmVuM0d0LTJ5aWVWVEdWZkFzNTdGZUdfSy1VVmV2elBURHQzN0d1Vm11ZHNqanliNGVCcGl5TTRrQlJLb1QxbUFHY2FIcm5yaTJZWnByWmxmNW40cklQZkJTSzNOQ3NoSDByY05ycHgxN3psQVRRSHM0dXhrdw?oc=5",
-        "domain": "thenewvoiceofukraine",
+        "title": "Tether claims $550 million in Iran freezes, but $35 million slipped past Senate",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMDBVSFRRbkVNdDBEdC1uS1BvUjJhOXJXbXBNUjVDbDZlVXpXV2pGekNHZW1FRVh3T2FsNWpRYWtuMnlUSEJwVGFCci0yOC0wZWM0ZXhKbGFwNVZHVkRWbzcxMzRRM2F4UmJHWnBRMzNMeERHWFdKT3ZybWlTZHc2YnZRM3NuMWhhODRrWkJ4d1VFTWJZX01fWkROaUVsbzE3a1JR?oc=5",
+        "domain": "cryptoslate",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T162700Z",
+        "seendate": "20260929T173012Z",
         "source": "GoogleNews"
       },
       {
@@ -118951,15 +119544,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260928T145223Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU renews Russia sanctions but removes Usmanov at France's request",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWi1iMzItbkI3MVFGV19NN3VJRFFxMWRRRE5kVEhKdjN5bnV3NU1Ga2tUUjB1RXZHWFUyeUp1RExlLWctc1dZdWpoSDJIS3Y2eWtnNnVMVXNwS1ZlUWZQRllPTU9lZ1lTa01DS2xqM1FobEh3YldxOTRWdm5fWjh5MA?oc=5",
-        "domain": "yahoonewscanada",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260922T151613Z",
         "source": "GoogleNews"
       },
       {
@@ -118978,6 +119562,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260928T103500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether Has Frozen Nearly $550M in Iran-Linked USDT in 2026",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSThrczB3eW1mZERraHdad0UxZ2VuOTRDeWV1cEUzczB2VzJCU3dhX0tKaWtUa21yRkY4cmRzaFpMMTRBYllwZjUzUl9aWDhvQXZ2RmhfM2Zrd2tXSm5pTGVqeUZyRlRKUENhaWZ3TzEtWjlWV2ZXanhrZHRPcWVxWDlIUnowNVJDTUxiOHZEVmpXeGttVWM3Nl9SYw?oc=5",
+        "domain": "cryptorank",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T140138Z",
         "source": "GoogleNews"
       },
       {
@@ -119009,11 +119602,11 @@
       },
       {
         "title": "EU sanctions target Russia's forced deportation, indoctrination of Ukrainian children",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd0J4TnltQW1UZEFrRENHQ2s4RlJQMklWTlQ1ay1KdmwwMnR5T0toa0xHd0xYSEYzMmVueEpRVDZ2TEQxZFNlbUwtdG1fVVZWQWNoenNwTmZFS3I2c1RWcl9ydmM3Qmd3eF9JY2hldG5acjZ2WndmN0xrQWZHZ0ZpWTkwUkxpLVhHN3N3OFozRXFnc1JEM29BYWoxdU11Njl1MDhIazhoRTFweFZIQk9IczB2MFkxTzQ5S2xlOE1iOWtZRnBUOTNTclRoclg?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQaW5jdl9xUUhhY1AxSi15N3JYSnY3X0hETElHazdnT0NEY3B4YU91bmhBVEhvTFA4UEZoZjlJcExKUHp0MTJsSkN5UjZIVUdtQ0VFZkZmeEVpZkktaHZ0T3VDZzFDd2xsMWpIc0F6dFpyOTJVd2E2c1ZhbFQ3TlFOeUFxTVhlT0R2TFZ5YzRqQkM0VTNGOFB6QWZucHdvOXQ3T2VvREw3S054UGk0YkNxSVEwM21IbWlCV0JyRXRjOTR5TkJjbUYxU0l0cGp2dy1JcGdNdkVTcnpZTmcxOE5HMDduS3UwVWhTQTJaRjdBYTBQOWJXWHRqNVVoekF3NXdKaTluUUVRb3R2YkxrUTc3cjl3Ry0tMUE?oc=5",
         "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20260929T000307Z",
+        "seendate": "20260928T205820Z",
         "source": "GoogleNews"
       },
       {
@@ -119053,18 +119646,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions 10 individuals, 17 entities over alleged unlawful deportation of Ukrainian children to Russia",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMXpESUs2SjVqcWZsLWpNYWxkMlI2ZjlJc05fbnRPSTR4cDlaT2Z3MmYzNHI0QWZXZndYZTlKUERYN3B3TEg0UWFXbzdjd0o2ZkVKVTNNQ3ozYUpzTTE2aW55LWZZV3o0NXBodnh6TkpHRUhEVVdXVVo0STBmSVlUeWxabThtQzRZRzBseTVKaEZyT3d2ZDhuMnlFbkx4SVlIb3preHhpdVlQc1NfaWtWc0pvUFVQTEFIZ2ZJY0xHWlJoOE9IYnRxRVN0UXNONFJTX0w3Qk4wRU9RZURHTkE?oc=5",
-        "domain": "irishsun.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T134900Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Despite Global Reserve Asset Reshuffling Including \"Increased Gold Holdings,\" Dollar-Centric System Remains",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWHNDWGNMZ3dVSzVoN0E2R09NOEpTaHJMUEw0X3FRMXpTM1dnTVBzXzJ2RUlhaUpmUUdHWXlGN05YXzZsYzBCc09CdGRxb3JmM3ZZejRqbUZCNWNSVlR6Wk1jTGk?oc=5",
-        "domain": "asiae.co.kr",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20260926T010000Z",
@@ -119082,7 +119666,7 @@
       {
         "title": "EU Council imposes sanctions on Tatarstan head Rustam Minnikhanov",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeXJFdE9wVVRLQUxraWN1RDRxMG1WR2p0TWF4UVY1clZWeTV3VWdFTzkzc29FVlg3WnlUYWwxaTRreDBORGoxX2R1dldrdXJJNWJxaGIwaFpoWW9NeVZBdFBhX0ZLcXNuelVkdUVIQVlYa1VYc28wUTRWZTUtSzNzRDdxYkhwUFphdmJuWWJQcmE4bnFLN0pSWGVrN3dSNWIwLTdnZ3J6Yw?oc=5",
-        "domain": "apa.az",
+        "domain": "en.apa.az",
         "language": "",
         "tone": 0,
         "seendate": "20260928T104300Z",
@@ -119095,6 +119679,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260929T051902Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "'Cherry-picking sanctions' risks 'normalising' Russia, Latvian PM says amid Usmanov row",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2NlSEgwc0JIZktNZWtoT2N4dktPTnZYLVdZRDZoejBsQWN1VC1ZdFZTaTU2eHBVbmQycEoyVXZXRmtnaWNuWTViTHpDOVZUWktTbjU3V3ROUFJSekhkaVVvbHgxRktlNGp2c2JXZEFmUXp5OXlGUkMzLXB6Y3JWOVRWMTNDTEtSbnZwRnFUNThTZw?oc=5",
+        "domain": "aol.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260923T062400Z",
         "source": "GoogleNews"
       },
       {
@@ -119118,7 +119711,7 @@
       {
         "title": "EU faces backlash over lifting sanctions on two Russian billionaires",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWR1dHFpVHVzTjU5X3UxaWRIZ3FtZlVBZ3NkeHlQelN3cFI1R2h6Qk1DMlBLaUhpMmRLb2JuWVNZZGd1cjFXQzBIRnFRaHp4N1Z3eEVsTV8tZTlvUC1YeGN1cVJRdmlJckhHWnE1Qmkyc3c4MFJ6S3hzbWpYekJRZHdrQTZScEhSWnkxNnhjdWtHV2FOQ3dRZHg4VlZ5cjZkR2VVblE5Yw?oc=5",
-        "domain": "kiprinform.com",
+        "domain": "cyprusinform",
         "language": "",
         "tone": 0,
         "seendate": "20260923T162411Z",
@@ -119140,6 +119733,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20260929T053613Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Japan lifts partial sanctions on Syria, signals support for al-Sharaa government",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMmdLMVFwQlVNR1VmZmJBVlh5bmJFUXdMSGdUVWs5R2ROUUhfMXFaV1l4MTQybzFHbmJlRmNJMHRMdGlabVgxUUE1dl9TRE9GLWpENlk4RHdsVzlKVmszQm1pQkh6ci1LSkVFOUNpdktTaXM3QXhjQ0Y0ckRBaXVzRVk1cEdVd3F4RjlqLXFGZHpLNDRxMHRpeUNDMWNEWUVTSk1wbFlFNVduVkNzeVFZYl9sZjBpZw?oc=5",
+        "domain": "operativmlumatmrkzi",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T193757Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions 10 individuals, 17 entities over alleged unlawful deportation of Ukrainian children to Russia",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNM3cxaGw3Y2R0QTJyVTRNcUpndWlCLUtVZzBOWjF0T0pSYW5aa0xPakdRSVQwTW9PbElnVUZaTW5LR3JzTVFzSFhPWWlpWEE1dWZ6ZDBxZEEwYjkzeUxqZjd5OHRRWnBOd2ZiQ0tsZTFHZ2dfSjd1alA1clBWdGQtUUI0TFhtY1NaTk85RGl1cTJEZ2RiTGQ1dTB4TDdiSnlwNTZGZWhvcUxycDBSU244VldjQVNNekNKNDdkNmtqVkotZHhOX0ZTbDJGZEctVTUwWm0wODBFWkxvM0NVakNRV0lVaUNkZw?oc=5",
+        "domain": "bignewsnetwork.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T171900Z",
         "source": "GoogleNews"
       },
       {
@@ -119179,12 +119790,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU places Xenia Fedorova under Russia destabilisation sanctions",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQREg2U1VHTUZZUU53NzZ1b2ZSWXRiU0pURnVkTXc5YmdzeWxyLVdKVUlEc3hGS3FwTkJlSTNjWW8zTy1FX1JRTGxTQW5KQ3RfSEFMWGd6TUJGdHlIUDlHcGZOYmMxLWNaR0c5VnN3R2JnMlk2SzBHdldLQ1RmMjZxWnZ0VEVlQXlkelhCekxPR0JNZlZzeXFpNg?oc=5",
-        "domain": "londondailynews",
+        "title": "Sanctions against Russia: why Usmanov and Fridman were removed ᐉ News from Fakti.bg - Opinions",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQVBkYTdINTRlbEZwVVlIMjlNLUE2MndFbUFnSDA3WkpCV1BWWTRpdjNmZFNwZklTSDFjNHYtdmtiVU9IOGZ6bzB3OGtJaXhPNFZuRGdldHAwOTM0NXUzcDVrUnFSOHI1X1o1RnVBMnkxQ2tKT0duVlRuT2NmdEN2OVRYZFUwRGFSNzNnTk91Uzl0WEpIQlZYOGxJeDM?oc=5",
+        "domain": "fakti.bg",
         "language": "",
         "tone": 0,
-        "seendate": "20260925T070425Z",
+        "seendate": "20260923T115300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions former RT France chief Xenia Fedorova over pro-Russian propaganda",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMeDhSTDdBZi1abDlKcTBUaEZEaTUxRkNZMC1FV3UtcGFZdEVvZjU1QU9LZnRubHNCNDIwejV3SVhyWEtSaW5uX1Y3WG5nYUpjY3dGUnhPdE5leEpTakpQRUpIVndmQ2pxbnNLSGVMME9ZSnZPM093SE01eXY?oc=5",
+        "domain": "aol.ca",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T182149Z",
         "source": "GoogleNews"
       },
       {
@@ -119199,6 +119819,38 @@
     ]
   },
   "events": [
+    {
+      "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
+      "url": "https://home.treasury.gov/news/press-releases/sb0636/",
+      "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+      "date": "2026-09-29",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
+      "url": "https://home.treasury.gov/news/press-releases/sb0637/",
+      "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+      "date": "2026-09-29",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "CHART - Los Mayos Narco-Corruption in Baja California - September 2026",
+      "url": "https://ofac.treasury.gov/media/937021/download?inline",
+      "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+      "date": "2026-09-29",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
+      "url": "https://ofac.treasury.gov/media/937016/download?inline",
+      "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+      "date": "2026-09-29",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
       "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
@@ -119285,38 +119937,6 @@
       "action_title": "Counter Terrorism Designations; Issuance of Counter Terrorism General License; Issuance of Amended Russia-related General License",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260826",
       "date": "2026-08-26",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
-      "url": "https://home.treasury.gov/news/press-releases/sb0613/",
-      "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-      "date": "2026-08-24",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
-      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
-      "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-      "date": "2026-08-24",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
-      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/rescission-of-syrias-designation-as-a-state-sponsor-of-terrorism/",
-      "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-      "date": "2026-08-24",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
-      "url": "https://home.treasury.gov/news/press-releases/sb0612/",
-      "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-      "date": "2026-08-24",
       "source": "OFAC/Treasury"
     }
   ],
