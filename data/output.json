@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-01T22:39:45.455306+00:00",
+    "generated": "2026-10-02T05:30:56.984194+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-01T22:37:59.129302+00:00",
+    "issued_at": "2026-10-02T05:29:10.583946+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 54.8,
+    "score": 41.1,
     "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 77.9,
+        "score": 83.5,
         "releases_considered": 99,
         "current_7d_designation_releases": 7,
         "current_7d_all_releases": 7,
         "prior_7d_designation_releases": 0,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.0,
-        "anomaly_z": 1.35,
+        "anomaly_z": 1.8,
         "themes": [
           "counter_narcotics",
           "counter_terrorism",
@@ -172,12 +172,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 77.5,
+        "score": 0.0,
         "current_count": 19483,
-        "previous_count": 19452,
-        "added_count": 31,
+        "previous_count": 19483,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-09-30",
         "sha256": "4297a36558e1a73053460d37d7fa8eba83b2668dd2a72be1dc7c263a2d389b59",
         "top_programs": [
@@ -248,128 +248,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58626",
-            "name": "A7 NETWORK",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58761",
-            "name": "IRAN KHODRO COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58762",
-            "name": "PARS KHODRO COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58763",
-            "name": "ZAMYAD COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58764",
-            "name": "IRAN KHODRO DIESEL COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58765",
-            "name": "ISLAMIC REPUBLIC OF IRAN RAILWAY COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58766",
-            "name": "RAJA PASSENGER TRAINS COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58767",
-            "name": "SHERKAT-E RAH AHAN-E KHAMLE-O-NAGHLE",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58768",
-            "name": "SAIPA IRANIAN AUTOMOBILE MANUFACTURING COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58769",
-            "name": "KESHVARDOUST, Ramin",
-            "type": "individual",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58770",
-            "name": "SHANGHAI RUIMI IMPORT AND EXPORT TRADE CO., LTD.",
-            "type": "",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58771",
-            "name": "M AND R STEEL CO., LTD.",
-            "type": "",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58772",
-            "name": "SILVER LINE METAL TRADING LLC",
-            "type": "",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58773",
-            "name": "FIDAR FOOLAD RADMAN",
-            "type": "",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58774",
-            "name": "TECH-TRADE INTERNATIONAL IMPEX GMBH",
-            "type": "",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58775",
-            "name": "HAMEDANI, Mehnoosh Poursaraf",
-            "type": "individual",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58776",
-            "name": "TRACO INTERNATIONAL FZE",
-            "type": "",
-            "program": "IRAN-EO13871"
-          },
-          {
-            "id": "58777",
-            "name": "KGT TRADING LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58778",
-            "name": "DOMINION TRADING GROUP LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58779",
-            "name": "INTEGRATED AUTO PARTS LLC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -377,11 +256,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 28.4,
+        "score": 27.5,
         "current_7d_releases": 7,
         "current_weighted_term_rate": 2.429,
         "baseline_weeks": 10,
-        "anomaly_z": 1.37,
+        "anomaly_z": 1.25,
         "matched_release_count": 5,
         "relief_release_count": 1,
         "evidence": [
@@ -550,8 +429,7 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity",
-        "sdn_delta_breadth"
+        "ofac_action_velocity"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
@@ -560,16 +438,9 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 77.9,
+        "score": 83.5,
         "level": "SEVERE",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
-      },
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 77.5,
-        "level": "SEVERE",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
       }
     ],
     "history": [
@@ -2013,6 +1884,17 @@
           "official_posture_shift": 28.4,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-02T05:29:10.583946+00:00",
+        "score": 41.1,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 83.5,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 27.5,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2077,13 +1959,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "54.8/100",
+      "value": "41.1/100",
       "delta": "WATCH"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,483",
-      "delta": "+31 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -119857,21 +119739,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether Says It Helped Freeze Nearly $550 Million in Iran-Linked USDT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTWRhQUEwNmF0VXVCWWdGVzg5dWd1QUJZT01XWDVQcHJhTEw3eWdXVEdITG9PYTNWQzh2Nlg1UFJ0VkdaZ3hiUFVtQk13TnpQNFZFNExkMEMzdTJFTlhSY1Zjek9qb054QW5WaU9jSjkyRmxVeHhwdXRYVk9sc1RNdDhUZGwyaG1ES0N3c3JXZ2VLSUxjSnU3VjJwTmwwOEoyQzFjVEtFQ1k?oc=5",
-        "domain": "thedefiant.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260929T063016Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU issues sanctions for illegal deportations of Ukrainian children",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR0RQSmo1Ym1UeV9GbE05eXZwQ0FQMW10d2xCVnY1RWhXZVRYem9wSlJqbC1oLXlYQVVBRUktdnlfeVlSYmY5dHk2MktWMUZ3TjlibjlOSU4xRjZhYlQ3UHVQaTJSVmNfRWtHa3pSbzB3NjlKUVM3ZUhlb1Rpc0FhaWhaVHF0cjljcVVFYi1HM0hyOVE3aldjTmYzc29aa3pCdDNhcEYtVQ?oc=5",
-        "domain": "brusselstimes.com",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260928T185304Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether Says It Helped Freeze Nearly $550 Million in Iran-Linked USDT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTWRhQUEwNmF0VXVCWWdGVzg5dWd1QUJZT01XWDVQcHJhTEw3eWdXVEdITG9PYTNWQzh2Nlg1UFJ0VkdaZ3hiUFVtQk13TnpQNFZFNExkMEMzdTJFTlhSY1Zjek9qb054QW5WaU9jSjkyRmxVeHhwdXRYVk9sc1RNdDhUZGwyaG1ES0N3c3JXZ2VLSUxjSnU3VjJwTmwwOEoyQzFjVEtFQ1k?oc=5",
+        "domain": "thedefiant",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T063016Z",
         "source": "GoogleNews"
       },
       {
@@ -119931,19 +119813,10 @@
       {
         "title": "Seven TRON addresses sanctioned over alleged Tren de Aragua ATM attacks",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMkphMlEyRFRNeU1RUGNrQjNwQTZrZzhaOWstQnpBMGhhOTNTRWZfU2JmeTVDVjZBblpvX2NHUHVhQzMxdUoxTFR0RTJiQ0xMMGZjRFZuWndmUXYweldPODhCbFA0SnR1djBLOEhHVGRJNXNIMlM5bEJ6OHpzMlNPQlgtMFVfT0dnWlJLb0Fza0RzUG9BZXlJ?oc=5",
-        "domain": "cryptonews",
+        "domain": "crypto.news",
         "language": "",
         "tone": 0,
         "seendate": "20261001T081540Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions target judges behind ban on Russia's only anti-war party",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRjNvMC1Pb1V6TzN5cDYxQUN5d2FPQmFzdEdiMXQ5MnRrWGdIeHlzVF9tZkZuWS1DOWVxc2E2WUszUlczY0d3V0pYd2lxLUlNX0tJT0ZnTlM1V3NCQnRlS0RnMWt1QlR4UGlIb3A2ZVVBSXdkejlpYWZiNktyZDdMOUNaU0hWQmFpU2JjTHEyYlJnWlNlWHp5TmhOcExYeXFoR2VyaWZEUFJJZw?oc=5",
-        "domain": "brusselstimes.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T213700Z",
         "source": "GoogleNews"
       },
       {
@@ -119953,6 +119826,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260928T111300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions target judges behind ban on Russia's only anti-war party",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRjNvMC1Pb1V6TzN5cDYxQUN5d2FPQmFzdEdiMXQ5MnRrWGdIeHlzVF9tZkZuWS1DOWVxc2E2WUszUlczY0d3V0pYd2lxLUlNX0tJT0ZnTlM1V3NCQnRlS0RnMWt1QlR4UGlIb3A2ZVVBSXdkejlpYWZiNktyZDdMOUNaU0hWQmFpU2JjTHEyYlJnWlNlWHp5TmhOcExYeXFoR2VyaWZEUFJJZw?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T213700Z",
         "source": "GoogleNews"
       },
       {
@@ -119992,21 +119874,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions head of camps ‘indoctrinating’ Ukrainian children in North Caucasus",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaE9yY0VrUG9SbW5JVHdMWnpnN1QteU0tYU5XU0pWWHpVMEdnejhrckI0a3JtZEltYVJ1dWtMZWZTR09zcGVIdnZrTTFxcXNweFJLRDJ6WFlzZ0ZSX1A3VTladkppREtWMXI0UW1xc2tMODd4TU13MGVHbmhYdFh0aDBTZTRIdXg1aHlKdWp5N2JPX1prX1VtTGl3Vk05aTNXb1E?oc=5",
-        "domain": "ocmedia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260929T085135Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU expands Russia sanctions list",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMU5tTkpUcDFJdS11VTNDWmR1RHJEZnh2VTJaUmlqaGdWdWxoYzdqN29HX3REaWxUaHdMVmxCYVBhVVkzU09FSlZ3Z1JiejdySEcySWdtNUVPczV4ZmliMkNybjRYcDY4eHI5UmlqRFJzeUtBdFdpQ2NtZTQ5WmFzNHFYcw?oc=5",
         "domain": "breakingthenews.net",
         "language": "",
         "tone": 0,
         "seendate": "20260928T103500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions head of camps ‘indoctrinating’ Ukrainian children in North Caucasus",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaE9yY0VrUG9SbW5JVHdMWnpnN1QteU0tYU5XU0pWWHpVMEdnejhrckI0a3JtZEltYVJ1dWtMZWZTR09zcGVIdnZrTTFxcXNweFJLRDJ6WFlzZ0ZSX1A3VTladkppREtWMXI0UW1xc2tMODd4TU13MGVHbmhYdFh0aDBTZTRIdXg1aHlKdWp5N2JPX1prX1VtTGl3Vk05aTNXb1E?oc=5",
+        "domain": "ocmedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T085135Z",
         "source": "GoogleNews"
       },
       {
@@ -120021,7 +119903,7 @@
       {
         "title": "Islamic Emirate Denounces Extension of UN Sanctions Monitoring Mission",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzQUtMM1QzLVZPdUdxSFhNbmRwdlM2M2RSUGdFVXI3MjRGR2swYzA5T1JEWjlGbk1qOVZYU1RPRWVsN2IzTFV1dlhuQ0dmRHRmazU3Q3JB?oc=5",
-        "domain": "tolonews",
+        "domain": "tolonews.com",
         "language": "",
         "tone": 0,
         "seendate": "20260928T214746Z",
@@ -120039,7 +119921,7 @@
       {
         "title": "EU sanctions media figure for Russian manipulation in war narratives",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1hRdjhZMjRmejA2b2JOa3pNZjc5b0g4ZG9aS3hpQmlEczVKVHkwdndvSndGel85amtRWDdXT1A4SDYwOXd2V29wSkhmakV2bTliUkR5YzBWQ3JFLVR5cGtuUjJkQ1VZTXZkWGk1UVFPRWFxeFNMZldjbExBSTZsWDJZcEV6Nnc2am50V3U0YnNUNTVPNldJR1BZMFNWZzdVY0dvM1BGVTZSQnBUcDFjd2IxcWlxSGNU?oc=5",
-        "domain": "brusselstimes.com",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260925T183315Z",
@@ -120057,7 +119939,7 @@
       {
         "title": "EU sanctions target Russia's forced deportation, indoctrination of Ukrainian children",
         "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQaW5jdl9xUUhhY1AxSi15N3JYSnY3X0hETElHazdnT0NEY3B4YU91bmhBVEhvTFA4UEZoZjlJcExKUHp0MTJsSkN5UjZIVUdtQ0VFZkZmeEVpZkktaHZ0T3VDZzFDd2xsMWpIc0F6dFpyOTJVd2E2c1ZhbFQ3TlFOeUFxTVhlT0R2TFZ5YzRqQkM0VTNGOFB6QWZucHdvOXQ3T2VvREw3S054UGk0YkNxSVEwM21IbWlCV0JyRXRjOTR5TkJjbUYxU0l0cGp2dy1JcGdNdkVTcnpZTmcxOE5HMDduS3UwVWhTQTJaRjdBYTBQOWJXWHRqNVVoekF3NXdKaTluUUVRb3R2YkxrUTc3cjl3Ry0tMUE?oc=5",
-        "domain": "brusselstimes.com",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260928T205820Z",
@@ -120073,12 +119955,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Updates Sanctions List on Afghan Officials",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HbGhBdmtfQm5lalFzcFRmbFRTdDMxWnlhSjVFYmMtemdjQ0t2LUd1THhEWkRXcmRDLTVJQ1VscXdIOU1UZWdFbkxRLUZPUXc3am5BZHpn?oc=5",
-        "domain": "tolonews",
+        "title": "84% of Iran-Linked Crypto Wallets Used USDT: Could Tether Face a MiCA-Style Crackdown in the US?",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMXRfcVowakJnVE1DYXRhOUlMTlU5YTUyczdneDdIOVl6azFwTWd1Q1k2YVFENUVhYlB6a1I4MGZ6cmRRVHhvS1JhLTF0VXlkTlFJUS1DdEk1cG96dVloTktwekpubmVaVnpmcGZDMFhrbmpqczhPd0hmNGlfTjRZbUE2dw?oc=5",
+        "domain": "ccn.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260925T045414Z",
+        "seendate": "20260929T091925Z",
         "source": "GoogleNews"
       },
       {
@@ -120093,7 +119975,7 @@
       {
         "title": "Eight non-EU countries back new decision on exemptions to Ukraine war sanctions",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGs4VXpDSllUZ0RZMmZ1N29DNXBxZ2lucHJjUzNBSjNVYWsyWWsteWJjQUgyQmhIaUhNTXMtUlRSaWV5SzYxczhJNXF0WGVGZUhoY2Q2a2Znb1FkeWRaLWJrVVJ0aC1QaGRaaHVlZWZ4VGpFWm4wZU51Skx0ZlFVVk9Pa3J3eUItdUlfYkpLSmRJZFBzQ2thOGtxVVFtUUxGWW9QUlFvS1BsX1RWUWQ1T3V6OGlvMzdxeTRVMVA0WmVWLXVrd1hv?oc=5",
-        "domain": "brusselstimes.com",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260925T183315Z",
@@ -120106,15 +119988,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260928T233954Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Despite Global Reserve Asset Reshuffling Including \"Increased Gold Holdings,\" Dollar-Centric System Remains",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rVmw1YVVuMEt2enFHNFN4Mm5zXzQzc05VLURkZXJLeVZJUzc4WmcwVW5FS2tBZ3l1SmJ3TXhTTFhDRGNMMmVQUDlNNk5qbmdweFJrdnpJRk5XLWMzM3d5dlZPVzlWQ3JPVXVhMjE3WlU0R3l3Y3BCRGtR?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260926T010000Z",
         "source": "GoogleNews"
       },
       {
@@ -120147,7 +120020,7 @@
       {
         "title": "Trump denies reported plan to ease Iran sanctions",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42UkVld1liN1I4UFRwWXpBdmoxUU80X185cEhGYVhobzgxX21BaU5UZ2xlQkZES2N3dExUZmRBUThVaHZlRlgwd0UwZTk4X0ZXSGR4QmRyVHZpcktiQ2NMcDB3c2dyV19BZlBQSXQyTWF0aHhqdkVRemZEaWdGeFk?oc=5",
-        "domain": "timeskuwait",
+        "domain": "timeskuwait.com",
         "language": "",
         "tone": 0,
         "seendate": "20260929T051902Z",
@@ -120156,7 +120029,7 @@
       {
         "title": "EU expands sanctions against those involved in deportation of Ukrainian children",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CNVk5X09zX0pVMlVhUmtLeFlVSmlmR1BhTFVBYUZIS1NuZGUyTjg5TTJPTEFCTER2TGE0YUNtNlhoc2hqWEp0bk83MEJwUXhSQ2VMMmY3ZWFWYnJfU1Nnc2pR0gFnQVVfeXFMUG5RMDZrZHFKNWUxMHhlV1RtbXNoaDY4YU5BYXgxaXNNQ3BkeE5NV3NpUkFDMGUwZlZtTk9UOW9SMWhSZ29ieWlMU2ppX2tnYkYxYlBpTnhYMV9BekFYRnM1ODIySkZzSQ?oc=5",
-        "domain": "en.interfax.com.ua",
+        "domain": "interfax-ukraine",
         "language": "",
         "tone": 0,
         "seendate": "20260928T120952Z",
@@ -120165,7 +120038,7 @@
       {
         "title": "Tether faces Senate scrutiny over Iran-linked USDT",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95WG5LVVA4cWthT0lBRjBlQklwSmRBeFNHOTNlVlpQQTUwSlRGMjZlWWppdTZrTVBFWl95b29vdXduZVNhcmF2NWlCN0FNajZGZGotVTBoS0M3cUdYVW5aRDFKaDlPTzdENFVlOWROMGNpR1NkUkFTZEc4dw?oc=5",
-        "domain": "cryptonews",
+        "domain": "crypto.news",
         "language": "",
         "tone": 0,
         "seendate": "20260929T042900Z",
@@ -120201,7 +120074,7 @@
       {
         "title": "UK reveals 31 new Russia sanctions hitting Putin's war chest and child kidnap network",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNckVyQVVLeUdtTVF3c3poSU5VNWVrZWd1TElCZWJxT1hiY2pOdk8weHBjY0x5RzV4WWNoeWxrcjdQYUlzQVJab28xRi1VZWJGMWxyWkEtS05XOWlJNzJ6TG02M242QV81NVBtZHlOQTRkcENkeVduaWdvMVhnbTNwSG4td1VqUmvSAYwBQVVfeXFMTlJpeTJkaGhuZURoNmJKTU96UTlXRFJ6QW9TbjJDaEprbktjTEZEMy1KaTZldjNrUUVQNFM1YUVmcVk0aTZ4Q0tWQmNnQmJwaDFFak1QNXFHNWs0MXJvN1U0U0k4QzFfaXlVbm1zQ1Y2UkxmWHRISUNBVVFUU1VIVGl3elRmTnltTWw3d3M?oc=5",
-        "domain": "themirror",
+        "domain": "dailymirror",
         "language": "",
         "tone": 0,
         "seendate": "20261001T111400Z",
@@ -120237,7 +120110,7 @@
       {
         "title": "Tether Freezes $550M in USDT Tied to Iran Sanctions Networks, Here’s All",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOU1tc0pOdHMzV0NZT0hXeWVacXpZem9mZDdLS295eDRfMm5DV1NsZ0FEZTREYUpIaFVxeFZDOEkzSlVDLTRTM3ltVnl1Q0MwQTlaSTJwU05mLTZ3YVlhbEVoYWd3enFzNkJ0bVEwZFZVMi1sMmN0NUg1RDFtc0x6a2JTaUtyN3I5V242cHhaRVM2c3pyN1FxbGVEYUxJUlpWM2NCSzdIWG5HLU1MQzYtdzhjaw?oc=5",
-        "domain": "themarketperiodical.com",
+        "domain": "themarketperiodical",
         "language": "",
         "tone": 0,
         "seendate": "20260929T073000Z",
