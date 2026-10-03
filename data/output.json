@@ -1,20 +1,18 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-03T11:36:44.757258+00:00",
+    "generated": "2026-10-03T16:14:41.639229+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
       "OFAC press releases",
       "FRED Brent/WTI"
     ],
-    "source_notes": [
-      "Context news unavailable; retained last accepted snapshot."
-    ],
+    "source_notes": [],
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-03T11:34:58.198158+00:00",
+    "issued_at": "2026-10-03T16:12:55.001380+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 44.5,
@@ -1965,6 +1963,17 @@
       },
       {
         "timestamp": "2026-10-03T11:34:58.198158+00:00",
+        "score": 44.5,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 89.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 33.3,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-03T16:12:55.001380+00:00",
         "score": 44.5,
         "level": "WATCH",
         "components": {
@@ -119832,7 +119841,7 @@
       {
         "title": "Tether Freezes $550 Million in Iran-Linked USDT as Senate Report Raises New Questions",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYU12VFdJbkRPRkctWDJ2QndfZzY0cTVzVDVoc2xILVhFazNZaWw2NnViczl2WWdTdF9aQ2NfaGhzdGJXTnMtMjE2dlBpUmZ0bnB6ZWxOcHZrZ0RiMDI3M1pnQlZqU0xKT1ctSE4wTERsMWZWZXh5aEg1TmlPcUI1RGZPRnlrTm1sZ3pmM0ZZSE1uY29zMWphYnBkM29rSHRxbEdQVExPT18tbUxMa1Z5N3JjeWppVzc4d0tDbXhwRzBURl9TLVo4RA?oc=5",
-        "domain": "bitcoinfoundation",
+        "domain": "bitcoinfoundation.org",
         "language": "",
         "tone": 0,
         "seendate": "20260929T141452Z",
@@ -119857,9 +119866,18 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan has imposed new sanctions against Russia and restrictions on 35 vessels",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04aW84OTVQX1p6dWM3QjJrSElEQlJBQVE1ZEotUG1FUmVrTzVyYTZlTU5JMzVleWg0Q3BWUDBlbUtwbS0zQ2w1T2xHbUtncnl4SDRuOE5aRk1UVWdKU3pCNDRiRTBtVFpsNm1WQkZIQzkxWE9KbUFnNnJxWjk?oc=5",
+        "domain": "ukrmedianews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261003T045136Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU issues sanctions for illegal deportations of Ukrainian children",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR0RQSmo1Ym1UeV9GbE05eXZwQ0FQMW10d2xCVnY1RWhXZVRYem9wSlJqbC1oLXlYQVVBRUktdnlfeVlSYmY5dHk2MktWMUZ3TjlibjlOSU4xRjZhYlQ3UHVQaTJSVmNfRWtHa3pSbzB3NjlKUVM3ZUhlb1Rpc0FhaWhaVHF0cjljcVVFYi1HM0hyOVE3aldjTmYzc29aa3pCdDNhcEYtVQ?oc=5",
-        "domain": "brusselstimes.com",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260928T185304Z",
@@ -119911,6 +119929,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan Responds to Putin's Kuril Islands Visit with Sanctions on Russian \"Shadow Fleet\"",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNb2d5WFJ0cWRhVWNRbHJiQWpXVzhHOVFFbWp2Mkl1NTFLOGZueHEtY0wzaEktVDEtOWhFRlVjYkRXS3hFbjZIYUZmTjR3VUpyZHdBSEdWUEFFZV9FbHUwZTFYS2tLWWRKNVhRS2dfOGYtYTdNaXJR?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261003T031449Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Japan hits Russia 'shadow fleet' in 1st sanctions since Putin trip to disputed isle",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdG00QmU0d3BZQjMxN2ktMDBVQWFzbEpGX2FPcUlMLVoyU1J4NU83T2tBUHRWYlRMVnh3Vjg1YWhOTHdmQmNCdGxNMlk3ZWE5bWFnbFk1YmUzLVNQbVpCZ0hCZ1NhOWphd3F1NHVMVjMxeEFvS3o3R2RsUDROVUpzMkVLLV9oeGpiOFFtQVdJNU5KTHk2QUdsRUUzeHZ4VXQzOVNqb1Vrd0Y0U1ItV1JDRjJvRnpmMUg0MHN2Q0JyUDQ2cklkZHZadjZVOXpPTHJuc0FUcQ?oc=5",
         "domain": "nikkeiasia",
@@ -119920,30 +119947,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Sanctions Russian and North Korean Organisations Over Deportation of Ukrainian Children",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NR3AyZTAyb0s2Unl6anVjWkF6LTNuVDFOX0ZNVmRSYTlsTHdyRE1YSEo5UWtfbTZiNFhQRU5RRVd5Mzhfczc3WEhmNmxhVHB0VjB3SFBhQ1dZb0JEMG8yYUJlVk5UejFjS3V3ZDVZNVdWaG9iSGJWbUpxUQ?oc=5",
-        "domain": "eutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T132655Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan Responds to Putin's Kuril Islands Visit with Sanctions on Russian \"Shadow Fleet\"",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SdlBwc05Jcm1fZ0lHVm0xZzBfbnF1eDBwRjU5ZUg5TE9pX3YzeDRmQVdBS3IyVDdaWk4ySXpJQldfN0RIZVhGdWFyZ2hWQ3M1NW8xQUhPN2J6VzJwRjgtN3Q2MkI?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T031449Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU sanctions target judges behind ban on Russia's only anti-war party",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRjNvMC1Pb1V6TzN5cDYxQUN5d2FPQmFzdEdiMXQ5MnRrWGdIeHlzVF9tZkZuWS1DOWVxc2E2WUszUlczY0d3V0pYd2lxLUlNX0tJT0ZnTlM1V3NCQnRlS0RnMWt1QlR4UGlIb3A2ZVVBSXdkejlpYWZiNktyZDdMOUNaU0hWQmFpU2JjTHEyYlJnWlNlWHp5TmhOcExYeXFoR2VyaWZEUFJJZw?oc=5",
-        "domain": "brusselstimes.com",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260928T213700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU expands sanctions for deportation and Russification of Ukrainian children, adding 10 individuals and 17 entities",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX0VKeDhXbnVkUFRQZFhBaG5obGZPRFRYZXkyaXozYVZZeHNFTmNhOVpxYWFYWmxuamkxSmpGaXJ0cVJBR2h4M3JwRnRZM2ltbUF1bEFsNFJ3NktwaTZ0cVRCOUJ5N0libnNrWDBSSThMeVc3SUpTR0FFRkR1X0R6cEdXM2NsbjJLeENDLUY4UUIzZEgtR3IwZW5kdy04bFk4ODBSZ19R?oc=5",
+        "domain": "yahoo",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T111300Z",
         "source": "GoogleNews"
       },
       {
@@ -119953,6 +119971,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261001T052200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Sanctions Russian and North Korean Organisations Over Deportation of Ukrainian Children",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NR3AyZTAyb0s2Unl6anVjWkF6LTNuVDFOX0ZNVmRSYTlsTHdyRE1YSEo5UWtfbTZiNFhQRU5RRVd5Mzhfczc3WEhmNmxhVHB0VjB3SFBhQ1dZb0JEMG8yYUJlVk5UejFjS3V3ZDVZNVdWaG9iSGJWbUpxUQ?oc=5",
+        "domain": "eutoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T132655Z",
         "source": "GoogleNews"
       },
       {
@@ -119983,6 +120010,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The EU has imposed sanctions on Russian judges for barring the opposition from participating in elections",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWE3T3E2Q1dUOVJOUzk1ZFBmMk83ajZtT1pDc0RsU3N1djR6ZUs1U3pwYXNrenJmMXJnSHAtOWFDNVV3a0dzQkZ4aE1sQmFIV3ZxRW1NYzVjTnJvN3JWMG44cUpNaEJ6dmVWUTJ3Qks5WFZCUGkzVmlDM3pvNV9FREZyZ3pnVTNuNkRNelNsU253Q2pFTXpCQmFLRTUyek1aTFk3cS10dU8xQQ?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T145223Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Tether claims $550 million in Iran freezes, but $35 million slipped past Senate",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMDBVSFRRbkVNdDBEdC1uS1BvUjJhOXJXbXBNUjVDbDZlVXpXV2pGekNHZW1FRVh3T2FsNWpRYWtuMnlUSEJwVGFCci0yOC0wZWM0ZXhKbGFwNVZHVkRWbzcxMzRRM2F4UmJHWnBRMzNMeERHWFdKT3ZybWlTZHc2YnZRM3NuMWhhODRrWkJ4d1VFTWJZX01fWkROaUVsbzE3a1JR?oc=5",
         "domain": "cryptoslate",
@@ -120003,19 +120039,10 @@
       {
         "title": "EU sanctions head of camps ‘indoctrinating’ Ukrainian children in North Caucasus",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaE9yY0VrUG9SbW5JVHdMWnpnN1QteU0tYU5XU0pWWHpVMEdnejhrckI0a3JtZEltYVJ1dWtMZWZTR09zcGVIdnZrTTFxcXNweFJLRDJ6WFlzZ0ZSX1A3VTladkppREtWMXI0UW1xc2tMODd4TU13MGVHbmhYdFh0aDBTZTRIdXg1aHlKdWp5N2JPX1prX1VtTGl3Vk05aTNXb1E?oc=5",
-        "domain": "oc-media.org",
+        "domain": "ocmedia",
         "language": "",
         "tone": 0,
         "seendate": "20260929T085135Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The EU has imposed sanctions on Russian judges for barring the opposition from participating in elections",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWE3T3E2Q1dUOVJOUzk1ZFBmMk83ajZtT1pDc0RsU3N1djR6ZUs1U3pwYXNrenJmMXJnSHAtOWFDNVV3a0dzQkZ4aE1sQmFIV3ZxRW1NYzVjTnJvN3JWMG44cUpNaEJ6dmVWUTJ3Qks5WFZCUGkzVmlDM3pvNV9FREZyZ3pnVTNuNkRNelNsU253Q2pFTXpCQmFLRTUyek1aTFk3cS10dU8xQQ?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T145223Z",
         "source": "GoogleNews"
       },
       {
@@ -120084,7 +120111,7 @@
       {
         "title": "EU sanctions target Russia's forced deportation, indoctrination of Ukrainian children",
         "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQaW5jdl9xUUhhY1AxSi15N3JYSnY3X0hETElHazdnT0NEY3B4YU91bmhBVEhvTFA4UEZoZjlJcExKUHp0MTJsSkN5UjZIVUdtQ0VFZkZmeEVpZkktaHZ0T3VDZzFDd2xsMWpIc0F6dFpyOTJVd2E2c1ZhbFQ3TlFOeUFxTVhlT0R2TFZ5YzRqQkM0VTNGOFB6QWZucHdvOXQ3T2VvREw3S054UGk0YkNxSVEwM21IbWlCV0JyRXRjOTR5TkJjbUYxU0l0cGp2dy1JcGdNdkVTcnpZTmcxOE5HMDduS3UwVWhTQTJaRjdBYTBQOWJXWHRqNVVoekF3NXdKaTluUUVRb3R2YkxrUTc3cjl3Ry0tMUE?oc=5",
-        "domain": "brusselstimes.com",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20260928T205820Z",
@@ -120106,15 +120133,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260928T133622Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tether Faces Senate Scrutiny Over Iran-Linked USDT",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXUC02NzdPWVVJbjVqbllkcTNjcVhWWXJzQm5RSlVfMVVmZHlKdlg4X09MNDd6bGdMYlkwaXB4TXBJLWxFTUY3UTA5eWF6NW5aU2REMlZLVzJmeW5ENzM1OWx0YnNCVGxRbHFVVm5ZNWNZUmd6cUluTUxn?oc=5",
-        "domain": "cryptorank",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260929T065553Z",
         "source": "GoogleNews"
       },
       {
@@ -120163,39 +120181,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Export growth picks up as garment rebounds",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQREJJVEJKanRBQktGMmZ1bzlWNlVhdF90N0RRaHBWbExaMkUwS2RKVG1KT19ka3ZCWkhneWlNenlPN3FBd0hhUmN6QzdoTmo3MVRhTUt4M2VkRUNvNjFSOFBQUnd2RF9tTlVRS21TU2ZMallGaXY5Z0hhc29WT3FrTE4xQ2dLSVZRcnpXcHl2MmdoNVMwMW1lNkszNA?oc=5",
-        "domain": "thedailystar",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T092940Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN warns Libya oil infrastructure attacks could trigger sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUzJ4MFZ1SngzdFc3NnQ5M1d2Sk1ObExGRXJibzdQczNhV203aEtCWGFYcGkwUnhJUkNCR3lWR3l6cGN3d0R1ZzRzTDFHc0lzellDcUNoenRVNnlSMlhGaTFJNXBfQ2pNOFdGejIyaUF6d0kwakg3Nm1zblVWdkVsOF95T3BReDlyT0RCZm93bnVzUHQ2ZGNVWmFpUnpERXFPLUZn?oc=5",
-        "domain": "operativmlumatmrkzi",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260926T220113Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan lifts partial sanctions on Syria, signals support for al-Sharaa government",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMmdLMVFwQlVNR1VmZmJBVlh5bmJFUXdMSGdUVWs5R2ROUUhfMXFaV1l4MTQybzFHbmJlRmNJMHRMdGlabVgxUUE1dl9TRE9GLWpENlk4RHdsVzlKVmszQm1pQkh6ci1LSkVFOUNpdktTaXM3QXhjQ0Y0ckRBaXVzRVk1cEdVd3F4RjlqLXFGZHpLNDRxMHRpeUNDMWNEWUVTSk1wbFlFNVduVkNzeVFZYl9sZjBpZw?oc=5",
-        "domain": "operativmlumatmrkzi",
+        "domain": "operativmm.az",
         "language": "",
         "tone": 0,
         "seendate": "20260929T193757Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions 10 individuals, 17 entities over alleged unlawful deportation of Ukrainian children to Russia",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNM3cxaGw3Y2R0QTJyVTRNcUpndWlCLUtVZzBOWjF0T0pSYW5aa0xPakdRSVQwTW9PbElnVUZaTW5LR3JzTVFzSFhPWWlpWEE1dWZ6ZDBxZEEwYjkzeUxqZjd5OHRRWnBOd2ZiQ0tsZTFHZ2dfSjd1alA1clBWdGQtUUI0TFhtY1NaTk85RGl1cTJEZ2RiTGQ1dTB4TDdiSnlwNTZGZWhvcUxycDBSU244VldjQVNNekNKNDdkNmtqVkotZHhOX0ZTbDJGZEctVTUwWm0wODBFWkxvM0NVakNRV0lVaUNkZw?oc=5",
-        "domain": "bignewsnetwork.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T171900Z",
         "source": "GoogleNews"
       },
       {
@@ -120232,6 +120223,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20260929T032544Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether Freezes $550M in USDT Tied to Iran Sanctions Networks, Here’s All",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOU1tc0pOdHMzV0NZT0hXeWVacXpZem9mZDdLS295eDRfMm5DV1NsZ0FEZTREYUpIaFVxeFZDOEkzSlVDLTRTM3ltVnl1Q0MwQTlaSTJwU05mLTZ3YVlhbEVoYWd3enFzNkJ0bVEwZFZVMi1sMmN0NUg1RDFtc0x6a2JTaUtyN3I5V242cHhaRVM2c3pyN1FxbGVEYUxJUlpWM2NCSzdIWG5HLU1MQzYtdzhjaw?oc=5",
+        "domain": "themarketperiodical",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T073000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran-Linked USDT Faces New Scrutiny From Senate Investigators",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb1dac1VDaVZPbXhTSmNtRnIyX0tuOEpjNFMyb05qTEdHbHBjZXpPVWdNYXVlWk5kWk13dHplVGtQRlJfRkZpWjJYRjVReVNJS3lwa3l1aUJzZERsRWtsTHdKdmlxVXppdTFxbGppMVUxbnBkTUdRbTBDYmIyVXNfSQ?oc=5",
+        "domain": "tronweekly",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T080000Z",
         "source": "GoogleNews"
       }
     ]
