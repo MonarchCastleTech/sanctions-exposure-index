@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-06T18:20:40.533882+00:00",
+    "generated": "2026-10-07T05:52:46.710877+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-06T18:18:54.093995+00:00",
+    "issued_at": "2026-10-07T05:50:59.397998+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 40.0,
-    "level": "WATCH",
+    "score": 32.1,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,16 +24,15 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 73.1,
+        "score": 51.2,
         "releases_considered": 99,
-        "current_7d_designation_releases": 5,
-        "current_7d_all_releases": 5,
-        "prior_7d_designation_releases": 4,
+        "current_7d_designation_releases": 4,
+        "current_7d_all_releases": 4,
+        "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.5,
-        "anomaly_z": 1.69,
+        "baseline_weekly_median": 2.0,
+        "anomaly_z": 0.9,
         "themes": [
-          "counter_narcotics",
           "counter_terrorism",
           "iran"
         ],
@@ -104,25 +103,6 @@
             "relief_terms": [],
             "themes": [
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
-            "url": "https://home.treasury.gov/news/press-releases/sb0640/",
-            "action_title": "Counter Terrorism and Transnational Criminal Organizations Designations; Belarus, Counter Narcotics, and Libya Designations Removals",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260930",
-            "date": "2026-09-30",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "removal"
-            ],
-            "themes": [
-              "counter_narcotics",
-              "counter_terrorism"
             ],
             "designation_signal": true
           }
@@ -217,13 +197,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 37.8,
-        "current_7d_releases": 5,
-        "current_weighted_term_rate": 3.2,
-        "baseline_weeks": 12,
-        "anomaly_z": 1.85,
-        "matched_release_count": 5,
-        "relief_release_count": 2,
+        "score": 36.8,
+        "current_7d_releases": 4,
+        "current_weighted_term_rate": 3.75,
+        "baseline_weeks": 11,
+        "anomaly_z": 1.22,
+        "matched_release_count": 4,
+        "relief_release_count": 1,
         "evidence": [
           {
             "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
@@ -291,25 +271,6 @@
             "relief_terms": [],
             "themes": [
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
-            "url": "https://home.treasury.gov/news/press-releases/sb0640/",
-            "action_title": "Counter Terrorism and Transnational Criminal Organizations Designations; Belarus, Counter Narcotics, and Libya Designations Removals",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20260930",
-            "date": "2026-09-30",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "removal"
-            ],
-            "themes": [
-              "counter_narcotics",
-              "counter_terrorism"
             ],
             "designation_signal": true
           }
@@ -396,14 +357,14 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 73.1,
-        "level": "ELEVATED",
+        "score": 51.2,
+        "level": "WATCH",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       },
       {
         "id": "official_posture_shift",
         "title": "Official coercive-language shift",
-        "score": 37.8,
+        "score": 36.8,
         "level": "WATCH",
         "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
       }
@@ -2014,6 +1975,17 @@
           "official_posture_shift": 37.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-07T05:50:59.397998+00:00",
+        "score": 32.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 51.2,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 36.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2078,8 +2050,8 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "40.0/100",
-      "delta": "WATCH"
+      "value": "32.1/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
@@ -119104,7 +119076,7 @@
       {
         "title": "Japan Adds Crypto Sanctions Evasion Groups to Asset-Freeze List",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlbnc4QV9pZ2dfTEdrTk5HaGZqLWJoMFdPelp4NF9RMHRPTlJrc2VoMXBZUFZVcVhFMDRnNGR6ZkFqdnFLVXZEdEQzdFVYUE5sMXJ1VXJOX3NBWWM?oc=5",
-        "domain": "www.tokenpost.com",
+        "domain": "tokenpost",
         "language": "",
         "tone": 0,
         "seendate": "20261006T081315Z",
@@ -119138,12 +119110,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Treasury Sanctioned a Hamas Crowdfunding Network. Its French Front Should Be Next.",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNHdxMzlZcDY2eVY2YU5CcnIxdlF2RGVJa0lEZHZrRlZMVW8wXzAyQ3NUdklLMVVjRjhHZGRFUWU1RzREV21XMTQ0SG1XWE9yVkpIandPeDNjWElhRkk2UWJfM0ZkVnh4bjk5VkVlZkVSc252blNaeWVWVkQ3blRKSm1KVG5HekxmeS1OY1YwRUFjZ3JwLVhTMy1lTnQ4UEo4SkFoak9DWVhxakpkdjlGakJPbjBwenVQaWJxNXBR?oc=5",
+        "domain": "foundationfordefenseofdemocracies",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261006T202206Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "A Successful Cuba Is Worth More Than a Liquidated Cuba",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc0l3aUxwUHVUZjhDQUV5Nm1HSjNWSmxoZlVscVJuc1JOZW1sOU8zNV9CTWtSdFViYVZNSkNzRTJqemxYdlFtclFpeEJCMHM5Q2NKRnRyTWhYalZSR09odzVIRnRXRWRySkRjTW9jTFBxTVZjMy1lS2lGanJDUmxoSmZ3Tjh2VUJZRUNPdWp5MjNwNHgzYVNETDRnUjNLWFU3eFZfX1pqQ2xMRUlKYjZaempvQmVPcjBsblE?oc=5",
         "domain": "realclearworld",
         "language": "",
         "tone": 0,
         "seendate": "20261005T105330Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "ADA news: Cardano gives token issuers power to freeze, seize and restrict assets",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkRJRTdiUzQ5S0lUUkU4Sk5rVHN5MjRpZ1JtWUlneXgwYUpwRnBlODBxM2tTOTMtNVd5aURvOGFJQVkwRHk2a2FaZGd6eVpEaFBvREFkbHN3Y3JLcDVfcUVpOWVqZTBldTBLaEp4TmJKcXNiTmFjdGdhLWx0X0gzUXFRMWYzVFFzemRxUUpnck50TFI4NWNqNTQtUmpQa3dKdVE5VFBFeUxpSHdUNVcw?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T041133Z",
         "source": "GoogleNews"
       },
       {
@@ -119179,7 +119169,7 @@
         "domain": "cryptonews.net",
         "language": "",
         "tone": 0,
-        "seendate": "20261005T051100Z",
+        "seendate": "20261004T144745Z",
         "source": "GoogleNews"
       },
       {
@@ -119210,15 +119200,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Responds to Putin's Kuril Islands Visit with Sanctions on Russian \"Shadow Fleet\"",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SdlBwc05Jcm1fZ0lHVm0xZzBfbnF1eDBwRjU5ZUg5TE9pX3YzeDRmQVdBS3IyVDdaWk4ySXpJQldfN0RIZVhGdWFyZ2hWQ3M1NW8xQUhPN2J6VzJwRjgtN3Q2MkI?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T031449Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia Slams Japan's New Sanctions, Vows Countermeasures",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR19GZTBjZmp3VUM5SklFdTg5T0ZaTC1DelNoNXF4Y1Bjdl90dERDWjVidFlxRXpaY3dEWlZqZWdvV1c2enF5dC1LMDJEMTVTczVISG5pMHBwUGxHV0NpX191bi1Ib3Z3TVlWTkppOVB5TlJiYXF0Ul8tQS13STJfR2VIMUswVnJ0TFZfMGFiN1BkTWZuQ1U5bmdpbkhHSjlZVUxzRDJycUh2VDB1?oc=5",
         "domain": "nippon.com",
@@ -119243,6 +119224,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261002T182600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Japan Responds to Putin's Kuril Islands Visit with Sanctions on Russian \"Shadow Fleet\"",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SdlBwc05Jcm1fZ0lHVm0xZzBfbnF1eDBwRjU5ZUg5TE9pX3YzeDRmQVdBS3IyVDdaWk4ySXpJQldfN0RIZVhGdWFyZ2hWQ3M1NW8xQUhPN2J6VzJwRjgtN3Q2MkI?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261003T031449Z",
         "source": "GoogleNews"
       },
       {
@@ -119300,6 +119290,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Qualcomm Licenses Huawei Chipmaking Patents Despite US Export Curbs",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbzJKcEotQnNBWGFVT3NpQktCN1Q4SUs1bXh5cWY3N1JwMUljdER1UkgwdnFuVjcyUGYxTHBfSFhBMThFcko1TTE4QjVjbi1OMm5LVDUwenlaSDZNODBJUU01blpHblBUakRVNG9JYnZQVmY3YVlZWl82QklxZGJ0VmNsS2ZnMkRqcGFvSThVOGVUXy1XQW1Hbw?oc=5",
+        "domain": "www.briefasia.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261006T212158Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU halts millions in budget support to Sierra Leone over fugitive Dutch drug lord",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONkphb2JZd1I1cktKU1JQaTV6M1c3eW1WeksxU1JtdkVTUkVZa1BRNzRZRlNRRFE0ZTAzb2gwSTI2dE1qQ0l5azBKSWlIRkRUcENfWVpjOWhmSE9uRE52MnRnYmtuT3ZkLUhjZEVGUVBscVJfLUdRaXRXVlZfWUhrOXMzQTQtSFpaMDVMdTlkWVVjV2xnY1F4Z1d3b0VJWkFhQnZNalB6NFdvT1NzU0dHR0lXTWdIeXM?oc=5",
         "domain": "brusselssignal",
@@ -119318,21 +119317,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Cardano Foundation Launches Programmable Token Standard, Bringing Ledger-Enforced Compliance to Tokenized Assets",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOVVhlSjk0QjNUaFNmZzdkdFdLYXh0VXNGdFBPNjdDQUlkNlBYeV92dUYxemEwYlduSEt5MWFZUGVVNFpyaWdadkdZVWh4M3hHbWZTRDlQZmxWZmxtdkd4QWZNNkNFeWo5YkN5T3dreUFIb2oyOVhoSGFmTWx4OEozeE5TRnJvblVMZ2hhWnZaMmNEZkR3NkoxQi0tU1N0Q3BneU81bHdWTE1pb0lFTFZSMTBQWGhPNWpnTVJHeHJVRl93QU84T19IVzU0Wm9pTHc3eGlYTW9FeVBscE94UXNyWk5hR0lLX3hoMU5pbGhoS1VwZzY1cFRVV0d5UVVxSmc?oc=5",
+        "domain": "financialcontent",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T030000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "GAO Probe Finds HHS, USDA Sold National Security-Sensitive Medical Devices",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQlpVbVlNVmV2WjNVSW5XWUZYeDFPakZIaUN0WEFZLTJvNW9xV1JsU0s0aGEyd3ZpcVVDSUxrYVZaM181S291anF3RFR1NHI3RXlsNGVEaUZxcFdkMFZZOWhiSmhDQUpOMEVvbWszNkhWYThUQm1ycDNzcnNYOEtERllNZExIYkpiUzdrY0pHTEN1RS1wd1ZyYzcwYmdxcWRHMXVTUFZPdW51cTBS?oc=5",
         "domain": "thewashingtonstand",
         "language": "",
         "tone": 0,
         "seendate": "20261005T201805Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Huge blow for Putin's war machine as UK hammers Russia with new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54cGFiMkJVUTNBenV1bV8tb0ZFdllqWTlqWDBiNzdDQjBUaDlYbWdadEJJT2pSbldrelVLdHlxdFlrZUlEeFlDX0dIb0FwSk44UE1HeERWLUNMNGstc1l2RTdGeXNxUTM3cS1iYUp4TWRRT3pEbEtOdW9IT2xQZzQ?oc=5",
-        "domain": "aol.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261001T132320Z",
         "source": "GoogleNews"
       },
       {
@@ -119345,6 +119344,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The World's Gold Producers Are Starting to Hoard Their Own Gold",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWVVLT0tyZ0RHWDhNdjhXSXo0QXlxXzZnT09BZWdDN3ktbGNUenh2WUZWNkN2Uy1pTWNJOEJUbHVFeFZfcV9QZjNRWkRGeTduSG9JMWVYMHk5cEVSWDFuUWVUalFjMVNaN0c0MDROQ1FQbUVsS1FFaG13ZVdwVlFLTHNWcWZxMlRFT1NnczRIWDJ0ZHJycmlMMmF3LTNSVDh6RjdjdVBFc9IBpwFBVV95cUxPWVVLT0tyZ0RHWDhNdjhXSXo0QXlxXzZnT09BZWdDN3ktbGNUenh2WUZWNkN2Uy1pTWNJOEJUbHVFeFZfcV9QZjNRWkRGeTduSG9JMWVYMHk5cEVSWDFuUWVUalFjMVNaN0c0MDROQ1FQbUVsS1FFaG13ZVdwVlFLTHNWcWZxMlRFT1NnczRIWDJ0ZHJycmlMMmF3LTNSVDh6RjdjdVBFcw?oc=5",
+        "domain": "crudeoilpricestodayoilprice.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261006T180000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "APEDA highlights EU’s stricter import controls on Indian food shipments",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMU8tTC1NV0dDX2NnMTdHUDdJbTJnU0pYczhkUU5pQldrT0p3eFFYYWk0MnhpbG5sd08tSi1Ic08yRk9XOWc1bjRwWXRQaTVrV1FvUEVXNTdFM082SE11V1J6QklVNlVZVVZaa2ZtSkc0THFMakdvcGNlRjRKNl9kSU43ajlCRXZsOWkteG9iZHV3QjJTNVYzTXNaMXFrcTUtbGM2RnN5aEw2N2t6VERzMEVNRkNaWjFISlBj?oc=5",
         "domain": "agrospectrumindia",
@@ -119354,12 +119362,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan sanctions Garantex, freezing assets of exchange tied to $96B in crypto transactions",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1uMks2X01XVlAxRzNuV2luQy1QY3ZKVU55aTFLZ05Bb3B3UXgyb3RINFZIRzgtZklnV0dsQldhNGpMdFZiT3p2elJBUEhGS3FYVWtLaGswWUZEQm5MdUFKc3N0a3VmMlRuYUotdnc3c2puT2VZd3pZ?oc=5",
-        "domain": "cryptobriefing",
+        "title": "Those Iranian ships and Sri Lanka’s stand on unilateral sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSVhKUmFDZzdwb0JzTmVIbFVQU0h1UFhMaW40eXJVYW5zNy11YzJ3amZTbmxUSkF6d1c4MFRuNFdxa3hkRVoyeVM5N2xyVGZtbTltaTYtNDVCUDZ5RE1EYXpkUGQxamhHbjJlTmFmdEoyYzM2ODlyblcweUVJU090SW01eF9Ydkxoc2c?oc=5",
+        "domain": "island.lk",
         "language": "",
         "tone": 0,
-        "seendate": "20261004T122346Z",
+        "seendate": "20261004T234723Z",
         "source": "GoogleNews"
       },
       {
@@ -119387,15 +119395,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261006T084225Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Trump Loses Bid to Freeze Sanctions Over His IRS Scheme",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYzNRYTMxbGVRMkVfbWh4T0l1LUltNU9uRlFmSzc4NVhKOHNneTNOcF9kWFFvQ1ZGX2RpblpmT0RQY081cTE2ZjZleW9zNW1aWkFHbUphblFlTHczWlQtcnhJWE1CNk02cGNSY25yZE90bnA2WkNmck5kMmU2OW5BX1BrbmRSSHlSTkNr?oc=5",
-        "domain": "meidastouchnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260930T005100Z",
         "source": "GoogleNews"
       },
       {
@@ -119444,6 +119443,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Cardano Foundation launches token standard for transfer controls on regulated digital assets",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWnBYckFEVTY1Nkt1dGhIcXphdEFETkFxWkZ4UUJDRkxaR3RyeEtUZEN4MlF0ajh5X0NEWS1yZFdZY3FQdmhFUnJmVnQ3T3pVUlpVZjVlb0NOdFpyWEZJMVpXTWh5QVU2Q2g1cW1xYWhGWDNjbXlDeVNMWG1YUXJWRnJqMmRJX3FkaVJxTDhtc2ZoeXBvMTJzVFFJLTZsWnZmZjM0U3Rn?oc=5",
+        "domain": "tradersunion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T044125Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Cardano Foundation launches CIP-0113 token standard for compliance controls",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HSUNiZTUtczBzRzJCTDUtUlZkLXo0aVZOTkx6MmxuNFhEZ0VuOFAwdS1FTEwxS3d1WHV1ZGhqWTVRUVFReDlsaUQybTM2TjFnblJrbXdUVVBNSjBqWi1BZkJ5RHZsNG1oWkNhUkZzSXVmRmt6WFF6YlFn?oc=5",
+        "domain": "cryptobriefing",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T042056Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Japan Adds Garantex To Sanctions List Tied To Ukraine War",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaHZ6cTRYV2ZjcmVqdmduSmVpLWtpeXA1TDMtQm43azFtSEtTcGhzNXYxNGpjbnUtUFkxMlJFR2h3S01iMDN1V29XMFphb001Q1ZjVHV2SU5ySk5xRWN1aUFXNFF5MmR5STc0UUhOWE9MakVzWVRHY3hCZlY5MThNRnlqbmVDQ29QVy1yZmpYVkk?oc=5",
         "domain": "menafn",
@@ -119486,15 +119503,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261004T161400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "SEC Approves 3x Leveraged Bitcoin, Ether and Commodity ETPs for Cboe BZX Listing",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcjFaLXA2VUc1UjBHSF92UmVxUUtjalNhR2dZV0NhbzZianpMLWtveHlOeVNyRnExdE0xUkZScHFxVzZVZVZZUmQ0Vkk0SGtGY200cHJFdnB2bUhTQ0FLMTJadjluMGFBTC1PX0hqNm9vMGp4TWQ4Y2hKNi1TOXFjdHdqZw?oc=5",
-        "domain": "hokanews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261005T051800Z",
         "source": "GoogleNews"
       }
     ]
