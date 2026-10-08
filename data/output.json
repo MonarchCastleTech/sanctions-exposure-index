@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-07T23:03:52.173312+00:00",
+    "generated": "2026-10-08T05:57:34.679412+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-07T23:02:05.640230+00:00",
+    "issued_at": "2026-10-08T05:55:48.264226+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 32.1,
+    "score": 16.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 51.2,
+        "score": 24.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 4,
-        "current_7d_all_releases": 4,
-        "prior_7d_designation_releases": 5,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
+        "prior_7d_designation_releases": 7,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.0,
-        "anomaly_z": 0.9,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": -0.67,
         "themes": [
           "counter_terrorism",
           "iran"
@@ -68,41 +68,6 @@
             "relief_terms": [],
             "themes": [
               "counter_terrorism"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
-            "url": "https://home.treasury.gov/news/press-releases/sb0643/",
-            "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
-            "date": "2026-10-01",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
-            "url": "https://home.treasury.gov/news/press-releases/sb0644/",
-            "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
-            "date": "2026-10-01",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions",
-              "unprecedented"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "iran"
             ],
             "designation_signal": true
           }
@@ -197,12 +162,12 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 36.8,
-        "current_7d_releases": 4,
-        "current_weighted_term_rate": 3.75,
+        "score": 10.8,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 1.5,
         "baseline_weeks": 11,
-        "anomaly_z": 1.22,
-        "matched_release_count": 4,
+        "anomaly_z": -0.13,
+        "matched_release_count": 2,
         "relief_release_count": 1,
         "evidence": [
           {
@@ -236,41 +201,6 @@
             "relief_terms": [],
             "themes": [
               "counter_terrorism"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
-            "url": "https://home.treasury.gov/news/press-releases/sb0643/",
-            "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
-            "date": "2026-10-01",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
-            "url": "https://home.treasury.gov/news/press-releases/sb0644/",
-            "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
-            "date": "2026-10-01",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions",
-              "unprecedented"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "iran"
             ],
             "designation_signal": true
           }
@@ -346,29 +276,11 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [
-        "ofac_action_velocity",
-        "official_posture_shift"
-      ],
+      "official_components": [],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [
-      {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 51.2,
-        "level": "WATCH",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
-      },
-      {
-        "id": "official_posture_shift",
-        "title": "Official coercive-language shift",
-        "score": 36.8,
-        "level": "WATCH",
-        "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
-      }
-    ],
+    "alerts": [],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -2008,6 +1920,17 @@
           "official_posture_shift": 36.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-08T05:55:48.264226+00:00",
+        "score": 16.1,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 10.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2072,7 +1995,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "32.1/100",
+      "value": "16.1/100",
       "delta": "BASELINE"
     },
     {
@@ -119124,11 +119047,11 @@
       },
       {
         "title": "Japan imposes first vessel sanctions on 35 ships linked to Russian oil trade",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHlVNDZCYm54WmNadVlpSHY2bGozYW1lM2pMMkVRSzlKeGRYWUpHZjhUYkJsLVhkaUIxOU5OdU9Gekg4TzRkSk5CcGtPR29Tejg5RWpFNVBwY1VmdHc5N2VPWVRNVG9zOE51TzdnSXZpeFRwckxNQjhqYXo4Z0FiNEM1U1diTlUxWXp1R1g3cV9DOTVyZWfSAaMBQVVfeXFMTzNWSTVUTGNsNU1oRTJCa2pPcU16aXl5ZXMxRTNtdkNpMDlNTm1OTnk3SHZpQnNyckxjcjNwb09fWlpuLTJocEREamlROU9xRklFTWljTEotSG9TdXFtNExieXRvX3NoRTEtUElyUHdtSlJyN2hyQTk2NUlQeFIydVpjSEs0Umpxb04tcnVKalctUE1RQksteThhNE1vaTFDZ1JHdw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM1ZJNVRMY2w1TWhFMkJrak9xTXppeXllczFFM212Q2kwOU1ObU5OeTdIdmlCc3JyTGNyM3BvT19aWm4tMmhwRERqaVE5T3FGSUVNaWNMSi1Ib1N1cW00TGJ5dG9fc2hFMS1QSXJQd21KUnI3aHJBOTY1SVB4UjJ1WmNISzRSanFvTi1ydUpqVy1QTVFCSy15OGE0TW9pMUNnUkd30gGjAUFVX3lxTE8zVkk1VExjbDVNaEUyQmtqT3FNeml5eWVzMUUzbXZDaTA5TU5tTk55N0h2aUJzcnJMY3IzcG9PX1pabi0yaHBERGppUTlPcUZJRU1pY0xKLUhvU3VxbTRMYnl0b19zaEUxLVBJclB3bUpScjdockE5NjVJUHhSMnVaY0hLNFJqcW9OLXJ1SmpXLVBNUUJLLXk4YTRNb2kxQ2dSR3c?oc=5",
         "domain": "bairdmaritime",
         "language": "",
         "tone": 0,
-        "seendate": "20261006T010915Z",
+        "seendate": "20261006T011828Z",
         "source": "GoogleNews"
       },
       {
@@ -119141,12 +119064,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "A Successful Cuba Is Worth More Than a Liquidated Cuba",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc0l3aUxwUHVUZjhDQUV5Nm1HSjNWSmxoZlVscVJuc1JOZW1sOU8zNV9CTWtSdFViYVZNSkNzRTJqemxYdlFtclFpeEJCMHM5Q2NKRnRyTWhYalZSR09odzVIRnRXRWRySkRjTW9jTFBxTVZjMy1lS2lGanJDUmxoSmZ3Tjh2VUJZRUNPdWp5MjNwNHgzYVNETDRnUjNLWFU3eFZfX1pqQ2xMRUlKYjZaempvQmVPcjBsblE?oc=5",
-        "domain": "realclearworld",
+        "title": "Japan sanctions 35 Russia-linked vessels in new crackdown on Moscow",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajZzTGU1bjJ0V09zZENELWVzaUQyMHZQN2tRNGtTZGtxRC1xX0w5eHNqZ1pLRGxNRDZtLXhFUGhHUTNSbjV5Tk1DNkl0OGthOEJSLXVvVEx2TWEzSnFTcU0xX3d2TS0zSFRLcWpuWFZxOFROYmRxVFd0SVRrR1hsMi1kSmRuejgxYlk2aEw5UXNrQ1BCaTlCeWc5ejlhZk9qcEd1a2IwWHF3V002cFhkRGstbjIwRDB0NG5GM3o2UQ?oc=5",
+        "domain": "shippingtelegraph",
         "language": "",
         "tone": 0,
-        "seendate": "20261005T105330Z",
+        "seendate": "20261008T010328Z",
         "source": "GoogleNews"
       },
       {
@@ -119204,12 +119127,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU ambassadors approve largest sanctions list against Russia to date",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdm56b0VnTUZyYV83RjJEdzRpYXN2S0VkTUl3eGVSa0lvdFNSUC1GbHUzUUppX3AxRzY0Z3EtbGlzT0M3bGkySW1XSDEtdUFsZXBxSnhtaEFFZFdySFpQbzdKLWtNajZiUlhNTlNZOXphNnlZRlgtM0JtRmkxd2N0T0k5aS1fOHVPaHYwZzIxUThFUkNpQW9JVFlyRkhQS1HSAZsBQVVfeXFMTkFLT0ZrZmpXNGhmOVVYY3RuMGdYR2ZVbGtOOF9kVW1xN3QzRmJUMG1aS0VsemdCOEU3LU5PNjA1QXFPWkFjNG1hT0tZTWlyUWNQa0ZhT3FmNkwtdXR3akV4b3ljdEt6bDBzaXNBUEtNSWk5cjhpSXgzbE9ZdVZQVFhfMjZZZmtHMUM0RDRtYVFuM1lrWkFEWElhWmc?oc=5",
-        "domain": "thenewvoiceofukraine",
+        "title": "EU Russia sanctions agreement covers 1,646 targets, with final adoption pending",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZXlwWk90bVBwWXd6Um5JcTZIcXFKcXFJUVVGTENtMlVucjhrNy1KaU1FbXR6bm84M2JlNHBkUUVtTXFrS3RZeHY5MnlmT0t2ay1wUWZtVVh2QmttNHZoeXd2emJKalBDRW9lV1JEMHA4SzJNMmhQcHFzQWJSRjJjdE5Yb2l1MXV5TnFHaHZYZWNMSW9xWXJDUndFSmdwMVBEVnN5Y0VpU3RldGF0T3UyQzh0b1Q4SVAyMkkwSVd4VkdnTEF6XzZ1aElXcw?oc=5",
+        "domain": "finchannel",
         "language": "",
         "tone": 0,
-        "seendate": "20261007T121900Z",
+        "seendate": "20261007T204813Z",
         "source": "GoogleNews"
       },
       {
@@ -119240,12 +119163,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Russia sanctions agreement covers 1,646 targets, with final adoption pending",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZXlwWk90bVBwWXd6Um5JcTZIcXFKcXFJUVVGTENtMlVucjhrNy1KaU1FbXR6bm84M2JlNHBkUUVtTXFrS3RZeHY5MnlmT0t2ay1wUWZtVVh2QmttNHZoeXd2emJKalBDRW9lV1JEMHA4SzJNMmhQcHFzQWJSRjJjdE5Yb2l1MXV5TnFHaHZYZWNMSW9xWXJDUndFSmdwMVBEVnN5Y0VpU3RldGF0T3UyQzh0b1Q4SVAyMkkwSVd4VkdnTEF6XzZ1aElXcw?oc=5",
-        "domain": "finchannel",
+        "title": "EU ambassadors approve largest sanctions list against Russia to date",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdm56b0VnTUZyYV83RjJEdzRpYXN2S0VkTUl3eGVSa0lvdFNSUC1GbHUzUUppX3AxRzY0Z3EtbGlzT0M3bGkySW1XSDEtdUFsZXBxSnhtaEFFZFdySFpQbzdKLWtNajZiUlhNTlNZOXphNnlZRlgtM0JtRmkxd2N0T0k5aS1fOHVPaHYwZzIxUThFUkNpQW9JVFlyRkhQS1HSAZsBQVVfeXFMTkFLT0ZrZmpXNGhmOVVYY3RuMGdYR2ZVbGtOOF9kVW1xN3QzRmJUMG1aS0VsemdCOEU3LU5PNjA1QXFPWkFjNG1hT0tZTWlyUWNQa0ZhT3FmNkwtdXR3akV4b3ljdEt6bDBzaXNBUEtNSWk5cjhpSXgzbE9ZdVZQVFhfMjZZZmtHMUM0RDRtYVFuM1lrWkFEWElhWmc?oc=5",
+        "domain": "thenewvoiceofukraine",
         "language": "",
         "tone": 0,
-        "seendate": "20261007T204813Z",
+        "seendate": "20261007T121900Z",
         "source": "GoogleNews"
       },
       {
@@ -119276,6 +119199,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Treasury Sanctions Hamas Financing Network That Moved $2M Through Crypto",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSmN3QWVZMVktY3lzRW1PMGxfb1A3TUdYV2RyUXNHYlpmSDFaS2hYVDdwa092c0NwTlhjeWlxN2p0R2xsVFdmOF9sbC1kTjBqR01zc2Z4YjR3MjFoaFVlOC1RdUgtQ0hLOER0djhoTF94aG9DZVBhS1U2RG1zOF9oRUZYemo0Qk9HNWwwTUVhTWs?oc=5",
+        "domain": "cryptorank",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261003T033738Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Cardano’s Programmable Token Standard Goes Live With Built-In KYC and Freeze Controls",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRWVVREo1MkxnNXZVdHRWc1hCR2NROXIwSUNMUDgwYkdxM2tVY1BMYjMwV2I5VklqUC0yVTBXdUgtMUxEcjJOQWY2N0xZN1pkRlNuM1NGSFd4ZGVDdXRreXdUNHdDS0FGTmxpellkdmRBRk1QalNqX3RrRE1ITHRvWXVUcXcyNEZ5Qk1xTVRIaW9XTjhwWlNVWTF4X2l4UG1HdllBbnRGX3lSRWJSR0hOemY2TQ?oc=5",
         "domain": "unchainedcrypto.com",
@@ -119291,15 +119223,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261001T081540Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Treasury Sanctions A7 Shadow Banking Network Used by Iran",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY1pvSDJNajNjc3MwQlVBR0Zibi1VdnNyOE4ydDZOdHBzUzh1eDRtZjhLZXNEcHdObGlRWXA2eXBLODl1ZHY1ZnpfTTczYWdDM3JyT3N6VTFqY2dBd3ZFYnM2ZW8ycXZ5ZTE3cEM0a1JPejgyLWJFS3IybEFWcTBYNEpXYmVpZlRCT2c?oc=5",
-        "domain": "cryptorank",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T143723Z",
         "source": "GoogleNews"
       },
       {
@@ -119332,7 +119255,7 @@
       {
         "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tX3c0Z3pieFU2M3dqVTJ6Nl9NSmtyQWhjWFhzYlA5d2xjR25iUEtIUXBnbk5WdzVaRUIzTzZqa0JRalVjeTgxYmtpNjBSLVVPaENTelNCMDFWMEdLemZOUlhfZkhGRGNRS1NocVhiMks1OUE2TE0yRDV4NA?oc=5",
-        "domain": "aol.com",
+        "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20261007T122411Z",
@@ -119435,15 +119358,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261007T141418Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan stresses communication with Russia after Putin says 'interested' in cooperation",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaGF0X0gwRTBFQ24tSFpEVk9nUmRUekxGZ0pqYXlsY1l5cmRhcUd3NVpMRF9yU2FIdXZidzJ2a3hXVGpmbkY1b0NZdlF4ZnlVTDg4bm1IMGN2UlQ1NEJaOUNuMWxvZEdZdEx6M1lCa09BellDb2VWR0dOeWFEVGtJbm5XdlpxbDNiMFJGaE94Z0F5ZFBwUjBtLUZ3emRiYU4wbTJaNldfaVkwWTdJQ3fSAb4BQVVfeXFMTzEzZXJrLXlfQV9zTXRnTWNuYmRaVThCeGZzelgxaXJvQ094bFNsQm5HZVdzd2tveVI1TlFXanp3RHpZZkpNSmpuOFdMU2tBQVVQTjZUbGp2dWl4Vm10MnFrcVFYUmt0a3FtckFtQ2hCam5mMldMRHo5QUctZC1DMGV3aGlmWWp6bGQ2a1luMHczMGdnSFRSRGQ1a0dkVlM3R0hPOGxOeVRkTUc5aVVKVGt3Tkd0SFN5V2tuM09Kdw?oc=5",
-        "domain": "usmuslims",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T091642Z",
         "source": "GoogleNews"
       },
       {
