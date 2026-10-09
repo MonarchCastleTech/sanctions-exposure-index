@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-09T13:11:37.486172+00:00",
+    "generated": "2026-10-09T22:36:32.085992+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-09T13:09:51.004001+00:00",
+    "issued_at": "2026-10-09T22:34:45.501254+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 23.5,
+    "score": 26.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,19 +24,36 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 32.0,
-        "releases_considered": 99,
-        "current_7d_designation_releases": 3,
-        "current_7d_all_releases": 3,
+        "score": 42.8,
+        "releases_considered": 98,
+        "current_7d_designation_releases": 4,
+        "current_7d_all_releases": 4,
         "prior_7d_designation_releases": 8,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.5,
-        "anomaly_z": -0.22,
+        "anomaly_z": 0.22,
         "themes": [
           "iran",
           "russia"
         ],
         "evidence": [
+          {
+            "title": "Imposing Sanctions on the International Criminal Court",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-on-the-international-criminal-court-2/",
+            "action_title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Pegasus Worldwide Logistics; International Criminal Court Designation and General Licenses; Burma-related Designation Removal",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261009",
+            "date": "2026-10-09",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [
+              "general license",
+              "removal"
+            ],
+            "themes": [],
+            "designation_signal": true
+          },
           {
             "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
             "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
@@ -101,14 +118,14 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
+        "score": 3.5,
         "current_count": 19416,
         "previous_count": 19416,
-        "added_count": 0,
-        "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-10-07",
-        "sha256": "ee1929c0ced314687c7385bf491daae45d8ce5a5395d4c20908d8c22c405de86",
+        "added_count": 1,
+        "removed_count": 1,
+        "changed": true,
+        "publish_date": "2026-10-08",
+        "sha256": "64be7a7991059f59a2ebb43bc5dcc7e2951e1e27cbed8cbe41b0231b3a161946",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -162,11 +179,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 10017
+            "count": 10018
           },
           {
             "type": "individual",
-            "count": 7498
+            "count": 7497
           },
           {
             "type": "vessel",
@@ -177,22 +194,53 @@
             "count": 342
           }
         ],
-        "added": [],
-        "removed": [],
+        "added": [
+          {
+            "id": "58601",
+            "name": "INTERNATIONAL CRIMINAL COURT",
+            "type": "",
+            "program": "ICC-EO14203"
+          }
+        ],
+        "removed": [
+          {
+            "id": "47354",
+            "name": "HTET, Theint Win",
+            "type": "individual",
+            "program": "BURMA-EO14014"
+          }
+        ],
         "retained": false
       },
       {
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 29.4,
-        "current_7d_releases": 3,
-        "current_weighted_term_rate": 2.667,
+        "score": 22.9,
+        "current_7d_releases": 4,
+        "current_weighted_term_rate": 2.25,
         "baseline_weeks": 10,
-        "anomaly_z": 1.28,
-        "matched_release_count": 3,
-        "relief_release_count": 3,
+        "anomaly_z": 0.84,
+        "matched_release_count": 4,
+        "relief_release_count": 4,
         "evidence": [
+          {
+            "title": "Imposing Sanctions on the International Criminal Court",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-on-the-international-criminal-court-2/",
+            "action_title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Pegasus Worldwide Logistics; International Criminal Court Designation and General Licenses; Burma-related Designation Removal",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261009",
+            "date": "2026-10-09",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [
+              "general license",
+              "removal"
+            ],
+            "themes": [],
+            "designation_signal": true
+          },
           {
             "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
             "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
@@ -322,11 +370,21 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "ofac_action_velocity"
+      ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [],
+    "alerts": [
+      {
+        "id": "ofac_action_velocity",
+        "title": "OFAC action velocity",
+        "score": 42.8,
+        "level": "WATCH",
+        "why": "Official designation-linked releases are elevated against prior weekly activity."
+      }
+    ],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -2021,11 +2079,22 @@
           "official_posture_shift": 29.4,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-09T22:34:45.501254+00:00",
+        "score": 26.4,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 3.5,
+          "official_posture_shift": 22.9,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
       "sdn_entries": 19416,
-      "ofac_releases": 99,
+      "ofac_releases": 98,
       "market_series_available": 2,
       "available_components": 4,
       "retained_components": [
@@ -2085,17 +2154,17 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "23.5/100",
+      "value": "26.4/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,416",
-      "delta": "+0 since accepted snapshot"
+      "delta": "+1 since accepted snapshot"
     },
     {
       "label": "Official Releases",
-      "value": "99",
+      "value": "98",
       "delta": "rolling official baseline"
     },
     {
@@ -2106,8 +2175,8 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-10-07",
-      "sha256": "ee1929c0ced314687c7385bf491daae45d8ce5a5395d4c20908d8c22c405de86",
+      "publish_date": "2026-10-08",
+      "sha256": "64be7a7991059f59a2ebb43bc5dcc7e2951e1e27cbed8cbe41b0231b3a161946",
       "count": 19416,
       "entries": [
         {
@@ -79037,12 +79106,6 @@
           "program": "BURMA-EO14014"
         },
         {
-          "id": "47354",
-          "name": "HTET, Theint Win",
-          "type": "individual",
-          "program": "BURMA-EO14014"
-        },
-        {
           "id": "47355",
           "name": "FY INTERNATIONAL TRADING CO., LIMITED",
           "type": "",
@@ -117839,6 +117902,12 @@
           "program": "NPWMD] [IFSR"
         },
         {
+          "id": "58601",
+          "name": "INTERNATIONAL CRIMINAL COURT",
+          "type": "",
+          "program": "ICC-EO14203"
+        },
+        {
           "id": "58614",
           "name": "EMPRESA DE SERVICIOS TECNICOS DE COMPUTACION COMUNICACIONES Y ELECTRONICA",
           "type": "",
@@ -118612,6 +118681,14 @@
     "ofac_releases": {
       "releases": [
         {
+          "title": "Imposing Sanctions on the International Criminal Court",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-on-the-international-criminal-court-2/",
+          "action_title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Pegasus Worldwide Logistics; International Criminal Court Designation and General Licenses; Burma-related Designation Removal",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261009",
+          "date": "2026-10-09",
+          "source": "OFAC/Treasury"
+        },
+        {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
           "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
           "action_title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
@@ -118700,16 +118777,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
-          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
+          "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0632/",
           "action_title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260917",
           "date": "2026-09-17",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
-          "url": "https://home.treasury.gov/news/press-releases/sb0632/",
+          "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
           "action_title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260917",
           "date": "2026-09-17",
@@ -118788,22 +118865,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
-          "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-          "date": "2026-08-24",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
-          "url": "https://home.treasury.gov/news/press-releases/sb0612/",
-          "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
-          "date": "2026-08-24",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
           "url": "https://home.treasury.gov/news/press-releases/sb0613/",
           "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
@@ -118812,11 +118873,11 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - Ecuadorian Maritime Cocaine Trafficking Network - August 2026",
-          "url": "https://ofac.treasury.gov/media/936726/download?inline",
-          "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
-          "date": "2026-08-20",
+          "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
+          "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
+          "date": "2026-08-24",
           "source": "OFAC/Treasury"
         },
         {
@@ -118828,8 +118889,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-cuban-regime-actors-associated-with-marxist-subversive-networks-and-corrupt-economic-dealings-fact-sheet/",
+          "title": "CHART - Ecuadorian Maritime Cocaine Trafficking Network - August 2026",
+          "url": "https://ofac.treasury.gov/media/936726/download?inline",
           "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
           "date": "2026-08-20",
@@ -118838,6 +118899,14 @@
         {
           "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
           "url": "https://home.treasury.gov/news/press-releases/sb0611",
+          "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
+          "date": "2026-08-20",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-cuban-regime-actors-associated-with-marxist-subversive-networks-and-corrupt-economic-dealings-fact-sheet/",
           "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
           "date": "2026-08-20",
@@ -118932,16 +119001,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
+          "title": "Treasury Targets Global Network Procuring Weapons for Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0564",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260715",
           "date": "2026-07-15",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Targets Global Network Procuring Weapons for Iranian Regime",
-          "url": "https://home.treasury.gov/news/press-releases/sb0564",
+          "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260715",
           "date": "2026-07-15",
@@ -118980,16 +119049,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Terrorist Designation of Chone Killers",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designation-of-chone-killers/",
+          "title": "Treasury Sanctions Brazilian Criminal Network Exploiting U.S. Financial System to Launder Drug Proceeds",
+          "url": "https://home.treasury.gov/news/press-releases/sb0549",
           "action_title": "Counter Narcotics Designations; Counter Terrorism Designations and Designation Update",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260701",
           "date": "2026-07-01",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Brazilian Criminal Network Exploiting U.S. Financial System to Launder Drug Proceeds",
-          "url": "https://home.treasury.gov/news/press-releases/sb0549",
+          "title": "Terrorist Designation of Chone Killers",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designation-of-chone-killers/",
           "action_title": "Counter Narcotics Designations; Counter Terrorism Designations and Designation Update",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260701",
           "date": "2026-07-01",
@@ -119172,16 +119241,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Disrupting Iran's Overseas Military Procurement Networks",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/disrupting-irans-overseas-military-procurement-networks-2/",
+          "title": "Economic Fury Disrupts Networks Supplying Weapons and UAV Components to Iran",
+          "url": "https://home.treasury.gov/news/press-releases/sb0496",
           "action_title": "Non-Proliferation and Iran-related Designations and Designations Updates",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260508_33",
           "date": "2026-05-08",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Disrupts Networks Supplying Weapons and UAV Components to Iran",
-          "url": "https://home.treasury.gov/news/press-releases/sb0496",
+          "title": "Disrupting Iran's Overseas Military Procurement Networks",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/disrupting-irans-overseas-military-procurement-networks-2/",
           "action_title": "Non-Proliferation and Iran-related Designations and Designations Updates",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260508_33",
           "date": "2026-05-08",
@@ -119300,16 +119369,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - Casinos Connected to Cartel del Noreste",
-          "url": "https://ofac.treasury.gov/media/935506/download?inline",
+          "title": "Treasury Sanctions Cartel-Linked Casinos and Key Associates on U.S.-Mexico Border",
+          "url": "https://home.treasury.gov/news/press-releases/sb0440",
           "action_title": "Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260414",
           "date": "2026-04-14",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Cartel-Linked Casinos and Key Associates on U.S.-Mexico Border",
-          "url": "https://home.treasury.gov/news/press-releases/sb0440",
+          "title": "CHART - Casinos Connected to Cartel del Noreste",
+          "url": "https://ofac.treasury.gov/media/935506/download?inline",
           "action_title": "Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260414",
           "date": "2026-04-14",
@@ -119394,14 +119463,6 @@
           "action_url": "https://ofac.treasury.gov/recent-actions/20260224",
           "date": "2026-02-24",
           "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Sanctions Sudanese Paramilitary Commanders for Atrocities in El-Fasher",
-          "url": "https://home.treasury.gov/news/press-releases/sb0399",
-          "action_title": "Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260219",
-          "date": "2026-02-19",
-          "source": "OFAC/Treasury"
         }
       ],
       "pages": 4,
@@ -119418,12 +119479,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU1reExQeVBLaXU4dUY0MXlnLTY4c2x2WkcyYVJmYXdaOGVKMTJ2Yjkya2d4dkx1b0JZallRWTd1TjJqb3Roa1lnUEhiUGJzakF6WUZJOTZfX09aVW9fNVdscnl2eU5LbEFMZ2pVQWZqRzlhcmhSRUJRRVhwbVpOc05TVHBMTTQ5ZWthTlZhZzJ3aXZMNGZmMVlYcnNXVnRVSWZ6bUVWU3cxX1BkR1F5MNIBtgFBVV95cUxPYnNDbmRyQ1pVUUFxMTJCMllfNkpiNFF0enVlbWFKYUQ5V3ptekh4MXpuMHVMcmQ1MW9wdXZIUUd6bzROb0JIRzhJb2t3LTdERFNpX2xoR3NWM29FbTI0NXFLVW14Q050anRqVUZPaDh5OW9NX3ZjbjJ4VElqcjNCMmVkcXdfR21SS0dfRU5xMW1UVkt3NFMwTUFiRW9VaEhUUW9EVXRBVW5SRW1Ea3V4cGJ0c3dGdw?oc=5",
-        "domain": "aljazeera",
+        "title": "Sanctions Compliance Meets Data Privacy: Managing a Structural Tension",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ3VoVmVkcVN4eVZSYmR2YmZVSmlMOEg1bE1OQlFwYkZHdUpOZGRpUDMtN3dNdjZNZFQtdTY1SE5nWVdGVzJSa09OaHUzN01sb291eVlwSmFfSFFfblNVMTdwZUl5YVAyeEh3ZnBmeUxpMkUxQi01NHlnZ2FGRmFvUGZmcFJ5WDFDTDdqQjJQUFptOU5YcTBMWlFPVGUzdXJETkV0aDN6ZmVoSUtVb09jYzhFdVpBLU9Ob1ZQZzlMc2J5RGFJN2kxQTNTYkdHSVM2NmltXzdBbDZwQjdGYTRqOQ?oc=5",
+        "domain": "freshfields",
         "language": "",
         "tone": 0,
-        "seendate": "20261009T005512Z",
+        "seendate": "20261009T111754Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Japan Adds Russian Crypto Exchange Garantex to Asset Freeze List",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWVQenkwSEhQNndfd2xyeXdCTldwdmtkM2otS1J1R3RELVQyWFUwQjRCelh4bDVYWkxYcEN1b29sYVhPSUN2MThvR0p5ay1yeVVwYTl5M3Joc205YmVnNVBOd2hEcDFTVHJxLWl3R1l6QkhqUVpkd3JWaEpCX3Y1TmNGT2g?oc=5",
+        "domain": "cryptorank",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261005T053809Z",
         "source": "GoogleNews"
       },
       {
@@ -119433,15 +119503,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261006T081315Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia Slams Japan's New Sanctions, Vows Countermeasures",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE44MGRlVnBnQ1hJMW5UaGN5OTFUZ3RacXNvbDZGYVRDM0lBZXVDMWN3UVpXOEhfLTVxM2ZiR0lkSWRBR3NtdUROXzhGVnpvNzNjRUpid2ZyRkVESGc0?oc=5",
-        "domain": "nippon.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261006T030100Z",
         "source": "GoogleNews"
       },
       {
@@ -119463,12 +119524,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Adds Russian Crypto Exchange Garantex to Asset Freeze List",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWVQenkwSEhQNndfd2xyeXdCTldwdmtkM2otS1J1R3RELVQyWFUwQjRCelh4bDVYWkxYcEN1b29sYVhPSUN2MThvR0p5ay1yeVVwYTl5M3Joc205YmVnNVBOd2hEcDFTVHJxLWl3R1l6QkhqUVpkd3JWaEpCX3Y1TmNGT2g?oc=5",
-        "domain": "cryptorank",
+        "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU1reExQeVBLaXU4dUY0MXlnLTY4c2x2WkcyYVJmYXdaOGVKMTJ2Yjkya2d4dkx1b0JZallRWTd1TjJqb3Roa1lnUEhiUGJzakF6WUZJOTZfX09aVW9fNVdscnl2eU5LbEFMZ2pVQWZqRzlhcmhSRUJRRVhwbVpOc05TVHBMTTQ5ZWthTlZhZzJ3aXZMNGZmMVlYcnNXVnRVSWZ6bUVWU3cxX1BkR1F5MNIBtgFBVV95cUxPYnNDbmRyQ1pVUUFxMTJCMllfNkpiNFF0enVlbWFKYUQ5V3ptekh4MXpuMHVMcmQ1MW9wdXZIUUd6bzROb0JIRzhJb2t3LTdERFNpX2xoR3NWM29FbTI0NXFLVW14Q050anRqVUZPaDh5OW9NX3ZjbjJ4VElqcjNCMmVkcXdfR21SS0dfRU5xMW1UVkt3NFMwTUFiRW9VaEhUUW9EVXRBVW5SRW1Ea3V4cGJ0c3dGdw?oc=5",
+        "domain": "aljazeera",
         "language": "",
         "tone": 0,
-        "seendate": "20261005T053809Z",
+        "seendate": "20261009T005512Z",
         "source": "GoogleNews"
       },
       {
@@ -119553,6 +119614,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWF9yYmRxUE9qMDM5M0E1OTNxSklpcXh3Vmg1dk0zSmRJR3dTSmJsZ0swcHpaZHlwZ3cxLS1LOU40N1A4WDNLYmlwVG55TTVMM0tfaTVmZVlLWkduQ2J1b01HUlZCZkhwVXA1djVvTHlrUUVrNmlsWjdRZ1JkTEtsTzBBVndZWnUtSXRScFcyazUyajVXNVBsUFNtRjI?oc=5",
+        "domain": "thekyivindependent",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T163456Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Japan adds Garantex to Russia sanctions list",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVnYxVE92NzFkaDRLaDN0WW5wNExmdjRyVDhnd0tDN1lKTWtheFh6UHRPWUxzVWZCZ0hFY3hpaE1WZEtxMXAzeW5IR01oZEY0V29hVmNEX194dm1SM2NRcXBEMXRBa3B3SVVvNnZsS3pIVmxsM1NhdzhpTWMyTXNNQlFZbw?oc=5",
         "domain": "grafa.com",
@@ -119607,24 +119677,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury Sanctions Russia-Linked A7 Network After $17 Billion in Shadow Transfers",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLRU8yc3NyRDNlUUxxQWFkQnNaeW1FRTFnNHhWSTlwVE9QTU00NkxFXzV6aVZzZGx3WHlYQzBpZlNnVWc3VFFuS0JHbGxNOWVNcUQ1Z2V6dXJsQWhCY1N2eFNySGw2S1QtdnVGMGZZMllRcExaMVE?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T182600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Russia Sanctions Evasion",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOTItMGNFSUplMjlJMUxSTDdZX3EtWmxGbjhMUENNX0xvRDFyTElWajBJVHVqZEVWMHpjamV6dGpVV0IxcVJKMzY3djg3R1RGTFJEWmRfVGhrelJYaTdqQW9XNU5DSlZrN1FEMUNid2hIcVpqN1lwX2Qzb2JnQlhqbUp4UVU?oc=5",
-        "domain": "cryptorank",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T053849Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Cardano News: CIP-0113 Brings Compliance Rules to ADA Tokens",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcHRjRUxfNHhFWUczTG1GSFNKNnlsdEJuQS1tT2NtY3AtY3gtTEVaLVZaZUp5X2xaaHhMdFZNZTRBQnIyanNSVXZUY2VPSC11VS1qNGMxSllXWUVvWGIzelJ0cUxITC1YWEpabnl6Zjl6UjA4dnh3T3ZrRUxCZHlZN29zdDBYWmJKU0JUN3A0WTlCTFJGMmZXNE1EdV9lWk1lb3BjMkg0Q2hMcDhZTWdqUDFPZ0g0dUdnXzlKeg?oc=5",
         "domain": "tradingview",
@@ -119643,12 +119695,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Cardano Tokens Can Now Enforce Their Own Compliance Rules on Mainnet",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeDlSODNkVUlqbUtQZlhCeEVKRXFCTUVjMlU0Vkxud0JIVWJGQVV3V0hxY0FVRGRVdGZwNVZtV21QdlV3Umo2QkJuQkJGTHpYQmJOX2FJWl9xY3dheFBhbUM5Ti1QSjk2S0xNalAyaHhLSnFtQXFKMEYwUm01YVlGQ1hNbGVVbTBoV01RenN1RlkxUWY3QVpSbW9INEQ?oc=5",
-        "domain": "startupfortune",
+        "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261007T124442Z",
+        "seendate": "20261009T174845Z",
         "source": "GoogleNews"
       },
       {
@@ -119661,12 +119713,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU approves sanctions against over 1 646 people and organizations linked to Russian war",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpDbTFiQlZSQlBVQ1g2eFlNdjlZQ3NfRXJrVHdqNkhJdGpadmczTGNUVXJSbjVseC1tbXRSUmdieEM4eXE3SjNxc2Rid3ZneDZRbmZYTXN3YThIc2FsNTlZXzhwcGtma1k1VkY1VXJpVGdXT3p2cWlZQzQwcm9oYWhPd1JDcm1VYkVlNkU1U012RERubTlOTDFZckpVXzh0MDJ2a0d3N2xVVnBUWmJUSHNFYS16UkVtMEdGM1kyZVTSAcABQVVfeXFMT3p6Q20xYkJWUkJQVUNYNnhZTXY5WUNzX0Vya1R3ajZISXRqWnZnM0xjVFVyUm41bHgtbW10UlJnYnhDOHlxN0ozcXNkYnd2Z3g2UW5mWE1zd2E4SHNhbDU5WV84cHBrZmtZNVZGNVVyaVRnV096dnFpWUM0MHJvaGFoT3dSQ3JtVWJFZTZFNVNNdkREbm05TkwxWXJKVV84dDAydmtHdzdsVVZwVFpiVEhzRWEtelJFbTBHRjNZMmVU?oc=5",
-        "domain": "babel.ua",
+        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Russia Sanctions Evasion",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ybnVUa3dFOWctTHd6dmxmWVRMMjBMc1RhVk1raWdxSFpIZmVsc0o5aU9sSzBoay1PdTN6b1Nwd0Nla1VESnlNSFF2NHFnUnB1VE8yUy1MajEwUXoxQlMxclV1UGo?oc=5",
+        "domain": "binance",
         "language": "",
         "tone": 0,
-        "seendate": "20261007T143728Z",
+        "seendate": "20261009T042304Z",
         "source": "GoogleNews"
       },
       {
@@ -119715,30 +119767,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tX3c0Z3pieFU2M3dqVTJ6Nl9NSmtyQWhjWFhzYlA5d2xjR25iUEtIUXBnbk5WdzVaRUIzTzZqa0JRalVjeTgxYmtpNjBSLVVPaENTelNCMDFWMEdLemZOUlhfZkhGRGNRS1NocVhiMks1OUE2TE0yRDV4NA?oc=5",
-        "domain": "aol.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T122411Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU prolongs individual sanctions over Russian destabilizing actions abroad",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTJTT2tkb1loRXJiZ0FiMG5iVjFReEZxaVBmUHZMMEhsbVh4X18yQWhIN0xUVHhuNmlKVFFFYnRzZFhfRmY3QTNjTUQ3dWZCS2hoYndWdWJJQ1NFa2VUSXdGamxwenNTX0RDa1Y4MExqbWV4WlNJV0dMVTRTa043RWp0V1BBQnN3TTFOMTJLVDRSeWZfTmk3QTRPUzdOb1JRNWt4ONIBqgFBVV95cUxQbVJRYUpNcUNhNE5abDUzTThZWFRyUkFhektDVVdTMEhCZmlIZklZWW5OWEhTWHZLQ2pEUHo1TUU0alkzLWNaNXB0S2M4eFhyeFZidmMxTEJQVmVienR4bFNodFVLTDdZZkNBVHdWb1JSWHllRnNVQ0NUMTdFaUdsaW0xRldBbnVvYTd3SW5uQ1JyZjJmeXF0QlZNTWlVU0NZT2RHcjRoWnFfQQ?oc=5",
         "domain": "report.az",
         "language": "",
         "tone": 0,
         "seendate": "20261008T120744Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU prepares largest expansion of sanctions against Russia",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRi1XTldrcGx6cDNibndZbFpWVVQxaS00ZDk4bWg2YWlMSllGeko3ZlcwdUEtY1pwQUNvV2J0blhPdlBxeV9OTFJLaDM1eTlCVE1zMzR5MmR0WE9lZVphUnFGdHB1RmduQU56V3BJMXJUTlJzdUFPTjItWHVvTXMyZ2J3?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T141910Z",
         "source": "GoogleNews"
       },
       {
@@ -119757,6 +119791,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261008T130600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9pTzFhcVAwd1NxalR2LTJfMU03VkZkYlpQcDROU3dTMXFGNXhnMlRCSG9oVFZHcHhCUFowTDFmVThvemRZNkE?oc=5",
+        "domain": "mamul.am",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T151301Z",
         "source": "GoogleNews"
       },
       {
@@ -119787,21 +119830,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US Imposes Asset Freezes and Visa Bans on International Criminal Court Officials",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRzN1VU9MYUdpdUJXTlJFcFlPVGN1S3dZdVBhN0NDa0g4bFFUangtZW5EUjFFSWR6b2prYlJrejN2Zzd4dmFScGszQmZlUVhCUjhrTm5iekFSODFlVFdwU0FETVpzOVZncTlTSWd0SkhSVjNwYUtJNm5NZnhKYkktZUJ3WDNIUU9LdVdxV2MyVEpWMEI2cElDQm1pTGs4a005MTFZUEVaeTRRYmc5MThYWUM1YUpTVHg2WEpzdWU4alM2Sy13dVg0dTdROVTSAcwBQVVfeXFMTUczdVVPTGFHaXVCV05SRXBZT1RjdUt3WXVQYTdDQ2tIOGxRVGp4LWVuRFIxRUlkem9qa2JSa3ozdmc3eHZhUnBrM0JmZVFYQlI4a05uYnpBUjgxZVRXcFNBRE1aczlWZ3E5U0lndEpIUlYzcGFLSTZuTWZ4SmJJLWVCd1gzSFFPS3VXcVdjMlRKVjBCNnBJQ0JtaUxrOGtNOTExWVBFWnk0UWJnOTE4WFlDNWFKU1R4NlhKc3VlOGpTNkstd3VYNHU3UTlU?oc=5",
+        "domain": "inkorr",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T162441Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Cardano built a freeze button for stablecoins it doesn’t have yet",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wYkwwZUdRdnpodkxUa05sZ1hscy03MVk0WlU1c2kwODQxMXlSMm0wcllqQkFjTVRhREJwWXlDdFdxb3JTOWJDMWVJVS1zWXZfWlRUQ1JOLXlJUlYwV29uQ1BsUGdsb1JySWhpQWlzbkd1amp0Nktn?oc=5",
         "domain": "cryptopolitan",
         "language": "",
         "tone": 0,
         "seendate": "20261007T145520Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan expands Russia sanctions to include Garantex and oil tanker fleet",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWJpcktKY2UyeG1ZRS1OYTJ0eDJQWTE5UV9DaVp1ZGZoZnpRQjJlRFhfanhjU1pZelRoQnM0a1V2eGJGT2pIeEdXdE5nb0p4dkJjaWRhSVpfY1JSYkV2VlA1WWFDbEtSQzVKa3NubndRYXFJVFZJMDJSemxfQVlYNzhhOHlwTmwtWldaZ3IxcWpjYi1uTFFkcDhVdnVXcmNfb08tQ2pPODBZR1FTM3ltUFc5cw?oc=5",
-        "domain": "tradersunion",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T124521Z",
         "source": "GoogleNews"
       },
       {
@@ -119823,15 +119866,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pWGhGNmowMlJzeE54OTFqTVNGbS00MEFqSl9ZSU9jbDQzQUI4ZW5LUnRmSURMLXQ5RmdOLTdTUlhmWXRtR1pNZ1ZHMTVhd1QwRWN3a1Flc2xoOWF4VHVMZXB2LXNVcjV2b0Z6NDI5SjhxTGZySDJn?oc=5",
-        "domain": "aol.ca",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T122411Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Cardano Lets Token Issuers Freeze and Seize Regulated Assets",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVXhPVDVJOUVaZ1hjOEZWM08xbHF6R19vS1FHVE40eks5aGpHRVhnZmR3c09zZl90c1FEdnhLWHgzajVsdE12NnYtSjI2bHp4bllYSngtOG05MFRxYUJxQVlaUzVidllJSS1fblFici1OTFY1dFZGZ0tjWkVMVHZzdENHeGVVU3g5Q0tMR0NQTW9oRlVvTVZ4X24zN1hoQmfSAawBQVVfeXFMT19GdGxVcTB4dUtZalpDUWZ5NUc3c2tsWGFBYkQ5WDFYWmxGRnJHcllIbEkwWEJvZWdzUE1tdUE2N3laNDRrQkVPV2xvbG1OcmVPRGFEUENHWk0xcVhuYWNSclVYajZtbm1lSmxSWUVUQzNGTFd3aW55ZVlmcHdZM0lyU1VUMFMtVWFIdDBqVmJIV1VmbVlhNFYyUEE3V21sanJjR1VhTmZVZTBFTA?oc=5",
         "domain": "analyticsinsight",
@@ -119850,6 +119884,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "United States Imposes Sanctions on the International Criminal Court as Ukraine Joins in 2025",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdXNSUlloN2s1M1FfcVBKaG82OHZPMS1vOTJIZFUxTk9zNzFMSnVwYXpwZTRINlJPUDlQQUdheVIwQkRUdVBiM3dQYnh2N2RRQnNHa0RrZDE4c01JMUNhOXhwZEMxdXVzUzRDb2VLR054NEVvQ2paVXFrMEI5LVNzWW00eUw2d1I2X1FuT2lvb0dzWFRsMDN5MmNSTnE3c2xENk0tM0pqRnBVVG5WYk9lSS1VTlEteVlrNDlNeHhIMG40RThqSDZqcGtpd2YwZ9IBzgFBVV95cUxQdXNSUlloN2s1M1FfcVBKaG82OHZPMS1vOTJIZFUxTk9zNzFMSnVwYXpwZTRINlJPUDlQQUdheVIwQkRUdVBiM3dQYnh2N2RRQnNHa0RrZDE4c01JMUNhOXhwZEMxdXVzUzRDb2VLR054NEVvQ2paVXFrMEI5LVNzWW00eUw2d1I2X1FuT2lvb0dzWFRsMDN5MmNSTnE3c2xENk0tM0pqRnBVVG5WYk9lSS1VTlEteVlrNDlNeHhIMG40RThqSDZqcGtpd2YwZw?oc=5",
+        "domain": "inkorr",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T170841Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Sanctioned tycoon Tagwirei handed investment portfolio as Mnangagwa splits finance ministry",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajI4ZWVWc1NnMlFaVk1nU1ZXVlk2Z3hZbTJDem8zYXZLNVBLZHRNSFkzYlRINVFoY2Q2TFAzT3Btb3FQMlExZmFucVdIeElNalFPUDVmTUxPQ21BOHZYZk5OdFhjUGRqa09jUjAzeHQzeW53aUhIYlBJV19mZVk2SWRQQmNvSGRLMTRLNkxVS2NQYXFWN05hcHV5Z0Zjdld6U3E3TXRWeF9qa2t3M2FkNEZxY3ZscUtQN2RmNUlGS2d2QjF4emlqLQ?oc=5",
         "domain": "thezimbabwean",
@@ -119857,10 +119900,36 @@
         "tone": 0,
         "seendate": "20261009T043100Z",
         "source": "GoogleNews"
+      },
+      {
+        "title": "Japan Adds Crypto Exchange Garantex to Russia Sanctions Asset Freeze List",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUzFoTnpWWmRPZDU2blM1YW4wTUZZQXZuaTNseldVNDB0YlZlTWxudHY4bTRMRnkwaktKRXAtQ1JHVTlFOUpvRzhKT3UyQktoczlGNjBTb09yTkNhUllOQXE1eXRHUnpHcW96SlNZay1xTFZVSlUxWnprNldERXgyc1Vn?oc=5",
+        "domain": "hokanews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261005T051000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Japan Adds Garantex to Asset Freeze List Under Expanded Russia Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jeGFnaGxEZmxVbHVPRm1LSXhRNXY3UUJzNGNIc2traXpEZDNxb0k5OF9YOUstOFVhV1c5Nm90Skg3VjhQOWVnemlTbGJWX2JiLWxOaFhFUmFWUDZlb2J6RGRJSFdVMlhjbTBCWjlRV250Q2ZFeXZoTW9HNnZKQQ?oc=5",
+        "domain": "hokanews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T161400Z",
+        "source": "GoogleNews"
       }
     ]
   },
   "events": [
+    {
+      "title": "Imposing Sanctions on the International Criminal Court",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-on-the-international-criminal-court-2/",
+      "action_title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Pegasus Worldwide Logistics; International Criminal Court Designation and General Licenses; Burma-related Designation Removal",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261009",
+      "date": "2026-10-09",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
       "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
@@ -119950,16 +120019,16 @@
       "source": "OFAC/Treasury"
     },
     {
-      "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
-      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
+      "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
+      "url": "https://home.treasury.gov/news/press-releases/sb0632/",
       "action_title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260917",
       "date": "2026-09-17",
       "source": "OFAC/Treasury"
     },
     {
-      "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
-      "url": "https://home.treasury.gov/news/press-releases/sb0632/",
+      "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
       "action_title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260917",
       "date": "2026-09-17",
@@ -119971,14 +120040,6 @@
       "action_title": "Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260914",
       "date": "2026-09-14",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
-      "url": "https://home.treasury.gov/news/press-releases/sb0626/",
-      "action_title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260910",
-      "date": "2026-09-10",
       "source": "OFAC/Treasury"
     }
   ],
