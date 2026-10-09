@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-08T23:19:46.502556+00:00",
+    "generated": "2026-10-09T06:04:05.731256+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-08T23:17:59.764636+00:00",
+    "issued_at": "2026-10-09T06:02:19.163151+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 48.6,
-    "level": "WATCH",
+    "score": 23.5,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,16 +24,15 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 46.8,
+        "score": 32.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 4,
-        "current_7d_all_releases": 4,
-        "prior_7d_designation_releases": 7,
+        "current_7d_designation_releases": 3,
+        "current_7d_all_releases": 3,
+        "prior_7d_designation_releases": 8,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.5,
-        "anomaly_z": 0.22,
+        "anomaly_z": -0.22,
         "themes": [
-          "counter_terrorism",
           "iran",
           "russia"
         ],
@@ -94,22 +93,6 @@
               "iran"
             ],
             "designation_signal": true
-          },
-          {
-            "title": "Treasury Dismantles Major Hamas Financing Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0647/",
-            "action_title": "Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261002",
-            "date": "2026-10-02",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "dismantles"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism"
-            ],
-            "designation_signal": true
           }
         ],
         "retained": false
@@ -118,12 +101,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 100.0,
+        "score": 0.0,
         "current_count": 19416,
-        "previous_count": 19363,
-        "added_count": 55,
-        "removed_count": 2,
-        "changed": true,
+        "previous_count": 19416,
+        "added_count": 0,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-10-07",
         "sha256": "ee1929c0ced314687c7385bf491daae45d8ce5a5395d4c20908d8c22c405de86",
         "top_programs": [
@@ -194,154 +177,20 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58460",
-            "name": "PARITOSH SHIPPING INC.",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58461",
-            "name": "ORNELLA SHIPPING INC.",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58466",
-            "name": "HECHUANG INTERNATIONAL GROUP LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58467",
-            "name": "JLS DRAGON COMPANY LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58468",
-            "name": "KANHA SHIPPING INC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58469",
-            "name": "SHUNHANG SHIP MANAGEMENT LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58470",
-            "name": "SAINT ABUNDANT INTERNATIONAL CO LTD",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58471",
-            "name": "TERRA NAV SHIPPING LTD",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58473",
-            "name": "G SPRING",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58474",
-            "name": "PARITOSH",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58475",
-            "name": "KANHA",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58476",
-            "name": "KING CHAIN",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58477",
-            "name": "POLAR",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58478",
-            "name": "BITU",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58479",
-            "name": "STARWAY",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58480",
-            "name": "GAS LUCKY",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58715",
-            "name": "YASHAR",
-            "type": "vessel",
-            "program": "IRAN-EO13846"
-          },
-          {
-            "id": "58716",
-            "name": "HORIZON SHIP MANAGEMENT FZE",
-            "type": "",
-            "program": "IRAN-EO13846"
-          },
-          {
-            "id": "58717",
-            "name": "ARABIANPRO MATERIALS FZCO",
-            "type": "",
-            "program": "IRAN-EO13846"
-          },
-          {
-            "id": "58718",
-            "name": "SSPL SOLUTIONS PRIVATE LIMITED",
-            "type": "",
-            "program": "IRAN-EO13846"
-          }
-        ],
-        "removed": [
-          {
-            "id": "54931",
-            "name": "HAKUNA MATATA",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "54934",
-            "name": "PINOCCHIO",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          }
-        ],
+        "added": [],
+        "removed": [],
         "retained": false
       },
       {
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 28.8,
-        "current_7d_releases": 4,
-        "current_weighted_term_rate": 2.5,
-        "baseline_weeks": 11,
-        "anomaly_z": 1.35,
-        "matched_release_count": 4,
+        "score": 29.4,
+        "current_7d_releases": 3,
+        "current_weighted_term_rate": 2.667,
+        "baseline_weeks": 10,
+        "anomaly_z": 1.28,
+        "matched_release_count": 3,
         "relief_release_count": 3,
         "evidence": [
           {
@@ -398,22 +247,6 @@
             ],
             "themes": [
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Dismantles Major Hamas Financing Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0647/",
-            "action_title": "Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261002",
-            "date": "2026-10-02",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "dismantles"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism"
             ],
             "designation_signal": true
           }
@@ -489,29 +322,11 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [
-        "ofac_action_velocity",
-        "sdn_delta_breadth"
-      ],
+      "official_components": [],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 100.0,
-        "level": "SEVERE",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
-      },
-      {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 46.8,
-        "level": "WATCH",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
-      }
-    ],
+    "alerts": [],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -2184,6 +1999,17 @@
           "official_posture_shift": 28.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-09T06:02:19.163151+00:00",
+        "score": 23.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 32.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.4,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2248,13 +2074,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "48.6/100",
-      "delta": "WATCH"
+      "value": "23.5/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,416",
-      "delta": "+55 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -119590,6 +119416,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU1reExQeVBLaXU4dUY0MXlnLTY4c2x2WkcyYVJmYXdaOGVKMTJ2Yjkya2d4dkx1b0JZallRWTd1TjJqb3Roa1lnUEhiUGJzakF6WUZJOTZfX09aVW9fNVdscnl2eU5LbEFMZ2pVQWZqRzlhcmhSRUJRRVhwbVpOc05TVHBMTTQ5ZWthTlZhZzJ3aXZMNGZmMVlYcnNXVnRVSWZ6bUVWU3cxX1BkR1F5MNIBtgFBVV95cUxPYnNDbmRyQ1pVUUFxMTJCMllfNkpiNFF0enVlbWFKYUQ5V3ptekh4MXpuMHVMcmQ1MW9wdXZIUUd6bzROb0JIRzhJb2t3LTdERFNpX2xoR3NWM29FbTI0NXFLVW14Q050anRqVUZPaDh5OW9NX3ZjbjJ4VElqcjNCMmVkcXdfR21SS0dfRU5xMW1UVkt3NFMwTUFiRW9VaEhUUW9EVXRBVW5SRW1Ea3V4cGJ0c3dGdw?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T005512Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Japan Adds Crypto Sanctions Evasion Groups to Asset-Freeze List",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlbnc4QV9pZ2dfTEdrTk5HaGZqLWJoMFdPelp4NF9RMHRPTlJrc2VoMXBZUFZVcVhFMDRnNGR6ZkFqdnFLVXZEdEQzdFVYUE5sMXJ1VXJOX3NBWWM?oc=5",
         "domain": "tokenpost",
@@ -119635,15 +119470,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK lifts sanctions on former Syrian Economy Minister Humam al-Jazairi",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHBqWGJqZFAtMGhKa09sVHZTUERlSnR4cS04RW1ES2N6RUtkQ3MtM18zMlpleVNPcC1WdGJiOUlIWURZTnFfTVZETUpTWWhlVkU2anc5alBNTWVSSUc3aDVheVdaaTFhVUFDNzRtdnY5M1JWdGdqYWhlak52X0lxcmNsRHd0VjhnODBTb3pCQ1RfdHMwZktMa3ZB?oc=5",
-        "domain": "anha",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T074521Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan sanctions 35 Russia-linked vessels in new crackdown on Moscow",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajZzTGU1bjJ0V09zZENELWVzaUQyMHZQN2tRNGtTZGtxRC1xX0w5eHNqZ1pLRGxNRDZtLXhFUGhHUTNSbjV5Tk1DNkl0OGthOEJSLXVvVEx2TWEzSnFTcU0xX3d2TS0zSFRLcWpuWFZxOFROYmRxVFd0SVRrR1hsMi1kSmRuejgxYlk2aEw5UXNrQ1BCaTlCeWc5ejlhZk9qcEd1a2IwWHF3V002cFhkRGstbjIwRDB0NG5GM3o2UQ?oc=5",
         "domain": "shippingtelegraph",
@@ -119662,12 +119488,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends sanctions against Russia over hybrid activities by one year",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDJCelRMM0ZQWUtsc1pCcG93eVVrTlZRT0tNaDFVTlNWOENYaXZFaWJGVmNsd19vM2tINnRwazhRd3M0Vm15MmxxOUx1Yl8xdWtNYXp1R2RsOHljUlJNcWlOalZfR2VXQlc5Mkh3SVhRMnd4S01OS3pLbURMZHVKRWtxRXNEVDRXTlVrUklyVlhMVjVlbU5xLWxGaG1ma0dnejNITjVWS3pzLTg?oc=5",
-        "domain": "eunews",
+        "title": "UK lifts sanctions on former Syrian Economy Minister Humam al-Jazairi",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHBqWGJqZFAtMGhKa09sVHZTUERlSnR4cS04RW1ES2N6RUtkQ3MtM18zMlpleVNPcC1WdGJiOUlIWURZTnFfTVZETUpTWWhlVkU2anc5alBNTWVSSUc3aDVheVdaaTFhVUFDNzRtdnY5M1JWdGdqYWhlak52X0lxcmNsRHd0VjhnODBTb3pCQ1RfdHMwZktMa3ZB?oc=5",
+        "domain": "anha",
         "language": "",
         "tone": 0,
-        "seendate": "20261008T104632Z",
+        "seendate": "20261007T074521Z",
         "source": "GoogleNews"
       },
       {
@@ -119689,21 +119515,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan adds Garantex to list of Russia sanctions over Ukraine war",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZk1KSXdKYmpBVXR0OGhKTzJBRkt0aHlERlphSGFhYnRPd2RnYldPVThjN2hLYVVscmk2Y2FtUnB2WUFNLWJFY3o1QUM0N1VaYlZDcGVWMHJvZWN4VjU4VU5PRnRoNk5MeV9NdlVZY3Y2WU1kX1ZHVWNPOGxNMEZNdjYwcW5ZTEcyT0wwbDhzQkFRcTl1ZVdDQTVYVWVCQkNJbGhXUjh4WTB1LWJlSUlPZDRaQk1YZG1DWTBWeGs1bjJrXzJ4d0Jn?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T124023Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The EU extended sanctions against Russia for hybrid attacks for another year",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3Z4dG41T0VHV20yWVFEcVZpUXVteGNrU3VpOG5VUDFMS1NwSElwY3pHNVNNbzFsZkUyVi1yRnVqaGpVVnlJa19aTWxOemFwcEI5d2ZMaHhUa2NRQkQ5ckY2VUJZbkdNT295R0NRVzNvNEdjdXU4am9TeU40MkhSQU1xbFhSZkRLeUFldExtQWFOdHBYWnF1eEZXQUFUbDFS0gGfAUFVX3lxTFBjWkszQUpJdkZ5anQzdkI0Y0NsV09DamJEQjloMlplZW1mQUNRQi14cVhMTEVGYU85ZTBUZ3BzTmY5LVBsdlhvcmZvVkg4LXZTUzFGUkpGbzNwcm5wTmRRQnNfLUlQeVFPYTJ5Zm9NazFDRHYyaktPSnl6Y29kbjI1TGxPRzNYVEtSQnhldEY0Mnc2OW54MnJfbTdqajM5aw?oc=5",
         "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20261008T123609Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan adds Garantex to list of Russia sanctions over Ukraine war",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PQXBNRkh4TVFvb3JBdUlQcWxfdG5MbmlsU3BmSTE0dEYwVTNHZjhSeXR0OXZxc2FCYmhEYnprTVVVTjlJTUhhR3JXZEk5TkVucXgtRFM1VE41UQ?oc=5",
-        "domain": "cryptonews.net",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T144745Z",
         "source": "GoogleNews"
       },
       {
@@ -119722,6 +119548,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261006T124938Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Kyrgyzstan Winds Down Gold-Backed USDKG After UK Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXJianZ0dVU2X01QR3AxSVV4TEpGalcyWWVKY2JJWEFGd1FrWWplTE80UDJmWVBQYlhvQ1c2WmRPREtPMk9JUDZ4NnVOcWwtTVFfZnRQRjloXzdxd0RLZEt4MWdEY3VDUDlYT3RPNWVaZGVXeGR6TmttWjdRVWtHS0Q0ZGpIZjdzVlZ4YXp0WW9RRGp1UUlWdzBKRFplN2RwZnc?oc=5",
+        "domain": "thedefiant",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T220239Z",
         "source": "GoogleNews"
       },
       {
@@ -119758,15 +119593,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261002T182600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Kyrgyzstan Winds Down Gold-Backed USDKG After UK Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXJianZ0dVU2X01QR3AxSVV4TEpGalcyWWVKY2JJWEFGd1FrWWplTE80UDJmWVBQYlhvQ1c2WmRPREtPMk9JUDZ4NnVOcWwtTVFfZnRQRjloXzdxd0RLZEt4MWdEY3VDUDlYT3RPNWVaZGVXeGR6TmttWjdRVWtHS0Q0ZGpIZjdzVlZ4YXp0WW9RRGp1UUlWdzBKRFplN2RwZnc?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T000239Z",
         "source": "GoogleNews"
       },
       {
@@ -119860,6 +119686,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK imposes sanctions on three Kyrgyzstan-registered companies",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEIzS21vOGwxRXhHVk0xYVFHck1UcUhYR3VycEZ3WmNmcGRDU1l0OHRYeXh5ZGVWQkRrSU5pNEliQkFHQW1ZNWdRNkVaNUdMZl9CRHdwdk45Z1hjN1lUSUhCa0w4X00wSF94b1hGaXJkX0hjS2MwbGJpZl9Wa2U2d3ZGdkhhWFk1akdQUXhBRQ?oc=5",
+        "domain": "24.kg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T051840Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Cardano Foundation Tokenizes Veridian Equity in First Live Use of New CIP-0113 Standard",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyeklJQ1V4eVB2ME56U3F1TUhLVEh3QndDNlFhamEzOVpkTmV5bTlfbmxScEV5dHJDT1ZSbk1KbFFLZHY1SDlMSWJiQ1hUdW8yNm1HM1RjVVFlN1ZJdEJDSjQ1MEVqOGVITkl3RU0tMTdob1NWZXc?oc=5",
         "domain": "biggofinance",
@@ -119902,15 +119737,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261007T141910Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Cardano activates CIP-0113, enabling compliance rules for tokens",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlA5eGxPVzJ4NjVvYTVLOGJQcWJnbENsZG55VjcyTlR3TGIyQW96cDJ1QnRSRk9adWRLVmh0ejk4cWlJUlY1R25lLWViaWE3dEU5OXFwb01OdUlYbFpwUE41LXNTS1lORVVUUGlhU3Q1d0EtT1FHdUFhUzBSNzk0RTBPWVhrSW8tc01DZG1SLWhrY3Q0T3FOa2RvUDY0SFdlRWpRdUYtRVlYMlo2dGJUbjEtNA?oc=5",
-        "domain": "idnfinancials",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T160500Z",
         "source": "GoogleNews"
       },
       {
@@ -119968,15 +119794,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Cardano CIP-0113: Issuers Can Now Freeze and Seize Tokens",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5feWk5Vl84NWZlcjM3MmEzYWlaSWpseVQxaTNLTmZmOFZwd2hhWGZoYXlOM3pWMWtzSUpLYlUzVWpaMndYM3ZRTGxEaGs3ZGx6VHNJT1UwelZwNkV1bnJTRVZrYkZ3VFppTnhabVZHcXZXaGs2OWtmWW1B?oc=5",
-        "domain": "financefeeds",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T141418Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan Adds Garantex To Sanctions List Tied To Ukraine War",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaHZ6cTRYV2ZjcmVqdmduSmVpLWtpeXA1TDMtQm43azFtSEtTcGhzNXYxNGpjbnUtUFkxMlJFR2h3S01iMDN1V29XMFphb001Q1ZjVHV2SU5ySk5xRWN1aUFXNFF5MmR5STc0UUhOWE9MakVzWVRHY3hCZlY5MThNRnlqbmVDQ29QVy1yZmpYVkk?oc=5",
         "domain": "menafn",
@@ -120010,6 +119827,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261004T142440Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sanctioned tycoon Tagwirei handed investment portfolio as Mnangagwa splits finance ministry",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajI4ZWVWc1NnMlFaVk1nU1ZXVlk2Z3hZbTJDem8zYXZLNVBLZHRNSFkzYlRINVFoY2Q2TFAzT3Btb3FQMlExZmFucVdIeElNalFPUDVmTUxPQ21BOHZYZk5OdFhjUGRqa09jUjAzeHQzeW53aUhIYlBJV19mZVk2SWRQQmNvSGRLMTRLNkxVS2NQYXFWN05hcHV5Z0Zjdld6U3E3TXRWeF9qa2t3M2FkNEZxY3ZscUtQN2RmNUlGS2d2QjF4emlqLQ?oc=5",
+        "domain": "thezimbabwean",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T043100Z",
         "source": "GoogleNews"
       },
       {
