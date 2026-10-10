@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-10T05:46:38.998595+00:00",
+    "generated": "2026-10-10T12:26:42.551027+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-10T05:44:51.476249+00:00",
+    "issued_at": "2026-10-10T12:24:55.961019+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 25.7,
@@ -2079,6 +2079,17 @@
       },
       {
         "timestamp": "2026-10-10T05:44:51.476249+00:00",
+        "score": 25.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 22.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-10T12:24:55.961019+00:00",
         "score": 25.7,
         "level": "BASELINE",
         "components": {
@@ -119494,12 +119505,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Adds Crypto Sanctions Evasion Groups to Asset-Freeze List",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlbnc4QV9pZ2dfTEdrTk5HaGZqLWJoMFdPelp4NF9RMHRPTlJrc2VoMXBZUFZVcVhFMDRnNGR6ZkFqdnFLVXZEdEQzdFVYUE5sMXJ1VXJOX3NBWWM?oc=5",
-        "domain": "tokenpost",
+        "title": "Japan Freezes Assets of Russian Crypto Exchange Garantex in Expanded Sanctions Push",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yVTE2c0dwOF8tOU5PVFo2NVFPejliaS11YVZUUi1pMG5QM0dvYk93UUZvUWJTWFRzcTd6S3RMOHFYSVZCTlRTVm5BdzhFVmxWQURjUjJEa1B3clRDandDaUM1QVFlRE43N0FZZmZVS3Z3SkxIQVE?oc=5",
+        "domain": "biggofinance",
         "language": "",
         "tone": 0,
-        "seendate": "20261006T081315Z",
+        "seendate": "20261004T181500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia Slams Japan's New Sanctions, Vows Countermeasures",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE44MGRlVnBnQ1hJMW5UaGN5OTFUZ3RacXNvbDZGYVRDM0lBZXVDMWN3UVpXOEhfLTVxM2ZiR0lkSWRBR3NtdUROXzhGVnpvNzNjRUpid2ZyRkVESGc0?oc=5",
+        "domain": "nippon.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261006T030100Z",
         "source": "GoogleNews"
       },
       {
@@ -119512,15 +119532,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "ADA news: Cardano gives token issuers power to freeze, seize and restrict assets",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkRJRTdiUzQ5S0lUUkU4Sk5rVHN5MjRpZ1JtWUlneXgwYUpwRnBlODBxM2tTOTMtNVd5aURvOGFJQVkwRHk2a2FaZGd6eVpEaFBvREFkbHN3Y3JLcDVfcUVpOWVqZTBldTBLaEp4TmJKcXNiTmFjdGdhLWx0X0gzUXFRMWYzVFFzemRxUUpnck50TFI4NWNqNTQtUmpQa3dKdVE5VFBFeUxpSHdUNVcw?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T041133Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU1reExQeVBLaXU4dUY0MXlnLTY4c2x2WkcyYVJmYXdaOGVKMTJ2Yjkya2d4dkx1b0JZallRWTd1TjJqb3Roa1lnUEhiUGJzakF6WUZJOTZfX09aVW9fNVdscnl2eU5LbEFMZ2pVQWZqRzlhcmhSRUJRRVhwbVpOc05TVHBMTTQ5ZWthTlZhZzJ3aXZMNGZmMVlYcnNXVnRVSWZ6bUVWU3cxX1BkR1F5MNIBtgFBVV95cUxPYnNDbmRyQ1pVUUFxMTJCMllfNkpiNFF0enVlbWFKYUQ5V3ptekh4MXpuMHVMcmQ1MW9wdXZIUUd6bzROb0JIRzhJb2t3LTdERFNpX2xoR3NWM29FbTI0NXFLVW14Q050anRqVUZPaDh5OW9NX3ZjbjJ4VElqcjNCMmVkcXdfR21SS0dfRU5xMW1UVkt3NFMwTUFiRW9VaEhUUW9EVXRBVW5SRW1Ea3V4cGJ0c3dGdw?oc=5",
         "domain": "aljazeera",
@@ -119530,21 +119541,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Adds Russian Crypto Exchange Garantex to Asset-Freeze Sanctions List",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2dGI1bGU2T2lXNFU4Rm5hQ3EtTUtxdGpaLXpJMXpQX0xNZ1BFTDVKcVVOeWI2bVBDS0MySlVqNEVGUXFmZ2cyd3JkNTNjTXlSS2VYYQ?oc=5",
-        "domain": "bloomingbit",
+        "title": "ADA news: Cardano gives token issuers power to freeze, seize and restrict assets",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkRJRTdiUzQ5S0lUUkU4Sk5rVHN5MjRpZ1JtWUlneXgwYUpwRnBlODBxM2tTOTMtNVd5aURvOGFJQVkwRHk2a2FaZGd6eVpEaFBvREFkbHN3Y3JLcDVfcUVpOWVqZTBldTBLaEp4TmJKcXNiTmFjdGdhLWx0X0gzUXFRMWYzVFFzemRxUUpnck50TFI4NWNqNTQtUmpQa3dKdVE5VFBFeUxpSHdUNVcw?oc=5",
+        "domain": "coindesk",
         "language": "",
         "tone": 0,
-        "seendate": "20261005T001750Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK lifts sanctions on former Syrian Economy Minister Humam al-Jazairi",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHBqWGJqZFAtMGhKa09sVHZTUERlSnR4cS04RW1ES2N6RUtkQ3MtM18zMlpleVNPcC1WdGJiOUlIWURZTnFfTVZETUpTWWhlVkU2anc5alBNTWVSSUc3aDVheVdaaTFhVUFDNzRtdnY5M1JWdGdqYWhlak52X0lxcmNsRHd0VjhnODBTb3pCQ1RfdHMwZktMa3ZB?oc=5",
-        "domain": "anha",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T074521Z",
+        "seendate": "20261007T041133Z",
         "source": "GoogleNews"
       },
       {
@@ -119554,6 +119556,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261006T010915Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK lifts sanctions on former Syrian Economy Minister Humam al-Jazairi",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHBqWGJqZFAtMGhKa09sVHZTUERlSnR4cS04RW1ES2N6RUtkQ3MtM18zMlpleVNPcC1WdGJiOUlIWURZTnFfTVZETUpTWWhlVkU2anc5alBNTWVSSUc3aDVheVdaaTFhVUFDNzRtdnY5M1JWdGdqYWhlak52X0lxcmNsRHd0VjhnODBTb3pCQ1RfdHMwZktMa3ZB?oc=5",
+        "domain": "anha",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T074521Z",
         "source": "GoogleNews"
       },
       {
@@ -119575,24 +119586,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Freezes Assets of Russian Crypto Exchange Garantex in Expanded Sanctions Push",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yVTE2c0dwOF8tOU5PVFo2NVFPejliaS11YVZUUi1pMG5QM0dvYk93UUZvUWJTWFRzcTd6S3RMOHFYSVZCTlRTVm5BdzhFVmxWQURjUjJEa1B3clRDandDaUM1QVFlRE43N0FZZmZVS3Z3SkxIQVE?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T181500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan adds Garantex to list of Russia sanctions over Ukraine war",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZk1KSXdKYmpBVXR0OGhKTzJBRkt0aHlERlphSGFhYnRPd2RnYldPVThjN2hLYVVscmk2Y2FtUnB2WUFNLWJFY3o1QUM0N1VaYlZDcGVWMHJvZWN4VjU4VU5PRnRoNk5MeV9NdlVZY3Y2WU1kX1ZHVWNPOGxNMEZNdjYwcW5ZTEcyT0wwbDhzQkFRcTl1ZVdDQTVYVWVCQkNJbGhXUjh4WTB1LWJlSUlPZDRaQk1YZG1DWTBWeGs1bjJrXzJ4d0Jn?oc=5",
-        "domain": "tradingview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T124023Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The EU extended sanctions against Russia for hybrid attacks for another year",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3Z4dG41T0VHV20yWVFEcVZpUXVteGNrU3VpOG5VUDFMS1NwSElwY3pHNVNNbzFsZkUyVi1yRnVqaGpVVnlJa19aTWxOemFwcEI5d2ZMaHhUa2NRQkQ5ckY2VUJZbkdNT295R0NRVzNvNEdjdXU4am9TeU40MkhSQU1xbFhSZkRLeUFldExtQWFOdHBYWnF1eEZXQUFUbDFS0gGfAUFVX3lxTFBjWkszQUpJdkZ5anQzdkI0Y0NsV09DamJEQjloMlplZW1mQUNRQi14cVhMTEVGYU85ZTBUZ3BzTmY5LVBsdlhvcmZvVkg4LXZTUzFGUkpGbzNwcm5wTmRRQnNfLUlQeVFPYTJ5Zm9NazFDRHYyaktPSnl6Y29kbjI1TGxPRzNYVEtSQnhldEY0Mnc2OW54MnJfbTdqajM5aw?oc=5",
         "domain": "news.google.com",
@@ -119611,15 +119604,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kyrgyzstan Winds Down Gold-Backed USDKG After UK Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXJianZ0dVU2X01QR3AxSVV4TEpGalcyWWVKY2JJWEFGd1FrWWplTE80UDJmWVBQYlhvQ1c2WmRPREtPMk9JUDZ4NnVOcWwtTVFfZnRQRjloXzdxd0RLZEt4MWdEY3VDUDlYT3RPNWVaZGVXeGR6TmttWjdRVWtHS0Q0ZGpIZjdzVlZ4YXp0WW9RRGp1UUlWdzBKRFplN2RwZnc?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T070239Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWF9yYmRxUE9qMDM5M0E1OTNxSklpcXh3Vmg1dk0zSmRJR3dTSmJsZ0swcHpaZHlwZ3cxLS1LOU40N1A4WDNLYmlwVG55TTVMM0tfaTVmZVlLWkduQ2J1b01HUlZCZkhwVXA1djVvTHlrUUVrNmlsWjdRZ1JkTEtsTzBBVndZWnUtSXRScFcyazUyajVXNVBsUFNtRjI?oc=5",
         "domain": "thekyivindependent",
@@ -119629,12 +119613,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Kyrgyzstan Winds Down Gold-Backed USDKG After UK Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXJianZ0dVU2X01QR3AxSVV4TEpGalcyWWVKY2JJWEFGd1FrWWplTE80UDJmWVBQYlhvQ1c2WmRPREtPMk9JUDZ4NnVOcWwtTVFfZnRQRjloXzdxd0RLZEt4MWdEY3VDUDlYT3RPNWVaZGVXeGR6TmttWjdRVWtHS0Q0ZGpIZjdzVlZ4YXp0WW9RRGp1UUlWdzBKRFplN2RwZnc?oc=5",
+        "domain": "thedefiant",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T070239Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Zimbabwe: EU extends arms embargo",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVDhUZjFvYldWVG5QbTkyaG9QQlZGWGphV0dzWWI3dGt2WTByeXpQX2Ruanh3c0Rta0ZnWFU5RDdvT0NPbnJWTVNiMGVRS3NZSEk3UFhpQ1BhQi1ydkpFdmpZWEZhTUlIQWtYSmV4Z1NvWXNNZWFVb0lTR0NnOGZrUmU0aw?oc=5",
         "domain": "table.briefings",
         "language": "",
         "tone": 0,
         "seendate": "20261006T124938Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Japan adds Garantex to list of Russia sanctions over Ukraine war",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZk1KSXdKYmpBVXR0OGhKTzJBRkt0aHlERlphSGFhYnRPd2RnYldPVThjN2hLYVVscmk2Y2FtUnB2WUFNLWJFY3o1QUM0N1VaYlZDcGVWMHJvZWN4VjU4VU5PRnRoNk5MeV9NdlVZY3Y2WU1kX1ZHVWNPOGxNMEZNdjYwcW5ZTEcyT0wwbDhzQkFRcTl1ZVdDQTVYVWVCQkNJbGhXUjh4WTB1LWJlSUlPZDRaQk1YZG1DWTBWeGs1bjJrXzJ4d0Jn?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T124200Z",
         "source": "GoogleNews"
       },
       {
@@ -119665,6 +119667,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T180448Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "OnionSam(@Onion_Square)'s insights",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TM3NoQVZQRjhxS3czX2VfNEduV0xzeEkzWjUxb24tclp4WGw3LWpLdkU3Mk9DZHhZZWxxQlAzME5VcUh4N1c0VDZIOExfXzIxZ1pjaE1RU0NKSEhuUXgyNlNNNGw?oc=5",
         "domain": "binance",
@@ -119683,12 +119694,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
-        "domain": "thebrusselstimes",
+        "title": "Cardano Tokens Can Now Enforce Their Own Compliance Rules on Mainnet",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeDlSODNkVUlqbUtQZlhCeEVKRXFCTUVjMlU0Vkxud0JIVWJGQVV3V0hxY0FVRGRVdGZwNVZtV21QdlV3Umo2QkJuQkJGTHpYQmJOX2FJWl9xY3dheFBhbUM5Ti1QSjk2S0xNalAyaHhLSnFtQXFKMEYwUm01YVlGQ1hNbGVVbTBoV01RenN1RlkxUWY3QVpSbW9INEQ?oc=5",
+        "domain": "startupfortune",
         "language": "",
         "tone": 0,
-        "seendate": "20261009T180448Z",
+        "seendate": "20261007T124442Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU extends sanctions on Nicaragua until October 2027",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaEYyTmRUUXR1R255U3hQU09Udmh4OG9JMDljNEI1TXU1V3FmSW1wSGMyQXhpcklFblhSYnM2cWc1cEwxU3FKcDhJbXFKZEZTVjFIN291dDZFaUN3aFZFOE42MlZfUmVPVG5lVW1QR2ZFUm1CaVo3T2xFSDJTZk51d1d3X1Q0SnNER3ZOaVFOQ1o1d1BXV21ZUTByUWs2dw?oc=5",
+        "domain": "breakingthenews.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T093700Z",
         "source": "GoogleNews"
       },
       {
@@ -119701,12 +119721,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Cardano Launches CIP-0113 Token Standard With Built-In Freeze and Seizure Controls",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qSjZfWGl6YS1YNzhkMm4tdTlKN1dyeExfbHdMQWJIVXo0QkgtOHJyNnlGUTlCMTY5eXpTQ0JDLUZ6ajcwZzFHNVJjblk5LTJKaXUzZlpWZ2ZwREdEalZ6d3dMZWExUWRwN2xzUVZiaVluZG9FM1E?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T180500Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Russia Sanctions Evasion",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ybnVUa3dFOWctTHd6dmxmWVRMMjBMc1RhVk1raWdxSFpIZmVsc0o5aU9sSzBoay1PdTN6b1Nwd0Nla1VESnlNSFF2NHFnUnB1VE8yUy1MajEwUXoxQlMxclV1UGo?oc=5",
         "domain": "binance",
         "language": "",
         "tone": 0,
         "seendate": "20261009T042304Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU approves sanctions against over 1 646 people and organizations linked to Russian war",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpDbTFiQlZSQlBVQ1g2eFlNdjlZQ3NfRXJrVHdqNkhJdGpadmczTGNUVXJSbjVseC1tbXRSUmdieEM4eXE3SjNxc2Rid3ZneDZRbmZYTXN3YThIc2FsNTlZXzhwcGtma1k1VkY1VXJpVGdXT3p2cWlZQzQwcm9oYWhPd1JDcm1VYkVlNkU1U012RERubTlOTDFZckpVXzh0MDJ2a0d3N2xVVnBUWmJUSHNFYS16UkVtMEdGM1kyZVTSAcABQVVfeXFMT3p6Q20xYkJWUkJQVUNYNnhZTXY5WUNzX0Vya1R3ajZISXRqWnZnM0xjVFVyUm41bHgtbW10UlJnYnhDOHlxN0ozcXNkYnd2Z3g2UW5mWE1zd2E4SHNhbDU5WV84cHBrZmtZNVZGNVVyaVRnV096dnFpWUM0MHJvaGFoT3dSQ3JtVWJFZTZFNVNNdkREbm05TkwxWXJKVV84dDAydmtHdzdsVVZwVFpiVEhzRWEtelJFbTBHRjNZMmVU?oc=5",
+        "domain": "babel.ua",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T143728Z",
         "source": "GoogleNews"
       },
       {
@@ -119746,12 +119784,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Takes a Stand Against Garantex and Raises the Stakes for Crypto Compliance",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BSWx4OGxJZDZxRTVqRTlWSnNzWTkyRHJuWEpTZWU1b2tVeTlMMF9Hd05POUttVXV3bFYwZFhwM09FRXBNbFUwT1N5SXo2TDV2OHJZMnhqMFVTYXNZQ0xoNEgwSmNiRThPNktHS0JLYy1QV2NsZnZERkRn?oc=5",
-        "domain": "onesafe",
+        "title": "Tether’s reserve custodian faces Senate questions. What can it see or stop?",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcXJLdy1zb29USXhLcEh6aVJtZDA2cV9XVTRHb2Q0dmxlYjFKcGRJaDJTT1d2RlFYbkVMV2RUQlc3azg4VUptWGJMUnVxN3NnZEMxN3ZRWFJQYkFpMDROLW1XTndHcWJSMHFTTzVIU24yMzJNQW9hNnQyZnd6RTVXN0I4eWtwS1pYd3RFUFE5MlZuSDZlYmd1NA?oc=5",
+        "domain": "cryptonews",
         "language": "",
         "tone": 0,
-        "seendate": "20261005T042815Z",
+        "seendate": "20261009T121500Z",
         "source": "GoogleNews"
       },
       {
@@ -119766,10 +119804,19 @@
       {
         "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tX3c0Z3pieFU2M3dqVTJ6Nl9NSmtyQWhjWFhzYlA5d2xjR25iUEtIUXBnbk5WdzVaRUIzTzZqa0JRalVjeTgxYmtpNjBSLVVPaENTelNCMDFWMEdLemZOUlhfZkhGRGNRS1NocVhiMks1OUE2TE0yRDV4NA?oc=5",
-        "domain": "aol.com",
+        "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20261007T122411Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU prepares largest expansion of sanctions against Russia",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRi1XTldrcGx6cDNibndZbFpWVVQxaS00ZDk4bWg2YWlMSllGeko3ZlcwdUEtY1pwQUNvV2J0blhPdlBxeV9OTFJLaDM1eTlCVE1zMzR5MmR0WE9lZVphUnFGdHB1RmduQU56V3BJMXJUTlJzdUFPTjItWHVvTXMyZ2J3?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T141910Z",
         "source": "GoogleNews"
       },
       {
@@ -119800,24 +119847,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan's Ministry of Foreign Affairs Hits Garantex With Asset Freeze",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOFQzLUlLeHRpbkhjTTJfTXFSRHdTTnNqYTRZdFFxVHRreGJWYzZKVUJKLWgzNzhTNjdaRm1iLTl6UGhtOEZVVDlKR3oyTlV6enBPXy1pSmg0ZG9YZVh0b2JRR0pCTUs1QllfaXJuNk14T1R1dzhQZlpJaE13YlF1elZLcTg0ekJNVFB0cUhZWE03MkxTWjdDSXg2b0RqMVdIWWkwa2VsVjlTQTQ4dHZTOXRDbw?oc=5",
-        "domain": "bitcoinnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261005T013000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan Sanctions Garantex as Russia Crypto Crackdown Expands Beyond US and EU",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWDhPclRxMVJDTG9rZlBfUFEwRFRVQUloVDd2dUpaYVZxVDVfSkNxM0ttSDlCOHZxakRldjJKSm5rNHl1aGtiMTVOZV90VGlBNHlocG9veEtCOWwzQkV4ejNEcVI3V1VTMnFlcHFuSHMtZllzOFRfZHZ6R2xleEVQcnB6RmF0czd3WU82dERJTzllQ01TZlFLTnZJZURSVTBpTEdsSQ?oc=5",
-        "domain": "financefeeds",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T163429Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US Imposes Asset Freezes and Visa Bans on International Criminal Court Officials",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRzN1VU9MYUdpdUJXTlJFcFlPVGN1S3dZdVBhN0NDa0g4bFFUangtZW5EUjFFSWR6b2prYlJrejN2Zzd4dmFScGszQmZlUVhCUjhrTm5iekFSODFlVFdwU0FETVpzOVZncTlTSWd0SkhSVjNwYUtJNm5NZnhKYkktZUJ3WDNIUU9LdVdxV2MyVEpWMEI2cElDQm1pTGs4a005MTFZUEVaeTRRYmc5MThYWUM1YUpTVHg2WEpzdWU4alM2Sy13dVg0dTdROVTSAcwBQVVfeXFMTUczdVVPTGFHaXVCV05SRXBZT1RjdUt3WXVQYTdDQ2tIOGxRVGp4LWVuRFIxRUlkem9qa2JSa3ozdmc3eHZhUnBrM0JmZVFYQlI4a05uYnpBUjgxZVRXcFNBRE1aczlWZ3E5U0lndEpIUlYzcGFLSTZuTWZ4SmJJLWVCd1gzSFFPS3VXcVdjMlRKVjBCNnBJQ0JtaUxrOGtNOTExWVBFWnk0UWJnOTE4WFlDNWFKU1R4NlhKc3VlOGpTNkstd3VYNHU3UTlU?oc=5",
         "domain": "inkorr",
@@ -119845,24 +119874,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Garantex Added to Japan’s Sanction List",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsZkpqNXNwcEItRDNMbjVSZHZtUmxzTWQ5NzEtVU9zYUNTaWpMZ2NTN3VpUUtJcF9DWjdlNzEwSnRFVno5UkV6ZmkxX3R1SndTNFItM3I1d0lUUWZpVmVFajJOLThHODcyNThxWFRHZUg?oc=5",
-        "domain": "coinfomania",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T111439Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan Adds Garantex To Sanctions List Tied To Ukraine War",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaHZ6cTRYV2ZjcmVqdmduSmVpLWtpeXA1TDMtQm43azFtSEtTcGhzNXYxNGpjbnUtUFkxMlJFR2h3S01iMDN1V29XMFphb001Q1ZjVHV2SU5ySk5xRWN1aUFXNFF5MmR5STc0UUhOWE9MakVzWVRHY3hCZlY5MThNRnlqbmVDQ29QVy1yZmpYVkk?oc=5",
-        "domain": "menafn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T142439Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Cardano Lets Token Issuers Freeze and Seize Regulated Assets",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVXhPVDVJOUVaZ1hjOEZWM08xbHF6R19vS1FHVE40eks5aGpHRVhnZmR3c09zZl90c1FEdnhLWHgzajVsdE12NnYtSjI2bHp4bllYSngtOG05MFRxYUJxQVlaUzVidllJSS1fblFici1OTFY1dFZGZ0tjWkVMVHZzdENHeGVVU3g5Q0tMR0NQTW9oRlVvTVZ4X24zN1hoQmfSAawBQVVfeXFMT19GdGxVcTB4dUtZalpDUWZ5NUc3c2tsWGFBYkQ5WDFYWmxGRnJHcllIbEkwWEJvZWdzUE1tdUE2N3laNDRrQkVPV2xvbG1OcmVPRGFEUENHWk0xcVhuYWNSclVYajZtbm1lSmxSWUVUQzNGTFd3aW55ZVlmcHdZM0lyU1VUMFMtVWFIdDBqVmJIV1VmbVlhNFYyUEE3V21sanJjR1VhTmZVZTBFTA?oc=5",
         "domain": "analyticsinsight",
@@ -119872,12 +119883,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Adds Garantex To Sanctions List Targeting Russia Over Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONE5YcURzclhsY2dSNFJ1MnJIUjBJeUZmX3lLUG8zOEtXUFg3ODRsV29TVS1jRWx5RmI1N0lsRjZTWmpkeHd5V0VnQVRJMEVHX0JsbWI5UGdCSERIcnNVaW8zbGVUS0tpLTJoZWNrTUJKV3d1bHZycWJPdWhIN2xEZlN5NHZRaDlwY1JlbWRvYXJzc3hla0c2M2oxZXh0Zw?oc=5",
-        "domain": "menafn",
+        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pWGhGNmowMlJzeE54OTFqTVNGbS00MEFqSl9ZSU9jbDQzQUI4ZW5LUnRmSURMLXQ5RmdOLTdTUlhmWXRtR1pNZ1ZHMTVhd1QwRWN3a1Flc2xoOWF4VHVMZXB2LXNVcjV2b0Z6NDI5SjhxTGZySDJn?oc=5",
+        "domain": "aol.ca",
         "language": "",
         "tone": 0,
-        "seendate": "20261004T142440Z",
+        "seendate": "20261007T122411Z",
         "source": "GoogleNews"
       },
       {
@@ -119899,21 +119910,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Adds Crypto Exchange Garantex to Russia Sanctions Asset Freeze List",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUzFoTnpWWmRPZDU2blM1YW4wTUZZQXZuaTNseldVNDB0YlZlTWxudHY4bTRMRnkwaktKRXAtQ1JHVTlFOUpvRzhKT3UyQktoczlGNjBTb09yTkNhUllOQXE1eXRHUnpHcW96SlNZay1xTFZVSlUxWnprNldERXgyc1Vn?oc=5",
-        "domain": "hokanews",
+        "title": "Tether Reserve Deal Faces Senate Scrutiny Over Iran-Linked USDT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pZnYyVVZtcGNudVlPX0dKNEdkLVFuRE5PeWZOUlpuVkQxM0NURFQtR2RNUlhXY1AtWHhKT0JVYThnU2V1RmVsMVdwX3loQW04MWdrT3VDMGZHSUVGZ19NeFVIdFgwZUZRMWxwbWpRQUtmZE9YWjkyb09OR29yMDg?oc=5",
+        "domain": "tronweekly",
         "language": "",
         "tone": 0,
-        "seendate": "20261005T051000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan Adds Garantex to Asset Freeze List Under Expanded Russia Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jeGFnaGxEZmxVbHVPRm1LSXhRNXY3UUJzNGNIc2traXpEZDNxb0k5OF9YOUstOFVhV1c5Nm90Skg3VjhQOWVnemlTbGJWX2JiLWxOaFhFUmFWUDZlb2J6RGRJSFdVMlhjbTBCWjlRV250Q2ZFeXZoTW9HNnZKQQ?oc=5",
-        "domain": "hokanews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T161400Z",
+        "seendate": "20261009T170000Z",
         "source": "GoogleNews"
       }
     ]
