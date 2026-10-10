@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-09T22:36:32.085992+00:00",
+    "generated": "2026-10-10T05:46:38.998595+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-09T22:34:45.501254+00:00",
+    "issued_at": "2026-10-10T05:44:51.476249+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 26.4,
+    "score": 25.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -118,12 +118,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 3.5,
+        "score": 0.0,
         "current_count": 19416,
         "previous_count": 19416,
-        "added_count": 1,
-        "removed_count": 1,
-        "changed": true,
+        "added_count": 0,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-10-08",
         "sha256": "64be7a7991059f59a2ebb43bc5dcc7e2951e1e27cbed8cbe41b0231b3a161946",
         "top_programs": [
@@ -194,22 +194,8 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58601",
-            "name": "INTERNATIONAL CRIMINAL COURT",
-            "type": "",
-            "program": "ICC-EO14203"
-          }
-        ],
-        "removed": [
-          {
-            "id": "47354",
-            "name": "HTET, Theint Win",
-            "type": "individual",
-            "program": "BURMA-EO14014"
-          }
-        ],
+        "added": [],
+        "removed": [],
         "retained": false
       },
       {
@@ -2090,6 +2076,17 @@
           "official_posture_shift": 22.9,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-10T05:44:51.476249+00:00",
+        "score": 25.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 22.9,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2154,13 +2151,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "26.4/100",
+      "value": "25.7/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,416",
-      "delta": "+1 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -119506,21 +119503,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "ADA news: Cardano gives token issuers power to freeze, seize and restrict assets",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkRJRTdiUzQ5S0lUUkU4Sk5rVHN5MjRpZ1JtWUlneXgwYUpwRnBlODBxM2tTOTMtNVd5aURvOGFJQVkwRHk2a2FaZGd6eVpEaFBvREFkbHN3Y3JLcDVfcUVpOWVqZTBldTBLaEp4TmJKcXNiTmFjdGdhLWx0X0gzUXFRMWYzVFFzemRxUUpnck50TFI4NWNqNTQtUmpQa3dKdVE5VFBFeUxpSHdUNVcw?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T041133Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "LDP’s Furuya says Takaichi called China’s sanctions against him ‘great honor’",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQm9fOURqMWRzWTZNVXRwQmg2MF9VdkVCSEwzZFVXTE1Oa3Z2ZzdjLW14UFBqMGp6amxMZEFUOGlDdU9xakswU2c5SWxiSlhDajZncDM3dmJkRXlXVUo4ODVpQ0tlX2pvcVlNXzFMOGJBWlhKdkdORkFENWhSRUtJZ1I4WTUyb3RRWWkxb3FEdzFNaWVpcjNN?oc=5",
         "domain": "thejapantimes",
         "language": "",
         "tone": 0,
         "seendate": "20261009T054900Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "ADA news: Cardano gives token issuers power to freeze, seize and restrict assets",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkRJRTdiUzQ5S0lUUkU4Sk5rVHN5MjRpZ1JtWUlneXgwYUpwRnBlODBxM2tTOTMtNVd5aURvOGFJQVkwRHk2a2FaZGd6eVpEaFBvREFkbHN3Y3JLcDVfcUVpOWVqZTBldTBLaEp4TmJKcXNiTmFjdGdhLWx0X0gzUXFRMWYzVFFzemRxUUpnck50TFI4NWNqNTQtUmpQa3dKdVE5VFBFeUxpSHdUNVcw?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T041133Z",
         "source": "GoogleNews"
       },
       {
@@ -119578,15 +119575,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan has imposed new sanctions against Russia and restrictions on 35 vessels",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04aW84OTVQX1p6dWM3QjJrSElEQlJBQVE1ZEotUG1FUmVrTzVyYTZlTU5JMzVleWg0Q3BWUDBlbUtwbS0zQ2w1T2xHbUtncnl4SDRuOE5aRk1UVWdKU3pCNDRiRTBtVFpsNm1WQkZIQzkxWE9KbUFnNnJxWjk?oc=5",
-        "domain": "ukrmedianews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T045136Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan Freezes Assets of Russian Crypto Exchange Garantex in Expanded Sanctions Push",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yVTE2c0dwOF8tOU5PVFo2NVFPejliaS11YVZUUi1pMG5QM0dvYk93UUZvUWJTWFRzcTd6S3RMOHFYSVZCTlRTVm5BdzhFVmxWQURjUjJEa1B3clRDandDaUM1QVFlRE43N0FZZmZVS3Z3SkxIQVE?oc=5",
         "domain": "biggofinance",
@@ -119614,15 +119602,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWF9yYmRxUE9qMDM5M0E1OTNxSklpcXh3Vmg1dk0zSmRJR3dTSmJsZ0swcHpaZHlwZ3cxLS1LOU40N1A4WDNLYmlwVG55TTVMM0tfaTVmZVlLWkduQ2J1b01HUlZCZkhwVXA1djVvTHlrUUVrNmlsWjdRZ1JkTEtsTzBBVndZWnUtSXRScFcyazUyajVXNVBsUFNtRjI?oc=5",
-        "domain": "thekyivindependent",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T163456Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan adds Garantex to Russia sanctions list",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVnYxVE92NzFkaDRLaDN0WW5wNExmdjRyVDhnd0tDN1lKTWtheFh6UHRPWUxzVWZCZ0hFY3hpaE1WZEtxMXAzeW5IR01oZEY0V29hVmNEX194dm1SM2NRcXBEMXRBa3B3SVVvNnZsS3pIVmxsM1NhdzhpTWMyTXNNQlFZbw?oc=5",
         "domain": "grafa.com",
@@ -119638,6 +119617,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261009T070239Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWF9yYmRxUE9qMDM5M0E1OTNxSklpcXh3Vmg1dk0zSmRJR3dTSmJsZ0swcHpaZHlwZ3cxLS1LOU40N1A4WDNLYmlwVG55TTVMM0tfaTVmZVlLWkduQ2J1b01HUlZCZkhwVXA1djVvTHlrUUVrNmlsWjdRZ1JkTEtsTzBBVndZWnUtSXRScFcyazUyajVXNVBsUFNtRjI?oc=5",
+        "domain": "thekyivindependent",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T163456Z",
         "source": "GoogleNews"
       },
       {
@@ -119677,6 +119665,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "OnionSam(@Onion_Square)'s insights",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TM3NoQVZQRjhxS3czX2VfNEduV0xzeEkzWjUxb24tclp4WGw3LWpLdkU3Mk9DZHhZZWxxQlAzME5VcUh4N1c0VDZIOExfXzIxZ1pjaE1RU0NKSEhuUXgyNlNNNGw?oc=5",
+        "domain": "binance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T120638Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Cardano News: CIP-0113 Brings Compliance Rules to ADA Tokens",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcHRjRUxfNHhFWUczTG1GSFNKNnlsdEJuQS1tT2NtY3AtY3gtTEVaLVZaZUp5X2xaaHhMdFZNZTRBQnIyanNSVXZUY2VPSC11VS1qNGMxSllXWUVvWGIzelJ0cUxITC1YWEpabnl6Zjl6UjA4dnh3T3ZrRUxCZHlZN29zdDBYWmJKU0JUN3A0WTlCTFJGMmZXNE1EdV9lWk1lb3BjMkg0Q2hMcDhZTWdqUDFPZ0g0dUdnXzlKeg?oc=5",
         "domain": "tradingview",
@@ -119686,21 +119683,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan Responds to Putin's Kuril Islands Visit with Sanctions on Russian \"Shadow Fleet\"",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SdlBwc05Jcm1fZ0lHVm0xZzBfbnF1eDBwRjU5ZUg5TE9pX3YzeDRmQVdBS3IyVDdaWk4ySXpJQldfN0RIZVhGdWFyZ2hWQ3M1NW8xQUhPN2J6VzJwRjgtN3Q2MkI?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T031449Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
         "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261009T174845Z",
+        "seendate": "20261009T180448Z",
         "source": "GoogleNews"
       },
       {
@@ -119776,6 +119764,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tX3c0Z3pieFU2M3dqVTJ6Nl9NSmtyQWhjWFhzYlA5d2xjR25iUEtIUXBnbk5WdzVaRUIzTzZqa0JRalVjeTgxYmtpNjBSLVVPaENTelNCMDFWMEdLemZOUlhfZkhGRGNRS1NocVhiMks1OUE2TE0yRDV4NA?oc=5",
+        "domain": "aol.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T122411Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Cardano activates CIP-0113, enabling compliance rules for tokens",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlA5eGxPVzJ4NjVvYTVLOGJQcWJnbENsZG55VjcyTlR3TGIyQW96cDJ1QnRSRk9adWRLVmh0ejk4cWlJUlY1R25lLWViaWE3dEU5OXFwb01OdUlYbFpwUE41LXNTS1lORVVUUGlhU3Q1d0EtT1FHdUFhUzBSNzk0RTBPWVhrSW8tc01DZG1SLWhrY3Q0T3FOa2RvUDY0SFdlRWpRdUYtRVlYMlo2dGJUbjEtNA?oc=5",
         "domain": "idnfinancials",
@@ -119791,15 +119788,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261008T130600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9pTzFhcVAwd1NxalR2LTJfMU03VkZkYlpQcDROU3dTMXFGNXhnMlRCSG9oVFZHcHhCUFowTDFmVThvemRZNkE?oc=5",
-        "domain": "mamul.am",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T151301Z",
         "source": "GoogleNews"
       },
       {
@@ -119836,6 +119824,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261009T162441Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Japan expands Russia sanctions to include Garantex and oil tanker fleet",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWJpcktKY2UyeG1ZRS1OYTJ0eDJQWTE5UV9DaVp1ZGZoZnpRQjJlRFhfanhjU1pZelRoQnM0a1V2eGJGT2pIeEdXdE5nb0p4dkJjaWRhSVpfY1JSYkV2VlA1WWFDbEtSQzVKa3NubndRYXFJVFZJMDJSemxfQVlYNzhhOHlwTmwtWldaZ3IxcWpjYi1uTFFkcDhVdnVXcmNfb08tQ2pPODBZR1FTM3ltUFc5cw?oc=5",
+        "domain": "tradersunion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T124521Z",
         "source": "GoogleNews"
       },
       {
