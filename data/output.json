@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-10T21:39:01.706900+00:00",
+    "generated": "2026-10-11T05:41:35.053804+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-10T21:37:15.023985+00:00",
+    "issued_at": "2026-10-11T05:39:48.399184+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 25.7,
@@ -2101,6 +2101,17 @@
       },
       {
         "timestamp": "2026-10-10T21:37:15.023985+00:00",
+        "score": 25.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 22.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-11T05:39:48.399184+00:00",
         "score": 25.7,
         "level": "BASELINE",
         "components": {
@@ -119534,6 +119545,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU1reExQeVBLaXU4dUY0MXlnLTY4c2x2WkcyYVJmYXdaOGVKMTJ2Yjkya2d4dkx1b0JZallRWTd1TjJqb3Roa1lnUEhiUGJzakF6WUZJOTZfX09aVW9fNVdscnl2eU5LbEFMZ2pVQWZqRzlhcmhSRUJRRVhwbVpOc05TVHBMTTQ5ZWthTlZhZzJ3aXZMNGZmMVlYcnNXVnRVSWZ6bUVWU3cxX1BkR1F5MNIBtgFBVV95cUxPYnNDbmRyQ1pVUUFxMTJCMllfNkpiNFF0enVlbWFKYUQ5V3ptekh4MXpuMHVMcmQ1MW9wdXZIUUd6bzROb0JIRzhJb2t3LTdERFNpX2xoR3NWM29FbTI0NXFLVW14Q050anRqVUZPaDh5OW9NX3ZjbjJ4VElqcjNCMmVkcXdfR21SS0dfRU5xMW1UVkt3NFMwTUFiRW9VaEhUUW9EVXRBVW5SRW1Ea3V4cGJ0c3dGdw?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T005512Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "LDP’s Furuya says Takaichi called China’s sanctions against him ‘great honor’",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQm9fOURqMWRzWTZNVXRwQmg2MF9VdkVCSEwzZFVXTE1Oa3Z2ZzdjLW14UFBqMGp6amxMZEFUOGlDdU9xakswU2c5SWxiSlhDajZncDM3dmJkRXlXVUo4ODVpQ0tlX2pvcVlNXzFMOGJBWlhKdkdORkFENWhSRUtJZ1I4WTUyb3RRWWkxb3FEdzFNaWVpcjNN?oc=5",
         "domain": "thejapantimes",
@@ -119549,15 +119569,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261007T041133Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU1reExQeVBLaXU4dUY0MXlnLTY4c2x2WkcyYVJmYXdaOGVKMTJ2Yjkya2d4dkx1b0JZallRWTd1TjJqb3Roa1lnUEhiUGJzakF6WUZJOTZfX09aVW9fNVdscnl2eU5LbEFMZ2pVQWZqRzlhcmhSRUJRRVhwbVpOc05TVHBMTTQ5ZWthTlZhZzJ3aXZMNGZmMVlYcnNXVnRVSWZ6bUVWU3cxX1BkR1F5MNIBtgFBVV95cUxPYnNDbmRyQ1pVUUFxMTJCMllfNkpiNFF0enVlbWFKYUQ5V3ptekh4MXpuMHVMcmQ1MW9wdXZIUUd6bzROb0JIRzhJb2t3LTdERFNpX2xoR3NWM29FbTI0NXFLVW14Q050anRqVUZPaDh5OW9NX3ZjbjJ4VElqcjNCMmVkcXdfR21SS0dfRU5xMW1UVkt3NFMwTUFiRW9VaEhUUW9EVXRBVW5SRW1Ea3V4cGJ0c3dGdw?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T005512Z",
         "source": "GoogleNews"
       },
       {
@@ -119633,21 +119644,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Kyrgyzstan Winds Down Gold-Backed USDKG After UK Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXJianZ0dVU2X01QR3AxSVV4TEpGalcyWWVKY2JJWEFGd1FrWWplTE80UDJmWVBQYlhvQ1c2WmRPREtPMk9JUDZ4NnVOcWwtTVFfZnRQRjloXzdxd0RLZEt4MWdEY3VDUDlYT3RPNWVaZGVXeGR6TmttWjdRVWtHS0Q0ZGpIZjdzVlZ4YXp0WW9RRGp1UUlWdzBKRFplN2RwZnc?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T070239Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan adds Garantex to list of Russia sanctions over Ukraine war",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZk1KSXdKYmpBVXR0OGhKTzJBRkt0aHlERlphSGFhYnRPd2RnYldPVThjN2hLYVVscmk2Y2FtUnB2WUFNLWJFY3o1QUM0N1VaYlZDcGVWMHJvZWN4VjU4VU5PRnRoNk5MeV9NdlVZY3Y2WU1kX1ZHVWNPOGxNMEZNdjYwcW5ZTEcyT0wwbDhzQkFRcTl1ZVdDQTVYVWVCQkNJbGhXUjh4WTB1LWJlSUlPZDRaQk1YZG1DWTBWeGs1bjJrXzJ4d0Jn?oc=5",
         "domain": "tradingview",
         "language": "",
         "tone": 0,
         "seendate": "20261004T124200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Kyrgyzstan Winds Down Gold-Backed USDKG After UK Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXJianZ0dVU2X01QR3AxSVV4TEpGalcyWWVKY2JJWEFGd1FrWWplTE80UDJmWVBQYlhvQ1c2WmRPREtPMk9JUDZ4NnVOcWwtTVFfZnRQRjloXzdxd0RLZEt4MWdEY3VDUDlYT3RPNWVaZGVXeGR6TmttWjdRVWtHS0Q0ZGpIZjdzVlZ4YXp0WW9RRGp1UUlWdzBKRFplN2RwZnc?oc=5",
+        "domain": "thedefiant",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T070239Z",
         "source": "GoogleNews"
       },
       {
@@ -119678,15 +119689,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Russia Sanctions Evasion",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOTItMGNFSUplMjlJMUxSTDdZX3EtWmxGbjhMUENNX0xvRDFyTElWajBJVHVqZEVWMHpjamV6dGpVV0IxcVJKMzY3djg3R1RGTFJEWmRfVGhrelJYaTdqQW9XNU5DSlZrN1FEMUNid2hIcVpqN1lwX2Qzb2JnQlhqbUp4UVU?oc=5",
-        "domain": "cryptorank",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T053849Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
         "domain": "thebrusselstimes",
@@ -119696,12 +119698,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "OnionSam(@Onion_Square)'s insights",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TM3NoQVZQRjhxS3czX2VfNEduV0xzeEkzWjUxb24tclp4WGw3LWpLdkU3Mk9DZHhZZWxxQlAzME5VcUh4N1c0VDZIOExfXzIxZ1pjaE1RU0NKSEhuUXgyNlNNNGw?oc=5",
-        "domain": "binance",
+        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Russia Sanctions Evasion",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOTItMGNFSUplMjlJMUxSTDdZX3EtWmxGbjhMUENNX0xvRDFyTElWajBJVHVqZEVWMHpjamV6dGpVV0IxcVJKMzY3djg3R1RGTFJEWmRfVGhrelJYaTdqQW9XNU5DSlZrN1FEMUNid2hIcVpqN1lwX2Qzb2JnQlhqbUp4UVU?oc=5",
+        "domain": "cryptorank",
         "language": "",
         "tone": 0,
-        "seendate": "20261009T120638Z",
+        "seendate": "20261009T053849Z",
         "source": "GoogleNews"
       },
       {
@@ -119756,15 +119758,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261007T075950Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU approves sanctions against over 1 646 people and organizations linked to Russian war",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpDbTFiQlZSQlBVQ1g2eFlNdjlZQ3NfRXJrVHdqNkhJdGpadmczTGNUVXJSbjVseC1tbXRSUmdieEM4eXE3SjNxc2Rid3ZneDZRbmZYTXN3YThIc2FsNTlZXzhwcGtma1k1VkY1VXJpVGdXT3p2cWlZQzQwcm9oYWhPd1JDcm1VYkVlNkU1U012RERubTlOTDFZckpVXzh0MDJ2a0d3N2xVVnBUWmJUSHNFYS16UkVtMEdGM1kyZVTSAcABQVVfeXFMT3p6Q20xYkJWUkJQVUNYNnhZTXY5WUNzX0Vya1R3ajZISXRqWnZnM0xjVFVyUm41bHgtbW10UlJnYnhDOHlxN0ozcXNkYnd2Z3g2UW5mWE1zd2E4SHNhbDU5WV84cHBrZmtZNVZGNVVyaVRnV096dnFpWUM0MHJvaGFoT3dSQ3JtVWJFZTZFNVNNdkREbm05TkwxWXJKVV84dDAydmtHdzdsVVZwVFpiVEhzRWEtelJFbTBHRjNZMmVU?oc=5",
-        "domain": "babel.ua",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T143728Z",
         "source": "GoogleNews"
       },
       {
