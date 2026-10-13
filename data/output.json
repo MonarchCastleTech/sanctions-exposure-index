@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-13T00:36:42.443670+00:00",
+    "generated": "2026-10-13T14:06:58.663008+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-13T00:34:56.095393+00:00",
+    "issued_at": "2026-10-13T14:05:12.031465+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 24.9,
+    "score": 32.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -100,14 +100,14 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19416,
+        "score": 37.5,
+        "current_count": 19431,
         "previous_count": 19416,
-        "added_count": 0,
+        "added_count": 15,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-10-08",
-        "sha256": "64be7a7991059f59a2ebb43bc5dcc7e2951e1e27cbed8cbe41b0231b3a161946",
+        "changed": true,
+        "publish_date": "2026-10-09",
+        "sha256": "a472434fd73854d52b8c0e53d4348f50a73c2cd5651cb2db1d6b8917e6b7f405",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -142,11 +142,11 @@
             "count": 502
           },
           {
-            "program": "IRAN",
-            "count": 473
+            "program": "ILLICIT-DRUGS-EO14059",
+            "count": 475
           },
           {
-            "program": "ILLICIT-DRUGS-EO14059",
+            "program": "IRAN",
             "count": 473
           },
           {
@@ -161,11 +161,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 10018
+            "count": 10029
           },
           {
             "type": "individual",
-            "count": 7497
+            "count": 7501
           },
           {
             "type": "vessel",
@@ -176,7 +176,98 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "58416",
+            "name": "TAMEX LOGISTICS",
+            "type": "",
+            "program": "ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58417",
+            "name": "INZUNZA PARTIDA, Francisco Javier",
+            "type": "individual",
+            "program": "ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58418",
+            "name": "DISTRIBUIDORA DE GAS ECONOMICO, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58419",
+            "name": "GARZA GARCIA, Gamaliel",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58420",
+            "name": "GARZA ELIAS, Gamaliel",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58421",
+            "name": "CONSTRUCCIONES Y EDIFICACIONES GARZA ELIAS, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58422",
+            "name": "CUADRA SAN DIBANH",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58423",
+            "name": "CLUB LA MOLIENDA",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58424",
+            "name": "GUAJARDO ALVAREZ, Pablo Cesar",
+            "type": "individual",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58425",
+            "name": "CONSTRUACEROS DEL FUERTE, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58426",
+            "name": "GAS ENERGIA CONFIABLE, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58427",
+            "name": "INOVA NLD DESARROLLOS INMOBILARIOS, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58428",
+            "name": "PROPANE TRADING GROUP, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58429",
+            "name": "TRANSPORTADORA DE GAS DE NUEVO LAREDO, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "58430",
+            "name": "CONCRETOS Y PRODUCTOS ASFALTICOS DEL NORTE, S.A. DE C.V.",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -321,12 +412,20 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity"
+        "ofac_action_velocity",
+        "sdn_delta_breadth"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
     "alerts": [
+      {
+        "id": "sdn_delta_breadth",
+        "title": "Exact SDN list delta",
+        "score": 37.5,
+        "level": "WATCH",
+        "why": "The official SDN file changed materially since the previous accepted snapshot."
+      },
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
@@ -2139,10 +2238,21 @@
           "official_posture_shift": 29.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-13T14:05:12.031465+00:00",
+        "score": 32.4,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.2,
+          "sdn_delta_breadth": 37.5,
+          "official_posture_shift": 29.0,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19416,
+      "sdn_entries": 19431,
       "ofac_releases": 98,
       "market_series_available": 2,
       "available_components": 4,
@@ -2203,13 +2313,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "24.9/100",
+      "value": "32.4/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,416",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,431",
+      "delta": "+15 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -2224,9 +2334,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-10-08",
-      "sha256": "64be7a7991059f59a2ebb43bc5dcc7e2951e1e27cbed8cbe41b0231b3a161946",
-      "count": 19416,
+      "publish_date": "2026-10-09",
+      "sha256": "a472434fd73854d52b8c0e53d4348f50a73c2cd5651cb2db1d6b8917e6b7f405",
+      "count": 19431,
       "entries": [
         {
           "id": "36",
@@ -117315,6 +117425,96 @@
           "program": "IRAN-CON-ARMS-EO"
         },
         {
+          "id": "58416",
+          "name": "TAMEX LOGISTICS",
+          "type": "",
+          "program": "ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58417",
+          "name": "INZUNZA PARTIDA, Francisco Javier",
+          "type": "individual",
+          "program": "ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58418",
+          "name": "DISTRIBUIDORA DE GAS ECONOMICO, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58419",
+          "name": "GARZA GARCIA, Gamaliel",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58420",
+          "name": "GARZA ELIAS, Gamaliel",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58421",
+          "name": "CONSTRUCCIONES Y EDIFICACIONES GARZA ELIAS, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58422",
+          "name": "CUADRA SAN DIBANH",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58423",
+          "name": "CLUB LA MOLIENDA",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58424",
+          "name": "GUAJARDO ALVAREZ, Pablo Cesar",
+          "type": "individual",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58425",
+          "name": "CONSTRUACEROS DEL FUERTE, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58426",
+          "name": "GAS ENERGIA CONFIABLE, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58427",
+          "name": "INOVA NLD DESARROLLOS INMOBILARIOS, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58428",
+          "name": "PROPANE TRADING GROUP, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58429",
+          "name": "TRANSPORTADORA DE GAS DE NUEVO LAREDO, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
+          "id": "58430",
+          "name": "CONCRETOS Y PRODUCTOS ASFALTICOS DEL NORTE, S.A. DE C.V.",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
           "id": "58431",
           "name": "WELLBRED CAPITAL PTE. LTD.",
           "type": "",
@@ -119519,30 +119719,12 @@
     },
     "news_articles": [
       {
-        "title": "UK, EU and US sanctions on Russia",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
-        "domain": "fieldfisher",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261006T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Sanctions Compliance Meets Data Privacy: Managing a Structural Tension",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ3VoVmVkcVN4eVZSYmR2YmZVSmlMOEg1bE1OQlFwYkZHdUpOZGRpUDMtN3dNdjZNZFQtdTY1SE5nWVdGVzJSa09OaHUzN01sb291eVlwSmFfSFFfblNVMTdwZUl5YVAyeEh3ZnBmeUxpMkUxQi01NHlnZ2FGRmFvUGZmcFJ5WDFDTDdqQjJQUFptOU5YcTBMWlFPVGUzdXJETkV0aDN6ZmVoSUtVb09jYzhFdVpBLU9Ob1ZQZzlMc2J5RGFJN2kxQTNTYkdHSVM2NmltXzdBbDZwQjdGYTRqOQ?oc=5",
         "domain": "freshfields",
         "language": "",
         "tone": 0,
         "seendate": "20261009T111754Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia Slams Japan's New Sanctions, Vows Countermeasures",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE44MGRlVnBnQ1hJMW5UaGN5OTFUZ3RacXNvbDZGYVRDM0lBZXVDMWN3UVpXOEhfLTVxM2ZiR0lkSWRBR3NtdUROXzhGVnpvNzNjRUpid2ZyRkVESGc0?oc=5",
-        "domain": "nippon.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261006T030100Z",
         "source": "GoogleNews"
       },
       {
@@ -119555,21 +119737,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU Approves Record Sanctions Expansion Targeting 1.6K Russian Citizens and Entities",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYUxPZk1pTnpaSDlxQWN1cVRDXzdSd2JVMnNkYzRwY0YxYkI5OWZ4eEdjdTFydlhkNEFwczBtYzVub2Y2SHhMLWg4Z0RqOXk3VWZKQlZQYlFHMWRlU1FSRXJyUG1nOG53T2xvVUFqNnBJb0txNE13RHFWS1FOYndydlJKdmJ3Y2VxeGR0aXVhdHJWN25JNlhWVThPYnBqZFp6SVB4djBZbUF0bWNRMkFGdzdVM1BoZHNEUm1aUTVtRXAzVTk2M2RDOFJrMA?oc=5",
+        "domain": "themoscowtimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261007T152152Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "LDP’s Furuya says Takaichi called China’s sanctions against him ‘great honor’",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQm9fOURqMWRzWTZNVXRwQmg2MF9VdkVCSEwzZFVXTE1Oa3Z2ZzdjLW14UFBqMGp6amxMZEFUOGlDdU9xakswU2c5SWxiSlhDajZncDM3dmJkRXlXVUo4ODVpQ0tlX2pvcVlNXzFMOGJBWlhKdkdORkFENWhSRUtJZ1I4WTUyb3RRWWkxb3FEdzFNaWVpcjNN?oc=5",
         "domain": "thejapantimes",
         "language": "",
         "tone": 0,
         "seendate": "20261009T054900Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU agrees largest-ever package of sanctions targeting almost 1600 individuals, entities in Russia’s military-industrial complex",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObVBleGFfVWNHMUVSakhJdVc4TXV1eFhTXzVyVnUyanFQWi16RmdmMmV3bGhSS2pHbXhJN0NXQWxmYzctVllCLWVOWHY4azM3RU1HQVBfemdrVzlrYlRhd1hGemg1M0s4akVubVRoMWVLcG1JMy1PaHRhTjlQcVBSTW1IVkZueXdhY2lGRGVzM1pCczB3djJqNTEyOHB5QUJKaThITTNXbERoRmpWTkY3WVNLc3NKQWlxMHhvU2F5d2hzanlna3dKaXhNaEpyM0FNMExtZzZtendxeTNtYk5OSHFDeFZoaEl2VFVmZGJrUGZMdw?oc=5",
-        "domain": "thesofiaglobe",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T104441Z",
         "source": "GoogleNews"
       },
       {
@@ -119582,6 +119764,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU agrees largest-ever package of sanctions targeting almost 1600 individuals, entities in Russia’s military-industrial complex",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObVBleGFfVWNHMUVSakhJdVc4TXV1eFhTXzVyVnUyanFQWi16RmdmMmV3bGhSS2pHbXhJN0NXQWxmYzctVllCLWVOWHY4azM3RU1HQVBfemdrVzlrYlRhd1hGemg1M0s4akVubVRoMWVLcG1JMy1PaHRhTjlQcVBSTW1IVkZueXdhY2lGRGVzM1pCczB3djJqNTEyOHB5QUJKaThITTNXbERoRmpWTkY3WVNLc3NKQWlxMHhvU2F5d2hzanlna3dKaXhNaEpyM0FNMExtZzZtendxeTNtYk5OSHFDeFZoaEl2VFVmZGJrUGZMdw?oc=5",
+        "domain": "thesofiaglobe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T104441Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "ADA news: Cardano gives token issuers power to freeze, seize and restrict assets",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkRJRTdiUzQ5S0lUUkU4Sk5rVHN5MjRpZ1JtWUlneXgwYUpwRnBlODBxM2tTOTMtNVd5aURvOGFJQVkwRHk2a2FaZGd6eVpEaFBvREFkbHN3Y3JLcDVfcUVpOWVqZTBldTBLaEp4TmJKcXNiTmFjdGdhLWx0X0gzUXFRMWYzVFFzemRxUUpnck50TFI4NWNqNTQtUmpQa3dKdVE5VFBFeUxpSHdUNVcw?oc=5",
         "domain": "coindesk",
@@ -119591,12 +119782,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan imposes first vessel sanctions on 35 ships linked to Russian oil trade",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHlVNDZCYm54WmNadVlpSHY2bGozYW1lM2pMMkVRSzlKeGRYWUpHZjhUYkJsLVhkaUIxOU5OdU9Gekg4TzRkSk5CcGtPR29Tejg5RWpFNVBwY1VmdHc5N2VPWVRNVG9zOE51TzdnSXZpeFRwckxNQjhqYXo4Z0FiNEM1U1diTlUxWXp1R1g3cV9DOTVyZWfSAaMBQVVfeXFMTzNWSTVUTGNsNU1oRTJCa2pPcU16aXl5ZXMxRTNtdkNpMDlNTm1OTnk3SHZpQnNyckxjcjNwb09fWlpuLTJocEREamlROU9xRklFTWljTEotSG9TdXFtNExieXRvX3NoRTEtUElyUHdtSlJyN2hyQTk2NUlQeFIydVpjSEs0Umpxb04tcnVKalctUE1RQksteThhNE1vaTFDZ1JHdw?oc=5",
-        "domain": "bairdmaritime",
+        "title": "Russia: EU sanctions imposed on nearly 1,600 companies and individuals. Kallas",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQeUk3akcwaTNMVkh0RVJVMC1aRjA1NVJSV1M0VVlRZmdBc3c3NUhUZ3Jka1dtdG5RcUxWTDRsTlk3UEFHakFxdUFGeFY3NDV6U1UyMElSSURFQ1N0bS14VlJoZ19VQ2o5Q1pNSG9uMlRlMlBiVlZjeEhSV2FKV3ltX21yaUJtaHRsc25MY3ZTQXYwRlVrMTM4SVRjVm9FTUhvdGJ1WEJ1b2NTa3E0TVlud2ZhdDNoYnlSUDJ4Qmt2Yk9icGgtSjZKdmlaTWU4TWxJWGlfeG9lWW92WTVHanNqaVNHQnVJT2JUQXg3ZWkxaGtXM3dRVXp4dzYtNEFCUQ?oc=5",
+        "domain": "eunews",
         "language": "",
         "tone": 0,
-        "seendate": "20261006T010915Z",
+        "seendate": "20261012T153102Z",
         "source": "GoogleNews"
       },
       {
@@ -119636,12 +119827,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Zimbabwe: EU extends arms embargo",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVDhUZjFvYldWVG5QbTkyaG9QQlZGWGphV0dzWWI3dGt2WTByeXpQX2Ruanh3c0Rta0ZnWFU5RDdvT0NPbnJWTVNiMGVRS3NZSEk3UFhpQ1BhQi1ydkpFdmpZWEZhTUlIQWtYSmV4Z1NvWXNNZWFVb0lTR0NnOGZrUmU0aw?oc=5",
-        "domain": "table.briefings",
+        "title": "EU targets alleged North Korea-Russia arms trade in expanded sanctions crackdown",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmxvNUFGVzlQUzVCX2o0MzZqTkt4b2VtVzhmcFRRMzhQUF9PRmhpT0VIdGdnSlJMVUd0SGNnSUNVSUxRU2RKZl84WE96TWRLMWZtc2h5SXhfN2NDSXNicVV0Zlg1MGZLMTZOVEJKN0R3Uy05d0V2UHdZWHZRb2s5eGlJMVVaMlVCanRfZEt1M2dTMF9VMy13QmdOWktCTFM2cDZTNEg4X2Q1RE1MYXRlZW5BWU9rTERYVDdVbXgyWFJ4ZU9UUktIag?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261006T124938Z",
+        "seendate": "20261012T224518Z",
         "source": "GoogleNews"
       },
       {
@@ -119654,12 +119845,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU targets alleged North Korea-Russia arms trade in expanded sanctions crackdown",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmxvNUFGVzlQUzVCX2o0MzZqTkt4b2VtVzhmcFRRMzhQUF9PRmhpT0VIdGdnSlJMVUd0SGNnSUNVSUxRU2RKZl84WE96TWRLMWZtc2h5SXhfN2NDSXNicVV0Zlg1MGZLMTZOVEJKN0R3Uy05d0V2UHdZWHZRb2s5eGlJMVVaMlVCanRfZEt1M2dTMF9VMy13QmdOWktCTFM2cDZTNEg4X2Q1RE1MYXRlZW5BWU9rTERYVDdVbXgyWFJ4ZU9UUktIag?oc=5",
-        "domain": "thebrusselstimes",
+        "title": "UK sanctions crypto platforms accused of helping Russia evade restrictions",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MWkJuOFRFd05lMENWRHdPOXBTejZhbjVPb1E0Y1o0Ym5QSDRxNERMcFhVdXFoazdCX3ZSMUtjcmk4MDAxa0lsYlQtY0FURnJVaTNTVHlHTF9TMFJDTFZ1UHgzX2tQZGZ4dTlPcTJGeXlERV9kdlRJcGZ0ZHAxQQ?oc=5",
+        "domain": "cryptonews",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T212057Z",
+        "seendate": "20261008T181439Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNclV1RVBNbXlycERHX2JTR3lKMTZGU0tFcDNkT2NuTnV0SVl1YW1vU0tRdHN0emFuUEJscVRLVnBxa3Y5M3pNRlg3bHR6VkJWWGZGdVBlUWZvRnZEcFFWaE96Zk5UVmZBalNiSFZSUUZhUXhSSExXXzR4b2VrOEVZNFNqanZLeHdLdkk0S1Zic2YwUUI3ZVEzNEdaVXEtV2RLWmxJV19lTTNrUEJOYklVU1JoaVlhalN2c2tKOG1iWFV4T2Vn?oc=5",
+        "domain": "cryptoslate",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T094535Z",
         "source": "GoogleNews"
       },
       {
@@ -119672,30 +119872,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QSi10bzlYLVZSM3dhTmxPc1NhUXJ2d2xITmYyQ3F0Z3VpenJ4QTBiU1lLc1lNeDZTSlAzSlNhbVNyX1llNFRQRC1RckRrUXZpMkI2Yy1n?oc=5",
-        "domain": "cryptonews.net",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Cardano News: CIP-0113 Brings Compliance Rules to ADA Tokens",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcHRjRUxfNHhFWUczTG1GSFNKNnlsdEJuQS1tT2NtY3AtY3gtTEVaLVZaZUp5X2xaaHhMdFZNZTRBQnIyanNSVXZUY2VPSC11VS1qNGMxSllXWUVvWGIzelJ0cUxITC1YWEpabnl6Zjl6UjA4dnh3T3ZrRUxCZHlZN29zdDBYWmJKU0JUN3A0WTlCTFJGMmZXNE1EdV9lWk1lb3BjMkg0Q2hMcDhZTWdqUDFPZ0g0dUdnXzlKeg?oc=5",
         "domain": "tradingview",
         "language": "",
         "tone": 0,
         "seendate": "20261007T125432Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T180448Z",
         "source": "GoogleNews"
       },
       {
@@ -119708,12 +119890,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU imposes sanctions over Russian State Duma \"elections\" in occupied territories of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83bGp2ZFhHcDFpNkU0U0xOLTBQSE9XczZfQ0RYQVpxWWx1Y3IwRFFlYk9CUGV0SlpldjdnV1dKS1FtdGxHUkozUkVYT09xZ0dRd1VCMGoyVEtZaGlBeHJOaXpkV0FXU0w4NURBYllScnI?oc=5",
-        "domain": "news.google.com",
+        "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T104721Z",
+        "seendate": "20261009T180448Z",
         "source": "GoogleNews"
       },
       {
@@ -119723,6 +119905,33 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T110917Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Suspected Russia Links",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13MDlMRlFxQnlaeUt2aGp2SDZYeVBhSUhtZVRsUGh3UGRXbzdyTnlhSTdrVVY3cTdXM3FHZGhLdDdkejd0Q3RoM3AtWWR5YjJibHpwQUZVdng5djRacl9yQkhBM3ZOLVJLVDJIb0p6c0w3QTVFZXc?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T181500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU imposes sanctions over Russian State Duma \"elections\" in occupied territories of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83bGp2ZFhHcDFpNkU0U0xOLTBQSE9XczZfQ0RYQVpxWWx1Y3IwRFFlYk9CUGV0SlpldjdnV1dKS1FtdGxHUkozUkVYT09xZ0dRd1VCMGoyVEtZaGlBeHJOaXpkV0FXU0w4NURBYllScnI?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T104721Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Extends Chemical Weapons Sanctions Framework Until October 2031 - Oj",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWh4QllvTG9laG9xcURrRzVXQWJkQnEzRzRmT00tSmFCcVlsWjRkdGpsZlRWWTBWQS1NYVYzc09ibzJfZS1jdEVLbDlYbWl0ZXZIVm01M25BMTl0RFBXYV9NVEVpMVI5ZV8teDNrUkpteG1oazl2TmdHelRJZGNScjVfZDBtTGtxd1NLcWYtT0xYc25PWWZ0dFVYUWFFWUNsLTZRb2hETXh4MzdZSThDOQ?oc=5",
+        "domain": "odessajournal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T115220Z",
         "source": "GoogleNews"
       },
       {
@@ -119821,7 +120030,7 @@
         "domain": "theexpresstribune",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T191814Z",
+        "seendate": "20261012T233754Z",
         "source": "GoogleNews"
       },
       {
@@ -119831,6 +120040,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T120934Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK freezes $12M London penthouse of alleged Prince Group finance chief",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVW5Gc0h6c29mWmJsb0dlMlRlLVVEZFJKVmFGZmxyZ1V6S3BiS1VFUS1ILTNETE5FREU2U2swb2pTRklzQjFyX01WQ2otazRuc20yQ2ZwelhEbHNhTUJFUjJWNG8wc1gyVzcxWGgzb1p5ODBHeVZUOFFRdDRBQTYwbXRNMVYwQTVoOXdJT19kcmY2SE04cEZ5cUJEQzZtc2xGbGFhZkFEVzIyT0w1NERNRHdGSE0tRmttZE92M1pOVk9Cak5oc2RDbTJlMmFsQQ?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T101753Z",
         "source": "GoogleNews"
       },
       {
@@ -119845,7 +120063,7 @@
       {
         "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tX3c0Z3pieFU2M3dqVTJ6Nl9NSmtyQWhjWFhzYlA5d2xjR25iUEtIUXBnbk5WdzVaRUIzTzZqa0JRalVjeTgxYmtpNjBSLVVPaENTelNCMDFWMEdLemZOUlhfZkhGRGNRS1NocVhiMks1OUE2TE0yRDV4NA?oc=5",
-        "domain": "aol.co.uk",
+        "domain": "aol.com",
         "language": "",
         "tone": 0,
         "seendate": "20261007T122411Z",
@@ -119880,11 +120098,11 @@
       },
       {
         "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1FkaFhZZ0tkSXRzSGVuU1k2d1BpUVhuaDI4dlh4eUJHYmdCUkJKSVZNTk1pdmplaDVsUXVVMEJXcVp5aGhyUlV6V0dRSUNXb1ZnUnJ5ckM0cnRDZWpaN0p3N2dMYl9xUnhsd2ZtUmNIQl9PT0VINTU0aVNsUHZmbTl3UXpQc3NuMGI2VWpFYjlnd09LUU5SVmlkeVdzN2lSQzJaQ2dXNjNWYWNhZDFCNjNJck1Nay1KdzBrbzNsa0NRNURzZXhsVGx3?oc=5",
-        "domain": "theirishnews",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMXQ2N3BISTVYVks2V2hQLXo4MlRWR3N5TlJfb3ZSZGNGME9FQnRIYTdzREdpdkxVckpXRDd6MU1LcUFNb1cxZjZ1T1BzYy1lcWZSRFJMYU5DdU5JeHMzY203UHQ5YnBSWWVWVWJDdDFrcUdwbWFVdjVGYklKT0J4VVFnZnNGMTlELVFnSnA0U0JSb1VFY1NRRFprVFVQRVZyd1pWY2hLaGZKdzIySkRINFdYUHZINkFjUTdycTJsTnJzd1E?oc=5",
+        "domain": "londonnow",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T192658Z",
+        "seendate": "20261012T163216Z",
         "source": "GoogleNews"
       },
       {
@@ -119897,21 +120115,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU adds 1,569 names to Russia sanctions list in largest single package",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY05wYUR3YWM5aDBXQ2xTZ1JWaWdVREZFc1pINFZKaVp0cVBZZkhOay1lRGV1Wi0zNmxPRWpnOTFJTnZ1MG1nZTNQZ0tGZk1XNXRZMEQxZ0ZuQnNMSFo0TGdCX3Bwc2QtNld1SUR6YlZuLXdhVm5KazF2cUZCQXlJRnUzTzNLN1lHcjBxbE9Bdjc0b1RSTkNKc1ZkUUNJOVlo?oc=5",
+        "domain": "londondailynews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T064458Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Sanctioned tycoon Tagwirei handed investment portfolio as Mnangagwa splits finance ministry",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajI4ZWVWc1NnMlFaVk1nU1ZXVlk2Z3hZbTJDem8zYXZLNVBLZHRNSFkzYlRINVFoY2Q2TFAzT3Btb3FQMlExZmFucVdIeElNalFPUDVmTUxPQ21BOHZYZk5OdFhjUGRqa09jUjAzeHQzeW53aUhIYlBJV19mZVk2SWRQQmNvSGRLMTRLNkxVS2NQYXFWN05hcHV5Z0Zjdld6U3E3TXRWeF9qa2t3M2FkNEZxY3ZscUtQN2RmNUlGS2d2QjF4emlqLQ?oc=5",
         "domain": "thezimbabwean",
         "language": "",
         "tone": 0,
         "seendate": "20261009T043100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pWGhGNmowMlJzeE54OTFqTVNGbS00MEFqSl9ZSU9jbDQzQUI4ZW5LUnRmSURMLXQ5RmdOLTdTUlhmWXRtR1pNZ1ZHMTVhd1QwRWN3a1Flc2xoOWF4VHVMZXB2LXNVcjV2b0Z6NDI5SjhxTGZySDJn?oc=5",
-        "domain": "aol.ca",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T122411Z",
         "source": "GoogleNews"
       },
       {
@@ -119924,12 +120142,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether Reserve Deal Faces Senate Scrutiny Over Iran-Linked USDT",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pZnYyVVZtcGNudVlPX0dKNEdkLVFuRE5PeWZOUlpuVkQxM0NURFQtR2RNUlhXY1AtWHhKT0JVYThnU2V1RmVsMVdwX3loQW04MWdrT3VDMGZHSUVGZ19NeFVIdFgwZUZRMWxwbWpRQUtmZE9YWjkyb09OR29yMDg?oc=5",
-        "domain": "tronweekly",
+        "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pWGhGNmowMlJzeE54OTFqTVNGbS00MEFqSl9ZSU9jbDQzQUI4ZW5LUnRmSURMLXQ5RmdOLTdTUlhmWXRtR1pNZ1ZHMTVhd1QwRWN3a1Flc2xoOWF4VHVMZXB2LXNVcjV2b0Z6NDI5SjhxTGZySDJn?oc=5",
+        "domain": "aol.ca",
         "language": "",
         "tone": 0,
-        "seendate": "20261009T170000Z",
+        "seendate": "20261007T122411Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds seven people and organisations to North Korea sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSy1MU0dBbG5VY25YVkdJZ2ZQdW90cHJIQ3BiRUgwUnoxMmVlaGlvdU9kSHVjTTlGaU01TDBteEhkclRBc3pqeGY0bjNQTE9qQ0dDMkxqXy1RME1xZW1CV0d5anQtbGFzVXZFQ1BKWmJMWGlzdmlLS0dFZDl3RnZzUUpteFJzWmljeDdfZTFCQjBja1g0U1YxczFfcVgzM2M?oc=5",
+        "domain": "londondailynews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T102304Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Accuses Iran of RAF Fairford Plot and Sanctions Two Iranians",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUTl5VUtxbmM2WWw3QW5YX0lSSm9tWlRiQ1Y2Y1VQNloyWlFUcVB6Qzg1YUkwUS1IeG9tNTNBdWc2ZjFkYjN3Qy1uaHdzT3piMml5MDd2MnFaUXdUVEt1R0pyNTJGZWs?oc=5",
+        "domain": "suaragarut.id",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T023830Z",
         "source": "GoogleNews"
       }
     ]
