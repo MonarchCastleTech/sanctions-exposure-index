@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-14T04:48:49.354010+00:00",
+    "generated": "2026-10-14T11:46:36.120489+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T04:47:02.483015+00:00",
+    "issued_at": "2026-10-14T11:44:49.715819+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 33.3,
@@ -2227,6 +2227,17 @@
       },
       {
         "timestamp": "2026-10-14T04:47:02.483015+00:00",
+        "score": 33.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 72.9,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 11.4,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-14T11:44:49.715819+00:00",
         "score": 33.3,
         "level": "BASELINE",
         "components": {
@@ -119730,6 +119741,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Security Council, 10241st Meeting (AM) Haiti",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FRXRDd2lMdkxtLXQ5emNuUTNpaXloNFlXV1BmSnB6ZGZoQVUtTmZQczhZaDNWRWxlNDNnREJ1cGtsOWR5dnJ4cmtPeEY?oc=5",
+        "domain": "unmeetingscoverageandpressreleases",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T110708Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU1reExQeVBLaXU4dUY0MXlnLTY4c2x2WkcyYVJmYXdaOGVKMTJ2Yjkya2d4dkx1b0JZallRWTd1TjJqb3Roa1lnUEhiUGJzakF6WUZJOTZfX09aVW9fNVdscnl2eU5LbEFMZ2pVQWZqRzlhcmhSRUJRRVhwbVpOc05TVHBMTTQ5ZWthTlZhZzJ3aXZMNGZmMVlYcnNXVnRVSWZ6bUVWU3cxX1BkR1F5MNIBtgFBVV95cUxPYnNDbmRyQ1pVUUFxMTJCMllfNkpiNFF0enVlbWFKYUQ5V3ptekh4MXpuMHVMcmQ1MW9wdXZIUUd6bzROb0JIRzhJb2t3LTdERFNpX2xoR3NWM29FbTI0NXFLVW14Q050anRqVUZPaDh5OW9NX3ZjbjJ4VElqcjNCMmVkcXdfR21SS0dfRU5xMW1UVkt3NFMwTUFiRW9VaEhUUW9EVXRBVW5SRW1Ea3V4cGJ0c3dGdw?oc=5",
         "domain": "aljazeera",
@@ -119757,30 +119777,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK lifts sanctions on former Syrian Economy Minister Humam al-Jazairi",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHBqWGJqZFAtMGhKa09sVHZTUERlSnR4cS04RW1ES2N6RUtkQ3MtM18zMlpleVNPcC1WdGJiOUlIWURZTnFfTVZETUpTWWhlVkU2anc5alBNTWVSSUc3aDVheVdaaTFhVUFDNzRtdnY5M1JWdGdqYWhlak52X0lxcmNsRHd0VjhnODBTb3pCQ1RfdHMwZktMa3ZB?oc=5",
-        "domain": "anha",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T074521Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia: EU sanctions imposed on nearly 1,600 companies and individuals. Kallas",
         "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQeUk3akcwaTNMVkh0RVJVMC1aRjA1NVJSV1M0VVlRZmdBc3c3NUhUZ3Jka1dtdG5RcUxWTDRsTlk3UEFHakFxdUFGeFY3NDV6U1UyMElSSURFQ1N0bS14VlJoZ19VQ2o5Q1pNSG9uMlRlMlBiVlZjeEhSV2FKV3ltX21yaUJtaHRsc25MY3ZTQXYwRlVrMTM4SVRjVm9FTUhvdGJ1WEJ1b2NTa3E0TVlud2ZhdDNoYnlSUDJ4Qmt2Yk9icGgtSjZKdmlaTWU4TWxJWGlfeG9lWW92WTVHanNqaVNHQnVJT2JUQXg3ZWkxaGtXM3dRVXp4dzYtNEFCUQ?oc=5",
         "domain": "eunews",
         "language": "",
         "tone": 0,
         "seendate": "20261012T153102Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions shipyards and design bureaus key to Russia’s nuclear submarine fleet",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVE52TXMybkw4cFJ5Y090U2VKV05OeHRvWGFsQzlkLUJQTTVMVkVMMWFXb3pHR1lDdE9KRFVHV0dRNlVkVjFMbjdEdHUzdnVWSTV5U19MTFpKN19nd1FOZHQ4VzNTcFdsSGdCWEVOcHRiemR3U25fcWxicl9INGNrSG40QUNGQXZTdjN2S3JZeTlTRGhmT1lRWnl2SGxxQ082a2hLMHo3SzBHWlpQUnMtRml1bFZfWENVd0FNUGJSekpLZWZKR0E?oc=5",
-        "domain": "thebarentsobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T102006Z",
         "source": "GoogleNews"
       },
       {
@@ -119793,6 +119795,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU sanctions shipyards and design bureaus key to Russia’s nuclear submarine fleet",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVE52TXMybkw4cFJ5Y090U2VKV05OeHRvWGFsQzlkLUJQTTVMVkVMMWFXb3pHR1lDdE9KRFVHV0dRNlVkVjFMbjdEdHUzdnVWSTV5U19MTFpKN19nd1FOZHQ4VzNTcFdsSGdCWEVOcHRiemR3U25fcWxicl9INGNrSG40QUNGQXZTdjN2S3JZeTlTRGhmT1lRWnl2SGxxQ082a2hLMHo3SzBHWlpQUnMtRml1bFZfWENVd0FNUGJSekpLZWZKR0E?oc=5",
+        "domain": "thebarentsobserver",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T102006Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU Council imposes record sanctions on Russia, targeting 1,646 individuals and entities",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1hNUHlST2pydFFlNUF6SEFxZE9qbkY1a1ZLelQ4OVpzZGg4WmlJNlJ0ZjZINTBZczNZNHZkVEFDanhFRzRRVjhocUl1YkJDWFhVTVBmMHBLWk1MdmZFekxSdEhSNE9EREhOV1hLbE82RDljSWhSdzNEenR2TnBVcjJETmpvN0RUXzBoeU04blN4blFKTWJSQ093MHJ0NFJoLUVUdGpnQmllcDBwUzJZTGlncHp5LWcyNmpLamZpSEhjdERrcW13ZTdyTmhsUTdPVXJ5VDVUNi1ESkJ1V3NiVEpscTBYNTg?oc=5",
         "domain": "insighteumonitoring",
@@ -119802,21 +119813,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The EU extended sanctions against Russia for hybrid attacks for another year",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3Z4dG41T0VHV20yWVFEcVZpUXVteGNrU3VpOG5VUDFMS1NwSElwY3pHNVNNbzFsZkUyVi1yRnVqaGpVVnlJa19aTWxOemFwcEI5d2ZMaHhUa2NRQkQ5ckY2VUJZbkdNT295R0NRVzNvNEdjdXU4am9TeU40MkhSQU1xbFhSZkRLeUFldExtQWFOdHBYWnF1eEZXQUFUbDFS0gGfAUFVX3lxTFBjWkszQUpJdkZ5anQzdkI0Y0NsV09DamJEQjloMlplZW1mQUNRQi14cVhMTEVGYU85ZTBUZ3BzTmY5LVBsdlhvcmZvVkg4LXZTUzFGUkpGbzNwcm5wTmRRQnNfLUlQeVFPYTJ5Zm9NazFDRHYyaktPSnl6Y29kbjI1TGxPRzNYVEtSQnhldEY0Mnc2OW54MnJfbTdqajM5aw?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T123609Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWF9yYmRxUE9qMDM5M0E1OTNxSklpcXh3Vmg1dk0zSmRJR3dTSmJsZ0swcHpaZHlwZ3cxLS1LOU40N1A4WDNLYmlwVG55TTVMM0tfaTVmZVlLWkduQ2J1b01HUlZCZkhwVXA1djVvTHlrUUVrNmlsWjdRZ1JkTEtsTzBBVndZWnUtSXRScFcyazUyajVXNVBsUFNtRjI?oc=5",
         "domain": "thekyivindependent",
         "language": "",
         "tone": 0,
         "seendate": "20261009T163456Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The EU extended sanctions against Russia for hybrid attacks for another year",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3Z4dG41T0VHV20yWVFEcVZpUXVteGNrU3VpOG5VUDFMS1NwSElwY3pHNVNNbzFsZkUyVi1yRnVqaGpVVnlJa19aTWxOemFwcEI5d2ZMaHhUa2NRQkQ5ckY2VUJZbkdNT295R0NRVzNvNEdjdXU4am9TeU40MkhSQU1xbFhSZkRLeUFldExtQWFOdHBYWnF1eEZXQUFUbDFS0gGfAUFVX3lxTFBjWkszQUpJdkZ5anQzdkI0Y0NsV09DamJEQjloMlplZW1mQUNRQi14cVhMTEVGYU85ZTBUZ3BzTmY5LVBsdlhvcmZvVkg4LXZTUzFGUkpGbzNwcm5wTmRRQnNfLUlQeVFPYTJ5Zm9NazFDRHYyaktPSnl6Y29kbjI1TGxPRzNYVEtSQnhldEY0Mnc2OW54MnJfbTdqajM5aw?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T123609Z",
         "source": "GoogleNews"
       },
       {
@@ -119901,6 +119912,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Somalia sanctions ex-regional leader over alleged Shabaab links",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFVnV0tiSllsRUEzclVaZHNkc19RUnNlZ0NQZmRaR0IxQnp1ZmVjT2dMNVAxVkswSWFycVlnLVBjSWJnaWxub3FjWnJ1cEtITTU5eVBIdk9tNkdpMkNVNEZqcE1fYzF0S1RWeE1pM0Zsbm0tTjBPTGM1alZlTTRjWEJFMERDTVhUUUthV3UyNFg3QlhCOFdjeTloSF90QmkxU3RVNi1UUXA1bEd2OVE?oc=5",
+        "domain": "somaliatoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T170630Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU adopts new sanctions against Russia targeting nearly 1.600 individuals and entities. Kaja Kallas: \"Europe shows a united front once again. The biggest expansion of our sanctions list since Russia started its war\"",
         "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQdUFJdzktWU95OVZBX2E3eG0welRnOHYxeElBZVdYRVZ4XzF1OE15SUs2QmlkbV9TamRZZW1uS2htblRaLU9NRXBRakpMN2NMWGk0eUszOEFBcHdRSC1aT083X1BaUG13RUUxcHU0UnFSUW9RMmtPMF91azBQcVJjRFNDNmJlYi1sYUc1b2d0NU83bnA3cFJhZ1FoTms3a0p3T2U2b0tvZzJFUDd4ZHpGTFM1bTRoeTRIa0dxQUhodlQ5YUg4WG04Z01ybDJINEJUVnNTbjdheWRiNTVtQnFLWVdHQ1oxUlFYa0s5ZnNNRGJ2S0lwS0NFSU03Q2dRLTdkR3VUTmpsRkVNZ1E2aDJuWkxSalF5NWhuNFpfeFQ1ZFdTd2JXV1lQUHpzc3g?oc=5",
         "domain": "cotidianul.md",
@@ -119943,15 +119963,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T212009Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Surprise move by Britain: Lifting sanctions on former Syrian Economy Minister Humam al-Jaza'iri",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPemtialdQMnl5WWUwYnZrQk5wLVEyU0dBSkZjblNkMTMtbjVESGZuUFItSVAzalBPREtiekoyQzNXQmdqWDd1a0p6b1FZTnBYQUlfUTFkaXR5SmQ1Z3laZ1NZZHhZRVVLOHVBR1pwQzlqbG9WU2RhaHRLMXl5WTIyU2lUcUtldFIySS1fVmh0ZExRc1hjazcyaTFIY1ZqWjFYb3hlYmo5LVBLRWFGcFpMREVidHJWckdMLTNyYXR5Ym5DNmR6SXJCNEVVZExYeUtvLU1lSXlGbllFZm5Camc?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T075950Z",
         "source": "GoogleNews"
       },
       {
@@ -120047,19 +120058,10 @@
       {
         "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tX3c0Z3pieFU2M3dqVTJ6Nl9NSmtyQWhjWFhzYlA5d2xjR25iUEtIUXBnbk5WdzVaRUIzTzZqa0JRalVjeTgxYmtpNjBSLVVPaENTelNCMDFWMEdLemZOUlhfZkhGRGNRS1NocVhiMks1OUE2TE0yRDV4NA?oc=5",
-        "domain": "aol.com",
+        "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20261007T122411Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK freezes $12M London penthouse of alleged Prince Group finance chief",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVW5Gc0h6c29mWmJsb0dlMlRlLVVEZFJKVmFGZmxyZ1V6S3BiS1VFUS1ILTNETE5FREU2U2swb2pTRklzQjFyX01WQ2otazRuc20yQ2ZwelhEbHNhTUJFUjJWNG8wc1gyVzcxWGgzb1p5ODBHeVZUOFFRdDRBQTYwbXRNMVYwQTVoOXdJT19kcmY2SE04cEZ5cUJEQzZtc2xGbGFhZkFEVzIyT0w1NERNRHdGSE0tRmttZE92M1pOVk9Cak5oc2RDbTJlMmFsQQ?oc=5",
-        "domain": "tradingview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T101753Z",
         "source": "GoogleNews"
       },
       {
@@ -120100,20 +120102,11 @@
       },
       {
         "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUlEtenpXV1BYb1ZxcTBPblhpcVdRSmRTMGs4bnR0MjY2bEV0Wnk2V1NWLVg0MGdwdTZ4eGYtRUkxdURaS19CTTNIblpuMEtyZTRDdjZuVzdYNE1iRVp4QUxmU3pSbXhoU0YwVEllNmVsYy1CNUFyTEEzbFgta0lXdXc0WVJuaDg?oc=5",
-        "domain": "aol.co.uk",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1FkaFhZZ0tkSXRzSGVuU1k2d1BpUVhuaDI4dlh4eUJHYmdCUkJKSVZNTk1pdmplaDVsUXVVMEJXcVp5aGhyUlV6V0dRSUNXb1ZnUnJ5ckM0cnRDZWpaN0p3N2dMYl9xUnhsd2ZtUmNIQl9PT0VINTU0aVNsUHZmbTl3UXpQc3NuMGI2VWpFYjlnd09LUU5SVmlkeVdzN2lSQzJaQ2dXNjNWYWNhZDFCNjNJck1Nay1KdzBrbzNsa0NRNURzZXhsVGx3?oc=5",
+        "domain": "theirishnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T162801Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMXQ2N3BISTVYVks2V2hQLXo4MlRWR3N5TlJfb3ZSZGNGME9FQnRIYTdzREdpdkxVckpXRDd6MU1LcUFNb1cxZjZ1T1BzYy1lcWZSRFJMYU5DdU5JeHMzY203UHQ5YnBSWWVWVWJDdDFrcUdwbWFVdjVGYklKT0J4VVFnZnNGMTlELVFnSnA0U0JSb1VFY1NRRFprVFVQRVZyd1pWY2hLaGZKdzIySkRINFdYUHZINkFjUTdycTJsTnJzd1E?oc=5",
-        "domain": "londonnow",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T163216Z",
+        "seendate": "20261012T192658Z",
         "source": "GoogleNews"
       },
       {
@@ -120126,12 +120119,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "SECP issues guidebook to strengthen compliance with targeted financial sanctions",
+        "title": "SECP issues guidebook on targeted financial sanctions compli",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkNOalNFTzEwazdwdndYam8tN243eVQxVDdTekhZWE40aFF4S1lqNW1xYnlqX2xTX1hEY3hLckd1c29udE1mbXkyenZXOHdEZEozMmh4dHc2V2NCNTlBdmU2c01PY1I3QldBaUhRblprSzZ0VDVtVjVTV2xFeUs4dkFDRzlDNkpJYVpGVTZFRzJiTUJIQmVIUnFZZU5hYjF5MmtHdnpna20wSm1VU2pSMUl3WjkweDBpSERENkpPZnpCM1dfaGc?oc=5",
         "domain": "profitbypakistantoday",
         "language": "",
         "tone": 0,
         "seendate": "20261013T165141Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds 1,569 names to Russia sanctions list in largest single package",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY05wYUR3YWM5aDBXQ2xTZ1JWaWdVREZFc1pINFZKaVp0cVBZZkhOay1lRGV1Wi0zNmxPRWpnOTFJTnZ1MG1nZTNQZ0tGZk1XNXRZMEQxZ0ZuQnNMSFo0TGdCX3Bwc2QtNld1SUR6YlZuLXdhVm5KazF2cUZCQXlJRnUzTzNLN1lHcjBxbE9Bdjc0b1RSTkNKc1ZkUUNJOVlo?oc=5",
+        "domain": "londondailynews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T064458Z",
         "source": "GoogleNews"
       },
       {
@@ -120168,6 +120170,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T102304Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Accuses Iran of RAF Fairford Plot and Sanctions Two Iranians",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUTl5VUtxbmM2WWw3QW5YX0lSSm9tWlRiQ1Y2Y1VQNloyWlFUcVB6Qzg1YUkwUS1IeG9tNTNBdWc2ZjFkYjN3Qy1uaHdzT3piMml5MDd2MnFaUXdUVEt1R0pyNTJGZWs?oc=5",
+        "domain": "suaragarut.id",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T023830Z",
         "source": "GoogleNews"
       }
     ]
