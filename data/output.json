@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-13T22:41:39.855045+00:00",
+    "generated": "2026-10-14T04:48:49.354010+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-13T22:39:53.075565+00:00",
+    "issued_at": "2026-10-14T04:47:02.483015+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 35.2,
-    "level": "WATCH",
+    "score": 33.3,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 77.1,
+        "score": 72.9,
         "releases_considered": 100,
         "current_7d_designation_releases": 5,
         "current_7d_all_releases": 6,
-        "prior_7d_designation_releases": 5,
+        "prior_7d_designation_releases": 4,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.5,
-        "anomaly_z": 1.69,
+        "baseline_weekly_median": 2.0,
+        "anomaly_z": 1.35,
         "themes": [
           "counter_narcotics",
           "counter_terrorism",
@@ -230,11 +230,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 13.0,
+        "score": 11.4,
         "current_7d_releases": 6,
         "current_weighted_term_rate": 1.583,
-        "baseline_weeks": 12,
-        "anomaly_z": 0.2,
+        "baseline_weeks": 11,
+        "anomaly_z": -0.31,
         "matched_release_count": 4,
         "relief_release_count": 3,
         "evidence": [
@@ -393,8 +393,8 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 77.1,
-        "level": "SEVERE",
+        "score": 72.9,
+        "level": "ELEVATED",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
@@ -2224,6 +2224,17 @@
           "official_posture_shift": 13.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-14T04:47:02.483015+00:00",
+        "score": 33.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 72.9,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 11.4,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2288,8 +2299,8 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "35.2/100",
-      "delta": "WATCH"
+      "value": "33.3/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
@@ -119755,15 +119766,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "ADA news: Cardano gives token issuers power to freeze, seize and restrict assets",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkRJRTdiUzQ5S0lUUkU4Sk5rVHN5MjRpZ1JtWUlneXgwYUpwRnBlODBxM2tTOTMtNVd5aURvOGFJQVkwRHk2a2FaZGd6eVpEaFBvREFkbHN3Y3JLcDVfcUVpOWVqZTBldTBLaEp4TmJKcXNiTmFjdGdhLWx0X0gzUXFRMWYzVFFzemRxUUpnck50TFI4NWNqNTQtUmpQa3dKdVE5VFBFeUxpSHdUNVcw?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T041133Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia: EU sanctions imposed on nearly 1,600 companies and individuals. Kallas",
         "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQeUk3akcwaTNMVkh0RVJVMC1aRjA1NVJSV1M0VVlRZmdBc3c3NUhUZ3Jka1dtdG5RcUxWTDRsTlk3UEFHakFxdUFGeFY3NDV6U1UyMElSSURFQ1N0bS14VlJoZ19VQ2o5Q1pNSG9uMlRlMlBiVlZjeEhSV2FKV3ltX21yaUJtaHRsc25MY3ZTQXYwRlVrMTM4SVRjVm9FTUhvdGJ1WEJ1b2NTa3E0TVlud2ZhdDNoYnlSUDJ4Qmt2Yk9icGgtSjZKdmlaTWU4TWxJWGlfeG9lWW92WTVHanNqaVNHQnVJT2JUQXg3ZWkxaGtXM3dRVXp4dzYtNEFCUQ?oc=5",
         "domain": "eunews",
@@ -119860,6 +119862,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261007T121900Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QSi10bzlYLVZSM3dhTmxPc1NhUXJ2d2xITmYyQ3F0Z3VpenJ4QTBiU1lLc1lNeDZTSlAzSlNhbVNyX1llNFRQRC1RckRrUXZpMkI2Yy1n?oc=5",
+        "domain": "cryptonews.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -119971,6 +119982,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Foreign Secretary statement on Iran, 12 October",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2NoeUstc3c1aFNldU1HekVxX1ZxM3BkbGNZbWsyMEV1NGM2N1JBWUk4TmhZVS1iaUxZbVhUQVg4ZzhSZVpoRG4tWUFwQW4xUHFHRnRJRkZ2VkoxVmQtN04zUEtVMUtmUUVmZ0szVXBsU1FMY3JnUVNkRWlRdUloN1BQS3dIQ3U3?oc=5",
+        "domain": "gov.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T145400Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UK imposes sanctions on three Kyrgyzstan-registered companies",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEIzS21vOGwxRXhHVk0xYVFHck1UcUhYR3VycEZ3WmNmcGRDU1l0OHRYeXh5ZGVWQkRrSU5pNEliQkFHQW1ZNWdRNkVaNUdMZl9CRHdwdk45Z1hjN1lUSUhCa0w4X00wSF94b1hGaXJkX0hjS2MwbGJpZl9Wa2U2d3ZGdkhhWFk1akdQUXhBRQ?oc=5",
         "domain": "24.kg",
@@ -119995,15 +120015,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261008T190609Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Foreign Secretary statement on Iran, 12 October",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2NoeUstc3c1aFNldU1HekVxX1ZxM3BkbGNZbWsyMEV1NGM2N1JBWUk4TmhZVS1iaUxZbVhUQVg4ZzhSZVpoRG4tWUFwQW4xUHFHRnRJRkZ2VkoxVmQtN04zUEtVMUtmUUVmZ0szVXBsU1FMY3JnUVNkRWlRdUloN1BQS3dIQ3U3?oc=5",
-        "domain": "gov.uk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T145400Z",
         "source": "GoogleNews"
       },
       {
@@ -120034,21 +120045,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU prolongs individual sanctions over Russian destabilizing actions abroad",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTJTT2tkb1loRXJiZ0FiMG5iVjFReEZxaVBmUHZMMEhsbVh4X18yQWhIN0xUVHhuNmlKVFFFYnRzZFhfRmY3QTNjTUQ3dWZCS2hoYndWdWJJQ1NFa2VUSXdGamxwenNTX0RDa1Y4MExqbWV4WlNJV0dMVTRTa043RWp0V1BBQnN3TTFOMTJLVDRSeWZfTmk3QTRPUzdOb1JRNWt4ONIBqgFBVV95cUxQbVJRYUpNcUNhNE5abDUzTThZWFRyUkFhektDVVdTMEhCZmlIZklZWW5OWEhTWHZLQ2pEUHo1TUU0alkzLWNaNXB0S2M4eFhyeFZidmMxTEJQVmVienR4bFNodFVLTDdZZkNBVHdWb1JSWHllRnNVQ0NUMTdFaUdsaW0xRldBbnVvYTd3SW5uQ1JyZjJmeXF0QlZNTWlVU0NZT2RHcjRoWnFfQQ?oc=5",
-        "domain": "report.az",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T120744Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tX3c0Z3pieFU2M3dqVTJ6Nl9NSmtyQWhjWFhzYlA5d2xjR25iUEtIUXBnbk5WdzVaRUIzTzZqa0JRalVjeTgxYmtpNjBSLVVPaENTelNCMDFWMEdLemZOUlhfZkhGRGNRS1NocVhiMks1OUE2TE0yRDV4NA?oc=5",
         "domain": "aol.com",
         "language": "",
         "tone": 0,
         "seendate": "20261007T122411Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK freezes $12M London penthouse of alleged Prince Group finance chief",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVW5Gc0h6c29mWmJsb0dlMlRlLVVEZFJKVmFGZmxyZ1V6S3BiS1VFUS1ILTNETE5FREU2U2swb2pTRklzQjFyX01WQ2otazRuc20yQ2ZwelhEbHNhTUJFUjJWNG8wc1gyVzcxWGgzb1p5ODBHeVZUOFFRdDRBQTYwbXRNMVYwQTVoOXdJT19kcmY2SE04cEZ5cUJEQzZtc2xGbGFhZkFEVzIyT0w1NERNRHdGSE0tRmttZE92M1pOVk9Cak5oc2RDbTJlMmFsQQ?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T101753Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU prolongs individual sanctions over Russian destabilizing actions abroad",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTJTT2tkb1loRXJiZ0FiMG5iVjFReEZxaVBmUHZMMEhsbVh4X18yQWhIN0xUVHhuNmlKVFFFYnRzZFhfRmY3QTNjTUQ3dWZCS2hoYndWdWJJQ1NFa2VUSXdGamxwenNTX0RDa1Y4MExqbWV4WlNJV0dMVTRTa043RWp0V1BBQnN3TTFOMTJLVDRSeWZfTmk3QTRPUzdOb1JRNWt4ONIBqgFBVV95cUxQbVJRYUpNcUNhNE5abDUzTThZWFRyUkFhektDVVdTMEhCZmlIZklZWW5OWEhTWHZLQ2pEUHo1TUU0alkzLWNaNXB0S2M4eFhyeFZidmMxTEJQVmVienR4bFNodFVLTDdZZkNBVHdWb1JSWHllRnNVQ0NUMTdFaUdsaW0xRldBbnVvYTd3SW5uQ1JyZjJmeXF0QlZNTWlVU0NZT2RHcjRoWnFfQQ?oc=5",
+        "domain": "report.az",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T120744Z",
         "source": "GoogleNews"
       },
       {
@@ -120080,11 +120100,20 @@
       },
       {
         "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1FkaFhZZ0tkSXRzSGVuU1k2d1BpUVhuaDI4dlh4eUJHYmdCUkJKSVZNTk1pdmplaDVsUXVVMEJXcVp5aGhyUlV6V0dRSUNXb1ZnUnJ5ckM0cnRDZWpaN0p3N2dMYl9xUnhsd2ZtUmNIQl9PT0VINTU0aVNsUHZmbTl3UXpQc3NuMGI2VWpFYjlnd09LUU5SVmlkeVdzN2lSQzJaQ2dXNjNWYWNhZDFCNjNJck1Nay1KdzBrbzNsa0NRNURzZXhsVGx3?oc=5",
-        "domain": "theirishnews",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUlEtenpXV1BYb1ZxcTBPblhpcVdRSmRTMGs4bnR0MjY2bEV0Wnk2V1NWLVg0MGdwdTZ4eGYtRUkxdURaS19CTTNIblpuMEtyZTRDdjZuVzdYNE1iRVp4QUxmU3pSbXhoU0YwVEllNmVsYy1CNUFyTEEzbFgta0lXdXc0WVJuaDg?oc=5",
+        "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T192658Z",
+        "seendate": "20261012T162801Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMXQ2N3BISTVYVks2V2hQLXo4MlRWR3N5TlJfb3ZSZGNGME9FQnRIYTdzREdpdkxVckpXRDd6MU1LcUFNb1cxZjZ1T1BzYy1lcWZSRFJMYU5DdU5JeHMzY203UHQ5YnBSWWVWVWJDdDFrcUdwbWFVdjVGYklKT0J4VVFnZnNGMTlELVFnSnA0U0JSb1VFY1NRRFprVFVQRVZyd1pWY2hLaGZKdzIySkRINFdYUHZINkFjUTdycTJsTnJzd1E?oc=5",
+        "domain": "londonnow",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T163216Z",
         "source": "GoogleNews"
       },
       {
@@ -120097,21 +120126,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "SECP issues guidebook on targeted financial sanctions compli",
+        "title": "SECP issues guidebook to strengthen compliance with targeted financial sanctions",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkNOalNFTzEwazdwdndYam8tN243eVQxVDdTekhZWE40aFF4S1lqNW1xYnlqX2xTX1hEY3hLckd1c29udE1mbXkyenZXOHdEZEozMmh4dHc2V2NCNTlBdmU2c01PY1I3QldBaUhRblprSzZ0VDVtVjVTV2xFeUs4dkFDRzlDNkpJYVpGVTZFRzJiTUJIQmVIUnFZZU5hYjF5MmtHdnpna20wSm1VU2pSMUl3WjkweDBpSERENkpPZnpCM1dfaGc?oc=5",
         "domain": "profitbypakistantoday",
         "language": "",
         "tone": 0,
         "seendate": "20261013T165141Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adds 1,569 names to Russia sanctions list in largest single package",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY05wYUR3YWM5aDBXQ2xTZ1JWaWdVREZFc1pINFZKaVp0cVBZZkhOay1lRGV1Wi0zNmxPRWpnOTFJTnZ1MG1nZTNQZ0tGZk1XNXRZMEQxZ0ZuQnNMSFo0TGdCX3Bwc2QtNld1SUR6YlZuLXdhVm5KazF2cUZCQXlJRnUzTzNLN1lHcjBxbE9Bdjc0b1RSTkNKc1ZkUUNJOVlo?oc=5",
-        "domain": "londondailynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T064458Z",
         "source": "GoogleNews"
       },
       {
@@ -120148,15 +120168,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T102304Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Accuses Iran of RAF Fairford Plot and Sanctions Two Iranians",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUTl5VUtxbmM2WWw3QW5YX0lSSm9tWlRiQ1Y2Y1VQNloyWlFUcVB6Qzg1YUkwUS1IeG9tNTNBdWc2ZjFkYjN3Qy1uaHdzT3piMml5MDd2MnFaUXdUVEt1R0pyNTJGZWs?oc=5",
-        "domain": "suaragarut.id",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T023830Z",
         "source": "GoogleNews"
       }
     ]
