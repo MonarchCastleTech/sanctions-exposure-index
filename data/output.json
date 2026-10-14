@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-14T17:07:38.957273+00:00",
+    "generated": "2026-10-14T21:39:07.294849+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T17:05:52.471717+00:00",
+    "issued_at": "2026-10-14T21:37:21.026949+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 33.5,
+    "score": 33.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -146,12 +146,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 1.0,
+        "score": 0.0,
         "current_count": 19430,
-        "previous_count": 19431,
+        "previous_count": 19430,
         "added_count": 0,
-        "removed_count": 1,
-        "changed": true,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-10-13",
         "sha256": "1022b462f33c607007d671c59f6cbd692d7dd1479b736c243e9f747695bf01cb",
         "top_programs": [
@@ -223,14 +223,7 @@
           }
         ],
         "added": [],
-        "removed": [
-          {
-            "id": "25078",
-            "name": "RODRIGUEZ GOMEZ, Jorge Jesus",
-            "type": "individual",
-            "program": "VENEZUELA"
-          }
-        ],
+        "removed": [],
         "retained": false
       },
       {
@@ -2264,6 +2257,17 @@
           "official_posture_shift": 11.4,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-14T21:37:21.026949+00:00",
+        "score": 33.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 72.9,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 11.4,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2328,7 +2332,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "33.5/100",
+      "value": "33.3/100",
       "delta": "BASELINE"
     },
     {
@@ -119753,12 +119757,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Security Council, 10241st Meeting (AM) Haiti",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FRXRDd2lMdkxtLXQ5emNuUTNpaXloNFlXV1BmSnB6ZGZoQVUtTmZQczhZaDNWRWxlNDNnREJ1cGtsOWR5dnJ4cmtPeEY?oc=5",
-        "domain": "unmeetingscoverageandpressreleases",
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
+        "domain": "theguardian",
         "language": "",
         "tone": 0,
-        "seendate": "20261014T110708Z",
+        "seendate": "20261014T165100Z",
         "source": "GoogleNews"
       },
       {
@@ -119786,6 +119790,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T153102Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Renews Haiti Sanctions to Cut Off Gang Weapons",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTjc0T2pyZzY5Vk45bTlTS1k2WUhGS1U2d2h6YkpkNVNxb2ZWek9INm9UZWFUazBjT1lxZnZHYlljSWY5ZDMwTVRKVHBTdHlmTTZoY1ZHYUJ4WlVnZTAzaUtRTkJpM3Z3TmM5QWczb2tURmZobDR5QWxZVXl3bHNxSTN5bw?oc=5",
+        "domain": "miragenews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T211200Z",
         "source": "GoogleNews"
       },
       {
@@ -119870,30 +119883,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK sanctions crypto platforms accused of helping Russia evade restrictions",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MWkJuOFRFd05lMENWRHdPOXBTejZhbjVPb1E0Y1o0Ym5QSDRxNERMcFhVdXFoazdCX3ZSMUtjcmk4MDAxa0lsYlQtY0FURnJVaTNTVHlHTF9TMFJDTFZ1UHgzX2tQZGZ4dTlPcTJGeXlERV9kdlRJcGZ0ZHAxQQ?oc=5",
+        "domain": "cryptonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T181439Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QSi10bzlYLVZSM3dhTmxPc1NhUXJ2d2xITmYyQ3F0Z3VpenJ4QTBiU1lLc1lNeDZTSlAzSlNhbVNyX1llNFRQRC1RckRrUXZpMkI2Yy1n?oc=5",
         "domain": "cryptonews.net",
         "language": "",
         "tone": 0,
         "seendate": "20261008T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Somalia sanctions ex-regional leader over alleged Shabaab links",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFVnV0tiSllsRUEzclVaZHNkc19RUnNlZ0NQZmRaR0IxQnp1ZmVjT2dMNVAxVkswSWFycVlnLVBjSWJnaWxub3FjWnJ1cEtITTU5eVBIdk9tNkdpMkNVNEZqcE1fYzF0S1RWeE1pM0Zsbm0tTjBPTGM1alZlTTRjWEJFMERDTVhUUUthV3UyNFg3QlhCOFdjeTloSF90QmkxU3RVNi1UUXA1bEd2OVE?oc=5",
-        "domain": "somaliatoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T170630Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Suspected Russia Links",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13MDlMRlFxQnlaeUt2aGp2SDZYeVBhSUhtZVRsUGh3UGRXbzdyTnlhSTdrVVY3cTdXM3FHZGhLdDdkejd0Q3RoM3AtWWR5YjJibHpwQUZVdng5djRacl9yQkhBM3ZOLVJLVDJIb0p6c0w3QTVFZXc?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T181500Z",
         "source": "GoogleNews"
       },
       {
@@ -119921,6 +119925,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261014T144306Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Somalia sanctions ex-regional leader over alleged Shabaab links",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFVnV0tiSllsRUEzclVaZHNkc19RUnNlZ0NQZmRaR0IxQnp1ZmVjT2dMNVAxVkswSWFycVlnLVBjSWJnaWxub3FjWnJ1cEtITTU5eVBIdk9tNkdpMkNVNEZqcE1fYzF0S1RWeE1pM0Zsbm0tTjBPTGM1alZlTTRjWEJFMERDTVhUUUthV3UyNFg3QlhCOFdjeTloSF90QmkxU3RVNi1UUXA1bEd2OVE?oc=5",
+        "domain": "somaliatoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T170630Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Suspected Russia Links",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13MDlMRlFxQnlaeUt2aGp2SDZYeVBhSUhtZVRsUGh3UGRXbzdyTnlhSTdrVVY3cTdXM3FHZGhLdDdkejd0Q3RoM3AtWWR5YjJibHpwQUZVdng5djRacl9yQkhBM3ZOLVJLVDJIb0p6c0w3QTVFZXc?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T181500Z",
         "source": "GoogleNews"
       },
       {
@@ -119966,15 +119988,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T212009Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Cardano Launches CIP-0113 Token Standard With Built-In Freeze and Seizure Controls",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qSjZfWGl6YS1YNzhkMm4tdTlKN1dyeExfbHdMQWJIVXo0QkgtOHJyNnlGUTlCMTY5eXpTQ0JDLUZ6ajcwZzFHNVJjblk5LTJKaXUzZlpWZ2ZwREdEalZ6d3dMZWExUWRwN2xzUVZiaVluZG9FM1E?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261007T180500Z",
         "source": "GoogleNews"
       },
       {
@@ -120059,12 +120072,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
-        "domain": "aol.co.uk",
+        "title": "Japan cross-party group's head thanks Taiwan for support after disasters",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NN2IxcUdUXzB0VHl3ME5nbG11RFpJMEM0MFRQWjdzV25sQy1XNWwxZEo5b2NtV0swckJhNFNnYVFYMlFnakd1REw0ZWtMWkVJVEhFU1lOdEFKNUpCZ2JURDg3bUwxemdndG1zRGoyWkhUZw?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261014T165246Z",
+        "seendate": "20261012T034547Z",
         "source": "GoogleNews"
       },
       {
@@ -120101,15 +120114,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T192658Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU renews chemical weapons sanctions framework until 2031",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUpWTkRKcE1uOS1xYWlHODIwM2p4YnpoUFNPdFNYc3g5ZklDSWFkejh4QkQzcDlWYjdKWDJDVHRDSG9MaVNHVW14NXItUWZxaGs4cjdtQlI0S1B4S09mTHZNTHJJS29OaEYyNTR4MVdlZU02am9LREpoVXdvN0QtMU5vTGllYVIwV1pMNzVJSEU?oc=5",
-        "domain": "londondailynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T083739Z",
         "source": "GoogleNews"
       },
       {
