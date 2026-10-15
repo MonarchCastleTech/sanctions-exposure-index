@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-15T11:22:41.243370+00:00",
+    "generated": "2026-10-15T16:56:20.452839+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-15T11:20:54.658023+00:00",
+    "issued_at": "2026-10-15T16:54:33.968691+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 17.3,
+    "score": 30.8,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -105,14 +105,14 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19430,
+        "score": 67.5,
+        "current_count": 19457,
         "previous_count": 19430,
-        "added_count": 0,
+        "added_count": 27,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-10-13",
-        "sha256": "1022b462f33c607007d671c59f6cbd692d7dd1479b736c243e9f747695bf01cb",
+        "changed": true,
+        "publish_date": "2026-10-15",
+        "sha256": "0dee0d2de5e5a240e3e545741ee2903cfa3508666d2f2841d5d1ff2d59f0ce71",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -128,7 +128,7 @@
           },
           {
             "program": "IRAN-EO13902",
-            "count": 974
+            "count": 1000
           },
           {
             "program": "GLOMAG",
@@ -166,11 +166,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 10029
+            "count": 10040
           },
           {
             "type": "individual",
-            "count": 7500
+            "count": 7516
           },
           {
             "type": "vessel",
@@ -181,7 +181,128 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "58571",
+            "name": "INTERNATIONAL DEVELOPMENT BANK FOR INVESTMENT AND FINANCE",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58930",
+            "name": "MOHAMMADI, Zhila",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58934",
+            "name": "ELITESPHERE TRADING CO., LIMITED",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58935",
+            "name": "SEYYED ABBAS HOSSEINI PARSA AND PARTNERS QESHM GENERAL PARTNERSHIP COMPANY",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58936",
+            "name": "MOHIESNEJAD, Khaled",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58937",
+            "name": "HOSSEINI PARSA, Seyyed Abbas",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58938",
+            "name": "BAVI, Sadegh",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58939",
+            "name": "BAVI AND PARTNERS EXCHANGE COMPANY",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58940",
+            "name": "ABOLHASAN JALALI AND PARTNERS EXCHANGE COMPANY",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58941",
+            "name": "JALALI, Abolhasan",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58942",
+            "name": "KATEBI, Milad",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58943",
+            "name": "SABETI, Amir",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58944",
+            "name": "MULLAH MOHAMMADI, Ensiyeh",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58945",
+            "name": "BORJI, Nazanin",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58946",
+            "name": "ALLAHYAR, Farzad",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58947",
+            "name": "VASIGHI MERAJI, Fatemeh",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58948",
+            "name": "SOHEIL AND SORUSH NAJAFZADEH AND PARTNERS COMPANY",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58949",
+            "name": "ABDOLALIPUR, Azadeh",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58950",
+            "name": "NAJAFZADEH, Sorush",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "58951",
+            "name": "NAJAFZADEH, Soheil",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -303,11 +424,21 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "sdn_delta_breadth"
+      ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [],
+    "alerts": [
+      {
+        "id": "sdn_delta_breadth",
+        "title": "Exact SDN list delta",
+        "score": 67.5,
+        "level": "ELEVATED",
+        "why": "The official SDN file changed materially since the previous accepted snapshot."
+      }
+    ],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -2200,10 +2331,21 @@
           "official_posture_shift": 4.5,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-15T16:54:33.968691+00:00",
+        "score": 30.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 32.0,
+          "sdn_delta_breadth": 67.5,
+          "official_posture_shift": 4.5,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19430,
+      "sdn_entries": 19457,
       "ofac_releases": 100,
       "market_series_available": 2,
       "available_components": 4,
@@ -2264,13 +2406,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "17.3/100",
+      "value": "30.8/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,430",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,457",
+      "delta": "+27 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -2285,9 +2427,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-10-13",
-      "sha256": "1022b462f33c607007d671c59f6cbd692d7dd1479b736c243e9f747695bf01cb",
-      "count": 19430,
+      "publish_date": "2026-10-15",
+      "sha256": "0dee0d2de5e5a240e3e545741ee2903cfa3508666d2f2841d5d1ff2d59f0ce71",
+      "count": 19457,
       "entries": [
         {
           "id": "36",
@@ -118072,6 +118214,12 @@
           "program": "SDGT"
         },
         {
+          "id": "58571",
+          "name": "INTERNATIONAL DEVELOPMENT BANK FOR INVESTMENT AND FINANCE",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
           "id": "58596",
           "name": "TAJAMMAL, Waseem Pasha",
           "type": "individual",
@@ -118868,6 +119016,162 @@
           "name": "EXFLAME",
           "type": "vessel",
           "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58930",
+          "name": "MOHAMMADI, Zhila",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58934",
+          "name": "ELITESPHERE TRADING CO., LIMITED",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58935",
+          "name": "SEYYED ABBAS HOSSEINI PARSA AND PARTNERS QESHM GENERAL PARTNERSHIP COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58936",
+          "name": "MOHIESNEJAD, Khaled",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58937",
+          "name": "HOSSEINI PARSA, Seyyed Abbas",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58938",
+          "name": "BAVI, Sadegh",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58939",
+          "name": "BAVI AND PARTNERS EXCHANGE COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58940",
+          "name": "ABOLHASAN JALALI AND PARTNERS EXCHANGE COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58941",
+          "name": "JALALI, Abolhasan",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58942",
+          "name": "KATEBI, Milad",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58943",
+          "name": "SABETI, Amir",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58944",
+          "name": "MULLAH MOHAMMADI, Ensiyeh",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58945",
+          "name": "BORJI, Nazanin",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58946",
+          "name": "ALLAHYAR, Farzad",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58947",
+          "name": "VASIGHI MERAJI, Fatemeh",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58948",
+          "name": "SOHEIL AND SORUSH NAJAFZADEH AND PARTNERS COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58949",
+          "name": "ABDOLALIPUR, Azadeh",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58950",
+          "name": "NAJAFZADEH, Sorush",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58951",
+          "name": "NAJAFZADEH, Soheil",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58952",
+          "name": "MIRMOHAMMADI, Mansureh",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58953",
+          "name": "JAZIREH INTERNATIONAL BANK COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58954",
+          "name": "CHABAHAR INTERNATIONAL BANK OVERSEAS COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58990",
+          "name": "RAZAVI, Sayyed Ruhollah",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58991",
+          "name": "TEJARAT GOSTAR ATLAS PARSIAN KISH COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58992",
+          "name": "FARZANEGAN ENERGY PARS COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "58997",
+          "name": "BANCO INTERNACIONAL DE COMERCIO S.A.",
+          "type": "",
+          "program": "CUBA-EO14404"
         }
       ],
       "cached": false
@@ -119680,6 +119984,15 @@
     },
     "news_articles": [
       {
+        "title": "Sanctions Compliance Meets Data Privacy: Managing a Structural Tension",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ3VoVmVkcVN4eVZSYmR2YmZVSmlMOEg1bE1OQlFwYkZHdUpOZGRpUDMtN3dNdjZNZFQtdTY1SE5nWVdGVzJSa09OaHUzN01sb291eVlwSmFfSFFfblNVMTdwZUl5YVAyeEh3ZnBmeUxpMkUxQi01NHlnZ2FGRmFvUGZmcFJ5WDFDTDdqQjJQUFptOU5YcTBMWlFPVGUzdXJETkV0aDN6ZmVoSUtVb09jYzhFdVpBLU9Ob1ZQZzlMc2J5RGFJN2kxQTNTYkdHSVM2NmltXzdBbDZwQjdGYTRqOQ?oc=5",
+        "domain": "freshfields",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T111754Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Haiti sanctions renewed: Starving the gangs of bullets",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSTgtZVdVMjIwSHQySWlhSXU4cVpIdFZnc0FLaUNyeUNmTURrVVVfQWM1TDNCR0FMMkNnOTB2Mnl5d2dBaFNUQkNKWmtWRy1SUDJ3OFpWaw?oc=5",
         "domain": "unnews",
@@ -119689,12 +120002,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctions Compliance Meets Data Privacy: Managing a Structural Tension",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ3VoVmVkcVN4eVZSYmR2YmZVSmlMOEg1bE1OQlFwYkZHdUpOZGRpUDMtN3dNdjZNZFQtdTY1SE5nWVdGVzJSa09OaHUzN01sb291eVlwSmFfSFFfblNVMTdwZUl5YVAyeEh3ZnBmeUxpMkUxQi01NHlnZ2FGRmFvUGZmcFJ5WDFDTDdqQjJQUFptOU5YcTBMWlFPVGUzdXJETkV0aDN6ZmVoSUtVb09jYzhFdVpBLU9Ob1ZQZzlMc2J5RGFJN2kxQTNTYkdHSVM2NmltXzdBbDZwQjdGYTRqOQ?oc=5",
-        "domain": "freshfields",
+        "title": "Investment Arbitration as Ransom? The EU Sanctions Regime and ‘Administrative Chill’",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWw5LWNhM3BPYnY1a09RTEVYNk1MbGRwUzBXV3JMRTBDaHVNdUFmVzMzRXBLUTJwYU42dHgtdHhYZm1WeWV2TGtPcEhHMDBHcGQ4TjNoMmozdmxVNkN4a3hYRDBmbnJtNzNNX2lWekRrX2FRcS1KMDNGNGZfem1NSVRnWXRTTG1CS2ZmMWdQdjdEVDY0X0lYcDVHbnlxWkRCdldkUHVFVDFCRVU?oc=5",
+        "domain": "ejiltalk",
         "language": "",
         "tone": 0,
-        "seendate": "20261009T111754Z",
+        "seendate": "20261015T070559Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
+        "domain": "caribbeannationalweekly",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T142456Z",
         "source": "GoogleNews"
       },
       {
@@ -119734,12 +120056,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Russian billionaires Alisher Usmanov and Mikhail Fridman hit by Lithuania asset freeze",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ0hYQmRqV0JNd25BUTEwWEVNVVpFS1l0bF84azNzZEhzY2RPVmg5b0VZSFA0SjU5dHZJYklqTHd6Qmg2LUZuVXZEeTBnWXpnM19MV3FWREJadFdjTFZ6WDYzbmVCRGVPTGc1WjRwVGItb1Ntd0twSVZEZEw1U29UYXI2Rkhmb0FlaWVfMlRRd19FSDNUM2dreG5YREpoUy1RdUJVeWctNHFtaVExUzktNVlRcXdBaHltaWpVZnlVRDVBZ29Yek4tSmVB?oc=5",
+        "domain": "billionaires.africa",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T151756Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU agrees largest-ever package of sanctions targeting almost 1600 individuals, entities in Russia’s military-industrial complex",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObVBleGFfVWNHMUVSakhJdVc4TXV1eFhTXzVyVnUyanFQWi16RmdmMmV3bGhSS2pHbXhJN0NXQWxmYzctVllCLWVOWHY4azM3RU1HQVBfemdrVzlrYlRhd1hGemg1M0s4akVubVRoMWVLcG1JMy1PaHRhTjlQcVBSTW1IVkZueXdhY2lGRGVzM1pCczB3djJqNTEyOHB5QUJKaThITTNXbERoRmpWTkY3WVNLc3NKQWlxMHhvU2F5d2hzanlna3dKaXhNaEpyM0FNMExtZzZtendxeTNtYk5OSHFDeFZoaEl2VFVmZGJrUGZMdw?oc=5",
         "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
         "seendate": "20261012T104441Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council’s renewed sanctions aim to starve gangs of bullets in Haiti",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nQlpTOFRweGo3M2JGQ3dZZkMxU3lZSUN6SkRCNGRodVJhRUdmRU03VTRaVFVPSHJRS3Y3S082dnBEcVphWjh0MUdMRXdfTHBTZ1RNQmp2WXVOZDlZdFdUUTBESDJ5dzdOVGRoeHhjU1FhRnhhT1ZkQ3F1Zmk?oc=5",
+        "domain": "caribbeanlifenews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T164159Z",
         "source": "GoogleNews"
       },
       {
@@ -119779,6 +120119,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYmZIUUk3cmlqUDlCS3JHUnM3a05WY1BUQ05qdEhSY3NSU1dPcmFJOUdBQ3ZmNjZiamc1TUxWemQ5R0N0NGpjNlVrN2YteHQwRnl6cjRRY2g3RDMtMUVQbGhOTEdMY1pTQ0xWb1NXZ3Y4QjBIVW02OXBnMmd3UW11TXpmRklqM1VPSUVlS19lOTBuUERSUi1TR1FORUFxSWR1UTluV0Q1YXBBamJrdWtlLUJuNnJYTURXNi1zV3lzeEF2SWh2cWc?oc=5",
+        "domain": "jamaicagleaner",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T152703Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU Council imposes record sanctions on Russia, targeting 1,646 individuals and entities",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1hNUHlST2pydFFlNUF6SEFxZE9qbkY1a1ZLelQ4OVpzZGg4WmlJNlJ0ZjZINTBZczNZNHZkVEFDanhFRzRRVjhocUl1YkJDWFhVTVBmMHBLWk1MdmZFekxSdEhSNE9EREhOV1hLbE82RDljSWhSdzNEenR2TnBVcjJETmpvN0RUXzBoeU04blN4blFKTWJSQ093MHJ0NFJoLUVUdGpnQmllcDBwUzJZTGlncHp5LWcyNmpLamZpSEhjdERrcW13ZTdyTmhsUTdPVXJ5VDVUNi1ESkJ1V3NiVEpscTBYNTg?oc=5",
         "domain": "insighteumonitoring",
@@ -119812,15 +120161,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261009T163456Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The EU extended sanctions against Russia for hybrid attacks for another year",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3Z4dG41T0VHV20yWVFEcVZpUXVteGNrU3VpOG5VUDFMS1NwSElwY3pHNVNNbzFsZkUyVi1yRnVqaGpVVnlJa19aTWxOemFwcEI5d2ZMaHhUa2NRQkQ5ckY2VUJZbkdNT295R0NRVzNvNEdjdXU4am9TeU40MkhSQU1xbFhSZkRLeUFldExtQWFOdHBYWnF1eEZXQUFUbDFS0gGfAUFVX3lxTFBjWkszQUpJdkZ5anQzdkI0Y0NsV09DamJEQjloMlplZW1mQUNRQi14cVhMTEVGYU85ZTBUZ3BzTmY5LVBsdlhvcmZvVkg4LXZTUzFGUkpGbzNwcm5wTmRRQnNfLUlQeVFPYTJ5Zm9NazFDRHYyaktPSnl6Y29kbjI1TGxPRzNYVEtSQnhldEY0Mnc2OW54MnJfbTdqajM5aw?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T123609Z",
         "source": "GoogleNews"
       },
       {
@@ -119941,12 +120281,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK slaps sanctions on Central Asian payment firms over Russia ties",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTE5yZ3BUYURyajE0RkxiYVFXTkNJTUxYUzhTMWFJdUVMWEo4Smx4YlhiUVNHS2gzdENKc3ZGaEk0Mnh4VFhjaHE0dHNOdTJwc0V4NmQxRHlYQzhRazhndmQ0dXFmQURnMzZfYk1zYWNleWNZWnlRanBlYzRIa1Vac2Vn?oc=5",
-        "domain": "kursivmedia",
+        "title": "UK imposes sanctions on three Kyrgyzstan-registered companies",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEIzS21vOGwxRXhHVk0xYVFHck1UcUhYR3VycEZ3WmNmcGRDU1l0OHRYeXh5ZGVWQkRrSU5pNEliQkFHQW1ZNWdRNkVaNUdMZl9CRHdwdk45Z1hjN1lUSUhCa0w4X00wSF94b1hGaXJkX0hjS2MwbGJpZl9Wa2U2d3ZGdkhhWFk1akdQUXhBRQ?oc=5",
+        "domain": "24.kg",
         "language": "",
         "tone": 0,
-        "seendate": "20261008T124711Z",
+        "seendate": "20261009T051840Z",
         "source": "GoogleNews"
       },
       {
@@ -119965,15 +120305,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T145400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK imposes sanctions on three Kyrgyzstan-registered companies",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEIzS21vOGwxRXhHVk0xYVFHck1UcUhYR3VycEZ3WmNmcGRDU1l0OHRYeXh5ZGVWQkRrSU5pNEliQkFHQW1ZNWdRNkVaNUdMZl9CRHdwdk45Z1hjN1lUSUhCa0w4X00wSF94b1hGaXJkX0hjS2MwbGJpZl9Wa2U2d3ZGdkhhWFk1akdQUXhBRQ?oc=5",
-        "domain": "24.kg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T051840Z",
         "source": "GoogleNews"
       },
       {
@@ -120001,15 +120332,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T120934Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU prolongs individual sanctions over Russian destabilizing actions abroad",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTJTT2tkb1loRXJiZ0FiMG5iVjFReEZxaVBmUHZMMEhsbVh4X18yQWhIN0xUVHhuNmlKVFFFYnRzZFhfRmY3QTNjTUQ3dWZCS2hoYndWdWJJQ1NFa2VUSXdGamxwenNTX0RDa1Y4MExqbWV4WlNJV0dMVTRTa043RWp0V1BBQnN3TTFOMTJLVDRSeWZfTmk3QTRPUzdOb1JRNWt4ONIBqgFBVV95cUxQbVJRYUpNcUNhNE5abDUzTThZWFRyUkFhektDVVdTMEhCZmlIZklZWW5OWEhTWHZLQ2pEUHo1TUU0alkzLWNaNXB0S2M4eFhyeFZidmMxTEJQVmVienR4bFNodFVLTDdZZkNBVHdWb1JSWHllRnNVQ0NUMTdFaUdsaW0xRldBbnVvYTd3SW5uQ1JyZjJmeXF0QlZNTWlVU0NZT2RHcjRoWnFfQQ?oc=5",
-        "domain": "report.az",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T120744Z",
         "source": "GoogleNews"
       },
       {
@@ -120054,7 +120376,7 @@
         "domain": "theeasternherald",
         "language": "",
         "tone": 0,
-        "seendate": "20261015T035010Z",
+        "seendate": "20261015T034936Z",
         "source": "GoogleNews"
       },
       {
@@ -120109,15 +120431,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T102304Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Accuses Iran of RAF Fairford Plot and Sanctions Two Iranians",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUTl5VUtxbmM2WWw3QW5YX0lSSm9tWlRiQ1Y2Y1VQNloyWlFUcVB6Qzg1YUkwUS1IeG9tNTNBdWc2ZjFkYjN3Qy1uaHdzT3piMml5MDd2MnFaUXdUVEt1R0pyNTJGZWs?oc=5",
-        "domain": "suaragarut.id",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T023830Z",
         "source": "GoogleNews"
       }
     ]
