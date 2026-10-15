@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-15T04:32:00.153838+00:00",
+    "generated": "2026-10-15T11:22:41.243370+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-15T04:30:13.655435+00:00",
+    "issued_at": "2026-10-15T11:20:54.658023+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 17.3,
@@ -2181,6 +2181,17 @@
       },
       {
         "timestamp": "2026-10-15T04:30:13.655435+00:00",
+        "score": 17.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 32.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 4.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-15T11:20:54.658023+00:00",
         "score": 17.3,
         "level": "BASELINE",
         "components": {
@@ -119669,21 +119680,21 @@
     },
     "news_articles": [
       {
-        "title": "Sanctions Compliance Meets Data Privacy: Managing a Structural Tension",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ3VoVmVkcVN4eVZSYmR2YmZVSmlMOEg1bE1OQlFwYkZHdUpOZGRpUDMtN3dNdjZNZFQtdTY1SE5nWVdGVzJSa09OaHUzN01sb291eVlwSmFfSFFfblNVMTdwZUl5YVAyeEh3ZnBmeUxpMkUxQi01NHlnZ2FGRmFvUGZmcFJ5WDFDTDdqQjJQUFptOU5YcTBMWlFPVGUzdXJETkV0aDN6ZmVoSUtVb09jYzhFdVpBLU9Ob1ZQZzlMc2J5RGFJN2kxQTNTYkdHSVM2NmltXzdBbDZwQjdGYTRqOQ?oc=5",
-        "domain": "freshfields",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T111754Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Haiti sanctions renewed: Starving the gangs of bullets",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSTgtZVdVMjIwSHQySWlhSXU4cVpIdFZnc0FLaUNyeUNmTURrVVVfQWM1TDNCR0FMMkNnOTB2Mnl5d2dBaFNUQkNKWmtWRy1SUDJ3OFpWaw?oc=5",
         "domain": "unnews",
         "language": "",
         "tone": 0,
         "seendate": "20261014T204443Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sanctions Compliance Meets Data Privacy: Managing a Structural Tension",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ3VoVmVkcVN4eVZSYmR2YmZVSmlMOEg1bE1OQlFwYkZHdUpOZGRpUDMtN3dNdjZNZFQtdTY1SE5nWVdGVzJSa09OaHUzN01sb291eVlwSmFfSFFfblNVMTdwZUl5YVAyeEh3ZnBmeUxpMkUxQi01NHlnZ2FGRmFvUGZmcFJ5WDFDTDdqQjJQUFptOU5YcTBMWlFPVGUzdXJETkV0aDN6ZmVoSUtVb09jYzhFdVpBLU9Ob1ZQZzlMc2J5RGFJN2kxQTNTYkdHSVM2NmltXzdBbDZwQjdGYTRqOQ?oc=5",
+        "domain": "freshfields",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T111754Z",
         "source": "GoogleNews"
       },
       {
@@ -119702,6 +119713,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261014T213705Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "LDP’s Furuya says Takaichi called China’s sanctions against him ‘great honor’",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQm9fOURqMWRzWTZNVXRwQmg2MF9VdkVCSEwzZFVXTE1Oa3Z2ZzdjLW14UFBqMGp6amxMZEFUOGlDdU9xakswU2c5SWxiSlhDajZncDM3dmJkRXlXVUo4ODVpQ0tlX2pvcVlNXzFMOGJBWlhKdkdORkFENWhSRUtJZ1I4WTUyb3RRWWkxb3FEdzFNaWVpcjNN?oc=5",
+        "domain": "thejapantimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261009T054900Z",
         "source": "GoogleNews"
       },
       {
@@ -119732,21 +119752,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU imposes largest ever set of sanctions listings against Russia",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3NGa2phMndxVTRVOVpCYllMcTk2TWQ1NExLSFFyaDRudTJrMnhwNE9qSjd5bVRhMVZEWVFBYjVwNk8wNHpDS2FPM05sYnJ3SWllYV9KUlZ5WjU5ZUJQa1R3LUJTRklIX3R5a0dmb2lYTTh6X1FqVTBWYnpSd0kxdXU0RkdkNmZmQWE4S013NEZEZmFDMXEzNmRkYUdSbG9P?oc=5",
-        "domain": "eubusiness.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T143524Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU sanctions shipyards and design bureaus key to Russia’s nuclear submarine fleet",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVE52TXMybkw4cFJ5Y090U2VKV05OeHRvWGFsQzlkLUJQTTVMVkVMMWFXb3pHR1lDdE9KRFVHV0dRNlVkVjFMbjdEdHUzdnVWSTV5U19MTFpKN19nd1FOZHQ4VzNTcFdsSGdCWEVOcHRiemR3U25fcWxicl9INGNrSG40QUNGQXZTdjN2S3JZeTlTRGhmT1lRWnl2SGxxQ082a2hLMHo3SzBHWlpQUnMtRml1bFZfWENVd0FNUGJSekpLZWZKR0E?oc=5",
         "domain": "thebarentsobserver",
         "language": "",
         "tone": 0,
         "seendate": "20261013T102006Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU imposes largest ever set of sanctions listings against Russia",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3NGa2phMndxVTRVOVpCYllMcTk2TWQ1NExLSFFyaDRudTJrMnhwNE9qSjd5bVRhMVZEWVFBYjVwNk8wNHpDS2FPM05sYnJ3SWllYV9KUlZ5WjU5ZUJQa1R3LUJTRklIX3R5a0dmb2lYTTh6X1FqVTBWYnpSd0kxdXU0RkdkNmZmQWE4S013NEZEZmFDMXEzNmRkYUdSbG9P?oc=5",
+        "domain": "eubusiness.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T143524Z",
         "source": "GoogleNews"
       },
       {
@@ -119858,15 +119878,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QSi10bzlYLVZSM3dhTmxPc1NhUXJ2d2xITmYyQ3F0Z3VpenJ4QTBiU1lLc1lNeDZTSlAzSlNhbVNyX1llNFRQRC1RckRrUXZpMkI2Yy1n?oc=5",
-        "domain": "cryptonews.net",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Somalia sanctions ex-regional leader over alleged Shabaab links",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFVnV0tiSllsRUEzclVaZHNkc19RUnNlZ0NQZmRaR0IxQnp1ZmVjT2dMNVAxVkswSWFycVlnLVBjSWJnaWxub3FjWnJ1cEtITTU5eVBIdk9tNkdpMkNVNEZqcE1fYzF0S1RWeE1pM0Zsbm0tTjBPTGM1alZlTTRjWEJFMERDTVhUUUthV3UyNFg3QlhCOFdjeTloSF90QmkxU3RVNi1UUXA1bEd2OVE?oc=5",
         "domain": "somaliatoday",
@@ -119930,15 +119941,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The European Union has imposed new sanctions against North Korea for cooperation with Russia",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNnpVSnYwUWJabklHVFdzYjMzRDFMMXFBZWxKNWYyOEZ2V05vd0dEel9QaWtmbWFvQlNrM0NuTVYzaUdIYV9neXpQUmpSS3JUbk1KbncyWDluR2xhd25BSXBmcHF1WlZjbG5TLVdVM0JlUWg5NS1vSGhTN1Z6bEpNSHBaMmRCTVpmWGQ2cmczSENDLUhsdWVOeE1vT2pjRDdvZ2lGNk5fTklJWWtPbDVicTdONHJLR1lyaHlKUkpwbFg5SXpKQTFR0gHHAUFVX3lxTFA2elVKdjBRYlpuSUdUV3NiMzNEMUwxcUFlbEo1ZjI4RnZXTm93R0R6X1Bpa2ZtYW9CU2szQ25NVjNpR0hhX2d5elBSalJLclRuTUpudzJYOW5HbGF3bkFJcGZwcXVaVmNsblMtV1UzQmVRaDk1LW9IaFM3VnpsSk1IcFoyZEJNWmZYZDZyZzNIQ0MtSGx1ZU54TW9PamNEN29naUY2Tl9OSUlZa09sNWJxN040cktHWXJoeUpSSnBsWDlJekpBMVE?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T123221Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK slaps sanctions on Central Asian payment firms over Russia ties",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTE5yZ3BUYURyajE0RkxiYVFXTkNJTUxYUzhTMWFJdUVMWEo4Smx4YlhiUVNHS2gzdENKc3ZGaEk0Mnh4VFhjaHE0dHNOdTJwc0V4NmQxRHlYQzhRazhndmQ0dXFmQURnMzZfYk1zYWNleWNZWnlRanBlYzRIa1Vac2Vn?oc=5",
         "domain": "kursivmedia",
@@ -119994,7 +119996,7 @@
       },
       {
         "title": "EU adopts record sanctions on Russia's defense industry",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OZWpBOU5sM2R2TmZJM0JOS1luSlM1ZG9VSFhQV1JBYm1QeklQTzZucnZlTzBoWm02T01DSHRHVlhZSFJyUWxjY2praTJiSF9NWFRCZ0I2TDZFa3Q3cFdSOEpqaHk1T2_SAWdBVV95cUxPTmVqQTlObDNkdk5mSTNCTktZbkpTNWRvVUhYUFdSQWJtUHpJUE82bnJ2ZU8waFptNk9NQ0h0R1ZYWUhSclFsY2Nqa2kyYkhfTVhUQmdCNkw2RWt0N3BXUjhKamh5NU9v?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzNUI2d25YRGVZQ0hOYkpnMGdHN1lKOC1mcVNDWWxFZVdzendBeEppcHlRNjVZQU9jVlQxM0pIWXJYRlNVcG5lQW1WRFBaVGVRcTM3UDlScGJtekR3OFJneDVB0gFnQVVfeXFMT05lakE5TmwzZHZOZkkzQk5LWW5KUzVkb1VIWFBXUkFibVB6SVBPNm5ydmVPMGhabTZPTUNIdEdWWFlIUnJRbGNjamtpMmJIX01YVEJnQjZMNkVrdDdwV1I4SmpoeTVPbw?oc=5",
         "domain": "interfax-ukraine",
         "language": "",
         "tone": 0,
@@ -120017,6 +120019,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261009T091635Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK summons Iran envoy, freezes assets of two nationals",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2OVc2UVVCR3RVdmQwbnBMc3dLREFwMUE0cEhiXzZUR1o5Tm5JMFhjUmx1MkU4bWppWU1PVmlaejFXVXFBVGJ2NUtsZnh3Q1UwZm14TVYwT2Q2TjZJNk5UZjVNdWtCN3Z2RDFwS0dUMjlUR1ZqekVGdnpiUnBCVm8?oc=5",
+        "domain": "punchnewspapers",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T161104Z",
         "source": "GoogleNews"
       },
       {
@@ -120043,7 +120054,7 @@
         "domain": "theeasternherald",
         "language": "",
         "tone": 0,
-        "seendate": "20261015T034936Z",
+        "seendate": "20261015T035010Z",
         "source": "GoogleNews"
       },
       {
