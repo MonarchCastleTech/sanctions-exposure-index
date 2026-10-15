@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-14T21:39:07.294849+00:00",
+    "generated": "2026-10-15T04:32:00.153838+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T21:37:21.026949+00:00",
+    "issued_at": "2026-10-15T04:30:13.655435+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 33.3,
+    "score": 17.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,19 +24,17 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 72.9,
+        "score": 32.0,
         "releases_considered": 100,
-        "current_7d_designation_releases": 5,
-        "current_7d_all_releases": 6,
+        "current_7d_designation_releases": 3,
+        "current_7d_all_releases": 4,
         "prior_7d_designation_releases": 4,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.0,
-        "anomaly_z": 1.35,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": -0.22,
         "themes": [
           "counter_narcotics",
-          "counter_terrorism",
-          "iran",
-          "russia"
+          "counter_terrorism"
         ],
         "evidence": [
           {
@@ -98,45 +96,6 @@
               "removal"
             ],
             "themes": [],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
-            "action_title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261008",
-            "date": "2026-10-08",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "russia"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0653/",
-            "action_title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261008",
-            "date": "2026-10-08",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "russia"
-            ],
             "designation_signal": true
           }
         ],
@@ -230,13 +189,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 11.4,
-        "current_7d_releases": 6,
-        "current_weighted_term_rate": 1.583,
+        "score": 4.5,
+        "current_7d_releases": 4,
+        "current_weighted_term_rate": 0.625,
         "baseline_weeks": 11,
-        "anomaly_z": -0.31,
-        "matched_release_count": 4,
-        "relief_release_count": 3,
+        "anomaly_z": -1.85,
+        "matched_release_count": 2,
+        "relief_release_count": 1,
         "evidence": [
           {
             "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
@@ -270,45 +229,6 @@
               "removal"
             ],
             "themes": [],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
-            "action_title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261008",
-            "date": "2026-10-08",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "russia"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0653/",
-            "action_title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261008",
-            "date": "2026-10-08",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "russia"
-            ],
             "designation_signal": true
           }
         ],
@@ -383,21 +303,11 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [
-        "ofac_action_velocity"
-      ],
+      "official_components": [],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [
-      {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 72.9,
-        "level": "ELEVATED",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
-      }
-    ],
+    "alerts": [],
     "history": [
       {
         "timestamp": "2026-08-27T21:02:54.229166+00:00",
@@ -2268,6 +2178,17 @@
           "official_posture_shift": 11.4,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-15T04:30:13.655435+00:00",
+        "score": 17.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 32.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 4.5,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2332,7 +2253,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "33.3/100",
+      "value": "17.3/100",
       "delta": "BASELINE"
     },
     {
@@ -119757,12 +119678,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Haiti sanctions renewed: Starving the gangs of bullets",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSTgtZVdVMjIwSHQySWlhSXU4cVpIdFZnc0FLaUNyeUNmTURrVVVfQWM1TDNCR0FMMkNnOTB2Mnl5d2dBaFNUQkNKWmtWRy1SUDJ3OFpWaw?oc=5",
+        "domain": "unnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T204443Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
         "domain": "theguardian",
         "language": "",
         "tone": 0,
         "seendate": "20261014T165100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The UN renews sanctions regime for one year",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc0Zsb3UzSGU1WWtFUlY0Y2NDdjc1RGxzNVNtTVRQMUxieWE5aFFzQ2Y3SjVPOHJVTWROekFyY2J1VWNIc0FUMjdSMU1XRmVRVDBVNXdjWEMzeXI5YURhZEszUWNPRHc1WWdwaHNjaVFjNzN6Wll3TUNORFYtM284NzNVTUxwSGNuazhQTUdkV0c?oc=5",
+        "domain": "lenouvelliste.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T213705Z",
         "source": "GoogleNews"
       },
       {
@@ -119793,15 +119732,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Renews Haiti Sanctions to Cut Off Gang Weapons",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTjc0T2pyZzY5Vk45bTlTS1k2WUhGS1U2d2h6YkpkNVNxb2ZWek9INm9UZWFUazBjT1lxZnZHYlljSWY5ZDMwTVRKVHBTdHlmTTZoY1ZHYUJ4WlVnZTAzaUtRTkJpM3Z3TmM5QWczb2tURmZobDR5QWxZVXl3bHNxSTN5bw?oc=5",
-        "domain": "miragenews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T211200Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU imposes largest ever set of sanctions listings against Russia",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3NGa2phMndxVTRVOVpCYllMcTk2TWQ1NExLSFFyaDRudTJrMnhwNE9qSjd5bVRhMVZEWVFBYjVwNk8wNHpDS2FPM05sYnJ3SWllYV9KUlZ5WjU5ZUJQa1R3LUJTRklIX3R5a0dmb2lYTTh6X1FqVTBWYnpSd0kxdXU0RkdkNmZmQWE4S013NEZEZmFDMXEzNmRkYUdSbG9P?oc=5",
         "domain": "eubusiness.com",
@@ -119820,6 +119750,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU's 22nd sanctions package and latest UK measures",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMVRiMk13SjYwOUJFSUd2N2ZpZ29SN1M4TV9TRkZQODU3U0J1OGxHUjA1dXBHMnFzTUFhekRab2QxcFRkWmNtbi1jMFcxOVlqQ2NsLXdZZnkyclhiRUd1ZmRGZ3FuZFlHc1cwOW05emNuc2pOdFhlRzc3cnZQMjJvZW5LQXhfNFZmU0VGY1g3OExEMm5RcGR2Y1ZSVTM4US1MYzJTbnJRanBhWmg4ejIya0wzdXlrR1ZXV1BnX3p3Y0NCdlJmeDRQeVczLVVwR1lCMzFuRFYwbUZhUklRdmdDVVc1cFU4Wmx2blVnSzZRTFRLS3FzTVl2aEhOeVhNMjctN0VlNjBKZ2RFLWVtQkl0cGNkbUw0SWxF?oc=5",
+        "domain": "penningtonsmanchescooper",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T212245Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU Council imposes record sanctions on Russia, targeting 1,646 individuals and entities",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1hNUHlST2pydFFlNUF6SEFxZE9qbkY1a1ZLelQ4OVpzZGg4WmlJNlJ0ZjZINTBZczNZNHZkVEFDanhFRzRRVjhocUl1YkJDWFhVTVBmMHBLWk1MdmZFekxSdEhSNE9EREhOV1hLbE82RDljSWhSdzNEenR2TnBVcjJETmpvN0RUXzBoeU04blN4blFKTWJSQ093MHJ0NFJoLUVUdGpnQmllcDBwUzJZTGlncHp5LWcyNmpLamZpSEhjdERrcW13ZTdyTmhsUTdPVXJ5VDVUNi1ESkJ1V3NiVEpscTBYNTg?oc=5",
         "domain": "insighteumonitoring",
@@ -119835,6 +119774,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261014T165549Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China calls for efforts to stop influx of illicit weapons into Haiti",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2psaHhCWlBMMkRtY2FWaUd1MWMxYnFNVURFdzl5M1ZiOEw1U0plSFk0dXU0aE5DZE1TUUQwazRtb2VhU0ZsQnQwdW1UYU84aXFTXzVkanRTMG5HMkI1V2NWNUFkR2dfNmNaQ0pjbGlnd0NwbjU0bi1xWDZ6QUYzdE1UR0NaVFQ2cTNjcWcyRHhSMHh3VVZ4bW4zMGRPc2Z3Ukxha1NTVWZXUGZKOG1lcjJkcEdiS3VKZGtzSkVBbHBHd1FMNUlVODFVN0M1Zw?oc=5",
+        "domain": "cgtn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T012257Z",
         "source": "GoogleNews"
       },
       {
@@ -119883,33 +119831,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK sanctions crypto platforms accused of helping Russia evade restrictions",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MWkJuOFRFd05lMENWRHdPOXBTejZhbjVPb1E0Y1o0Ym5QSDRxNERMcFhVdXFoazdCX3ZSMUtjcmk4MDAxa0lsYlQtY0FURnJVaTNTVHlHTF9TMFJDTFZ1UHgzX2tQZGZ4dTlPcTJGeXlERV9kdlRJcGZ0ZHAxQQ?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T181439Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QSi10bzlYLVZSM3dhTmxPc1NhUXJ2d2xITmYyQ3F0Z3VpenJ4QTBiU1lLc1lNeDZTSlAzSlNhbVNyX1llNFRQRC1RckRrUXZpMkI2Yy1n?oc=5",
-        "domain": "cryptonews.net",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The EU has extended the sanctions mechanism concerning the use of chemical weapons until 2031",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRzNiN05vRzBFZWI3SHdiSjdkM0JONHpkZ1FPbnVXbGNVd0IwNUNFOG0wMlkwelc4N05xelgzT3Zfc0ZEcVd4el9vSEdZSmUxekRCQWtqV3N5MmpjSDkzSWdzdVpIaFV3R1JQYTdTZEFqYjU1N1dFTEpaZFBkWWxZbHA4RlNkaXptREF1U0VJbmJhNjcyX3FDWUdKbVA0eHRyQ3IyVWxERkNnWXNnbmFnUldfWmM0SVXSAbYBQVVfeXFMT1RKZ0JCMWROTmw2bkdDZlZRU09UVTZRbC1hV0FEaE1NZ0V1b0dHTzBUa1k3WTEyR29HdXRaek9SWi1mX19fOW03ZFlxYjlOZHAzdHQ2LUdncV9NaFFYYXFfVW1EekExUEpWSG8zV2lKNHhFUnNJSFBLUkpDMFdESGFSTXQ1SXk2dnRzQ3VqOTY3bGF5ZkcxY3c5eXRmTjZFbmlQWi1rYjFzR29Ub3NJQzV5VlJrS3c?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T093711Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
         "domain": "thebrusselstimes",
@@ -119925,6 +119846,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261014T144306Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK sanctions crypto platforms accused of helping Russia evade restrictions",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MWkJuOFRFd05lMENWRHdPOXBTejZhbjVPb1E0Y1o0Ym5QSDRxNERMcFhVdXFoazdCX3ZSMUtjcmk4MDAxa0lsYlQtY0FURnJVaTNTVHlHTF9TMFJDTFZ1UHgzX2tQZGZ4dTlPcTJGeXlERV9kdlRJcGZ0ZHAxQQ?oc=5",
+        "domain": "cryptonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T181439Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QSi10bzlYLVZSM3dhTmxPc1NhUXJ2d2xITmYyQ3F0Z3VpenJ4QTBiU1lLc1lNeDZTSlAzSlNhbVNyX1llNFRQRC1RckRrUXZpMkI2Yy1n?oc=5",
+        "domain": "cryptonews.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120009,6 +119948,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Cardano Foundation Tokenizes Veridian Equity in First Live Use of New CIP-0113 Standard",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyeklJQ1V4eVB2ME56U3F1TUhLVEh3QndDNlFhamEzOVpkTmV5bTlfbmxScEV5dHJDT1ZSbk1KbFFLZHY1SDlMSWJiQ1hUdW8yNm1HM1RjVVFlN1ZJdEJDSjQ1MEVqOGVITkl3RU0tMTdob1NWZXc?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T182800Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Foreign Secretary statement on Iran, 12 October",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2NoeUstc3c1aFNldU1HekVxX1ZxM3BkbGNZbWsyMEV1NGM2N1JBWUk4TmhZVS1iaUxZbVhUQVg4ZzhSZVpoRG4tWUFwQW4xUHFHRnRJRkZ2VkoxVmQtN04zUEtVMUtmUUVmZ0szVXBsU1FMY3JnUVNkRWlRdUloN1BQS3dIQ3U3?oc=5",
         "domain": "gov.uk",
@@ -120027,15 +119975,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Cardano Foundation Tokenizes Veridian Equity in First Live Use of New CIP-0113 Standard",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyeklJQ1V4eVB2ME56U3F1TUhLVEh3QndDNlFhamEzOVpkTmV5bTlfbmxScEV5dHJDT1ZSbk1KbFFLZHY1SDlMSWJiQ1hUdW8yNm1HM1RjVVFlN1ZJdEJDSjQ1MEVqOGVITkl3RU0tMTdob1NWZXc?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T182800Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK freezes assets of Thet Li amid US Bitcoin fo...",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObndWZU9helg3ekJGNHNobDJLN2JfcDVhb0pzdEFZSXJIY0Z6ZGMyZnBncElNQ0hPSmZra3A1Mk9OSWJpMEJUaUlMc0RyTjkzazg5OHlCOE50eHJQblptbWNfQXkxQWlVZDh4MDU1V3NtT1NLLTNQWnBrTG45UVlGNzZFNUU2NkF0MG9WemxBamdaR3Q0LVhUZmtZRlE?oc=5",
         "domain": "pluang",
@@ -120050,7 +119989,7 @@
         "domain": "theexpresstribune",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T233754Z",
+        "seendate": "20261013T011808Z",
         "source": "GoogleNews"
       },
       {
@@ -120072,30 +120011,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan cross-party group's head thanks Taiwan for support after disasters",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NN2IxcUdUXzB0VHl3ME5nbG11RFpJMEM0MFRQWjdzV25sQy1XNWwxZEo5b2NtV0swckJhNFNnYVFYMlFnakd1REw0ZWtMWkVJVEhFU1lOdEFKNUpCZ2JURDg3bUwxemdndG1zRGoyWkhUZw?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T034547Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Grigory Berezkin Sanctions: How the Lifting of Restrictions Confirmed an Entrepreneur's Reputation",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb2lzeEdoR0tVT2d2X0FlRGdNcGRiTnYyMTBFM3VocFVvX29YVVlCR1RRRWZUcWFZdXZtT3RrYjNPNEFmRjJhUktHWlA4VkdfOWIwYWxKdk5iS29pZmtPT0Foc19vLVJIT0x1alROcHJDb04wOEVTNXVNVFVULV80bTZKcWh0SEIzc1FDYTdORGUtUUVlSGhWdkEzN21wUHFuaXJ5a0hNRDBKUnlYYXNESnFyYUd3djhUcTlORG9aNlJkRWlqSWRVZGZEUUEyS0hadnh3?oc=5",
         "domain": "theeveshamobserver",
         "language": "",
         "tone": 0,
         "seendate": "20261009T091635Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK summons Iran envoy, freezes assets of two nationals",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2OVc2UVVCR3RVdmQwbnBMc3dLREFwMUE0cEhiXzZUR1o5Tm5JMFhjUmx1MkU4bWppWU1PVmlaejFXVXFBVGJ2NUtsZnh3Q1UwZm14TVYwT2Q2TjZJNk5UZjVNdWtCN3Z2RDFwS0dUMjlUR1ZqekVGdnpiUnBCVm8?oc=5",
-        "domain": "punchnewspapers",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T161104Z",
         "source": "GoogleNews"
       },
       {
@@ -120114,6 +120035,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T192658Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia Abstains as UN Renews Haiti Sanctions That Have Frozen Two Accounts",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOblAzYVVTSXpuLUg3YUd2cGxYRTM0Rzd6MEh5aWNPSzN5OFgwT01wa2VXUjh4RHJPVkkyVE9JMjVLak9EVHpuZ0NRTFlsZXp4ZzYtQ05tYW1UNkNjMVdIWExiX3VGNHpLMWJPZ0ROQ3Q1ZExvVXJkVzRFbGtVSm5BQmQ3ekdhOGVNd01KTTZYOFViY2xSZFJobw?oc=5",
+        "domain": "theeasternherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T034936Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council renews Haiti sanctions to curb arms flows and gang financing",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYmFYUTY3LU1GZ1MzTVBCdEMtQndVRF85dC14VzhYZDJGM18yZHBUdVByeVc1cXBvUXl3QkNvMkdnamN5cml5SUN3T19Hd2gzQ3VEVXBqLTk4X25HbWFNUVVFeTZEdXExbVVwVHdjSVBLVU0zOEIyUFJkdGxJcm85QXlZeFZ3WDNTek9YeVo3bUN5bHV4cmc?oc=5",
+        "domain": "tradersunion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T222040Z",
         "source": "GoogleNews"
       },
       {
@@ -120150,15 +120089,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261009T043100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU approves record sanctions against Russian military complex ᐉ News from Fakti.bg - World",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR3hhYktWYkliNmhaTGZFWHhSUkhPWmNzVXdlRXB6UHhUMUJ4Umo3LTFGLWh5TkNaeXU0eW5yRm5XUnpsWHdDQlgyRzFJZTVEU3cybDczT0EtQlVCY0VTdDI4QWtlT09ZTFdOVDFZQTFZMEpQal9lbGtwb1hPaGtlcVZxYWJsY0pfM01BRjdXcUZ1RUZCTnVFeWhhSQ?oc=5",
-        "domain": "fakti.bg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T184800Z",
         "source": "GoogleNews"
       },
       {
