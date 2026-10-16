@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-16T16:35:38.096196+00:00",
+    "generated": "2026-10-16T21:03:46.679714+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T16:33:51.584924+00:00",
+    "issued_at": "2026-10-16T21:02:00.412135+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -2322,6 +2322,17 @@
       },
       {
         "timestamp": "2026-10-16T16:33:51.584924+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-16T21:02:00.412135+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -119981,15 +119992,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Russia Sanctions Update: Steel, Delistings & 22nd Package",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcERfRk9QYTNvTi1CbkVKamgtaDJQUXRlUTVBZXNrUEo5aEsyR05vc1lEcElpUlJncFRkcWxNRVBnYWlRdFBYUjlRUWtNSm9CNlRQUTlzRFFXNVNNS05SWFdkNzF5N0RWZWxtUFBySzdOYXlQclRZTWRYWXFfcWkxSzA1cTNweUF2a3RZcEJKS3pFWjNreFM5ZnA1d2ppV0pWNTN0Mjk2VTM1Y09CZkFOSU9yY3JhMnI2NW04VmYtSkZscHgxYXRMNWZoQkxkMUxOZ09XdFV2UXM4cHBoWC1BVHQzZFBVd2Y2dmt1RjlyNTVueDY1b2UtTnpqNjhEbTBCendWbkwwYlk?oc=5",
-        "domain": "mcdermottwillschulte",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
         "domain": "fortune",
@@ -119999,9 +120001,9 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New EU sanctions listings concerning Russia",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWEwaHpJSHdURDdJRkdOeG1yamVDcmNyaDM5SHFBUU44RDJ2d25uZk9KUFdKSTk0MnExUHJWUHZFcEx5RGdiNUhyTEx2UzEzN29JTWMwellzVGxFcXNYZ2RmVjFmbUR5U2RYRC1DMEM1TGlaVHBDZUk4bjAyckRiYU1kNXN2MGYzSTB2OWVwUWZ0ZF84OUZ6a0ZaeVl3bUVXR2c?oc=5",
-        "domain": "squirepattonboggs",
+        "title": "EU Russia Sanctions Update: Steel, Delistings & 22nd Package",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcERfRk9QYTNvTi1CbkVKamgtaDJQUXRlUTVBZXNrUEo5aEsyR05vc1lEcElpUlJncFRkcWxNRVBnYWlRdFBYUjlRUWtNSm9CNlRQUTlzRFFXNVNNS05SWFdkNzF5N0RWZWxtUFBySzdOYXlQclRZTWRYWXFfcWkxSzA1cTNweUF2a3RZcEJKS3pFWjNreFM5ZnA1d2ppV0pWNTN0Mjk2VTM1Y09CZkFOSU9yY3JhMnI2NW04VmYtSkZscHgxYXRMNWZoQkxkMUxOZ09XdFV2UXM4cHBoWC1BVHQzZFBVd2Y2dmt1RjlyNTVueDY1b2UtTnpqNjhEbTBCendWbkwwYlk?oc=5",
+        "domain": "mcdermottwillschulte",
         "language": "",
         "tone": 0,
         "seendate": "20261012T070000Z",
@@ -120134,6 +120136,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU unveils largest-ever Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
+        "domain": "latestnewsfromazerbaijan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T144437Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
         "domain": "thesofiaglobe",
@@ -120158,24 +120169,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T012257Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU unveils largest-ever Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
-        "domain": "latestnewsfromazerbaijan",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T144016Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWF9yYmRxUE9qMDM5M0E1OTNxSklpcXh3Vmg1dk0zSmRJR3dTSmJsZ0swcHpaZHlwZ3cxLS1LOU40N1A4WDNLYmlwVG55TTVMM0tfaTVmZVlLWkduQ2J1b01HUlZCZkhwVXA1djVvTHlrUUVrNmlsWjdRZ1JkTEtsTzBBVndZWnUtSXRScFcyazUyajVXNVBsUFNtRjI?oc=5",
-        "domain": "thekyivindependent",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T163456Z",
         "source": "GoogleNews"
       },
       {
@@ -120206,15 +120199,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T180448Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "From Abramovich to Usmanov: How Russian Oligarchs Hide Billions from Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcHFybzhITlRfYXFSenhHZ1hNRTBnRHlpSld3VnpoLWIyWmRXVDZubUlUSGpna19MbmlpMTQyWmpNVWZiMHlLZGg1TjdjbEpIeHZySy01N0lybEZFZjhVdGE3RTRFdUFvNjZxU1pTaFpic3BETGRHZUd5ZUJLWmxBa1F0LWVtQ1ZLTnBpYWdMZlg1QVdQNS0yOHc2cFd5dFdQenVvVVZ6ZDJYdw?oc=5",
         "domain": "ua.news",
@@ -120230,15 +120214,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T104721Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Sanctions Crypto Exchanges Cryptomus, Heleket and TokenSpot Over Suspected Russia Links",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13MDlMRlFxQnlaeUt2aGp2SDZYeVBhSUhtZVRsUGh3UGRXbzdyTnlhSTdrVVY3cTdXM3FHZGhLdDdkejd0Q3RoM3AtWWR5YjJibHpwQUZVdng5djRacl9yQkhBM3ZOLVJLVDJIb0p6c0w3QTVFZXc?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T181500Z",
         "source": "GoogleNews"
       },
       {
@@ -120374,6 +120349,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T102304Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Norwegian Teen Sentenced to 20 Years For Attempting Iranian Contract Killing in UK",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQnZVM0VmR0FMSUFEazNTRm1lTUZWT2FGT2owYjFpYTNjOTcwdF9MZUZDd2FRSXBEaHRfbVg4RFBZaE1OMUNBTXBhRGhabW5fWW5rYVN3cElsNy1WUnBoWFZDUlROWWxGUlM3MzBhSUlBRUhhelh6eF9aakxMZ1lMZ2ZhRWZFRS1Pb0pDXzlSbERZY0Q4aXg3R2NObThScWNfV05Hc0g3c0NFeDd4MTJTbS11RmoxMnJRYVhlekpfcEp5c3pHa01vY1RhY9IBywFBVV95cUxPQnZVM0VmR0FMSUFEazNTRm1lTUZWT2FGT2owYjFpYTNjOTcwdF9MZUZDd2FRSXBEaHRfbVg4RFBZaE1OMUNBTXBhRGhabW5fWW5rYVN3cElsNy1WUnBoWFZDUlROWWxGUlM3MzBhSUlBRUhhelh6eF9aakxMZ1lMZ2ZhRWZFRS1Pb0pDXzlSbERZY0Q4aXg3R2NObThScWNfV05Hc0g3c0NFeDd4MTJTbS11RmoxMnJRYVhlekpfcEp5c3pHa01vY1RhYw?oc=5",
+        "domain": "breitbartnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T145448Z",
         "source": "GoogleNews"
       },
       {
