@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-16T04:26:20.754715+00:00",
+    "generated": "2026-10-16T11:17:30.507104+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T04:24:33.885576+00:00",
+    "issued_at": "2026-10-16T11:15:44.078909+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 19.7,
+    "score": 21.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -40,13 +40,16 @@
         ],
         "evidence": [
           {
-            "title": "",
-            "url": "/recent-actions/20261015",
+            "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0661/",
             "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-            "action_url": null,
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
             "date": "2026-10-15",
             "source": "OFAC/Treasury",
-            "posture_terms": [],
+            "posture_terms": [
+              "economic outcast",
+              "targets"
+            ],
             "relief_terms": [
               "general license"
             ],
@@ -191,14 +194,34 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 2.7,
+        "score": 10.8,
         "current_7d_releases": 4,
-        "current_weighted_term_rate": 0.375,
+        "current_weighted_term_rate": 1.5,
         "baseline_weeks": 10,
-        "anomaly_z": -1.8,
-        "matched_release_count": 1,
+        "anomaly_z": -0.45,
+        "matched_release_count": 2,
         "relief_release_count": 1,
         "evidence": [
+          {
+            "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0661/",
+            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+            "date": "2026-10-15",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "economic outcast",
+              "targets"
+            ],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "cuba",
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
             "url": "https://home.treasury.gov/news/press-releases/sb0656/",
@@ -2228,6 +2251,17 @@
           "official_posture_shift": 2.7,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-16T11:15:44.078909+00:00",
+        "score": 21.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 40.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 10.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2292,7 +2326,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "19.7/100",
+      "value": "21.7/100",
       "delta": "BASELINE"
     },
     {
@@ -119065,10 +119099,10 @@
     "ofac_releases": {
       "releases": [
         {
-          "title": "",
-          "url": "/recent-actions/20261015",
+          "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0661/",
           "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-          "action_url": null,
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
           "date": "2026-10-15",
           "source": "OFAC/Treasury"
         },
@@ -119897,6 +119931,33 @@
         "source": "GoogleNews"
       },
       {
+        "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
+        "domain": "fortune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "New EU sanctions listings concerning Russia",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWEwaHpJSHdURDdJRkdOeG1yamVDcmNyaDM5SHFBUU44RDJ2d25uZk9KUFdKSTk0MnExUHJWUHZFcEx5RGdiNUhyTEx2UzEzN29JTWMwellzVGxFcXNYZ2RmVjFmbUR5U2RYRC1DMEM1TGlaVHBDZUk4bjAyckRiYU1kNXN2MGYzSTB2OWVwUWZ0ZF84OUZ6a0ZaeVl3bUVXR2c?oc=5",
+        "domain": "squirepattonboggs",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
+        "domain": "theguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T165100Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Investment Arbitration as Ransom? The EU Sanctions Regime and ‘Administrative Chill’",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWw5LWNhM3BPYnY1a09RTEVYNk1MbGRwUzBXV3JMRTBDaHVNdUFmVzMzRXBLUTJwYU42dHgtdHhYZm1WeWV2TGtPcEhHMDBHcGQ4TjNoMmozdmxVNkN4a3hYRDBmbnJtNzNNX2lWekRrX2FRcS1KMDNGNGZfem1NSVRnWXRTTG1CS2ZmMWdQdjdEVDY0X0lYcDVHbnlxWkRCdldkUHVFVDFCRVU?oc=5",
         "domain": "ejiltalk",
@@ -119915,12 +119976,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
-        "domain": "theguardian",
+        "title": "EU freezes assets of three individuals and nine companies circumventing sanctions against Russia",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmZW1nbDZvYUZlRVpmWE5yWG9CUXdXdXd6MHdJZk9ORVhNNi1JaWtkZ1BWMUxaXzZ0YjZ5T2llbnF6WERxNnhxTl83cTJWb2owd0tBVXYzYUVWMVBpR2g2MV9kS2rSAXBBVV95cUxNTC13ZVFvdS0tLXNNeEJIOWRCcUZVcmRERTE3SmkzY1FOS1cyaW5iV19jWktpTUdKYzV0blY2NFd2ekVhT0hReWZ3bkk2azFrcnlIZTR0czNGYVU4WUJoLUJiWFpkblNtQWQybm1rZmxf?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261014T165100Z",
+        "seendate": "20261015T170000Z",
         "source": "GoogleNews"
       },
       {
@@ -119930,15 +119991,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261014T213705Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "LDP’s Furuya says Takaichi called China’s sanctions against him ‘great honor’",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQm9fOURqMWRzWTZNVXRwQmg2MF9VdkVCSEwzZFVXTE1Oa3Z2ZzdjLW14UFBqMGp6amxMZEFUOGlDdU9xakswU2c5SWxiSlhDajZncDM3dmJkRXlXVUo4ODVpQ0tlX2pvcVlNXzFMOGJBWlhKdkdORkFENWhSRUtJZ1I4WTUyb3RRWWkxb3FEdzFNaWVpcjNN?oc=5",
-        "domain": "thejapantimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T054900Z",
         "source": "GoogleNews"
       },
       {
@@ -119966,6 +120018,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T152032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
+        "domain": "southchinamorningpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070410Z",
         "source": "GoogleNews"
       },
       {
@@ -120005,21 +120066,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
+        "domain": "thesofiaglobe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T073906Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
         "domain": "jamaicagleaner",
         "language": "",
         "tone": 0,
         "seendate": "20261015T152703Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU freezes assets of three individuals and nine companies circumventing sanctions against Russia",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MLXdlUW91LS0tc014Qkg5ZEJxRlVyZERFMTdKaTNjUU5LVzJpbmJXX2NaS2lNR0pjNXRuVjY0V3Z6RWFPSFF5ZnduSTZrMWtyeUhlNHRzM0ZhVThZQmgtQmJYWmRuU21BZDJubWtmbF_SAXBBVV95cUxNTC13ZVFvdS0tLXNNeEJIOWRCcUZVcmRERTE3SmkzY1FOS1cyaW5iV19jWktpTUdKYzV0blY2NFd2ekVhT0hReWZ3bkk2azFrcnlIZTR0czNGYVU4WUJoLUJiWFpkblNtQWQybm1rZmxf?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T170000Z",
         "source": "GoogleNews"
       },
       {
@@ -120077,21 +120138,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The EU has extended the sanctions mechanism concerning the use of chemical weapons until 2031",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRzNiN05vRzBFZWI3SHdiSjdkM0JONHpkZ1FPbnVXbGNVd0IwNUNFOG0wMlkwelc4N05xelgzT3Zfc0ZEcVd4el9vSEdZSmUxekRCQWtqV3N5MmpjSDkzSWdzdVpIaFV3R1JQYTdTZEFqYjU1N1dFTEpaZFBkWWxZbHA4RlNkaXptREF1U0VJbmJhNjcyX3FDWUdKbVA0eHRyQ3IyVWxERkNnWXNnbmFnUldfWmM0SVXSAbYBQVVfeXFMT1RKZ0JCMWROTmw2bkdDZlZRU09UVTZRbC1hV0FEaE1NZ0V1b0dHTzBUa1k3WTEyR29HdXRaek9SWi1mX19fOW03ZFlxYjlOZHAzdHQ2LUdncV9NaFFYYXFfVW1EekExUEpWSG8zV2lKNHhFUnNJSFBLUkpDMFdESGFSTXQ1SXk2dnRzQ3VqOTY3bGF5ZkcxY3c5eXRmTjZFbmlQWi1rYjFzR29Ub3NJQzV5VlJrS3c?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T093711Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends Nicaragua sanctions to 2027, citing democracy and rights crackdown",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTN5WVktQVN3bnNycUhON1ZRR0xvVFRKanJ0TXhHZkRZa3VXNnUycXpYNkZqWDRyZGZwTndvQlBXelhka1dwcU5scVNha0Jlcy1CSWdHdC1jV3JPeTJOeWRQWmFJMXFMUzB5Z1dyay1La0szUElwNTNGeWxrYTZlQTFyNDdqblp0Sm0xVzhuWGx2STBsWnRhdjJraEdPM1BwbUdxZGQ0RnlsVXB5OUJaZWJYR2g4RUdNZjRrTlhrNGtlMGM?oc=5",
         "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20261009T180448Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The EU has extended the sanctions mechanism concerning the use of chemical weapons until 2031",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRzNiN05vRzBFZWI3SHdiSjdkM0JONHpkZ1FPbnVXbGNVd0IwNUNFOG0wMlkwelc4N05xelgzT3Zfc0ZEcVd4el9vSEdZSmUxekRCQWtqV3N5MmpjSDkzSWdzdVpIaFV3R1JQYTdTZEFqYjU1N1dFTEpaZFBkWWxZbHA4RlNkaXptREF1U0VJbmJhNjcyX3FDWUdKbVA0eHRyQ3IyVWxERkNnWXNnbmFnUldfWmM0SVXSAbYBQVVfeXFMT1RKZ0JCMWROTmw2bkdDZlZRU09UVTZRbC1hV0FEaE1NZ0V1b0dHTzBUa1k3WTEyR29HdXRaek9SWi1mX19fOW03ZFlxYjlOZHAzdHQ2LUdncV9NaFFYYXFfVW1EekExUEpWSG8zV2lKNHhFUnNJSFBLUkpDMFdESGFSTXQ1SXk2dnRzQ3VqOTY3bGF5ZkcxY3c5eXRmTjZFbmlQWi1rYjFzR29Ub3NJQzV5VlJrS3c?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T093711Z",
         "source": "GoogleNews"
       },
       {
@@ -120131,6 +120192,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU adopts new sanctions against Russia targeting nearly 1.600 individuals and entities. Kaja Kallas: \"Europe shows a united front once again. The biggest expansion of our sanctions list since Russia started its war\"",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQdUFJdzktWU95OVZBX2E3eG0welRnOHYxeElBZVdYRVZ4XzF1OE15SUs2QmlkbV9TamRZZW1uS2htblRaLU9NRXBRakpMN2NMWGk0eUszOEFBcHdRSC1aT083X1BaUG13RUUxcHU0UnFSUW9RMmtPMF91azBQcVJjRFNDNmJlYi1sYUc1b2d0NU83bnA3cFJhZ1FoTms3a0p3T2U2b0tvZzJFUDd4ZHpGTFM1bTRoeTRIa0dxQUhodlQ5YUg4WG04Z01ybDJINEJUVnNTbjdheWRiNTVtQnFLWVdHQ1oxUlFYa0s5ZnNNRGJ2S0lwS0NFSU03Q2dRLTdkR3VUTmpsRkVNZ1E2aDJuWkxSalF5NWhuNFpfeFQ1ZFdTd2JXV1lQUHpzc3g?oc=5",
+        "domain": "cotidianul.md",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T110917Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU Extends Chemical Weapons Sanctions Framework Until October 2031 - Oj",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWh4QllvTG9laG9xcURrRzVXQWJkQnEzRzRmT00tSmFCcVlsWjRkdGpsZlRWWTBWQS1NYVYzc09ibzJfZS1jdEVLbDlYbWl0ZXZIVm01M25BMTl0RFBXYV9NVEVpMVI5ZV8teDNrUkpteG1oazl2TmdHelRJZGNScjVfZDBtTGtxd1NLcWYtT0xYc25PWWZ0dFVYUWFFWUNsLTZRb2hETXh4MzdZSThDOQ?oc=5",
         "domain": "odessajournal",
@@ -120158,30 +120228,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK imposes sanctions on three Kyrgyzstan-registered companies",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEIzS21vOGwxRXhHVk0xYVFHck1UcUhYR3VycEZ3WmNmcGRDU1l0OHRYeXh5ZGVWQkRrSU5pNEliQkFHQW1ZNWdRNkVaNUdMZl9CRHdwdk45Z1hjN1lUSUhCa0w4X00wSF94b1hGaXJkX0hjS2MwbGJpZl9Wa2U2d3ZGdkhhWFk1akdQUXhBRQ?oc=5",
-        "domain": "24.kg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T051840Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Foreign Secretary statement on Iran, 12 October",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2NoeUstc3c1aFNldU1HekVxX1ZxM3BkbGNZbWsyMEV1NGM2N1JBWUk4TmhZVS1iaUxZbVhUQVg4ZzhSZVpoRG4tWUFwQW4xUHFHRnRJRkZ2VkoxVmQtN04zUEtVMUtmUUVmZ0szVXBsU1FMY3JnUVNkRWlRdUloN1BQS3dIQ3U3?oc=5",
         "domain": "gov.uk",
         "language": "",
         "tone": 0,
         "seendate": "20261012T145400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK freezes assets of Thet Li amid US Bitcoin fo...",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObndWZU9helg3ekJGNHNobDJLN2JfcDVhb0pzdEFZSXJIY0Z6ZGMyZnBncElNQ0hPSmZra3A1Mk9OSWJpMEJUaUlMc0RyTjkzazg5OHlCOE50eHJQblptbWNfQXkxQWlVZDh4MDU1V3NtT1NLLTNQWnBrTG45UVlGNzZFNUU2NkF0MG9WemxBamdaR3Q0LVhUZmtZRlE?oc=5",
-        "domain": "pluang",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T103428Z",
         "source": "GoogleNews"
       },
       {
@@ -120203,21 +120255,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK freezes assets of Thet Li amid US Bitcoin fo...",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObndWZU9helg3ekJGNHNobDJLN2JfcDVhb0pzdEFZSXJIY0Z6ZGMyZnBncElNQ0hPSmZra3A1Mk9OSWJpMEJUaUlMc0RyTjkzazg5OHlCOE50eHJQblptbWNfQXkxQWlVZDh4MDU1V3NtT1NLLTNQWnBrTG45UVlGNzZFNUU2NkF0MG9WemxBamdaR3Q0LVhUZmtZRlE?oc=5",
+        "domain": "pluang",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T103428Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Japan cross-party group's head thanks Taiwan for support after disasters",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzWldqQ0RPVHZ6V2JzckxxR0lsaXYzcGI1ZjJ5MW5fRHVJczdlTjdBdU5PVnBNZ3FFV25jRXZ4QS1XYmd2dlZ1Yk5DbFkyMVRsWVNUS2JGZ2lFWEF3YU93UGM1cHNVVW51RDhZeElpTGQ1c2c?oc=5",
         "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20261012T034547Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Grigory Berezkin Sanctions: How the Lifting of Restrictions Confirmed an Entrepreneur's Reputation",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb2lzeEdoR0tVT2d2X0FlRGdNcGRiTnYyMTBFM3VocFVvX29YVVlCR1RRRWZUcWFZdXZtT3RrYjNPNEFmRjJhUktHWlA4VkdfOWIwYWxKdk5iS29pZmtPT0Foc19vLVJIT0x1alROcHJDb04wOEVTNXVNVFVULV80bTZKcWh0SEIzc1FDYTdORGUtUUVlSGhWdkEzN21wUHFuaXJ5a0hNRDBKUnlYYXNESnFyYUd3djhUcTlORG9aNlJkRWlqSWRVZGZEUUEyS0hadnh3?oc=5",
-        "domain": "theeveshamobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T091635Z",
         "source": "GoogleNews"
       },
       {
@@ -120240,20 +120292,20 @@
       },
       {
         "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUlEtenpXV1BYb1ZxcTBPblhpcVdRSmRTMGs4bnR0MjY2bEV0Wnk2V1NWLVg0MGdwdTZ4eGYtRUkxdURaS19CTTNIblpuMEtyZTRDdjZuVzdYNE1iRVp4QUxmU3pSbXhoU0YwVEllNmVsYy1CNUFyTEEzbFgta0lXdXc0WVJuaDg?oc=5",
-        "domain": "aol.com",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1FkaFhZZ0tkSXRzSGVuU1k2d1BpUVhuaDI4dlh4eUJHYmdCUkJKSVZNTk1pdmplaDVsUXVVMEJXcVp5aGhyUlV6V0dRSUNXb1ZnUnJ5ckM0cnRDZWpaN0p3N2dMYl9xUnhsd2ZtUmNIQl9PT0VINTU0aVNsUHZmbTl3UXpQc3NuMGI2VWpFYjlnd09LUU5SVmlkeVdzN2lSQzJaQ2dXNjNWYWNhZDFCNjNJck1Nay1KdzBrbzNsa0NRNURzZXhsVGx3?oc=5",
+        "domain": "theirishnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T162801Z",
+        "seendate": "20261012T192658Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOXM3RDh6UHVDVjMwUkRqZGlRYmZFX1R1QTBNaGhxRVc4RWZTTHgwUDBNMWdpcTM0WFlsbTMxTnRveEwxLVpKR3pJb3dxaEtBNkNqU0RfdXJFZkpmZW1TZ0tDd2VpWGJIZGd2dWd3Qmd6cDN5ZHRtRDJ0NW1Zbll3cndPVDdjaVhkeTgtWXVIbnN6ekpkUXoyM0NrS0hScWFWODN3dHZkM3pUeW41VXlEMEw3UmlzN1E3YVBF?oc=5",
-        "domain": "kentonline",
+        "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
+        "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T152800Z",
+        "seendate": "20261016T074002Z",
         "source": "GoogleNews"
       },
       {
@@ -120293,40 +120345,22 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctioned tycoon Tagwirei handed investment portfolio as Mnangagwa splits finance ministry",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajI4ZWVWc1NnMlFaVk1nU1ZXVlk2Z3hZbTJDem8zYXZLNVBLZHRNSFkzYlRINVFoY2Q2TFAzT3Btb3FQMlExZmFucVdIeElNalFPUDVmTUxPQ21BOHZYZk5OdFhjUGRqa09jUjAzeHQzeW53aUhIYlBJV19mZVk2SWRQQmNvSGRLMTRLNkxVS2NQYXFWN05hcHV5Z0Zjdld6U3E3TXRWeF9qa2t3M2FkNEZxY3ZscUtQN2RmNUlGS2d2QjF4emlqLQ?oc=5",
-        "domain": "thezimbabwean",
+        "title": "EU adopts largest-ever round of sanctions against Russia",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaE1zOFJqSkVXUW9oaXU2V3V5MzVnclVuenVGRUtXekl1c1Y1NEQ5Tl9xQm1sSVNrUmtCeHdhMzZId3NCNS1CaXQ5OWxzMlJUUmpvbS1PTDZrYy1ISVhVUFAxR3B4M2JMQzkzUEV6Wk1zSGJwems2MmNJSkw1S01DVHY2WGpOQUM3elZVQ0FQN05mZWRaY2M0?oc=5",
+        "domain": "minutemirror",
         "language": "",
         "tone": 0,
-        "seendate": "20261009T043100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adds seven people and organisations to North Korea sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSy1MU0dBbG5VY25YVkdJZ2ZQdW90cHJIQ3BiRUgwUnoxMmVlaGlvdU9kSHVjTTlGaU01TDBteEhkclRBc3pqeGY0bjNQTE9qQ0dDMkxqXy1RME1xZW1CV0d5anQtbGFzVXZFQ1BKWmJMWGlzdmlLS0dFZDl3RnZzUUpteFJzWmljeDdfZTFCQjBja1g0U1YxczFfcVgzM2M?oc=5",
-        "domain": "londondailynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T102304Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Accuses Iran of RAF Fairford Plot and Sanctions Two Iranians",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUTl5VUtxbmM2WWw3QW5YX0lSSm9tWlRiQ1Y2Y1VQNloyWlFUcVB6Qzg1YUkwUS1IeG9tNTNBdWc2ZjFkYjN3Qy1uaHdzT3piMml5MDd2MnFaUXdUVEt1R0pyNTJGZWs?oc=5",
-        "domain": "suaragarut.id",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T023830Z",
+        "seendate": "20261012T132910Z",
         "source": "GoogleNews"
       }
     ]
   },
   "events": [
     {
-      "title": "",
-      "url": "/recent-actions/20261015",
+      "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
+      "url": "https://home.treasury.gov/news/press-releases/sb0661/",
       "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-      "action_url": null,
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
       "date": "2026-10-15",
       "source": "OFAC/Treasury"
     },
