@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-16T11:17:30.507104+00:00",
+    "generated": "2026-10-16T16:35:38.096196+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T11:15:44.078909+00:00",
+    "issued_at": "2026-10-16T16:33:51.584924+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 21.7,
+    "score": 30.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 40.0,
+        "score": 64.4,
         "releases_considered": 100,
-        "current_7d_designation_releases": 3,
-        "current_7d_all_releases": 4,
+        "current_7d_designation_releases": 5,
+        "current_7d_all_releases": 6,
         "prior_7d_designation_releases": 4,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.5,
-        "anomaly_z": -0.22,
+        "anomaly_z": 0.67,
         "themes": [
           "counter_narcotics",
           "counter_terrorism",
@@ -39,6 +39,43 @@
           "iran"
         ],
         "evidence": [
+          {
+            "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/sanctioning-cuban-state-owned-banco-internacional-de-comercio-s-a-bicsa/",
+            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+            "date": "2026-10-15",
+            "source": "OFAC/Treasury",
+            "posture_terms": [],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "cuba",
+              "iran"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
+            "url": "https://home.treasury.gov/news/press-releases/sb0660/",
+            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+            "date": "2026-10-15",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "economic outcast",
+              "targets"
+            ],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "cuba",
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
             "url": "https://home.treasury.gov/news/press-releases/sb0661/",
@@ -194,14 +231,34 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 10.8,
-        "current_7d_releases": 4,
-        "current_weighted_term_rate": 1.5,
+        "score": 12.6,
+        "current_7d_releases": 6,
+        "current_weighted_term_rate": 1.75,
         "baseline_weeks": 10,
-        "anomaly_z": -0.45,
-        "matched_release_count": 2,
-        "relief_release_count": 1,
+        "anomaly_z": -0.15,
+        "matched_release_count": 3,
+        "relief_release_count": 3,
         "evidence": [
+          {
+            "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
+            "url": "https://home.treasury.gov/news/press-releases/sb0660/",
+            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+            "date": "2026-10-15",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "economic outcast",
+              "targets"
+            ],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "cuba",
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
             "url": "https://home.treasury.gov/news/press-releases/sb0661/",
@@ -321,8 +378,8 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 40.0,
-        "level": "WATCH",
+        "score": 64.4,
+        "level": "ELEVATED",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
@@ -2262,6 +2319,17 @@
           "official_posture_shift": 10.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-16T16:33:51.584924+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2326,7 +2394,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "21.7/100",
+      "value": "30.7/100",
       "delta": "BASELINE"
     },
     {
@@ -119099,6 +119167,22 @@
     "ofac_releases": {
       "releases": [
         {
+          "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/sanctioning-cuban-state-owned-banco-internacional-de-comercio-s-a-bicsa/",
+          "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+          "date": "2026-10-15",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
+          "url": "https://home.treasury.gov/news/press-releases/sb0660/",
+          "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+          "date": "2026-10-15",
+          "source": "OFAC/Treasury"
+        },
+        {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
           "url": "https://home.treasury.gov/news/press-releases/sb0661/",
           "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
@@ -119315,8 +119399,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
+          "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/rescission-of-syrias-designation-as-a-state-sponsor-of-terrorism/",
           "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
           "date": "2026-08-24",
@@ -119331,16 +119415,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
-          "url": "https://home.treasury.gov/news/press-releases/sb0612/",
+          "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/United-States-Implements-Operation-Economic-Outcast-with-Sanctions-Targeting-Irans-Military-Activities-and-Procurements-and-Petroleum-and-Petrochemical-Product-Traders-fact-sheet",
           "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
           "date": "2026-08-24",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/rescission-of-syrias-designation-as-a-state-sponsor-of-terrorism/",
+          "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
+          "url": "https://home.treasury.gov/news/press-releases/sb0612/",
           "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
           "date": "2026-08-24",
@@ -119555,14 +119639,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "United States Sanctions Networks Fueling Conflict and Mineral Theft in Eastern DRC",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/united-states-sanctions-networks-fueling-conflict-and-mineral-theft-in-eastern-drc/",
-          "action_title": "Democratic Republic of the Congo-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260625",
-          "date": "2026-06-25",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Treasury Sanctions Rwandan Gold Refinery and Network Enabling Illicit Conflict Minerals Trade",
           "url": "https://home.treasury.gov/news/press-releases/sb0543",
           "action_title": "Democratic Republic of the Congo-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions",
@@ -119571,16 +119647,24 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Further Dismantles Overseas Scam Operations Targeting Americans",
-          "url": "https://home.treasury.gov/news/press-releases/sb0538",
+          "title": "United States Sanctions Networks Fueling Conflict and Mineral Theft in Eastern DRC",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/united-states-sanctions-networks-fueling-conflict-and-mineral-theft-in-eastern-drc/",
+          "action_title": "Democratic Republic of the Congo-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260625",
+          "date": "2026-06-25",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Further Sanctions on the Cuban Regime’s Revenue Generation Network",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/further-sanctions-on-the-cuban-regimes-revenue-generation-network-fact-sheet/",
           "action_title": "Transnational Criminal Organizations Designations; Cuba Designations; Russia-related Designations Removals; Issuance of TCO-related General License; Publication of OFAC-OFSI Comparative Overview",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260623",
           "date": "2026-06-23",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Further Sanctions on the Cuban Regime’s Revenue Generation Network",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/further-sanctions-on-the-cuban-regimes-revenue-generation-network-fact-sheet/",
+          "title": "Treasury Further Dismantles Overseas Scam Operations Targeting Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0538",
           "action_title": "Transnational Criminal Organizations Designations; Cuba Designations; Russia-related Designations Removals; Issuance of TCO-related General License; Publication of OFAC-OFSI Comparative Overview",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260623",
           "date": "2026-06-23",
@@ -119651,16 +119735,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
-          "url": "https://home.treasury.gov/news/press-releases/sb0510",
+          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
+          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
+          "url": "https://home.treasury.gov/news/press-releases/sb0510",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
@@ -119867,14 +119951,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Continues to Disrupt Hamas' Sham Charity Network as the Group Refuses to Disarm",
-          "url": "https://home.treasury.gov/news/press-releases/sb0415",
-          "action_title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260312",
-          "date": "2026-03-12",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
           "url": "https://home.treasury.gov/news/press-releases/sb0416",
           "action_title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
@@ -119883,19 +119959,11 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Terrorist Designation of the Sudanese Muslim Brotherhood",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/03/terrorist-designation-of-the-sudanese-muslim-brotherhood/",
-          "action_title": "Counter Terrorism Designations; Sudan-related Designation Update",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260309",
-          "date": "2026-03-09",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Sanctions Rwanda Officials, Condemns Blatant Violations of Washington Peace Accords",
-          "url": "https://home.treasury.gov/news/press-releases/sb0411",
-          "action_title": "Democratic Republic of the Congo-related Designations; Issuance of Associated General License",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260302",
-          "date": "2026-03-02",
+          "title": "Treasury Continues to Disrupt Hamas' Sham Charity Network as the Group Refuses to Disarm",
+          "url": "https://home.treasury.gov/news/press-releases/sb0415",
+          "action_title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260312",
+          "date": "2026-03-12",
           "source": "OFAC/Treasury"
         }
       ],
@@ -119903,15 +119971,6 @@
       "cached": false
     },
     "news_articles": [
-      {
-        "title": "Sanctions Compliance Meets Data Privacy: Managing a Structural Tension",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ3VoVmVkcVN4eVZSYmR2YmZVSmlMOEg1bE1OQlFwYkZHdUpOZGRpUDMtN3dNdjZNZFQtdTY1SE5nWVdGVzJSa09OaHUzN01sb291eVlwSmFfSFFfblNVMTdwZUl5YVAyeEh3ZnBmeUxpMkUxQi01NHlnZ2FGRmFvUGZmcFJ5WDFDTDdqQjJQUFptOU5YcTBMWlFPVGUzdXJETkV0aDN6ZmVoSUtVb09jYzhFdVpBLU9Ob1ZQZzlMc2J5RGFJN2kxQTNTYkdHSVM2NmltXzdBbDZwQjdGYTRqOQ?oc=5",
-        "domain": "freshfields",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261009T111754Z",
-        "source": "GoogleNews"
-      },
       {
         "title": "Haiti sanctions renewed: Starving the gangs of bullets",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSTgtZVdVMjIwSHQySWlhSXU4cVpIdFZnc0FLaUNyeUNmTURrVVVfQWM1TDNCR0FMMkNnOTB2Mnl5d2dBaFNUQkNKWmtWRy1SUDJ3OFpWaw?oc=5",
@@ -120003,6 +120062,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
+        "domain": "southchinamorningpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070410Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU agrees largest-ever package of sanctions targeting almost 1600 individuals, entities in Russia’s military-industrial complex",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObVBleGFfVWNHMUVSakhJdVc4TXV1eFhTXzVyVnUyanFQWi16RmdmMmV3bGhSS2pHbXhJN0NXQWxmYzctVllCLWVOWHY4azM3RU1HQVBfemdrVzlrYlRhd1hGemg1M0s4akVubVRoMWVLcG1JMy1PaHRhTjlQcVBSTW1IVkZueXdhY2lGRGVzM1pCczB3djJqNTEyOHB5QUJKaThITTNXbERoRmpWTkY3WVNLc3NKQWlxMHhvU2F5d2hzanlna3dKaXhNaEpyM0FNMExtZzZtendxeTNtYk5OSHFDeFZoaEl2VFVmZGJrUGZMdw?oc=5",
         "domain": "thesofiaglobe",
@@ -120018,24 +120086,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T152032Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
-        "domain": "southchinamorningpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T070410Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU targets alleged North Korea-Russia arms trade in expanded sanctions crackdown",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmxvNUFGVzlQUzVCX2o0MzZqTkt4b2VtVzhmcFRRMzhQUF9PRmhpT0VIdGdnSlJMVUd0SGNnSUNVSUxRU2RKZl84WE96TWRLMWZtc2h5SXhfN2NDSXNicVV0Zlg1MGZLMTZOVEJKN0R3Uy05d0V2UHdZWHZRb2s5eGlJMVVaMlVCanRfZEt1M2dTMF9VMy13QmdOWktCTFM2cDZTNEg4X2Q1RE1MYXRlZW5BWU9rTERYVDdVbXgyWFJ4ZU9UUktIag?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T224518Z",
         "source": "GoogleNews"
       },
       {
@@ -120066,15 +120116,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
-        "domain": "thesofiaglobe",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T073906Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
         "domain": "jamaicagleaner",
@@ -120090,6 +120131,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T170538Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
+        "domain": "thesofiaglobe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T073906Z",
         "source": "GoogleNews"
       },
       {
@@ -120111,12 +120161,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU unveils largest-ever Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
+        "domain": "latestnewsfromazerbaijan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T144016Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWF9yYmRxUE9qMDM5M0E1OTNxSklpcXh3Vmg1dk0zSmRJR3dTSmJsZ0swcHpaZHlwZ3cxLS1LOU40N1A4WDNLYmlwVG55TTVMM0tfaTVmZVlLWkduQ2J1b01HUlZCZkhwVXA1djVvTHlrUUVrNmlsWjdRZ1JkTEtsTzBBVndZWnUtSXRScFcyazUyajVXNVBsUFNtRjI?oc=5",
         "domain": "thekyivindependent",
         "language": "",
         "tone": 0,
         "seendate": "20261009T163456Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOGFBZEtUQjZQYzFQYm90Ym53Nk91Ui13Y19kaFZSWF9hS1Y5ejNqYVJENkpWZVlySWkzZVdVbGdSR25kb2Q2eFQ1cUl0V3hkbk1NYjdRWjRCNFRmbTZSUHEyblRmMzY5Wk9wcGFWQXNweDRvZnd2bXc0aWJXQjM3VXB5TjJqSE5NVW1XeEhkN0YxdnBfQVJGeUNZalNZNXV2YlNGVUtIc1BGLWF0amhpejJ3Yzc1LWVoaVBQX0JQWWY5eGZQX05OTmlxM1JZRzU4djZxVUQteTJjekpic0gzTNIB4AFBVV95cUxOOGFBZEtUQjZQYzFQYm90Ym53Nk91Ui13Y19kaFZSWF9hS1Y5ejNqYVJENkpWZVlySWkzZVdVbGdSR25kb2Q2eFQ1cUl0V3hkbk1NYjdRWjRCNFRmbTZSUHEyblRmMzY5Wk9wcGFWQXNweDRvZnd2bXc0aWJXQjM3VXB5TjJqSE5NVW1XeEhkN0YxdnBfQVJGeUNZalNZNXV2YlNGVUtIc1BGLWF0amhpejJ3Yzc1LWVoaVBQX0JQWWY5eGZQX05OTmlxM1JZRzU4djZxVUQteTJjekpic0gzTA?oc=5",
+        "domain": "mymotherlode.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T133411Z",
         "source": "GoogleNews"
       },
       {
@@ -120147,30 +120215,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The EU has extended the sanctions mechanism concerning the use of chemical weapons until 2031",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRzNiN05vRzBFZWI3SHdiSjdkM0JONHpkZ1FPbnVXbGNVd0IwNUNFOG0wMlkwelc4N05xelgzT3Zfc0ZEcVd4el9vSEdZSmUxekRCQWtqV3N5MmpjSDkzSWdzdVpIaFV3R1JQYTdTZEFqYjU1N1dFTEpaZFBkWWxZbHA4RlNkaXptREF1U0VJbmJhNjcyX3FDWUdKbVA0eHRyQ3IyVWxERkNnWXNnbmFnUldfWmM0SVXSAbYBQVVfeXFMT1RKZ0JCMWROTmw2bkdDZlZRU09UVTZRbC1hV0FEaE1NZ0V1b0dHTzBUa1k3WTEyR29HdXRaek9SWi1mX19fOW03ZFlxYjlOZHAzdHQ2LUdncV9NaFFYYXFfVW1EekExUEpWSG8zV2lKNHhFUnNJSFBLUkpDMFdESGFSTXQ1SXk2dnRzQ3VqOTY3bGF5ZkcxY3c5eXRmTjZFbmlQWi1rYjFzR29Ub3NJQzV5VlJrS3c?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T093711Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "From Abramovich to Usmanov: How Russian Oligarchs Hide Billions from Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcHFybzhITlRfYXFSenhHZ1hNRTBnRHlpSld3VnpoLWIyWmRXVDZubUlUSGpna19MbmlpMTQyWmpNVWZiMHlLZGg1TjdjbEpIeHZySy01N0lybEZFZjhVdGE3RTRFdUFvNjZxU1pTaFpic3BETGRHZUd5ZUJLWmxBa1F0LWVtQ1ZLTnBpYWdMZlg1QVdQNS0yOHc2cFd5dFdQenVvVVZ6ZDJYdw?oc=5",
         "domain": "ua.news",
         "language": "",
         "tone": 0,
         "seendate": "20261014T144306Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Somalia sanctions ex-regional leader over alleged Shabaab links",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFVnV0tiSllsRUEzclVaZHNkc19RUnNlZ0NQZmRaR0IxQnp1ZmVjT2dMNVAxVkswSWFycVlnLVBjSWJnaWxub3FjWnJ1cEtITTU5eVBIdk9tNkdpMkNVNEZqcE1fYzF0S1RWeE1pM0Zsbm0tTjBPTGM1alZlTTRjWEJFMERDTVhUUUthV3UyNFg3QlhCOFdjeTloSF90QmkxU3RVNi1UUXA1bEd2OVE?oc=5",
-        "domain": "somaliatoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T170630Z",
         "source": "GoogleNews"
       },
       {
@@ -120192,15 +120242,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU adopts new sanctions against Russia targeting nearly 1.600 individuals and entities. Kaja Kallas: \"Europe shows a united front once again. The biggest expansion of our sanctions list since Russia started its war\"",
-        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQdUFJdzktWU95OVZBX2E3eG0welRnOHYxeElBZVdYRVZ4XzF1OE15SUs2QmlkbV9TamRZZW1uS2htblRaLU9NRXBRakpMN2NMWGk0eUszOEFBcHdRSC1aT083X1BaUG13RUUxcHU0UnFSUW9RMmtPMF91azBQcVJjRFNDNmJlYi1sYUc1b2d0NU83bnA3cFJhZ1FoTms3a0p3T2U2b0tvZzJFUDd4ZHpGTFM1bTRoeTRIa0dxQUhodlQ5YUg4WG04Z01ybDJINEJUVnNTbjdheWRiNTVtQnFLWVdHQ1oxUlFYa0s5ZnNNRGJ2S0lwS0NFSU03Q2dRLTdkR3VUTmpsRkVNZ1E2aDJuWkxSalF5NWhuNFpfeFQ1ZFdTd2JXV1lQUHpzc3g?oc=5",
-        "domain": "cotidianul.md",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T110917Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU Extends Chemical Weapons Sanctions Framework Until October 2031 - Oj",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWh4QllvTG9laG9xcURrRzVXQWJkQnEzRzRmT00tSmFCcVlsWjRkdGpsZlRWWTBWQS1NYVYzc09ibzJfZS1jdEVLbDlYbWl0ZXZIVm01M25BMTl0RFBXYV9NVEVpMVI5ZV8teDNrUkpteG1oazl2TmdHelRJZGNScjVfZDBtTGtxd1NLcWYtT0xYc25PWWZ0dFVYUWFFWUNsLTZRb2hETXh4MzdZSThDOQ?oc=5",
         "domain": "odessajournal",
@@ -120210,17 +120251,17 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUU1JdlpVRnR6dk8zdk5jd1NpZFZlTlA3ZHFWT29Vd0VCTTFyODlocThEMXYwQnhzY1VSdjE3WURHSUxqeHA5QmlhdHo5dzBTZERma25tQ1BWUXIwMnFBd3dGVHNjNjd3eDN3bEpJajIzVnRUN21NLWVwbkNJT2xUT1NnNndBa3p2bHVkNTM0VzdGcU91R1lKdzFTTDBNYktKSFBGU1pmRWZoeUx0a0ZzNzctSkE0aXZSc3lCMFFwaThDcS16b3VRWVV3?oc=5",
-        "domain": "thebrusselstimes",
+        "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
+        "domain": "radiojamaicanewsonline",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T212009Z",
+        "seendate": "20261016T105653Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Largest EU sanctions package yet adds 1,569 to Russia military blacklist",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdm4tQXpBc1VQSTR0X3N6TWg4a0NmM3ZVT3V6Mi1kNUhBazZkeUFqYzB0Q0FtSWtPMHdiVVpGSkVlbFZxeWlQMU1YLWJOZDJvZWdqSlVTQXdfQUVRMWtreFJNYlpRREZJV1JEWGpWd3U2TnBzUF9ub2tvOS1LREViLUI3LV83T092VlB5S0E2dXVLM0dVUXFDZF96VVB5RnM3Q3Z4MEhVNmFHU0ptdnBla0RMb2ZZZXgzVHRKbA?oc=5",
+        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUU1JdlpVRnR6dk8zdk5jd1NpZFZlTlA3ZHFWT29Vd0VCTTFyODlocThEMXYwQnhzY1VSdjE3WURHSUxqeHA5QmlhdHo5dzBTZERma25tQ1BWUXIwMnFBd3dGVHNjNjd3eDN3bEpJajIzVnRUN21NLWVwbkNJT2xUT1NnNndBa3p2bHVkNTM0VzdGcU91R1lKdzFTTDBNYktKSFBGU1pmRWZoeUx0a0ZzNzctSkE0aXZSc3lCMFFwaThDcS16b3VRWVV3?oc=5",
         "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
@@ -120261,24 +120302,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T103428Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan cross-party group's head thanks Taiwan for support after disasters",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzWldqQ0RPVHZ6V2JzckxxR0lsaXYzcGI1ZjJ5MW5fRHVJczdlTjdBdU5PVnBNZ3FFV25jRXZ4QS1XYmd2dlZ1Yk5DbFkyMVRsWVNUS2JGZ2lFWEF3YU93UGM1cHNVVW51RDhZeElpTGQ1c2c?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T034547Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK summons Iran envoy, freezes assets of two nationals",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2OVc2UVVCR3RVdmQwbnBMc3dLREFwMUE0cEhiXzZUR1o5Tm5JMFhjUmx1MkU4bWppWU1PVmlaejFXVXFBVGJ2NUtsZnh3Q1UwZm14TVYwT2Q2TjZJNk5UZjVNdWtCN3Z2RDFwS0dUMjlUR1ZqekVGdnpiUnBCVm8?oc=5",
-        "domain": "punchnewspapers",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T161104Z",
         "source": "GoogleNews"
       },
       {
@@ -120336,15 +120359,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU adds 1,569 names to Russia sanctions list in largest single package",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY05wYUR3YWM5aDBXQ2xTZ1JWaWdVREZFc1pINFZKaVp0cVBZZkhOay1lRGV1Wi0zNmxPRWpnOTFJTnZ1MG1nZTNQZ0tGZk1XNXRZMEQxZ0ZuQnNMSFo0TGdCX3Bwc2QtNld1SUR6YlZuLXdhVm5KazF2cUZCQXlJRnUzTzNLN1lHcjBxbE9Bdjc0b1RSTkNKc1ZkUUNJOVlo?oc=5",
-        "domain": "londondailynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T064458Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU adopts largest-ever round of sanctions against Russia",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaE1zOFJqSkVXUW9oaXU2V3V5MzVnclVuenVGRUtXekl1c1Y1NEQ5Tl9xQm1sSVNrUmtCeHdhMzZId3NCNS1CaXQ5OWxzMlJUUmpvbS1PTDZrYy1ISVhVUFAxR3B4M2JMQzkzUEV6Wk1zSGJwems2MmNJSkw1S01DVHY2WGpOQUM3elZVQ0FQN05mZWRaY2M0?oc=5",
         "domain": "minutemirror",
@@ -120352,10 +120366,44 @@
         "tone": 0,
         "seendate": "20261012T132910Z",
         "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds seven people and organisations to North Korea sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSy1MU0dBbG5VY25YVkdJZ2ZQdW90cHJIQ3BiRUgwUnoxMmVlaGlvdU9kSHVjTTlGaU01TDBteEhkclRBc3pqeGY0bjNQTE9qQ0dDMkxqXy1RME1xZW1CV0d5anQtbGFzVXZFQ1BKWmJMWGlzdmlLS0dFZDl3RnZzUUpteFJzWmljeDdfZTFCQjBja1g0U1YxczFfcVgzM2M?oc=5",
+        "domain": "londondailynews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T102304Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Accuses Iran of RAF Fairford Plot and Sanctions Two Iranians",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUTl5VUtxbmM2WWw3QW5YX0lSSm9tWlRiQ1Y2Y1VQNloyWlFUcVB6Qzg1YUkwUS1IeG9tNTNBdWc2ZjFkYjN3Qy1uaHdzT3piMml5MDd2MnFaUXdUVEt1R0pyNTJGZWs?oc=5",
+        "domain": "suaragarut.id",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T023830Z",
+        "source": "GoogleNews"
       }
     ]
   },
   "events": [
+    {
+      "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/sanctioning-cuban-state-owned-banco-internacional-de-comercio-s-a-bicsa/",
+      "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+      "date": "2026-10-15",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
+      "url": "https://home.treasury.gov/news/press-releases/sb0660/",
+      "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
+      "date": "2026-10-15",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
       "url": "https://home.treasury.gov/news/press-releases/sb0661/",
@@ -120455,22 +120503,6 @@
     {
       "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
       "url": "https://home.treasury.gov/news/press-releases/sb0637/",
-      "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
-      "date": "2026-09-29",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
-      "url": "https://ofac.treasury.gov/media/937016/download?inline",
-      "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
-      "date": "2026-09-29",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "CHART - Los Mayos Narco-Corruption in Baja California - September 2026",
-      "url": "https://ofac.treasury.gov/media/937021/download?inline",
       "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
       "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
       "date": "2026-09-29",
