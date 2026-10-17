@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-17T15:30:06.017143+00:00",
+    "generated": "2026-10-17T20:32:54.169208+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T15:28:19.587292+00:00",
+    "issued_at": "2026-10-17T20:31:07.527776+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -384,17 +384,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-27T22:13:21.989393+00:00",
-        "score": 37.1,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 60.4,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-28T11:18:27.484297+00:00",
         "score": 37.1,
@@ -2355,6 +2344,17 @@
       },
       {
         "timestamp": "2026-10-17T15:28:19.587292+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-17T20:31:07.527776+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -120248,15 +120248,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Updates Records of Five Sanctioned Islamic Emirate Officials",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WHl0VHZLQXBvX0c3TENlRVNTeHhPRkpocjNaQkM0RGUwU1BaZG51WGxoeEh5M3Q5MDdYbEZzeTZhdGduUFBoMGV5WnFQMGZ0TUJrcHl3?oc=5",
-        "domain": "tolonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Foreign Secretary statement on Iran, 12 October",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2NoeUstc3c1aFNldU1HekVxX1ZxM3BkbGNZbWsyMEV1NGM2N1JBWUk4TmhZVS1iaUxZbVhUQVg4ZzhSZVpoRG4tWUFwQW4xUHFHRnRJRkZ2VkoxVmQtN04zUEtVMUtmUUVmZ0szVXBsU1FMY3JnUVNkRWlRdUloN1BQS3dIQ3U3?oc=5",
         "domain": "gov.uk",
@@ -120294,20 +120285,11 @@
       },
       {
         "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGxuczNka3pBdWQ0ekprME5oU1MzQVFrRVhNQ1hxVmVSY0dvcEF5WFVwRjUwaWNyX09jRkRrMi05N055cmNSWVpZcWJod0RNR3IzLTlXeWluNUJJOU01bG5VU2Z0cGxBWExtbDB0cW8zSVJzcDNNeFY1VFF1SXJia2dFekw5eVhVNTg5cjlMT3p3NmJHNi1nVW5nZ0ZfWGRKc1kzOGMxTXplSmIyZ2U0bldUMA?oc=5",
-        "domain": "edp24",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQekJ1V2hUdzNsWWxnVnlIbVh3WE43ai02NUk4ZWxDSDZJTEd3dnVNT21hVXJ0a1d3M25SWTdrVEsxcUxSYTVFbGVyaTZlSGI1VDB4UGN5MEUzM3ZMeEFzUDB6V1ZFNkNsUk1CR1FXOHo0bDlHTnRIanI5MEp5THJ5YkxmdWJfdUpIQkhOaUZhVTdES1NVb2x1MXJDQXpJSmJVdldTZmRDZlRqNWExSmw2NlFDYTJLUQ?oc=5",
+        "domain": "hertsadvertiser",
         "language": "",
         "tone": 0,
         "seendate": "20261012T193212Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T074002Z",
         "source": "GoogleNews"
       },
       {
@@ -120344,6 +120326,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T061051Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "SECP issues guidebook on targeted financial sanctions compli",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkNOalNFTzEwazdwdndYam8tN243eVQxVDdTekhZWE40aFF4S1lqNW1xYnlqX2xTX1hEY3hLckd1c29udE1mbXkyenZXOHdEZEozMmh4dHc2V2NCNTlBdmU2c01PY1I3QldBaUhRblprSzZ0VDVtVjVTV2xFeUs4dkFDRzlDNkpJYVpGVTZFRzJiTUJIQmVIUnFZZU5hYjF5MmtHdnpna20wSm1VU2pSMUl3WjkweDBpSERENkpPZnpCM1dfaGc?oc=5",
+        "domain": "profitbypakistantoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T165141Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Switzerland adds names to Venezuela sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWViU0JQckRzUGRSRHlNakZwa3ZfaTRHUnR1UGZRbV9QNzBmUXE5YnF5OUxSQ3hlXzkyWWNEbTJ0d0d0alNsTS1rblBROVRSVVEtak1pNC11c1ZmWFZsMXVlV2tUOUtoZjljVmRhWU45WVN2bnVlVnVxaGZsVjJOSmwxOHNObzVvdWw0?oc=5",
+        "domain": "24newshd",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T160809Z",
         "source": "GoogleNews"
       },
       {
