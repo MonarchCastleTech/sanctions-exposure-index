@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-17T10:36:59.271355+00:00",
+    "generated": "2026-10-17T15:30:06.017143+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T10:35:12.684305+00:00",
+    "issued_at": "2026-10-17T15:28:19.587292+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -384,17 +384,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-27T21:02:54.229166+00:00",
-        "score": 37.1,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 60.4,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-27T22:13:21.989393+00:00",
         "score": 37.1,
@@ -2355,6 +2344,17 @@
       },
       {
         "timestamp": "2026-10-17T10:35:12.684305+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-17T15:28:19.587292+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -120005,30 +120005,12 @@
     },
     "news_articles": [
       {
-        "title": "Security Council, 10241st Meeting (AM) Haiti",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FRXRDd2lMdkxtLXQ5emNuUTNpaXloNFlXV1BmSnB6ZGZoQVUtTmZQczhZaDNWRWxlNDNnREJ1cGtsOWR5dnJ4cmtPeEY?oc=5",
-        "domain": "unmeetingscoverageandpressreleases",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T120000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Haiti sanctions renewed: Starving the gangs of bullets",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KclpSYno2cnRyOXBoOVZUR1Y5elBCWVVlMjFTWnRDS2xZb2x6QUh2RVVEeWRxOEQ2c253WldLeFJkUU5MNkxuNWFZc3gtb1pmb3dfOVFjcmpFUzVlMGJmeG00QlLSAWRBVV95cUxOSnJaUmJ6NnJ0cjlwaDlWVEdWOXpQQllVZTIxU1p0Q0tsWW9sekFIdkVVRHlkcThENnNud1pXS3hSZFFOTDZMbjVhWXN4LW9aZm93XzlRY3JqRVM1ZTBiZnhtNEJS?oc=5",
-        "domain": "globalissues.org",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSTgtZVdVMjIwSHQySWlhSXU4cVpIdFZnc0FLaUNyeUNmTURrVVVfQWM1TDNCR0FMMkNnOTB2Mnl5d2dBaFNUQkNKWmtWRy1SUDJ3OFpWaw?oc=5",
+        "domain": "unnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261014T120000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
-        "domain": "theguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T165100Z",
+        "seendate": "20261014T204443Z",
         "source": "GoogleNews"
       },
       {
@@ -120047,6 +120029,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
+        "domain": "theguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T165100Z",
         "source": "GoogleNews"
       },
       {
@@ -120158,39 +120149,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
-        "domain": "thesofiaglobe",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T073906Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Council imposes record sanctions on Russia, targeting 1,646 individuals and entities",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1hNUHlST2pydFFlNUF6SEFxZE9qbkY1a1ZLelQ4OVpzZGg4WmlJNlJ0ZjZINTBZczNZNHZkVEFDanhFRzRRVjhocUl1YkJDWFhVTVBmMHBLWk1MdmZFekxSdEhSNE9EREhOV1hLbE82RDljSWhSdzNEenR2TnBVcjJETmpvN0RUXzBoeU04blN4blFKTWJSQ093MHJ0NFJoLUVUdGpnQmllcDBwUzJZTGlncHp5LWcyNmpLamZpSEhjdERrcW13ZTdyTmhsUTdPVXJ5VDVUNi1ESkJ1V3NiVEpscTBYNTg?oc=5",
-        "domain": "insighteumonitoring",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T170538Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGxmcEY4cEtBYlNpSy1ZQ3puY2J4V3p4RDFLY3pRbXlzQnF0Y3N4b21PVXVvY01Sc2FIbG5XVGJtNUpfM3lmbzlRN3NPTGlVZTJoVElKdkU3S2txcnlhTXZ1R0xIQzJmbGdoMks0T2t4S1luVTZvZ2tVZlRMTndtUVBDYWtsUkVoUndHOGgzVHBFZXRkY2tiVUNvQUtJSVdqVUpTOWUyUUwwcHY4UVZZRXdQT2tHZEdkR05J?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T212009Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council extends sanctions against Haiti for one year — Anadolu Agency",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDZ6Wi04MXVDWkQxTmpnZDVSd0xmVXdaOGE5bnhKT1R4eG4yOElxUlJYaVlEdDhmdmM3emhmaFhURFpJZl9iTU5kMFl0c1hQQ0QxWmZmR3dVZWtqaDNBRy14eFl5UmlwdHkwQktDRVdCR0FmVmVXVU1IRUVYcGJyX0oxS3NwZmZ1OFYwTGhWLUZLdkFkZ3dZVW5HR1YxWm8?oc=5",
         "domain": "ua.news",
         "language": "",
         "tone": 0,
         "seendate": "20261014T165549Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
+        "domain": "thesofiaglobe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T073906Z",
         "source": "GoogleNews"
       },
       {
@@ -120209,6 +120182,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T133411Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGxmcEY4cEtBYlNpSy1ZQ3puY2J4V3p4RDFLY3pRbXlzQnF0Y3N4b21PVXVvY01Sc2FIbG5XVGJtNUpfM3lmbzlRN3NPTGlVZTJoVElKdkU3S2txcnlhTXZ1R0xIQzJmbGdoMks0T2t4S1luVTZvZ2tVZlRMTndtUVBDYWtsUkVoUndHOGgzVHBFZXRkY2tiVUNvQUtJSVdqVUpTOWUyUUwwcHY4UVZZRXdQT2tHZEdkR05J?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120263,6 +120245,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T105653Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Updates Records of Five Sanctioned Islamic Emirate Officials",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WHl0VHZLQXBvX0c3TENlRVNTeHhPRkpocjNaQkM0RGUwU1BaZG51WGxoeEh5M3Q5MDdYbEZzeTZhdGduUFBoMGV5WnFQMGZ0TUJrcHl3?oc=5",
+        "domain": "tolonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120380,6 +120371,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T023830Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "God Nisanov maintains an extensive property portfolio through a proxy – Darvin Izrayev",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xVXk4V0NFU3p1Tk5mQXRVVm4yemptUUo0Z3hURXJ4bXBDMkZRWHlnMDhRSVJIMHoxZmlBRFR6c2xiazdLUXdXU1FvQnRySl9IcGZuSVdlN29tdERyYTNfa0E0ZnZ5MTVyaElZTS1nZVo2T3Nt?oc=5",
+        "domain": "trinitybugle",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T134318Z",
         "source": "GoogleNews"
       }
     ]
