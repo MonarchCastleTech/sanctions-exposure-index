@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-16T21:03:46.679714+00:00",
+    "generated": "2026-10-17T04:20:04.001407+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T21:02:00.412135+00:00",
+    "issued_at": "2026-10-17T04:18:09.977571+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -2333,6 +2333,17 @@
       },
       {
         "timestamp": "2026-10-16T21:02:00.412135+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-17T04:18:09.977571+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -119992,6 +120003,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
+        "domain": "theguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T165100Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
         "domain": "fortune",
@@ -120007,15 +120027,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
-        "domain": "theguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T165100Z",
         "source": "GoogleNews"
       },
       {
@@ -120091,15 +120102,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia: EU sanctions imposed on nearly 1,600 companies and individuals. Kallas",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQeUk3akcwaTNMVkh0RVJVMC1aRjA1NVJSV1M0VVlRZmdBc3c3NUhUZ3Jka1dtdG5RcUxWTDRsTlk3UEFHakFxdUFGeFY3NDV6U1UyMElSSURFQ1N0bS14VlJoZ19VQ2o5Q1pNSG9uMlRlMlBiVlZjeEhSV2FKV3ltX21yaUJtaHRsc25MY3ZTQXYwRlVrMTM4SVRjVm9FTUhvdGJ1WEJ1b2NTa3E0TVlud2ZhdDNoYnlSUDJ4Qmt2Yk9icGgtSjZKdmlaTWU4TWxJWGlfeG9lWW92WTVHanNqaVNHQnVJT2JUQXg3ZWkxaGtXM3dRVXp4dzYtNEFCUQ?oc=5",
-        "domain": "eunews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T153102Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU sanctions shipyards and design bureaus key to Russia’s nuclear submarine fleet",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVE52TXMybkw4cFJ5Y090U2VKV05OeHRvWGFsQzlkLUJQTTVMVkVMMWFXb3pHR1lDdE9KRFVHV0dRNlVkVjFMbjdEdHUzdnVWSTV5U19MTFpKN19nd1FOZHQ4VzNTcFdsSGdCWEVOcHRiemR3U25fcWxicl9INGNrSG40QUNGQXZTdjN2S3JZeTlTRGhmT1lRWnl2SGxxQ082a2hLMHo3SzBHWlpQUnMtRml1bFZfWENVd0FNUGJSekpLZWZKR0E?oc=5",
         "domain": "thebarentsobserver",
@@ -120118,24 +120120,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
-        "domain": "jamaicagleaner",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T152703Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Council imposes record sanctions on Russia, targeting 1,646 individuals and entities",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1hNUHlST2pydFFlNUF6SEFxZE9qbkY1a1ZLelQ4OVpzZGg4WmlJNlJ0ZjZINTBZczNZNHZkVEFDanhFRzRRVjhocUl1YkJDWFhVTVBmMHBLWk1MdmZFekxSdEhSNE9EREhOV1hLbE82RDljSWhSdzNEenR2TnBVcjJETmpvN0RUXzBoeU04blN4blFKTWJSQ093MHJ0NFJoLUVUdGpnQmllcDBwUzJZTGlncHp5LWcyNmpLamZpSEhjdERrcW13ZTdyTmhsUTdPVXJ5VDVUNi1ESkJ1V3NiVEpscTBYNTg?oc=5",
-        "domain": "insighteumonitoring",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T170538Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU unveils largest-ever Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
         "domain": "latestnewsfromazerbaijan",
@@ -120145,12 +120129,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
+        "domain": "jamaicagleaner",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T152703Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGxmcEY4cEtBYlNpSy1ZQ3puY2J4V3p4RDFLY3pRbXlzQnF0Y3N4b21PVXVvY01Sc2FIbG5XVGJtNUpfM3lmbzlRN3NPTGlVZTJoVElKdkU3S2txcnlhTXZ1R0xIQzJmbGdoMks0T2t4S1luVTZvZ2tVZlRMTndtUVBDYWtsUkVoUndHOGgzVHBFZXRkY2tiVUNvQUtJSVdqVUpTOWUyUUwwcHY4UVZZRXdQT2tHZEdkR05J?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T212009Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
         "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
         "seendate": "20261016T073906Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Council imposes record sanctions on Russia, targeting 1,646 individuals and entities",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1hNUHlST2pydFFlNUF6SEFxZE9qbkY1a1ZLelQ4OVpzZGg4WmlJNlJ0ZjZINTBZczNZNHZkVEFDanhFRzRRVjhocUl1YkJDWFhVTVBmMHBLWk1MdmZFekxSdEhSNE9EREhOV1hLbE82RDljSWhSdzNEenR2TnBVcjJETmpvN0RUXzBoeU04blN4blFKTWJSQ093MHJ0NFJoLUVUdGpnQmllcDBwUzJZTGlncHp5LWcyNmpLamZpSEhjdERrcW13ZTdyTmhsUTdPVXJ5VDVUNi1ESkJ1V3NiVEpscTBYNTg?oc=5",
+        "domain": "insighteumonitoring",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T170538Z",
         "source": "GoogleNews"
       },
       {
@@ -120181,15 +120192,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK premier says Iran ‘almost certainly’ directed UK air base plot, announces sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc2dNOFd0dFo5a0trQXU1U082RDRsZEZtaVM1YTFEejVnd2pjRjlJN29naXNYSzVldld3dUNjLUl4MU53VE5ERjY3Mm92NGRsajgxZ0xuT0dTa2djWi1DOVJld0lZbm05c2VwSUE1MnI5M19lVHpQVlNRdHVtSlVZTWRYVVc3Z01XYjkxUUZRdDVvbjdjcWZZVWZmcjhJQTB0VWRnOTlGWDhnWkVUUGZnWTZYVzA4bDAwR1dzM2JBaFk?oc=5",
-        "domain": "anadoluajans",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T162005Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Switching from Cryptomus to Heleket leaves the same UK sanctions target",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNEI2dXdIcExrOHVhNWNBVGZmUUVEY0NiME1kVVloaVBwbnBMclFtQWpFRThxdnI3Ny1fM2ItTTNkcmVLNmVPQi1PMHdtTlFZVXl6Rm1mWHI1SU9DTU1aUnZHazRYbm9mWDZJQlRsYUdpdXFsd3Z4X1RjM05IOWRhRWEtbzB1RWhyTk1OQ2MwQkJ1bDh6ZzZsd3dZQWItRG5PLWs1OUMtcHRjMlE1c3dIb2tOc1JmUHM2VnYwTHpWRlZYc0xxbEVLYXVSOG94WnBUNy1aU0hR?oc=5",
         "domain": "cryptorank",
@@ -120205,6 +120207,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261014T144306Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeDZfVEZVc2dGOXhYOEZNbXVDR2pKTkwyT283NkhDcy02cmFLWWR6V25BZW15LS1zUGpfTFBiMmRkZExkZnlsUG5wNUlGemFqNnpDcnBpc2FISC1XU0hiNlZNSUdJcG11eUZjZFViTkVKWmQ0bWtfSkRlOE1pYmkwUVR2YW5KZlIzc2lqa0NUSlItcFVrcEJNTUZwX2puOXBYZDJrQlJmWU9uQzV5c0hLOVpORXlIbmE2TC1XdFJGdjBxUQ?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T232113Z",
         "source": "GoogleNews"
       },
       {
@@ -120235,15 +120246,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUU1JdlpVRnR6dk8zdk5jd1NpZFZlTlA3ZHFWT29Vd0VCTTFyODlocThEMXYwQnhzY1VSdjE3WURHSUxqeHA5QmlhdHo5dzBTZERma25tQ1BWUXIwMnFBd3dGVHNjNjd3eDN3bEpJajIzVnRUN21NLWVwbkNJT2xUT1NnNndBa3p2bHVkNTM0VzdGcU91R1lKdzFTTDBNYktKSFBGU1pmRWZoeUx0a0ZzNzctSkE0aXZSc3lCMFFwaThDcS16b3VRWVV3?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T212009Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Foreign Secretary statement on Iran, 12 October",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2NoeUstc3c1aFNldU1HekVxX1ZxM3BkbGNZbWsyMEV1NGM2N1JBWUk4TmhZVS1iaUxZbVhUQVg4ZzhSZVpoRG4tWUFwQW4xUHFHRnRJRkZ2VkoxVmQtN04zUEtVMUtmUUVmZ0szVXBsU1FMY3JnUVNkRWlRdUloN1BQS3dIQ3U3?oc=5",
         "domain": "gov.uk",
@@ -120259,15 +120261,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T011808Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Largest EU Sanctions Package: 1,600 Russian Defense Entities",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUt6ZTA0SkNsYUVKVEFSMnpfc294WVhFeXJRb1NRQ0hPblhDc0R2MlBtcDhOc1JRRlFPbzhTRWZieTk4d0lPSDUwY0Q4dXdXc25RdENCVmtfakxLMVg4Zl9NbV9ESkJ1Z1pkeU9YbUJYTXNXN0MwRUJvYmFMdG05UC1uTWhNa3VQSnpSSk92dnRBMEdWbjhGeS1hdWVuTl8wZ2xWSmVtclE1b2tz?oc=5",
-        "domain": "statewatch.org.ua",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T195847Z",
         "source": "GoogleNews"
       },
       {
@@ -120325,21 +120318,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYzFnMlFGdVJRNEtqR2pBZFl3dGoyN1UxOVlaTFNDQ3pDSldLMkMzTjNidE9fZV91NENiZF9JZFpFNG1wc0pyMG90UFBWVEVxYWpXSHlXb1laMnRuSzB4X2lLM1pkOHJBMzZxajlxd0VUTWVHOEJ4clViajVhQ0ViZFVib2pFVVR6VVFhRERhMF9CS0FmbHVLa0NUOVlvLVBSV2c1d2t4UG42dGdhb3c?oc=5",
+        "domain": "newswav",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T162801Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UK Freezes London Mansion of Prince Group CFO Li Tian",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tREdNU0hVUThfTkhxX3NQSi0wb1NjSHVDZ3NkTHQwdTAydzVNQTBxMXVHVFM4VHZLUzdyU205Uk1zS096TzhsVWhRWUFPbjZyMDVYUi0zUmhkcm9HNWhpT3hJYm94bGxseXlUQ0pRc0ZVQ0Rv?oc=5",
         "domain": "httpswww.ababnews.com",
         "language": "",
         "tone": 0,
         "seendate": "20261012T061051Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adopts largest-ever round of sanctions against Russia",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaE1zOFJqSkVXUW9oaXU2V3V5MzVnclVuenVGRUtXekl1c1Y1NEQ5Tl9xQm1sSVNrUmtCeHdhMzZId3NCNS1CaXQ5OWxzMlJUUmpvbS1PTDZrYy1ISVhVUFAxR3B4M2JMQzkzUEV6Wk1zSGJwems2MmNJSkw1S01DVHY2WGpOQUM3elZVQ0FQN05mZWRaY2M0?oc=5",
-        "domain": "minutemirror",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T132910Z",
         "source": "GoogleNews"
       },
       {
