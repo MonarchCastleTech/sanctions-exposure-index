@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-17T20:32:54.169208+00:00",
+    "generated": "2026-10-18T04:25:57.834212+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T20:31:07.527776+00:00",
+    "issued_at": "2026-10-18T04:24:11.241799+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -384,17 +384,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-28T11:18:27.484297+00:00",
-        "score": 37.1,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 60.4,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-28T22:15:11.408735+00:00",
         "score": 41.7,
@@ -2355,6 +2344,17 @@
       },
       {
         "timestamp": "2026-10-17T20:31:07.527776+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-18T04:24:11.241799+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -120014,6 +120014,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
+        "domain": "theguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T165100Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
         "domain": "fortune",
@@ -120032,15 +120041,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
-        "domain": "theguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T165100Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Investment Arbitration as Ransom? The EU Sanctions Regime and ‘Administrative Chill’",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWw5LWNhM3BPYnY1a09RTEVYNk1MbGRwUzBXV3JMRTBDaHVNdUFmVzMzRXBLUTJwYU42dHgtdHhYZm1WeWV2TGtPcEhHMDBHcGQ4TjNoMmozdmxVNkN4a3hYRDBmbnJtNzNNX2lWekRrX2FRcS1KMDNGNGZfem1NSVRnWXRTTG1CS2ZmMWdQdjdEVDY0X0lYcDVHbnlxWkRCdldkUHVFVDFCRVU?oc=5",
         "domain": "ejiltalk",
@@ -120050,21 +120050,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
-        "domain": "caribbeannationalweekly",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T192158Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU freezes assets of three individuals and nine companies circumventing sanctions against Russia",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmZW1nbDZvYUZlRVpmWE5yWG9CUXdXdXd6MHdJZk9ORVhNNi1JaWtkZ1BWMUxaXzZ0YjZ5T2llbnF6WERxNnhxTl83cTJWb2owd0tBVXYzYUVWMVBpR2g2MV9kS2rSAXBBVV95cUxNTC13ZVFvdS0tLXNNeEJIOWRCcUZVcmRERTE3SmkzY1FOS1cyaW5iV19jWktpTUdKYzV0blY2NFd2ekVhT0hReWZ3bkk2azFrcnlIZTR0czNGYVU4WUJoLUJiWFpkblNtQWQybm1rZmxf?oc=5",
         "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20261015T170000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHFzeE5GMzN3YW00bXA4SmMwU200NlU0NUJQaUhTbElWWFo0aHBnYV9QUzVoWDk5T0JMQU5HRkdRS0c5R3JMRXhYOVlfaTlSQmcycnVMYTNxekUtbzVDandRdmpjT0JZZmFfLTFCMVpaOWxhLTRUY1YwVUN4OVJvMlJudXlKV2JucGd3aFh2cTVsdmpTUGljQ3hpdXdxR0tub3hsU3ZPYng4VHRNXzQzSjk3WQ?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T002047Z",
         "source": "GoogleNews"
       },
       {
@@ -120149,12 +120149,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council extends sanctions against Haiti for one year — Anadolu Agency",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDZ6Wi04MXVDWkQxTmpnZDVSd0xmVXdaOGE5bnhKT1R4eG4yOElxUlJYaVlEdDhmdmM3emhmaFhURFpJZl9iTU5kMFl0c1hQQ0QxWmZmR3dVZWtqaDNBRy14eFl5UmlwdHkwQktDRVdCR0FmVmVXVU1IRUVYcGJyX0oxS3NwZmZ1OFYwTGhWLUZLdkFkZ3dZVW5HR1YxWm8?oc=5",
-        "domain": "ua.news",
+        "title": "China calls for efforts to stop influx of illicit weapons into Haiti",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2psaHhCWlBMMkRtY2FWaUd1MWMxYnFNVURFdzl5M1ZiOEw1U0plSFk0dXU0aE5DZE1TUUQwazRtb2VhU0ZsQnQwdW1UYU84aXFTXzVkanRTMG5HMkI1V2NWNUFkR2dfNmNaQ0pjbGlnd0NwbjU0bi1xWDZ6QUYzdE1UR0NaVFQ2cTNjcWcyRHhSMHh3VVZ4bW4zMGRPc2Z3Ukxha1NTVWZXUGZKOG1lcjJkcEdiS3VKZGtzSkVBbHBHd1FMNUlVODFVN0M1Zw?oc=5",
+        "domain": "cgtn",
         "language": "",
         "tone": 0,
-        "seendate": "20261014T165549Z",
+        "seendate": "20261015T012257Z",
         "source": "GoogleNews"
       },
       {
@@ -120167,12 +120167,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China calls for efforts to stop influx of illicit weapons into Haiti",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2psaHhCWlBMMkRtY2FWaUd1MWMxYnFNVURFdzl5M1ZiOEw1U0plSFk0dXU0aE5DZE1TUUQwazRtb2VhU0ZsQnQwdW1UYU84aXFTXzVkanRTMG5HMkI1V2NWNUFkR2dfNmNaQ0pjbGlnd0NwbjU0bi1xWDZ6QUYzdE1UR0NaVFQ2cTNjcWcyRHhSMHh3VVZ4bW4zMGRPc2Z3Ukxha1NTVWZXUGZKOG1lcjJkcEdiS3VKZGtzSkVBbHBHd1FMNUlVODFVN0M1Zw?oc=5",
-        "domain": "cgtn",
+        "title": "UN Security Council extends sanctions against Haiti for one year — Anadolu Agency",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDZ6Wi04MXVDWkQxTmpnZDVSd0xmVXdaOGE5bnhKT1R4eG4yOElxUlJYaVlEdDhmdmM3emhmaFhURFpJZl9iTU5kMFl0c1hQQ0QxWmZmR3dVZWtqaDNBRy14eFl5UmlwdHkwQktDRVdCR0FmVmVXVU1IRUVYcGJyX0oxS3NwZmZ1OFYwTGhWLUZLdkFkZ3dZVW5HR1YxWm8?oc=5",
+        "domain": "ua.news",
         "language": "",
         "tone": 0,
-        "seendate": "20261015T012257Z",
+        "seendate": "20261014T165549Z",
         "source": "GoogleNews"
       },
       {
@@ -120212,15 +120212,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeDZfVEZVc2dGOXhYOEZNbXVDR2pKTkwyT283NkhDcy02cmFLWWR6V25BZW15LS1zUGpfTFBiMmRkZExkZnlsUG5wNUlGemFqNnpDcnBpc2FISC1XU0hiNlZNSUdJcG11eUZjZFViTkVKWmQ0bWtfSkRlOE1pYmkwUVR2YW5KZlIzc2lqa0NUSlItcFVrcEJNTUZwX2puOXBYZDJrQlJmWU9uQzV5c0hLOVpORXlIbmE2TC1XdFJGdjBxUQ?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T002047Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU imposes sanctions over Russian State Duma \"elections\" in occupied territories of Ukraine",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83bGp2ZFhHcDFpNkU0U0xOLTBQSE9XczZfQ0RYQVpxWWx1Y3IwRFFlYk9CUGV0SlpldjdnV1dKS1FtdGxHUkozUkVYT09xZ0dRd1VCMGoyVEtZaGlBeHJOaXpkV0FXU0w4NURBYllScnI?oc=5",
         "domain": "news.google.com",
@@ -120230,21 +120221,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Extends Chemical Weapons Sanctions Framework Until October 2031 - Oj",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWh4QllvTG9laG9xcURrRzVXQWJkQnEzRzRmT00tSmFCcVlsWjRkdGpsZlRWWTBWQS1NYVYzc09ibzJfZS1jdEVLbDlYbWl0ZXZIVm01M25BMTl0RFBXYV9NVEVpMVI5ZV8teDNrUkpteG1oazl2TmdHelRJZGNScjVfZDBtTGtxd1NLcWYtT0xYc25PWWZ0dFVYUWFFWUNsLTZRb2hETXh4MzdZSThDOQ?oc=5",
-        "domain": "odessajournal",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T115220Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
         "domain": "radiojamaicanewsonline",
         "language": "",
         "tone": 0,
         "seendate": "20261016T105653Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Updates Records of Five Sanctioned Islamic Emirate Officials",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WHl0VHZLQXBvX0c3TENlRVNTeHhPRkpocjNaQkM0RGUwU1BaZG51WGxoeEh5M3Q5MDdYbEZzeTZhdGduUFBoMGV5WnFQMGZ0TUJrcHl3?oc=5",
+        "domain": "tolonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120284,21 +120275,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQekJ1V2hUdzNsWWxnVnlIbVh3WE43ai02NUk4ZWxDSDZJTEd3dnVNT21hVXJ0a1d3M25SWTdrVEsxcUxSYTVFbGVyaTZlSGI1VDB4UGN5MEUzM3ZMeEFzUDB6V1ZFNkNsUk1CR1FXOHo0bDlHTnRIanI5MEp5THJ5YkxmdWJfdUpIQkhOaUZhVTdES1NVb2x1MXJDQXpJSmJVdldTZmRDZlRqNWExSmw2NlFDYTJLUQ?oc=5",
-        "domain": "hertsadvertiser",
+        "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
+        "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20261012T193212Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia Abstains as UN Renews Haiti Sanctions That Have Frozen Two Accounts",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOblAzYVVTSXpuLUg3YUd2cGxYRTM0Rzd6MEh5aWNPSzN5OFgwT01wa2VXUjh4RHJPVkkyVE9JMjVLak9EVHpuZ0NRTFlsZXp4ZzYtQ05tYW1UNkNjMVdIWExiX3VGNHpLMWJPZ0ROQ3Q1ZExvVXJkVzRFbGtVSm5BQmQ3ekdhOGVNd01KTTZYOFViY2xSZFJobw?oc=5",
-        "domain": "theeasternherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T034936Z",
+        "seendate": "20261016T074002Z",
         "source": "GoogleNews"
       },
       {
@@ -120335,15 +120317,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T165141Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Switzerland adds names to Venezuela sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWViU0JQckRzUGRSRHlNakZwa3ZfaTRHUnR1UGZRbV9QNzBmUXE5YnF5OUxSQ3hlXzkyWWNEbTJ0d0d0alNsTS1rblBROVRSVVEtak1pNC11c1ZmWFZsMXVlV2tUOUtoZjljVmRhWU45WVN2bnVlVnVxaGZsVjJOSmwxOHNObzVvdWw0?oc=5",
-        "domain": "24newshd",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T160809Z",
         "source": "GoogleNews"
       },
       {
