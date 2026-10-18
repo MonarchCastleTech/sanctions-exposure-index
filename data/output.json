@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-18T15:49:44.366493+00:00",
+    "generated": "2026-10-18T20:37:29.700820+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T15:47:57.798714+00:00",
+    "issued_at": "2026-10-18T20:35:43.294947+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -384,17 +384,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-29T16:40:54.781918+00:00",
-        "score": 40.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 71.1,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.2,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-29T20:52:52.742405+00:00",
         "score": 40.7,
@@ -2355,6 +2344,17 @@
       },
       {
         "timestamp": "2026-10-18T15:47:57.798714+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-18T20:35:43.294947+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -120023,6 +120023,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU Russia Sanctions Update: Steel, Delistings & 22nd Package",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcERfRk9QYTNvTi1CbkVKamgtaDJQUXRlUTVBZXNrUEo5aEsyR05vc1lEcElpUlJncFRkcWxNRVBnYWlRdFBYUjlRUWtNSm9CNlRQUTlzRFFXNVNNS05SWFdkNzF5N0RWZWxtUFBySzdOYXlQclRZTWRYWXFfcWkxSzA1cTNweUF2a3RZcEJKS3pFWjNreFM5ZnA1d2ppV0pWNTN0Mjk2VTM1Y09CZkFOSU9yY3JhMnI2NW04VmYtSkZscHgxYXRMNWZoQkxkMUxOZ09XdFV2UXM4cHBoWC1BVHQzZFBVd2Y2dmt1RjlyNTVueDY1b2UtTnpqNjhEbTBCendWbkwwYlk?oc=5",
+        "domain": "mcdermottwillschulte",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
         "domain": "theguardian",
@@ -120095,21 +120104,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU imposes largest ever set of sanctions listings against Russia",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3NGa2phMndxVTRVOVpCYllMcTk2TWQ1NExLSFFyaDRudTJrMnhwNE9qSjd5bVRhMVZEWVFBYjVwNk8wNHpDS2FPM05sYnJ3SWllYV9KUlZ5WjU5ZUJQa1R3LUJTRklIX3R5a0dmb2lYTTh6X1FqVTBWYnpSd0kxdXU0RkdkNmZmQWE4S013NEZEZmFDMXEzNmRkYUdSbG9P?oc=5",
-        "domain": "eubusiness.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T143524Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russian billionaires Alisher Usmanov and Mikhail Fridman hit by Lithuania asset freeze",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ0hYQmRqV0JNd25BUTEwWEVNVVpFS1l0bF84azNzZEhzY2RPVmg5b0VZSFA0SjU5dHZJYklqTHd6Qmg2LUZuVXZEeTBnWXpnM19MV3FWREJadFdjTFZ6WDYzbmVCRGVPTGc1WjRwVGItb1Ntd0twSVZEZEw1U29UYXI2Rkhmb0FlaWVfMlRRd19FSDNUM2dreG5YREpoUy1RdUJVeWctNHFtaVExUzktNVlRcXdBaHltaWpVZnlVRDVBZ29Yek4tSmVB?oc=5",
         "domain": "billionaires.africa",
         "language": "",
         "tone": 0,
         "seendate": "20261015T152032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU imposes largest ever set of sanctions listings against Russia",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3NGa2phMndxVTRVOVpCYllMcTk2TWQ1NExLSFFyaDRudTJrMnhwNE9qSjd5bVRhMVZEWVFBYjVwNk8wNHpDS2FPM05sYnJ3SWllYV9KUlZ5WjU5ZUJQa1R3LUJTRklIX3R5a0dmb2lYTTh6X1FqVTBWYnpSd0kxdXU0RkdkNmZmQWE4S013NEZEZmFDMXEzNmRkYUdSbG9P?oc=5",
+        "domain": "eubusiness.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T143524Z",
         "source": "GoogleNews"
       },
       {
@@ -120221,6 +120230,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU Extends Chemical Weapons Sanctions Framework Until October 2031 - Oj",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWh4QllvTG9laG9xcURrRzVXQWJkQnEzRzRmT00tSmFCcVlsWjRkdGpsZlRWWTBWQS1NYVYzc09ibzJfZS1jdEVLbDlYbWl0ZXZIVm01M25BMTl0RFBXYV9NVEVpMVI5ZV8teDNrUkpteG1oazl2TmdHelRJZGNScjVfZDBtTGtxd1NLcWYtT0xYc25PWWZ0dFVYUWFFWUNsLTZRb2hETXh4MzdZSThDOQ?oc=5",
+        "domain": "odessajournal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T115220Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
         "domain": "radiojamaicanewsonline",
@@ -120235,7 +120253,7 @@
         "domain": "shattered.io",
         "language": "",
         "tone": 0,
-        "seendate": "20261013T040805Z",
+        "seendate": "20261014T040848Z",
         "source": "GoogleNews"
       },
       {
@@ -120285,8 +120303,8 @@
       },
       {
         "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQekJ1V2hUdzNsWWxnVnlIbVh3WE43ai02NUk4ZWxDSDZJTEd3dnVNT21hVXJ0a1d3M25SWTdrVEsxcUxSYTVFbGVyaTZlSGI1VDB4UGN5MEUzM3ZMeEFzUDB6V1ZFNkNsUk1CR1FXOHo0bDlHTnRIanI5MEp5THJ5YkxmdWJfdUpIQkhOaUZhVTdES1NVb2x1MXJDQXpJSmJVdldTZmRDZlRqNWExSmw2NlFDYTJLUQ?oc=5",
-        "domain": "hertsadvertiser",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGxuczNka3pBdWQ0ekprME5oU1MzQVFrRVhNQ1hxVmVSY0dvcEF5WFVwRjUwaWNyX09jRkRrMi05N055cmNSWVpZcWJod0RNR3IzLTlXeWluNUJJOU01bG5VU2Z0cGxBWExtbDB0cW8zSVJzcDNNeFY1VFF1SXJia2dFekw5eVhVNTg5cjlMT3p3NmJHNi1nVW5nZ0ZfWGRKc1kzOGMxTXplSmIyZ2U0bldUMA?oc=5",
+        "domain": "edp24",
         "language": "",
         "tone": 0,
         "seendate": "20261012T193212Z",
@@ -120298,7 +120316,7 @@
         "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T074002Z",
+        "seendate": "20261016T073401Z",
         "source": "GoogleNews"
       },
       {
