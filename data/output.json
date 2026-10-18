@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-18T10:59:28.207443+00:00",
+    "generated": "2026-10-18T15:49:44.366493+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T10:57:41.738635+00:00",
+    "issued_at": "2026-10-18T15:47:57.798714+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -384,17 +384,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-29T07:00:05.337202+00:00",
-        "score": 40.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 71.1,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.2,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-29T16:40:54.781918+00:00",
         "score": 40.7,
@@ -2355,6 +2344,17 @@
       },
       {
         "timestamp": "2026-10-18T10:57:41.738635+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-18T15:47:57.798714+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -120032,15 +120032,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Russia Sanctions Update: Steel, Delistings & 22nd Package",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcERfRk9QYTNvTi1CbkVKamgtaDJQUXRlUTVBZXNrUEo5aEsyR05vc1lEcElpUlJncFRkcWxNRVBnYWlRdFBYUjlRUWtNSm9CNlRQUTlzRFFXNVNNS05SWFdkNzF5N0RWZWxtUFBySzdOYXlQclRZTWRYWXFfcWkxSzA1cTNweUF2a3RZcEJKS3pFWjNreFM5ZnA1d2ppV0pWNTN0Mjk2VTM1Y09CZkFOSU9yY3JhMnI2NW04VmYtSkZscHgxYXRMNWZoQkxkMUxOZ09XdFV2UXM4cHBoWC1BVHQzZFBVd2Y2dmt1RjlyNTVueDY1b2UtTnpqNjhEbTBCendWbkwwYlk?oc=5",
-        "domain": "mcdermottwillschulte",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Investment Arbitration as Ransom? The EU Sanctions Regime and ‘Administrative Chill’",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWw5LWNhM3BPYnY1a09RTEVYNk1MbGRwUzBXV3JMRTBDaHVNdUFmVzMzRXBLUTJwYU42dHgtdHhYZm1WeWV2TGtPcEhHMDBHcGQ4TjNoMmozdmxVNkN4a3hYRDBmbnJtNzNNX2lWekRrX2FRcS1KMDNGNGZfem1NSVRnWXRTTG1CS2ZmMWdQdjdEVDY0X0lYcDVHbnlxWkRCdldkUHVFVDFCRVU?oc=5",
         "domain": "ejiltalk",
@@ -120086,21 +120077,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
-        "domain": "southchinamorningpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T070410Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU agrees largest-ever package of sanctions targeting almost 1600 individuals, entities in Russia’s military-industrial complex",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObVBleGFfVWNHMUVSakhJdVc4TXV1eFhTXzVyVnUyanFQWi16RmdmMmV3bGhSS2pHbXhJN0NXQWxmYzctVllCLWVOWHY4azM3RU1HQVBfemdrVzlrYlRhd1hGemg1M0s4akVubVRoMWVLcG1JMy1PaHRhTjlQcVBSTW1IVkZueXdhY2lGRGVzM1pCczB3djJqNTEyOHB5QUJKaThITTNXbERoRmpWTkY3WVNLc3NKQWlxMHhvU2F5d2hzanlna3dKaXhNaEpyM0FNMExtZzZtendxeTNtYk5OSHFDeFZoaEl2VFVmZGJrUGZMdw?oc=5",
         "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
         "seendate": "20261012T104441Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
+        "domain": "southchinamorningpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070410Z",
         "source": "GoogleNews"
       },
       {
@@ -120146,6 +120137,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T152703Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Council imposes record sanctions on Russia, targeting 1,646 individuals and entities",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1hNUHlST2pydFFlNUF6SEFxZE9qbkY1a1ZLelQ4OVpzZGg4WmlJNlJ0ZjZINTBZczNZNHZkVEFDanhFRzRRVjhocUl1YkJDWFhVTVBmMHBLWk1MdmZFekxSdEhSNE9EREhOV1hLbE82RDljSWhSdzNEenR2TnBVcjJETmpvN0RUXzBoeU04blN4blFKTWJSQ093MHJ0NFJoLUVUdGpnQmllcDBwUzJZTGlncHp5LWcyNmpLamZpSEhjdERrcW13ZTdyTmhsUTdPVXJ5VDVUNi1ESkJ1V3NiVEpscTBYNTg?oc=5",
+        "domain": "insighteumonitoring",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T170538Z",
         "source": "GoogleNews"
       },
       {
@@ -120285,8 +120285,8 @@
       },
       {
         "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGxuczNka3pBdWQ0ekprME5oU1MzQVFrRVhNQ1hxVmVSY0dvcEF5WFVwRjUwaWNyX09jRkRrMi05N055cmNSWVpZcWJod0RNR3IzLTlXeWluNUJJOU01bG5VU2Z0cGxBWExtbDB0cW8zSVJzcDNNeFY1VFF1SXJia2dFekw5eVhVNTg5cjlMT3p3NmJHNi1nVW5nZ0ZfWGRKc1kzOGMxTXplSmIyZ2U0bldUMA?oc=5",
-        "domain": "edp24",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQekJ1V2hUdzNsWWxnVnlIbVh3WE43ai02NUk4ZWxDSDZJTEd3dnVNT21hVXJ0a1d3M25SWTdrVEsxcUxSYTVFbGVyaTZlSGI1VDB4UGN5MEUzM3ZMeEFzUDB6V1ZFNkNsUk1CR1FXOHo0bDlHTnRIanI5MEp5THJ5YkxmdWJfdUpIQkhOaUZhVTdES1NVb2x1MXJDQXpJSmJVdldTZmRDZlRqNWExSmw2NlFDYTJLUQ?oc=5",
+        "domain": "hertsadvertiser",
         "language": "",
         "tone": 0,
         "seendate": "20261012T193212Z",
@@ -120317,15 +120317,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T162801Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Freezes London Mansion of Prince Group CFO Li Tian",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tREdNU0hVUThfTkhxX3NQSi0wb1NjSHVDZ3NkTHQwdTAydzVNQTBxMXVHVFM4VHZLUzdyU205Uk1zS096TzhsVWhRWUFPbjZyMDVYUi0zUmhkcm9HNWhpT3hJYm94bGxseXlUQ0pRc0ZVQ0Rv?oc=5",
-        "domain": "httpswww.ababnews.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T061051Z",
         "source": "GoogleNews"
       },
       {
