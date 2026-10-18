@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-18T04:25:57.834212+00:00",
+    "generated": "2026-10-18T10:59:28.207443+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T04:24:11.241799+00:00",
+    "issued_at": "2026-10-18T10:57:41.738635+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.7,
@@ -384,17 +384,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-28T22:15:11.408735+00:00",
-        "score": 41.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 71.1,
-          "sdn_delta_breadth": 5.0,
-          "official_posture_shift": 43.2,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-29T07:00:05.337202+00:00",
         "score": 40.7,
@@ -2355,6 +2344,17 @@
       },
       {
         "timestamp": "2026-10-18T04:24:11.241799+00:00",
+        "score": 30.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-18T10:57:41.738635+00:00",
         "score": 30.7,
         "level": "BASELINE",
         "components": {
@@ -120014,21 +120014,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
-        "domain": "theguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T165100Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
         "domain": "fortune",
         "language": "",
         "tone": 0,
         "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
+        "domain": "theguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T165100Z",
         "source": "GoogleNews"
       },
       {
@@ -120167,6 +120167,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGxmcEY4cEtBYlNpSy1ZQ3puY2J4V3p4RDFLY3pRbXlzQnF0Y3N4b21PVXVvY01Sc2FIbG5XVGJtNUpfM3lmbzlRN3NPTGlVZTJoVElKdkU3S2txcnlhTXZ1R0xIQzJmbGdoMks0T2t4S1luVTZvZ2tVZlRMTndtUVBDYWtsUkVoUndHOGgzVHBFZXRkY2tiVUNvQUtJSVdqVUpTOWUyUUwwcHY4UVZZRXdQT2tHZEdkR05J?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T193804Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Security Council extends sanctions against Haiti for one year — Anadolu Agency",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDZ6Wi04MXVDWkQxTmpnZDVSd0xmVXdaOGE5bnhKT1R4eG4yOElxUlJYaVlEdDhmdmM3emhmaFhURFpJZl9iTU5kMFl0c1hQQ0QxWmZmR3dVZWtqaDNBRy14eFl5UmlwdHkwQktDRVdCR0FmVmVXVU1IRUVYcGJyX0oxS3NwZmZ1OFYwTGhWLUZLdkFkZ3dZVW5HR1YxWm8?oc=5",
         "domain": "ua.news",
@@ -120182,15 +120191,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T133411Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGxmcEY4cEtBYlNpSy1ZQ3puY2J4V3p4RDFLY3pRbXlzQnF0Y3N4b21PVXVvY01Sc2FIbG5XVGJtNUpfM3lmbzlRN3NPTGlVZTJoVElKdkU3S2txcnlhTXZ1R0xIQzJmbGdoMks0T2t4S1luVTZvZ2tVZlRMTndtUVBDYWtsUkVoUndHOGgzVHBFZXRkY2tiVUNvQUtJSVdqVUpTOWUyUUwwcHY4UVZZRXdQT2tHZEdkR05J?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120227,6 +120227,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T105653Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether Freezes $1.45M in THORChain Vaults [2026]",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Lb0dNS0p1YU5KS2pwbGV4bnc0NW05b1RMUll4QzF4ZDRjZUw2ZUZ4dWJJa2ZzNWRKTk44X1R3T1pJNHhtbWZTajAxQmRIVHd4YmNIZjBEbVFoSklydHp2TTc0ZXV0OWZEODBqcktXNVo?oc=5",
+        "domain": "shattered.io",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T040805Z",
         "source": "GoogleNews"
       },
       {
@@ -120272,6 +120281,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261012T192658Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Andy Burnham: RAF Fairford incident ‘almost certainly’ directed by Iran",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGxuczNka3pBdWQ0ekprME5oU1MzQVFrRVhNQ1hxVmVSY0dvcEF5WFVwRjUwaWNyX09jRkRrMi05N055cmNSWVpZcWJod0RNR3IzLTlXeWluNUJJOU01bG5VU2Z0cGxBWExtbDB0cW8zSVJzcDNNeFY1VFF1SXJia2dFekw5eVhVNTg5cjlMT3p3NmJHNi1nVW5nZ0ZfWGRKc1kzOGMxTXplSmIyZ2U0bldUMA?oc=5",
+        "domain": "edp24",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T193212Z",
         "source": "GoogleNews"
       },
       {
