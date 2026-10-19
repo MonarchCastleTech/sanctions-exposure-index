@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-18T20:37:29.700820+00:00",
+    "generated": "2026-10-19T04:34:42.425667+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T20:35:43.294947+00:00",
+    "issued_at": "2026-10-19T04:32:54.842345+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 30.7,
+    "score": 33.6,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 64.4,
+        "score": 72.9,
         "releases_considered": 100,
         "current_7d_designation_releases": 5,
         "current_7d_all_releases": 6,
-        "prior_7d_designation_releases": 4,
+        "prior_7d_designation_releases": 3,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": 0.67,
+        "baseline_weekly_median": 2.0,
+        "anomaly_z": 1.35,
         "themes": [
           "counter_narcotics",
           "counter_terrorism",
@@ -235,7 +235,7 @@
         "current_7d_releases": 6,
         "current_weighted_term_rate": 1.75,
         "baseline_weeks": 10,
-        "anomaly_z": -0.15,
+        "anomaly_z": -0.23,
         "matched_release_count": 3,
         "relief_release_count": 3,
         "evidence": [
@@ -378,23 +378,12 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 64.4,
+        "score": 72.9,
         "level": "ELEVATED",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-29T20:52:52.742405+00:00",
-        "score": 40.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 71.1,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.2,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-30T05:19:26.826959+00:00",
         "score": 40.7,
@@ -2363,6 +2352,17 @@
           "official_posture_shift": 12.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-19T04:32:54.842345+00:00",
+        "score": 33.6,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 72.9,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2427,7 +2427,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "30.7/100",
+      "value": "33.6/100",
       "delta": "BASELINE"
     },
     {
@@ -120059,21 +120059,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHFzeE5GMzN3YW00bXA4SmMwU200NlU0NUJQaUhTbElWWFo0aHBnYV9QUzVoWDk5T0JMQU5HRkdRS0c5R3JMRXhYOVlfaTlSQmcycnVMYTNxekUtbzVDandRdmpjT0JZZmFfLTFCMVpaOWxhLTRUY1YwVUN4OVJvMlJudXlKV2JucGd3aFh2cTVsdmpTUGljQ3hpdXdxR0tub3hsU3ZPYng4VHRNXzQzSjk3WQ?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T002047Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The UN renews sanctions regime for one year",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc0Zsb3UzSGU1WWtFUlY0Y2NDdjc1RGxzNVNtTVRQMUxieWE5aFFzQ2Y3SjVPOHJVTWROekFyY2J1VWNIc0FUMjdSMU1XRmVRVDBVNXdjWEMzeXI5YURhZEszUWNPRHc1WWdwaHNjaVFjNzN6Wll3TUNORFYtM284NzNVTUxwSGNuazhQTUdkV0c?oc=5",
         "domain": "lenouvelliste.com",
         "language": "",
         "tone": 0,
         "seendate": "20261014T213705Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHFzeE5GMzN3YW00bXA4SmMwU200NlU0NUJQaUhTbElWWFo0aHBnYV9QUzVoWDk5T0JMQU5HRkdRS0c5R3JMRXhYOVlfaTlSQmcycnVMYTNxekUtbzVDandRdmpjT0JZZmFfLTFCMVpaOWxhLTRUY1YwVUN4OVJvMlJudXlKV2JucGd3aFh2cTVsdmpTUGljQ3hpdXdxR0tub3hsU3ZPYng4VHRNXzQzSjk3WQ?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T002047Z",
         "source": "GoogleNews"
       },
       {
@@ -120176,21 +120176,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGxmcEY4cEtBYlNpSy1ZQ3puY2J4V3p4RDFLY3pRbXlzQnF0Y3N4b21PVXVvY01Sc2FIbG5XVGJtNUpfM3lmbzlRN3NPTGlVZTJoVElKdkU3S2txcnlhTXZ1R0xIQzJmbGdoMks0T2t4S1luVTZvZ2tVZlRMTndtUVBDYWtsUkVoUndHOGgzVHBFZXRkY2tiVUNvQUtJSVdqVUpTOWUyUUwwcHY4UVZZRXdQT2tHZEdkR05J?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T193804Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council extends sanctions against Haiti for one year — Anadolu Agency",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDZ6Wi04MXVDWkQxTmpnZDVSd0xmVXdaOGE5bnhKT1R4eG4yOElxUlJYaVlEdDhmdmM3emhmaFhURFpJZl9iTU5kMFl0c1hQQ0QxWmZmR3dVZWtqaDNBRy14eFl5UmlwdHkwQktDRVdCR0FmVmVXVU1IRUVYcGJyX0oxS3NwZmZ1OFYwTGhWLUZLdkFkZ3dZVW5HR1YxWm8?oc=5",
         "domain": "ua.news",
         "language": "",
         "tone": 0,
         "seendate": "20261014T165549Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU extends sanctions targeting chemical weapons as critical framework set to 2031",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGxmcEY4cEtBYlNpSy1ZQ3puY2J4V3p4RDFLY3pRbXlzQnF0Y3N4b21PVXVvY01Sc2FIbG5XVGJtNUpfM3lmbzlRN3NPTGlVZTJoVElKdkU3S2txcnlhTXZ1R0xIQzJmbGdoMks0T2t4S1luVTZvZ2tVZlRMTndtUVBDYWtsUkVoUndHOGgzVHBFZXRkY2tiVUNvQUtJSVdqVUpTOWUyUUwwcHY4UVZZRXdQT2tHZEdkR05J?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T193804Z",
         "source": "GoogleNews"
       },
       {
@@ -120284,6 +120284,33 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU adopts record sanctions on Russia's defense industry",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzNUI2d25YRGVZQ0hOYkpnMGdHN1lKOC1mcVNDWWxFZVdzendBeEppcHlRNjVZQU9jVlQxM0pIWXJYRlNVcG5lQW1WRFBaVGVRcTM3UDlScGJtekR3OFJneDVB0gFnQVVfeXFMT05lakE5TmwzZHZOZkkzQk5LWW5KUzVkb1VIWFBXUkFibVB6SVBPNm5ydmVPMGhabTZPTUNIdEdWWFlIUnJRbGNjamtpMmJIX01YVEJnQjZMNkVrdDdwV1I4SmpoeTVPbw?oc=5",
+        "domain": "interfax-ukraine",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T120934Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK freezes assets of Thet Li amid US Bitcoin fo...",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObndWZU9helg3ekJGNHNobDJLN2JfcDVhb0pzdEFZSXJIY0Z6ZGMyZnBncElNQ0hPSmZra3A1Mk9OSWJpMEJUaUlMc0RyTjkzazg5OHlCOE50eHJQblptbWNfQXkxQWlVZDh4MDU1V3NtT1NLLTNQWnBrTG45UVlGNzZFNUU2NkF0MG9WemxBamdaR3Q0LVhUZmtZRlE?oc=5",
+        "domain": "pluang",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261012T103428Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US pushes for sanctions against S Sudan leaders",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54bElKWERRLWpEcHloeTNZVDhodFdJLVdMTWxGTzd1MTV1SVlheXl6bmZsX2lndGlKQjlBd2Y1VjVYcXUxemc3aHpPdmJ0MHlrQmZoQ21MMWRJaEtZZW1xVzdB0gFnQVVfeXFMUEFjNGVXaEg2aUZDMmpXclFoTWJQeXhXcEc4UHg0Mk1oc3JWT1RtcGRqRndYWW04UGZ6RzFvd01TbndPTjh6R1lJZDlZV1EzZ0JKMFpnTzAyeDNMd002LXBheHJRVm5tNA?oc=5",
+        "domain": "eyeradio",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T105407Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Beijing penalises Paraguay, Belize ministers over Taiwan links",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMV9hYzh0ZTYyeldLMzZpNEdrdzZORExvc3BsZmplV2NhRTZ5WjVuYVI5ZWdVdk5jSUlCZGhLNUxGRzdNejc3YjA0MFdCdExNaUJxUVp5VGpRYTJqRXZXMC1XX0RianRTVXh0MlJocE1EcjhzNXlfV2dtSl8ycjRuVnR3ZURVaUVYX2lDVXdBNG5CWWlyNFNHZDAxZnMwVktGTmctUUk4UFXSAa4BQVVfeXFMTXZidE1OYzZ0ekJKZkFDVXd6Ym5wcDJORWxwZS1lNEFBdDhSY0FuNlFSdmRqZC1lRjdpelI0bEdZYzAzYUY3WTFXUFRONmxMTDJQUE1UY2FwY1NnVG1JRE1OSXVCT2FwQ3ZDZ1doeFZzWC1rOXNXcHBQclVzNHY0c3F6NGZJUlYyR0oydVZuMl9HbDQ3cVF4U01ZVUlxR25mRDVGWGJVWmdkR3ZpamZ3?oc=5",
         "domain": "cnbctv18",
@@ -120316,7 +120343,7 @@
         "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T073401Z",
+        "seendate": "20261016T074002Z",
         "source": "GoogleNews"
       },
       {
@@ -120325,7 +120352,7 @@
         "domain": "tradersunion",
         "language": "",
         "tone": 0,
-        "seendate": "20261014T222040Z",
+        "seendate": "20261014T222144Z",
         "source": "GoogleNews"
       },
       {
@@ -120371,15 +120398,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T023830Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "God Nisanov maintains an extensive property portfolio through a proxy – Darvin Izrayev",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xVXk4V0NFU3p1Tk5mQXRVVm4yemptUUo0Z3hURXJ4bXBDMkZRWHlnMDhRSVJIMHoxZmlBRFR6c2xiazdLUXdXU1FvQnRySl9IcGZuSVdlN29tdERyYTNfa0E0ZnZ5MTVyaElZTS1nZVo2T3Nt?oc=5",
-        "domain": "trinitybugle",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T134318Z",
         "source": "GoogleNews"
       }
     ]
