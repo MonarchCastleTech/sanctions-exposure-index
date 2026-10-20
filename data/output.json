@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-20T11:30:37.123973+00:00",
+    "generated": "2026-10-20T16:58:35.912509+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T11:28:50.550200+00:00",
+    "issued_at": "2026-10-20T16:56:48.733769+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 26.8,
@@ -353,17 +353,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-31T05:27:13.895273+00:00",
-        "score": 17.5,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 10.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-31T13:38:58.846074+00:00",
         "score": 17.5,
@@ -2324,6 +2313,17 @@
       },
       {
         "timestamp": "2026-10-20T11:28:50.550200+00:00",
+        "score": 26.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 27.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-20T16:56:48.733769+00:00",
         "score": 26.8,
         "level": "BASELINE",
         "components": {
@@ -120051,16 +120051,7 @@
         "domain": "riddlerussia",
         "language": "",
         "tone": 0,
-        "seendate": "20261020T091143Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "New EU Sanctions Listings Concerning Russia",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzNjd2VXdUNyeW81UGRrQllaeHVNYkM3VkZSblNXMlNHbHpnUTRHSzROMTcxZGdHdG1kbGZUUXhXRDdWb1pCM25iZG12cUlndS1Yei0xRkxWRmc3UDNBS2wyaWZ1WU1JREJYQ0ZGQ2pWdXZGZ0ExZzVfZUsxV05PcXNn0gGHAUFVX3lxTE5qbVRrUmJ1Rnp2aTRiNllUc3lfdTJjX0YzU2NURjVRODBaMzJQM3lSaUFadkktbGplSmtIa1JCQjBnOWpCUVlfeUFhNEsyLV9ETUpuZnJ2c2FmYnp0T05XenVyOGVBckR4V0xjZzhBLTh6b2EwNndjN0ZLUmdidFBQQVJCbnJCYw?oc=5",
-        "domain": "thenationallawreview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T161411Z",
+        "seendate": "20261020T091127Z",
         "source": "GoogleNews"
       },
       {
@@ -120082,21 +120073,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHFzeE5GMzN3YW00bXA4SmMwU200NlU0NUJQaUhTbElWWFo0aHBnYV9QUzVoWDk5T0JMQU5HRkdRS0c5R3JMRXhYOVlfaTlSQmcycnVMYTNxekUtbzVDandRdmpjT0JZZmFfLTFCMVpaOWxhLTRUY1YwVUN4OVJvMlJudXlKV2JucGd3aFh2cTVsdmpTUGljQ3hpdXdxR0tub3hsU3ZPYng4VHRNXzQzSjk3WQ?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T002047Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council’s renewed sanctions aim to starve gangs of bullets in Haiti",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nQlpTOFRweGo3M2JGQ3dZZkMxU3lZSUN6SkRCNGRodVJhRUdmRU03VTRaVFVPSHJRS3Y3S082dnBEcVphWjh0MUdMRXdfTHBTZ1RNQmp2WXVOZDlZdFdUUTBESDJ5dzdOVGRoeHhjU1FhRnhhT1ZkQ3F1Zmk?oc=5",
         "domain": "caribbeanlifenews",
         "language": "",
         "tone": 0,
         "seendate": "20261015T164159Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHFzeE5GMzN3YW00bXA4SmMwU200NlU0NUJQaUhTbElWWFo0aHBnYV9QUzVoWDk5T0JMQU5HRkdRS0c5R3JMRXhYOVlfaTlSQmcycnVMYTNxekUtbzVDandRdmpjT0JZZmFfLTFCMVpaOWxhLTRUY1YwVUN4OVJvMlJudXlKV2JucGd3aFh2cTVsdmpTUGljQ3hpdXdxR0tub3hsU3ZPYng4VHRNXzQzSjk3WQ?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T002047Z",
         "source": "GoogleNews"
       },
       {
@@ -120118,15 +120109,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU imposes largest ever set of sanctions listings against Russia",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3NGa2phMndxVTRVOVpCYllMcTk2TWQ1NExLSFFyaDRudTJrMnhwNE9qSjd5bVRhMVZEWVFBYjVwNk8wNHpDS2FPM05sYnJ3SWllYV9KUlZ5WjU5ZUJQa1R3LUJTRklIX3R5a0dmb2lYTTh6X1FqVTBWYnpSd0kxdXU0RkdkNmZmQWE4S013NEZEZmFDMXEzNmRkYUdSbG9P?oc=5",
-        "domain": "eubusiness.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T143524Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russian billionaires Alisher Usmanov and Mikhail Fridman hit by Lithuania asset freeze",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ0hYQmRqV0JNd25BUTEwWEVNVVpFS1l0bF84azNzZEhzY2RPVmg5b0VZSFA0SjU5dHZJYklqTHd6Qmg2LUZuVXZEeTBnWXpnM19MV3FWREJadFdjTFZ6WDYzbmVCRGVPTGc1WjRwVGItb1Ntd0twSVZEZEw1U29UYXI2Rkhmb0FlaWVfMlRRd19FSDNUM2dreG5YREpoUy1RdUJVeWctNHFtaVExUzktNVlRcXdBaHltaWpVZnlVRDVBZ29Yek4tSmVB?oc=5",
         "domain": "billionaires.africa",
@@ -120142,6 +120124,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T144437Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
+        "domain": "jamaicagleaner",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T152703Z",
         "source": "GoogleNews"
       },
       {
@@ -120190,12 +120181,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxON3NmOC04TUJfWlgzTndfNWVCT1lHR0hVb1FLR0pOYXZ1anpjbXJqVHJqZlVGd01qNHl4bjVFSWlGYmdteXEtQ3hQY3AwM3pZRy1vcFZjSlpBS19qNTdpUXlIMmpENU9oN3Y2c1B3cHpPSkxwOFR3djlqTWVqVkJBRUtUOEctSjluWXZuVXlPczB6ODIwY1c2cUs0VjdvVXI3N0ZiY2NtQW9QOF9QaU4wcjdYS2syVlFtMnVHaWplYmhzYUJKakpXaXRiUVpkNVNRNlRfSlpKb9IB1wFBVV95cUxON3NmOC04TUJfWlgzTndfNWVCT1lHR0hVb1FLR0pOYXZ1anpjbXJqVHJqZlVGd01qNHl4bjVFSWlGYmdteXEtQ3hQY3AwM3pZRy1vcFZjSlpBS19qNTdpUXlIMmpENU9oN3Y2c1B3cHpPSkxwOFR3djlqTWVqVkJBRUtUOEctSjluWXZuVXlPczB6ODIwY1c2cUs0VjdvVXI3N0ZiY2NtQW9QOF9QaU4wcjdYS2syVlFtMnVHaWplYmhzYUJKakpXaXRiUVpkNVNRNlRfSlpKbw?oc=5",
-        "domain": "wpri.com",
+        "title": "Switzerland and US ease sanctions on Venezuelan figures",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXJXQ3Y1MGxObmFuUVlWWVlnaG9DU0hmWG1ZU2tMNU5lekJyVWo1emZvY3BaWUk2bTNYdmxTcTk3Q2RoVE1OaWRMLTZON1dWa3BMa1FsWVlfZklUcXVTS0FlWTlaLWt4LXk0QW1nUXR6OHo2YnBESXdPSkZTUW8wY0hSSnoxZkZF0gGIAUFVX3lxTE9BcldDdjUwbE5uYW5RWVZZWWdob0NTSGZYbVlTa0w1TmV6QnJVajV6Zm9jcFpZSTZtM1h2bFNxOTdDZGhUTU5pZEwtNk43V1ZrcExrUWxZWV9mSVRxdVNLQWVZOVota3gteTRBbWdRdHo4ejZicERJd09KRlNRbzBjSFJKejFmRkU?oc=5",
+        "domain": "harici",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T103456Z",
+        "seendate": "20261020T084009Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZGtUVjlHcmE0bHVPeXVoMEFEY1pTUW9wdWNTSDMtOUFuVWw1bmdXYjdfY1ZYQXRpSDVHZ1EtXzEwQmZJUWJkRTRFUF9CMU1KVWFaT295RVFlenB4YTJTbFktT1FZQ3lBZVBtVDlyYkJxazBUZWN3aGstdHZuTFJPZUpSajA5TUFiM0NoSmc5a01ZdWtudFBDTTlmS09pdXd0ekpGdjdQVmxXOFYzWDZwaFJWc2FQVHMtNWJEbkxJajl3R09fSmhXal9DYzh1UmVUVFRTaVVEQWxNRGhweDR6blhaU2XSAeQBQVVfeXFMTmRrVFY5R3JhNGx1T3l1aDBBRGNaU1FvcHVjU0gzLTlBblVsNW5nV2I3X2NWWEF0aUg1R2dRLV8xMEJmSVFiZEU0RVBfQjFNSlVhWk9veUVRZXpweGEyU2xZLU9RWUN5QWVQbVQ5cmJCcWswVGVjd2hrLXR2bkxST2VKUmowOU1BYjNDaEpnOWtNWXVrbnRQQ005ZktPaXV3dHpKRnY3UFZsVzhWM1g2cGhSVnNhUFRzLTViRG5MSWo5d0dPX0poV2pfQ2M4dVJlVFRUU2lVREFsTURocHg0em5YWlNl?oc=5",
+        "domain": "yourcentralvalley.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T155217Z",
         "source": "GoogleNews"
       },
       {
@@ -120235,6 +120235,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The Weapons of Mass Destruction Amendment Act, 2022: Strengthening Controls on Proliferation Financing",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXdIZVZSZGx5NmwxVGZsWXRVeE5GN2FEQTkwdHFJTDAzSlR5V2hKeUMtUmZZeVNYdVJnRzJnVWc1LWI3cmx6Ui13V2VlVHdfZXBqY3dabUxvZzNSNFd2eVgyVVI0T05MUDFGd01mVTdmcVYtV2t3TXNteHFTYWlhRHdYWTd3QjZRU0d4dFhB?oc=5",
+        "domain": "impriimpactandpolicyresearchinstitute",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T080740Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Updates Records of Five Sanctioned Islamic Emirate Officials",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WHl0VHZLQXBvX0c3TENlRVNTeHhPRkpocjNaQkM0RGUwU1BaZG51WGxoeEh5M3Q5MDdYbEZzeTZhdGduUFBoMGV5WnFQMGZ0TUJrcHl3?oc=5",
         "domain": "tolonews",
@@ -120262,15 +120271,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "ČEZ sues over Luxembourg asset freeze in Czech Diag Human case",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFNXVXNKOE4zeWdNaHNzWVFsY3ZldTI5b0wwRlNoZEpublZLNTAta2E0WF9tNUdGU1hCVUxVeFpDRHQzdUI4VmtrY0l3QUYzaF9reGhiWHo2N2Z2SEY0d2c5UWZ2TjZDbGxBcVhhSXNZeG1xU3IwcDlhVG13UUpSYmlyV1hZaXpEVUZEU1lPX0FkcUtTXzloQXZ2WkZEcV9ud2k2T1BxZ2lVaHVmNC1kLWlUdw?oc=5",
-        "domain": "aroundprague",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T004512Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The Russian shipyards Britain has placed under sanctions",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
         "domain": "ukdefencejournal",
@@ -120289,6 +120289,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Russia Abstains as UN Renews Haiti Sanctions That Have Frozen Two Accounts",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOblAzYVVTSXpuLUg3YUd2cGxYRTM0Rzd6MEh5aWNPSzN5OFgwT01wa2VXUjh4RHJPVkkyVE9JMjVLak9EVHpuZ0NRTFlsZXp4ZzYtQ05tYW1UNkNjMVdIWExiX3VGNHpLMWJPZ0ROQ3Q1ZExvVXJkVzRFbGtVSm5BQmQ3ekdhOGVNd01KTTZYOFViY2xSZFJobw?oc=5",
+        "domain": "theeasternherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T034936Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Security Council renews Haiti sanctions to curb arms flows and gang financing",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYmFYUTY3LU1GZ1MzTVBCdEMtQndVRF85dC14VzhYZDJGM18yZHBUdVByeVc1cXBvUXl3QkNvMkdnamN5cml5SUN3T19Hd2gzQ3VEVXBqLTk4X25HbWFNUVVFeTZEdXExbVVwVHdjSVBLVU0zOEIyUFJkdGxJcm85QXlZeFZ3WDNTek9YeVo3bUN5bHV4cmc?oc=5",
         "domain": "tradersunion",
@@ -120304,15 +120313,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T190325Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "SECP issues guidebook on targeted financial sanctions compli",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkNOalNFTzEwazdwdndYam8tN243eVQxVDdTekhZWE40aFF4S1lqNW1xYnlqX2xTX1hEY3hLckd1c29udE1mbXkyenZXOHdEZEozMmh4dHc2V2NCNTlBdmU2c01PY1I3QldBaUhRblprSzZ0VDVtVjVTV2xFeUs4dkFDRzlDNkpJYVpGVTZFRzJiTUJIQmVIUnFZZU5hYjF5MmtHdnpna20wSm1VU2pSMUl3WjkweDBpSERENkpPZnpCM1dfaGc?oc=5",
-        "domain": "profitbypakistantoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T165141Z",
         "source": "GoogleNews"
       },
       {
