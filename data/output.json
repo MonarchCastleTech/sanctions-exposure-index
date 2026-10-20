@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-20T04:44:00.885921+00:00",
+    "generated": "2026-10-20T11:30:37.123973+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T04:42:14.228222+00:00",
+    "issued_at": "2026-10-20T11:28:50.550200+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 26.8,
@@ -353,17 +353,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-30T21:00:53.502032+00:00",
-        "score": 40.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 71.1,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.2,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-31T05:27:13.895273+00:00",
         "score": 17.5,
@@ -2324,6 +2313,17 @@
       },
       {
         "timestamp": "2026-10-20T04:42:14.228222+00:00",
+        "score": 26.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 27.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-20T11:28:50.550200+00:00",
         "score": 26.8,
         "level": "BASELINE",
         "components": {
@@ -119983,21 +119983,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Closing loopholes: Council lists individuals and entities for circumventing EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONmpreDNuREJFc0Zyckp3REFQY0twN185dWwwa0ZybUVyVnoyMVM1R1BDcENaXzQ3bTV3RFNoOFJtdkdKRDR2ejF0X3NudTZoRzBKQ0d5UjZkV3RvQmlwM3ZKdzg5ZzZ4QmpuVUlGS29PczlCZ3BjRjJCNEdGckFwSUF0U1gtS1o3bzVnck1qY3RvbmdHSXNvSmVxYmJYOGJjWWE3R2ozbUNjTlk3aXdhMWVSRGIwT3YzbkxZaW12eGxMaTJhbW00aHhIR1YwbGIzdUNKQ1ZsalVkWXRJU0l6WUJMSURQMk1SWXNv?oc=5",
-        "domain": "consilium.europa.eu",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T155907Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
         "domain": "fortune",
         "language": "",
         "tone": 0,
         "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXljYmxkSnlrN21wcERuZ3I5RVc4TS1uYmNyQU9pN1A3dVBBZUdVLVFidmhSU29RbDdCeHRZWEtMb3JiV0RuYVFZQ2d6aHp2NVhQZV96TXZHSVB2c1VSMUg5S1I3U0xvM0xDa29DbWVhclBRVjVLNFV3XzZhTXlraFRKQzBrMnRVTGk5cm45MVdMeE45dEliR2lySzlvMFdRaVMtYmdlQW9SWUNFZEQ5QTUyYWNmdk1ud29oNWY3dnFpekMx?oc=5",
+        "domain": "eeas",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T132719Z",
         "source": "GoogleNews"
       },
       {
@@ -120046,12 +120046,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia’ war against Ukraine: EU adopts single largest expansion of its sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb21GM2pGcEpKNy02WF9EcDlPZVJleGVyWXMzWXhLaWdkNHh2QUhNY1FqTTNBQWtRVjVyRy1LWkMxU2U5ZUVEMHh2ZGRzRS1sNWFtME1xWUVrNWhfRlBLLWpKb2lNYlF3amE3cnBrblZOQm5ZNWdRZzJrdWRHMGFGZVFDSFZEX3E4SXB6REEyNjE5a184X0ZkQU9obF9QYlRnb0xhZjBBaGpsMVlCX2Q3eTBYcFN4eW55dnc?oc=5",
-        "domain": "euneighbourseast",
+        "title": "Sanctions Without Incentives",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwODEwdnZKT0tkYWYxYlN4SlFzdjhIN1Nfb3dTbVdJdkQzd0xpbzkyazcxN0VJX0FaT0daaUJQR2NuUjQwejBWMVk2Zy1KWEpqWUNxUldnYUs?oc=5",
+        "domain": "riddlerussia",
         "language": "",
         "tone": 0,
-        "seendate": "20261013T080956Z",
+        "seendate": "20261020T091143Z",
         "source": "GoogleNews"
       },
       {
@@ -120061,6 +120061,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T161411Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions shipyards and design bureaus key to Russia’s nuclear submarine fleet",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXZJS1c2UEhJSFFVN215djBxMjdQVjdUTy04a25LdzBXVjNUclJGMjJ3bE1rMlRmdGlPY2NjaFZjeTVsemxRT1FMX2FENGpDRDhGVzg2eEVNQmJWSzNwWGMyN0VQUVR3alZPR3lmdm1QTktqX2d2aXdNWkptVmotREVmZEw2dUFoZzRpSGtjRHMwellFYUdqMGZUbTVBQ1ZoQXRFSlFGNlY3bU5UZWc?oc=5",
+        "domain": "arctictoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T070226Z",
         "source": "GoogleNews"
       },
       {
@@ -120091,6 +120100,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Closing loopholes: EU lists individuals and entities for circumventing EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUGtDSzFvQm1MR0RiSVR1cGlwU1Y2ZjVneVpibHFoS1cyY3htV1dkOEtLT0J3Zlh4clFHSXBOaEpKZWFNRHlQLWw4eHFTMF8tTS00SDNyclE3eWs2X2J1dUVzSi1Ub1l5NTNZdTg5ZC1Nc0JleVRpMlVFeVNFalNrVVgwYm9teGMwbFo0RWpteTZ3RUxDMVd2WHk2dXpxOHROVjkyR2hEdFduaXozSFJwZWhFcUVUZkVpaDRvSzV4OVNNMkUzTlAw?oc=5",
+        "domain": "euneighbourseast",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T000000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
         "domain": "southchinamorningpost",
@@ -120106,33 +120124,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T143524Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions shipyards and design bureaus key to Russia’s nuclear submarine fleet",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVE52TXMybkw4cFJ5Y090U2VKV05OeHRvWGFsQzlkLUJQTTVMVkVMMWFXb3pHR1lDdE9KRFVHV0dRNlVkVjFMbjdEdHUzdnVWSTV5U19MTFpKN19nd1FOZHQ4VzNTcFdsSGdCWEVOcHRiemR3U25fcWxicl9INGNrSG40QUNGQXZTdjN2S3JZeTlTRGhmT1lRWnl2SGxxQ082a2hLMHo3SzBHWlpQUnMtRml1bFZfWENVd0FNUGJSekpLZWZKR0E?oc=5",
-        "domain": "thebarentsobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T102006Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU announces sanctions on individuals and firms for circumventing EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWZWbC1qOEROcjNkc0RjTmNlYWtIZFBlVlBHRTBNUEdwVHp0ZHFwMlNhS0lHUkpxX0FUQkU0VzJRdjBwOHF4N3RyRUQ5ajBqdHpqaTdoN21kbFg5M2dsVUpidkNhcnVFallubWJ3YkZ3RDdQeVNCMjFUd0JVdVJDclp0V2ZUdjJOVVlBRWxVTlMzZ25qU3RwV04xUVlib21HQjNlZWtvY3RJWlZqNllBOU5YTQ?oc=5",
-        "domain": "thesofiaglobe",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T073906Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYUxUT0hXcWdtNi1OeGNvLWhnZjlYNF9iQnhMSmkyQWhlczRiN0ZFdElZRnhFSDhnWWhGUmpGZ3hjUmNScVlQMTZQTmhxZjhmRWV1RExIb29WdU9hdE8yNE1ja0NqYlJUUFl4cDU3UDNFY3JIcFc0aEdodTNpeW9Yb1FWeHRSdzUxVy1lUVZiSjdEVHhRTlFkdUI3OUNyNGVRX1ctYlZNbEk2dlRxVmt0Q1V0UnR2MFBOTlBsdHJDaXlQc2ZpNTJaUVJJMVVRVDZndTFobURB?oc=5",
-        "domain": "eeas",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T144401Z",
         "source": "GoogleNews"
       },
       {
@@ -120154,15 +120145,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
-        "domain": "jamaicagleaner",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T152703Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "China calls for efforts to stop influx of illicit weapons into Haiti",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2psaHhCWlBMMkRtY2FWaUd1MWMxYnFNVURFdzl5M1ZiOEw1U0plSFk0dXU0aE5DZE1TUUQwazRtb2VhU0ZsQnQwdW1UYU84aXFTXzVkanRTMG5HMkI1V2NWNUFkR2dfNmNaQ0pjbGlnd0NwbjU0bi1xWDZ6QUYzdE1UR0NaVFQ2cTNjcWcyRHhSMHh3VVZ4bW4zMGRPc2Z3Ukxha1NTVWZXUGZKOG1lcjJkcEdiS3VKZGtzSkVBbHBHd1FMNUlVODFVN0M1Zw?oc=5",
         "domain": "cgtn",
@@ -120181,21 +120163,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "From Abramovich to Usmanov: How Russian Oligarchs Hide Billions from Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcHFybzhITlRfYXFSenhHZ1hNRTBnRHlpSld3VnpoLWIyWmRXVDZubUlUSGpna19MbmlpMTQyWmpNVWZiMHlLZGg1TjdjbEpIeHZySy01N0lybEZFZjhVdGE3RTRFdUFvNjZxU1pTaFpic3BETGRHZUd5ZUJLWmxBa1F0LWVtQ1ZLTnBpYWdMZlg1QVdQNS0yOHc2cFd5dFdQenVvVVZ6ZDJYdw?oc=5",
-        "domain": "ua.news",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T144306Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tether’s Ardoino disputes Iran report with four-week freeze claim",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RcktDS0Z3MmJlRWJ5RDhKM0k3OHBqTURLdUQ0LWg2WE1sbXk5RnFhZ1lzTzMxUXV5VWhjN200QzJIa0RxSHFpanE1UTh2LUl0TUVKQkliNHRIaDBnLURhM3VNMFRwMlA2dXM0V0JqUmNsaF9feTViVg?oc=5",
         "domain": "cryptonews",
         "language": "",
         "tone": 0,
         "seendate": "20261019T182836Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Putin seizes five European firms in ongoing hostile asset crackdown",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWW56anU3c2VHOTBPUTNxdkdXS2MtS1d1bEVNYVRCUUdCWG90X0pUSnNFdUl6R1BkeElQYXZLUkFlOEJpRHZMTlh1cEpsY0kteTFEZ21yaTVENEFtSDJlRklSNXh0V0kyMnY2TVM0NXVMd09wdm1TdmM4Rnl5bXpFLUhoQTBfTzNJSENUQ25LTExFaUV1VTdTZWU2MTRyV2VfRWdORS1jcFdHX0k2WjhjaExDNTdqVWM?oc=5",
+        "domain": "euronews.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T101840Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "From Abramovich to Usmanov: How Russian Oligarchs Hide Billions from Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcHFybzhITlRfYXFSenhHZ1hNRTBnRHlpSld3VnpoLWIyWmRXVDZubUlUSGpna19MbmlpMTQyWmpNVWZiMHlLZGg1TjdjbEpIeHZySy01N0lybEZFZjhVdGE3RTRFdUFvNjZxU1pTaFpic3BETGRHZUd5ZUJLWmxBa1F0LWVtQ1ZLTnBpYWdMZlg1QVdQNS0yOHc2cFd5dFdQenVvVVZ6ZDJYdw?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T144306Z",
         "source": "GoogleNews"
       },
       {
@@ -120217,15 +120208,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Foreign Secretary statement on Iran, 12 October",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDJRMFY4WG5IZy13VUdITUFWZU1WSlBjUkRIMU1EbVdMWkxrMTk5aTl2VzlNbHl5UERuckNNOVpLVG5XaWhKcDd1YmdiVXE0UnJieHlxYlMxWWxvN1FOdU5oekJjb0hScFpfaFF0TkxvazB4YXZzYjBpbWRvUVJUYjRuSlFzQ1RnVlFFRjJFcm43aWN4Z2k5Q0F3Z3RBV3JacWhRbHNZd3E4d2dHaEY5MnY0NA?oc=5",
-        "domain": "wiredgov",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T112845Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
         "domain": "radiojamaicanewsonline",
@@ -120244,12 +120226,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Switzerland adds names to Venezuela sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeWNmc1VuYThydTlRYm1PbDdmbm1XWDl5T1NUdzBheHMyb05UN2ZCc25NTE9ad3dmODRidWRYQ0EtSlZOLWp1eEdENU50Sl91cE4zYnVoY0d1Q2RmVVpMNzVQdXhSMEdlSzJJUXVCU2NhNTZ5TXl5Y2g2dndzeWVqZklJOGZOQ1pUcW4w?oc=5",
+        "domain": "thelocalswitzerland",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T065214Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Updates Records of Five Sanctioned Islamic Emirate Officials",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WHl0VHZLQXBvX0c3TENlRVNTeHhPRkpocjNaQkM0RGUwU1BaZG51WGxoeEh5M3Q5MDdYbEZzeTZhdGduUFBoMGV5WnFQMGZ0TUJrcHl3?oc=5",
         "domain": "tolonews",
         "language": "",
         "tone": 0,
         "seendate": "20261015T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
+        "domain": "tokenpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T060712Z",
         "source": "GoogleNews"
       },
       {
@@ -120271,15 +120271,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US pushes for sanctions against S Sudan leaders",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54bElKWERRLWpEcHloeTNZVDhodFdJLVdMTWxGTzd1MTV1SVlheXl6bmZsX2lndGlKQjlBd2Y1VjVYcXUxemc3aHpPdmJ0MHlrQmZoQ21MMWRJaEtZZW1xVzdB0gFnQVVfeXFMUEFjNGVXaEg2aUZDMmpXclFoTWJQeXhXcEc4UHg0Mk1oc3JWT1RtcGRqRndYWW04UGZ6RzFvd01TbndPTjh6R1lJZDlZV1EzZ0JKMFpnTzAyeDNMd002LXBheHJRVm5tNA?oc=5",
-        "domain": "eyeradio",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T105407Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The Russian shipyards Britain has placed under sanctions",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
         "domain": "ukdefencejournal",
@@ -120289,30 +120280,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "RAF Fairford incident ‘almost certainly’ directed by Iran, says PM",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeHJWeXJZUnNMMkIwOXBuR2ZlblNMdS1RRjBLZW95R1pESDFQbzNraFNfS1ljbW80NUt1MU5kcFpoZjktU2lNd3Q2MlRTYnk5Y256dkViWVRacnoyRGVDc19RMldyNnZ0MHVlUDIxQUhjNGRjZXFIeUFlWEllN2lJOWR1VlpYM0NuaGtaTXVMN3pjLW5GT3pqVUdUUmh6VFoydE9BaGVlT1dUdHBMT0VXT204YkpScVZXWXc?oc=5",
-        "domain": "rayo",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T073022Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
         "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
         "seendate": "20261016T074002Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia Abstains as UN Renews Haiti Sanctions That Have Frozen Two Accounts",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOblAzYVVTSXpuLUg3YUd2cGxYRTM0Rzd6MEh5aWNPSzN5OFgwT01wa2VXUjh4RHJPVkkyVE9JMjVLak9EVHpuZ0NRTFlsZXp4ZzYtQ05tYW1UNkNjMVdIWExiX3VGNHpLMWJPZ0ROQ3Q1ZExvVXJkVzRFbGtVSm5BQmQ3ekdhOGVNd01KTTZYOFViY2xSZFJobw?oc=5",
-        "domain": "theeasternherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T034936Z",
         "source": "GoogleNews"
       },
       {
@@ -120340,33 +120313,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261013T165141Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Switzerland adds names to Venezuela sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWViU0JQckRzUGRSRHlNakZwa3ZfaTRHUnR1UGZRbV9QNzBmUXE5YnF5OUxSQ3hlXzkyWWNEbTJ0d0d0alNsTS1rblBROVRSVVEtak1pNC11c1ZmWFZsMXVlV2tUOUtoZjljVmRhWU45WVN2bnVlVnVxaGZsVjJOSmwxOHNObzVvdWw0?oc=5",
-        "domain": "24newshd",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T160809Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adds 1,569 names to Russia sanctions list in largest single package",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY05wYUR3YWM5aDBXQ2xTZ1JWaWdVREZFc1pINFZKaVp0cVBZZkhOay1lRGV1Wi0zNmxPRWpnOTFJTnZ1MG1nZTNQZ0tGZk1XNXRZMEQxZ0ZuQnNMSFo0TGdCX3Bwc2QtNld1SUR6YlZuLXdhVm5KazF2cUZCQXlJRnUzTzNLN1lHcjBxbE9Bdjc0b1RSTkNKc1ZkUUNJOVlo?oc=5",
-        "domain": "londondailynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T064458Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adds seven people and organisations to North Korea sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSy1MU0dBbG5VY25YVkdJZ2ZQdW90cHJIQ3BiRUgwUnoxMmVlaGlvdU9kSHVjTTlGaU01TDBteEhkclRBc3pqeGY0bjNQTE9qQ0dDMkxqXy1RME1xZW1CV0d5anQtbGFzVXZFQ1BKWmJMWGlzdmlLS0dFZDl3RnZzUUpteFJzWmljeDdfZTFCQjBja1g0U1YxczFfcVgzM2M?oc=5",
-        "domain": "londondailynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T102304Z",
         "source": "GoogleNews"
       },
       {
