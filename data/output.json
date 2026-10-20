@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-19T22:20:05.236122+00:00",
+    "generated": "2026-10-20T04:44:00.885921+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-19T22:18:18.914218+00:00",
+    "issued_at": "2026-10-20T04:42:14.228222+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 37.2,
-    "level": "WATCH",
+    "score": 26.8,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,17 +24,15 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 83.5,
+        "score": 42.8,
         "releases_considered": 100,
-        "current_7d_designation_releases": 6,
-        "current_7d_all_releases": 7,
-        "prior_7d_designation_releases": 3,
+        "current_7d_designation_releases": 4,
+        "current_7d_all_releases": 4,
+        "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.0,
-        "anomaly_z": 1.8,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": 0.22,
         "themes": [
-          "counter_narcotics",
-          "counter_terrorism",
           "cuba",
           "iran"
         ],
@@ -109,50 +107,6 @@
             "themes": [
               "cuba",
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "U.S. Treasury Announces Record Enforcement Actions Against Bank of America",
-            "url": "https://home.treasury.gov/news/press-releases/sb0657/",
-            "action_title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Bank of America, N.A.",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261013_33",
-            "date": "2026-10-13",
-            "source": "OFAC/Treasury",
-            "posture_terms": [],
-            "relief_terms": [],
-            "themes": [],
-            "designation_signal": false
-          },
-          {
-            "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0656/",
-            "action_title": "Counter Narcotics and Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
-            "date": "2026-10-13",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_narcotics",
-              "counter_terrorism"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "PRESS CHART - Cartel del Noreste Facilitators Network - October 2026",
-            "url": "https://ofac.treasury.gov/media/937211/download?inline",
-            "action_title": "Counter Narcotics and Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
-            "date": "2026-10-13",
-            "source": "OFAC/Treasury",
-            "posture_terms": [],
-            "relief_terms": [],
-            "themes": [
-              "counter_narcotics",
-              "counter_terrorism"
             ],
             "designation_signal": true
           }
@@ -247,12 +201,12 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 11.8,
-        "current_7d_releases": 7,
-        "current_weighted_term_rate": 1.643,
-        "baseline_weeks": 10,
-        "anomaly_z": -0.33,
-        "matched_release_count": 4,
+        "score": 27.2,
+        "current_7d_releases": 4,
+        "current_weighted_term_rate": 2.5,
+        "baseline_weeks": 12,
+        "anomaly_z": 1.15,
+        "matched_release_count": 3,
         "relief_release_count": 4,
         "evidence": [
           {
@@ -308,23 +262,6 @@
             "themes": [
               "cuba",
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
-            "url": "https://home.treasury.gov/news/press-releases/sb0656/",
-            "action_title": "Counter Narcotics and Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
-            "date": "2026-10-13",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_narcotics",
-              "counter_terrorism"
             ],
             "designation_signal": true
           }
@@ -410,23 +347,12 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 83.5,
-        "level": "SEVERE",
+        "score": 42.8,
+        "level": "WATCH",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-30T16:37:55.503645+00:00",
-        "score": 40.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 71.1,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 43.2,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-30T21:00:53.502032+00:00",
         "score": 40.7,
@@ -2395,6 +2321,17 @@
           "official_posture_shift": 11.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-20T04:42:14.228222+00:00",
+        "score": 26.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 27.2,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2459,8 +2396,8 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "37.2/100",
-      "delta": "WATCH"
+      "value": "26.8/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
@@ -120046,21 +119983,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Closing loopholes: Council lists individuals and entities for circumventing EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONmpreDNuREJFc0Zyckp3REFQY0twN185dWwwa0ZybUVyVnoyMVM1R1BDcENaXzQ3bTV3RFNoOFJtdkdKRDR2ejF0X3NudTZoRzBKQ0d5UjZkV3RvQmlwM3ZKdzg5ZzZ4QmpuVUlGS29PczlCZ3BjRjJCNEdGckFwSUF0U1gtS1o3bzVnck1qY3RvbmdHSXNvSmVxYmJYOGJjWWE3R2ozbUNjTlk3aXdhMWVSRGIwT3YzbkxZaW12eGxMaTJhbW00aHhIR1YwbGIzdUNKQ1ZsalVkWXRJU0l6WUJMSURQMk1SWXNv?oc=5",
+        "domain": "consilium.europa.eu",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T155907Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
         "domain": "fortune",
         "language": "",
         "tone": 0,
         "seendate": "20261016T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYUxUT0hXcWdtNi1OeGNvLWhnZjlYNF9iQnhMSmkyQWhlczRiN0ZFdElZRnhFSDhnWWhGUmpGZ3hjUmNScVlQMTZQTmhxZjhmRWV1RExIb29WdU9hdE8yNE1ja0NqYlJUUFl4cDU3UDNFY3JIcFc0aEdodTNpeW9Yb1FWeHRSdzUxVy1lUVZiSjdEVHhRTlFkdUI3OUNyNGVRX1ctYlZNbEk2dlRxVmt0Q1V0UnR2MFBOTlBsdHJDaXlQc2ZpNTJaUVJJMVVRVDZndTFobURB?oc=5",
-        "domain": "eeas",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T144401Z",
         "source": "GoogleNews"
       },
       {
@@ -120073,21 +120010,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Investment Arbitration as Ransom? The EU Sanctions Regime and ‘Administrative Chill’",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWw5LWNhM3BPYnY1a09RTEVYNk1MbGRwUzBXV3JMRTBDaHVNdUFmVzMzRXBLUTJwYU42dHgtdHhYZm1WeWV2TGtPcEhHMDBHcGQ4TjNoMmozdmxVNkN4a3hYRDBmbnJtNzNNX2lWekRrX2FRcS1KMDNGNGZfem1NSVRnWXRTTG1CS2ZmMWdQdjdEVDY0X0lYcDVHbnlxWkRCdldkUHVFVDFCRVU?oc=5",
-        "domain": "ejiltalk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T070559Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Swiss, US Authorities Remove Individual Sanctions Against Venezuelan Officials",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWJlWkFZSDB1Y2k0b3NqempCVFJhQk0zeWd0M0plVVNvTGNmZS1DTTNCOVVOWnVQaGVGU0lPc18yUmMwMnVIZGhiWUw3VVNSQmFGWlRSU2ZOYnI1VUxxTDZzYlk5eFFSWHBsOVhmcVNVckEyZTZKdHFJMVBRUTVKLWppenZITm5UNlIzN2h5dlBJUUJsWlVqRUNTVV9fQ1pPLTVLM1gwWDFIRWJUWVFXUnln?oc=5",
         "domain": "venezuelanalysis",
         "language": "",
         "tone": 0,
         "seendate": "20261019T170000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Investment Arbitration as Ransom? The EU Sanctions Regime and ‘Administrative Chill’",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWw5LWNhM3BPYnY1a09RTEVYNk1MbGRwUzBXV3JMRTBDaHVNdUFmVzMzRXBLUTJwYU42dHgtdHhYZm1WeWV2TGtPcEhHMDBHcGQ4TjNoMmozdmxVNkN4a3hYRDBmbnJtNzNNX2lWekRrX2FRcS1KMDNGNGZfem1NSVRnWXRTTG1CS2ZmMWdQdjdEVDY0X0lYcDVHbnlxWkRCdldkUHVFVDFCRVU?oc=5",
+        "domain": "ejiltalk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T070559Z",
         "source": "GoogleNews"
       },
       {
@@ -120163,15 +120100,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Global Affairs Canada publishes guidance on “deemed ownership” rules under Canadian sanctions",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdGRNemhvVFF5Q2VYTnNGOExvUzFRR2hMTktNVjRGX1MtaUVzRElzQTZ4YklxVHRQX0Z5V3Z3blN3VGZuSHdyNndTMDI0VVRmRm9PaVM4Nkt3NFN1T3Nob3NOTzgydWY3dlJ3YUVtblRseVVpeGI3MEtHVkZRa3I4MjlGOVlUVE5sZmotd0VwWjY5dENXQk5tTVczN1lIcnlvUHVIWmY0cWhKOEJ3RlhqY0F3MUd5am5ZUXQ1dG9OU2d4UlZFclJ5dVc3ZVRHazRsR1pUY1poTk0tTTFHdS0zejBEQkFLWVVOQXk0NUd0M2MzY0ktY3l4Nw?oc=5",
-        "domain": "nortonrosefulbright",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU imposes largest ever set of sanctions listings against Russia",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3NGa2phMndxVTRVOVpCYllMcTk2TWQ1NExLSFFyaDRudTJrMnhwNE9qSjd5bVRhMVZEWVFBYjVwNk8wNHpDS2FPM05sYnJ3SWllYV9KUlZ5WjU5ZUJQa1R3LUJTRklIX3R5a0dmb2lYTTh6X1FqVTBWYnpSd0kxdXU0RkdkNmZmQWE4S013NEZEZmFDMXEzNmRkYUdSbG9P?oc=5",
         "domain": "eubusiness.com",
@@ -120196,6 +120124,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T073906Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYUxUT0hXcWdtNi1OeGNvLWhnZjlYNF9iQnhMSmkyQWhlczRiN0ZFdElZRnhFSDhnWWhGUmpGZ3hjUmNScVlQMTZQTmhxZjhmRWV1RExIb29WdU9hdE8yNE1ja0NqYlJUUFl4cDU3UDNFY3JIcFc0aEdodTNpeW9Yb1FWeHRSdzUxVy1lUVZiSjdEVHhRTlFkdUI3OUNyNGVRX1ctYlZNbEk2dlRxVmt0Q1V0UnR2MFBOTlBsdHJDaXlQc2ZpNTJaUVJJMVVRVDZndTFobURB?oc=5",
+        "domain": "eeas",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261013T144401Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian billionaires Alisher Usmanov and Mikhail Fridman hit by Lithuania asset freeze",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ0hYQmRqV0JNd25BUTEwWEVNVVpFS1l0bF84azNzZEhzY2RPVmg5b0VZSFA0SjU5dHZJYklqTHd6Qmg2LUZuVXZEeTBnWXpnM19MV3FWREJadFdjTFZ6WDYzbmVCRGVPTGc1WjRwVGItb1Ntd0twSVZEZEw1U29UYXI2Rkhmb0FlaWVfMlRRd19FSDNUM2dreG5YREpoUy1RdUJVeWctNHFtaVExUzktNVlRcXdBaHltaWpVZnlVRDVBZ29Yek4tSmVB?oc=5",
+        "domain": "billionaires.africa",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T152032Z",
         "source": "GoogleNews"
       },
       {
@@ -120262,15 +120208,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU targets alleged North Korea-Russia arms trade in expanded sanctions crackdown",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUS1xa0ZlTXJwUWFNZnpoV3NfcWh5bVlxUE0tYnI0dFQxSllFU0VoeG9CbDRhOU5MbS1FWFkwN25oZ0J6N3lHRjE3aUhENi1LWF9GXzc2Q0o0WGt0a3pYbm5LSDc0STkwMndfN1R6dTFYNUdwQWdKN255V1JqNW43ZnJTNUJ0YjU1ZkNJWS1QRk5JczhOZ1pXSUVxNmgxeDl3UkFWS1ppTXludlNkWmkyazVsdEx6UERIc2w4LV9hbGhIcHFCTm9WSjVR?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261012T224518Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Somalia sanctions ex-regional leader over alleged Shabaab links",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFVnV0tiSllsRUEzclVaZHNkc19RUnNlZ0NQZmRaR0IxQnp1ZmVjT2dMNVAxVkswSWFycVlnLVBjSWJnaWxub3FjWnJ1cEtITTU5eVBIdk9tNkdpMkNVNEZqcE1fYzF0S1RWeE1pM0Zsbm0tTjBPTGM1alZlTTRjWEJFMERDTVhUUUthV3UyNFg3QlhCOFdjeTloSF90QmkxU3RVNi1UUXA1bEd2OVE?oc=5",
         "domain": "somaliatoday",
@@ -120313,24 +120250,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council renews Haiti sanctions amid escalating gang violence",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRFZQT3FFLXBudzJMbDlrWkRtYU1rYXE0aVNFS0xPaEZPU2dGeE1WaTRvWThGeGY1dkt5djRlZ1cyMHc1WkFiSk4wRndGd2djUmhjRmFNcThhZ200ZTZOMlkteHp6cV8wdnhHNDZndFl3MkprV3JRUWxsbm5UMnljWGRpMEJ2RXZPbnEteWwtc2tVZG44NVExd0JUaVN1Z2J6azVzTUo5aElhSHVMLVNkbXU1dXVPc3M?oc=5",
-        "domain": "jamaicaobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T160001Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK premier says Iran ‘almost certainly’ directed UK air base plot, announces sanctions",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQWw2OXoxY2lCbzBwOUxhXzBoWUo3eEIwNkZkUUs3OU0xNHRnMUdXcVUyaHBib2xuUzZEblBRVTJnTDJ1MmRveVlTOUVWdEVBbVVwUlllUkRweklkUFhicjJGODZGZ3lxMmM4Z214WHZvS2I5UzFvdENyWGFmMEowSXF3c3FQa0lMdDZfNFRZZ0NaNE92eG13enpIX2poUkZvdk12Qjc1Wng2RURDRklVUUF5Z1d1ci1wRWlybtIBxAFBVV95cUxPM05TaHU2ZWpmVjVGN29BRFNtZXJwaDhvOVBJOTdUNFMwU3RibGh5Z2tJQnUzRWFGYWEzUkV2dHhFajdYSDBvUktvNjFZTDNoczlFMXMzUl9ROG9iUFppcUZfR182TjZPamVsNXJFTjExSzJJbHRHTmQxaTZTWVNOcUlwZEN0UWxneEQ5YjN6SS1QYkJvMm1sczlRTElHZEVUbmtYZlViNjBZdGxscHRvOGdNQjNoUkNsb3p0MTJPQUhVU0ZM?oc=5",
-        "domain": "theexpresstribune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T011808Z",
         "source": "GoogleNews"
       },
       {
@@ -120460,21 +120379,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Accuses Iran of RAF Fairford Plot and Sanctions Two Iranians",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RUTl5VUtxbmM2WWw3QW5YX0lSSm9tWlRiQ1Y2Y1VQNloyWlFUcVB6Qzg1YUkwUS1IeG9tNTNBdWc2ZjFkYjN3Qy1uaHdzT3piMml5MDd2MnFaUXdUVEt1R0pyNTJGZWs?oc=5",
-        "domain": "suaragarut.id",
+        "title": "The Russian shipyards Britain has placed under sanctions - Britain | EUROPESAYS.COM",
+        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1YVTMxVVB3VDUzZHNUbmdGMThjampqMV9aWDZEMW9qekJQVmI3eU4ySnQ0YWVuOW44b3pJ?oc=5",
+        "domain": "howl.link",
         "language": "",
         "tone": 0,
-        "seendate": "20261013T023830Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "“Serious, serious money”: Alan Brazil reveals what he’s heard about Everton takeover",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1hNVTBnQjV5NzdRYU5hT09PNjREVXVlcjNab1llUGJFa05kMlh1RDVhQVBWT0hQWEpUVWhQVlU4YXVDdHhESWdEUkpPdFBlRk1ENGx2ZWNIZnA2cTdXdmVIc3FLNHdfSTZtR2w2dnRZaGswZzk3LWg4bkliSXlfMkdobG5IU2Z3YVN3NWFhV2J5QUpCZ0V4Zm5CWHhsd1FlSDk5aHRXUmd1QkxQ?oc=5",
-        "domain": "lentedesportiva",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T100000Z",
+        "seendate": "20261019T211225Z",
         "source": "GoogleNews"
       }
     ]
