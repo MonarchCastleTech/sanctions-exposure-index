@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-20T16:58:35.912509+00:00",
+    "generated": "2026-10-20T21:35:28.776488+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T16:56:48.733769+00:00",
+    "issued_at": "2026-10-20T21:33:42.398634+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 26.8,
@@ -353,17 +353,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-31T13:38:58.846074+00:00",
-        "score": 17.5,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 10.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-08-31T22:47:02.149014+00:00",
         "score": 17.5,
@@ -2324,6 +2313,17 @@
       },
       {
         "timestamp": "2026-10-20T16:56:48.733769+00:00",
+        "score": 26.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 42.8,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 27.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-20T21:33:42.398634+00:00",
         "score": 26.8,
         "level": "BASELINE",
         "components": {
@@ -119992,21 +119992,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXljYmxkSnlrN21wcERuZ3I5RVc4TS1uYmNyQU9pN1A3dVBBZUdVLVFidmhSU29RbDdCeHRZWEtMb3JiV0RuYVFZQ2d6aHp2NVhQZV96TXZHSVB2c1VSMUg5S1I3U0xvM0xDa29DbWVhclBRVjVLNFV3XzZhTXlraFRKQzBrMnRVTGk5cm45MVdMeE45dEliR2lySzlvMFdRaVMtYmdlQW9SWUNFZEQ5QTUyYWNmdk1ud29oNWY3dnFpekMx?oc=5",
-        "domain": "eeas",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T132719Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdENXSTM0aEZ5OGsxSW1rcG9HQWhGQWhmV0VfSnRUWG96OHMteWNOT1MteGF1WlVDLXk3M3k3c0hDczE3V250MFp0anVpZ3hCUlc5cUNiQ01vX3pMZGRBSmlsRW9IbnZFMTZnSFNXeVc0NDg2QVUzbkl3TGhMZGx6TkNweV8tM1NnYnJFa1lWaGRkTTBoaTB4N0V0WlNXbEU2XzZLS252U3VqZw?oc=5",
         "domain": "theguardian",
         "language": "",
         "tone": 0,
         "seendate": "20261014T165100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXljYmxkSnlrN21wcERuZ3I5RVc4TS1uYmNyQU9pN1A3dVBBZUdVLVFidmhSU29RbDdCeHRZWEtMb3JiV0RuYVFZQ2d6aHp2NVhQZV96TXZHSVB2c1VSMUg5S1I3U0xvM0xDa29DbWVhclBRVjVLNFV3XzZhTXlraFRKQzBrMnRVTGk5cm45MVdMeE45dEliR2lySzlvMFdRaVMtYmdlQW9SWUNFZEQ5QTUyYWNmdk1ud29oNWY3dnFpekMx?oc=5",
+        "domain": "eeas",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T132719Z",
         "source": "GoogleNews"
       },
       {
@@ -120037,21 +120037,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU freezes assets of three individuals and nine companies circumventing sanctions against Russia",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmZW1nbDZvYUZlRVpmWE5yWG9CUXdXdXd6MHdJZk9ORVhNNi1JaWtkZ1BWMUxaXzZ0YjZ5T2llbnF6WERxNnhxTl83cTJWb2owd0tBVXYzYUVWMVBpR2g2MV9kS2rSAXBBVV95cUxNTC13ZVFvdS0tLXNNeEJIOWRCcUZVcmRERTE3SmkzY1FOS1cyaW5iV19jWktpTUdKYzV0blY2NFd2ekVhT0hReWZ3bkk2azFrcnlIZTR0czNGYVU4WUJoLUJiWFpkblNtQWQybm1rZmxf?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T170000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Sanctions Without Incentives",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwODEwdnZKT0tkYWYxYlN4SlFzdjhIN1Nfb3dTbVdJdkQzd0xpbzkyazcxN0VJX0FaT0daaUJQR2NuUjQwejBWMVk2Zy1KWEpqWUNxUldnYUs?oc=5",
         "domain": "riddlerussia",
         "language": "",
         "tone": 0,
         "seendate": "20261020T091127Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
+        "domain": "financialtimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T040446Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU freezes assets of three individuals and nine companies circumventing sanctions against Russia",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmZW1nbDZvYUZlRVpmWE5yWG9CUXdXdXd6MHdJZk9ORVhNNi1JaWtkZ1BWMUxaXzZ0YjZ5T2llbnF6WERxNnhxTl83cTJWb2owd0tBVXYzYUVWMVBpR2g2MV9kS2rSAXBBVV95cUxNTC13ZVFvdS0tLXNNeEJIOWRCcUZVcmRERTE3SmkzY1FOS1cyaW5iV19jWktpTUdKYzV0blY2NFd2ekVhT0hReWZ3bkk2azFrcnlIZTR0czNGYVU4WUJoLUJiWFpkblNtQWQybm1rZmxf?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T170000Z",
         "source": "GoogleNews"
       },
       {
@@ -120118,21 +120127,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU unveils largest-ever Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
-        "domain": "latestnewsfromazerbaijan",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T144437Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
         "domain": "jamaicagleaner",
         "language": "",
         "tone": 0,
         "seendate": "20261015T152703Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU unveils largest-ever Russia sanctions",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
+        "domain": "latestnewsfromazerbaijan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T144437Z",
         "source": "GoogleNews"
       },
       {
@@ -120199,15 +120208,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Somalia sanctions ex-regional leader over alleged Shabaab links",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFVnV0tiSllsRUEzclVaZHNkc19RUnNlZ0NQZmRaR0IxQnp1ZmVjT2dMNVAxVkswSWFycVlnLVBjSWJnaWxub3FjWnJ1cEtITTU5eVBIdk9tNkdpMkNVNEZqcE1fYzF0S1RWeE1pM0Zsbm0tTjBPTGM1alZlTTRjWEJFMERDTVhUUUthV3UyNFg3QlhCOFdjeTloSF90QmkxU3RVNi1UUXA1bEd2OVE?oc=5",
-        "domain": "somaliatoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261013T170630Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
         "domain": "radiojamaicanewsonline",
@@ -120250,6 +120250,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council renews Haiti sanctions amid escalating gang violence",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRFZQT3FFLXBudzJMbDlrWkRtYU1rYXE0aVNFS0xPaEZPU2dGeE1WaTRvWThGeGY1dkt5djRlZ1cyMHc1WkFiSk4wRndGd2djUmhjRmFNcThhZ200ZTZOMlkteHp6cV8wdnhHNDZndFl3MkprV3JRUWxsbm5UMnljWGRpMEJ2RXZPbnEteWwtc2tVZG44NVExd0JUaVN1Z2J6azVzTUo5aElhSHVMLVNkbXU1dXVPc3M?oc=5",
+        "domain": "jamaicaobserver",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T160001Z",
         "source": "GoogleNews"
       },
       {
