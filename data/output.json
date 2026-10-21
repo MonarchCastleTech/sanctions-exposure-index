@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-21T17:08:27.750223+00:00",
+    "generated": "2026-10-21T21:38:04.995399+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-21T17:06:41.048910+00:00",
+    "issued_at": "2026-10-21T21:36:18.725034+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 42.4,
-    "level": "WATCH",
+    "score": 32.6,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -139,12 +139,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 49.0,
+        "score": 0.0,
         "current_count": 19471,
-        "previous_count": 19457,
-        "added_count": 18,
-        "removed_count": 4,
-        "changed": true,
+        "previous_count": 19471,
+        "added_count": 0,
+        "removed_count": 0,
+        "changed": false,
         "publish_date": "2026-10-20",
         "sha256": "96dade5a1cde8c9746937b4859ad75d8f2a34eed1a4046cc1f2240a830f70bda",
         "top_programs": [
@@ -215,142 +215,8 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58810",
-            "name": "WHALES SHIPPING LINE LLC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58811",
-            "name": "AMIGOZ SINGAPORE PTE. LTD.",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58873",
-            "name": "WHALES DIAMOND",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58874",
-            "name": "WHALES PEARL",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58931",
-            "name": "ROXETTE MARITIME SHIPPING AND TRADING S.A.",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58932",
-            "name": "KARNAKIS AND KARNAKIS",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58955",
-            "name": "ANEMOS",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58956",
-            "name": "GLORIS",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58957",
-            "name": "PRIDE",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58958",
-            "name": "KARNAKIS KOSMAS, Sofianos",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58959",
-            "name": "KARNAKIS KOSMAS, Konstantinos",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58960",
-            "name": "KARNAKIS KOSMAS, Ioanis",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58961",
-            "name": "ORTEGA JONES, Pedro",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58962",
-            "name": "ORTEGA JONES, Roberto",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58963",
-            "name": "DESTINY",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58964",
-            "name": "FLAMINGO 1",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58965",
-            "name": "HARMONY",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "58966",
-            "name": "PRINCE",
-            "type": "vessel",
-            "program": "IRAN-EO13902"
-          }
-        ],
-        "removed": [
-          {
-            "id": "31042",
-            "name": "MOXING CARTOON",
-            "type": "",
-            "program": "DPRK3"
-          },
-          {
-            "id": "32711",
-            "name": "RYBAKOV, Andrei Alekseevich",
-            "type": "individual",
-            "program": "BELARUS"
-          },
-          {
-            "id": "34024",
-            "name": "LU, Hezheng",
-            "type": "individual",
-            "program": "DPRK3"
-          },
-          {
-            "id": "34025",
-            "name": "SHANGHAI HONGMAN CARTOON AND ANIMATION DESIGN STUDIO",
-            "type": "",
-            "program": "DPRK3"
-          }
-        ],
+        "added": [],
+        "removed": [],
         "retained": false
       },
       {
@@ -515,8 +381,7 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity",
-        "sdn_delta_breadth"
+        "ofac_action_velocity"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
@@ -528,27 +393,9 @@
         "score": 60.4,
         "level": "ELEVATED",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
-      },
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 49.0,
-        "level": "WATCH",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-01T16:35:14.378275+00:00",
-        "score": 18.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 13.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-01T20:59:13.009715+00:00",
         "score": 18.1,
@@ -2517,6 +2364,17 @@
           "official_posture_shift": 25.9,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-21T21:36:18.725034+00:00",
+        "score": 32.6,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 60.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 25.9,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2581,13 +2439,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "42.4/100",
-      "delta": "WATCH"
+      "value": "32.6/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,471",
-      "delta": "+18 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -120261,21 +120119,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU Adopts Record Russia Sanctions Designations as UK Targets Oil, Crypto and Supply Networks",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzRQazIxZllhUXdpbDRMSV92Zmp5aXk1cTRLZ2N1eXlEYVViUHQ1Y25yNExNX3E5QnpUVlItZjJzSnYzdEhadWlGUVlkS1V2YUhKbDlnUkcyUDhvakI2Y21wWTVQMnNvbUZ0dUg0Uk1GNDFveHVFMGF0M0tDV3Y4WGV3?oc=5",
+        "domain": "jdsupra",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T204256Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Responding to US sanctions on the International Criminal Court",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjhMcVhnRDhuaE16aWlzakNxZV9LdHYzLXNFSmVHcTc3WWJsLThDRjI2dWxwVkxlTGhuV1FmbEJ1dXpoTjViajRGSkNtbzlPMnRKYmhYT05sc25GNzBCUDI3dmFRdDBJOTltM2o4VTg2WTNUR2pGMWgwWkI3dnlBQko2RzVvWDBmMl9GNkctNTd5RGc?oc=5",
         "domain": "chathamhouse",
         "language": "",
         "tone": 0,
         "seendate": "20261015T155601Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Haiti sanctions renewed: Starving the gangs of bullets",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSTgtZVdVMjIwSHQySWlhSXU4cVpIdFZnc0FLaUNyeUNmTURrVVVfQWM1TDNCR0FMMkNnOTB2Mnl5d2dBaFNUQkNKWmtWRy1SUDJ3OFpWaw?oc=5",
-        "domain": "unnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T204443Z",
         "source": "GoogleNews"
       },
       {
@@ -120294,6 +120152,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T132719Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
+        "domain": "caribbeannationalweekly",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T192158Z",
         "source": "GoogleNews"
       },
       {
@@ -120333,12 +120200,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
-        "domain": "caribbeannationalweekly",
+        "title": "Haiti sanctions renewed: Starving the gangs of bullets",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOazhsVC1ETjhQLWdzX19CWnZ4VDdlVlNvZmNEcUplMUE2S0Jmc0o2VVgyNjA0ODlnZkdPcllYWWgtMUt3OFJrbHozNmFTYkhUXzZwZ1NMUmNUWlY1bDBJMC1fZzlKS1dqQmRjTHUwSTZTX0RYMmFXamp0eUpZSHdLNXhrS2lTV2NBMGJnX2dUY2l3QV9HX0E?oc=5",
+        "domain": "theeuropeansting",
         "language": "",
         "tone": 0,
-        "seendate": "20261015T192158Z",
+        "seendate": "20261016T104200Z",
         "source": "GoogleNews"
       },
       {
@@ -120393,6 +120260,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T152032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Guide to Sanctions - Seventh Edition - The implementation of EU sanctions in Italy",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRTlDa1FZZ0ZObkhuYzlrVlZCMFd1aTBlakpkc0JYMW5DbnJ6QjhCT0lrTHlJaE95TkdxQmRiOEFpZURFVnNQWFh6YnBpMFRQdmtLLTZlOUVJYkQxbVQ0QndHS2ZHdk9GMHQ1REVFYlZKaTYzdkoyWDBaZUhnN1J6U1JLY01WSGlqM1dXNndXelZYZDhucDFxbDM1MS1obzlrbGJ2TDNpaUNMUElETC00SVRfNlU5VWh4dWM4dEpiUEZoVWJkUWF5UWk3RU4?oc=5",
+        "domain": "globalinvestigationsreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T120225Z",
         "source": "GoogleNews"
       },
       {
@@ -120468,6 +120344,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The Weapons of Mass Destruction Amendment Act, 2022: Strengthening Controls on Proliferation Financing",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXdIZVZSZGx5NmwxVGZsWXRVeE5GN2FEQTkwdHFJTDAzSlR5V2hKeUMtUmZZeVNYdVJnRzJnVWc1LWI3cmx6Ui13V2VlVHdfZXBqY3dabUxvZzNSNFd2eVgyVVI0T05MUDFGd01mVTdmcVYtV2t3TXNteHFTYWlhRHdYWTd3QjZRU0d4dFhB?oc=5",
+        "domain": "impriimpactandpolicyresearchinstitute",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T080740Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Updates Records of Five Sanctioned Islamic Emirate Officials",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WHl0VHZLQXBvX0c3TENlRVNTeHhPRkpocjNaQkM0RGUwU1BaZG51WGxoeEh5M3Q5MDdYbEZzeTZhdGduUFBoMGV5WnFQMGZ0TUJrcHl3?oc=5",
         "domain": "tolonews",
@@ -120495,21 +120380,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
+        "domain": "tokenpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T060712Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "SEC Sanctioned for Misconduct in Debt Box Crypto Case",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWm5Db3pHZ0NCLTQxakozMTVUc1pYQ2paV0pET1pCUUpKQkpMWjhYUGRmU0k3dEswajNGeHFTbkx1QTdtZDlTNmttZXpKX1NuRHJzLVRXWFBuem04dTBRd2JxcnAwc2VzbTNRN3lQemRyaWk3Q1lFN1lXT2drNnpLcE5PaFpBZFJOWktiRjBTX2VBdHB1VkJyYldjZw?oc=5",
         "domain": "coinmarketcap",
         "language": "",
         "tone": 0,
         "seendate": "20261016T091324Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "ČEZ sues over Luxembourg asset freeze in Czech Diag Human case",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFNXVXNKOE4zeWdNaHNzWVFsY3ZldTI5b0wwRlNoZEpublZLNTAta2E0WF9tNUdGU1hCVUxVeFpDRHQzdUI4VmtrY0l3QUYzaF9reGhiWHo2N2Z2SEY0d2c5UWZ2TjZDbGxBcVhhSXNZeG1xU3IwcDlhVG13UUpSYmlyV1hZaXpEVUZEU1lPX0FkcUtTXzloQXZ2WkZEcV9ud2k2T1BxZ2lVaHVmNC1kLWlUdw?oc=5",
-        "domain": "aroundprague",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T004512Z",
         "source": "GoogleNews"
       },
       {
@@ -120531,6 +120416,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "ČEZ sues over Luxembourg asset freeze in Czech Diag Human case",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFNXVXNKOE4zeWdNaHNzWVFsY3ZldTI5b0wwRlNoZEpublZLNTAta2E0WF9tNUdGU1hCVUxVeFpDRHQzdUI4VmtrY0l3QUYzaF9reGhiWHo2N2Z2SEY0d2c5UWZ2TjZDbGxBcVhhSXNZeG1xU3IwcDlhVG13UUpSYmlyV1hZaXpEVUZEU1lPX0FkcUtTXzloQXZ2WkZEcV9ud2k2T1BxZ2lVaHVmNC1kLWlUdw?oc=5",
+        "domain": "aroundprague",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T004512Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The Russian shipyards Britain has placed under sanctions",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
         "domain": "ukdefencejournal",
@@ -120546,15 +120440,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261018T180000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "CIP-0113 went live on October 7: What it means for the Cardano price",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVEhwalItQzNBVm5QeE9SNXA2ZC02VmxDWk9NUkJMUUhvQUM2ZkZKbHNncTRndXdMSTBsUVlBb1BlakdyQ2J6SThMSEF3a2NjaGcxbzlQM3JoT2RzbkM0UE1QdzVHSDhEczQ5c1BpcjBLMXhVRXkya2ZvVWZhd3p3U2Z2QUJGcmN0V2VSSnVJZEN2bFpRUWlZbm13WkJoX3Bud1dlT3JvV3BrWTc0czdWdTZkY2s5R3ozZWdoN2tJNzRyaF9UZURuMg?oc=5",
-        "domain": "ad-hoc-news.de",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T111332Z",
         "source": "GoogleNews"
       },
       {
@@ -120618,6 +120503,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261021T055727Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Russian shipyards Britain has placed under sanctions - Britain | EUROPESAYS.COM",
+        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1YVTMxVVB3VDUzZHNUbmdGMThjampqMV9aWDZEMW9qekJQVmI3eU4ySnQ0YWVuOW44b3pJ?oc=5",
+        "domain": "howl.link",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T211225Z",
         "source": "GoogleNews"
       }
     ]
