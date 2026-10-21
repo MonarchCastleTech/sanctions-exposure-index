@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-20T21:35:28.776488+00:00",
+    "generated": "2026-10-21T04:40:08.350226+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T21:33:42.398634+00:00",
+    "issued_at": "2026-10-21T04:38:21.746101+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 26.8,
+    "score": 25.8,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 42.8,
+        "score": 44.2,
         "releases_considered": 100,
         "current_7d_designation_releases": 4,
         "current_7d_all_releases": 4,
         "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": 0.22,
+        "baseline_weekly_median": 3.0,
+        "anomaly_z": 0.34,
         "themes": [
           "cuba",
           "iran"
@@ -201,11 +201,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 27.2,
+        "score": 21.2,
         "current_7d_releases": 4,
         "current_weighted_term_rate": 2.5,
         "baseline_weeks": 12,
-        "anomaly_z": 1.15,
+        "anomaly_z": 0.39,
         "matched_release_count": 3,
         "relief_release_count": 4,
         "evidence": [
@@ -347,23 +347,12 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 42.8,
+        "score": 44.2,
         "level": "WATCH",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-31T22:47:02.149014+00:00",
-        "score": 17.5,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 10.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-01T05:01:27.050345+00:00",
         "score": 18.1,
@@ -2332,6 +2321,17 @@
           "official_posture_shift": 27.2,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-21T04:38:21.746101+00:00",
+        "score": 25.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 44.2,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 21.2,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2396,7 +2396,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "26.8/100",
+      "value": "25.8/100",
       "delta": "BASELINE"
     },
     {
@@ -119974,6 +119974,15 @@
     },
     "news_articles": [
       {
+        "title": "Following the Adoption of a UN Security Council Resolution on Haiti Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXFjekZJTV9RSk4xa3lyMEJJeG8xbWl3d1ZMd1FhWEVEelpVUjI4eGpGWDMtanhlU05zRjdneWtRQUMtZk00MWRYNS1VdjgtT0phejZ0bHlBemo0OHFnTy1nU1ZmSXR4YjRHeDZVLUJfOE1ibFV1T25OdmV2RTBOME83RkNaajU3cEpoZ2lZc3NVS1I2UXZIU2l2VXdKRmJ4MnpDYnNCYTM?oc=5",
+        "domain": "unitedstatesmissiontotheunitednations.gov",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T144613Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Haiti sanctions renewed: Starving the gangs of bullets",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSTgtZVdVMjIwSHQySWlhSXU4cVpIdFZnc0FLaUNyeUNmTURrVVVfQWM1TDNCR0FMMkNnOTB2Mnl5d2dBaFNUQkNKWmtWRy1SUDJ3OFpWaw?oc=5",
         "domain": "unnews",
@@ -120037,21 +120046,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctions Without Incentives",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwODEwdnZKT0tkYWYxYlN4SlFzdjhIN1Nfb3dTbVdJdkQzd0xpbzkyazcxN0VJX0FaT0daaUJQR2NuUjQwejBWMVk2Zy1KWEpqWUNxUldnYUs?oc=5",
-        "domain": "riddlerussia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T091127Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
         "domain": "financialtimes",
         "language": "",
         "tone": 0,
         "seendate": "20261020T040446Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sanctions Without Incentives",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwODEwdnZKT0tkYWYxYlN4SlFzdjhIN1Nfb3dTbVdJdkQzd0xpbzkyazcxN0VJX0FaT0daaUJQR2NuUjQwejBWMVk2Zy1KWEpqWUNxUldnYUs?oc=5",
+        "domain": "riddlerussia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T091127Z",
         "source": "GoogleNews"
       },
       {
@@ -120070,15 +120079,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261014T070226Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The UN renews sanctions regime for one year",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc0Zsb3UzSGU1WWtFUlY0Y2NDdjc1RGxzNVNtTVRQMUxieWE5aFFzQ2Y3SjVPOHJVTWROekFyY2J1VWNIc0FUMjdSMU1XRmVRVDBVNXdjWEMzeXI5YURhZEszUWNPRHc1WWdwaHNjaVFjNzN6Wll3TUNORFYtM284NzNVTUxwSGNuazhQTUdkV0c?oc=5",
-        "domain": "lenouvelliste.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T094950Z",
         "source": "GoogleNews"
       },
       {
@@ -120200,11 +120200,11 @@
       },
       {
         "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZGtUVjlHcmE0bHVPeXVoMEFEY1pTUW9wdWNTSDMtOUFuVWw1bmdXYjdfY1ZYQXRpSDVHZ1EtXzEwQmZJUWJkRTRFUF9CMU1KVWFaT295RVFlenB4YTJTbFktT1FZQ3lBZVBtVDlyYkJxazBUZWN3aGstdHZuTFJPZUpSajA5TUFiM0NoSmc5a01ZdWtudFBDTTlmS09pdXd0ekpGdjdQVmxXOFYzWDZwaFJWc2FQVHMtNWJEbkxJajl3R09fSmhXal9DYzh1UmVUVFRTaVVEQWxNRGhweDR6blhaU2XSAeQBQVVfeXFMTmRrVFY5R3JhNGx1T3l1aDBBRGNaU1FvcHVjU0gzLTlBblVsNW5nV2I3X2NWWEF0aUg1R2dRLV8xMEJmSVFiZEU0RVBfQjFNSlVhWk9veUVRZXpweGEyU2xZLU9RWUN5QWVQbVQ5cmJCcWswVGVjd2hrLXR2bkxST2VKUmowOU1BYjNDaEpnOWtNWXVrbnRQQ005ZktPaXV3dHpKRnY3UFZsVzhWM1g2cGhSVnNhUFRzLTViRG5MSWo5d0dPX0poV2pfQ2M4dVJlVFRUU2lVREFsTURocHg0em5YWlNl?oc=5",
-        "domain": "yourcentralvalley.com",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN0E1RHRWWTk0RWdneGpCUXZTUWw5Nlhna1hheVhfajZ2TTg3NVRyZkVCZEhZLUJlT21RZU5uMTZWLWhnZ2t5SFJ2SEFBVG40dXhTQ1RQeTNvZnZSUWlaNjdRcHBVeGdKZ1Z3N083T2E4cjBEWkUtZ2t6Wm50VW5wNmdzQUVYZC1IRW9Dd29sOW9aUXFhOUFadVhDRFVPSW1PUjg3SS1CWkVURGstRGVGeGpfcFRLbU9MRHQwYTBDZWVDUmdsbnllckJiN0dhMEk1clRSeXlB?oc=5",
+        "domain": "thewashingtonpost",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T155217Z",
+        "seendate": "20261016T235559Z",
         "source": "GoogleNews"
       },
       {
@@ -120214,15 +120214,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T105653Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tether Freezes $1.45M in THORChain Vaults [2026]",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Lb0dNS0p1YU5KS2pwbGV4bnc0NW05b1RMUll4QzF4ZDRjZUw2ZUZ4dWJJa2ZzNWRKTk44X1R3T1pJNHhtbWZTajAxQmRIVHd4YmNIZjBEbVFoSklydHp2TTc0ZXV0OWZEODBqcktXNVo?oc=5",
-        "domain": "shattered.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T040848Z",
         "source": "GoogleNews"
       },
       {
@@ -120262,15 +120253,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
-        "domain": "tokenpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T060712Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
         "domain": "aninews",
@@ -120280,12 +120262,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
+        "domain": "tokenpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T060712Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The Russian shipyards Britain has placed under sanctions",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
         "domain": "ukdefencejournal",
         "language": "",
         "tone": 0,
         "seendate": "20261019T064022Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "LNG: Australia clashes with Asian energy giants over gas export crackdown",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU2lkZzdUb2E2VVdSZWlCZXhsd1Q1YjdGMFBCVVphYkY4ZzFOOUtnSU9YTFBNRjNxUWdFMmI2MllPU0JJNXVya2Z5Q18tajNmc05rcGNHNGNqSUR1UzNZTS14eXlyUjROSjF4dzFyMmxSLW8ydHBPLVlKOTBvUFVRTGFOZUVsT3JJN1hBdE5WUjFtRDFvQldfRld4bm5kaVQwbWZOLU9NTlF2eXdvSDZhNjJIZVd5TnNEcGpXQ1Zta2llMmhEMXp0QldqWmZYZW1D?oc=5",
+        "domain": "watoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T180000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "CIP-0113 went live on October 7: What it means for the Cardano price",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVEhwalItQzNBVm5QeE9SNXA2ZC02VmxDWk9NUkJMUUhvQUM2ZkZKbHNncTRndXdMSTBsUVlBb1BlakdyQ2J6SThMSEF3a2NjaGcxbzlQM3JoT2RzbkM0UE1QdzVHSDhEczQ5c1BpcjBLMXhVRXkya2ZvVWZhd3p3U2Z2QUJGcmN0V2VSSnVJZEN2bFpRUWlZbm13WkJoX3Bud1dlT3JvV3BrWTc0czdWdTZkY2s5R3ozZWdoN2tJNzRyaF9UZURuMg?oc=5",
+        "domain": "ad-hoc-news.de",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T111332Z",
         "source": "GoogleNews"
       },
       {
