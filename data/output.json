@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-21T04:40:08.350226+00:00",
+    "generated": "2026-10-21T11:43:12.396479+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-21T04:38:21.746101+00:00",
+    "issued_at": "2026-10-21T11:41:25.014114+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 25.8,
@@ -353,17 +353,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-01T05:01:27.050345+00:00",
-        "score": 18.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 13.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-01T11:34:55.513043+00:00",
         "score": 18.1,
@@ -2324,6 +2313,17 @@
       },
       {
         "timestamp": "2026-10-21T04:38:21.746101+00:00",
+        "score": 25.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 44.2,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 21.2,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-21T11:41:25.014114+00:00",
         "score": 25.8,
         "level": "BASELINE",
         "components": {
@@ -119974,12 +119974,30 @@
     },
     "news_articles": [
       {
+        "title": "Intersecting trade controls: the evolving Asia-Pacific landscape",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVm02dFdwUmNCWGJzOFlBTjFER0dzSXRtUmotWl8wN2pJWGNndl9uMlNzbXcwWS1uRm16Sk1OZ1pvU3NIamRwTXdqZ3FnSjI2VnJMdkhVOFc4SmhmRHBxaHhnQ2JEZU1CeXVsSGRPd0xzaGJMUG5RYnk5YjZIOVlhaUlvb0xRemh6Unl6bjNQOHloRWdfT0IxME9MUUR4WklDMW9BYUdXcFJvREJPZEVHZ0k0TlVRalNnYW1IcUpTcDA0MUxqZHdiQXFQOUpwOEZDcE4wTDVoVGZNZ2I2Q3FjZ085NURValgtcDI3YWRfVGtjZWs?oc=5",
+        "domain": "globalinvestigationsreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T125636Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Following the Adoption of a UN Security Council Resolution on Haiti Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXFjekZJTV9RSk4xa3lyMEJJeG8xbWl3d1ZMd1FhWEVEelpVUjI4eGpGWDMtanhlU05zRjdneWtRQUMtZk00MWRYNS1VdjgtT0phejZ0bHlBemo0OHFnTy1nU1ZmSXR4YjRHeDZVLUJfOE1ibFV1T25OdmV2RTBOME83RkNaajU3cEpoZ2lZc3NVS1I2UXZIU2l2VXdKRmJ4MnpDYnNCYTM?oc=5",
         "domain": "unitedstatesmissiontotheunitednations.gov",
         "language": "",
         "tone": 0,
         "seendate": "20261014T144613Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Responding to US sanctions on the International Criminal Court",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjhMcVhnRDhuaE16aWlzakNxZV9LdHYzLXNFSmVHcTc3WWJsLThDRjI2dWxwVkxlTGhuV1FmbEJ1dXpoTjViajRGSkNtbzlPMnRKYmhYT05sc25GNzBCUDI3dmFRdDBJOTltM2o4VTg2WTNUR2pGMWgwWkI3dnlBQko2RzVvWDBmMl9GNkctNTd5RGc?oc=5",
+        "domain": "chathamhouse",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T155601Z",
         "source": "GoogleNews"
       },
       {
@@ -120037,21 +120055,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
-        "domain": "caribbeannationalweekly",
+        "title": "Did sanctions against Russia destroy three industries in Finland? WTF checked the claim",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KeUxmeUEzZlVkeTE3MG92bnZBZ09jU3ltamk1UE5KR2JyWmNfS2hDbXFSVUhlZExZMmE3OWlwdGIyMDBMV3FESzRabHRNMzBIekR4eU1qaFhoWk43OUE0ZUFveklIYzJ2X08tQ2hnblBEejltTl80RDBEdHNzdzA?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261015T192158Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
-        "domain": "financialtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T040446Z",
+        "seendate": "20261019T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120064,21 +120073,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
+        "domain": "caribbeannationalweekly",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T192158Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU freezes assets of three individuals and nine companies circumventing sanctions against Russia",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmZW1nbDZvYUZlRVpmWE5yWG9CUXdXdXd6MHdJZk9ORVhNNi1JaWtkZ1BWMUxaXzZ0YjZ5T2llbnF6WERxNnhxTl83cTJWb2owd0tBVXYzYUVWMVBpR2g2MV9kS2rSAXBBVV95cUxNTC13ZVFvdS0tLXNNeEJIOWRCcUZVcmRERTE3SmkzY1FOS1cyaW5iV19jWktpTUdKYzV0blY2NFd2ekVhT0hReWZ3bkk2azFrcnlIZTR0czNGYVU4WUJoLUJiWFpkblNtQWQybm1rZmxf?oc=5",
         "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20261015T170000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions shipyards and design bureaus key to Russia’s nuclear submarine fleet",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXZJS1c2UEhJSFFVN215djBxMjdQVjdUTy04a25LdzBXVjNUclJGMjJ3bE1rMlRmdGlPY2NjaFZjeTVsemxRT1FMX2FENGpDRDhGVzg2eEVNQmJWSzNwWGMyN0VQUVR3alZPR3lmdm1QTktqX2d2aXdNWkptVmotREVmZEw2dUFoZzRpSGtjRHMwellFYUdqMGZUbTVBQ1ZoQXRFSlFGNlY3bU5UZWc?oc=5",
-        "domain": "arctictoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T070226Z",
         "source": "GoogleNews"
       },
       {
@@ -120200,11 +120209,11 @@
       },
       {
         "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN0E1RHRWWTk0RWdneGpCUXZTUWw5Nlhna1hheVhfajZ2TTg3NVRyZkVCZEhZLUJlT21RZU5uMTZWLWhnZ2t5SFJ2SEFBVG40dXhTQ1RQeTNvZnZSUWlaNjdRcHBVeGdKZ1Z3N083T2E4cjBEWkUtZ2t6Wm50VW5wNmdzQUVYZC1IRW9Dd29sOW9aUXFhOUFadVhDRFVPSW1PUjg3SS1CWkVURGstRGVGeGpfcFRLbU9MRHQwYTBDZWVDUmdsbnllckJiN0dhMEk1clRSeXlB?oc=5",
-        "domain": "thewashingtonpost",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTktxcnVDN0xWUkdIRC1LdWpLZDRzSTloYkk3SXZfM0owZTM3amFxOFF0RTN1dXI3azhNNnZHb3BpSENlQXNhMXNLaUVqeWt0bTZKZjFQY3Z4YzJaTFB3NDBhUUhHNEFkWjhqSVFuZVJGWlZIejV4eDdDeG9Zamd6SnVBaGsyMEl6eER1cnZ1YnhGSU5QYVN3M2JOSmdEdHd2MlEzcXBvNnpFcW1xSGVmUGtqa3RsVGx2SnBaSGtiWXhtRWJBNllLYzR5ZGFFcmJ0dmU2Q1B2VXVPYk5BemxIVzMwRWtod9IB5gFBVV95cUxOTktxcnVDN0xWUkdIRC1LdWpLZDRzSTloYkk3SXZfM0owZTM3amFxOFF0RTN1dXI3azhNNnZHb3BpSENlQXNhMXNLaUVqeWt0bTZKZjFQY3Z4YzJaTFB3NDBhUUhHNEFkWjhqSVFuZVJGWlZIejV4eDdDeG9Zamd6SnVBaGsyMEl6eER1cnZ1YnhGSU5QYVN3M2JOSmdEdHd2MlEzcXBvNnpFcW1xSGVmUGtqa3RsVGx2SnBaSGtiWXhtRWJBNllLYzR5ZGFFcmJ0dmU2Q1B2VXVPYk5BemxIVzMwRWtodw?oc=5",
+        "domain": "rochesterfirst",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T235559Z",
+        "seendate": "20261016T103456Z",
         "source": "GoogleNews"
       },
       {
@@ -120214,24 +120223,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T105653Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Switzerland adds names to Venezuela sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeWNmc1VuYThydTlRYm1PbDdmbm1XWDl5T1NUdzBheHMyb05UN2ZCc25NTE9ad3dmODRidWRYQ0EtSlZOLWp1eEdENU50Sl91cE4zYnVoY0d1Q2RmVVpMNzVQdXhSMEdlSzJJUXVCU2NhNTZ5TXl5Y2g2dndzeWVqZklJOGZOQ1pUcW4w?oc=5",
-        "domain": "thelocalswitzerland",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T065214Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Weapons of Mass Destruction Amendment Act, 2022: Strengthening Controls on Proliferation Financing",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXdIZVZSZGx5NmwxVGZsWXRVeE5GN2FEQTkwdHFJTDAzSlR5V2hKeUMtUmZZeVNYdVJnRzJnVWc1LWI3cmx6Ui13V2VlVHdfZXBqY3dabUxvZzNSNFd2eVgyVVI0T05MUDFGd01mVTdmcVYtV2t3TXNteHFTYWlhRHdYWTd3QjZRU0d4dFhB?oc=5",
-        "domain": "impriimpactandpolicyresearchinstitute",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T080740Z",
         "source": "GoogleNews"
       },
       {
@@ -120253,6 +120244,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "New national sanctions and the possibility of asset seizure – draft law on restrictive measures",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkZldWx3cTdGUkppT0tXc1Y5TXc4WExjdkJYWWhoZXNCUm1CWVpvempBbFQxdXdNWDNialNWcDJ4bGNYLVUtaXFBSXR1N0N4TkxUU3pRQks3QkRzeW5zeXY4ckF3azVzSjV5RzdyZHhGZnFURzNSMHByVk9NNHZtdVRxTVFMWHV2VW5uMDFVS21lNWpJVmxqMjBiSGwwc1hCQm16VUZodGRMVTJrdTNDTk53RG5nT09K?oc=5",
+        "domain": "kancelariagraiwsplnicy",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T082550Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
         "domain": "aninews",
@@ -120268,6 +120268,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261020T060712Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "SEC Sanctioned for Misconduct in Debt Box Crypto Case",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWm5Db3pHZ0NCLTQxakozMTVUc1pYQ2paV0pET1pCUUpKQkpMWjhYUGRmU0k3dEswajNGeHFTbkx1QTdtZDlTNmttZXpKX1NuRHJzLVRXWFBuem04dTBRd2JxcnAwc2VzbTNRN3lQemRyaWk3Q1lFN1lXT2drNnpLcE5PaFpBZFJOWktiRjBTX2VBdHB1VkJyYldjZw?oc=5",
+        "domain": "coinmarketcap",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T091324Z",
         "source": "GoogleNews"
       },
       {
@@ -120334,12 +120343,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Norwegian Teen Sentenced to 20 Years For Attempting Iranian Contract Killing in UK",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQnZVM0VmR0FMSUFEazNTRm1lTUZWT2FGT2owYjFpYTNjOTcwdF9MZUZDd2FRSXBEaHRfbVg4RFBZaE1OMUNBTXBhRGhabW5fWW5rYVN3cElsNy1WUnBoWFZDUlROWWxGUlM3MzBhSUlBRUhhelh6eF9aakxMZ1lMZ2ZhRWZFRS1Pb0pDXzlSbERZY0Q4aXg3R2NObThScWNfV05Hc0g3c0NFeDd4MTJTbS11RmoxMnJRYVhlekpfcEp5c3pHa01vY1RhY9IBywFBVV95cUxPQnZVM0VmR0FMSUFEazNTRm1lTUZWT2FGT2owYjFpYTNjOTcwdF9MZUZDd2FRSXBEaHRfbVg4RFBZaE1OMUNBTXBhRGhabW5fWW5rYVN3cElsNy1WUnBoWFZDUlROWWxGUlM3MzBhSUlBRUhhelh6eF9aakxMZ1lMZ2ZhRWZFRS1Pb0pDXzlSbERZY0Q4aXg3R2NObThScWNfV05Hc0g3c0NFeDd4MTJTbS11RmoxMnJRYVhlekpfcEp5c3pHa01vY1RhYw?oc=5",
-        "domain": "breitbartnews",
+        "title": "Switzerland adds names to Venezuela sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWViU0JQckRzUGRSRHlNakZwa3ZfaTRHUnR1UGZRbV9QNzBmUXE5YnF5OUxSQ3hlXzkyWWNEbTJ0d0d0alNsTS1rblBROVRSVVEtak1pNC11c1ZmWFZsMXVlV2tUOUtoZjljVmRhWU45WVN2bnVlVnVxaGZsVjJOSmwxOHNObzVvdWw0?oc=5",
+        "domain": "24newshd",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T145448Z",
+        "seendate": "20261017T160809Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Six scenarios for Zelenskys removal according to experts ᐉ News from Fakti.bg - World",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdnZTY25KWGQxVXBVZG13Qk51Mlc1RmZWT1FJTzVRLTV5d2J6WHY0X091VUNRRndZSVEweENIVEZZSFNVcEptbURIQTRQQXg4UE9lLWQxY0RMSnVhdXdQeU01T0g2NTAzZ2g4U2dtQWh0VEtVcGFHa05oN3lSb2g2dmZLbTlfN3RyZ0l4bG1kWl9zRFFkVHc?oc=5",
+        "domain": "fakti.bg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T055727Z",
         "source": "GoogleNews"
       },
       {
