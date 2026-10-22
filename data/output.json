@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-22T17:07:50.698846+00:00",
+    "generated": "2026-10-22T21:32:08.754243+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T17:06:03.936112+00:00",
+    "issued_at": "2026-10-22T21:30:22.396847+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.7,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T16:31:46.231213+00:00",
-        "score": 18.2,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 30.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-02T20:59:19.841810+00:00",
         "score": 18.2,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-22T17:06:03.936112+00:00",
+        "score": 20.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.1,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-22T21:30:22.396847+00:00",
         "score": 20.7,
         "level": "BASELINE",
         "components": {
@@ -120029,15 +120029,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
-        "domain": "caribbeannationalweekly",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T192158Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Swiss, US Authorities Remove Individual Sanctions Against Venezuelan Officials",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWJlWkFZSDB1Y2k0b3NqempCVFJhQk0zeWd0M0plVVNvTGNmZS1DTTNCOVVOWnVQaGVGU0lPc18yUmMwMnVIZGhiWUw3VVNSQmFGWlRSU2ZOYnI1VUxxTDZzYlk5eFFSWHBsOVhmcVNVckEyZTZKdHFJMVBRUTVKLWppenZITm5UNlIzN2h5dlBJUUJsWlVqRUNTVV9fQ1pPLTVLM1gwWDFIRWJUWVFXUnln?oc=5",
         "domain": "venezuelanalysis",
@@ -120088,7 +120079,7 @@
         "domain": "euneighbourseast",
         "language": "",
         "tone": 0,
-        "seendate": "20261017T000000Z",
+        "seendate": "20261016T121844Z",
         "source": "GoogleNews"
       },
       {
@@ -120148,7 +120139,7 @@
       {
         "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
-        "domain": "radiojamaicanewsonline",
+        "domain": "radiojamaicanews",
         "language": "",
         "tone": 0,
         "seendate": "20261016T105653Z",
@@ -120160,7 +120151,7 @@
         "domain": "shattered.io",
         "language": "",
         "tone": 0,
-        "seendate": "20261020T041641Z",
+        "seendate": "20261021T232158Z",
         "source": "GoogleNews"
       },
       {
@@ -120191,21 +120182,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
-        "domain": "aninews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T081200Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU sanctions hit Russia’s nuclear submarine fleet",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmViWUk5Vnl3dnRYb3VaNU9JejdGanQ2dUZoellNRlZiVmZkRjJ2bUJWYjZkTjgzeEZ6c3BLd3Y0a0FPMWhtMVBmbFZpR2xyLV9LdG90UWoxa0tqUWc2YVBheUljQ2t3dWlQMTFtZmpSZjRjV3BvTUVZeWtBMDA4Vmd3cm55dw?oc=5",
         "domain": "theaustraliannavalinstitute",
         "language": "",
         "tone": 0,
         "seendate": "20261016T233710Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
+        "domain": "aninews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T081200Z",
         "source": "GoogleNews"
       },
       {
@@ -120245,21 +120236,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
-        "domain": "aol.co.uk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T095402Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "ČEZ sues over Luxembourg asset freeze in Czech Diag Human case",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFNXVXNKOE4zeWdNaHNzWVFsY3ZldTI5b0wwRlNoZEpublZLNTAta2E0WF9tNUdGU1hCVUxVeFpDRHQzdUI4VmtrY0l3QUYzaF9reGhiWHo2N2Z2SEY0d2c5UWZ2TjZDbGxBcVhhSXNZeG1xU3IwcDlhVG13UUpSYmlyV1hZaXpEVUZEU1lPX0FkcUtTXzloQXZ2WkZEcV9ud2k2T1BxZ2lVaHVmNC1kLWlUdw?oc=5",
         "domain": "aroundprague",
         "language": "",
         "tone": 0,
         "seendate": "20261017T004512Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
+        "domain": "aol.co.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T095402Z",
         "source": "GoogleNews"
       },
       {
@@ -120281,15 +120272,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Zelensky Condemns Sanctions Freeze",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYWtuWFkzUDN1TGpjbGU1SWZwTHV1bHZGQ0tERU5ORTNncGpaY2FLb3pqOFRaTnlQSzRmak1UQU0yRWs4aWhaTzZZa1EtdEhOOGZSS2RJNDBpZk9KUzkyeWFNSzl4ZEZFUXRFdXA0dmZzNlF6bklabkp6a3BldHRKb1FnRDNSUQ?oc=5",
-        "domain": "politis-tothepoint",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T152800Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Binance Account Freeze Claim Highlights DeFi Withdrawal Risk",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZaEVyVHF3Vi1ZcFppTXIzOC1YZjQ5S3g2TzNRM0VHVFEwX2M5X0VVQzg2UFR0N0NjQVN2ZmlYT0FwMU1hXzRyeENJUlkycmNVOHgzb3FGdmk?oc=5",
         "domain": "tokenpost",
@@ -120308,6 +120290,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Norwegian teen sentenced to prison for plotting murder in UK for Iran-linked gang",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdHR3U0ExRTQxWFpXRHNsZUVUMmtuc3o3SE5vOUZTRDViUTVNQklDYkdWOTVVbXNYMkhyWFRUdG51cklrM2xBb3dWYi1MNEpaanhBc2NJUGVVT29sZWJDTlQzTXRzX3dvVDc5VHFjNkhmSlByZ1VSaktIMlBCa1dJS2tWZmxZWW5jVW00RHoxd3pYOTFIVXNEcmRR?oc=5",
+        "domain": "stuff",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T121502Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
         "domain": "cryptobriefing",
@@ -120323,6 +120314,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T060324Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether defends sanctions controls as Senate scrutiny of Iran-linked USDT activity intensifies",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV00xSXRhajNpcVVqWm5LUGJGbXpGdDRkc24xNzdaMDBrWjZfckpkVWNWQm9vSkhPR1g3M3ZZYldXSjV0TFdVb091UVV6UlRPZE5NX2xlYjg2MjlOX2pCT3RQeFFvdHFfZk9ReUN4TGdFeGR3a0c2MkRyOURMbWktOTktVzhkUWtZRjF0NXd1RFhzakFONXJ4Y1diQXBWZw?oc=5",
+        "domain": "tradersunion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T203932Z",
         "source": "GoogleNews"
       },
       {
