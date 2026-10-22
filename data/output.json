@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-21T21:38:04.995399+00:00",
+    "generated": "2026-10-22T04:37:30.675573+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-21T21:36:18.725034+00:00",
+    "issued_at": "2026-10-22T04:35:43.754735+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 32.6,
+    "score": 20.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,16 +24,15 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 60.4,
+        "score": 24.0,
         "releases_considered": 100,
-        "current_7d_designation_releases": 5,
-        "current_7d_all_releases": 5,
-        "prior_7d_designation_releases": 5,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
+        "prior_7d_designation_releases": 6,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.0,
-        "anomaly_z": 0.67,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": -0.67,
         "themes": [
-          "cuba",
           "iran",
           "russia"
         ],
@@ -73,63 +72,6 @@
               "general license"
             ],
             "themes": [],
-            "designation_signal": true
-          },
-          {
-            "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/sanctioning-cuban-state-owned-banco-internacional-de-comercio-s-a-bicsa/",
-            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
-            "date": "2026-10-15",
-            "source": "OFAC/Treasury",
-            "posture_terms": [],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "cuba",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
-            "url": "https://home.treasury.gov/news/press-releases/sb0660/",
-            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
-            "date": "2026-10-15",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "cuba",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
-            "url": "https://home.treasury.gov/news/press-releases/sb0661/",
-            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
-            "date": "2026-10-15",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "cuba",
-              "iran"
-            ],
             "designation_signal": true
           }
         ],
@@ -223,13 +165,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 25.9,
-        "current_7d_releases": 5,
-        "current_weighted_term_rate": 2.9,
-        "baseline_weeks": 12,
-        "anomaly_z": 0.63,
-        "matched_release_count": 4,
-        "relief_release_count": 5,
+        "score": 29.1,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 2.75,
+        "baseline_weeks": 11,
+        "anomaly_z": 1.16,
+        "matched_release_count": 2,
+        "relief_release_count": 2,
         "evidence": [
           {
             "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
@@ -266,46 +208,6 @@
               "general license"
             ],
             "themes": [],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
-            "url": "https://home.treasury.gov/news/press-releases/sb0660/",
-            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
-            "date": "2026-10-15",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "cuba",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
-            "url": "https://home.treasury.gov/news/press-releases/sb0661/",
-            "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
-            "date": "2026-10-15",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "cuba",
-              "iran"
-            ],
             "designation_signal": true
           }
         ],
@@ -380,33 +282,12 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [
-        "ofac_action_velocity"
-      ],
+      "official_components": [],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [
-      {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 60.4,
-        "level": "ELEVATED",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
-      }
-    ],
+    "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-01T20:59:13.009715+00:00",
-        "score": 18.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 13.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-02T04:24:28.441119+00:00",
         "score": 18.2,
@@ -2375,6 +2256,17 @@
           "official_posture_shift": 25.9,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-22T04:35:43.754735+00:00",
+        "score": 20.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.1,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2439,7 +2331,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "32.6/100",
+      "value": "20.7/100",
       "delta": "BASELINE"
     },
     {
@@ -120110,21 +120002,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Intersecting trade controls: the evolving Asia-Pacific landscape",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVm02dFdwUmNCWGJzOFlBTjFER0dzSXRtUmotWl8wN2pJWGNndl9uMlNzbXcwWS1uRm16Sk1OZ1pvU3NIamRwTXdqZ3FnSjI2VnJMdkhVOFc4SmhmRHBxaHhnQ2JEZU1CeXVsSGRPd0xzaGJMUG5RYnk5YjZIOVlhaUlvb0xRemh6Unl6bjNQOHloRWdfT0IxME9MUUR4WklDMW9BYUdXcFJvREJPZEVHZ0k0TlVRalNnYW1IcUpTcDA0MUxqZHdiQXFQOUpwOEZDcE4wTDVoVGZNZ2I2Q3FjZ085NURValgtcDI3YWRfVGtjZWs?oc=5",
-        "domain": "globalinvestigationsreview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T125636Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU Adopts Record Russia Sanctions Designations as UK Targets Oil, Crypto and Supply Networks",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzRQazIxZllhUXdpbDRMSV92Zmp5aXk1cTRLZ2N1eXlEYVViUHQ1Y25yNExNX3E5QnpUVlItZjJzSnYzdEhadWlGUVlkS1V2YUhKbDlnUkcyUDhvakI2Y21wWTVQMnNvbUZ0dUg0Uk1GNDFveHVFMGF0M0tDV3Y4WGV3?oc=5",
         "domain": "jdsupra",
         "language": "",
         "tone": 0,
         "seendate": "20261021T204256Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Intersecting trade controls: the evolving Asia-Pacific landscape",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVm02dFdwUmNCWGJzOFlBTjFER0dzSXRtUmotWl8wN2pJWGNndl9uMlNzbXcwWS1uRm16Sk1OZ1pvU3NIamRwTXdqZ3FnSjI2VnJMdkhVOFc4SmhmRHBxaHhnQ2JEZU1CeXVsSGRPd0xzaGJMUG5RYnk5YjZIOVlhaUlvb0xRemh6Unl6bjNQOHloRWdfT0IxME9MUUR4WklDMW9BYUdXcFJvREJPZEVHZ0k0TlVRalNnYW1IcUpTcDA0MUxqZHdiQXFQOUpwOEZDcE4wTDVoVGZNZ2I2Q3FjZ085NURValgtcDI3YWRfVGtjZWs?oc=5",
+        "domain": "globalinvestigationsreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T125636Z",
         "source": "GoogleNews"
       },
       {
@@ -120152,15 +120044,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T132719Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
-        "domain": "caribbeannationalweekly",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T192158Z",
         "source": "GoogleNews"
       },
       {
@@ -120197,6 +120080,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261020T091127Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
+        "domain": "caribbeannationalweekly",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T192158Z",
         "source": "GoogleNews"
       },
       {
@@ -120272,15 +120164,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
-        "domain": "jamaicagleaner",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T152703Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU unveils largest-ever Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
         "domain": "latestnewsfromazerbaijan",
@@ -120290,12 +120173,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China calls for efforts to stop influx of illicit weapons into Haiti",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2psaHhCWlBMMkRtY2FWaUd1MWMxYnFNVURFdzl5M1ZiOEw1U0plSFk0dXU0aE5DZE1TUUQwazRtb2VhU0ZsQnQwdW1UYU84aXFTXzVkanRTMG5HMkI1V2NWNUFkR2dfNmNaQ0pjbGlnd0NwbjU0bi1xWDZ6QUYzdE1UR0NaVFQ2cTNjcWcyRHhSMHh3VVZ4bW4zMGRPc2Z3Ukxha1NTVWZXUGZKOG1lcjJkcEdiS3VKZGtzSkVBbHBHd1FMNUlVODFVN0M1Zw?oc=5",
-        "domain": "cgtn",
+        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
+        "domain": "jamaicagleaner",
         "language": "",
         "tone": 0,
-        "seendate": "20261015T012257Z",
+        "seendate": "20261015T152703Z",
         "source": "GoogleNews"
       },
       {
@@ -120305,6 +120188,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T182836Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Frozen Elderberry Suppliers, Export Data & Price Trends | Global Market Overview 2026",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zZENWQTVMcG4zUVd1QmVTNUQwMVJENmI0bzlOQmhJZ1VyYTY4Nl9STHRQbVdqZXp3dzFwUk9ORF82OWdvZXBsd0l3UmlyNHlBODh5TmZqWm9wei1sajFBSUNrV2JfeWM?oc=5",
+        "domain": "tridge",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120380,15 +120272,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
-        "domain": "tokenpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T060712Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "SEC Sanctioned for Misconduct in Debt Box Crypto Case",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWm5Db3pHZ0NCLTQxakozMTVUc1pYQ2paV0pET1pCUUpKQkpMWjhYUGRmU0k3dEswajNGeHFTbkx1QTdtZDlTNmttZXpKX1NuRHJzLVRXWFBuem04dTBRd2JxcnAwc2VzbTNRN3lQemRyaWk3Q1lFN1lXT2drNnpLcE5PaFpBZFJOWktiRjBTX2VBdHB1VkJyYldjZw?oc=5",
         "domain": "coinmarketcap",
@@ -120403,7 +120286,7 @@
         "domain": "ratopati",
         "language": "",
         "tone": 0,
-        "seendate": "20261021T161019Z",
+        "seendate": "20261021T161123Z",
         "source": "GoogleNews"
       },
       {
@@ -120434,15 +120317,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "LNG: Australia clashes with Asian energy giants over gas export crackdown",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU2lkZzdUb2E2VVdSZWlCZXhsd1Q1YjdGMFBCVVphYkY4ZzFOOUtnSU9YTFBNRjNxUWdFMmI2MllPU0JJNXVya2Z5Q18tajNmc05rcGNHNGNqSUR1UzNZTS14eXlyUjROSjF4dzFyMmxSLW8ydHBPLVlKOTBvUFVRTGFOZUVsT3JJN1hBdE5WUjFtRDFvQldfRld4bm5kaVQwbWZOLU9NTlF2eXdvSDZhNjJIZVd5TnNEcGpXQ1Zta2llMmhEMXp0QldqWmZYZW1D?oc=5",
-        "domain": "watoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T180000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
         "domain": "cryptobriefing",
@@ -120458,24 +120332,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T060324Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia Abstains as UN Renews Haiti Sanctions That Have Frozen Two Accounts",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOblAzYVVTSXpuLUg3YUd2cGxYRTM0Rzd6MEh5aWNPSzN5OFgwT01wa2VXUjh4RHJPVkkyVE9JMjVLak9EVHpuZ0NRTFlsZXp4ZzYtQ05tYW1UNkNjMVdIWExiX3VGNHpLMWJPZ0ROQ3Q1ZExvVXJkVzRFbGtVSm5BQmQ3ekdhOGVNd01KTTZYOFViY2xSZFJobw?oc=5",
-        "domain": "theeasternherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T034936Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council renews Haiti sanctions to curb arms flows and gang financing",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYmFYUTY3LU1GZ1MzTVBCdEMtQndVRF85dC14VzhYZDJGM18yZHBUdVByeVc1cXBvUXl3QkNvMkdnamN5cml5SUN3T19Hd2gzQ3VEVXBqLTk4X25HbWFNUVVFeTZEdXExbVVwVHdjSVBLVU0zOEIyUFJkdGxJcm85QXlZeFZ3WDNTek9YeVo3bUN5bHV4cmc?oc=5",
-        "domain": "tradersunion",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261014T222144Z",
         "source": "GoogleNews"
       },
       {
@@ -120503,15 +120359,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261021T055727Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Russian shipyards Britain has placed under sanctions - Britain | EUROPESAYS.COM",
-        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1YVTMxVVB3VDUzZHNUbmdGMThjampqMV9aWDZEMW9qekJQVmI3eU4ySnQ0YWVuOW44b3pJ?oc=5",
-        "domain": "howl.link",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T211225Z",
         "source": "GoogleNews"
       }
     ]
