@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-22T04:37:30.675573+00:00",
+    "generated": "2026-10-22T11:45:40.051602+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T04:35:43.754735+00:00",
+    "issued_at": "2026-10-22T11:43:53.481550+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.7,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T04:24:28.441119+00:00",
-        "score": 18.2,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 30.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-02T11:12:37.856765+00:00",
         "score": 18.2,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-22T04:35:43.754735+00:00",
+        "score": 20.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.1,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-22T11:43:53.481550+00:00",
         "score": 20.7,
         "level": "BASELINE",
         "components": {
@@ -120047,6 +120047,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
+        "domain": "caribbeannationalweekly",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T192158Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Swiss, US Authorities Remove Individual Sanctions Against Venezuelan Officials",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWJlWkFZSDB1Y2k0b3NqempCVFJhQk0zeWd0M0plVVNvTGNmZS1DTTNCOVVOWnVQaGVGU0lPc18yUmMwMnVIZGhiWUw3VVNSQmFGWlRSU2ZOYnI1VUxxTDZzYlk5eFFSWHBsOVhmcVNVckEyZTZKdHFJMVBRUTVKLWppenZITm5UNlIzN2h5dlBJUUJsWlVqRUNTVV9fQ1pPLTVLM1gwWDFIRWJUWVFXUnln?oc=5",
         "domain": "venezuelanalysis",
@@ -120056,39 +120065,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Investment Arbitration as Ransom? The EU Sanctions Regime and ‘Administrative Chill’",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWw5LWNhM3BPYnY1a09RTEVYNk1MbGRwUzBXV3JMRTBDaHVNdUFmVzMzRXBLUTJwYU42dHgtdHhYZm1WeWV2TGtPcEhHMDBHcGQ4TjNoMmozdmxVNkN4a3hYRDBmbnJtNzNNX2lWekRrX2FRcS1KMDNGNGZfem1NSVRnWXRTTG1CS2ZmMWdQdjdEVDY0X0lYcDVHbnlxWkRCdldkUHVFVDFCRVU?oc=5",
-        "domain": "ejiltalk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T070559Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Did sanctions against Russia destroy three industries in Finland? WTF checked the claim",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KeUxmeUEzZlVkeTE3MG92bnZBZ09jU3ltamk1UE5KR2JyWmNfS2hDbXFSVUhlZExZMmE3OWlwdGIyMDBMV3FESzRabHRNMzBIekR4eU1qaFhoWk43OUE0ZUFveklIYzJ2X08tQ2hnblBEejltTl80RDBEdHNzdzA?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Sanctions Without Incentives",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwODEwdnZKT0tkYWYxYlN4SlFzdjhIN1Nfb3dTbVdJdkQzd0xpbzkyazcxN0VJX0FaT0daaUJQR2NuUjQwejBWMVk2Zy1KWEpqWUNxUldnYUs?oc=5",
         "domain": "riddlerussia",
         "language": "",
         "tone": 0,
         "seendate": "20261020T091127Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council renews Haiti sanctions amid worsening gang violence",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlhWQXBpM0xFdkxpOXB4RXR0eEkwaDAxUlRYSVRCeEwtaEtDZjdNVmRKNXpmZkg3NVdtNWFxOTlUN3pZbkZPci1tY0p0b0J3TThkeFVKUFBvcnhueF8yTTBVOEEwMmJqTlJXWE9ralg1ME9HMGRIM1F0V0xOSjhzcDhfSGs3bUpqTWluOFZGOHpoaVk0UGdGQ0ZpOTNfWjFpU1p5ZW1zSkJkcnllbllXMFN6eXFLbGtz?oc=5",
-        "domain": "caribbeannationalweekly",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T192158Z",
         "source": "GoogleNews"
       },
       {
@@ -120107,6 +120089,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261015T170000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
+        "domain": "financialtimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T040446Z",
         "source": "GoogleNews"
       },
       {
@@ -120155,21 +120146,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Guide to Sanctions - Seventh Edition - The implementation of EU sanctions in Italy",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRTlDa1FZZ0ZObkhuYzlrVlZCMFd1aTBlakpkc0JYMW5DbnJ6QjhCT0lrTHlJaE95TkdxQmRiOEFpZURFVnNQWFh6YnBpMFRQdmtLLTZlOUVJYkQxbVQ0QndHS2ZHdk9GMHQ1REVFYlZKaTYzdkoyWDBaZUhnN1J6U1JLY01WSGlqM1dXNndXelZYZDhucDFxbDM1MS1obzlrbGJ2TDNpaUNMUElETC00SVRfNlU5VWh4dWM4dEpiUEZoVWJkUWF5UWk3RU4?oc=5",
-        "domain": "globalinvestigationsreview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T120225Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU unveils largest-ever Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
         "domain": "latestnewsfromazerbaijan",
         "language": "",
         "tone": 0,
         "seendate": "20261016T144437Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Guide to Sanctions - Seventh Edition - The implementation of EU sanctions in Italy",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRTlDa1FZZ0ZObkhuYzlrVlZCMFd1aTBlakpkc0JYMW5DbnJ6QjhCT0lrTHlJaE95TkdxQmRiOEFpZURFVnNQWFh6YnBpMFRQdmtLLTZlOUVJYkQxbVQ0QndHS2ZHdk9GMHQ1REVFYlZKaTYzdkoyWDBaZUhnN1J6U1JLY01WSGlqM1dXNndXelZYZDhucDFxbDM1MS1obzlrbGJ2TDNpaUNMUElETC00SVRfNlU5VWh4dWM4dEpiUEZoVWJkUWF5UWk3RU4?oc=5",
+        "domain": "globalinvestigationsreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T120225Z",
         "source": "GoogleNews"
       },
       {
@@ -120236,6 +120227,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Tether Freezes $1.45M in THORChain Vaults [2026]",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Lb0dNS0p1YU5KS2pwbGV4bnc0NW05b1RMUll4QzF4ZDRjZUw2ZUZ4dWJJa2ZzNWRKTk44X1R3T1pJNHhtbWZTajAxQmRIVHd4YmNIZjBEbVFoSklydHp2TTc0ZXV0OWZEODBqcktXNVo?oc=5",
+        "domain": "shattered.io",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T041641Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The Weapons of Mass Destruction Amendment Act, 2022: Strengthening Controls on Proliferation Financing",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXdIZVZSZGx5NmwxVGZsWXRVeE5GN2FEQTkwdHFJTDAzSlR5V2hKeUMtUmZZeVNYdVJnRzJnVWc1LWI3cmx6Ui13V2VlVHdfZXBqY3dabUxvZzNSNFd2eVgyVVI0T05MUDFGd01mVTdmcVYtV2t3TXNteHFTYWlhRHdYWTd3QjZRU0d4dFhB?oc=5",
         "domain": "impriimpactandpolicyresearchinstitute",
@@ -120245,12 +120245,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Updates Records of Five Sanctioned Islamic Emirate Officials",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WHl0VHZLQXBvX0c3TENlRVNTeHhPRkpocjNaQkM0RGUwU1BaZG51WGxoeEh5M3Q5MDdYbEZzeTZhdGduUFBoMGV5WnFQMGZ0TUJrcHl3?oc=5",
-        "domain": "tolonews",
+        "title": "New national sanctions and the possibility of asset seizure – draft law on restrictive measures",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkZldWx3cTdGUkppT0tXc1Y5TXc4WExjdkJYWWhoZXNCUm1CWVpvempBbFQxdXdNWDNialNWcDJ4bGNYLVUtaXFBSXR1N0N4TkxUU3pRQks3QkRzeW5zeXY4ckF3azVzSjV5RzdyZHhGZnFURzNSMHByVk9NNHZtdVRxTVFMWHV2VW5uMDFVS21lNWpJVmxqMjBiSGwwc1hCQm16VUZodGRMVTJrdTNDTk53RG5nT09K?oc=5",
+        "domain": "kancelariagraiwsplnicy",
         "language": "",
         "tone": 0,
-        "seendate": "20261015T070000Z",
+        "seendate": "20261020T082550Z",
         "source": "GoogleNews"
       },
       {
@@ -120269,6 +120269,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T233710Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
+        "domain": "tokenpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T060712Z",
         "source": "GoogleNews"
       },
       {
@@ -120314,6 +120323,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T064022Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ex-Enugu Lawmakers Write Tinubu, Propose Blacklisting, Asset Freezes For Foreign Firms Linked To Fake Drugs",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1hUa1RoX2gtajlOV1BmdlVaSi1xZG9tRmp2enRNbWFCQ0hfa05FT2I2Ukhnbm0tWDZPT3Vaa0JnTHEtOXRhZkZxeGxmb2d4a1dvTTB2bHJSTUs3YWVRZE1vTnpFQ0ptZWd0YWp3bVZVaTNMeExyTlhLeGd6WDk4SWtHZk1KZzZUcHBnMGZkc0pvVl85ZGQ5S0E1WXdaS2VVVi04a1ZiajBlUmdDYUdOa0xrZ1NVTFpxZGlhVXpmOGhBZVVC?oc=5",
+        "domain": "saharareporters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T221615Z",
         "source": "GoogleNews"
       },
       {
