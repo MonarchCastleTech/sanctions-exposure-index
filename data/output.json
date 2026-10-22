@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-22T11:45:40.051602+00:00",
+    "generated": "2026-10-22T17:07:50.698846+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T11:43:53.481550+00:00",
+    "issued_at": "2026-10-22T17:06:03.936112+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.7,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T11:12:37.856765+00:00",
-        "score": 18.2,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 30.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-02T16:31:46.231213+00:00",
         "score": 18.2,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-22T11:43:53.481550+00:00",
+        "score": 20.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.1,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-22T17:06:03.936112+00:00",
         "score": 20.7,
         "level": "BASELINE",
         "components": {
@@ -120011,24 +120011,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Intersecting trade controls: the evolving Asia-Pacific landscape",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVm02dFdwUmNCWGJzOFlBTjFER0dzSXRtUmotWl8wN2pJWGNndl9uMlNzbXcwWS1uRm16Sk1OZ1pvU3NIamRwTXdqZ3FnSjI2VnJMdkhVOFc4SmhmRHBxaHhnQ2JEZU1CeXVsSGRPd0xzaGJMUG5RYnk5YjZIOVlhaUlvb0xRemh6Unl6bjNQOHloRWdfT0IxME9MUUR4WklDMW9BYUdXcFJvREJPZEVHZ0k0TlVRalNnYW1IcUpTcDA0MUxqZHdiQXFQOUpwOEZDcE4wTDVoVGZNZ2I2Q3FjZ085NURValgtcDI3YWRfVGtjZWs?oc=5",
-        "domain": "globalinvestigationsreview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T125636Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Responding to US sanctions on the International Criminal Court",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjhMcVhnRDhuaE16aWlzakNxZV9LdHYzLXNFSmVHcTc3WWJsLThDRjI2dWxwVkxlTGhuV1FmbEJ1dXpoTjViajRGSkNtbzlPMnRKYmhYT05sc25GNzBCUDI3dmFRdDBJOTltM2o4VTg2WTNUR2pGMWgwWkI3dnlBQko2RzVvWDBmMl9GNkctNTd5RGc?oc=5",
-        "domain": "chathamhouse",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T155601Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
         "domain": "fortune",
@@ -120083,30 +120065,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU freezes assets of three individuals and nine companies circumventing sanctions against Russia",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmZW1nbDZvYUZlRVpmWE5yWG9CUXdXdXd6MHdJZk9ORVhNNi1JaWtkZ1BWMUxaXzZ0YjZ5T2llbnF6WERxNnhxTl83cTJWb2owd0tBVXYzYUVWMVBpR2g2MV9kS2rSAXBBVV95cUxNTC13ZVFvdS0tLXNNeEJIOWRCcUZVcmRERTE3SmkzY1FOS1cyaW5iV19jWktpTUdKYzV0blY2NFd2ekVhT0hReWZ3bkk2azFrcnlIZTR0czNGYVU4WUJoLUJiWFpkblNtQWQybm1rZmxf?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T170000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
         "domain": "financialtimes",
         "language": "",
         "tone": 0,
         "seendate": "20261020T040446Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council’s renewed sanctions aim to starve gangs of bullets in Haiti",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nQlpTOFRweGo3M2JGQ3dZZkMxU3lZSUN6SkRCNGRodVJhRUdmRU03VTRaVFVPSHJRS3Y3S082dnBEcVphWjh0MUdMRXdfTHBTZ1RNQmp2WXVOZDlZdFdUUTBESDJ5dzdOVGRoeHhjU1FhRnhhT1ZkQ3F1Zmk?oc=5",
-        "domain": "caribbeanlifenews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T164159Z",
         "source": "GoogleNews"
       },
       {
@@ -120137,39 +120101,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian billionaires Alisher Usmanov and Mikhail Fridman hit by Lithuania asset freeze",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ0hYQmRqV0JNd25BUTEwWEVNVVpFS1l0bF84azNzZEhzY2RPVmg5b0VZSFA0SjU5dHZJYklqTHd6Qmg2LUZuVXZEeTBnWXpnM19MV3FWREJadFdjTFZ6WDYzbmVCRGVPTGc1WjRwVGItb1Ntd0twSVZEZEw1U29UYXI2Rkhmb0FlaWVfMlRRd19FSDNUM2dreG5YREpoUy1RdUJVeWctNHFtaVExUzktNVlRcXdBaHltaWpVZnlVRDVBZ29Yek4tSmVB?oc=5",
-        "domain": "billionaires.africa",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T152032Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU unveils largest-ever Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
         "domain": "latestnewsfromazerbaijan",
         "language": "",
         "tone": 0,
         "seendate": "20261016T144437Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Guide to Sanctions - Seventh Edition - The implementation of EU sanctions in Italy",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRTlDa1FZZ0ZObkhuYzlrVlZCMFd1aTBlakpkc0JYMW5DbnJ6QjhCT0lrTHlJaE95TkdxQmRiOEFpZURFVnNQWFh6YnBpMFRQdmtLLTZlOUVJYkQxbVQ0QndHS2ZHdk9GMHQ1REVFYlZKaTYzdkoyWDBaZUhnN1J6U1JLY01WSGlqM1dXNndXelZYZDhucDFxbDM1MS1obzlrbGJ2TDNpaUNMUElETC00SVRfNlU5VWh4dWM4dEpiUEZoVWJkUWF5UWk3RU4?oc=5",
-        "domain": "globalinvestigationsreview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T120225Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council renews Haiti sanctions amid continued gang violence",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0Y4cE04OHdZMjFwWXY4R0hlb29yeEhQaDBPVUdLQk5jemdQdmJNN0VsOFFKUWU5Y0VEUUMzZUxlTWcwVDRoeHIxNWJoUjJhTjZtMjZSX25Ya3B2aWo2T01NWEpIc3d6ZUNYUUE2V3JIcWVuamxuRFZVSm9HdjR0TUJqWlFqSVNfdFlfOTRHaU5rdUplTnVIRkhwNkU4ZG9VblJvVDE2N1lkVXlWN01yc09KUmRIVXRwQWduWVVYN1k3eV95?oc=5",
-        "domain": "jamaicagleaner",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T152703Z",
         "source": "GoogleNews"
       },
       {
@@ -120197,15 +120134,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261020T084009Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "United States Urges Haiti to Regulate Eel Trade Linked to Gang Violence",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbjI5THp4WjBiTi1aYjh4b0lOWGdwQXJ0MFNsb3B0bHctOHFfV2Uzc3E1WWpjLUVLSm1HemlrejFtM01ZWW0wS2dzUWhIMXlyNHU2bnh6R1FYTTlSai01azJvTUhPd0tfV0xEd25feVo3am1BRXJ0bXhJYzRpYzlwVXdtdVZkMEtScGUwWFBjZEhvZHRtT0paWnU3WkVIUF9hNGQxdVlaaFctUXdSWmFYcmhvS283QzA?oc=5",
-        "domain": "lavocedinewyork",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T162843Z",
         "source": "GoogleNews"
       },
       {
@@ -120242,6 +120170,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261018T080740Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPREJYXzk5M3RCVWo5cjBGQUczSUlmMkZsdVRWV1JxTUpSclowajRqazNza3FFZU9wVFhrbTA0a1Ayc0RUcWFZaUVVbEgyTnFYUVY0NVdCMkhJRDdpSC16TjhKM2p6RF9IMENXQzdGeFdZeTNLSFlGMThPX2p1WjZXT0g4MXNoZnYzSzFQV2piMA?oc=5",
+        "domain": "cryptoslate",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T050024Z",
         "source": "GoogleNews"
       },
       {
@@ -120299,6 +120236,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Who Are the 10 Moroccans Now on the Local Terrorism List Over ISIS, Al-Qaeda Ties?",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHU5R2JQbTBQelJacVFoTnItUkFRbHBGWkhCY1Zibkh2SnBjcjY3eFlGVGxQVWk0bVlXQTZ6czV4eFBHbm9JRW8yWDNHdDVvLU41d2VTQzBpUHRQb3RIaUlhUUxwamQyUktGRV9CeEd4TU9fVFJObEhXNlAtQWRnWDRDc2tWbzdaSnJvWmdfOXg5NmphX0JjUTNjdW9vb2YtbndsVnBxMWg2TlRCd2ZxWWpWazg5RlRERjltekl2OV9qNy03anRYdA?oc=5",
+        "domain": "moroccoworldnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T191259Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
         "domain": "aol.co.uk",
@@ -120317,12 +120263,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US pushes for sanctions against S Sudan leaders",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54bElKWERRLWpEcHloeTNZVDhodFdJLVdMTWxGTzd1MTV1SVlheXl6bmZsX2lndGlKQjlBd2Y1VjVYcXUxemc3aHpPdmJ0MHlrQmZoQ21MMWRJaEtZZW1xVzdB0gFnQVVfeXFMUEFjNGVXaEg2aUZDMmpXclFoTWJQeXhXcEc4UHg0Mk1oc3JWT1RtcGRqRndYWW04UGZ6RzFvd01TbndPTjh6R1lJZDlZV1EzZ0JKMFpnTzAyeDNMd002LXBheHJRVm5tNA?oc=5",
+        "domain": "eyeradio",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T215310Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The Russian shipyards Britain has placed under sanctions",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
         "domain": "ukdefencejournal",
         "language": "",
         "tone": 0,
         "seendate": "20261019T064022Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Zelensky Condemns Sanctions Freeze",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYWtuWFkzUDN1TGpjbGU1SWZwTHV1bHZGQ0tERU5ORTNncGpaY2FLb3pqOFRaTnlQSzRmak1UQU0yRWs4aWhaTzZZa1EtdEhOOGZSS2RJNDBpZk9KUzkyeWFNSzl4ZEZFUXRFdXA0dmZzNlF6bklabkp6a3BldHRKb1FnRDNSUQ?oc=5",
+        "domain": "politis-tothepoint",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T152800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Binance Account Freeze Claim Highlights DeFi Withdrawal Risk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZaEVyVHF3Vi1ZcFppTXIzOC1YZjQ5S3g2TzNRM0VHVFEwX2M5X0VVQzg2UFR0N0NjQVN2ZmlYT0FwMU1hXzRyeENJUlkycmNVOHgzb3FGdmk?oc=5",
+        "domain": "tokenpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T143912Z",
         "source": "GoogleNews"
       },
       {
