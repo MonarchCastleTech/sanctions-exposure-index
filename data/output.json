@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-23T04:43:06.129481+00:00",
+    "generated": "2026-10-23T11:33:29.662521+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-23T04:41:19.489204+00:00",
+    "issued_at": "2026-10-23T11:31:42.978000+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-03T04:17:49.855854+00:00",
-        "score": 20.5,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 39.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-03T11:08:30.930642+00:00",
         "score": 20.5,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-23T04:41:19.489204+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-23T11:31:42.978000+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120011,15 +120011,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
-        "domain": "fortune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXljYmxkSnlrN21wcERuZ3I5RVc4TS1uYmNyQU9pN1A3dVBBZUdVLVFidmhSU29RbDdCeHRZWEtMb3JiV0RuYVFZQ2d6aHp2NVhQZV96TXZHSVB2c1VSMUg5S1I3U0xvM0xDa29DbWVhclBRVjVLNFV3XzZhTXlraFRKQzBrMnRVTGk5cm45MVdMeE45dEliR2lySzlvMFdRaVMtYmdlQW9SWUNFZEQ5QTUyYWNmdk1ud29oNWY3dnFpekMx?oc=5",
         "domain": "eeas",
@@ -120035,24 +120026,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T170000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Haiti sanctions renewed: Starving the gangs of bullets",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOazhsVC1ETjhQLWdzX19CWnZ4VDdlVlNvZmNEcUplMUE2S0Jmc0o2VVgyNjA0ODlnZkdPcllYWWgtMUt3OFJrbHozNmFTYkhUXzZwZ1NMUmNUWlY1bDBJMC1fZzlKS1dqQmRjTHUwSTZTX0RYMmFXamp0eUpZSHdLNXhrS2lTV2NBMGJnX2dUY2l3QV9HX0E?oc=5",
-        "domain": "theeuropeansting",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T104200Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
-        "domain": "financialtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T040446Z",
         "source": "GoogleNews"
       },
       {
@@ -120074,30 +120047,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
-        "domain": "southchinamorningpost",
+        "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
+        "domain": "financialtimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T070410Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Martelly puts elections rumors to rest, registers to run for Haiti presidency",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVXpzM1o2bVZOclQ1UktEd192SEI0UXItXzNmc1BrOGU0OVpyTlZBLVVLUjFFR1M0OERDUVY0alVOSUZHWHhUSk0zQTQxYk02dF9WdlBBbzRqbjdHWVR2SUFBOTROdjliUVNPVG1oOS1meUFBV2RuVTZWWVRSVC1XV1ZEenlaS3dRdnBoak9WbjBhUdIBkgFBVV95cUxONnBnVEVSbnpIUGdkT2J1bXV3bVhjbHUtdkdsRmlZbzFFakk1ZHo3VWVqeERsUEZVYW9la3hIczh5OHhEQjdwUmJuZHQyYXR0X0NaRnFET25tYzBBU2g1cVVxVmtFakh0NGE1c1hlbWZRWkg1ZEdUUTBna25OcTkycWd4X3M3c2ZqYmxkRlRrNG85UQ?oc=5",
-        "domain": "miamiherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T134521Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
-        "domain": "radiojamaicanews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T105653Z",
+        "seendate": "20261020T040446Z",
         "source": "GoogleNews"
       },
       {
@@ -120110,21 +120065,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Martelly puts elections rumors to rest, registers to run for Haiti presidency",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVXpzM1o2bVZOclQ1UktEd192SEI0UXItXzNmc1BrOGU0OVpyTlZBLVVLUjFFR1M0OERDUVY0alVOSUZHWHhUSk0zQTQxYk02dF9WdlBBbzRqbjdHWVR2SUFBOTROdjliUVNPVG1oOS1meUFBV2RuVTZWWVRSVC1XV1ZEenlaS3dRdnBoak9WbjBhUdIBkgFBVV95cUxONnBnVEVSbnpIUGdkT2J1bXV3bVhjbHUtdkdsRmlZbzFFakk1ZHo3VWVqeERsUEZVYW9la3hIczh5OHhEQjdwUmJuZHQyYXR0X0NaRnFET25tYzBBU2g1cVVxVmtFakh0NGE1c1hlbWZRWkg1ZEdUUTBna25OcTkycWd4X3M3c2ZqYmxkRlRrNG85UQ?oc=5",
+        "domain": "miamiherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T134521Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Frozen Elderberry Suppliers, Export Data & Price Trends | Global Market Overview 2026",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zZENWQTVMcG4zUVd1QmVTNUQwMVJENmI0bzlOQmhJZ1VyYTY4Nl9STHRQbVdqZXp3dzFwUk9ORF82OWdvZXBsd0l3UmlyNHlBODh5TmZqWm9wei1sajFBSUNrV2JfeWM?oc=5",
         "domain": "tridge",
         "language": "",
         "tone": 0,
         "seendate": "20261018T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Switzerland and US ease sanctions on Venezuelan figures",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXJXQ3Y1MGxObmFuUVlWWVlnaG9DU0hmWG1ZU2tMNU5lekJyVWo1emZvY3BaWUk2bTNYdmxTcTk3Q2RoVE1OaWRMLTZON1dWa3BMa1FsWVlfZklUcXVTS0FlWTlaLWt4LXk0QW1nUXR6OHo2YnBESXdPSkZTUW8wY0hSSnoxZkZF0gGIAUFVX3lxTE9BcldDdjUwbE5uYW5RWVZZWWdob0NTSGZYbVlTa0w1TmV6QnJVajV6Zm9jcFpZSTZtM1h2bFNxOTdDZGhUTU5pZEwtNk43V1ZrcExrUWxZWV9mSVRxdVNLQWVZOVota3gteTRBbWdRdHo4ejZicERJd09KRlNRbzBjSFJKejFmRkU?oc=5",
-        "domain": "harici",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T084009Z",
         "source": "GoogleNews"
       },
       {
@@ -120137,12 +120092,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTktxcnVDN0xWUkdIRC1LdWpLZDRzSTloYkk3SXZfM0owZTM3amFxOFF0RTN1dXI3azhNNnZHb3BpSENlQXNhMXNLaUVqeWt0bTZKZjFQY3Z4YzJaTFB3NDBhUUhHNEFkWjhqSVFuZVJGWlZIejV4eDdDeG9Zamd6SnVBaGsyMEl6eER1cnZ1YnhGSU5QYVN3M2JOSmdEdHd2MlEzcXBvNnpFcW1xSGVmUGtqa3RsVGx2SnBaSGtiWXhtRWJBNllLYzR5ZGFFcmJ0dmU2Q1B2VXVPYk5BemxIVzMwRWtod9IB5gFBVV95cUxOTktxcnVDN0xWUkdIRC1LdWpLZDRzSTloYkk3SXZfM0owZTM3amFxOFF0RTN1dXI3azhNNnZHb3BpSENlQXNhMXNLaUVqeWt0bTZKZjFQY3Z4YzJaTFB3NDBhUUhHNEFkWjhqSVFuZVJGWlZIejV4eDdDeG9Zamd6SnVBaGsyMEl6eER1cnZ1YnhGSU5QYVN3M2JOSmdEdHd2MlEzcXBvNnpFcW1xSGVmUGtqa3RsVGx2SnBaSGtiWXhtRWJBNllLYzR5ZGFFcmJ0dmU2Q1B2VXVPYk5BemxIVzMwRWtodw?oc=5",
-        "domain": "rochesterfirst",
+        "title": "Switzerland and US ease sanctions on Venezuelan figures",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXJXQ3Y1MGxObmFuUVlWWVlnaG9DU0hmWG1ZU2tMNU5lekJyVWo1emZvY3BaWUk2bTNYdmxTcTk3Q2RoVE1OaWRMLTZON1dWa3BMa1FsWVlfZklUcXVTS0FlWTlaLWt4LXk0QW1nUXR6OHo2YnBESXdPSkZTUW8wY0hSSnoxZkZF0gGIAUFVX3lxTE9BcldDdjUwbE5uYW5RWVZZWWdob0NTSGZYbVlTa0w1TmV6QnJVajV6Zm9jcFpZSTZtM1h2bFNxOTdDZGhUTU5pZEwtNk43V1ZrcExrUWxZWV9mSVRxdVNLQWVZOVota3gteTRBbWdRdHo4ejZicERJd09KRlNRbzBjSFJKejFmRkU?oc=5",
+        "domain": "harici",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T103456Z",
+        "seendate": "20261020T084009Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTjAtcDdpSUhfOTdNQ18xWkJOd1RhN0lQaDdJb2w1ODd2QUFRNWRkYk5GemktcTF0TnE5NFo2MlJQSlN5aUlIMEN6M2oxc1hzbm54LXRZdlowMl9LcWJSQTNJc2JvbFdteHo4MDRhMVJod19EV1hkNlExVkVRWU15TTVNX1g3T2pzc3dMaWwwYzM2Zy1JQXVEdHpIWVNtYUtQU0QxZUJpTUVMLVZ3ZktUbmViMlhLazg5WWR0S2l2VDhpLVBuWnZzSlNEX2RLZjE2RHc4aFFqcFBGdm1wdmYtOTBlazRoTE94OEZz0gHwAUFVX3lxTE1rVDZBZjF0TDVpQVFFTC1Dc1VOQVVGRUNDcXc0Y1ZSU1lCaXRQa0ZncmdWWXY0WkVjM2JvVVVDekRmWEwtd1Nta3Z1VXhBVWRyX0l2MzI3emlhMGVZcm10WUs1TFhka3M0bkltSTVGem5iTnJtWndQUlJ1clpwRDdFZ0dfTEppZ2N1QUs1cVJidzlORWtXVGk4VlZPeWtEdHRCT0l4Vk1kcDZ1SC05Yk4zTEdmektyUkEwaTdud3dkZ19LaDVmQ09CSDhuT29ndnpUNnJCRDBRLVdYNXRjaFpSUzE4dUJ1b1lGS3NZTUpzTA?oc=5",
+        "domain": "fox5sandiegokusinews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T225217Z",
         "source": "GoogleNews"
       },
       {
@@ -120209,21 +120173,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "SEC Sanctioned for Misconduct in Debt Box Crypto Case",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWm5Db3pHZ0NCLTQxakozMTVUc1pYQ2paV0pET1pCUUpKQkpMWjhYUGRmU0k3dEswajNGeHFTbkx1QTdtZDlTNmttZXpKX1NuRHJzLVRXWFBuem04dTBRd2JxcnAwc2VzbTNRN3lQemRyaWk3Q1lFN1lXT2drNnpLcE5PaFpBZFJOWktiRjBTX2VBdHB1VkJyYldjZw?oc=5",
-        "domain": "coinmarketcap",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T091324Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan Faces Shortage of Rare Earth Element Yttrium Amidst Global Supply Freeze",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVZoc2Nicm9vS0NFTWJZRm5jZGM4UTdGSDNPTVJJQmFtODRsMVVELXp6M0VGSTc4UHJMVmdEbHZZTXR0aXBTRHJ6YVVtR012ckcyZWtObzl6T2tfVUhmMmxGTURwaXdkcVdNZFItSFFuNy02d3JVVW1lM0NzaUl2SkgyZTN5eEU0MUVweGlGZFBrNG9BTEdtaW9RVUlMZVVpejFnVGJ2NnhOVTVwTTRxM3NtYlVTYXFkS1Z1SlF3?oc=5",
         "domain": "ratopati",
         "language": "",
         "tone": 0,
         "seendate": "20261021T161123Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Who Are the 10 Moroccans Now on the Local Terrorism List Over ISIS, Al-Qaeda Ties?",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHU5R2JQbTBQelJacVFoTnItUkFRbHBGWkhCY1Zibkh2SnBjcjY3eFlGVGxQVWk0bVlXQTZ6czV4eFBHbm9JRW8yWDNHdDVvLU41d2VTQzBpUHRQb3RIaUlhUUxwamQyUktGRV9CeEd4TU9fVFJObEhXNlAtQWRnWDRDc2tWbzdaSnJvWmdfOXg5NmphX0JjUTNjdW9vb2YtbndsVnBxMWg2TlRCd2ZxWWpWazg5RlRERjltekl2OV9qNy03anRYdA?oc=5",
+        "domain": "moroccoworldnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T191259Z",
         "source": "GoogleNews"
       },
       {
@@ -120272,30 +120236,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Graham 500% Sanctions Collapse; Zelensky Wants €155B",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5NVHlNMFNlc2dPX0xDdGFZcnpGOUVMamVJMWl2NlRvekFkNmtrVWJ6UDR6aTdSQmtEQ0JuVlRoUkVtaW9uYnFmaDN3?oc=5",
+        "domain": "youtube",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T094307Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Ex-Enugu Lawmakers Write Tinubu, Propose Blacklisting, Asset Freezes For Foreign Firms Linked To Fake Drugs",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1hUa1RoX2gtajlOV1BmdlVaSi1xZG9tRmp2enRNbWFCQ0hfa05FT2I2Ukhnbm0tWDZPT3Vaa0JnTHEtOXRhZkZxeGxmb2d4a1dvTTB2bHJSTUs3YWVRZE1vTnpFQ0ptZWd0YWp3bVZVaTNMeExyTlhLeGd6WDk4SWtHZk1KZzZUcHBnMGZkc0pvVl85ZGQ5S0E1WXdaS2VVVi04a1ZiajBlUmdDYUdOa0xrZ1NVTFpxZGlhVXpmOGhBZVVC?oc=5",
         "domain": "saharareporters",
         "language": "",
         "tone": 0,
         "seendate": "20261022T070730Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "ByteDance ASIC Deal: Nvidia Funds Chips US Export Controls Meant to Block",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ3RwOVdObXc3N0JBU0JUelltRWdfdXgxcDhtMTBockszbkN4VWd6clNZSEhXYXA1T2JrMFFPa1lzbXhYR2FFVDlrSmVWQWF2bjdfakpSUlJPUzlzbVJEcDdLNk1TUi1nRHFEc1ZuRkR3UEhXMVhKUWVOUFN0NjQ3X3dlUHZPamp0VjNKTURUUkFhd2hZenZFRFhPRUgtWU1SbEdJVU1qd3hBNXBUeVA4ZXJ3Nzc0aW9xNF9melBqNjMzUQ?oc=5",
-        "domain": "techtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T060324Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T074002Z",
         "source": "GoogleNews"
       },
       {
