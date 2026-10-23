@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-23T17:02:53.040335+00:00",
+    "generated": "2026-10-23T21:22:18.990505+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-23T17:01:06.579241+00:00",
+    "issued_at": "2026-10-23T21:20:32.363176+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-03T16:22:23.867113+00:00",
-        "score": 23.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 16.0,
-          "official_posture_shift": 39.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-03T20:58:05.451454+00:00",
         "score": 20.5,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-23T17:01:06.579241+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-23T21:20:32.363176+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
