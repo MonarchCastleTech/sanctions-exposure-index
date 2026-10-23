@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-23T11:33:29.662521+00:00",
+    "generated": "2026-10-23T17:02:53.040335+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-23T11:31:42.978000+00:00",
+    "issued_at": "2026-10-23T17:01:06.579241+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-03T11:08:30.930642+00:00",
-        "score": 20.5,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 39.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-03T16:22:23.867113+00:00",
         "score": 23.7,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-23T11:31:42.978000+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-23T17:01:06.579241+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120029,6 +120029,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Sanctions Without Incentives",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwODEwdnZKT0tkYWYxYlN4SlFzdjhIN1Nfb3dTbVdJdkQzd0xpbzkyazcxN0VJX0FaT0daaUJQR2NuUjQwejBWMVk2Zy1KWEpqWUNxUldnYUs?oc=5",
+        "domain": "riddlerussia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T091127Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHFzeE5GMzN3YW00bXA4SmMwU200NlU0NUJQaUhTbElWWFo0aHBnYV9QUzVoWDk5T0JMQU5HRkdRS0c5R3JMRXhYOVlfaTlSQmcycnVMYTNxekUtbzVDandRdmpjT0JZZmFfLTFCMVpaOWxhLTRUY1YwVUN4OVJvMlJudXlKV2JucGd3aFh2cTVsdmpTUGljQ3hpdXdxR0tub3hsU3ZPYng4VHRNXzQzSjk3WQ?oc=5",
         "domain": "thebrusselstimes",
@@ -120038,12 +120047,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Closing loopholes: EU lists individuals and entities for circumventing EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUGtDSzFvQm1MR0RiSVR1cGlwU1Y2ZjVneVpibHFoS1cyY3htV1dkOEtLT0J3Zlh4clFHSXBOaEpKZWFNRHlQLWw4eHFTMF8tTS00SDNyclE3eWs2X2J1dUVzSi1Ub1l5NTNZdTg5ZC1Nc0JleVRpMlVFeVNFalNrVVgwYm9teGMwbFo0RWpteTZ3RUxDMVd2WHk2dXpxOHROVjkyR2hEdFduaXozSFJwZWhFcUVUZkVpaDRvSzV4OVNNMkUzTlAw?oc=5",
-        "domain": "euneighbourseast",
+        "title": "News from Israel and the Jewish world in Spanish",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRFJSZjItSmwxWUxOcHRndmF0emo0OHNEQ2lzZzhaZC02aVcwTkpScWFLUzlYbVN6bXEtQVBVVkFNdDUtU09Uc1NCdlFjRXJLRzBQRzdma2hhTEpzdExZeWNoR3hUSkNtLWNyRlBNYVg2b3N5ckxieG50M3pWcnZnc2dRQVNhNlI4OGxyZk4wdG9kTVJtOXU0WlRzN2Vya0N6bnNlMnVqRm44N2tGYm9MVVQ1RmFGaGlINVJBV0dLaG5oQ1NvcUViZA?oc=5",
+        "domain": "auroraisrael",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T121844Z",
+        "seendate": "20261020T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120053,15 +120062,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261020T040446Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU unveils largest-ever Russia sanctions",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
-        "domain": "latestnewsfromazerbaijan",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T144437Z",
         "source": "GoogleNews"
       },
       {
@@ -120137,6 +120137,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "How Terror Networks Exploit Europe’s Financial Regulations To Evade Detection – Analysis",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXhFUUJJZUpkaU9oVFN4bGJrWjNjNHd1ck1Lb0kzLXVnSjU2UjBIZ2Y3NXFVUzhvc3JTWk95bnAwRFZlTzl6cHJIcXNiOF9ZWTM1VGItTnNfczZzMnR1dkx2dXBwQkc0RVBxSUVtaWpFcjFpV1BMWFZRSzRJdTlsaXBIUHJpa3ZBSWNVVGNpUG5YTDVrT2ZZWl9NWDVMeEVKUkdKUVhwSTVVc1ktS0QzVEE3Z0Z0aWY5cWpYcFNvNi11ZTg?oc=5",
+        "domain": "eurasiareview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T235359Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX2d5MGVwMDdTanY4Qml4YVh4bHl1eUxPZ21OVEF6V1JhR3FkVTJYX2tXenFfLThUamJlZ1RvTkdhYUhKY2NaV05kZTFXUGltUUoweW5Ybm5ySGI0dUt4ZnVienZtRkNjZ0ROaU01YkZMWVVMT0tnRk1qQnp3U09DUEVzZmpDbURHcnJaWXJITjBFSlQway1yR2xuSVJHM3kzc1dHM2NpNnA2d9IBrgFBVV95cUxQSXFxUmhRYTNOd29Hb013djhKUGVWMlVUYUFPS3lEcE43cWFCWDZ6amFRV2FmYnhsVGtnbDdjY3UzWUlXVW55ZjB1UEFQQjFGSEJKN3h2RW1FSGxUcGZKQzhtYkpEOEhRcWluZ2RLeVpMR3pfWVUyYlcwaEZYcjNWM1ozbzZJNUY5NXFwTHVaOC1RSmc3S1VES010NnZqN2U1cXhTVjBibWFLTS1tQkE?oc=5",
+        "domain": "thetribune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T114936Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "New national sanctions and the possibility of asset seizure – draft law on restrictive measures",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkZldWx3cTdGUkppT0tXc1Y5TXc4WExjdkJYWWhoZXNCUm1CWVpvempBbFQxdXdNWDNialNWcDJ4bGNYLVUtaXFBSXR1N0N4TkxUU3pRQks3QkRzeW5zeXY4ckF3azVzSjV5RzdyZHhGZnFURzNSMHByVk9NNHZtdVRxTVFMWHV2VW5uMDFVS21lNWpJVmxqMjBiSGwwc1hCQm16VUZodGRMVTJrdTNDTk53RG5nT09K?oc=5",
         "domain": "kancelariagraiwsplnicy",
@@ -120152,15 +120170,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261016T233710Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
-        "domain": "aninews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T081200Z",
         "source": "GoogleNews"
       },
       {
@@ -120209,12 +120218,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Russian shipyards Britain has placed under sanctions",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
-        "domain": "ukdefencejournal",
+        "title": "US rights groups push for additional sanctions",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16a0hndjlyRjlicnVoZjR6R05HVmtjaGc2VXVEN1FaM0ctNGlwVDVpTnQ3WXV1S0U3aENIbVAtUkRwaG1qRUdackZlWDdPeTRNbWcyNzRNel9CcWR1bFJINjFYSXBwWlI2X3VtSmVR0gFzQVVfeXFMT2lneGZSZjhqcF95dGR2d2N5VUxjX1U4UHI0NzB2aWRjRDdBUU0wZEdRU1prVDh2STFCNy1Da2drbkVvZG1rbnY4QWhGNUFyT0hRZHJTX2IwVlVkY05MVjJNeGg1eHliYmdQUWMwTWg0aVlLWQ?oc=5",
+        "domain": "eyeradio",
         "language": "",
         "tone": 0,
-        "seendate": "20261019T064022Z",
+        "seendate": "20261021T215148Z",
         "source": "GoogleNews"
       },
       {
@@ -120227,12 +120236,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The Russian shipyards Britain has placed under sanctions",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
+        "domain": "ukdefencejournal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T064022Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Binance Account Freeze Claim Highlights DeFi Withdrawal Risk",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZaEVyVHF3Vi1ZcFppTXIzOC1YZjQ5S3g2TzNRM0VHVFEwX2M5X0VVQzg2UFR0N0NjQVN2ZmlYT0FwMU1hXzRyeENJUlkycmNVOHgzb3FGdmk?oc=5",
         "domain": "tokenpost",
         "language": "",
         "tone": 0,
         "seendate": "20261017T143912Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "European Parliament asks EU to list Houthis as terror group",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOW9qREk4Y1ZMUE56dHhLUDNVLXlpM2RaZXM3U0lUSkZCUkJub1M0WlNOcnYyRFVhZE9MeW0xZk5iUUFNTXIzbzZESm9FcjItZV9rNkFyR21IVVkyUk1ONWx6LVFSYkdzQjdlZEpSOWNRTmNjSS1tdUxSWTRtV05SbjBsTkxjN1JDM1lYeEF4RFI5RGhuTE1tNUFFYld3cGVud19ENzE3bXd0ZTVl?oc=5",
+        "domain": "thenational",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261022T164807Z",
         "source": "GoogleNews"
       },
       {
@@ -120254,12 +120281,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether CEO Says Iran-Linked USDT Volumes Fell 94% After Wallet Freezes",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVDRXQzVRb2s3Rm1wMXFSSjJlZUd1bzVuMXJXUVZGeGlhbm9pcTlMS01NWURsUDdrM0lyYmt4RmJGekZLOE1CQ1NLUGk0NXVEYTVCRk5hWENUT20xYS1TOWRFQ0R1ZmhlYnVINFVYLUxyNHRyS0FsNVY1Q3RFbDdvUjhCYzRxeC00bk95b0lWUzh5MkpwWG9VMnY2RHB2bG5lX2FoTTBvSE5CUE85?oc=5",
-        "domain": "thecryptotimes",
+        "title": "Yuvika Chaudhary calls daughter Ekleen her \"biggest blessing\" on her second birthday",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX0JaSmFXMHZiWDhfejJkbThpQkk0SGZyZWRrRjdFb1E4Y2Q0SEdydmxiNlNxdUpZVW5tNTV0bXkzdEJJYThQd3djVUhuTFZIUXppMjYwOEVBQXNrdHlXUnVwRHJ0N2YxNkd1dHhnLXZ2NVZvZllueGZQQ2s5WnVlcVowTGg5SHh0TUFJNGg2dlZxUU9Rbm0wOGQtSWdBMTFRX1BvNHczTjBQY2ZCbGJ0NlJQNElnSGRXNTZlX2tkdDhBVkpR?oc=5",
+        "domain": "httpswww.indiagazette.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261019T190325Z",
+        "seendate": "20261020T103700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Behind the $1.5 billion cryptocurrency heist:...",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZkZQTmtYMHlmZjZpVnJZWWctUHluam5IbkpsQ3BWMFdfcVhhRWxBdXlyQS1hYnRWYmJ3UGhaWEdiWTUzeXZvb2pDUnJzdDNheWxUQmdlQ0gwUTg?oc=5",
+        "domain": "chaincatcher",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T135640Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether defends sanctions controls as Senate scrutiny of Iran-linked USDT activity intensifies",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV00xSXRhajNpcVVqWm5LUGJGbXpGdDRkc24xNzdaMDBrWjZfckpkVWNWQm9vSkhPR1g3M3ZZYldXSjV0TFdVb091UVV6UlRPZE5NX2xlYjg2MjlOX2pCT3RQeFFvdHFfZk9ReUN4TGdFeGR3a0c2MkRyOURMbWktOTktVzhkUWtZRjF0NXd1RFhzakFONXJ4Y1diQXBWZw?oc=5",
+        "domain": "tradersunion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T203932Z",
         "source": "GoogleNews"
       },
       {
