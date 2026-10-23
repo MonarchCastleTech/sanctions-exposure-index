@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-22T21:32:08.754243+00:00",
+    "generated": "2026-10-23T04:43:06.129481+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T21:30:22.396847+00:00",
+    "issued_at": "2026-10-23T04:41:19.489204+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 20.7,
+    "score": 20.8,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -28,7 +28,7 @@
         "releases_considered": 100,
         "current_7d_designation_releases": 2,
         "current_7d_all_releases": 2,
-        "prior_7d_designation_releases": 6,
+        "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.5,
         "anomaly_z": -0.67,
@@ -165,11 +165,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 29.1,
+        "score": 29.5,
         "current_7d_releases": 2,
         "current_weighted_term_rate": 2.75,
-        "baseline_weeks": 11,
-        "anomaly_z": 1.16,
+        "baseline_weeks": 10,
+        "anomaly_z": 1.21,
         "matched_release_count": 2,
         "relief_release_count": 2,
         "evidence": [
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T20:59:19.841810+00:00",
-        "score": 18.2,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 30.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-03T04:17:49.855854+00:00",
         "score": 20.5,
@@ -2267,6 +2256,17 @@
           "official_posture_shift": 29.1,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-23T04:41:19.489204+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2331,7 +2331,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "20.7/100",
+      "value": "20.8/100",
       "delta": "BASELINE"
     },
     {
@@ -120038,15 +120038,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctions Without Incentives",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwODEwdnZKT0tkYWYxYlN4SlFzdjhIN1Nfb3dTbVdJdkQzd0xpbzkyazcxN0VJX0FaT0daaUJQR2NuUjQwejBWMVk2Zy1KWEpqWUNxUldnYUs?oc=5",
-        "domain": "riddlerussia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T091127Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Haiti sanctions renewed: Starving the gangs of bullets",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOazhsVC1ETjhQLWdzX19CWnZ4VDdlVlNvZmNEcUplMUE2S0Jmc0o2VVgyNjA0ODlnZkdPcllYWWgtMUt3OFJrbHozNmFTYkhUXzZwZ1NMUmNUWlY1bDBJMC1fZzlKS1dqQmRjTHUwSTZTX0RYMmFXamp0eUpZSHdLNXhrS2lTV2NBMGJnX2dUY2l3QV9HX0E?oc=5",
         "domain": "theeuropeansting",
@@ -120092,21 +120083,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Martelly puts elections rumors to rest, registers to run for Haiti presidency",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVXpzM1o2bVZOclQ1UktEd192SEI0UXItXzNmc1BrOGU0OVpyTlZBLVVLUjFFR1M0OERDUVY0alVOSUZHWHhUSk0zQTQxYk02dF9WdlBBbzRqbjdHWVR2SUFBOTROdjliUVNPVG1oOS1meUFBV2RuVTZWWVRSVC1XV1ZEenlaS3dRdnBoak9WbjBhUdIBkgFBVV95cUxONnBnVEVSbnpIUGdkT2J1bXV3bVhjbHUtdkdsRmlZbzFFakk1ZHo3VWVqeERsUEZVYW9la3hIczh5OHhEQjdwUmJuZHQyYXR0X0NaRnFET25tYzBBU2g1cVVxVmtFakh0NGE1c1hlbWZRWkg1ZEdUUTBna25OcTkycWd4X3M3c2ZqYmxkRlRrNG85UQ?oc=5",
+        "domain": "miamiherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T134521Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
+        "domain": "radiojamaicanews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T105653Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU unveils largest-ever Russia sanctions",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPNW5nV2NWbUVUdkp1NVNtckJGbnVxaEtVek42SUx2UUp4T1NLRVBTS3ppNmxkWF9QSFphVklZVFpHbHRkVElUdUtGcDhYSmhOMW9jMTVaNHZkeDdoWTh4bzQzSTg4M2Z2U1Q3NDF3?oc=5",
         "domain": "latestnewsfromazerbaijan",
         "language": "",
         "tone": 0,
         "seendate": "20261016T144437Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tether’s Ardoino disputes Iran report with four-week freeze claim",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RcktDS0Z3MmJlRWJ5RDhKM0k3OHBqTURLdUQ0LWg2WE1sbXk5RnFhZ1lzTzMxUXV5VWhjN200QzJIa0RxSHFpanE1UTh2LUl0TUVKQkliNHRIaDBnLURhM3VNMFRwMlA2dXM0V0JqUmNsaF9feTViVg?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T182836Z",
         "source": "GoogleNews"
       },
       {
@@ -120128,21 +120128,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Tether’s Ardoino disputes Iran report with four-week freeze claim",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RcktDS0Z3MmJlRWJ5RDhKM0k3OHBqTURLdUQ0LWg2WE1sbXk5RnFhZ1lzTzMxUXV5VWhjN200QzJIa0RxSHFpanE1UTh2LUl0TUVKQkliNHRIaDBnLURhM3VNMFRwMlA2dXM0V0JqUmNsaF9feTViVg?oc=5",
+        "domain": "cryptonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T182836Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTktxcnVDN0xWUkdIRC1LdWpLZDRzSTloYkk3SXZfM0owZTM3amFxOFF0RTN1dXI3azhNNnZHb3BpSENlQXNhMXNLaUVqeWt0bTZKZjFQY3Z4YzJaTFB3NDBhUUhHNEFkWjhqSVFuZVJGWlZIejV4eDdDeG9Zamd6SnVBaGsyMEl6eER1cnZ1YnhGSU5QYVN3M2JOSmdEdHd2MlEzcXBvNnpFcW1xSGVmUGtqa3RsVGx2SnBaSGtiWXhtRWJBNllLYzR5ZGFFcmJ0dmU2Q1B2VXVPYk5BemxIVzMwRWtod9IB5gFBVV95cUxOTktxcnVDN0xWUkdIRC1LdWpLZDRzSTloYkk3SXZfM0owZTM3amFxOFF0RTN1dXI3azhNNnZHb3BpSENlQXNhMXNLaUVqeWt0bTZKZjFQY3Z4YzJaTFB3NDBhUUhHNEFkWjhqSVFuZVJGWlZIejV4eDdDeG9Zamd6SnVBaGsyMEl6eER1cnZ1YnhGSU5QYVN3M2JOSmdEdHd2MlEzcXBvNnpFcW1xSGVmUGtqa3RsVGx2SnBaSGtiWXhtRWJBNllLYzR5ZGFFcmJ0dmU2Q1B2VXVPYk5BemxIVzMwRWtodw?oc=5",
         "domain": "rochesterfirst",
         "language": "",
         "tone": 0,
         "seendate": "20261016T103456Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council Renews Haiti Sanctions Amid Ongoing Gang Violence",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTDVLWkp1UWY2TUNYalZXc0VEMFRlT1ZEZjdYakR0czFUajRpSDNyWUl2Z0lDeF9iZWdnY0xNbjZxOWRBRTExRGpNNjZxRDMwNWM2UnR3czNSNUFIdGpjMTlHVGcxbWJ3YmREV09wY2h6RFlkcEZtQ3R5aXBfbzUwT3lJUURQcWc1NDZ0NGZMMVNVclZEUHRqeXZaT19nM1J2dkQ1V1IxaWd0UERKb0xz?oc=5",
-        "domain": "radiojamaicanews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T105653Z",
         "source": "GoogleNews"
       },
       {
@@ -120227,12 +120227,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Who Are the 10 Moroccans Now on the Local Terrorism List Over ISIS, Al-Qaeda Ties?",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHU5R2JQbTBQelJacVFoTnItUkFRbHBGWkhCY1Zibkh2SnBjcjY3eFlGVGxQVWk0bVlXQTZ6czV4eFBHbm9JRW8yWDNHdDVvLU41d2VTQzBpUHRQb3RIaUlhUUxwamQyUktGRV9CeEd4TU9fVFJObEhXNlAtQWRnWDRDc2tWbzdaSnJvWmdfOXg5NmphX0JjUTNjdW9vb2YtbndsVnBxMWg2TlRCd2ZxWWpWazg5RlRERjltekl2OV9qNy03anRYdA?oc=5",
-        "domain": "moroccoworldnews",
+        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
+        "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
-        "seendate": "20261021T191259Z",
+        "seendate": "20261019T095402Z",
         "source": "GoogleNews"
       },
       {
@@ -120245,12 +120245,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
-        "domain": "aol.co.uk",
+        "title": "The Russian shipyards Britain has placed under sanctions",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
+        "domain": "ukdefencejournal",
         "language": "",
         "tone": 0,
-        "seendate": "20261019T095402Z",
+        "seendate": "20261019T064022Z",
         "source": "GoogleNews"
       },
       {
@@ -120260,15 +120260,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261021T215310Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Russian shipyards Britain has placed under sanctions",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZvakJJU2JldUU5TFJvQzdFY2ZkQ0dsNHBxUUpXd1YxRHJDSFpZRExWWjFPSFNEc0E2aHMwS09VVmFLQThzQi1RZVhQYVhvSGU2UU1uQjZTQTRWZzh2ZnBMbEc5d1RkanBRVWZzNkhPTmJuRUMtRXJ1NmxyYlBzNGpLTWNJZlRQUDFIZ3pGZlVGRmc?oc=5",
-        "domain": "ukdefencejournal",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T064022Z",
         "source": "GoogleNews"
       },
       {
@@ -120286,25 +120277,7 @@
         "domain": "saharareporters",
         "language": "",
         "tone": 0,
-        "seendate": "20261021T221615Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Norwegian teen sentenced to prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdHR3U0ExRTQxWFpXRHNsZUVUMmtuc3o3SE5vOUZTRDViUTVNQklDYkdWOTVVbXNYMkhyWFRUdG51cklrM2xBb3dWYi1MNEpaanhBc2NJUGVVT29sZWJDTlQzTXRzX3dvVDc5VHFjNkhmSlByZ1VSaktIMlBCa1dJS2tWZmxZWW5jVW00RHoxd3pYOTFIVXNEcmRR?oc=5",
-        "domain": "stuff",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T121502Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T074002Z",
+        "seendate": "20261022T070730Z",
         "source": "GoogleNews"
       },
       {
@@ -120317,12 +120290,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether defends sanctions controls as Senate scrutiny of Iran-linked USDT activity intensifies",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV00xSXRhajNpcVVqWm5LUGJGbXpGdDRkc24xNzdaMDBrWjZfckpkVWNWQm9vSkhPR1g3M3ZZYldXSjV0TFdVb091UVV6UlRPZE5NX2xlYjg2MjlOX2pCT3RQeFFvdHFfZk9ReUN4TGdFeGR3a0c2MkRyOURMbWktOTktVzhkUWtZRjF0NXd1RFhzakFONXJ4Y1diQXBWZw?oc=5",
-        "domain": "tradersunion",
+        "title": "Rakesh Kumar says US chip controls backfired as China gains ground",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYUczV2NDaGh2MkhadWNhN2lFM05CTFdyX3BYS0JYWVVVZVZSQmRwQ1JmZTRkNmx4OUZpWkFzMzVBeG54MlVlTW9RV25VaHd1VWluQk9pYlJ4TmhVeFhhME9KY0x2RHBZSVVBc09uM3RRNmpBY0c2YTNR?oc=5",
+        "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20261019T203932Z",
+        "seendate": "20261016T074002Z",
         "source": "GoogleNews"
       },
       {
@@ -120335,21 +120308,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Six scenarios for Zelenskys removal according to experts ᐉ News from Fakti.bg - World",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdnZTY25KWGQxVXBVZG13Qk51Mlc1RmZWT1FJTzVRLTV5d2J6WHY0X091VUNRRndZSVEweENIVEZZSFNVcEptbURIQTRQQXg4UE9lLWQxY0RMSnVhdXdQeU01T0g2NTAzZ2g4U2dtQWh0VEtVcGFHa05oN3lSb2g2dmZLbTlfN3RyZ0l4bG1kWl9zRFFkVHc?oc=5",
+        "domain": "fakti.bg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T063400Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Switzerland adds names to Venezuela sanctions list",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWViU0JQckRzUGRSRHlNakZwa3ZfaTRHUnR1UGZRbV9QNzBmUXE5YnF5OUxSQ3hlXzkyWWNEbTJ0d0d0alNsTS1rblBROVRSVVEtak1pNC11c1ZmWFZsMXVlV2tUOUtoZjljVmRhWU45WVN2bnVlVnVxaGZsVjJOSmwxOHNObzVvdWw0?oc=5",
         "domain": "24newshd",
         "language": "",
         "tone": 0,
         "seendate": "20261017T160809Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Six scenarios for Zelenskys removal according to experts ᐉ News from Fakti.bg - World",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdnZTY25KWGQxVXBVZG13Qk51Mlc1RmZWT1FJTzVRLTV5d2J6WHY0X091VUNRRndZSVEweENIVEZZSFNVcEptbURIQTRQQXg4UE9lLWQxY0RMSnVhdXdQeU01T0g2NTAzZ2g4U2dtQWh0VEtVcGFHa05oN3lSb2g2dmZLbTlfN3RyZ0l4bG1kWl9zRFFkVHc?oc=5",
-        "domain": "fakti.bg",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T055727Z",
         "source": "GoogleNews"
       }
     ]
