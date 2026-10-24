@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-24T15:53:55.633101+00:00",
+    "generated": "2026-10-24T20:44:52.619603+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T15:52:09.070110+00:00",
+    "issued_at": "2026-10-24T20:43:06.103490+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-04T16:18:08.175073+00:00",
-        "score": 17.2,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 7.5,
-          "official_posture_shift": 3.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-04T20:43:20.615689+00:00",
         "score": 15.7,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-24T15:52:09.070110+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-24T20:43:06.103490+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120092,15 +120092,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhKRFlsM25MeHdTQ3RaSU84bEhIcDlXQ3RGMlF6cWpfTGZwdHRTU1JaQUpzSlhEbGs3RFkxdDNNSW11X1QzcXZjdkx5TzhLTklWaFBSSVFjZ0toZXBTTUlaeWhSdWdrcm9RUnZ4WEFiSk1fRzRYRFlDRDBMel91U0tXNWlHT2V5S1c4Slk0WlpCTWw1VnR5LVBnWE05aTVBUWt4SVpXa1R4UUZwX25iWGctaTA0azNRaENZZFFWTDl1YU5YdWRYRTVGNEZaSUYz?oc=5",
-        "domain": "wccbcharlotte",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T163458Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tether Freezes $1.45M in THORChain Vaults [2026]",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Lb0dNS0p1YU5KS2pwbGV4bnc0NW05b1RMUll4QzF4ZDRjZUw2ZUZ4dWJJa2ZzNWRKTk44X1R3T1pJNHhtbWZTajAxQmRIVHd4YmNIZjBEbVFoSklydHp2TTc0ZXV0OWZEODBqcktXNVo?oc=5",
         "domain": "shattered.io",
@@ -120110,21 +120101,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Weapons of Mass Destruction Amendment Act, 2022: Strengthening Controls on Proliferation Financing",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXdIZVZSZGx5NmwxVGZsWXRVeE5GN2FEQTkwdHFJTDAzSlR5V2hKeUMtUmZZeVNYdVJnRzJnVWc1LWI3cmx6Ui13V2VlVHdfZXBqY3dabUxvZzNSNFd2eVgyVVI0T05MUDFGd01mVTdmcVYtV2t3TXNteHFTYWlhRHdYWTd3QjZRU0d4dFhB?oc=5",
-        "domain": "impriimpactandpolicyresearchinstitute",
+        "title": "Switzerland adds names to Venezuela sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeWNmc1VuYThydTlRYm1PbDdmbm1XWDl5T1NUdzBheHMyb05UN2ZCc25NTE9ad3dmODRidWRYQ0EtSlZOLWp1eEdENU50Sl91cE4zYnVoY0d1Q2RmVVpMNzVQdXhSMEdlSzJJUXVCU2NhNTZ5TXl5Y2g2dndzeWVqZklJOGZOQ1pUcW4w?oc=5",
+        "domain": "thelocalswitzerland",
         "language": "",
         "tone": 0,
-        "seendate": "20261018T080740Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How Terror Networks Exploit Europe’s Financial Regulations To Evade Detection – Analysis",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXhFUUJJZUpkaU9oVFN4bGJrWjNjNHd1ck1Lb0kzLXVnSjU2UjBIZ2Y3NXFVUzhvc3JTWk95bnAwRFZlTzl6cHJIcXNiOF9ZWTM1VGItTnNfczZzMnR1dkx2dXBwQkc0RVBxSUVtaWpFcjFpV1BMWFZRSzRJdTlsaXBIUHJpa3ZBSWNVVGNpUG5YTDVrT2ZZWl9NWDVMeEVKUkdKUVhwSTVVc1ktS0QzVEE3Z0Z0aWY5cWpYcFNvNi11ZTg?oc=5",
-        "domain": "eurasiareview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T235359Z",
+        "seendate": "20261019T065214Z",
         "source": "GoogleNews"
       },
       {
@@ -120137,15 +120119,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX2d5MGVwMDdTanY4Qml4YVh4bHl1eUxPZ21OVEF6V1JhR3FkVTJYX2tXenFfLThUamJlZ1RvTkdhYUhKY2NaV05kZTFXUGltUUoweW5Ybm5ySGI0dUt4ZnVienZtRkNjZ0ROaU01YkZMWVVMT0tnRk1qQnp3U09DUEVzZmpDbURHcnJaWXJITjBFSlQway1yR2xuSVJHM3kzc1dHM2NpNnA2d9IBrgFBVV95cUxQSXFxUmhRYTNOd29Hb013djhKUGVWMlVUYUFPS3lEcE43cWFCWDZ6amFRV2FmYnhsVGtnbDdjY3UzWUlXVW55ZjB1UEFQQjFGSEJKN3h2RW1FSGxUcGZKQzhtYkpEOEhRcWluZ2RLeVpMR3pfWVUyYlcwaEZYcjNWM1ozbzZJNUY5NXFwTHVaOC1RSmc3S1VES010NnZqN2U1cXhTVjBibWFLTS1tQkE?oc=5",
-        "domain": "thetribune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T114936Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "New national sanctions and the possibility of asset seizure – draft law on restrictive measures",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkZldWx3cTdGUkppT0tXc1Y5TXc4WExjdkJYWWhoZXNCUm1CWVpvempBbFQxdXdNWDNialNWcDJ4bGNYLVUtaXFBSXR1N0N4TkxUU3pRQks3QkRzeW5zeXY4ckF3azVzSjV5RzdyZHhGZnFURzNSMHByVk9NNHZtdVRxTVFMWHV2VW5uMDFVS21lNWpJVmxqMjBiSGwwc1hCQm16VUZodGRMVTJrdTNDTk53RG5nT09K?oc=5",
         "domain": "kancelariagraiwsplnicy",
@@ -120155,12 +120128,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OWkhYaGw1bDVLWkhUMjhXOTRVblhubXNNV09TalV5eXB4bU1PbFp6dWt3eUN2RXpWd1M3X2RoTU1qVkpzWWNkN1RaWGE1UkpWWThwQ3RhQQ?oc=5",
-        "domain": "cryptonews.net",
+        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
+        "domain": "aninews",
         "language": "",
         "tone": 0,
-        "seendate": "20261017T162956Z",
+        "seendate": "20261019T081200Z",
         "source": "GoogleNews"
       },
       {
@@ -120173,21 +120146,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU sanctions six Sudanese individuals for fueling war",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUVlEZnZuR2ZRRGtHTzBOQm9TN01ZRUktbWdKRFZCN1V3SHNYZk5qY3NCRFdVUHowaEc0MkxDWVVoQkF6R0VwYm1CTWU2ckVFcDFjemZXNVZ0cFV3V04wV0VMSHllQVBpb3FhLWJQYUNoUkdCY25FS25BdzZHZjI1dNIBhgFBVV95cUxQV0QxOWlSWmZWUE8wekRoUVYtRnRJTG83alpZQ2d4TzNEM1lLeUR4QjR4akN0dUdhT1lvaEZ1UVlVYm1FdlJ0OHVqemFmLXhTb3hiNzZJRWJFMERvSFo1Z3pNQTdsV3JKLXIyV3FWMkxRN2tlX25YZnJJUHNydzZmeFdNREE0QQ?oc=5",
+        "domain": "eyeradio",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261022T102748Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Who Are the 10 Moroccans Now on the Local Terrorism List Over ISIS, Al-Qaeda Ties?",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHU5R2JQbTBQelJacVFoTnItUkFRbHBGWkhCY1Zibkh2SnBjcjY3eFlGVGxQVWk0bVlXQTZ6czV4eFBHbm9JRW8yWDNHdDVvLU41d2VTQzBpUHRQb3RIaUlhUUxwamQyUktGRV9CeEd4TU9fVFJObEhXNlAtQWRnWDRDc2tWbzdaSnJvWmdfOXg5NmphX0JjUTNjdW9vb2YtbndsVnBxMWg2TlRCd2ZxWWpWazg5RlRERjltekl2OV9qNy03anRYdA?oc=5",
+        "domain": "moroccoworldnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T191259Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
         "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20261019T095402Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US rights groups push for additional sanctions",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16a0hndjlyRjlicnVoZjR6R05HVmtjaGc2VXVEN1FaM0ctNGlwVDVpTnQ3WXV1S0U3aENIbVAtUkRwaG1qRUdackZlWDdPeTRNbWcyNzRNel9CcWR1bFJINjFYSXBwWlI2X3VtSmVR0gFzQVVfeXFMT2lneGZSZjhqcF95dGR2d2N5VUxjX1U4UHI0NzB2aWRjRDdBUU0wZEdRU1prVDh2STFCNy1Da2drbkVvZG1rbnY4QWhGNUFyT0hRZHJTX2IwVlVkY05MVjJNeGg1eHliYmdQUWMwTWg0aVlLWQ?oc=5",
-        "domain": "eyeradio",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T215148Z",
         "source": "GoogleNews"
       },
       {
@@ -120232,25 +120214,7 @@
         "domain": "saharareporters",
         "language": "",
         "tone": 0,
-        "seendate": "20261022T070730Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Yuvika Chaudhary calls daughter Ekleen her \"biggest blessing\" on her second birthday",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX0JaSmFXMHZiWDhfejJkbThpQkk0SGZyZWRrRjdFb1E4Y2Q0SEdydmxiNlNxdUpZVW5tNTV0bXkzdEJJYThQd3djVUhuTFZIUXppMjYwOEVBQXNrdHlXUnVwRHJ0N2YxNkd1dHhnLXZ2NVZvZllueGZQQ2s5WnVlcVowTGg5SHh0TUFJNGg2dlZxUU9Rbm0wOGQtSWdBMTFRX1BvNHczTjBQY2ZCbGJ0NlJQNElnSGRXNTZlX2tkdDhBVkpR?oc=5",
-        "domain": "httpswww.indiagazette.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T103700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Behind the $1.5 billion cryptocurrency heist:...",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZkZQTmtYMHlmZjZpVnJZWWctUHluam5IbkpsQ3BWMFdfcVhhRWxBdXlyQS1hYnRWYmJ3UGhaWEdiWTUzeXZvb2pDUnJzdDNheWxUQmdlQ0gwUTg?oc=5",
-        "domain": "chaincatcher",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T135640Z",
+        "seendate": "20261021T221615Z",
         "source": "GoogleNews"
       },
       {
@@ -120287,15 +120251,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261021T063400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Switzerland adds names to Venezuela sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWViU0JQckRzUGRSRHlNakZwa3ZfaTRHUnR1UGZRbV9QNzBmUXE5YnF5OUxSQ3hlXzkyWWNEbTJ0d0d0alNsTS1rblBROVRSVVEtak1pNC11c1ZmWFZsMXVlV2tUOUtoZjljVmRhWU45WVN2bnVlVnVxaGZsVjJOSmwxOHNObzVvdWw0?oc=5",
-        "domain": "24newshd",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T160809Z",
         "source": "GoogleNews"
       }
     ]
