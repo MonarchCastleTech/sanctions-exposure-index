@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-23T21:22:18.990505+00:00",
+    "generated": "2026-10-24T04:31:25.811360+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-23T21:20:32.363176+00:00",
+    "issued_at": "2026-10-24T04:29:39.258496+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-03T20:58:05.451454+00:00",
-        "score": 20.5,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 39.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-04T04:24:50.030624+00:00",
         "score": 5.0,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-23T21:20:32.363176+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-24T04:29:39.258496+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120038,12 +120038,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU cracks down on oil sanctions evasion, targeting firms in Turkey, UAE, India",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHFzeE5GMzN3YW00bXA4SmMwU200NlU0NUJQaUhTbElWWFo0aHBnYV9QUzVoWDk5T0JMQU5HRkdRS0c5R3JMRXhYOVlfaTlSQmcycnVMYTNxekUtbzVDandRdmpjT0JZZmFfLTFCMVpaOWxhLTRUY1YwVUN4OVJvMlJudXlKV2JucGd3aFh2cTVsdmpTUGljQ3hpdXdxR0tub3hsU3ZPYng4VHRNXzQzSjk3WQ?oc=5",
-        "domain": "thebrusselstimes",
+        "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
+        "domain": "financialtimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261017T002047Z",
+        "seendate": "20261020T040446Z",
         "source": "GoogleNews"
       },
       {
@@ -120053,15 +120053,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261020T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
-        "domain": "financialtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T040446Z",
         "source": "GoogleNews"
       },
       {
@@ -120102,11 +120093,11 @@
       },
       {
         "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTjAtcDdpSUhfOTdNQ18xWkJOd1RhN0lQaDdJb2w1ODd2QUFRNWRkYk5GemktcTF0TnE5NFo2MlJQSlN5aUlIMEN6M2oxc1hzbm54LXRZdlowMl9LcWJSQTNJc2JvbFdteHo4MDRhMVJod19EV1hkNlExVkVRWU15TTVNX1g3T2pzc3dMaWwwYzM2Zy1JQXVEdHpIWVNtYUtQU0QxZUJpTUVMLVZ3ZktUbmViMlhLazg5WWR0S2l2VDhpLVBuWnZzSlNEX2RLZjE2RHc4aFFqcFBGdm1wdmYtOTBlazRoTE94OEZz0gHwAUFVX3lxTE1rVDZBZjF0TDVpQVFFTC1Dc1VOQVVGRUNDcXc0Y1ZSU1lCaXRQa0ZncmdWWXY0WkVjM2JvVVVDekRmWEwtd1Nta3Z1VXhBVWRyX0l2MzI3emlhMGVZcm10WUs1TFhka3M0bkltSTVGem5iTnJtWndQUlJ1clpwRDdFZ0dfTEppZ2N1QUs1cVJidzlORWtXVGk4VlZPeWtEdHRCT0l4Vk1kcDZ1SC05Yk4zTEdmektyUkEwaTdud3dkZ19LaDVmQ09CSDhuT29ndnpUNnJCRDBRLVdYNXRjaFpSUzE4dUJ1b1lGS3NZTUpzTA?oc=5",
-        "domain": "fox5sandiegokusinews",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhKRFlsM25MeHdTQ3RaSU84bEhIcDlXQ3RGMlF6cWpfTGZwdHRTU1JaQUpzSlhEbGs3RFkxdDNNSW11X1QzcXZjdkx5TzhLTklWaFBSSVFjZ0toZXBTTUlaeWhSdWdrcm9RUnZ4WEFiSk1fRzRYRFlDRDBMel91U0tXNWlHT2V5S1c4Slk0WlpCTWw1VnR5LVBnWE05aTVBUWt4SVpXa1R4UUZwX25iWGctaTA0azNRaENZZFFWTDl1YU5YdWRYRTVGNEZaSUYz?oc=5",
+        "domain": "wccbcharlotte",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T225217Z",
+        "seendate": "20261018T163458Z",
         "source": "GoogleNews"
       },
       {
@@ -120164,15 +120155,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions hit Russia’s nuclear submarine fleet",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmViWUk5Vnl3dnRYb3VaNU9JejdGanQ2dUZoellNRlZiVmZkRjJ2bUJWYjZkTjgzeEZ6c3BLd3Y0a0FPMWhtMVBmbFZpR2xyLV9LdG90UWoxa0tqUWc2YVBheUljQ2t3dWlQMTFtZmpSZjRjV3BvTUVZeWtBMDA4Vmd3cm55dw?oc=5",
-        "domain": "theaustraliannavalinstitute",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T233710Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
         "domain": "tokenpost",
@@ -120206,15 +120188,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T095402Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "ČEZ sues over Luxembourg asset freeze in Czech Diag Human case",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFNXVXNKOE4zeWdNaHNzWVFsY3ZldTI5b0wwRlNoZEpublZLNTAta2E0WF9tNUdGU1hCVUxVeFpDRHQzdUI4VmtrY0l3QUYzaF9reGhiWHo2N2Z2SEY0d2c5UWZ2TjZDbGxBcVhhSXNZeG1xU3IwcDlhVG13UUpSYmlyV1hZaXpEVUZEU1lPX0FkcUtTXzloQXZ2WkZEcV9ud2k2T1BxZ2lVaHVmNC1kLWlUdw?oc=5",
-        "domain": "aroundprague",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T004512Z",
         "source": "GoogleNews"
       },
       {
@@ -120296,6 +120269,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261018T135640Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Netanyahus Crypto Banking Plan: What It Means for Business",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd0I0d3dXSXlrelZ3QkpONXJTdUNxVTdTZm1jQVdnMmdfeUcycm41N29XX1Q2ODM1aWJnNW1kMnE3Y2taQ3NuRUtPdWZ0SVhqRElqSnYzVVlhNG9qNzhvcGpKalJKQUp2TmNLTW1FUHZKNEhIZE9QNkVzMUVnak9LOUFQY09Od2FCU213?oc=5",
+        "domain": "onesafe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261024T020432Z",
         "source": "GoogleNews"
       },
       {
