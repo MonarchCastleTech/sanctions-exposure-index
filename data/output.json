@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-24T10:53:22.297715+00:00",
+    "generated": "2026-10-24T15:53:55.633101+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T10:51:35.987857+00:00",
+    "issued_at": "2026-10-24T15:52:09.070110+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-04T11:13:14.040932+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-04T16:18:08.175073+00:00",
         "score": 17.2,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-24T10:51:35.987857+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-24T15:52:09.070110+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120056,15 +120056,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Martelly puts elections rumors to rest, registers to run for Haiti presidency",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVXpzM1o2bVZOclQ1UktEd192SEI0UXItXzNmc1BrOGU0OVpyTlZBLVVLUjFFR1M0OERDUVY0alVOSUZHWHhUSk0zQTQxYk02dF9WdlBBbzRqbjdHWVR2SUFBOTROdjliUVNPVG1oOS1meUFBV2RuVTZWWVRSVC1XV1ZEenlaS3dRdnBoak9WbjBhUdIBkgFBVV95cUxONnBnVEVSbnpIUGdkT2J1bXV3bVhjbHUtdkdsRmlZbzFFakk1ZHo3VWVqeERsUEZVYW9la3hIczh5OHhEQjdwUmJuZHQyYXR0X0NaRnFET25tYzBBU2g1cVVxVmtFakh0NGE1c1hlbWZRWkg1ZEdUUTBna25OcTkycWd4X3M3c2ZqYmxkRlRrNG85UQ?oc=5",
-        "domain": "miamiherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T134521Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Yemen’s Central Bank Orders Asset Freeze on 135 Houthi-Linked Individuals, Entities and Vessels",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyV0U2MExXcmZRamFYaWItREJnelhhamV2TXVWX2MwN1NJemZoamRDVGd3WGtLTUFKamY0RXRSY21wMWNVdlpjVUNyVEw4akQwdHZtVHp3?oc=5",
         "domain": "24",
@@ -120083,21 +120074,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether’s Ardoino disputes Iran report with four-week freeze claim",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RcktDS0Z3MmJlRWJ5RDhKM0k3OHBqTURLdUQ0LWg2WE1sbXk5RnFhZ1lzTzMxUXV5VWhjN200QzJIa0RxSHFpanE1UTh2LUl0TUVKQkliNHRIaDBnLURhM3VNMFRwMlA2dXM0V0JqUmNsaF9feTViVg?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T182836Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Switzerland and US ease sanctions on Venezuelan figures",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXJXQ3Y1MGxObmFuUVlWWVlnaG9DU0hmWG1ZU2tMNU5lekJyVWo1emZvY3BaWUk2bTNYdmxTcTk3Q2RoVE1OaWRMLTZON1dWa3BMa1FsWVlfZklUcXVTS0FlWTlaLWt4LXk0QW1nUXR6OHo2YnBESXdPSkZTUW8wY0hSSnoxZkZF0gGIAUFVX3lxTE9BcldDdjUwbE5uYW5RWVZZWWdob0NTSGZYbVlTa0w1TmV6QnJVajV6Zm9jcFpZSTZtM1h2bFNxOTdDZGhUTU5pZEwtNk43V1ZrcExrUWxZWV9mSVRxdVNLQWVZOVota3gteTRBbWdRdHo4ejZicERJd09KRlNRbzBjSFJKejFmRkU?oc=5",
         "domain": "harici",
         "language": "",
         "tone": 0,
         "seendate": "20261020T084009Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether’s Ardoino disputes Iran report with four-week freeze claim",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RcktDS0Z3MmJlRWJ5RDhKM0k3OHBqTURLdUQ0LWg2WE1sbXk5RnFhZ1lzTzMxUXV5VWhjN200QzJIa0RxSHFpanE1UTh2LUl0TUVKQkliNHRIaDBnLURhM3VNMFRwMlA2dXM0V0JqUmNsaF9feTViVg?oc=5",
+        "domain": "cryptonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T182836Z",
         "source": "GoogleNews"
       },
       {
@@ -120137,30 +120128,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "African Union Demands Immediate Lifting Of Sanctions Against Zimbabwe, Cites Economic Damage",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWU0Y2V2eFBuZkdVUXJ3STVGZGtBdnVJZTJNd1dQbUtTRjFsOGlvQXc3cHBONmdBa2QwazhKRDNQOFdOWEdyTnlXZEZhcWd5REVBaWg1UGltajMtcENrY0ZsMTFLQmIyRFIxNjVfQXhpSE1Rc3dZSUgtT1VJN0l3Z1JwSEg5S1NRQ3lCY3dZNjdFSTVKbnVsRC1HcktFUU9OakNUQVNPVGZEOUhiTHE5bFJqREJrLUhxcnhJbVlEcW4zTHVYNnc?oc=5",
+        "domain": "saharareporters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261023T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX2d5MGVwMDdTanY4Qml4YVh4bHl1eUxPZ21OVEF6V1JhR3FkVTJYX2tXenFfLThUamJlZ1RvTkdhYUhKY2NaV05kZTFXUGltUUoweW5Ybm5ySGI0dUt4ZnVienZtRkNjZ0ROaU01YkZMWVVMT0tnRk1qQnp3U09DUEVzZmpDbURHcnJaWXJITjBFSlQway1yR2xuSVJHM3kzc1dHM2NpNnA2d9IBrgFBVV95cUxQSXFxUmhRYTNOd29Hb013djhKUGVWMlVUYUFPS3lEcE43cWFCWDZ6amFRV2FmYnhsVGtnbDdjY3UzWUlXVW55ZjB1UEFQQjFGSEJKN3h2RW1FSGxUcGZKQzhtYkpEOEhRcWluZ2RLeVpMR3pfWVUyYlcwaEZYcjNWM1ozbzZJNUY5NXFwTHVaOC1RSmc3S1VES010NnZqN2U1cXhTVjBibWFLTS1tQkE?oc=5",
+        "domain": "thetribune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T114936Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "New national sanctions and the possibility of asset seizure – draft law on restrictive measures",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkZldWx3cTdGUkppT0tXc1Y5TXc4WExjdkJYWWhoZXNCUm1CWVpvempBbFQxdXdNWDNialNWcDJ4bGNYLVUtaXFBSXR1N0N4TkxUU3pRQks3QkRzeW5zeXY4ckF3azVzSjV5RzdyZHhGZnFURzNSMHByVk9NNHZtdVRxTVFMWHV2VW5uMDFVS21lNWpJVmxqMjBiSGwwc1hCQm16VUZodGRMVTJrdTNDTk53RG5nT09K?oc=5",
         "domain": "kancelariagraiwsplnicy",
         "language": "",
         "tone": 0,
         "seendate": "20261020T082550Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
-        "domain": "aninews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T081200Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
-        "domain": "tokenpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T060712Z",
         "source": "GoogleNews"
       },
       {
@@ -120215,15 +120206,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T064022Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Binance Account Freeze Claim Highlights DeFi Withdrawal Risk",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZaEVyVHF3Vi1ZcFppTXIzOC1YZjQ5S3g2TzNRM0VHVFEwX2M5X0VVQzg2UFR0N0NjQVN2ZmlYT0FwMU1hXzRyeENJUlkycmNVOHgzb3FGdmk?oc=5",
-        "domain": "tokenpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T143912Z",
         "source": "GoogleNews"
       },
       {
