@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-24T04:31:25.811360+00:00",
+    "generated": "2026-10-24T10:53:22.297715+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T04:29:39.258496+00:00",
+    "issued_at": "2026-10-24T10:51:35.987857+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-04T04:24:50.030624+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-04T11:13:14.040932+00:00",
         "score": 5.0,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-24T04:29:39.258496+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-24T10:51:35.987857+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120065,6 +120065,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Yemen’s Central Bank Orders Asset Freeze on 135 Houthi-Linked Individuals, Entities and Vessels",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyV0U2MExXcmZRamFYaWItREJnelhhamV2TXVWX2MwN1NJemZoamRDVGd3WGtLTUFKamY0RXRSY21wMWNVdlpjVUNyVEw4akQwdHZtVHp3?oc=5",
+        "domain": "24",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T163348Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Frozen Elderberry Suppliers, Export Data & Price Trends | Global Market Overview 2026",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zZENWQTVMcG4zUVd1QmVTNUQwMVJENmI0bzlOQmhJZ1VyYTY4Nl9STHRQbVdqZXp3dzFwUk9ORF82OWdvZXBsd0l3UmlyNHlBODh5TmZqWm9wei1sajFBSUNrV2JfeWM?oc=5",
         "domain": "tridge",
@@ -120119,30 +120128,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPREJYXzk5M3RCVWo5cjBGQUczSUlmMkZsdVRWV1JxTUpSclowajRqazNza3FFZU9wVFhrbTA0a1Ayc0RUcWFZaUVVbEgyTnFYUVY0NVdCMkhJRDdpSC16TjhKM2p6RF9IMENXQzdGeFdZeTNLSFlGMThPX2p1WjZXT0g4MXNoZnYzSzFQV2piMA?oc=5",
-        "domain": "cryptoslate",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261017T050024Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "How Terror Networks Exploit Europe’s Financial Regulations To Evade Detection – Analysis",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXhFUUJJZUpkaU9oVFN4bGJrWjNjNHd1ck1Lb0kzLXVnSjU2UjBIZ2Y3NXFVUzhvc3JTWk95bnAwRFZlTzl6cHJIcXNiOF9ZWTM1VGItTnNfczZzMnR1dkx2dXBwQkc0RVBxSUVtaWpFcjFpV1BMWFZRSzRJdTlsaXBIUHJpa3ZBSWNVVGNpUG5YTDVrT2ZZWl9NWDVMeEVKUkdKUVhwSTVVc1ktS0QzVEE3Z0Z0aWY5cWpYcFNvNi11ZTg?oc=5",
         "domain": "eurasiareview",
         "language": "",
         "tone": 0,
         "seendate": "20261018T235359Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX2d5MGVwMDdTanY4Qml4YVh4bHl1eUxPZ21OVEF6V1JhR3FkVTJYX2tXenFfLThUamJlZ1RvTkdhYUhKY2NaV05kZTFXUGltUUoweW5Ybm5ySGI0dUt4ZnVienZtRkNjZ0ROaU01YkZMWVVMT0tnRk1qQnp3U09DUEVzZmpDbURHcnJaWXJITjBFSlQway1yR2xuSVJHM3kzc1dHM2NpNnA2d9IBrgFBVV95cUxQSXFxUmhRYTNOd29Hb013djhKUGVWMlVUYUFPS3lEcE43cWFCWDZ6amFRV2FmYnhsVGtnbDdjY3UzWUlXVW55ZjB1UEFQQjFGSEJKN3h2RW1FSGxUcGZKQzhtYkpEOEhRcWluZ2RLeVpMR3pfWVUyYlcwaEZYcjNWM1ozbzZJNUY5NXFwTHVaOC1RSmc3S1VES010NnZqN2U1cXhTVjBibWFLTS1tQkE?oc=5",
-        "domain": "thetribune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T114936Z",
         "source": "GoogleNews"
       },
       {
@@ -120155,6 +120146,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "China sanctions Paraguay, Belize ministers over support for Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJYaXFENjkxTzQ4WllkZVozNVZFcllINHRBVmdfVkZQT0NITEhRTndUdWpPSGdlSEgzaTYzZTlIRklzbDJHVjZiYy1ySXVodnhEQjJBWEp3Y0tXWTE4aUNIY0tjVEFXQWRqUmE3N0VhNjQ2ekxCN2Rab2M5b1FhMVFJNFlYT09NVHVOc2VmTFNjVnVkSUFBbEYzaEVNODRDLUhETFRtZGo4dW4wQ21relBoQmlEbGxRQXc?oc=5",
+        "domain": "aninews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T081200Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
         "domain": "tokenpost",
@@ -120164,21 +120164,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OWkhYaGw1bDVLWkhUMjhXOTRVblhubXNNV09TalV5eXB4bU1PbFp6dWt3eUN2RXpWd1M3X2RoTU1qVkpzWWNkN1RaWGE1UkpWWThwQ3RhQQ?oc=5",
+        "domain": "cryptonews.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261017T162956Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Japan Faces Shortage of Rare Earth Element Yttrium Amidst Global Supply Freeze",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVZoc2Nicm9vS0NFTWJZRm5jZGM4UTdGSDNPTVJJQmFtODRsMVVELXp6M0VGSTc4UHJMVmdEbHZZTXR0aXBTRHJ6YVVtR012ckcyZWtObzl6T2tfVUhmMmxGTURwaXdkcVdNZFItSFFuNy02d3JVVW1lM0NzaUl2SkgyZTN5eEU0MUVweGlGZFBrNG9BTEdtaW9RVUlMZVVpejFnVGJ2NnhOVTVwTTRxM3NtYlVTYXFkS1Z1SlF3?oc=5",
         "domain": "ratopati",
         "language": "",
         "tone": 0,
         "seendate": "20261021T161123Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Who Are the 10 Moroccans Now on the Local Terrorism List Over ISIS, Al-Qaeda Ties?",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHU5R2JQbTBQelJacVFoTnItUkFRbHBGWkhCY1Zibkh2SnBjcjY3eFlGVGxQVWk0bVlXQTZ6czV4eFBHbm9JRW8yWDNHdDVvLU41d2VTQzBpUHRQb3RIaUlhUUxwamQyUktGRV9CeEd4TU9fVFJObEhXNlAtQWRnWDRDc2tWbzdaSnJvWmdfOXg5NmphX0JjUTNjdW9vb2YtbndsVnBxMWg2TlRCd2ZxWWpWazg5RlRERjltekl2OV9qNy03anRYdA?oc=5",
-        "domain": "moroccoworldnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T191259Z",
         "source": "GoogleNews"
       },
       {
@@ -120274,10 +120274,19 @@
       {
         "title": "Netanyahus Crypto Banking Plan: What It Means for Business",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd0I0d3dXSXlrelZ3QkpONXJTdUNxVTdTZm1jQVdnMmdfeUcycm41N29XX1Q2ODM1aWJnNW1kMnE3Y2taQ3NuRUtPdWZ0SVhqRElqSnYzVVlhNG9qNzhvcGpKalJKQUp2TmNLTW1FUHZKNEhIZE9QNkVzMUVnak9LOUFQY09Od2FCU213?oc=5",
-        "domain": "onesafe",
+        "domain": "onesafe.io",
         "language": "",
         "tone": 0,
-        "seendate": "20261024T020432Z",
+        "seendate": "20261024T020446Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Netanyahu Orders Blockchain Plan to Help Israel Evade Potential Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcjMtNDhUeE1aUGR3QkpWdzRhUVBZYVFxVmRPSjBlenFDblRjZ0ZBdjF4Z3gwWmFZU0xKOUpPVUhBU041akNzbS13NUVINnZ6Um9qWjROTFRWcnQxOXpLWG9zRFJpWEktWjFjNUloNmRReWV5aDBqMmp4MDZXeFRBbW1qQVByRjFERWlxdllVX3JiY1RZQjZLNUs3SVUtUnpmYmdSaQ?oc=5",
+        "domain": "bitcoinnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261023T231525Z",
         "source": "GoogleNews"
       },
       {
