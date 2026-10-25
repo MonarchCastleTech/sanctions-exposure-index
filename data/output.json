@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-25T16:10:15.998857+00:00",
+    "generated": "2026-10-25T20:48:22.594774+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-25T16:08:29.744087+00:00",
+    "issued_at": "2026-10-25T20:46:35.843076+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-05T15:08:55.744752+00:00",
-        "score": 15.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 3.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-05T20:17:12.779793+00:00",
         "score": 15.7,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-25T16:08:29.744087+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-25T20:46:35.843076+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120128,15 +120128,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhKRFlsM25MeHdTQ3RaSU84bEhIcDlXQ3RGMlF6cWpfTGZwdHRTU1JaQUpzSlhEbGs3RFkxdDNNSW11X1QzcXZjdkx5TzhLTklWaFBSSVFjZ0toZXBTTUlaeWhSdWdrcm9RUnZ4WEFiSk1fRzRYRFlDRDBMel91U0tXNWlHT2V5S1c4Slk0WlpCTWw1VnR5LVBnWE05aTVBUWt4SVpXa1R4UUZwX25iWGctaTA0azNRaENZZFFWTDl1YU5YdWRYRTVGNEZaSUYz?oc=5",
-        "domain": "wccbcharlotte",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T163458Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends sanctions against Jacques Baud",
         "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPSDVyb1VqMGlRNkk2UU9HempVZWZBQ3NJQU5JU2Z0UDk4NU1uTXNuMGR6ZlFEckV2SWdxRktsRzJUa2RkTUgxSGJWeElKdmlBQm10ZlU4NkFjQ2s0ZE5uVjRLV2RZaEJXU2VCQUN0bFNUTDZ4Z0t2ZzJ1eFBEZ2h0SEwxRXBpRXI5UjV4X1Qza09NUFZrZVRCb1RyaUV5Nl9rWHc1cGxSUVZmMzFJRlpzUy1QcDI0MnpZZV84VTJVZmVCSkJDLXhvRVBUbjNKU0ZncVJ2cVhIZ3d6eWJyYlF4THFPQlhZUnM1MEZPZUVaZVZxa29NX0lGU1JkdXRhdnN3MUlUN19ONXlESWhIa2Z4Nlp5dEVOSWJXUDhmY2Z6NkktSDN1VDRzZ1o1RDM2Yk11dkZKSmx2ZWF2QWpDRW5ObkhLdGVhNmFpX3c?oc=5",
         "domain": "swiswissinfo.ch",
@@ -120170,6 +120161,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261018T235359Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China's export controls on Japan aim to halt remilitarization attempts: spokeswoman",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVFZRdGdabUZlUmZ5djdaUE5ralkycGJvUlg4c003NU5qMjZ6M0ZDendiaG1tNERYN29zeW1ITkkzRjZrSDcxVzk4aTA0N24yakZkREJYTTRNa2tzdlA3VUJZdDFZQUtWU0J2aFRSalVXSmo4MURibzlfdnVUZU82S2ppcXVHalgzeGtPOC1zSFpxLS04NFZ5MVFDQlRCTEpkX2daVlVSUUNkRXRJS1BfU2NIeDN5c2kxOExBQUpjejRNQ0ZsbnFES0ZxNXV2Zw?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T081200Z",
         "source": "GoogleNews"
       },
       {
@@ -120314,6 +120314,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261021T063400Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "AU renews call for immediate lifting of Zimbabwe sanctions",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR0FzOWNNX0lMU2l6NnFCekc1bUJCZi1tUTBnRU52a0drbG5ybzljbTZjcS1UN3lqNFA3eVZpMlRfZ0h0OTl3OURRQ1pfS2ZacUo0cW1JZVpfb1dJSWtBaVhHYWFyaVlhcDBpYkdzUEI3SmdzTG5UUEs5TUF0a2JVTXZJQUxUbWNzTnU0Ni1JQmdtOXJJTnJIVHRTMC0wd9IBpgFBVV95cUxPeUFWbjQxVzI2OTBEWlc4bFNhd0NKMFB4RmE2WmVEclR0UEczS3JFZzZOeGlDRENOWEpEUkZ5bG1KV0RsR1FuVHBVYng0WFFXdjF1LVJ1WWx0RUJYSHp6UnZjaVcwUndtclcySUxkMFJyZjQ0bE9ybW1lNDFxU0VGV2ljNjV3VlRUVXR3LTZPZUYyOFNXbHRzV2FLT2YwM0ZGaXZ6Qk53?oc=5",
+        "domain": "pindulanews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T121519Z",
         "source": "GoogleNews"
       }
     ]
