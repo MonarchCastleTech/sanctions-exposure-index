@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-24T20:44:52.619603+00:00",
+    "generated": "2026-10-25T04:35:49.565775+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T20:43:06.103490+00:00",
+    "issued_at": "2026-10-25T04:34:02.875421+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-04T20:43:20.615689+00:00",
-        "score": 15.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 3.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-05T04:20:39.825390+00:00",
         "score": 15.7,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-24T20:43:06.103490+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-25T04:34:02.875421+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120056,6 +120056,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Corteva Gets Asset Freeze Lifted During PFAS Liability Appeal",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa19zaThIOWxjRGc3aXBvMzROWGd2MjBMZGVmY1dhTVRxa2paVXd6S1FjYnpsQnYxb3dzdU1IUHhMd3VPUV9DVnpOWWJNT2NIMzNVVi1sVUxQLWlvREJRbGRpNmdlajdieWxJZmp5Y3k5aENCUFIwd1FGcGFSV2pmLUw2RS1aRzNOdkgyV2M2R29GTjRJZmZaRlh1T0hObV9RQi1GLUdGY0d5QQ?oc=5",
+        "domain": "bloomberglawnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261022T204600Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Yemen’s Central Bank Orders Asset Freeze on 135 Houthi-Linked Individuals, Entities and Vessels",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyV0U2MExXcmZRamFYaWItREJnelhhamV2TXVWX2MwN1NJemZoamRDVGd3WGtLTUFKamY0RXRSY21wMWNVdlpjVUNyVEw4akQwdHZtVHp3?oc=5",
         "domain": "24",
@@ -120070,7 +120079,7 @@
         "domain": "tridge",
         "language": "",
         "tone": 0,
-        "seendate": "20261018T070000Z",
+        "seendate": "20261019T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120092,6 +120101,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhKRFlsM25MeHdTQ3RaSU84bEhIcDlXQ3RGMlF6cWpfTGZwdHRTU1JaQUpzSlhEbGs3RFkxdDNNSW11X1QzcXZjdkx5TzhLTklWaFBSSVFjZ0toZXBTTUlaeWhSdWdrcm9RUnZ4WEFiSk1fRzRYRFlDRDBMel91U0tXNWlHT2V5S1c4Slk0WlpCTWw1VnR5LVBnWE05aTVBUWt4SVpXa1R4UUZwX25iWGctaTA0azNRaENZZFFWTDl1YU5YdWRYRTVGNEZaSUYz?oc=5",
+        "domain": "wccbcharlotte",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T163458Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Tether Freezes $1.45M in THORChain Vaults [2026]",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Lb0dNS0p1YU5KS2pwbGV4bnc0NW05b1RMUll4QzF4ZDRjZUw2ZUZ4dWJJa2ZzNWRKTk44X1R3T1pJNHhtbWZTajAxQmRIVHd4YmNIZjBEbVFoSklydHp2TTc0ZXV0OWZEODBqcktXNVo?oc=5",
         "domain": "shattered.io",
@@ -120110,12 +120128,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "African Union Demands Immediate Lifting Of Sanctions Against Zimbabwe, Cites Economic Damage",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWU0Y2V2eFBuZkdVUXJ3STVGZGtBdnVJZTJNd1dQbUtTRjFsOGlvQXc3cHBONmdBa2QwazhKRDNQOFdOWEdyTnlXZEZhcWd5REVBaWg1UGltajMtcENrY0ZsMTFLQmIyRFIxNjVfQXhpSE1Rc3dZSUgtT1VJN0l3Z1JwSEg5S1NRQ3lCY3dZNjdFSTVKbnVsRC1HcktFUU9OakNUQVNPVGZEOUhiTHE5bFJqREJrLUhxcnhJbVlEcW4zTHVYNnc?oc=5",
-        "domain": "saharareporters",
+        "title": "The Weapons of Mass Destruction Amendment Act, 2022: Strengthening Controls on Proliferation Financing",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXdIZVZSZGx5NmwxVGZsWXRVeE5GN2FEQTkwdHFJTDAzSlR5V2hKeUMtUmZZeVNYdVJnRzJnVWc1LWI3cmx6Ui13V2VlVHdfZXBqY3dabUxvZzNSNFd2eVgyVVI0T05MUDFGd01mVTdmcVYtV2t3TXNteHFTYWlhRHdYWTd3QjZRU0d4dFhB?oc=5",
+        "domain": "impriimpactandpolicyresearchinstitute",
         "language": "",
         "tone": 0,
-        "seendate": "20261023T070000Z",
+        "seendate": "20261018T080740Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How Terror Networks Exploit Europe’s Financial Regulations To Evade Detection – Analysis",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXhFUUJJZUpkaU9oVFN4bGJrWjNjNHd1ck1Lb0kzLXVnSjU2UjBIZ2Y3NXFVUzhvc3JTWk95bnAwRFZlTzl6cHJIcXNiOF9ZWTM1VGItTnNfczZzMnR1dkx2dXBwQkc0RVBxSUVtaWpFcjFpV1BMWFZRSzRJdTlsaXBIUHJpa3ZBSWNVVGNpUG5YTDVrT2ZZWl9NWDVMeEVKUkdKUVhwSTVVc1ktS0QzVEE3Z0Z0aWY5cWpYcFNvNi11ZTg?oc=5",
+        "domain": "eurasiareview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T235359Z",
         "source": "GoogleNews"
       },
       {
@@ -120125,6 +120152,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261020T082550Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "African Union Demands Immediate Lifting Of Sanctions Against Zimbabwe, Cites Economic Damage",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWU0Y2V2eFBuZkdVUXJ3STVGZGtBdnVJZTJNd1dQbUtTRjFsOGlvQXc3cHBONmdBa2QwazhKRDNQOFdOWEdyTnlXZEZhcWd5REVBaWg1UGltajMtcENrY0ZsMTFLQmIyRFIxNjVfQXhpSE1Rc3dZSUgtT1VJN0l3Z1JwSEg5S1NRQ3lCY3dZNjdFSTVKbnVsRC1HcktFUU9OakNUQVNPVGZEOUhiTHE5bFJqREJrLUhxcnhJbVlEcW4zTHVYNnc?oc=5",
+        "domain": "saharareporters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261023T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120146,30 +120182,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions six Sudanese individuals for fueling war",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUVlEZnZuR2ZRRGtHTzBOQm9TN01ZRUktbWdKRFZCN1V3SHNYZk5qY3NCRFdVUHowaEc0MkxDWVVoQkF6R0VwYm1CTWU2ckVFcDFjemZXNVZ0cFV3V04wV0VMSHllQVBpb3FhLWJQYUNoUkdCY25FS25BdzZHZjI1dNIBhgFBVV95cUxQV0QxOWlSWmZWUE8wekRoUVYtRnRJTG83alpZQ2d4TzNEM1lLeUR4QjR4akN0dUdhT1lvaEZ1UVlVYm1FdlJ0OHVqemFmLXhTb3hiNzZJRWJFMERvSFo1Z3pNQTdsV3JKLXIyV3FWMkxRN2tlX25YZnJJUHNydzZmeFdNREE0QQ?oc=5",
-        "domain": "eyeradio",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261022T102748Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Who Are the 10 Moroccans Now on the Local Terrorism List Over ISIS, Al-Qaeda Ties?",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHU5R2JQbTBQelJacVFoTnItUkFRbHBGWkhCY1Zibkh2SnBjcjY3eFlGVGxQVWk0bVlXQTZ6czV4eFBHbm9JRW8yWDNHdDVvLU41d2VTQzBpUHRQb3RIaUlhUUxwamQyUktGRV9CeEd4TU9fVFJObEhXNlAtQWRnWDRDc2tWbzdaSnJvWmdfOXg5NmphX0JjUTNjdW9vb2YtbndsVnBxMWg2TlRCd2ZxWWpWazg5RlRERjltekl2OV9qNy03anRYdA?oc=5",
-        "domain": "moroccoworldnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T191259Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTZ4YnV1eEswcGJlUXl3UVgtOXRuR0FMV2xhd3ZpdmQxUUhkTDM4MHBkcjJFTnlCX1hobGhoeklfc2hObjdrZXhJYU1QS1ZnME5VVzlrN1YtRWNYc2o5SW51aTFaR0R0Y2tVZW5UYkoyMGl4UkVkMlBZM1RZZHhtck5UNXZiQQ?oc=5",
         "domain": "aol.co.uk",
         "language": "",
         "tone": 0,
         "seendate": "20261019T095402Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US rights groups push for additional sanctions",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16a0hndjlyRjlicnVoZjR6R05HVmtjaGc2VXVEN1FaM0ctNGlwVDVpTnQ3WXV1S0U3aENIbVAtUkRwaG1qRUdackZlWDdPeTRNbWcyNzRNel9CcWR1bFJINjFYSXBwWlI2X3VtSmVR0gFzQVVfeXFMT2lneGZSZjhqcF95dGR2d2N5VUxjX1U4UHI0NzB2aWRjRDdBUU0wZEdRU1prVDh2STFCNy1Da2drbkVvZG1rbnY4QWhGNUFyT0hRZHJTX2IwVlVkY05MVjJNeGg1eHliYmdQUWMwTWg0aVlLWQ?oc=5",
+        "domain": "eyeradio",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261021T215148Z",
         "source": "GoogleNews"
       },
       {
@@ -120200,12 +120227,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Graham 500% Sanctions Collapse; Zelensky Wants €155B",
-        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5NVHlNMFNlc2dPX0xDdGFZcnpGOUVMamVJMWl2NlRvekFkNmtrVWJ6UDR6aTdSQmtEQ0JuVlRoUkVtaW9uYnFmaDN3?oc=5",
-        "domain": "youtube",
+        "title": "Crypto Banking Alert: Bank of Israel’s Sanctions Warning",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44M3F1Q01hMU4wTzV0ZTc3dVc1TUU2Rk9zVWlUdlRFVVpSR3l6SmxieUY0Z2tpVmNZeGg3QkY5ZlMxcWtFR2xNbTZrcVdpTENTZkUyWjFwS0xVOUpHbF9MSzFESUpEU0Q5eHgwSWZoWVc1TG9RZ0E?oc=5",
+        "domain": "onesafe.io",
         "language": "",
         "tone": 0,
-        "seendate": "20261019T094307Z",
+        "seendate": "20261025T020345Z",
         "source": "GoogleNews"
       },
       {
@@ -120218,12 +120245,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Yuvika Chaudhary calls daughter Ekleen her \"biggest blessing\" on her second birthday",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX0JaSmFXMHZiWDhfejJkbThpQkk0SGZyZWRrRjdFb1E4Y2Q0SEdydmxiNlNxdUpZVW5tNTV0bXkzdEJJYThQd3djVUhuTFZIUXppMjYwOEVBQXNrdHlXUnVwRHJ0N2YxNkd1dHhnLXZ2NVZvZllueGZQQ2s5WnVlcVowTGg5SHh0TUFJNGg2dlZxUU9Rbm0wOGQtSWdBMTFRX1BvNHczTjBQY2ZCbGJ0NlJQNElnSGRXNTZlX2tkdDhBVkpR?oc=5",
+        "domain": "httpswww.indiagazette.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T103700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Behind the $1.5 billion cryptocurrency heist:...",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZkZQTmtYMHlmZjZpVnJZWWctUHluam5IbkpsQ3BWMFdfcVhhRWxBdXlyQS1hYnRWYmJ3UGhaWEdiWTUzeXZvb2pDUnJzdDNheWxUQmdlQ0gwUTg?oc=5",
+        "domain": "chaincatcher",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261018T135640Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Netanyahus Crypto Banking Plan: What It Means for Business",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd0I0d3dXSXlrelZ3QkpONXJTdUNxVTdTZm1jQVdnMmdfeUcycm41N29XX1Q2ODM1aWJnNW1kMnE3Y2taQ3NuRUtPdWZ0SVhqRElqSnYzVVlhNG9qNzhvcGpKalJKQUp2TmNLTW1FUHZKNEhIZE9QNkVzMUVnak9LOUFQY09Od2FCU213?oc=5",
         "domain": "onesafe.io",
         "language": "",
         "tone": 0,
         "seendate": "20261024T020446Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Crypto banking under fire after Israel sanctions proposal",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSEdrYjF5bnVtSVdxd3VOaGFsaThTR2VodXNWa2gtZGdTb3lzbnoweEFvdVk3aFYyRnJ5SnczUVhoak9wekZUVENrdkhRZHJ5a2ZiVFg1XzZlU0dPLUhqMVZSV2ZGTndZd3YzUHhDWnNzZXYwd0VUOG9LdHo4bG5CWFlieHd1WWc?oc=5",
+        "domain": "onesafe.io",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T010856Z",
         "source": "GoogleNews"
       },
       {
