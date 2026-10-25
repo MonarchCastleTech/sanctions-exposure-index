@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-25T11:19:23.683210+00:00",
+    "generated": "2026-10-25T16:10:15.998857+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-25T11:17:37.164628+00:00",
+    "issued_at": "2026-10-25T16:08:29.744087+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.8,
@@ -288,17 +288,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-05T10:30:26.635722+00:00",
-        "score": 15.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 3.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-05T15:08:55.744752+00:00",
         "score": 15.7,
@@ -2259,6 +2248,17 @@
       },
       {
         "timestamp": "2026-10-25T11:17:37.164628+00:00",
+        "score": 20.8,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 29.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-25T16:08:29.744087+00:00",
         "score": 20.8,
         "level": "BASELINE",
         "components": {
@@ -120047,6 +120047,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Closing loopholes: EU lists individuals and entities for circumventing EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUGtDSzFvQm1MR0RiSVR1cGlwU1Y2ZjVneVpibHFoS1cyY3htV1dkOEtLT0J3Zlh4clFHSXBOaEpKZWFNRHlQLWw4eHFTMF8tTS00SDNyclE3eWs2X2J1dUVzSi1Ub1l5NTNZdTg5ZC1Nc0JleVRpMlVFeVNFalNrVVgwYm9teGMwbFo0RWpteTZ3RUxDMVd2WHk2dXpxOHROVjkyR2hEdFduaXozSFJwZWhFcUVUZkVpaDRvSzV4OVNNMkUzTlAw?oc=5",
+        "domain": "euneighbourseast",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261023T000000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The Age of Confiscation — an impressive history of asset freezing and property seizing",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdveUIzOVhCYURJQWMwVmtNUHV0YzcxVmV2ODFOZGszM1ZDWTVOME9zN2VjY1g4dEl5WEZMSDRUTVVKMUt1VU1lRnhQR1lZWS11dFJydzlCT192eDBTTkVwbVdaU0JBOGFSRk9jYkVMbG1pTUdqRGNkRUhRS21YVjAtcHI?oc=5",
         "domain": "financialtimes",
@@ -120092,6 +120101,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Netanyahu’s cryptocurrency gambit is really about the West Bank",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSWk2NDRCOGp6WTR2UWU0b0M3Z3pJbW5mUlNkSUtvZExUd3NPWVVKdGJPN0M5ZE1zeWJoQVRZVnBxSTVFQWRuTWt5eFc5OWV1MS13QWJ3ZUZuLUZsSXM3UWtTdlBkcXVqcVpEQllMVU13SVU4QlI5S244dHF6bzZvZjlhb3J1VjRudThHTTBiQkV2X2wwZ09vWjNLNA?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T133300Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Switzerland and US ease sanctions on Venezuelan figures",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXJXQ3Y1MGxObmFuUVlWWVlnaG9DU0hmWG1ZU2tMNU5lekJyVWo1emZvY3BaWUk2bTNYdmxTcTk3Q2RoVE1OaWRMLTZON1dWa3BMa1FsWVlfZklUcXVTS0FlWTlaLWt4LXk0QW1nUXR6OHo2YnBESXdPSkZTUW8wY0hSSnoxZkZF0gGIAUFVX3lxTE9BcldDdjUwbE5uYW5RWVZZWWdob0NTSGZYbVlTa0w1TmV6QnJVajV6Zm9jcFpZSTZtM1h2bFNxOTdDZGhUTU5pZEwtNk43V1ZrcExrUWxZWV9mSVRxdVNLQWVZOVota3gteTRBbWdRdHo4ejZicERJd09KRlNRbzBjSFJKejFmRkU?oc=5",
         "domain": "harici",
@@ -120116,6 +120134,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261018T163458Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU extends sanctions against Jacques Baud",
+        "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPSDVyb1VqMGlRNkk2UU9HempVZWZBQ3NJQU5JU2Z0UDk4NU1uTXNuMGR6ZlFEckV2SWdxRktsRzJUa2RkTUgxSGJWeElKdmlBQm10ZlU4NkFjQ2s0ZE5uVjRLV2RZaEJXU2VCQUN0bFNUTDZ4Z0t2ZzJ1eFBEZ2h0SEwxRXBpRXI5UjV4X1Qza09NUFZrZVRCb1RyaUV5Nl9rWHc1cGxSUVZmMzFJRlpzUy1QcDI0MnpZZV84VTJVZmVCSkJDLXhvRVBUbjNKU0ZncVJ2cVhIZ3d6eWJyYlF4THFPQlhZUnM1MEZPZUVaZVZxa29NX0lGU1JkdXRhdnN3MUlUN19ONXlESWhIa2Z4Nlp5dEVOSWJXUDhmY2Z6NkktSDN1VDRzZ1o1RDM2Yk11dkZKSmx2ZWF2QWpDRW5ObkhLdGVhNmFpX3c?oc=5",
+        "domain": "swiswissinfo.ch",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T113316Z",
         "source": "GoogleNews"
       },
       {
@@ -120173,30 +120200,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether CEO Defends Freeze Record as Senate Details 34-Wallet Delay",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Z0NrdjdXTjViejI5amtQcGl1anFRREs2NnNKT3dSMmZYdG5EcGROa1lZcldnLU92N2tnb1dFSWtBMTVLdkdGcXdaWXJDLUI3SHBudE1PLUZNZlk?oc=5",
-        "domain": "tokenpost.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T060712Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan Faces Shortage of Rare Earth Element Yttrium Amidst Global Supply Freeze",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVZoc2Nicm9vS0NFTWJZRm5jZGM4UTdGSDNPTVJJQmFtODRsMVVELXp6M0VGSTc4UHJMVmdEbHZZTXR0aXBTRHJ6YVVtR012ckcyZWtObzl6T2tfVUhmMmxGTURwaXdkcVdNZFItSFFuNy02d3JVVW1lM0NzaUl2SkgyZTN5eEU0MUVweGlGZFBrNG9BTEdtaW9RVUlMZVVpejFnVGJ2NnhOVTVwTTRxM3NtYlVTYXFkS1Z1SlF3?oc=5",
         "domain": "ratopati",
         "language": "",
         "tone": 0,
         "seendate": "20261021T161123Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions six Sudanese individuals for fueling war",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUVlEZnZuR2ZRRGtHTzBOQm9TN01ZRUktbWdKRFZCN1V3SHNYZk5qY3NCRFdVUHowaEc0MkxDWVVoQkF6R0VwYm1CTWU2ckVFcDFjemZXNVZ0cFV3V04wV0VMSHllQVBpb3FhLWJQYUNoUkdCY25FS25BdzZHZjI1dNIBhgFBVV95cUxQV0QxOWlSWmZWUE8wekRoUVYtRnRJTG83alpZQ2d4TzNEM1lLeUR4QjR4akN0dUdhT1lvaEZ1UVlVYm1FdlJ0OHVqemFmLXhTb3hiNzZJRWJFMERvSFo1Z3pNQTdsV3JKLXIyV3FWMkxRN2tlX25YZnJJUHNydzZmeFdNREE0QQ?oc=5",
-        "domain": "eyeradio",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261022T102748Z",
         "source": "GoogleNews"
       },
       {
@@ -120236,15 +120245,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Crime Proceeds Frozen by Courts Plunge as Laundering Grows Complex",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZzNCaEJjQWNxR2szTWxZMXphYUxYR09XOGtjUUJqejF0bUdEZWdwWURRZl9yNmJZR1ZueFpQdFdkR3N0aWxMZlBkanFvdjhSNzdkY3R1N0lIaWZjVzY1dEdGaXpTSHF5dW1XWnZNT3NzUXhvTTJwT3ozZXI4TEFvZGtvYVVTYXFBc2NwdWtxbVlBM1FObDlnMFN2RXc4aTFLUHc?oc=5",
-        "domain": "seouleconomicdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T085444Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Ex-Enugu Lawmakers Write Tinubu, Propose Blacklisting, Asset Freezes For Foreign Firms Linked To Fake Drugs",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1hUa1RoX2gtajlOV1BmdlVaSi1xZG9tRmp2enRNbWFCQ0hfa05FT2I2Ukhnbm0tWDZPT3Vaa0JnTHEtOXRhZkZxeGxmb2d4a1dvTTB2bHJSTUs3YWVRZE1vTnpFQ0ptZWd0YWp3bVZVaTNMeExyTlhLeGd6WDk4SWtHZk1KZzZUcHBnMGZkc0pvVl85ZGQ5S0E1WXdaS2VVVi04a1ZiajBlUmdDYUdOa0xrZ1NVTFpxZGlhVXpmOGhBZVVC?oc=5",
         "domain": "saharareporters",
@@ -120269,15 +120269,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261020T103700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Behind the $1.5 billion cryptocurrency heist:...",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZkZQTmtYMHlmZjZpVnJZWWctUHluam5IbkpsQ3BWMFdfcVhhRWxBdXlyQS1hYnRWYmJ3UGhaWEdiWTUzeXZvb2pDUnJzdDNheWxUQmdlQ0gwUTg?oc=5",
-        "domain": "chaincatcher",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T135640Z",
         "source": "GoogleNews"
       },
       {
