@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-25T20:48:22.594774+00:00",
+    "generated": "2026-10-26T04:40:40.882763+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-25T20:46:35.843076+00:00",
+    "issued_at": "2026-10-26T04:38:54.189449+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 20.8,
+    "score": 23.2,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 24.0,
+        "score": 16.0,
         "releases_considered": 100,
-        "current_7d_designation_releases": 2,
-        "current_7d_all_releases": 2,
-        "prior_7d_designation_releases": 5,
+        "current_7d_designation_releases": 1,
+        "current_7d_all_releases": 1,
+        "prior_7d_designation_releases": 6,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": -0.67,
+        "baseline_weekly_median": 2.0,
+        "anomaly_z": -0.45,
         "themes": [
           "iran",
           "russia"
@@ -56,22 +56,6 @@
               "iran",
               "russia"
             ],
-            "designation_signal": true
-          },
-          {
-            "title": "Imposing Sanctions to Protect Americans from Intellectual Property Theft",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft/",
-            "action_title": "Protecting American Intellectual Property Act of 2022 (PAIPA) Designations; Issuance of Associated General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261019",
-            "date": "2026-10-19",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [],
             "designation_signal": true
           }
         ],
@@ -165,13 +149,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 29.5,
-        "current_7d_releases": 2,
-        "current_weighted_term_rate": 2.75,
+        "score": 50.4,
+        "current_7d_releases": 1,
+        "current_weighted_term_rate": 4.5,
         "baseline_weeks": 10,
-        "anomaly_z": 1.21,
-        "matched_release_count": 2,
-        "relief_release_count": 2,
+        "anomaly_z": 2.85,
+        "matched_release_count": 1,
+        "relief_release_count": 1,
         "evidence": [
           {
             "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
@@ -192,22 +176,6 @@
               "iran",
               "russia"
             ],
-            "designation_signal": true
-          },
-          {
-            "title": "Imposing Sanctions to Protect Americans from Intellectual Property Theft",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft/",
-            "action_title": "Protecting American Intellectual Property Act of 2022 (PAIPA) Designations; Issuance of Associated General Licenses",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261019",
-            "date": "2026-10-19",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [],
             "designation_signal": true
           }
         ],
@@ -282,23 +250,22 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "official_posture_shift"
+      ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [],
-    "history": [
+    "alerts": [
       {
-        "timestamp": "2026-09-05T20:17:12.779793+00:00",
-        "score": 15.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 3.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
+        "id": "official_posture_shift",
+        "title": "Official coercive-language shift",
+        "score": 50.4,
+        "level": "WATCH",
+        "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
+      }
+    ],
+    "history": [
       {
         "timestamp": "2026-09-06T04:31:30.075957+00:00",
         "score": 15.7,
@@ -2267,6 +2234,17 @@
           "official_posture_shift": 29.5,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-26T04:38:54.189449+00:00",
+        "score": 23.2,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 50.4,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2331,7 +2309,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "20.8/100",
+      "value": "23.2/100",
       "delta": "BASELINE"
     },
     {
@@ -120092,12 +120070,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Frozen Elderberry Suppliers, Export Data & Price Trends | Global Market Overview 2026",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zZENWQTVMcG4zUVd1QmVTNUQwMVJENmI0bzlOQmhJZ1VyYTY4Nl9STHRQbVdqZXp3dzFwUk9ORF82OWdvZXBsd0l3UmlyNHlBODh5TmZqWm9wei1sajFBSUNrV2JfeWM?oc=5",
-        "domain": "tridge",
+        "title": "Tether’s Ardoino disputes Iran report with four-week freeze claim",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RcktDS0Z3MmJlRWJ5RDhKM0k3OHBqTURLdUQ0LWg2WE1sbXk5RnFhZ1lzTzMxUXV5VWhjN200QzJIa0RxSHFpanE1UTh2LUl0TUVKQkliNHRIaDBnLURhM3VNMFRwMlA2dXM0V0JqUmNsaF9feTViVg?oc=5",
+        "domain": "cryptonews",
         "language": "",
         "tone": 0,
-        "seendate": "20261019T070000Z",
+        "seendate": "20261019T182836Z",
         "source": "GoogleNews"
       },
       {
@@ -120119,15 +120097,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether’s Ardoino disputes Iran report with four-week freeze claim",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RcktDS0Z3MmJlRWJ5RDhKM0k3OHBqTURLdUQ0LWg2WE1sbXk5RnFhZ1lzTzMxUXV5VWhjN200QzJIa0RxSHFpanE1UTh2LUl0TUVKQkliNHRIaDBnLURhM3VNMFRwMlA2dXM0V0JqUmNsaF9feTViVg?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T182836Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends sanctions against Jacques Baud",
         "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPSDVyb1VqMGlRNkk2UU9HempVZWZBQ3NJQU5JU2Z0UDk4NU1uTXNuMGR6ZlFEckV2SWdxRktsRzJUa2RkTUgxSGJWeElKdmlBQm10ZlU4NkFjQ2s0ZE5uVjRLV2RZaEJXU2VCQUN0bFNUTDZ4Z0t2ZzJ1eFBEZ2h0SEwxRXBpRXI5UjV4X1Qza09NUFZrZVRCb1RyaUV5Nl9rWHc1cGxSUVZmMzFJRlpzUy1QcDI0MnpZZV84VTJVZmVCSkJDLXhvRVBUbjNKU0ZncVJ2cVhIZ3d6eWJyYlF4THFPQlhZUnM1MEZPZUVaZVZxa29NX0lGU1JkdXRhdnN3MUlUN19ONXlESWhIa2Z4Nlp5dEVOSWJXUDhmY2Z6NkktSDN1VDRzZ1o1RDM2Yk11dkZKSmx2ZWF2QWpDRW5ObkhLdGVhNmFpX3c?oc=5",
         "domain": "swiswissinfo.ch",
@@ -120142,7 +120111,16 @@
         "domain": "shattered.io",
         "language": "",
         "tone": 0,
-        "seendate": "20261021T232158Z",
+        "seendate": "20261021T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Shenzhen Auction: What a Trump–Xi–Putin Summit Would Cost the Allies Who Aren't Invited",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWRhODJKZ3M2Q1BKM3FKeHg2NHdfZTQzNzlfbHhnbFhySWhSSldvT3hERnZXa3BmUldKUEhNdDRGMThLeEZidDJhcWdVQ3pKRFQyUkZsZ19wZllmbVZPZ2l4S2x4clZWUWFZMkl0VGdDMDl4VjRGQzdKakhNY045QWZNbzJmdGZTMlYyS2M3Y09mX2Q0b2k3U182RjRBUQ?oc=5",
+        "domain": "moderndiplomacy",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T230059Z",
         "source": "GoogleNews"
       },
       {
@@ -120152,15 +120130,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T065214Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How Terror Networks Exploit Europe’s Financial Regulations To Evade Detection – Analysis",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXhFUUJJZUpkaU9oVFN4bGJrWjNjNHd1ck1Lb0kzLXVnSjU2UjBIZ2Y3NXFVUzhvc3JTWk95bnAwRFZlTzl6cHJIcXNiOF9ZWTM1VGItTnNfczZzMnR1dkx2dXBwQkc0RVBxSUVtaWpFcjFpV1BMWFZRSzRJdTlsaXBIUHJpa3ZBSWNVVGNpUG5YTDVrT2ZZWl9NWDVMeEVKUkdKUVhwSTVVc1ktS0QzVEE3Z0Z0aWY5cWpYcFNvNi11ZTg?oc=5",
-        "domain": "eurasiareview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261018T235359Z",
         "source": "GoogleNews"
       },
       {
@@ -120197,6 +120166,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T081200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Bitquery: $6.4 Billion in Crypto Assets Frozen Since 2016",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT0c2M2NQRHRwUFVNMThXZWxKYnJsQmQxaWVZQUowLUQzcGhpU3dIXzljSTdVS052T0tYRklTalBlT0c3WUQ4YWFxLTIzTmhiTGlscWZQSy1VVW93ZzdWRmNvamwyb0o2SVdPUXhXTkFMRzBMMDZfVW10NkUxVl9Uc1FKRFRKQQ?oc=5",
+        "domain": "forklog",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T155229Z",
         "source": "GoogleNews"
       },
       {
@@ -120245,6 +120223,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Sham Divorces Hide Crime Proceeds as Korea's Asset Tracing Weakens",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZzNCaEJjQWNxR2szTWxZMXphYUxYR09XOGtjUUJqejF0bUdEZWdwWURRZl9yNmJZR1ZueFpQdFdkR3N0aWxMZlBkanFvdjhSNzdkY3R1N0lIaWZjVzY1dEdGaXpTSHF5dW1XWnZNT3NzUXhvTTJwT3ozZXI4TEFvZGtvYVVTYXFBc2NwdWtxbVlBM1FObDlnMFN2RXc4aTFLUHc?oc=5",
+        "domain": "seouleconomicdaily",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T085444Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Ex-Enugu Lawmakers Write Tinubu, Propose Blacklisting, Asset Freezes For Foreign Firms Linked To Fake Drugs",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1hUa1RoX2gtajlOV1BmdlVaSi1xZG9tRmp2enRNbWFCQ0hfa05FT2I2Ukhnbm0tWDZPT3Vaa0JnTHEtOXRhZkZxeGxmb2d4a1dvTTB2bHJSTUs3YWVRZE1vTnpFQ0ptZWd0YWp3bVZVaTNMeExyTlhLeGd6WDk4SWtHZk1KZzZUcHBnMGZkc0pvVl85ZGQ5S0E1WXdaS2VVVi04a1ZiajBlUmdDYUdOa0xrZ1NVTFpxZGlhVXpmOGhBZVVC?oc=5",
         "domain": "saharareporters",
@@ -120260,6 +120247,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261025T020657Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Korea's Frozen Crime Proceeds Plunge 63% as Probe System Shifts",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb1AtMmw1WFFkV2RST2hlNDZLc3Z5VUFHenRDbmREV3ZubnBteTJIQ1NuWnlDTVdLSnlMYjJsMUhXeFdEZldGckhRMERvWENiSW0zeWhuVnBoUWNIWWZpZVgzWlZxMENIN3FCTXlxaXFQQXQxTC1uQ0kyTU51eWpxNVdZdE9qRnZSTmVibDRaM0dwZkVCTVZTdVpvd0dVQQ?oc=5",
+        "domain": "seouleconomicdaily",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T210205Z",
         "source": "GoogleNews"
       },
       {
@@ -120305,6 +120301,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261019T203932Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Extends Sanctions Against Jacques Baud",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TRHRHN1JmV3VYUXhkVXZMRjZBVlI1aldrYVBxZklsNE9XcFY5c09SN0dGa2tzMGE1djhCcHZGTm83ZVFJaFJ0VHd4N0JJU1JibzR0RVNkRHR0LVpySXRIN0hkQ05iTFpWakFNUVl1bW9iZDFucHdnTUJIOA?oc=5",
+        "domain": "menafn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T064256Z",
         "source": "GoogleNews"
       },
       {
