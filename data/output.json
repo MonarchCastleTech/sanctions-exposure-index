@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-27T17:58:49.439612+00:00",
+    "generated": "2026-10-27T22:10:17.831893+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-27T17:57:02.823645+00:00",
+    "issued_at": "2026-10-27T22:08:31.394796+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.2,
@@ -266,17 +266,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-07T12:23:25.932260+00:00",
-        "score": 15.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 3.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-07T21:28:27.883727+00:00",
         "score": 15.7,
@@ -2237,6 +2226,17 @@
       },
       {
         "timestamp": "2026-10-27T17:57:02.823645+00:00",
+        "score": 23.2,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 50.4,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-27T22:08:31.394796+00:00",
         "score": 23.2,
         "level": "BASELINE",
         "components": {
@@ -119989,12 +119989,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzFZTjVTeEZ2NGxlLTA5OTZNQWtudFh1MmJwR3FvR1hXY0hDQU10a0hldmxXenBaUGlZOUNxTTdZdllEeC1YNlgxVWdGcV9Ddy1GT19TOWF0eGt3WlgwMWZoYi1YaGZLSV8xZEVOZHFIdTFPUzRDTTFQWmFaQzk3dGl1OWVUYlloek1wVkdQUDZQdFYwM2t4VEZsWngyY0ZoX2MtTjFBUS1iWWkzTTVtTEQ1ZV9kcG5CbmhBYmszS3pRQ1pQYTVZdTZfdjJLUQ?oc=5",
-        "domain": "theguardian",
+        "title": "Japan sanctions 35 Russia-linked vessels in new crackdown on Moscow",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajZzTGU1bjJ0V09zZENELWVzaUQyMHZQN2tRNGtTZGtxRC1xX0w5eHNqZ1pLRGxNRDZtLXhFUGhHUTNSbjV5Tk1DNkl0OGthOEJSLXVvVEx2TWEzSnFTcU0xX3d2TS0zSFRLcWpuWFZxOFROYmRxVFd0SVRrR1hsMi1kSmRuejgxYlk2aEw5UXNrQ1BCaTlCeWc5ejlhZk9qcEd1a2IwWHF3V002cFhkRGstbjIwRDB0NG5GM3o2UQ?oc=5",
+        "domain": "shippingtelegraph",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T151600Z",
+        "seendate": "20261023T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -120007,12 +120007,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "When frozen assets meet freezing orders: Can sanctioned parties obtain injunctions?",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUxLakhRZVU5MDFCX0VMc2xzRmdhakUta2N3RlFXZHFyUGdhX3A0dkJaT1ByVGFRNk9JTXdsLU9LWnBodFVsZjlIUXJ2cDM2aEI5b2tQMnJ3Nk9pNHpQRlBzYjVwMFB0TWV5TTIzNUVxbjcyUEotUkU1SE9WWGlvaUlfRlNWOC15dXZGMzdBOWtCME1jcm5zY3owcFp5bVlzamJUa0ludFNQUzd4TERN?oc=5",
-        "domain": "mishcondereyallp",
+        "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzFZTjVTeEZ2NGxlLTA5OTZNQWtudFh1MmJwR3FvR1hXY0hDQU10a0hldmxXenBaUGlZOUNxTTdZdllEeC1YNlgxVWdGcV9Ddy1GT19TOWF0eGt3WlgwMWZoYi1YaGZLSV8xZEVOZHFIdTFPUzRDTTFQWmFaQzk3dGl1OWVUYlloek1wVkdQUDZQdFYwM2t4VEZsWngyY0ZoX2MtTjFBUS1iWWkzTTVtTEQ1ZV9kcG5CbmhBYmszS3pRQ1pQYTVZdTZfdjJLUQ?oc=5",
+        "domain": "theguardian",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T145435Z",
+        "seendate": "20261026T151600Z",
         "source": "GoogleNews"
       },
       {
@@ -120025,21 +120025,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "When frozen assets meet freezing orders: Can sanctioned parties obtain injunctions?",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUxLakhRZVU5MDFCX0VMc2xzRmdhakUta2N3RlFXZHFyUGdhX3A0dkJaT1ByVGFRNk9JTXdsLU9LWnBodFVsZjlIUXJ2cDM2aEI5b2tQMnJ3Nk9pNHpQRlBzYjVwMFB0TWV5TTIzNUVxbjcyUEotUkU1SE9WWGlvaUlfRlNWOC15dXZGMzdBOWtCME1jcm5zY3owcFp5bVlzamJUa0ludFNQUzd4TERN?oc=5",
+        "domain": "mishcondereyallp",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T145435Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "U.K. Sanctions Sudan Commanders Over Suspected Atrocities",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ1J1M1lnTm94TDlGajFBRlRmd2FLMXBiZF8xbXBzUVlwX21qVXRmMDhzMVh6QWlyb0NKa3pNbWZycnRTTm41WTJnbDR6Ung1dERPa2oyZlF4WXJqMm9TTjFGODJ2ZHVSYmtwRl9kamkwVDVXU2g1Z0F4OVZkYU9NWFY3bjAtTkZBQkxuY3kzeEtXcUNOaXRtOA?oc=5",
         "domain": "wsj",
         "language": "",
         "tone": 0,
         "seendate": "20261027T115700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU renews sanctions on Swiss former colonel Jacques Baud over Russian TV appearances",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYzRTQS1qN2Y3c3dpSnFMdWNuX3ZpQTVfVmQ2RXBlbHltR1pGdGlrWVd6N2FVX1NaRFo1RWhGUEUtMHV5WjZJNnpHR2NncmJkQlN0dW9NSW5QR2ZJbjBzdU1sMmNEUFFScElMZ1UwcTFIQ1FPdWFrTXd3RWdGSURHWG42clV1TU4yTU1FYllwc2V6c2ZMdTRncHZfY3R1b2NIcHNZdFJ3UHBUZUppcmtGU2hDSzlOclhwQllJ?oc=5",
-        "domain": "brusselssignal",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261027T110449Z",
         "source": "GoogleNews"
       },
       {
