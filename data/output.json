@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-27T12:05:00.142759+00:00",
+    "generated": "2026-10-27T17:58:49.439612+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-27T12:03:13.368710+00:00",
+    "issued_at": "2026-10-27T17:57:02.823645+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 23.2,
@@ -266,17 +266,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-07T04:31:10.499243+00:00",
-        "score": 15.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 3.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-07T12:23:25.932260+00:00",
         "score": 15.7,
@@ -2237,6 +2226,17 @@
       },
       {
         "timestamp": "2026-10-27T12:03:13.368710+00:00",
+        "score": 23.2,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 50.4,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-27T17:57:02.823645+00:00",
         "score": 23.2,
         "level": "BASELINE",
         "components": {
@@ -119989,21 +119989,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Two UN-sanctioned North Korean tankers spotted repeatedly off China",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0lWNS1XLWNkU0Q0ckI2NG9HVXl2T1ZRTUg4LXR0OUFwdE1KMGFjZk11OHBSaVNWUTY5NHRtNV9wcWpYUlNqZUpKOXE4UXBYWF9Ed0tUeFFoM1JLek54d3RWd09jei1GcWVLN0E2LXh2VzUxaFVydm5PYlU4ekhWZDFYLXBUQ3RYVWx2am11VUpWMER4eDh4RDgzVHdNY3hIdVkwQ21Pem5rQdIBrAFBVV95cUxPS2lsUkVhZnZmRVh4YTVkQkVDUThQZlB1bTZFZlhZYTFCQUJSMDR0cV92QzRzZ09NZ3ZRc2YtUnpsRlFIVUczM2pYYl9oTFB5d29MakNIRjFiUU5ieGxfYy1lc1JsVUM2SzRtTnFiSGMxc2pNcnFGODB0R0thNGd4b28tczd3eFAzWlo2aHJLb0tTM21zTzhoejlIcl91aUNLRUNoQ0c1V1hqNDhy?oc=5",
-        "domain": "voa-voiceofamericaenglishnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T182517Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzFZTjVTeEZ2NGxlLTA5OTZNQWtudFh1MmJwR3FvR1hXY0hDQU10a0hldmxXenBaUGlZOUNxTTdZdllEeC1YNlgxVWdGcV9Ddy1GT19TOWF0eGt3WlgwMWZoYi1YaGZLSV8xZEVOZHFIdTFPUzRDTTFQWmFaQzk3dGl1OWVUYlloek1wVkdQUDZQdFYwM2t4VEZsWngyY0ZoX2MtTjFBUS1iWWkzTTVtTEQ1ZV9kcG5CbmhBYmszS3pRQ1pQYTVZdTZfdjJLUQ?oc=5",
         "domain": "theguardian",
         "language": "",
         "tone": 0,
         "seendate": "20261026T151600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Two UN-sanctioned North Korean tankers spotted repeatedly off China",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0lWNS1XLWNkU0Q0ckI2NG9HVXl2T1ZRTUg4LXR0OUFwdE1KMGFjZk11OHBSaVNWUTY5NHRtNV9wcWpYUlNqZUpKOXE4UXBYWF9Ed0tUeFFoM1JLek54d3RWd09jei1GcWVLN0E2LXh2VzUxaFVydm5PYlU4ekhWZDFYLXBUQ3RYVWx2am11VUpWMER4eDh4RDgzVHdNY3hIdVkwQ21Pem5rQdIBrAFBVV95cUxPS2lsUkVhZnZmRVh4YTVkQkVDUThQZlB1bTZFZlhZYTFCQUJSMDR0cV92QzRzZ09NZ3ZRc2YtUnpsRlFIVUczM2pYYl9oTFB5d29MakNIRjFiUU5ieGxfYy1lc1JsVUM2SzRtTnFiSGMxc2pNcnFGODB0R0thNGd4b28tczd3eFAzWlo2aHJLb0tTM21zTzhoejlIcl91aUNLRUNoQ0c1V1hqNDhy?oc=5",
+        "domain": "voa-voiceofamericaenglishnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T182517Z",
         "source": "GoogleNews"
       },
       {
@@ -120022,6 +120022,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261021T163348Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "U.K. Sanctions Sudan Commanders Over Suspected Atrocities",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ1J1M1lnTm94TDlGajFBRlRmd2FLMXBiZF8xbXBzUVlwX21qVXRmMDhzMVh6QWlyb0NKa3pNbWZycnRTTm41WTJnbDR6Ung1dERPa2oyZlF4WXJqMm9TTjFGODJ2ZHVSYmtwRl9kamkwVDVXU2g1Z0F4OVZkYU9NWFY3bjAtTkZBQkxuY3kzeEtXcUNOaXRtOA?oc=5",
+        "domain": "wsj",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261027T115700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU renews sanctions on Swiss former colonel Jacques Baud over Russian TV appearances",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYzRTQS1qN2Y3c3dpSnFMdWNuX3ZpQTVfVmQ2RXBlbHltR1pGdGlrWVd6N2FVX1NaRFo1RWhGUEUtMHV5WjZJNnpHR2NncmJkQlN0dW9NSW5QR2ZJbjBzdU1sMmNEUFFScElMZ1UwcTFIQ1FPdWFrTXd3RWdGSURHWG42clV1TU4yTU1FYllwc2V6c2ZMdTRncHZfY3R1b2NIcHNZdFJ3UHBUZUppcmtGU2hDSzlOclhwQllJ?oc=5",
+        "domain": "brusselssignal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261027T110449Z",
         "source": "GoogleNews"
       },
       {
@@ -120067,6 +120085,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261026T162516Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hyperliquid User Links HTX Loan Repayment to Wallet Risk Flag",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1YkpHZzNXbzFxTGlNcDJQa1NkTk9ycGxxYUNwRllXaVRvYUl5cGpQVTgzQXlRNXhwbS13UzA0eTNzNXdnRE45SkxIbENMNEFCLWZQcTVTTV9TNG8?oc=5",
+        "domain": "tokenpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T063410Z",
         "source": "GoogleNews"
       },
       {
