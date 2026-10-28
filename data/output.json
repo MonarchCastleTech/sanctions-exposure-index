@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-28T12:45:21.829193+00:00",
+    "generated": "2026-10-28T22:32:16.035876+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-28T12:43:35.394077+00:00",
+    "issued_at": "2026-10-28T22:30:29.529894+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 5.0,
+    "score": 20.2,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,30 +24,60 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 0.0,
-        "releases_considered": 100,
-        "current_7d_designation_releases": 0,
-        "current_7d_all_releases": 0,
+        "score": 16.0,
+        "releases_considered": 99,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
         "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.0,
-        "anomaly_z": -1.01,
+        "anomaly_z": -0.34,
         "themes": [],
-        "evidence": [],
+        "evidence": [
+          {
+            "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
+            "url": "https://home.treasury.gov/news/press-releases/sb0668/",
+            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+            "date": "2026-10-28",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [],
+            "designation_signal": true
+          },
+          {
+            "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
+            "url": "https://home.treasury.gov/news/press-releases/sb0669/",
+            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+            "date": "2026-10-28",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions",
+              "targeting"
+            ],
+            "relief_terms": [],
+            "themes": [],
+            "designation_signal": true
+          }
+        ],
         "retained": false
       },
       {
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19471,
+        "score": 32.5,
+        "current_count": 19484,
         "previous_count": 19471,
-        "added_count": 0,
+        "added_count": 13,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-10-20",
-        "sha256": "96dade5a1cde8c9746937b4859ad75d8f2a34eed1a4046cc1f2240a830f70bda",
+        "changed": true,
+        "publish_date": "2026-10-27",
+        "sha256": "5f240bed79d504e7a54788b4cd1c7f84e6afa56cd4778653b70b0771b6a8509d",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -101,11 +131,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 10042
+            "count": 10045
           },
           {
             "type": "individual",
-            "count": 7519
+            "count": 7529
           },
           {
             "type": "vessel",
@@ -116,7 +146,86 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "58407",
+            "name": "ZIGAMA CREDIT AND SAVINGS SOCIETY",
+            "type": "",
+            "program": "DRCONGO"
+          },
+          {
+            "id": "58879",
+            "name": "FIRST FINANCIAL AND TECHNICAL DEVELOPMENT CENTER",
+            "type": "",
+            "program": "DPRK3"
+          },
+          {
+            "id": "58880",
+            "name": "KIM, Kyong Ju",
+            "type": "individual",
+            "program": "DPRK3"
+          },
+          {
+            "id": "58881",
+            "name": "RI, Thae Chol",
+            "type": "individual",
+            "program": "DPRK3"
+          },
+          {
+            "id": "58882",
+            "name": "SO, Hyong Jin",
+            "type": "individual",
+            "program": "DPRK3"
+          },
+          {
+            "id": "58883",
+            "name": "HAN, Yu Song",
+            "type": "individual",
+            "program": "DPRK3"
+          },
+          {
+            "id": "58884",
+            "name": "KIM, Sung Gwan",
+            "type": "individual",
+            "program": "DPRK3"
+          },
+          {
+            "id": "58885",
+            "name": "HYON, Se Il",
+            "type": "individual",
+            "program": "DPRK3"
+          },
+          {
+            "id": "58886",
+            "name": "BOYKOV, Ilya Aleksandrovich",
+            "type": "individual",
+            "program": "DPRK2"
+          },
+          {
+            "id": "58887",
+            "name": "KIM, Ki Hyok",
+            "type": "individual",
+            "program": "DPRK2"
+          },
+          {
+            "id": "58888",
+            "name": "KIM, Hyo Dong",
+            "type": "individual",
+            "program": "DPRK2"
+          },
+          {
+            "id": "58889",
+            "name": "OBERTAS, Vitold Viktorovich",
+            "type": "individual",
+            "program": "DPRK2"
+          },
+          {
+            "id": "59069",
+            "name": "MINISTRY OF DEFENCE OF THE REPUBLIC OF RWANDA",
+            "type": "",
+            "program": "DRCONGO"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -124,14 +233,44 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 0.0,
-        "current_7d_releases": 0,
-        "current_weighted_term_rate": 0.0,
+        "score": 12.6,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 1.75,
         "baseline_weeks": 12,
-        "anomaly_z": -1.37,
-        "matched_release_count": 0,
+        "anomaly_z": -0.29,
+        "matched_release_count": 2,
         "relief_release_count": 0,
-        "evidence": [],
+        "evidence": [
+          {
+            "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
+            "url": "https://home.treasury.gov/news/press-releases/sb0668/",
+            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+            "date": "2026-10-28",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [],
+            "designation_signal": true
+          },
+          {
+            "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
+            "url": "https://home.treasury.gov/news/press-releases/sb0669/",
+            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+            "date": "2026-10-28",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions",
+              "targeting"
+            ],
+            "relief_terms": [],
+            "themes": [],
+            "designation_signal": true
+          }
+        ],
         "terms": {
           "unprecedented": 3.5,
           "maximum pressure": 3.5,
@@ -209,17 +348,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-08T16:35:01.338917+00:00",
-        "score": 44.1,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 56.9,
-          "sdn_delta_breadth": 90.0,
-          "official_posture_shift": 4.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-08T21:05:56.908164+00:00",
         "score": 26.1,
@@ -2188,11 +2316,22 @@
           "official_posture_shift": 0.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-28T22:30:29.529894+00:00",
+        "score": 20.2,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 32.5,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19471,
-      "ofac_releases": 100,
+      "sdn_entries": 19484,
+      "ofac_releases": 99,
       "market_series_available": 2,
       "available_components": 4,
       "retained_components": [
@@ -2252,17 +2391,17 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "5.0/100",
+      "value": "20.2/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,471",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,484",
+      "delta": "+13 since accepted snapshot"
     },
     {
       "label": "Official Releases",
-      "value": "100",
+      "value": "99",
       "delta": "rolling official baseline"
     },
     {
@@ -2273,9 +2412,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-10-20",
-      "sha256": "96dade5a1cde8c9746937b4859ad75d8f2a34eed1a4046cc1f2240a830f70bda",
-      "count": 19471,
+      "publish_date": "2026-10-27",
+      "sha256": "5f240bed79d504e7a54788b4cd1c7f84e6afa56cd4778653b70b0771b6a8509d",
+      "count": 19484,
       "entries": [
         {
           "id": "36",
@@ -117292,6 +117431,12 @@
           "program": "IRAN-EO13846"
         },
         {
+          "id": "58407",
+          "name": "ZIGAMA CREDIT AND SAVINGS SOCIETY",
+          "type": "",
+          "program": "DRCONGO"
+        },
+        {
           "id": "58408",
           "name": "TSORIS, Georgios",
           "type": "individual",
@@ -118864,6 +119009,72 @@
           "program": "IRAN-EO13902"
         },
         {
+          "id": "58879",
+          "name": "FIRST FINANCIAL AND TECHNICAL DEVELOPMENT CENTER",
+          "type": "",
+          "program": "DPRK3"
+        },
+        {
+          "id": "58880",
+          "name": "KIM, Kyong Ju",
+          "type": "individual",
+          "program": "DPRK3"
+        },
+        {
+          "id": "58881",
+          "name": "RI, Thae Chol",
+          "type": "individual",
+          "program": "DPRK3"
+        },
+        {
+          "id": "58882",
+          "name": "SO, Hyong Jin",
+          "type": "individual",
+          "program": "DPRK3"
+        },
+        {
+          "id": "58883",
+          "name": "HAN, Yu Song",
+          "type": "individual",
+          "program": "DPRK3"
+        },
+        {
+          "id": "58884",
+          "name": "KIM, Sung Gwan",
+          "type": "individual",
+          "program": "DPRK3"
+        },
+        {
+          "id": "58885",
+          "name": "HYON, Se Il",
+          "type": "individual",
+          "program": "DPRK3"
+        },
+        {
+          "id": "58886",
+          "name": "BOYKOV, Ilya Aleksandrovich",
+          "type": "individual",
+          "program": "DPRK2"
+        },
+        {
+          "id": "58887",
+          "name": "KIM, Ki Hyok",
+          "type": "individual",
+          "program": "DPRK2"
+        },
+        {
+          "id": "58888",
+          "name": "KIM, Hyo Dong",
+          "type": "individual",
+          "program": "DPRK2"
+        },
+        {
+          "id": "58889",
+          "name": "OBERTAS, Vitold Viktorovich",
+          "type": "individual",
+          "program": "DPRK2"
+        },
+        {
           "id": "58930",
           "name": "MOHAMMADI, Zhila",
           "type": "individual",
@@ -119102,12 +119313,34 @@
           "name": "BANCO INTERNACIONAL DE COMERCIO S.A.",
           "type": "",
           "program": "CUBA-EO14404"
+        },
+        {
+          "id": "59069",
+          "name": "MINISTRY OF DEFENCE OF THE REPUBLIC OF RWANDA",
+          "type": "",
+          "program": "DRCONGO"
         }
       ],
       "cached": false
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
+          "url": "https://home.treasury.gov/news/press-releases/sb0668/",
+          "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+          "date": "2026-10-28",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
+          "url": "https://home.treasury.gov/news/press-releases/sb0669/",
+          "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+          "date": "2026-10-28",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
           "url": "https://home.treasury.gov/news/press-releases/sb0664/",
@@ -119213,16 +119446,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
-          "url": "https://home.treasury.gov/news/press-releases/sb0644/",
+          "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
+          "url": "https://home.treasury.gov/news/press-releases/sb0643/",
           "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
           "date": "2026-10-01",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
-          "url": "https://home.treasury.gov/news/press-releases/sb0643/",
+          "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
+          "url": "https://home.treasury.gov/news/press-releases/sb0644/",
           "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
           "date": "2026-10-01",
@@ -119501,14 +119734,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Disrupts Muslim Brotherhood and Hamas Financial Networks",
-          "url": "https://home.treasury.gov/news/press-releases/sb0572",
-          "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
-          "date": "2026-07-23",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
           "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
@@ -119693,16 +119918,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
-          "url": "https://home.treasury.gov/news/press-releases/sb0510",
+          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
+          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
+          "url": "https://home.treasury.gov/news/press-releases/sb0510",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
@@ -119821,16 +120046,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Global Illicit Drug Supply Chain Supporting the Sinaloa Cartel",
-          "url": "https://home.treasury.gov/news/press-releases/sb0468",
+          "title": "Treasury Sanctions Cambodian Senator Kok An and Scam Center Network Defrauding Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0469",
           "action_title": "Counter Terrorism, Counter Narcotics, and Cyber-related Designations; Issuance of Cyber-related General License",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260423",
           "date": "2026-04-23",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Cambodian Senator Kok An and Scam Center Network Defrauding Americans",
-          "url": "https://home.treasury.gov/news/press-releases/sb0469",
+          "title": "Treasury Sanctions Global Illicit Drug Supply Chain Supporting the Sinaloa Cartel",
+          "url": "https://home.treasury.gov/news/press-releases/sb0468",
           "action_title": "Counter Terrorism, Counter Narcotics, and Cyber-related Designations; Issuance of Cyber-related General License",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260423",
           "date": "2026-04-23",
@@ -119877,14 +120102,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - Casinos Connected to Cartel del Noreste",
-          "url": "https://ofac.treasury.gov/media/935506/download?inline",
-          "action_title": "Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260414",
-          "date": "2026-04-14",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Treasury Sanctions Cartel-Linked Casinos and Key Associates on U.S.-Mexico Border",
           "url": "https://home.treasury.gov/news/press-releases/sb0440",
           "action_title": "Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question",
@@ -119893,19 +120110,11 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Proposes Rule to Implement the GENIUS Act's Requirements to Counter Illicit Finance",
-          "url": "https://home.treasury.gov/news/press-releases/sb0435",
-          "action_title": "Treasury Proposes Rule to Implement the GENIUS Act's Requirements to Counter Illicit Finance",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260408_33",
-          "date": "2026-04-08",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Sanctions Global Network Diverting Funds to Benefit Hizballah",
-          "url": "https://home.treasury.gov/news/press-releases/sb0420",
-          "action_title": "Counter Terrorism Designations; Counter Narcotics and Russia-related Designations Removals",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260320",
-          "date": "2026-03-20",
+          "title": "CHART - Casinos Connected to Cartel del Noreste",
+          "url": "https://ofac.treasury.gov/media/935506/download?inline",
+          "action_title": "Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260414",
+          "date": "2026-04-14",
           "source": "OFAC/Treasury"
         }
       ],
@@ -119914,30 +120123,12 @@
     },
     "news_articles": [
       {
-        "title": "EU Adopts Record Russia Sanctions Designations as UK Targets Oil, Crypto and Supply Networks",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzRQazIxZllhUXdpbDRMSV92Zmp5aXk1cTRLZ2N1eXlEYVViUHQ1Y25yNExNX3E5QnpUVlItZjJzSnYzdEhadWlGUVlkS1V2YUhKbDlnUkcyUDhvakI2Y21wWTVQMnNvbUZ0dUg0Uk1GNDFveHVFMGF0M0tDV3Y4WGV3?oc=5",
-        "domain": "jdsupra",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T204256Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU sanctions against ISIL/Da’esh and Al-Qaeda: Council renews regime until 2027",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTUN3RzRPTXF3R0t4R0FjUVRDTDVFTVFBRV9qNnBwWXpmbmJKNnpWUTRYNVUzUXgwZGpKNTJfWkVJTnlJOXI4SWNyanFVMGdmVVFlSXBXU0ZHcDItS3VnLUpNWjZvWWJ0WVR5dXl4MFFOclU2OXRsRmRjbmdvaThRdUp5TGtzdElYS0wwZFU4LXFpdmMtV01panppNk04UnYwZ2VqcWg3MzdBbGdIcVBUYUl4OUQ2ODY1dEFyaXRoLUh5QnhSUDBONGhpRjhVd1N0UElWa3E5WnNnWVVpd3c?oc=5",
         "domain": "councileuropeanunion",
         "language": "",
         "tone": 0,
         "seendate": "20261026T101930Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzFZTjVTeEZ2NGxlLTA5OTZNQWtudFh1MmJwR3FvR1hXY0hDQU10a0hldmxXenBaUGlZOUNxTTdZdllEeC1YNlgxVWdGcV9Ddy1GT19TOWF0eGt3WlgwMWZoYi1YaGZLSV8xZEVOZHFIdTFPUzRDTTFQWmFaQzk3dGl1OWVUYlloek1wVkdQUDZQdFYwM2t4VEZsWngyY0ZoX2MtTjFBUS1iWWkzTTVtTEQ1ZV9kcG5CbmhBYmszS3pRQ1pQYTVZdTZfdjJLUQ?oc=5",
-        "domain": "theguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T151600Z",
         "source": "GoogleNews"
       },
       {
@@ -119950,48 +120141,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbHk3SFNFR0NwZGlQMVFOM0tEaU5CT29idmF6VjBka2RNVGZJcEt2RFdkSXNzV2lpVFJSb1BiQUhfTzBLRVNfeDFhcE1GZHRETHJ0ZkNla0tYQ19Rbk42Tzh0Y2VLOXlLcHI4VW43WlNzUjlTNENpRk5yTUdqNTlGWmFwQkNRQ1MxbEtSYnFzejUyTXdsbGx0SjVSemZGYjNjRVlwVm0teDdiVDlBenpJaFpBdjhvaG85VUxzanBpYm5zdDNYSnc?oc=5",
-        "domain": "news4jax",
+        "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzFZTjVTeEZ2NGxlLTA5OTZNQWtudFh1MmJwR3FvR1hXY0hDQU10a0hldmxXenBaUGlZOUNxTTdZdllEeC1YNlgxVWdGcV9Ddy1GT19TOWF0eGt3WlgwMWZoYi1YaGZLSV8xZEVOZHFIdTFPUzRDTTFQWmFaQzk3dGl1OWVUYlloek1wVkdQUDZQdFYwM2t4VEZsWngyY0ZoX2MtTjFBUS1iWWkzTTVtTEQ1ZV9kcG5CbmhBYmszS3pRQ1pQYTVZdTZfdjJLUQ?oc=5",
+        "domain": "theguardian",
         "language": "",
         "tone": 0,
-        "seendate": "20261028T101604Z",
+        "seendate": "20261026T151600Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Japan sanctions 35 Russia-linked vessels in new crackdown on Moscow",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajZzTGU1bjJ0V09zZENELWVzaUQyMHZQN2tRNGtTZGtxRC1xX0w5eHNqZ1pLRGxNRDZtLXhFUGhHUTNSbjV5Tk1DNkl0OGthOEJSLXVvVEx2TWEzSnFTcU0xX3d2TS0zSFRLcWpuWFZxOFROYmRxVFd0SVRrR1hsMi1kSmRuejgxYlk2aEw5UXNrQ1BCaTlCeWc5ejlhZk9qcEd1a2IwWHF3V002cFhkRGstbjIwRDB0NG5GM3o2UQ?oc=5",
-        "domain": "shippingtelegraph",
+        "title": "UK sanctions Sudanese officials implicated in mass sexual violence in el-Fasher",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2xPN0dxdlM3ODhnSWFmMUd3ODRibE5WZS1FT3REMHNydzFmQUs3S0pNaVY3eV9UUFVSV21sT3k2N2Y1T2FqdUxYZTZ1NUpKTVZiMmVtdW5tMWN4empvWGRDOHd5OXUtZFBkb2VTZzdQczN2M3poem16eU5MZmRXV010Y1l6VnhvZXpieGgyNXZmSGdTazllV0NBSExJRnJDVVhNbnh2bmxVZHRLQlow?oc=5",
+        "domain": "middleeasteye",
         "language": "",
         "tone": 0,
-        "seendate": "20261023T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "It’s time to stop platforming the Taliban",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTHR0QVZSLWsyTjNMTk5xVTl5YVpvWHZrQldSSUN2NmRJSHRuenBwQ1VrTG1mS3IxempSd283ckZUMTdUZmpfNHVXSElSdkJZNVY5bEVVdUk0UWhUeVpZdHR3cDZ3R1hla0g1Y2NhUHNjODhqNWZreUVkc01ieWFpWGlkSmItZjQ?oc=5",
-        "domain": "georgew.bushpresidentialcenter",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261027T174303Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Corteva Gets Asset Freeze Lifted During PFAS Liability Appeal",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa19zaThIOWxjRGc3aXBvMzROWGd2MjBMZGVmY1dhTVRxa2paVXd6S1FjYnpsQnYxb3dzdU1IUHhMd3VPUV9DVnpOWWJNT2NIMzNVVi1sVUxQLWlvREJRbGRpNmdlajdieWxJZmp5Y3k5aENCUFIwd1FGcGFSV2pmLUw2RS1aRzNOdkgyV2M2R29GTjRJZmZaRlh1T0hObV9RQi1GLUdGY0d5QQ?oc=5",
-        "domain": "bloomberglawnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261022T204600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Yemen’s Central Bank Orders Asset Freeze on 135 Houthi-Linked Individuals, Entities and Vessels",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyV0U2MExXcmZRamFYaWItREJnelhhamV2TXVWX2MwN1NJemZoamRDVGd3WGtLTUFKamY0RXRSY21wMWNVdlpjVUNyVEw4akQwdHZtVHp3?oc=5",
-        "domain": "24",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T163348Z",
+        "seendate": "20261028T152800Z",
         "source": "GoogleNews"
       },
       {
@@ -120022,39 +120186,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Blueprint for Building a Financial Crime Framework for Stablecoin Issuance",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EY0RVZXRQLWlzeUFxdlF0UGRvc25ncTBWOGF3dzVkeVRqNzJhdXZFa0FTbUJfR2RLdFNfSWlWRXNyYmZ5N093SThGd2NjLS1hOEtwcFVydEl5NXRqY0JhQjZEc044Qm9lcGpTTUdBNXZOcmRjR1JOaE5mWE9KLVk?oc=5",
-        "domain": "trmlabs",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T013517Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Netanyahu’s cryptocurrency gambit is really about the West Bank",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSWk2NDRCOGp6WTR2UWU0b0M3Z3pJbW5mUlNkSUtvZExUd3NPWVVKdGJPN0M5ZE1zeWJoQVRZVnBxSTVFQWRuTWt5eFc5OWV1MS13QWJ3ZUZuLUZsSXM3UWtTdlBkcXVqcVpEQllMVU13SVU4QlI5S244dHF6bzZvZjlhb3J1VjRudThHTTBiQkV2X2wwZ09vWjNLNA?oc=5",
-        "domain": "thetimesofisrael",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T133300Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK issues fresh sanctions against rival Sudanese commanders",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZjkzSjN4RmVzSGgzMmVtNHYxUXJjUHZJN25aNmlBZWdqaElIUjViLWw4MkFYWDZHQkVjelhjOS0wTWx3SU9aaFN3WENMQnV4Z1NVVGJ3ZGJxUm91Z3hDeGZXT2ZQblA4WjJOSjdzUFRrbnRxeEtFOXFBQ254dDVaNEp1ekdJR0VwRnNKdmZoQU11Zl9fT2s0N182R1J3Z18wNEkxY0RVTzYxeVpQOVdILQ?oc=5",
         "domain": "thenational",
         "language": "",
         "tone": 0,
         "seendate": "20261026T155228Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU extends sanctions against ISIL and Al-Qaeda through 2027",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVUdDLW9YSGlUTTNCeU1OdHZXUHhnVnpQRkxVNU9rd1pzWFNNS2FKeV9KcWVvRWYxNEpXUV9QTkRZUzV0NnVlM3dYdi1HZG9wNlFDek9od0Y4aW9XdXhNdURhSkprY3dsdkhzbk1hZ1E5UUU5dkYzV3V5eGJxX2wxajNBTEFIRk5rSmpKRG1KOGpHY1RKS1FoMUhlRkNNVFdQaVNVdkFjRW4xR2tsYUdqM0ppYl90Yk5fSkcxQ285YXNNaGR2QmxuSm9ITmV0X3IwaFdNNnBLY2FaaTF6UzJ6MENPRkFHZF9NVXBoTGRXZWZkXzFMQWVj?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T190931Z",
         "source": "GoogleNews"
       },
       {
@@ -120067,30 +120204,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU extends sanctions against ISIL and Al-Qaeda through 2027",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVUdDLW9YSGlUTTNCeU1OdHZXUHhnVnpQRkxVNU9rd1pzWFNNS2FKeV9KcWVvRWYxNEpXUV9QTkRZUzV0NnVlM3dYdi1HZG9wNlFDek9od0Y4aW9XdXhNdURhSkprY3dsdkhzbk1hZ1E5UUU5dkYzV3V5eGJxX2wxajNBTEFIRk5rSmpKRG1KOGpHY1RKS1FoMUhlRkNNVFdQaVNVdkFjRW4xR2tsYUdqM0ppYl90Yk5fSkcxQ285YXNNaGR2QmxuSm9ITmV0X3IwaFdNNnBLY2FaaTF6UzJ6MENPRkFHZF9NVXBoTGRXZWZkXzFMQWVj?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T190931Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Justin Sun's HTX Delists Trump Family's USD1 Stablecoin Over Freeze",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMC1pQUphRVJkWG03RWRaekV3ZlJfSUJWSFg2VzlRWWZoSVh5NkZUSDRmZFppQXdNU0E0bk5kRWNmSUxyUkdCay1DUU5PbWZDNTRGUmVHTHZ6SU1iZ0NWdndHUlRYUXROUnZ2RDdyeW1oVVRWZlltcGdwSnR4eTFHcDdDUmVTdjdKZFBjTkxkUk5iSUFpZV8wNQ?oc=5",
         "domain": "startupfortune",
         "language": "",
         "tone": 0,
         "seendate": "20261028T081338Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU extends sanctions against Jacques Baud",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR3JtUldaV0pjWDY2MTNDLUpYVGktUlR4azYtc29vNk0zZnJDZjcyRG5GdUFXcWJkTnJDdnp3UG5GTTZWOEstN2hITWJNQ2dHOGtaQ1lDOWF5TnhRaVhjTEFYWVJ6YVJ4RlJaVHhZWC1MLXVLSUgtSUxhZHZocS1qWGhnaUFnWGRoMmRpcUhkdjdQMUc2cHFMNXdkZ1NxQnFESkxrQTg4ZXJiNHM?oc=5",
-        "domain": "swiswissinfo.ch",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T113316Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Shenzhen Auction: What a Trump–Xi–Putin Summit Would Cost the Allies Who Aren't Invited",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWRhODJKZ3M2Q1BKM3FKeHg2NHdfZTQzNzlfbHhnbFhySWhSSldvT3hERnZXa3BmUldKUEhNdDRGMThLeEZidDJhcWdVQ3pKRFQyUkZsZ19wZllmbVZPZ2l4S2x4clZWUWFZMkl0VGdDMDl4VjRGQzdKakhNY045QWZNbzJmdGZTMlYyS2M3Y09mX2Q0b2k3U182RjRBUQ?oc=5",
-        "domain": "moderndiplomacy",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T230059Z",
         "source": "GoogleNews"
       },
       {
@@ -120103,84 +120231,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Hyperliquid User Links HTX Loan Repayment to Wallet Risk Flag",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1YkpHZzNXbzFxTGlNcDJQa1NkTk9ycGxxYUNwRllXaVRvYUl5cGpQVTgzQXlRNXhwbS13UzA0eTNzNXdnRE45SkxIbENMNEFCLWZQcTVTTV9TNG8?oc=5",
-        "domain": "tokenpost",
+        "title": "Qatar-Led Mediators Push Iran Nuclear Proposal For Sanctions Relief and Asset Access",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVlYtYkg4eUVPNVVxTWhRelVfWkFCQUpxcEZfbUNjZU1XUjZLbS1SdDhrYlh6UnM3VzNBMzZsZ3AyeW9iWk10eTlSWFQzVkFjaF96Tnp5emVFeVRpcWFBbjd1bm0yQnNjYy1ORHoxTXpKSFVZaWkyU241LTNacUFfZGlDZ0J3MHlxV1o5bk5CSzhyLXQtcTNraTJXYkdkdlh5dkl0Nk9yNWlzZS1wdXQ0?oc=5",
+        "domain": "sahi",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T063410Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan Faces Shortage of Rare Earth Element Yttrium Amidst Global Supply Freeze",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVZoc2Nicm9vS0NFTWJZRm5jZGM4UTdGSDNPTVJJQmFtODRsMVVELXp6M0VGSTc4UHJMVmdEbHZZTXR0aXBTRHJ6YVVtR012ckcyZWtObzl6T2tfVUhmMmxGTURwaXdkcVdNZFItSFFuNy02d3JVVW1lM0NzaUl2SkgyZTN5eEU0MUVweGlGZFBrNG9BTEdtaW9RVUlMZVVpejFnVGJ2NnhOVTVwTTRxM3NtYlVTYXFkS1Z1SlF3?oc=5",
-        "domain": "ratopati",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T161123Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US rights groups push for additional sanctions",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16a0hndjlyRjlicnVoZjR6R05HVmtjaGc2VXVEN1FaM0ctNGlwVDVpTnQ3WXV1S0U3aENIbVAtUkRwaG1qRUdackZlWDdPeTRNbWcyNzRNel9CcWR1bFJINjFYSXBwWlI2X3VtSmVR0gFzQVVfeXFMT2lneGZSZjhqcF95dGR2d2N5VUxjX1U4UHI0NzB2aWRjRDdBUU0wZEdRU1prVDh2STFCNy1Da2drbkVvZG1rbnY4QWhGNUFyT0hRZHJTX2IwVlVkY05MVjJNeGg1eHliYmdQUWMwTWg0aVlLWQ?oc=5",
-        "domain": "eyeradio",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T215148Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Seongnam Agency Wins Court Order to Freeze 10 Billion Won More in Hwacheon Daeyu Trust Payouts",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUl9pRW1yYWRDcjRuRDhjN2JqRDRKSjNyeGNMUHhYdXRmT2hOT0RvTHFpTm9Vc0Nlb2RMd2FYZ0xlLTZOOVotRFMtSVBqWUV5N2V3LTVBYm55LXIwSEZNRzVaakRzSmlRbmoyd0FlZzNpdWh3MHpLMWVibmZLV20xMWY4WnZNa2JuXzNyZVg5dnJ3RzVtYUUxNHhUU0Q1QjNN?oc=5",
-        "domain": "seouleconomicdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261027T234400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ex-Enugu Lawmakers Write Tinubu, Propose Blacklisting, Asset Freezes For Foreign Firms Linked To Fake Drugs",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1hUa1RoX2gtajlOV1BmdlVaSi1xZG9tRmp2enRNbWFCQ0hfa05FT2I2Ukhnbm0tWDZPT3Vaa0JnTHEtOXRhZkZxeGxmb2d4a1dvTTB2bHJSTUs3YWVRZE1vTnpFQ0ptZWd0YWp3bVZVaTNMeExyTlhLeGd6WDk4SWtHZk1KZzZUcHBnMGZkc0pvVl85ZGQ5S0E1WXdaS2VVVi04a1ZiajBlUmdDYUdOa0xrZ1NVTFpxZGlhVXpmOGhBZVVC?oc=5",
-        "domain": "saharareporters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261021T221615Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Crypto Banking Alert: Bank of Israel’s Sanctions Warning",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44M3F1Q01hMU4wTzV0ZTc3dVc1TUU2Rk9zVWlUdlRFVVpSR3l6SmxieUY0Z2tpVmNZeGg3QkY5ZlMxcWtFR2xNbTZrcVdpTENTZkUyWjFwS0xVOUpHbF9MSzFESUpEU0Q5eHgwSWZoWVc1TG9RZ0E?oc=5",
-        "domain": "onesafe.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T020657Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Netanyahus Crypto Banking Plan: What It Means for Business",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd0I0d3dXSXlrelZ3QkpONXJTdUNxVTdTZm1jQVdnMmdfeUcycm41N29XX1Q2ODM1aWJnNW1kMnE3Y2taQ3NuRUtPdWZ0SVhqRElqSnYzVVlhNG9qNzhvcGpKalJKQUp2TmNLTW1FUHZKNEhIZE9QNkVzMUVnak9LOUFQY09Od2FCU213?oc=5",
-        "domain": "onesafe.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261024T020446Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Crypto banking under fire after Israel sanctions proposal",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSEdrYjF5bnVtSVdxd3VOaGFsaThTR2VodXNWa2gtZGdTb3lzbnoweEFvdVk3aFYyRnJ5SnczUVhoak9wekZUVENrdkhRZHJ5a2ZiVFg1XzZlU0dPLUhqMVZSV2ZGTndZd3YzUHhDWnNzZXYwd0VUOG9LdHo4bG5CWFlieHd1WWc?oc=5",
-        "domain": "onesafe.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T010856Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US Treasury tracks and freezes Iranian crypto funds, Bessent says",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53MGhOQXJjRk5UeHJ1Z2hLVXBGSDkweWZGcnAwMzdjMW1MSl9Nd3cxdG1YeFdLV25rOVJmcWFQOEJMLWFGcUtMYWd4UnQ3NmZ6VmR6djREWWJMck9oOVg4NnFYSW9RVXl4My1rczNYZjd5SmF0eE9V?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261027T214146Z",
+        "seendate": "20261028T194219Z",
         "source": "GoogleNews"
       },
       {
@@ -120189,7 +120245,7 @@
         "domain": "londondailynews",
         "language": "",
         "tone": 0,
-        "seendate": "20261028T071937Z",
+        "seendate": "20261028T072358Z",
         "source": "GoogleNews"
       },
       {
@@ -120200,37 +120256,26 @@
         "tone": 0,
         "seendate": "20261025T121519Z",
         "source": "GoogleNews"
-      },
-      {
-        "title": "Israel’s Central Bank Rejects Netanyahu’s Plan to Use Crypto to Bypass Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzFiOVRsc3RvcDZ3MmZWN2k4alFWSTI4eUFEcDQzY2ZsZ19mRHZJdWpDcDJPVy1qOWtLYkdHMDVramI3LTlFOWFqR0JkbWZwczBocmhJNld0QTB2bXBNbUZWVF95R01YdmJHcEU1MnB2clo3NmxMMVdLbHFCQUFFX3NhZmpLUE9pYkxseTZYUlFwQ3pNc2dLWDJRN2pxQW9JRmfSAacBQVVfeXFMTnJ3aFZkdzJxTy13Qi16M0J6eThLN21rSTJ4dktEc2N1YmNDcmFQZUZMTElDVG8yaGU1emRpZUpxREg5dEk5QXU0U2lSSzc3eUhDTDZHWFlxR2hTcndiUzI2Qm5SWVNPRnVLWDk1YUF5aGVSYVQ4ZEROUFZMS0VkZkc3N2RhSVBSTWFjVXJOcUZKcUc5X2Mzall0cGxPcU5rU0NVcE14Rms?oc=5",
-        "domain": "zycrypto",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T220528Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Taliban denies Masood Azhar is in Afghanistan: How India plans to corner Pakistan",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSE03QTZLSVBWOTY0M1J6Zm5aZU9IMW1CQ2J6cnNCYjRnYmswNkVjWkQ2aklJWWJwa0ZIdzZlZXpCWTVNREY0Rk9rbjFCSHprRlZ5ZXJpT0FSS1V2M1NVaGtac0xpcnlnVDVhV1NXLTBNVG10dm9aSE5GVHdESXFNTXFPR1Y2VWRCNVMtd21Pd25KZERtUWtyanljdUppQjZO0gGgAUFVX3lxTFBITTdBNktJUFY5NjQzUnpmblplT0gxbUJDYnpyc0JiNGdiazA2RWNaRDZqSUlZYnBrRkh3NmVlekJZNU1ERjRGT2tuMUJIemtGVnllcmlPQVJLVXYzU1Voa1pzTGlyeWdUNWFXU1ctME1UbXR2b1pITkZUd0RJcU1NcU9HVjZVZEI1Uy13bU93bkpkRG1Ra3JqeWN1SmlCNk4?oc=5",
-        "domain": "mathrubhumienglish",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261028T090303Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The official records behind the United States action involving Crawford Capital",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVU9WNkVBeXN3TUU3M3NqYmRGVFR2VEtMd3VaZkV3N0tkSVBWd0hVei1ycndqMjBuaXV6RnBHdE9uLTU3Y3FjcE56R1pHNUlLU1FQSnk3MFVaRVRkUHpLdU1rVjNBc1hZRGJPOHJJNldEMWtVYnNtWTFzRmItT3VYcFBIQUF2bHhlSU12NEMtenN6Y3M0?oc=5",
-        "domain": "nyakundireport",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T125238Z",
-        "source": "GoogleNews"
       }
     ]
   },
   "events": [
+    {
+      "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
+      "url": "https://home.treasury.gov/news/press-releases/sb0668/",
+      "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+      "date": "2026-10-28",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
+      "url": "https://home.treasury.gov/news/press-releases/sb0669/",
+      "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
+      "date": "2026-10-28",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
       "url": "https://home.treasury.gov/news/press-releases/sb0664/",
@@ -120333,22 +120378,6 @@
       "action_title": "Counter Terrorism Designations",
       "action_url": "https://ofac.treasury.gov/recent-actions/20261002",
       "date": "2026-10-02",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
-      "url": "https://home.treasury.gov/news/press-releases/sb0644/",
-      "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
-      "date": "2026-10-01",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
-      "url": "https://home.treasury.gov/news/press-releases/sb0643/",
-      "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
-      "date": "2026-10-01",
       "source": "OFAC/Treasury"
     }
   ],
