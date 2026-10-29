@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-29T05:42:01.158195+00:00",
+    "generated": "2026-10-29T12:55:23.077522+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-29T05:40:14.553884+00:00",
+    "issued_at": "2026-10-29T12:53:36.786186+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-09T04:35:35.191197+00:00",
-        "score": 23.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 48.4,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 4.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-09T11:16:32.831464+00:00",
         "score": 23.1,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-10-29T05:40:14.553884+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-29T12:53:36.786186+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120062,12 +120062,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan sanctions 35 Russia-linked vessels in new crackdown on Moscow",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajZzTGU1bjJ0V09zZENELWVzaUQyMHZQN2tRNGtTZGtxRC1xX0w5eHNqZ1pLRGxNRDZtLXhFUGhHUTNSbjV5Tk1DNkl0OGthOEJSLXVvVEx2TWEzSnFTcU0xX3d2TS0zSFRLcWpuWFZxOFROYmRxVFd0SVRrR1hsMi1kSmRuejgxYlk2aEw5UXNrQ1BCaTlCeWc5ejlhZk9qcEd1a2IwWHF3V002cFhkRGstbjIwRDB0NG5GM3o2UQ?oc=5",
+        "domain": "shippingtelegraph",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261023T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzFZTjVTeEZ2NGxlLTA5OTZNQWtudFh1MmJwR3FvR1hXY0hDQU10a0hldmxXenBaUGlZOUNxTTdZdllEeC1YNlgxVWdGcV9Ddy1GT19TOWF0eGt3WlgwMWZoYi1YaGZLSV8xZEVOZHFIdTFPUzRDTTFQWmFaQzk3dGl1OWVUYlloek1wVkdQUDZQdFYwM2t4VEZsWngyY0ZoX2MtTjFBUS1iWWkzTTVtTEQ1ZV9kcG5CbmhBYmszS3pRQ1pQYTVZdTZfdjJLUQ?oc=5",
         "domain": "theguardian",
         "language": "",
         "tone": 0,
         "seendate": "20261026T151600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK sanctions senior commanders implicated in campaign of rape in Sudan and unveils new support for survivors",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcmYwUHllRFExX3hDVWtkd1IwVGRmY1VMMVY3RVA0V2tIS1VtZzFqakRhMHgycG1XcVk2cDFPczM5QUZlc0p5dE1nUjRpU0J0d2NfYmpwRHo2Um52Q3pNOVVtUWZ6cnFuODhVNUZzbk85c1RUbDFBZEtoNUtqVF9URFVtSUZKUFlYSnU2c2NrVllVYmRvbkFEWVRiZjNIbzdfaGN0aG5lSHpWcXEwbk4xdlM4TjlZOGNpb0dPQTN3MFhJbXAyZGNRT3JteXdCSVpUOFlPMUotNlRFc0k?oc=5",
+        "domain": "gov.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T101923Z",
         "source": "GoogleNews"
       },
       {
@@ -120086,15 +120104,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261026T145435Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK sanctions senior commanders implicated in campaign of rape in Sudan and unveils new support for survivors",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcmYwUHllRFExX3hDVWtkd1IwVGRmY1VMMVY3RVA0V2tIS1VtZzFqakRhMHgycG1XcVk2cDFPczM5QUZlc0p5dE1nUjRpU0J0d2NfYmpwRHo2Um52Q3pNOVVtUWZ6cnFuODhVNUZzbk85c1RUbDFBZEtoNUtqVF9URFVtSUZKUFlYSnU2c2NrVllVYmRvbkFEWVRiZjNIbzdfaGN0aG5lSHpWcXEwbk4xdlM4TjlZOGNpb0dPQTN3MFhJbXAyZGNRT3JteXdCSVpUOFlPMUotNlRFc0k?oc=5",
-        "domain": "gov.uk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T101923Z",
         "source": "GoogleNews"
       },
       {
@@ -120194,15 +120203,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261028T072358Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "AU renews call for immediate lifting of Zimbabwe sanctions",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR0FzOWNNX0lMU2l6NnFCekc1bUJCZi1tUTBnRU52a0drbG5ybzljbTZjcS1UN3lqNFA3eVZpMlRfZ0h0OTl3OURRQ1pfS2ZacUo0cW1JZVpfb1dJSWtBaVhHYWFyaVlhcDBpYkdzUEI3SmdzTG5UUEs5TUF0a2JVTXZJQUxUbWNzTnU0Ni1JQmdtOXJJTnJIVHRTMC0wd9IBpgFBVV95cUxPeUFWbjQxVzI2OTBEWlc4bFNhd0NKMFB4RmE2WmVEclR0UEczS3JFZzZOeGlDRENOWEpEUkZ5bG1KV0RsR1FuVHBVYng0WFFXdjF1LVJ1WWx0RUJYSHp6UnZjaVcwUndtclcySUxkMFJyZjQ0bE9ybW1lNDFxU0VGV2ljNjV3VlRUVXR3LTZPZUYyOFNXbHRzV2FLT2YwM0ZGaXZ6Qk53?oc=5",
-        "domain": "pindulanews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T121519Z",
         "source": "GoogleNews"
       }
     ]
