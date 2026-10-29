@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-28T22:32:16.035876+00:00",
+    "generated": "2026-10-29T05:42:01.158195+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-28T22:30:29.529894+00:00",
+    "issued_at": "2026-10-29T05:40:14.553884+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 20.2,
+    "score": 13.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -28,10 +28,10 @@
         "releases_considered": 99,
         "current_7d_designation_releases": 2,
         "current_7d_all_releases": 2,
-        "prior_7d_designation_releases": 5,
+        "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.0,
-        "anomaly_z": -0.34,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": -0.67,
         "themes": [],
         "evidence": [
           {
@@ -70,12 +70,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 32.5,
+        "score": 0.0,
         "current_count": 19484,
-        "previous_count": 19471,
-        "added_count": 13,
+        "previous_count": 19484,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-10-27",
         "sha256": "5f240bed79d504e7a54788b4cd1c7f84e6afa56cd4778653b70b0771b6a8509d",
         "top_programs": [
@@ -146,86 +146,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58407",
-            "name": "ZIGAMA CREDIT AND SAVINGS SOCIETY",
-            "type": "",
-            "program": "DRCONGO"
-          },
-          {
-            "id": "58879",
-            "name": "FIRST FINANCIAL AND TECHNICAL DEVELOPMENT CENTER",
-            "type": "",
-            "program": "DPRK3"
-          },
-          {
-            "id": "58880",
-            "name": "KIM, Kyong Ju",
-            "type": "individual",
-            "program": "DPRK3"
-          },
-          {
-            "id": "58881",
-            "name": "RI, Thae Chol",
-            "type": "individual",
-            "program": "DPRK3"
-          },
-          {
-            "id": "58882",
-            "name": "SO, Hyong Jin",
-            "type": "individual",
-            "program": "DPRK3"
-          },
-          {
-            "id": "58883",
-            "name": "HAN, Yu Song",
-            "type": "individual",
-            "program": "DPRK3"
-          },
-          {
-            "id": "58884",
-            "name": "KIM, Sung Gwan",
-            "type": "individual",
-            "program": "DPRK3"
-          },
-          {
-            "id": "58885",
-            "name": "HYON, Se Il",
-            "type": "individual",
-            "program": "DPRK3"
-          },
-          {
-            "id": "58886",
-            "name": "BOYKOV, Ilya Aleksandrovich",
-            "type": "individual",
-            "program": "DPRK2"
-          },
-          {
-            "id": "58887",
-            "name": "KIM, Ki Hyok",
-            "type": "individual",
-            "program": "DPRK2"
-          },
-          {
-            "id": "58888",
-            "name": "KIM, Hyo Dong",
-            "type": "individual",
-            "program": "DPRK2"
-          },
-          {
-            "id": "58889",
-            "name": "OBERTAS, Vitold Viktorovich",
-            "type": "individual",
-            "program": "DPRK2"
-          },
-          {
-            "id": "59069",
-            "name": "MINISTRY OF DEFENCE OF THE REPUBLIC OF RWANDA",
-            "type": "",
-            "program": "DRCONGO"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -236,8 +157,8 @@
         "score": 12.6,
         "current_7d_releases": 2,
         "current_weighted_term_rate": 1.75,
-        "baseline_weeks": 12,
-        "anomaly_z": -0.29,
+        "baseline_weeks": 11,
+        "anomaly_z": -0.34,
         "matched_release_count": 2,
         "relief_release_count": 0,
         "evidence": [
@@ -348,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-08T21:05:56.908164+00:00",
-        "score": 26.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 56.9,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 4.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-09T04:35:35.191197+00:00",
         "score": 23.1,
@@ -2327,6 +2237,17 @@
           "official_posture_shift": 12.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-10-29T05:40:14.553884+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2391,13 +2312,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "20.2/100",
+      "value": "13.7/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,484",
-      "delta": "+13 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -120237,6 +120158,33 @@
         "language": "",
         "tone": 0,
         "seendate": "20261028T194219Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Azerbaijan updates international sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONFpLbkkyTlhGSDdaenllckVUZ0RDblkxNzZvcmg1OHYySGs3VmdyaEFYZ3RTQ1VjRmpMZU9yYl9tQjhSSmNmWW4zS0hWc3JKNktERU1IamRBejlBbGpCVkJDNVRIRVpmT2xGQ21oWXhqckE2REt1aXJxT1BKei1OaFllNGRnajFQVWo1Yzd5Rjk?oc=5",
+        "domain": "operativmedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261028T193400Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Crypto Banking Alert: Bank of Israel’s Sanctions Warning",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44M3F1Q01hMU4wTzV0ZTc3dVc1TUU2Rk9zVWlUdlRFVVpSR3l6SmxieUY0Z2tpVmNZeGg3QkY5ZlMxcWtFR2xNbTZrcVdpTENTZkUyWjFwS0xVOUpHbF9MSzFESUpEU0Q5eHgwSWZoWVc1TG9RZ0E?oc=5",
+        "domain": "onesafe.io",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261025T020657Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Council extends sanctions against Da'esh, Al-Qaeda",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTlg0V2JLLWlQblI4VThvaEhCSXVNUmJYVklBRnluVS0wN2FwSkk4N0d1UUVzQlZLc2xETjQ4dTd6bGtuTU9sNXVJSXE2NnF4VmlaUWZSUGplS2JPNXRqazNpenJLS004Si1VQTB1bm9UaVh5QzB3S2VJSnVsbGoza2pfTTRxdlVCY0RiUGd3N25WdWZVS0c1cHRVcTFJdw?oc=5",
+        "domain": "bignewsnetwork.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T124700Z",
         "source": "GoogleNews"
       },
       {
