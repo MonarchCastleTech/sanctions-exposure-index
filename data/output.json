@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-30T05:41:26.215768+00:00",
+    "generated": "2026-10-30T12:47:55.240308+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-30T05:39:39.659464+00:00",
+    "issued_at": "2026-10-30T12:46:08.962270+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-09T20:54:00.087467+00:00",
-        "score": 29.7,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 66.1,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 6.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-10T04:35:04.757714+00:00",
         "score": 19.1,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-10-30T05:39:39.659464+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-30T12:46:08.962270+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120053,6 +120053,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Weekly Sanctions Update: October 26, 2026",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUXNTdlU4SVg5NHRPa0U0bmJQRU85Z3FYMk9pUjNncTlPWk9vN3h2MjlaUkdWV2VvS1RySFBVX2FJczVKN3VxMWIxckVYRk5TT3VIQkk4REtZSlNyZm84eUJiSFlQb25tNTU0UmROeVY3cXpoeVFBZG5iTGlIR3Zmc2NsYy1mQmtsSV9WWXhvYi04WHRDNHFCM2ExS3oxazIxeWUwTllUdEpTVEF6Rkk0d0FSLS1Lb2ZrdE5N?oc=5",
+        "domain": "steptoe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T215612Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Two UN-sanctioned North Korean tankers spotted repeatedly off China",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0lWNS1XLWNkU0Q0ckI2NG9HVXl2T1ZRTUg4LXR0OUFwdE1KMGFjZk11OHBSaVNWUTY5NHRtNV9wcWpYUlNqZUpKOXE4UXBYWF9Ed0tUeFFoM1JLek54d3RWd09jei1GcWVLN0E2LXh2VzUxaFVydm5PYlU4ekhWZDFYLXBUQ3RYVWx2am11VUpWMER4eDh4RDgzVHdNY3hIdVkwQ21Pem5rQdIBrAFBVV95cUxPS2lsUkVhZnZmRVh4YTVkQkVDUThQZlB1bTZFZlhZYTFCQUJSMDR0cV92QzRzZ09NZ3ZRc2YtUnpsRlFIVUczM2pYYl9oTFB5d29MakNIRjFiUU5ieGxfYy1lc1JsVUM2SzRtTnFiSGMxc2pNcnFGODB0R0thNGd4b28tczd3eFAzWlo2aHJLb0tTM21zTzhoejlIcl91aUNLRUNoQ0c1V1hqNDhy?oc=5",
         "domain": "voa-voiceofamericaenglishnews",
@@ -120062,21 +120071,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan sanctions 35 Russia-linked vessels in new crackdown on Moscow",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajZzTGU1bjJ0V09zZENELWVzaUQyMHZQN2tRNGtTZGtxRC1xX0w5eHNqZ1pLRGxNRDZtLXhFUGhHUTNSbjV5Tk1DNkl0OGthOEJSLXVvVEx2TWEzSnFTcU0xX3d2TS0zSFRLcWpuWFZxOFROYmRxVFd0SVRrR1hsMi1kSmRuejgxYlk2aEw5UXNrQ1BCaTlCeWc5ejlhZk9qcEd1a2IwWHF3V002cFhkRGstbjIwRDB0NG5GM3o2UQ?oc=5",
-        "domain": "shippingtelegraph",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261023T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzFZTjVTeEZ2NGxlLTA5OTZNQWtudFh1MmJwR3FvR1hXY0hDQU10a0hldmxXenBaUGlZOUNxTTdZdllEeC1YNlgxVWdGcV9Ddy1GT19TOWF0eGt3WlgwMWZoYi1YaGZLSV8xZEVOZHFIdTFPUzRDTTFQWmFaQzk3dGl1OWVUYlloek1wVkdQUDZQdFYwM2t4VEZsWngyY0ZoX2MtTjFBUS1iWWkzTTVtTEQ1ZV9kcG5CbmhBYmszS3pRQ1pQYTVZdTZfdjJLUQ?oc=5",
         "domain": "theguardian",
         "language": "",
         "tone": 0,
         "seendate": "20261026T151600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWFJ4U3RNXy1ybkxBN0trRFctRG5kbmNaSUVoZTdldjRacjNBOU9zS1MtY3pVenN6MEcxaXFnczZ5MUZhUDczVkNTeUQ3U3hWSUFJOU9sSV94NEJPakhPT1VaOTlzMTBfSUMxSEJtRzVhSDNCQ0kyem9nVmZ5X1lTNFk0OG4xR193OXFyRXJZM29JSGpRdmZmLTBXR3RYZmhSUkZGWFF5algzN1k2WDNnaWlCWE14aG5UQllMNFBXU1M4ei1XN19ZU3JzandmUFBtVUE3S1hoaldlQU9WTzUtUlVDSW7SAeoBQVVfeXFMTTIyT2dCYTVwWWIxWEVPVDJjOXJzU0t1ZHU1WjF0Z3hzWVBPYUlWRVBtOEJtbW10ZkFfSmh4WFdjRUU3WlRRbEZfSjNIUkkxMnV5UVg0aUpuNk1sVnc4UmxnMWRrTTRGRzFxSTNGaU5EdlFzVGxkNHNwdFNUbWR5UE5VY0JFT3hFc0hQOFQ0a2llRl9jWGdRNXNoSkNDQVM2MmIwcW9FTkNnOGQyZDBiWVNrX2RfSDd4Yzk5Njc2aGJ4U0dzTGZIc2ZRYXF0U2hSMXlFQ2lUTjBNMVprN3h5RVdVY1cxbXNaOVFB?oc=5",
+        "domain": "texomashomepage.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261028T101604Z",
         "source": "GoogleNews"
       },
       {
@@ -120098,21 +120107,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "When frozen assets meet freezing orders: Can sanctioned parties obtain injunctions?",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUxLakhRZVU5MDFCX0VMc2xzRmdhakUta2N3RlFXZHFyUGdhX3A0dkJaT1ByVGFRNk9JTXdsLU9LWnBodFVsZjlIUXJ2cDM2aEI5b2tQMnJ3Nk9pNHpQRlBzYjVwMFB0TWV5TTIzNUVxbjcyUEotUkU1SE9WWGlvaUlfRlNWOC15dXZGMzdBOWtCME1jcm5zY3owcFp5bVlzamJUa0ludFNQUzd4TERN?oc=5",
-        "domain": "mishcondereyallp",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T145435Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "U.K. Sanctions Sudan Commanders Over Suspected Atrocities",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ1J1M1lnTm94TDlGajFBRlRmd2FLMXBiZF8xbXBzUVlwX21qVXRmMDhzMVh6QWlyb0NKa3pNbWZycnRTTm41WTJnbDR6Ung1dERPa2oyZlF4WXJqMm9TTjFGODJ2ZHVSYmtwRl9kamkwVDVXU2g1Z0F4OVZkYU9NWFY3bjAtTkZBQkxuY3kzeEtXcUNOaXRtOA?oc=5",
         "domain": "wsj",
         "language": "",
         "tone": 0,
         "seendate": "20261027T115700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hell or high water: contractual risk allocation prevails in GTLK v Pola Maritime",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVRKNkktZXdFSkpEUzE1SGt6Q2hZT0pQcE1wcmlhOXlVNUJ2NW9nbDVINUhYYUVzMG5PanpHbEM1ZXBDdEVsLUtHa0ZoeERJYU8tYWgwNmsyQ2ZoLVNuRkJlVG5FaFpZeHlxdnpXcVBqSGEzTWxYeWFac0NsUXlLanNxV1lXSFJra2dVci1XRUpXYjNmRDZKaG5NSXVGSHZxdW5tTDJXMFFtZFVYYm5aeElLZDA4QTFPYUlYQQ?oc=5",
+        "domain": "penningtonsmanchescooper",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261028T110744Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Binance Hack: Who Can Recover $3 Billion in Frozen Crypto?",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nVlVYeXdPTUVFNXhFNEhxaUQ1UUVHRXplV3VNRFFHRXNOVnMzWGVfd0tyXy1vTV9KSGpmejBXZllCTGdNN1dYNGx0WW15TnY5eGh2NXY4UUxEc0pualE?oc=5",
+        "domain": "diplomacyandlaw",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T000351Z",
         "source": "GoogleNews"
       },
       {
@@ -120134,12 +120152,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends sanctions against ISIL and Al-Qaeda through 2027",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVUdDLW9YSGlUTTNCeU1OdHZXUHhnVnpQRkxVNU9rd1pzWFNNS2FKeV9KcWVvRWYxNEpXUV9QTkRZUzV0NnVlM3dYdi1HZG9wNlFDek9od0Y4aW9XdXhNdURhSkprY3dsdkhzbk1hZ1E5UUU5dkYzV3V5eGJxX2wxajNBTEFIRk5rSmpKRG1KOGpHY1RKS1FoMUhlRkNNVFdQaVNVdkFjRW4xR2tsYUdqM0ppYl90Yk5fSkcxQ285YXNNaGR2QmxuSm9ITmV0X3IwaFdNNnBLY2FaaTF6UzJ6MENPRkFHZF9NVXBoTGRXZWZkXzFMQWVj?oc=5",
-        "domain": "thebrusselstimes",
+        "title": "EU extends sanctions against Jacques Baud",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR3JtUldaV0pjWDY2MTNDLUpYVGktUlR4azYtc29vNk0zZnJDZjcyRG5GdUFXcWJkTnJDdnp3UG5GTTZWOEstN2hITWJNQ2dHOGtaQ1lDOWF5TnhRaVhjTEFYWVJ6YVJ4RlJaVHhZWC1MLXVLSUgtSUxhZHZocS1qWGhnaUFnWGRoMmRpcUhkdjdQMUc2cHFMNXdkZ1NxQnFESkxrQTg4ZXJiNHM?oc=5",
+        "domain": "swiswissinfo.ch",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T190931Z",
+        "seendate": "20261025T113316Z",
         "source": "GoogleNews"
       },
       {
@@ -120161,12 +120179,57 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Why are Bitcoin and cryptocurrency prices falling after Binance's $2.5 billion asset freeze?",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONS1EcWZrc3FXYjAxRWE3Xzltd3gyQ1g3QlBQMlJHVlNJX2tIUG5CSlo2NDRQMVhaVVktSTdwUy1ScHREeTF6Rjdadm8tVUxnR2dQTml1dkFoTG1TMFdqUjkyQ1hMdVh6akJITG1SMGhmQm44eGdvQThNelVYUkRvWEFZdVVfd3VVZVZFTmtrX1ZYV04ySWpRLV9lS2h0RTFZb3Exa2lYTC1yYXZMV18w?oc=5",
+        "domain": "latestnewsfromazerbaijan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T014213Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "HTX Exits UK Market Under Court-Backed FCA Deal Barring Crypto Ads Until 2031",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OcXJBZjNzVWs4d1lYbDVRd3hLLW5ZRWZXX0g2ZFpubWRTc0U1OVdoeXk2cWZDamlfWUsxQ3E5blRUU3NpYkdKRHp6bmJwMm1relRpOHUwX2NUS1dIZFUtdThjczNZQ0doeDZDZXpsYmxEZXY4bWc?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T155500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "GRC says Russian intermediaries offer North Korean workers to businesses — ABC News Australia",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFFmWm9xZktJcUxVUHNyajdHbFBETnQ5Vmt3M0lSdFJQN0lxeHRzYVRBTGF0ZzB0YkFDMmJoNlVCbEgxSkxXYlJvNXZlQlVkcnJqUEdvMlduTEZDUk5BbG42OWdBcGJDZ3BtcU15Z2h4Qjdvak91dFZSei1GZmdOX1BtUEFneVhDRWREeVhkUUVaSGdXNXlYX0hla3lpYUZiUHRTQk5TWlAwbFdwNTBxSlZla01XT0swVm5pcTRaSQ?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T070135Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Cardano Foundation joins the Swiss body writing tokenized securities rules",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOandtMVFscmV0Y3Z0bl85RWo1bUU4bVJfSnhTMlJkcU52b09PVDRuZXdoUUZTOEdjSEM0QzVvZWhodjZtLWtTOHUxOWJpRGcwVzFnQ0dXV1pHQTFkbnZUQnZsU0NhcDF1b01mN2Y1NnZJQVR1Y1dJT2JtekkzVnI4QWFoanNTeG8xZTd2VmZTMWFKZFdWQmMxeXpuVnpmVFZYS0pxeQ?oc=5",
+        "domain": "startupfortune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T140456Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Qatar-Led Mediators Push Iran Nuclear Proposal For Sanctions Relief and Asset Access",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVlYtYkg4eUVPNVVxTWhRelVfWkFCQUpxcEZfbUNjZU1XUjZLbS1SdDhrYlh6UnM3VzNBMzZsZ3AyeW9iWk10eTlSWFQzVkFjaF96Tnp5emVFeVRpcWFBbjd1bm0yQnNjYy1ORHoxTXpKSFVZaWkyU241LTNacUFfZGlDZ0J3MHlxV1o5bk5CSzhyLXQtcTNraTJXYkdkdlh5dkl0Nk9yNWlzZS1wdXQ0?oc=5",
         "domain": "sahi",
         "language": "",
         "tone": 0,
         "seendate": "20261028T194219Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Stablecoin Sanctions Screening and Compliance",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1V5eEEwZzNmMTZmb29EVUtNSU14WERKRlBvTld4S1JfaE5OZ3hvZzljd3lsZEc5ZnJnT3FISmxpYmxXbkZTV2I3VXQydktDdk1fcXhGZmxLMGs2LUJkOXVDd2FRVUxPTkdldmUwYjdjOFlxejdOaFJZZnAzeEdEaVpPaw?oc=5",
+        "domain": "blockchaincouncil",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T200458Z",
         "source": "GoogleNews"
       },
       {
@@ -120179,12 +120242,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Crypto Banking Alert: Bank of Israel’s Sanctions Warning",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44M3F1Q01hMU4wTzV0ZTc3dVc1TUU2Rk9zVWlUdlRFVVpSR3l6SmxieUY0Z2tpVmNZeGg3QkY5ZlMxcWtFR2xNbTZrcVdpTENTZkUyWjFwS0xVOUpHbF9MSzFESUpEU0Q5eHgwSWZoWVc1TG9RZ0E?oc=5",
+        "title": "Netanyahus Crypto Banking Plan: What It Means for Business",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd0I0d3dXSXlrelZ3QkpONXJTdUNxVTdTZm1jQVdnMmdfeUcycm41N29XX1Q2ODM1aWJnNW1kMnE3Y2taQ3NuRUtPdWZ0SVhqRElqSnYzVVlhNG9qNzhvcGpKalJKQUp2TmNLTW1FUHZKNEhIZE9QNkVzMUVnak9LOUFQY09Od2FCU213?oc=5",
         "domain": "onesafe.io",
         "language": "",
         "tone": 0,
-        "seendate": "20261025T020657Z",
+        "seendate": "20261024T081946Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Government Says No Recruitment Freeze For Midlands Graduate Nurses",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUEpDelFvbnlrb2hUXzhDcHRZWG12TlIzZ19QT3ZZZVB2eW1uQ0x5NlpQOFhXVWxacG9VcW01c1JrY1FibVc2NGVyMUpra3huWFUyVHFoRnYxM2QyM05QXzhRTm1vWVA3Y0VaSmIwdUNxeVdOUXdLSk5Ockd6UUhUU1NCb1UtSzZPZVdnaVhmVThyanlrWmxrVDJZQm52b1JhSzlZckxlMmVFUlZUd0RmZ29yVmQ?oc=5",
+        "domain": "midlands103",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261027T102445Z",
         "source": "GoogleNews"
       },
       {
@@ -120203,6 +120275,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261028T072358Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Israel’s Central Bank Rejects Netanyahu’s Plan to Use Crypto to Bypass Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzFiOVRsc3RvcDZ3MmZWN2k4alFWSTI4eUFEcDQzY2ZsZ19mRHZJdWpDcDJPVy1qOWtLYkdHMDVramI3LTlFOWFqR0JkbWZwczBocmhJNld0QTB2bXBNbUZWVF95R01YdmJHcEU1MnB2clo3NmxMMVdLbHFCQUFFX3NhZmpLUE9pYkxseTZYUlFwQ3pNc2dLWDJRN2pxQW9JRmfSAacBQVVfeXFMTnJ3aFZkdzJxTy13Qi16M0J6eThLN21rSTJ4dktEc2N1YmNDcmFQZUZMTElDVG8yaGU1emRpZUpxREg5dEk5QXU0U2lSSzc3eUhDTDZHWFlxR2hTcndiUzI2Qm5SWVNPRnVLWDk1YUF5aGVSYVQ4ZEROUFZMS0VkZkc3N2RhSVBSTWFjVXJOcUZKcUc5X2Mzall0cGxPcU5rU0NVcE14Rms?oc=5",
+        "domain": "zycrypto",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T220528Z",
         "source": "GoogleNews"
       }
     ]
