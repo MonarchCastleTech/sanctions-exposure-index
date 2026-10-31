@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-10-30T22:16:25.111838+00:00",
+    "generated": "2026-10-31T05:31:54.860278+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-30T22:14:38.356674+00:00",
+    "issued_at": "2026-10-31T05:30:08.342166+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-10T11:13:06.694298+00:00",
-        "score": 19.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 6.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-10T16:20:57.135129+00:00",
         "score": 21.5,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-10-30T22:14:38.356674+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-10-31T05:30:08.342166+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120089,21 +120089,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan lifts asset freeze measures on three Arabs “previously linked to terrorism”",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzQ4VDdQcXNnanpaVjFJTzcyYU5UR0JDQXBYSzRlYlk1dVl1cWtFdERHdEhNUGJ3dUUxZkllY3BpOWdVUG5sY256MHVILTBLdHRXWkY4cE1VQ29PeWUyYVduMllONFBMcDhZc3BaU0pxVG5NUjJLbG9NaTFlRng2VkRaTHNsVkhpM2NLRG1iSFljaE1jMlpCS1dIb2EybW9mcm1MNEVVU3l3RkVhUGlSVTVVZmNYM3NtcEJ2NXJ2dGY?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T200820Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWFJ4U3RNXy1ybkxBN0trRFctRG5kbmNaSUVoZTdldjRacjNBOU9zS1MtY3pVenN6MEcxaXFnczZ5MUZhUDczVkNTeUQ3U3hWSUFJOU9sSV94NEJPakhPT1VaOTlzMTBfSUMxSEJtRzVhSDNCQ0kyem9nVmZ5X1lTNFk0OG4xR193OXFyRXJZM29JSGpRdmZmLTBXR3RYZmhSUkZGWFF5algzN1k2WDNnaWlCWE14aG5UQllMNFBXU1M4ei1XN19ZU3JzandmUFBtVUE3S1hoaldlQU9WTzUtUlVDSW7SAeoBQVVfeXFMTTIyT2dCYTVwWWIxWEVPVDJjOXJzU0t1ZHU1WjF0Z3hzWVBPYUlWRVBtOEJtbW10ZkFfSmh4WFdjRUU3WlRRbEZfSjNIUkkxMnV5UVg0aUpuNk1sVnc4UmxnMWRrTTRGRzFxSTNGaU5EdlFzVGxkNHNwdFNUbWR5UE5VY0JFT3hFc0hQOFQ0a2llRl9jWGdRNXNoSkNDQVM2MmIwcW9FTkNnOGQyZDBiWVNrX2RfSDd4Yzk5Njc2aGJ4U0dzTGZIc2ZRYXF0U2hSMXlFQ2lUTjBNMVprN3h5RVdVY1cxbXNaOVFB?oc=5",
         "domain": "texomashomepage.com",
         "language": "",
         "tone": 0,
         "seendate": "20261028T101604Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan lifts asset freeze measures on three Arabs “previously linked to terrorism”",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzQ4VDdQcXNnanpaVjFJTzcyYU5UR0JDQXBYSzRlYlk1dVl1cWtFdERHdEhNUGJ3dUUxZkllY3BpOWdVUG5sY256MHVILTBLdHRXWkY4cE1VQ29PeWUyYVduMllONFBMcDhZc3BaU0pxVG5NUjJLbG9NaTFlRng2VkRaTHNsVkhpM2NLRG1iSFljaE1jMlpCS1dIb2EybW9mcm1MNEVVU3l3RkVhUGlSVTVVZmNYM3NtcEJ2NXJ2dGY?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261030T113730Z",
         "source": "GoogleNews"
       },
       {
@@ -120125,12 +120125,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "U.K. Sanctions Sudan Commanders Over Suspected Atrocities",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ1J1M1lnTm94TDlGajFBRlRmd2FLMXBiZF8xbXBzUVlwX21qVXRmMDhzMVh6QWlyb0NKa3pNbWZycnRTTm41WTJnbDR6Ung1dERPa2oyZlF4WXJqMm9TTjFGODJ2ZHVSYmtwRl9kamkwVDVXU2g1Z0F4OVZkYU9NWFY3bjAtTkZBQkxuY3kzeEtXcUNOaXRtOA?oc=5",
-        "domain": "wsj",
+        "title": "Crypto experts question double standard after issuers freeze billions in Binance hack",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeDIxdTYzVE5KeGdyZ2JTQ0N0SWtJVjMxTlFIQWRyeGk0LUJ4VTM0MGpKVG42cWVsUElnNHlMMF9tcmI0a3BDM2l5NVlxakNOMmFhaXJjNnIyYnRpZHVvU2VybXg0TkJoMUllWDBvbnFzeUE5OGpVLWFDa2ItR3FmdXdwU05YZUY1TkREX3ZmODJuZXZmTy1YTXpPYnJaR0xjUlBrV0dzSHhqVndhQ1cyNk5xcTdBWHJWclBxdW9wSWpnQQ?oc=5",
+        "domain": "coindesk",
         "language": "",
         "tone": 0,
-        "seendate": "20261027T115700Z",
+        "seendate": "20261030T195500Z",
         "source": "GoogleNews"
       },
       {
@@ -120152,15 +120152,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Crypto experts question double standard after issuers freeze billions in Binance hack",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeDIxdTYzVE5KeGdyZ2JTQ0N0SWtJVjMxTlFIQWRyeGk0LUJ4VTM0MGpKVG42cWVsUElnNHlMMF9tcmI0a3BDM2l5NVlxakNOMmFhaXJjNnIyYnRpZHVvU2VybXg0TkJoMUllWDBvbnFzeUE5OGpVLWFDa2ItR3FmdXdwU05YZUY1TkREX3ZmODJuZXZmTy1YTXpPYnJaR0xjUlBrV0dzSHhqVndhQ1cyNk5xcTdBWHJWclBxdW9wSWpnQQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261030T195500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Binance Security Breach: $6.3B Impact, $3B Frozen",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkUUdPRllNU0tCd2VmR2NUUXhxVllEaUtQZnJfa00xMWlFdnBuZVlSRFI0c0ZrdkpBLUFlTnhxU2YyOGlSMnN2ZHBIYi1GdE5vNDRWR3lPQjFMV0dPYU5WVXR3Z2tUYkVvOGhDMHVoRVl1NGpGbldLOGpIbU1lUQ?oc=5",
         "domain": "fincrimecentral",
@@ -120175,7 +120166,7 @@
         "domain": "diplomacyandlaw",
         "language": "",
         "tone": 0,
-        "seendate": "20261030T174845Z",
+        "seendate": "20261030T175233Z",
         "source": "GoogleNews"
       },
       {
@@ -120197,21 +120188,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Justin Sun's HTX Delists Trump Family's USD1 Stablecoin Over Freeze",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMC1pQUphRVJkWG03RWRaekV3ZlJfSUJWSFg2VzlRWWZoSVh5NkZUSDRmZFppQXdNU0E0bk5kRWNmSUxyUkdCay1DUU5PbWZDNTRGUmVHTHZ6SU1iZ0NWdndHUlRYUXROUnZ2RDdyeW1oVVRWZlltcGdwSnR4eTFHcDdDUmVTdjdKZFBjTkxkUk5iSUFpZV8wNQ?oc=5",
-        "domain": "startupfortune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261028T081338Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU extends sanctions against Jacques Baud",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR3JtUldaV0pjWDY2MTNDLUpYVGktUlR4azYtc29vNk0zZnJDZjcyRG5GdUFXcWJkTnJDdnp3UG5GTTZWOEstN2hITWJNQ2dHOGtaQ1lDOWF5TnhRaVhjTEFYWVJ6YVJ4RlJaVHhZWC1MLXVLSUgtSUxhZHZocS1qWGhnaUFnWGRoMmRpcUhkdjdQMUc2cHFMNXdkZ1NxQnFESkxrQTg4ZXJiNHM?oc=5",
         "domain": "swiswissinfo.ch",
         "language": "",
         "tone": 0,
         "seendate": "20261025T113316Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Justin Sun's HTX Delists Trump Family's USD1 Stablecoin Over Freeze",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMC1pQUphRVJkWG03RWRaekV3ZlJfSUJWSFg2VzlRWWZoSVh5NkZUSDRmZFppQXdNU0E0bk5kRWNmSUxyUkdCay1DUU5PbWZDNTRGUmVHTHZ6SU1iZ0NWdndHUlRYUXROUnZ2RDdyeW1oVVRWZlltcGdwSnR4eTFHcDdDUmVTdjdKZFBjTkxkUk5iSUFpZV8wNQ?oc=5",
+        "domain": "startupfortune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261028T081338Z",
         "source": "GoogleNews"
       },
       {
