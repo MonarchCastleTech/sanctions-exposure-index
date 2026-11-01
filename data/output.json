@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-01T05:57:11.835964+00:00",
+    "generated": "2026-11-01T13:15:51.786787+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-01T05:55:25.542774+00:00",
+    "issued_at": "2026-11-01T13:14:05.156940+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-11T11:14:26.828611+00:00",
-        "score": 23.8,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 46.8,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-11T16:24:59.818283+00:00",
         "score": 23.8,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-11-01T05:55:25.542774+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-01T13:14:05.156940+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120062,21 +120062,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "It’s time to stop platforming the Taliban",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTHR0QVZSLWsyTjNMTk5xVTl5YVpvWHZrQldSSUN2NmRJSHRuenBwQ1VrTG1mS3IxempSd283ckZUMTdUZmpfNHVXSElSdkJZNVY5bEVVdUk0UWhUeVpZdHR3cDZ3R1hla0g1Y2NhUHNjODhqNWZreUVkc01ieWFpWGlkSmItZjQ?oc=5",
-        "domain": "georgew.bushpresidentialcenter",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261027T174303Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWFJ4U3RNXy1ybkxBN0trRFctRG5kbmNaSUVoZTdldjRacjNBOU9zS1MtY3pVenN6MEcxaXFnczZ5MUZhUDczVkNTeUQ3U3hWSUFJOU9sSV94NEJPakhPT1VaOTlzMTBfSUMxSEJtRzVhSDNCQ0kyem9nVmZ5X1lTNFk0OG4xR193OXFyRXJZM29JSGpRdmZmLTBXR3RYZmhSUkZGWFF5algzN1k2WDNnaWlCWE14aG5UQllMNFBXU1M4ei1XN19ZU3JzandmUFBtVUE3S1hoaldlQU9WTzUtUlVDSW7SAeoBQVVfeXFMTTIyT2dCYTVwWWIxWEVPVDJjOXJzU0t1ZHU1WjF0Z3hzWVBPYUlWRVBtOEJtbW10ZkFfSmh4WFdjRUU3WlRRbEZfSjNIUkkxMnV5UVg0aUpuNk1sVnc4UmxnMWRrTTRGRzFxSTNGaU5EdlFzVGxkNHNwdFNUbWR5UE5VY0JFT3hFc0hQOFQ0a2llRl9jWGdRNXNoSkNDQVM2MmIwcW9FTkNnOGQyZDBiWVNrX2RfSDd4Yzk5Njc2aGJ4U0dzTGZIc2ZRYXF0U2hSMXlFQ2lUTjBNMVprN3h5RVdVY1cxbXNaOVFB?oc=5",
-        "domain": "texomashomepage.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTnpRVW5hUFd5TFh5LWd4cVdQNjUwYzd0OUtXWjZObE81a3RwX2hCeUFnZkZGc2hSUkFRUUl4bF9raDE2czFkVE8ycEhsQXhRZHZ2dTBWenRoN2VyWjBNUzJ0YWhFeHYzRVo4dFRMcHZodlJGREJUWVdDQUlOSm5sRHlTRzdwSlV4Q2IwQ285Z0VmUFZuU0w3SE9neHFlRUNuQlBpajgyWDgybDZHYnBxTE5GMjd3LURSRHMzbldn?oc=5",
+        "domain": "wral",
         "language": "",
         "tone": 0,
-        "seendate": "20261028T101604Z",
+        "seendate": "20261028T130853Z",
         "source": "GoogleNews"
       },
       {
@@ -120125,21 +120116,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Crypto experts question double standard after issuers freeze billions in Binance hack",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeDIxdTYzVE5KeGdyZ2JTQ0N0SWtJVjMxTlFIQWRyeGk0LUJ4VTM0MGpKVG42cWVsUElnNHlMMF9tcmI0a3BDM2l5NVlxakNOMmFhaXJjNnIyYnRpZHVvU2VybXg0TkJoMUllWDBvbnFzeUE5OGpVLWFDa2ItR3FmdXdwU05YZUY1TkREX3ZmODJuZXZmTy1YTXpPYnJaR0xjUlBrV0dzSHhqVndhQ1cyNk5xcTdBWHJWclBxdW9wSWpnQQ?oc=5",
-        "domain": "coindesk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261030T195500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Crypto exchanges and sanctions: where does the risk begin?",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb0swUXdCb2xHQzNsNVI0OFdHam5iZU1zZUNmcTJLMGI3VjdGS2xyV3hFbGx1aUE5LS1sVEZLSTJLSGlmTkE2cGloZzlCUklsSVNObzdod3FWTnc4cjcxcFhiS3NJbnZpY0ZJeEJjU0VuUWtSV0p4WUF4VXBORHY2T0FZWFllZHFhQld1eGdWWURjQ1lwNDZMRTlHX04?oc=5",
         "domain": "fieldfisher",
         "language": "",
         "tone": 0,
         "seendate": "20261028T201257Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Crypto experts question double standard after issuers freeze billions in Binance hack",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeDIxdTYzVE5KeGdyZ2JTQ0N0SWtJVjMxTlFIQWRyeGk0LUJ4VTM0MGpKVG42cWVsUElnNHlMMF9tcmI0a3BDM2l5NVlxakNOMmFhaXJjNnIyYnRpZHVvU2VybXg0TkJoMUllWDBvbnFzeUE5OGpVLWFDa2ItR3FmdXdwU05YZUY1TkREX3ZmODJuZXZmTy1YTXpPYnJaR0xjUlBrV0dzSHhqVndhQ1cyNk5xcTdBWHJWclBxdW9wSWpnQQ?oc=5",
+        "domain": "coindesk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T195500Z",
         "source": "GoogleNews"
       },
       {
@@ -120188,21 +120179,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU extends sanctions against Jacques Baud",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR3JtUldaV0pjWDY2MTNDLUpYVGktUlR4azYtc29vNk0zZnJDZjcyRG5GdUFXcWJkTnJDdnp3UG5GTTZWOEstN2hITWJNQ2dHOGtaQ1lDOWF5TnhRaVhjTEFYWVJ6YVJ4RlJaVHhZWC1MLXVLSUgtSUxhZHZocS1qWGhnaUFnWGRoMmRpcUhkdjdQMUc2cHFMNXdkZ1NxQnFESkxrQTg4ZXJiNHM?oc=5",
-        "domain": "swiswissinfo.ch",
+        "title": "Crypto Exchange HTX Agrees to Leave UK in Settlement With FCA",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iZmlCMTM2dGRuZWk0c2dzSGhlV1Z3OXFFSmdZaUt4V0RIaV9rcE5saDVmX3RFV195aFpXY0R4aFJ6Y09jMWt6OXY3SWRJaV80eVVDZmdGVW5NZUZYTG9pdzh1b2hQQWlFVU9RZVZMT2szQlRJYW8ydW16Yw?oc=5",
+        "domain": "bitcoinmagazine",
         "language": "",
         "tone": 0,
-        "seendate": "20261025T113316Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Shenzhen Auction: What a Trump–Xi–Putin Summit Would Cost the Allies Who Aren't Invited",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWRhODJKZ3M2Q1BKM3FKeHg2NHdfZTQzNzlfbHhnbFhySWhSSldvT3hERnZXa3BmUldKUEhNdDRGMThLeEZidDJhcWdVQ3pKRFQyUkZsZ19wZllmbVZPZ2l4S2x4clZWUWFZMkl0VGdDMDl4VjRGQzdKakhNY045QWZNbzJmdGZTMlYyS2M3Y09mX2Q0b2k3U182RjRBUQ?oc=5",
-        "domain": "moderndiplomacy",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T230059Z",
+        "seendate": "20261029T134903Z",
         "source": "GoogleNews"
       },
       {
@@ -120216,11 +120198,11 @@
       },
       {
         "title": "Senior Sudanese commanders sanctioned after being implicated in rape campaign, says UK government",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWkZ3MnNBTHQ0NzFHV0U1UTJWTVR5Ny1jSy1jZE9SY01pa3hHcFVJdnZQTGdtRThYUnJCSm90cEVCWUVPYncxaExJVGVCak15bE9qRnBCbTZjVFJnSVNOd1FmU1lHRG9QQS16bVozakNEc3NYN1ZyZmtzTlVrSHBoX3YxOTFNUkZKc2Z6cTY2dnNjZThvYm8tMW1DNXZ6ZWs0bEZ2cHR5OHVOeDg3RHJJTWtUTUFXWFZZcVA2cnBuOU1ra2pKWWxXN3BCY3BJblBYMUJqQzJKQnNJM3o2YWc?oc=5",
-        "domain": "www.revolutionradio.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZFowenU3U3JKdTZ2Ny02ejl2TlBYTE1NdEVxM3RhU2xrNE4tQWh2Um1HOXJ0UnNyUHdyOFMxMHd2WThrbjRDR1ZMcFJmUzVwZ1RHTjI2MlRzdl9VNE9QSk85NHNEQ3czQXpMeEFWZlpuTDFhY2lFOUN4M25ibUx4bVZFUk4wSzFOajh5a0lXUVZVZXI1T3FlTlhMOVhDTGh4U29uNDdoNmh3WWpNMU9GRlFxdEdLRkFKLUUyN1ZxWTVOTGZuZThRcTkwZ20?oc=5",
+        "domain": "skynews",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T202539Z",
+        "seendate": "20261026T162516Z",
         "source": "GoogleNews"
       },
       {
@@ -120230,15 +120212,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261030T014213Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Cardano Foundation joins the Swiss body writing tokenized securities rules",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOandtMVFscmV0Y3Z0bl85RWo1bUU4bVJfSnhTMlJkcU52b09PVDRuZXdoUUZTOEdjSEM0QzVvZWhodjZtLWtTOHUxOWJpRGcwVzFnQ0dXV1pHQTFkbnZUQnZsU0NhcDF1b01mN2Y1NnZJQVR1Y1dJT2JtekkzVnI4QWFoanNTeG8xZTd2VmZTMWFKZFdWQmMxeXpuVnpmVFZYS0pxeQ?oc=5",
-        "domain": "startupfortune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T140456Z",
         "source": "GoogleNews"
       },
       {
@@ -120260,15 +120233,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ayatollah’s fixer tries to block sale of London mansion",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd1dSMmU4SUFmZWVBRTFiWHduaVBIMTFiamEwSlRfcFMyMk4tbEpITU56LTI0bG1vT1B2YXE0UFU2QlJiVFdvRUw4MFlSV2V5U3Rpal90Q2laR1lwX3dhdkp4TWJyLW5tbnc3eVVtWi1Yd000ZHpOOEluN3NqanRCYkFB?oc=5",
-        "domain": "aol.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261028T060000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Iran to remain on financial blacklist over terrorism financing concerns: Watchdog",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUVFJ5TDhFOXVYajhObm9jbTFlQjhxWTFyWFVtd3dOVXFyQlNxaThjaEtXaEtXVDV1aEZtUXdYaVZ2aW9YUG5BQnEyeG93MUpYWU1ySU1UN3JIaEZyTzNV?oc=5",
         "domain": "rudaw",
@@ -120278,12 +120242,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "APEDA highlights EU’s stricter import controls on Indian food shipments",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNckpWbHN4Y3Jyam5KSjNqbXFsU2d5VE5razVFV3FobjBtZWVOMXR5ZHR6VGRfdkxXTDUyZWI3VUhod2cwME5wNkRMWHlKUTI2VUlNcDhmMmtqaVRHWVBfM1Ezak9oRXUxcF9KVFNPUkZsT2syOWtfQ3hoUkpfZ1hvMnJFNW1uR0hwMHNBUnZhb1VWdG0ybXJGanZiZnZsTldyRHB3NkhPVHVDbEVZOEVWWVQyZ3duVjFTOEEw?oc=5",
-        "domain": "agrospectrumindia",
+        "title": "Chainalysis Says North Korea-Linked Groups Account for 89% of Crypto Hacking Losses This Year",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tcXdpQ1lWUFA3enZFX193elZZV0hPSG5zWTRXQk0tWFQwWmZmNlR6ejdybVM3bnZ1NXFyVThUZ3JfZnVXV1VLdS03T29HV1pMZUZPdg?oc=5",
+        "domain": "bloomingbit",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T172544Z",
+        "seendate": "20261101T064939Z",
         "source": "GoogleNews"
       },
       {
@@ -120305,12 +120269,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ayatollah’s fixer tries to block sale of London mansion",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS212c3J1YjB3eEhuNElXQlRxY0pCcGFNeXNFMDFkZlJvOUlnbkVObE9zRFc2T2thWXBsM1RWRXgtU1RxbjRMUTlmc1NNRXFFVlB6V21maTB5OTBXalpZZFhtZk40RTBkdjVWM2diYTFjc1VLYURJaThtTUVxOFZRVjI5QWs?oc=5",
-        "domain": "aol.co.uk",
+        "title": "Web3 Payments After the $1.8B Freeze and $5.6B Breach",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa1lBaURmSUdZYU8tOU1mUk96VlM4UnlUVGNIcFY1TGZ6aUJiZzVaU25KWHBvdWYyOW5DZDI0S084SmxTUi1Kdk5MXzJBVkJLb3hEZENsYlBQVU54VGVta1Y0eWdxQXc2T0VsRTVPQ1lWSnBDWnFUTXlFbXQ4ZU9MRVRBMA?oc=5",
+        "domain": "onesafe.io",
         "language": "",
         "tone": 0,
-        "seendate": "20261028T060000Z",
+        "seendate": "20261030T045558Z",
         "source": "GoogleNews"
       },
       {
@@ -120329,15 +120293,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261028T072358Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "AU renews call for immediate lifting of Zimbabwe sanctions",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR0FzOWNNX0lMU2l6NnFCekc1bUJCZi1tUTBnRU52a0drbG5ybzljbTZjcS1UN3lqNFA3eVZpMlRfZ0h0OTl3OURRQ1pfS2ZacUo0cW1JZVpfb1dJSWtBaVhHYWFyaVlhcDBpYkdzUEI3SmdzTG5UUEs5TUF0a2JVTXZJQUxUbWNzTnU0Ni1JQmdtOXJJTnJIVHRTMC0wd9IBpgFBVV95cUxPeUFWbjQxVzI2OTBEWlc4bFNhd0NKMFB4RmE2WmVEclR0UEczS3JFZzZOeGlDRENOWEpEUkZ5bG1KV0RsR1FuVHBVYng0WFFXdjF1LVJ1WWx0RUJYSHp6UnZjaVcwUndtclcySUxkMFJyZjQ0bE9ybW1lNDFxU0VGV2ljNjV3VlRUVXR3LTZPZUYyOFNXbHRzV2FLT2YwM0ZGaXZ6Qk53?oc=5",
-        "domain": "pindulanews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T121519Z",
         "source": "GoogleNews"
       }
     ]
