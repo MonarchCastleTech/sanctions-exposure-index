@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-01T13:15:51.786787+00:00",
+    "generated": "2026-11-01T21:59:39.931236+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-01T13:14:05.156940+00:00",
+    "issued_at": "2026-11-01T21:57:53.444149+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-11T16:24:59.818283+00:00",
-        "score": 23.8,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 46.8,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-11T20:55:03.727230+00:00",
         "score": 23.8,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-11-01T13:14:05.156940+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-01T21:57:53.444149+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120062,12 +120062,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTnpRVW5hUFd5TFh5LWd4cVdQNjUwYzd0OUtXWjZObE81a3RwX2hCeUFnZkZGc2hSUkFRUUl4bF9raDE2czFkVE8ycEhsQXhRZHZ2dTBWenRoN2VyWjBNUzJ0YWhFeHYzRVo4dFRMcHZodlJGREJUWVdDQUlOSm5sRHlTRzdwSlV4Q2IwQ285Z0VmUFZuU0w3SE9neHFlRUNuQlBpajgyWDgybDZHYnBxTE5GMjd3LURSRHMzbldn?oc=5",
-        "domain": "wral",
+        "title": "It’s time to stop platforming the Taliban",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTHR0QVZSLWsyTjNMTk5xVTl5YVpvWHZrQldSSUN2NmRJSHRuenBwQ1VrTG1mS3IxempSd283ckZUMTdUZmpfNHVXSElSdkJZNVY5bEVVdUk0UWhUeVpZdHR3cDZ3R1hla0g1Y2NhUHNjODhqNWZreUVkc01ieWFpWGlkSmItZjQ?oc=5",
+        "domain": "georgew.bushpresidentialcenter",
         "language": "",
         "tone": 0,
-        "seendate": "20261028T130853Z",
+        "seendate": "20261027T174303Z",
         "source": "GoogleNews"
       },
       {
@@ -120179,12 +120179,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Crypto Exchange HTX Agrees to Leave UK in Settlement With FCA",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iZmlCMTM2dGRuZWk0c2dzSGhlV1Z3OXFFSmdZaUt4V0RIaV9rcE5saDVmX3RFV195aFpXY0R4aFJ6Y09jMWt6OXY3SWRJaV80eVVDZmdGVW5NZUZYTG9pdzh1b2hQQWlFVU9RZVZMT2szQlRJYW8ydW16Yw?oc=5",
-        "domain": "bitcoinmagazine",
+        "title": "The Shenzhen Auction: What a Trump–Xi–Putin Summit Would Cost the Allies Who Aren't Invited",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWRhODJKZ3M2Q1BKM3FKeHg2NHdfZTQzNzlfbHhnbFhySWhSSldvT3hERnZXa3BmUldKUEhNdDRGMThLeEZidDJhcWdVQ3pKRFQyUkZsZ19wZllmbVZPZ2l4S2x4clZWUWFZMkl0VGdDMDl4VjRGQzdKakhNY045QWZNbzJmdGZTMlYyS2M3Y09mX2Q0b2k3U182RjRBUQ?oc=5",
+        "domain": "moderndiplomacy",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T134903Z",
+        "seendate": "20261025T230059Z",
         "source": "GoogleNews"
       },
       {
@@ -120198,11 +120198,11 @@
       },
       {
         "title": "Senior Sudanese commanders sanctioned after being implicated in rape campaign, says UK government",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZFowenU3U3JKdTZ2Ny02ejl2TlBYTE1NdEVxM3RhU2xrNE4tQWh2Um1HOXJ0UnNyUHdyOFMxMHd2WThrbjRDR1ZMcFJmUzVwZ1RHTjI2MlRzdl9VNE9QSk85NHNEQ3czQXpMeEFWZlpuTDFhY2lFOUN4M25ibUx4bVZFUk4wSzFOajh5a0lXUVZVZXI1T3FlTlhMOVhDTGh4U29uNDdoNmh3WWpNMU9GRlFxdEdLRkFKLUUyN1ZxWTVOTGZuZThRcTkwZ20?oc=5",
-        "domain": "skynews",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWkZ3MnNBTHQ0NzFHV0U1UTJWTVR5Ny1jSy1jZE9SY01pa3hHcFVJdnZQTGdtRThYUnJCSm90cEVCWUVPYncxaExJVGVCak15bE9qRnBCbTZjVFJnSVNOd1FmU1lHRG9QQS16bVozakNEc3NYN1ZyZmtzTlVrSHBoX3YxOTFNUkZKc2Z6cTY2dnNjZThvYm8tMW1DNXZ6ZWs0bEZ2cHR5OHVOeDg3RHJJTWtUTUFXWFZZcVA2cnBuOU1ra2pKWWxXN3BCY3BJblBYMUJqQzJKQnNJM3o2YWc?oc=5",
+        "domain": "www.revolutionradio.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T162516Z",
+        "seendate": "20261026T202539Z",
         "source": "GoogleNews"
       },
       {
@@ -120215,12 +120215,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "GRC says Russian intermediaries offer North Korean workers to businesses — ABC News Australia",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFFmWm9xZktJcUxVUHNyajdHbFBETnQ5Vmt3M0lSdFJQN0lxeHRzYVRBTGF0ZzB0YkFDMmJoNlVCbEgxSkxXYlJvNXZlQlVkcnJqUEdvMlduTEZDUk5BbG42OWdBcGJDZ3BtcU15Z2h4Qjdvak91dFZSei1GZmdOX1BtUEFneVhDRWREeVhkUUVaSGdXNXlYX0hla3lpYUZiUHRTQk5TWlAwbFdwNTBxSlZla01XT0swVm5pcTRaSQ?oc=5",
-        "domain": "ua.news",
+        "title": "Cardano Foundation joins the Swiss body writing tokenized securities rules",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOandtMVFscmV0Y3Z0bl85RWo1bUU4bVJfSnhTMlJkcU52b09PVDRuZXdoUUZTOEdjSEM0QzVvZWhodjZtLWtTOHUxOWJpRGcwVzFnQ0dXV1pHQTFkbnZUQnZsU0NhcDF1b01mN2Y1NnZJQVR1Y1dJT2JtekkzVnI4QWFoanNTeG8xZTd2VmZTMWFKZFdWQmMxeXpuVnpmVFZYS0pxeQ?oc=5",
+        "domain": "startupfortune",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T070135Z",
+        "seendate": "20261029T140456Z",
         "source": "GoogleNews"
       },
       {
@@ -120233,21 +120233,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran to remain on financial blacklist over terrorism financing concerns: Watchdog",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUVFJ5TDhFOXVYajhObm9jbTFlQjhxWTFyWFVtd3dOVXFyQlNxaThjaEtXaEtXVDV1aEZtUXdYaVZ2aW9YUG5BQnEyeG93MUpYWU1ySU1UN3JIaEZyTzNV?oc=5",
-        "domain": "rudaw",
+        "title": "GRC says Russian intermediaries offer North Korean workers to businesses — ABC News Australia",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFFmWm9xZktJcUxVUHNyajdHbFBETnQ5Vmt3M0lSdFJQN0lxeHRzYVRBTGF0ZzB0YkFDMmJoNlVCbEgxSkxXYlJvNXZlQlVkcnJqUEdvMlduTEZDUk5BbG42OWdBcGJDZ3BtcU15Z2h4Qjdvak91dFZSei1GZmdOX1BtUEFneVhDRWREeVhkUUVaSGdXNXlYX0hla3lpYUZiUHRTQk5TWlAwbFdwNTBxSlZla01XT0swVm5pcTRaSQ?oc=5",
+        "domain": "ua.news",
         "language": "",
         "tone": 0,
-        "seendate": "20261031T071207Z",
+        "seendate": "20261029T070135Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Chainalysis Says North Korea-Linked Groups Account for 89% of Crypto Hacking Losses This Year",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tcXdpQ1lWUFA3enZFX193elZZV0hPSG5zWTRXQk0tWFQwWmZmNlR6ejdybVM3bnZ1NXFyVThUZ3JfZnVXV1VLdS03T29HV1pMZUZPdg?oc=5",
-        "domain": "bloomingbit",
+        "title": "Ayatollah’s fixer tries to block sale of London mansion",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd1dSMmU4SUFmZWVBRTFiWHduaVBIMTFiamEwSlRfcFMyMk4tbEpITU56LTI0bG1vT1B2YXE0UFU2QlJiVFdvRUw4MFlSV2V5U3Rpal90Q2laR1lwX3dhdkp4TWJyLW5tbnc3eVVtWi1Yd000ZHpOOEluN3NqanRCYkFB?oc=5",
+        "domain": "aol.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261101T064939Z",
+        "seendate": "20261028T060000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "APEDA highlights EU’s stricter import controls on Indian food shipments",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNckpWbHN4Y3Jyam5KSjNqbXFsU2d5VE5razVFV3FobjBtZWVOMXR5ZHR6VGRfdkxXTDUyZWI3VUhod2cwME5wNkRMWHlKUTI2VUlNcDhmMmtqaVRHWVBfM1Ezak9oRXUxcF9KVFNPUkZsT2syOWtfQ3hoUkpfZ1hvMnJFNW1uR0hwMHNBUnZhb1VWdG0ybXJGanZiZnZsTldyRHB3NkhPVHVDbEVZOEVWWVQyZ3duVjFTOEEw?oc=5",
+        "domain": "agrospectrumindia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T172544Z",
         "source": "GoogleNews"
       },
       {
@@ -120269,12 +120278,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Web3 Payments After the $1.8B Freeze and $5.6B Breach",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa1lBaURmSUdZYU8tOU1mUk96VlM4UnlUVGNIcFY1TGZ6aUJiZzVaU25KWHBvdWYyOW5DZDI0S084SmxTUi1Kdk5MXzJBVkJLb3hEZENsYlBQVU54VGVta1Y0eWdxQXc2T0VsRTVPQ1lWSnBDWnFUTXlFbXQ4ZU9MRVRBMA?oc=5",
-        "domain": "onesafe.io",
+        "title": "Ayatollah’s fixer tries to block sale of London mansion",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS212c3J1YjB3eEhuNElXQlRxY0pCcGFNeXNFMDFkZlJvOUlnbkVObE9zRFc2T2thWXBsM1RWRXgtU1RxbjRMUTlmc1NNRXFFVlB6V21maTB5OTBXalpZZFhtZk40RTBkdjVWM2diYTFjc1VLYURJaThtTUVxOFZRVjI5QWs?oc=5",
+        "domain": "aol.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261030T045558Z",
+        "seendate": "20261028T060000Z",
         "source": "GoogleNews"
       },
       {
