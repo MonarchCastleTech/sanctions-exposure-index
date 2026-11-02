@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-01T21:59:39.931236+00:00",
+    "generated": "2026-11-02T05:56:46.893605+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-01T21:57:53.444149+00:00",
+    "issued_at": "2026-11-02T05:55:00.262949+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -28,10 +28,10 @@
         "releases_considered": 99,
         "current_7d_designation_releases": 2,
         "current_7d_all_releases": 2,
-        "prior_7d_designation_releases": 2,
+        "prior_7d_designation_releases": 1,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": -0.67,
+        "baseline_weekly_median": 2.0,
+        "anomaly_z": 0.0,
         "themes": [],
         "evidence": [
           {
@@ -158,7 +158,7 @@
         "current_7d_releases": 2,
         "current_weighted_term_rate": 1.75,
         "baseline_weeks": 10,
-        "anomaly_z": -0.25,
+        "anomaly_z": -0.3,
         "matched_release_count": 2,
         "relief_release_count": 0,
         "evidence": [
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-11T20:55:03.727230+00:00",
-        "score": 23.8,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 46.8,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-12T04:28:50.735238+00:00",
         "score": 23.8,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-11-01T21:57:53.444149+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-02T05:55:00.262949+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120080,6 +120080,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWFJ4U3RNXy1ybkxBN0trRFctRG5kbmNaSUVoZTdldjRacjNBOU9zS1MtY3pVenN6MEcxaXFnczZ5MUZhUDczVkNTeUQ3U3hWSUFJOU9sSV94NEJPakhPT1VaOTlzMTBfSUMxSEJtRzVhSDNCQ0kyem9nVmZ5X1lTNFk0OG4xR193OXFyRXJZM29JSGpRdmZmLTBXR3RYZmhSUkZGWFF5algzN1k2WDNnaWlCWE14aG5UQllMNFBXU1M4ei1XN19ZU3JzandmUFBtVUE3S1hoaldlQU9WTzUtUlVDSW7SAeoBQVVfeXFMTTIyT2dCYTVwWWIxWEVPVDJjOXJzU0t1ZHU1WjF0Z3hzWVBPYUlWRVBtOEJtbW10ZkFfSmh4WFdjRUU3WlRRbEZfSjNIUkkxMnV5UVg0aUpuNk1sVnc4UmxnMWRrTTRGRzFxSTNGaU5EdlFzVGxkNHNwdFNUbWR5UE5VY0JFT3hFc0hQOFQ0a2llRl9jWGdRNXNoSkNDQVM2MmIwcW9FTkNnOGQyZDBiWVNrX2RfSDd4Yzk5Njc2aGJ4U0dzTGZIc2ZRYXF0U2hSMXlFQ2lUTjBNMVprN3h5RVdVY1cxbXNaOVFB?oc=5",
+        "domain": "texomashomepage.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261028T101604Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Japan lifts asset freeze measures on three Arabs “previously linked to terrorism”",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzQ4VDdQcXNnanpaVjFJTzcyYU5UR0JDQXBYSzRlYlk1dVl1cWtFdERHdEhNUGJ3dUUxZkllY3BpOWdVUG5sY256MHVILTBLdHRXWkY4cE1VQ29PeWUyYVduMllONFBMcDhZc3BaU0pxVG5NUjJLbG9NaTFlRng2VkRaTHNsVkhpM2NLRG1iSFljaE1jMlpCS1dIb2EybW9mcm1MNEVVU3l3RkVhUGlSVTVVZmNYM3NtcEJ2NXJ2dGY?oc=5",
         "domain": "news.google.com",
@@ -120143,6 +120152,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Gold remains a safe haven – and is now a security issue",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVVowaXZNY21OT25mOW5nTWp1Z3pXdDg1bkRvOENpMTZMSTFfdHphRXFkZWtDMkp2X0p2WVlNbm1BemRxMk4yc1pXUGdOVWtJRnZHU19fOEFTVmlMX1VTZW1Zd1VleDFWcWtSOFNIMHNKTlVHd1FtUTdEYVk3VUtZS2doaWdNQzhYMkdVeDZCRm5xcVF1bmNaVlNlcHhLdGdX?oc=5",
+        "domain": "escudodigital",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261102T051001Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Binance Hack: Who Can Recover $3 Billion in Frozen Crypto?",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nVlVYeXdPTUVFNXhFNEhxaUQ1UUVHRXplV3VNRFFHRXNOVnMzWGVfd0tyXy1vTV9KSGpmejBXZllCTGdNN1dYNGx0WW15TnY5eGh2NXY4UUxEc0pualE?oc=5",
         "domain": "diplomacyandlaw",
@@ -120179,15 +120197,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Shenzhen Auction: What a Trump–Xi–Putin Summit Would Cost the Allies Who Aren't Invited",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWRhODJKZ3M2Q1BKM3FKeHg2NHdfZTQzNzlfbHhnbFhySWhSSldvT3hERnZXa3BmUldKUEhNdDRGMThLeEZidDJhcWdVQ3pKRFQyUkZsZ19wZllmbVZPZ2l4S2x4clZWUWFZMkl0VGdDMDl4VjRGQzdKakhNY045QWZNbzJmdGZTMlYyS2M3Y09mX2Q0b2k3U182RjRBUQ?oc=5",
-        "domain": "moderndiplomacy",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261025T230059Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Huang Calls Megaspeed Ties Normal Amid 1 Spy Probe [2026]",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRS1YM25nN2l3Yy1Td3hqOHBlRFFDR3lHT1FYaUpjQVI5RC03RnZFWlkxQmh0R0VNSHFQVVFYWjAwazRjQ2loNnlyc29reGl4R3lDa3pjdGtFTW9Na2NraHBmVkItMmN5VWlfWlh6OXpjNnZQVHJJZ3dqcEZBSmI3UUc1Qjg?oc=5",
         "domain": "shattered.io",
@@ -120197,12 +120206,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Senior Sudanese commanders sanctioned after being implicated in rape campaign, says UK government",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWkZ3MnNBTHQ0NzFHV0U1UTJWTVR5Ny1jSy1jZE9SY01pa3hHcFVJdnZQTGdtRThYUnJCSm90cEVCWUVPYncxaExJVGVCak15bE9qRnBCbTZjVFJnSVNOd1FmU1lHRG9QQS16bVozakNEc3NYN1ZyZmtzTlVrSHBoX3YxOTFNUkZKc2Z6cTY2dnNjZThvYm8tMW1DNXZ6ZWs0bEZ2cHR5OHVOeDg3RHJJTWtUTUFXWFZZcVA2cnBuOU1ra2pKWWxXN3BCY3BJblBYMUJqQzJKQnNJM3o2YWc?oc=5",
-        "domain": "www.revolutionradio.com",
+        "title": "Justin Sun's HTX Agrees to Leave UK in Settlement With Financial Watchdog",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeC1MaVhsRTlUSXVFeWtla0c2bnplejN2VkJxWThQZHZaRS1lVkRQV05rN3BGVXA5QjlTemZCQnN3bHVEZEFCLXA2RE9oSkVoUlZXZlhvU2VwMi11c2xvdkFDMC0wZjNzMmE1M3c1RUJTSDNDMGU3eks0RDRsaTIzQ3QydkNsbGd4cDRvcnhCcFc3TXdQOWNuSw?oc=5",
+        "domain": "yahoofinance",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T202539Z",
+        "seendate": "20261029T125828Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Senior Sudanese commanders sanctioned after being implicated in rape campaign, says UK government",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZFowenU3U3JKdTZ2Ny02ejl2TlBYTE1NdEVxM3RhU2xrNE4tQWh2Um1HOXJ0UnNyUHdyOFMxMHd2WThrbjRDR1ZMcFJmUzVwZ1RHTjI2MlRzdl9VNE9QSk85NHNEQ3czQXpMeEFWZlpuTDFhY2lFOUN4M25ibUx4bVZFUk4wSzFOajh5a0lXUVZVZXI1T3FlTlhMOVhDTGh4U29uNDdoNmh3WWpNMU9GRlFxdEdLRkFKLUUyN1ZxWTVOTGZuZThRcTkwZ20?oc=5",
+        "domain": "skynews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261026T162516Z",
         "source": "GoogleNews"
       },
       {
@@ -120215,12 +120233,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Cardano Foundation joins the Swiss body writing tokenized securities rules",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOandtMVFscmV0Y3Z0bl85RWo1bUU4bVJfSnhTMlJkcU52b09PVDRuZXdoUUZTOEdjSEM0QzVvZWhodjZtLWtTOHUxOWJpRGcwVzFnQ0dXV1pHQTFkbnZUQnZsU0NhcDF1b01mN2Y1NnZJQVR1Y1dJT2JtekkzVnI4QWFoanNTeG8xZTd2VmZTMWFKZFdWQmMxeXpuVnpmVFZYS0pxeQ?oc=5",
-        "domain": "startupfortune",
+        "title": "Ayatollah’s fixer tries to block sale of London mansion",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd1dSMmU4SUFmZWVBRTFiWHduaVBIMTFiamEwSlRfcFMyMk4tbEpITU56LTI0bG1vT1B2YXE0UFU2QlJiVFdvRUw4MFlSV2V5U3Rpal90Q2laR1lwX3dhdkp4TWJyLW5tbnc3eVVtWi1Yd000ZHpOOEluN3NqanRCYkFB?oc=5",
+        "domain": "aol.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T140456Z",
+        "seendate": "20261028T060000Z",
         "source": "GoogleNews"
       },
       {
@@ -120233,21 +120251,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "GRC says Russian intermediaries offer North Korean workers to businesses — ABC News Australia",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFFmWm9xZktJcUxVUHNyajdHbFBETnQ5Vmt3M0lSdFJQN0lxeHRzYVRBTGF0ZzB0YkFDMmJoNlVCbEgxSkxXYlJvNXZlQlVkcnJqUEdvMlduTEZDUk5BbG42OWdBcGJDZ3BtcU15Z2h4Qjdvak91dFZSei1GZmdOX1BtUEFneVhDRWREeVhkUUVaSGdXNXlYX0hla3lpYUZiUHRTQk5TWlAwbFdwNTBxSlZla01XT0swVm5pcTRaSQ?oc=5",
-        "domain": "ua.news",
+        "title": "Cardano Foundation joins the Swiss body writing tokenized securities rules",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOandtMVFscmV0Y3Z0bl85RWo1bUU4bVJfSnhTMlJkcU52b09PVDRuZXdoUUZTOEdjSEM0QzVvZWhodjZtLWtTOHUxOWJpRGcwVzFnQ0dXV1pHQTFkbnZUQnZsU0NhcDF1b01mN2Y1NnZJQVR1Y1dJT2JtekkzVnI4QWFoanNTeG8xZTd2VmZTMWFKZFdWQmMxeXpuVnpmVFZYS0pxeQ?oc=5",
+        "domain": "startupfortune",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T070135Z",
+        "seendate": "20261029T140456Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Ayatollah’s fixer tries to block sale of London mansion",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd1dSMmU4SUFmZWVBRTFiWHduaVBIMTFiamEwSlRfcFMyMk4tbEpITU56LTI0bG1vT1B2YXE0UFU2QlJiVFdvRUw4MFlSV2V5U3Rpal90Q2laR1lwX3dhdkp4TWJyLW5tbnc3eVVtWi1Yd000ZHpOOEluN3NqanRCYkFB?oc=5",
-        "domain": "aol.com",
+        "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
+        "domain": "seouleconomicdaily",
         "language": "",
         "tone": 0,
-        "seendate": "20261028T060000Z",
+        "seendate": "20261102T010005Z",
         "source": "GoogleNews"
       },
       {
