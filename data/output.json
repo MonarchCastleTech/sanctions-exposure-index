@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-02T05:56:46.893605+00:00",
+    "generated": "2026-11-02T15:41:52.273488+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-02T05:55:00.262949+00:00",
+    "issued_at": "2026-11-02T15:40:05.851420+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-12T04:28:50.735238+00:00",
-        "score": 23.8,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 46.8,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-12T10:40:52.686663+00:00",
         "score": 23.8,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-11-02T05:55:00.262949+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-02T15:40:05.851420+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120044,12 +120044,12 @@
     },
     "news_articles": [
       {
-        "title": "EU sanctions against ISIL/Da’esh and Al-Qaeda: Council renews regime until 2027",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTUN3RzRPTXF3R0t4R0FjUVRDTDVFTVFBRV9qNnBwWXpmbmJKNnpWUTRYNVUzUXgwZGpKNTJfWkVJTnlJOXI4SWNyanFVMGdmVVFlSXBXU0ZHcDItS3VnLUpNWjZvWWJ0WVR5dXl4MFFOclU2OXRsRmRjbmdvaThRdUp5TGtzdElYS0wwZFU4LXFpdmMtV01panppNk04UnYwZ2VqcWg3MzdBbGdIcVBUYUl4OUQ2ODY1dEFyaXRoLUh5QnhSUDBONGhpRjhVd1N0UElWa3E5WnNnWVVpd3c?oc=5",
-        "domain": "councileuropeanunion",
+        "title": "UK sanctions senior commanders implicated in campaign of rape in Sudan and unveils new support for survivors [EN/AR]",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdFpkbFhwRFJta0d5bFFnV3pvUk1UVlZCN2NWWko1b05obU10ZUFXMFkxcHNBSjRDc18tbHFDMXI0SjJvZmZVVVNqRFB6TllmMkV0anVUODNpTFlIM3ZzNzJBa1pubmd3SEpKXzhuc3U0Y2Z0NDBFVWxERGE0czdRT0Jkd004bXNHZHVjd1dOanpGZUpGWW50NUtrYl9FSU9qYTJCb0lNQjdVRkJNbFFDWEozbmUyV3Zjb3EtX2lrVThxSVpFVGx3NmFIQlN3ejNC?oc=5",
+        "domain": "reliefweb",
         "language": "",
         "tone": 0,
-        "seendate": "20261026T101930Z",
+        "seendate": "20261027T025123Z",
         "source": "GoogleNews"
       },
       {
@@ -120107,15 +120107,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK sanctions senior commanders implicated in campaign of rape in Sudan and unveils new support for survivors",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcmYwUHllRFExX3hDVWtkd1IwVGRmY1VMMVY3RVA0V2tIS1VtZzFqakRhMHgycG1XcVk2cDFPczM5QUZlc0p5dE1nUjRpU0J0d2NfYmpwRHo2Um52Q3pNOVVtUWZ6cnFuODhVNUZzbk85c1RUbDFBZEtoNUtqVF9URFVtSUZKUFlYSnU2c2NrVllVYmRvbkFEWVRiZjNIbzdfaGN0aG5lSHpWcXEwbk4xdlM4TjlZOGNpb0dPQTN3MFhJbXAyZGNRT3JteXdCSVpUOFlPMUotNlRFc0k?oc=5",
-        "domain": "gov.uk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T101923Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia's legal siege over assets continues, costing Euroclear hundreds of millions of euros in 2026",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeEZaRlUyY1drWVNOSUpRdW9neHl0R2hMdC0xQzlTQ3VYRUxLVnQ5YTlIN3ZZUms3Ty1GNzVva0ZXR09OZEZ3bUtuWW5fSFVHOVJvZWVGZTIxSmJNN2xSRjltWFkySHA2c0tpd01tZ2psdXRQTFY2dGFiOHdvaXU4QWNobUR1MHRxc3lYd0xrXzBleTFmZENZNnhCY0E?oc=5",
         "domain": "yahoofinance",
@@ -120152,15 +120143,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Gold remains a safe haven – and is now a security issue",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVVowaXZNY21OT25mOW5nTWp1Z3pXdDg1bkRvOENpMTZMSTFfdHphRXFkZWtDMkp2X0p2WVlNbm1BemRxMk4yc1pXUGdOVWtJRnZHU19fOEFTVmlMX1VTZW1Zd1VleDFWcWtSOFNIMHNKTlVHd1FtUTdEYVk3VUtZS2doaWdNQzhYMkdVeDZCRm5xcVF1bmNaVlNlcHhLdGdX?oc=5",
-        "domain": "escudodigital",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261102T051001Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Binance Hack: Who Can Recover $3 Billion in Frozen Crypto?",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nVlVYeXdPTUVFNXhFNEhxaUQ1UUVHRXplV3VNRFFHRXNOVnMzWGVfd0tyXy1vTV9KSGpmejBXZllCTGdNN1dYNGx0WW15TnY5eGh2NXY4UUxEc0pualE?oc=5",
         "domain": "diplomacyandlaw",
@@ -120170,21 +120152,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Gold remains a safe haven – and is now a security issue",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVVowaXZNY21OT25mOW5nTWp1Z3pXdDg1bkRvOENpMTZMSTFfdHphRXFkZWtDMkp2X0p2WVlNbm1BemRxMk4yc1pXUGdOVWtJRnZHU19fOEFTVmlMX1VTZW1Zd1VleDFWcWtSOFNIMHNKTlVHd1FtUTdEYVk3VUtZS2doaWdNQzhYMkdVeDZCRm5xcVF1bmNaVlNlcHhLdGdX?oc=5",
+        "domain": "escudodigital",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261102T051001Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UK issues fresh sanctions against rival Sudanese commanders",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZjkzSjN4RmVzSGgzMmVtNHYxUXJjUHZJN25aNmlBZWdqaElIUjViLWw4MkFYWDZHQkVjelhjOS0wTWx3SU9aaFN3WENMQnV4Z1NVVGJ3ZGJxUm91Z3hDeGZXT2ZQblA4WjJOSjdzUFRrbnRxeEtFOXFBQ254dDVaNEp1ekdJR0VwRnNKdmZoQU11Zl9fT2s0N182R1J3Z18wNEkxY0RVTzYxeVpQOVdILQ?oc=5",
         "domain": "thenational",
         "language": "",
         "tone": 0,
         "seendate": "20261026T155228Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Council renews sanctions on ISIL/Da’esh and Al-Qaeda until 31 October 2027",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUHlwbjViYWhCZDA5VDZhQXNBcjIxQU0wa3JNZkZDZW1CZjVSbmRGTXM4VFQ2T3ZsYTZ5d1VTT0ZiZ0piVldPcktrb041RWV4NkhyZHl0MU1GUkx3ajhXZG1RMjY4clZRaFJmek1URm44Y3AzQXJDaHMtc2FHdEIwRUI4TGdOeUlrQ1FVZG1mTkpyZmgyZDJQajNhZS1NTnQ5N01fTmZYYWpKalJIY0ZoWVpZdw?oc=5",
-        "domain": "eunews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T113519Z",
         "source": "GoogleNews"
       },
       {
@@ -120206,21 +120188,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Justin Sun's HTX Agrees to Leave UK in Settlement With Financial Watchdog",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeC1MaVhsRTlUSXVFeWtla0c2bnplejN2VkJxWThQZHZaRS1lVkRQV05rN3BGVXA5QjlTemZCQnN3bHVEZEFCLXA2RE9oSkVoUlZXZlhvU2VwMi11c2xvdkFDMC0wZjNzMmE1M3c1RUJTSDNDMGU3eks0RDRsaTIzQ3QydkNsbGd4cDRvcnhCcFc3TXdQOWNuSw?oc=5",
-        "domain": "yahoofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T125828Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Senior Sudanese commanders sanctioned after being implicated in rape campaign, says UK government",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZFowenU3U3JKdTZ2Ny02ejl2TlBYTE1NdEVxM3RhU2xrNE4tQWh2Um1HOXJ0UnNyUHdyOFMxMHd2WThrbjRDR1ZMcFJmUzVwZ1RHTjI2MlRzdl9VNE9QSk85NHNEQ3czQXpMeEFWZlpuTDFhY2lFOUN4M25ibUx4bVZFUk4wSzFOajh5a0lXUVZVZXI1T3FlTlhMOVhDTGh4U29uNDdoNmh3WWpNMU9GRlFxdEdLRkFKLUUyN1ZxWTVOTGZuZThRcTkwZ20?oc=5",
         "domain": "skynews",
         "language": "",
         "tone": 0,
         "seendate": "20261026T162516Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Justin Sun's HTX Agrees to Leave UK in Settlement With Financial Watchdog",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeC1MaVhsRTlUSXVFeWtla0c2bnplejN2VkJxWThQZHZaRS1lVkRQV05rN3BGVXA5QjlTemZCQnN3bHVEZEFCLXA2RE9oSkVoUlZXZlhvU2VwMi11c2xvdkFDMC0wZjNzMmE1M3c1RUJTSDNDMGU3eks0RDRsaTIzQ3QydkNsbGd4cDRvcnhCcFc3TXdQOWNuSw?oc=5",
+        "domain": "yahoofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T125828Z",
         "source": "GoogleNews"
       },
       {
@@ -120242,6 +120224,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Russian Recruiter Suyash Mukut (India), UK-sanctioned",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT28zLVpEbUJDdWtYTk43VGpLVzcxRVQ1QVlfNjM4X25EczlNc3BYYktuMUZhU1hEMDBzeVM0MVA1bGYzVzUySkNuZ3AxbzFhNEJzZEJfUlhQeFhtUVJZanFNZURmZVRhcThoZzBCTVY2cXF4T0xkQWhiSWZGOTNTSA?oc=5",
+        "domain": "stoprussianrecruiters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "HTX Exits UK Market Under Court-Backed FCA Deal Barring Crypto Ads Until 2031",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OcXJBZjNzVWs4d1lYbDVRd3hLLW5ZRWZXX0g2ZFpubWRTc0U1OVdoeXk2cWZDamlfWUsxQ3E5blRUU3NpYkdKRHp6bmJwMm1relRpOHUwX2NUS1dIZFUtdThjczNZQ0doeDZDZXpsYmxEZXY4bWc?oc=5",
         "domain": "biggofinance",
@@ -120251,12 +120242,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "GRC says Russian intermediaries offer North Korean workers to businesses — ABC News Australia",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFFmWm9xZktJcUxVUHNyajdHbFBETnQ5Vmt3M0lSdFJQN0lxeHRzYVRBTGF0ZzB0YkFDMmJoNlVCbEgxSkxXYlJvNXZlQlVkcnJqUEdvMlduTEZDUk5BbG42OWdBcGJDZ3BtcU15Z2h4Qjdvak91dFZSei1GZmdOX1BtUEFneVhDRWREeVhkUUVaSGdXNXlYX0hla3lpYUZiUHRTQk5TWlAwbFdwNTBxSlZla01XT0swVm5pcTRaSQ?oc=5",
+        "domain": "ua.news",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T070135Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Cardano Foundation joins the Swiss body writing tokenized securities rules",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOandtMVFscmV0Y3Z0bl85RWo1bUU4bVJfSnhTMlJkcU52b09PVDRuZXdoUUZTOEdjSEM0QzVvZWhodjZtLWtTOHUxOWJpRGcwVzFnQ0dXV1pHQTFkbnZUQnZsU0NhcDF1b01mN2Y1NnZJQVR1Y1dJT2JtekkzVnI4QWFoanNTeG8xZTd2VmZTMWFKZFdWQmMxeXpuVnpmVFZYS0pxeQ?oc=5",
         "domain": "startupfortune",
         "language": "",
         "tone": 0,
         "seendate": "20261029T140456Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "'Modern-Day Vikings' North Korea Cannot Be Stopped",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16bFdZMk54Nm1LSVV2YkUtdV83OGNSNTV3enpxR1BndWtZS0NNRV9YbEQ5N1pHZkVjYmdUYW1yUWI5UGRtQUk2eVRQeUdZNVUwM3g2R0VWVjZiVGREMUl2N1BEMGVzcTlNUXhsUVhB?oc=5",
+        "domain": "news.sbs.co.kr",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261102T074343Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Chainalysis Says North Korea-Linked Groups Account for 89% of Crypto Hacking Losses This Year",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tcXdpQ1lWUFA3enZFX193elZZV0hPSG5zWTRXQk0tWFQwWmZmNlR6ejdybVM3bnZ1NXFyVThUZ3JfZnVXV1VLdS03T29HV1pMZUZPdg?oc=5",
+        "domain": "bloomingbit",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261101T064939Z",
         "source": "GoogleNews"
       },
       {
@@ -120305,21 +120323,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Council extends sanctions against Da'esh, Al-Qaeda",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTlg0V2JLLWlQblI4VThvaEhCSXVNUmJYVklBRnluVS0wN2FwSkk4N0d1UUVzQlZLc2xETjQ4dTd6bGtuTU9sNXVJSXE2NnF4VmlaUWZSUGplS2JPNXRqazNpenJLS004Si1VQTB1bm9UaVh5QzB3S2VJSnVsbGoza2pfTTRxdlVCY0RiUGd3N25WdWZVS0c1cHRVcTFJdw?oc=5",
-        "domain": "bignewsnetwork.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261026T124700Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK sanctions 15 Sudan commanders and announces £15m support",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZXUzSm5iSXVtelZoNnBLazBmQ1RrRld3d09uMVhQV25FZUFoVnJsbTNxYkEtVHJHUDFlQjQ0ajVUWVVTeVVXWnB1RUxzN3BzR3pzZ1pxNDUtN3VWd1A0S080R2I1X3N1UUdhbzlYbkRKNGU5Qy1DejM1UXh3MDhUbEp1bjRPMk1qcWZ2dnRnLVQxQQ?oc=5",
         "domain": "londondailynews",
         "language": "",
         "tone": 0,
         "seendate": "20261028T072358Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nigeria’s 2027 Elections: Washington’s Visa Bans, Asset Freezes and Security Restrictions Cannot Replace Nigerians’ Responsibility to Protect Their Votes -By Daniel Nduka Okonkwo",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNeDYxNWg3SHc5OThRTFNlV3paM01hbzVZbkkybnVQVWFEZUtoZVppd1RaS1RYalFPWExWanpxTHdNaDdDX0h2Smp0NVowWXZ6VHRlMERocDBXOGxmNV94bjZiYkZBNHFXNm9hSXBKVTVZSkN0MG1KVC1QeUJraVVFSGhSUTdzUDd0QmQ5QXFFMG9qX2Z2NHNSYXFOTXdRNk1rSGZHT2VyVk5uSmN4WHYtVWVFcUNBd0YyYTVpN1o4YkNrTk9tQTctQ0F6UXZRTlQ5T1AtZmpualZOSElfbThScmhzdi1oN213SXFGbTV5bzFGMVE4N2dqdzgyNnlPSHROdnJGQ1NTQUk4a1B2N2gxc3VpZ0tHX1F6Nms4SUl3T2RBOFAxOHNiTW9R?oc=5",
+        "domain": "opinionnigeria",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261102T121029Z",
         "source": "GoogleNews"
       }
     ]
