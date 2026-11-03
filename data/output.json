@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-03T00:56:30.349648+00:00",
+    "generated": "2026-11-03T14:05:21.138029+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-03T00:54:44.144659+00:00",
+    "issued_at": "2026-11-03T14:03:34.353790+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 13.7,
@@ -269,17 +269,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:28:43.258548+00:00",
-        "score": 23.8,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 46.8,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-12T20:30:48.109686+00:00",
         "score": 23.8,
@@ -2240,6 +2229,17 @@
       },
       {
         "timestamp": "2026-11-03T00:54:44.144659+00:00",
+        "score": 13.7,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 16.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-03T14:03:34.353790+00:00",
         "score": 13.7,
         "level": "BASELINE",
         "components": {
@@ -120053,15 +120053,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK sanctions senior commanders implicated in campaign of rape in Sudan and unveils new support for survivors [EN/AR]",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdFpkbFhwRFJta0d5bFFnV3pvUk1UVlZCN2NWWko1b05obU10ZUFXMFkxcHNBSjRDc18tbHFDMXI0SjJvZmZVVVNqRFB6TllmMkV0anVUODNpTFlIM3ZzNzJBa1pubmd3SEpKXzhuc3U0Y2Z0NDBFVWxERGE0czdRT0Jkd004bXNHZHVjd1dOanpGZUpGWW50NUtrYl9FSU9qYTJCb0lNQjdVRkJNbFFDWEozbmUyV3Zjb3EtX2lrVThxSVpFVGx3NmFIQlN3ejNC?oc=5",
-        "domain": "reliefweb",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261027T025123Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTnpRVW5hUFd5TFh5LWd4cVdQNjUwYzd0OUtXWjZObE81a3RwX2hCeUFnZkZGc2hSUkFRUUl4bF9raDE2czFkVE8ycEhsQXhRZHZ2dTBWenRoN2VyWjBNUzJ0YWhFeHYzRVo4dFRMcHZodlJGREJUWVdDQUlOSm5sRHlTRzdwSlV4Q2IwQ285Z0VmUFZuU0w3SE9neHFlRUNuQlBpajgyWDgybDZHYnBxTE5GMjd3LURSRHMzbldn?oc=5",
         "domain": "wral",
@@ -120161,12 +120152,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Huang Calls Megaspeed Ties Normal Amid 1 Spy Probe [2026]",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRS1YM25nN2l3Yy1Td3hqOHBlRFFDR3lHT1FYaUpjQVI5RC03RnZFWlkxQmh0R0VNSHFQVVFYWjAwazRjQ2loNnlyc29reGl4R3lDa3pjdGtFTW9Na2NraHBmVkItMmN5VWlfWlh6OXpjNnZQVHJJZ3dqcEZBSmI3UUc1Qjg?oc=5",
-        "domain": "shattered.io",
+        "title": "What the midterm elections mean for the economy and investors",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLVJIYjNHNmVTUkt6aTNCU1IwZnRNLVVjM18tbDZZR0hiQXJaM2x4NF9QNFYzdEI0MW1XaWw2SzI5WVBzNURxYzJmS1kwR2pOSENETlR5Q2FpeDdUVGxaOHhNSnJXV3MxWVZnRnpWeEJCR3pHRklmdjA5Sl9mdXBMR05GVFM5WFkwZWpKZkRQYkFIZmdJa2QtWlZNV0lMbTNVSV9DSG1WNDJabmdYVzBPSFB3MjNkeGRrSG1OWi01RENFUQ?oc=5",
+        "domain": "tradingview",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T224609Z",
+        "seendate": "20261103T112632Z",
         "source": "GoogleNews"
       },
       {
@@ -120271,7 +120262,7 @@
       {
         "title": "Web3 Payments After the $1.8B Freeze and $5.6B Breach",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa1lBaURmSUdZYU8tOU1mUk96VlM4UnlUVGNIcFY1TGZ6aUJiZzVaU25KWHBvdWYyOW5DZDI0S084SmxTUi1Kdk5MXzJBVkJLb3hEZENsYlBQVU54VGVta1Y0eWdxQXc2T0VsRTVPQ1lWSnBDWnFUTXlFbXQ4ZU9MRVRBMA?oc=5",
-        "domain": "onesafe.io",
+        "domain": "onesafe",
         "language": "",
         "tone": 0,
         "seendate": "20261030T045558Z",
@@ -120302,6 +120293,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261102T121345Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Security Council Allows Taliban Intelligence Chief To Travel To UAE For Medical Treatment",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbEowNFJBYkJaVk41X0VOcWJEV1NnZF93X0wzd2pUMG5UZ3dZT0ZZYUFwczNQSTBOMk5hLTFWakRVcDAyTm5CMklQVzhicjBIdlp6UXg4UmpVaW1kU29KYkJIMWNyMzNIMlVOUkp1UWRKaGFmT0gzRjdrYkFlLTlqT3NKWjgxM1M1VVJZN3hyOTdxdmdJaHBtbndnbUFNZ0plNWFrbHdpUQ?oc=5",
+        "domain": "urdupoint",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261103T130322Z",
         "source": "GoogleNews"
       }
     ]
