@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-03T23:17:33.989219+00:00",
+    "generated": "2026-11-04T06:09:29.058568+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-03T23:15:47.802504+00:00",
+    "issued_at": "2026-11-04T06:07:42.641139+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 13.7,
+    "score": 5.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,46 +24,16 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 16.0,
+        "score": 0.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 2,
-        "current_7d_all_releases": 2,
-        "prior_7d_designation_releases": 1,
+        "current_7d_designation_releases": 0,
+        "current_7d_all_releases": 0,
+        "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": -0.67,
+        "baseline_weekly_median": 3.0,
+        "anomaly_z": -1.01,
         "themes": [],
-        "evidence": [
-          {
-            "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
-            "url": "https://home.treasury.gov/news/press-releases/sb0668/",
-            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
-            "date": "2026-10-28",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
-            "url": "https://home.treasury.gov/news/press-releases/sb0669/",
-            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
-            "date": "2026-10-28",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions",
-              "targeting"
-            ],
-            "relief_terms": [],
-            "themes": [],
-            "designation_signal": true
-          }
-        ],
+        "evidence": [],
         "retained": false
       },
       {
@@ -154,44 +124,14 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 12.6,
-        "current_7d_releases": 2,
-        "current_weighted_term_rate": 1.75,
+        "score": 0.0,
+        "current_7d_releases": 0,
+        "current_weighted_term_rate": 0.0,
         "baseline_weeks": 12,
-        "anomaly_z": -0.07,
-        "matched_release_count": 2,
+        "anomaly_z": -1.77,
+        "matched_release_count": 0,
         "relief_release_count": 0,
-        "evidence": [
-          {
-            "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
-            "url": "https://home.treasury.gov/news/press-releases/sb0668/",
-            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
-            "date": "2026-10-28",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
-            "url": "https://home.treasury.gov/news/press-releases/sb0669/",
-            "action_title": "North Korea Designations; Democratic Republic of the Congo-related Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261028",
-            "date": "2026-10-28",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions",
-              "targeting"
-            ],
-            "relief_terms": [],
-            "themes": [],
-            "designation_signal": true
-          }
-        ],
+        "evidence": [],
         "terms": {
           "unprecedented": 3.5,
           "maximum pressure": 3.5,
@@ -269,17 +209,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-13T04:40:52.690081+00:00",
-        "score": 23.8,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 46.8,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-13T11:44:47.957487+00:00",
         "score": 23.8,
@@ -2248,6 +2177,17 @@
           "official_posture_shift": 12.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-04T06:07:42.641139+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2312,7 +2252,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "13.7/100",
+      "value": "5.0/100",
       "delta": "BASELINE"
     },
     {
@@ -120053,21 +119993,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Russia Sanctions Tracker - UK (2026)",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNUVNb2dqYjJHZXRhWk1aTTBRZmpKelI0b1lFQmhvRlVKbVlBT0xSYVN5OUw3bWZURG1kSXRnckhZRThrR1QwNC1YME5YalpYenhLUWFhd3p4OUkyVjVFcWRlMUVmTVhqT2FhN1M2Q040QmlPNXoyRGdYUjBlS3RXcjdlSFlMM1hyeXFOSmFB?oc=5",
+        "domain": "ashurstperkinscoie",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Assembling the Toolkit: Democrats and the New Push for West Bank Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sR2NicktWX25wQzB4NHNjV2VvdnJxaS1UNjlEMW1OZFNsMl9objNCXzZJRVJ4VUt2UENRRTQwMlE4eTE4TWV2cm9ZaFJrb1RLTjFwQXN2Vnl0Z2JUM1Y3QW9PVm8xbUk?oc=5",
         "domain": "www.inss.org.il",
         "language": "",
         "tone": 0,
         "seendate": "20261103T152124Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Japan lifts asset freeze measures on three Arabs “previously linked to terrorism”",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzQ4VDdQcXNnanpaVjFJTzcyYU5UR0JDQXBYSzRlYlk1dVl1cWtFdERHdEhNUGJ3dUUxZkllY3BpOWdVUG5sY256MHVILTBLdHRXWkY4cE1VQ29PeWUyYVduMllONFBMcDhZc3BaU0pxVG5NUjJLbG9NaTFlRng2VkRaTHNsVkhpM2NLRG1iSFljaE1jMlpCS1dIb2EybW9mcm1MNEVVU3l3RkVhUGlSVTVVZmNYM3NtcEJ2NXJ2dGY?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261030T200820Z",
         "source": "GoogleNews"
       },
       {
@@ -120080,12 +120020,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Japan lifts asset freeze measures on three Arabs “previously linked to terrorism”",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzQ4VDdQcXNnanpaVjFJTzcyYU5UR0JDQXBYSzRlYlk1dVl1cWtFdERHdEhNUGJ3dUUxZkllY3BpOWdVUG5sY256MHVILTBLdHRXWkY4cE1VQ29PeWUyYVduMllONFBMcDhZc3BaU0pxVG5NUjJLbG9NaTFlRng2VkRaTHNsVkhpM2NLRG1iSFljaE1jMlpCS1dIb2EybW9mcm1MNEVVU3l3RkVhUGlSVTVVZmNYM3NtcEJ2NXJ2dGY?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T200820Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Crypto exchanges and sanctions: where does the risk begin?",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb0swUXdCb2xHQzNsNVI0OFdHam5iZU1zZUNmcTJLMGI3VjdGS2xyV3hFbGx1aUE5LS1sVEZLSTJLSGlmTkE2cGloZzlCUklsSVNObzdod3FWTnc4cjcxcFhiS3NJbnZpY0ZJeEJjU0VuUWtSV0p4WUF4VXBORHY2T0FZWFllZHFhQld1eGdWWURjQ1lwNDZMRTlHX04?oc=5",
         "domain": "fieldfisher",
         "language": "",
         "tone": 0,
         "seendate": "20261028T201257Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Binance Hack Lasted 20 Minutes. The AFC Response Will Take Months",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUpaUjI1U2pYWUtwWE1KckR0V0JFbG1nX0pnT05waU50STJ5TFdjUGtlSy1XTExhc1Z1RlRyMW9mUm0xWkFOd2EycUFubGl6SEM5X3k0clFYWVpfOGxpVEdObE1fZ3ZUTjgyMVJKQnU2VTRVcG4xVGVJWWpzMHQ5WjdLZG1fR1NsOVVVUHpZeXBNRnpvWEltSw?oc=5",
+        "domain": "acams",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261103T154539Z",
         "source": "GoogleNews"
       },
       {
@@ -120104,15 +120062,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261030T071841Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Two UN-Sanctioned North Korean Tankers Spotted Repeatedly Off China",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWZsX2x0dnN0NkotYTRFTUt2Z1VrXzBoUjVlTW9sNTc4YklQcUxORzZpb0xod1k0WnVlSnNKTnVWdVJtOVZXMnA2NVR2OEJ1b2x5SFdPNmFsTnU3NUw1VTczeGI4YnY4a1cwQlJvMHVLRzhFZW1ZdFJYdG9KM3hLTVFzT2pyNWZXVlNmR1hTbzdCVEVkWm5IZ1VyWXRJY1A3dGdzX1R5S3hQYWM?oc=5",
-        "domain": "eurasiareview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261028T023940Z",
         "source": "GoogleNews"
       },
       {
@@ -120143,21 +120092,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Huang Calls Megaspeed Ties Normal Amid 1 Spy Probe [2026]",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRS1YM25nN2l3Yy1Td3hqOHBlRFFDR3lHT1FYaUpjQVI5RC03RnZFWlkxQmh0R0VNSHFQVVFYWjAwazRjQ2loNnlyc29reGl4R3lDa3pjdGtFTW9Na2NraHBmVkItMmN5VWlfWlh6OXpjNnZQVHJJZ3dqcEZBSmI3UUc1Qjg?oc=5",
-        "domain": "shattered.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T224609Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Libyan Investment Authority explores reinvestment of frozen assets in France",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlg2aXNoX0ZLQXhmNXhTU3hrU1NKTGdFZlNJQ2ZrNUtPUFRKc0xmNjE0WmQ0REx0dTZ0cVpGN0h6WElFYUJxRVNjUk03SHNFVXRoZ2dtYmpmMHMzY29xOW96cVYtTmNwaXNVeENyWmZRNkhLRG9rRFotWmVNTU5PMHV6VUFxVkZfeHRPc2IxRDB0Rno2X1NsdmZXV190NUM1MXUzUUhn?oc=5",
         "domain": "thelibyaobserver",
         "language": "",
         "tone": 0,
         "seendate": "20261103T190300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Huang Calls Megaspeed Ties Normal Amid 1 Spy Probe [2026]",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRS1YM25nN2l3Yy1Td3hqOHBlRFFDR3lHT1FYaUpjQVI5RC03RnZFWlkxQmh0R0VNSHFQVVFYWjAwazRjQ2loNnlyc29reGl4R3lDa3pjdGtFTW9Na2NraHBmVkItMmN5VWlfWlh6OXpjNnZQVHJJZ3dqcEZBSmI3UUc1Qjg?oc=5",
+        "domain": "shattered.io",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T224609Z",
         "source": "GoogleNews"
       },
       {
@@ -120179,30 +120128,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian Recruiter Suyash Mukut (India), UK-sanctioned",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT28zLVpEbUJDdWtYTk43VGpLVzcxRVQ1QVlfNjM4X25EczlNc3BYYktuMUZhU1hEMDBzeVM0MVA1bGYzVzUySkNuZ3AxbzFhNEJzZEJfUlhQeFhtUVJZanFNZURmZVRhcThoZzBCTVY2cXF4T0xkQWhiSWZGOTNTSA?oc=5",
-        "domain": "stoprussianrecruiters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261030T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "HTX Exits UK Market Under Court-Backed FCA Deal Barring Crypto Ads Until 2031",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OcXJBZjNzVWs4d1lYbDVRd3hLLW5ZRWZXX0g2ZFpubWRTc0U1OVdoeXk2cWZDamlfWUsxQ3E5blRUU3NpYkdKRHp6bmJwMm1relRpOHUwX2NUS1dIZFUtdThjczNZQ0doeDZDZXpsYmxEZXY4bWc?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T155500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "GRC says Russian intermediaries offer North Korean workers to businesses — ABC News Australia",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFFmWm9xZktJcUxVUHNyajdHbFBETnQ5Vmt3M0lSdFJQN0lxeHRzYVRBTGF0ZzB0YkFDMmJoNlVCbEgxSkxXYlJvNXZlQlVkcnJqUEdvMlduTEZDUk5BbG42OWdBcGJDZ3BtcU15Z2h4Qjdvak91dFZSei1GZmdOX1BtUEFneVhDRWREeVhkUUVaSGdXNXlYX0hla3lpYUZiUHRTQk5TWlAwbFdwNTBxSlZla01XT0swVm5pcTRaSQ?oc=5",
         "domain": "ua.news",
         "language": "",
         "tone": 0,
         "seendate": "20261029T070135Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russian Recruiter Suyash Mukut (India), UK-sanctioned",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT28zLVpEbUJDdWtYTk43VGpLVzcxRVQ1QVlfNjM4X25EczlNc3BYYktuMUZhU1hEMDBzeVM0MVA1bGYzVzUySkNuZ3AxbzFhNEJzZEJfUlhQeFhtUVJZanFNZURmZVRhcThoZzBCTVY2cXF4T0xkQWhiSWZGOTNTSA?oc=5",
+        "domain": "stoprussianrecruiters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261030T070000Z",
         "source": "GoogleNews"
       },
       {
