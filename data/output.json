@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-04T23:39:00.470233+00:00",
+    "generated": "2026-11-05T06:37:58.196033+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-04T23:37:13.745820+00:00",
+    "issued_at": "2026-11-05T06:36:11.554274+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 26.4,
+    "score": 20.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -83,12 +83,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 37.5,
+        "score": 0.0,
         "current_count": 19499,
-        "previous_count": 19484,
-        "added_count": 15,
+        "previous_count": 19499,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-11-02",
         "sha256": "ebbbce82570fd05f5f53db0f30eca2541a914b47f1044a1568760b51a4753654",
         "top_programs": [
@@ -159,98 +159,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "59050",
-            "name": "FUGO GROUND SERVICES INC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59053",
-            "name": "SHARMA, Suniel Kumar",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59054",
-            "name": "SHAHID, Jaspreet Preeti",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59055",
-            "name": "OCEANIEK TECHNOLOGIES INDIA",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59056",
-            "name": "DHIMAN, Ashwani Kumar",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59057",
-            "name": "SINGH, Ishwinder",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59058",
-            "name": "ESWATINI MARITIME AFFAIRS AND INTERNATIONAL SHIP REGISTRY PTE. LTD.",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59059",
-            "name": "PRECEPT TRENDS PRIVATE LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59060",
-            "name": "POLYNESIA MARITIME PRIVATE LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59061",
-            "name": "ALEXARYA FINSERV PRIVATE LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59062",
-            "name": "ALEXARYA MEDIA AND ENTERTAINMENT PRIVATE LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59063",
-            "name": "ARYAVART SHIP MANAGEMENT PRIVATE LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59064",
-            "name": "VIHARABOATING PRIVATE LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59065",
-            "name": "ARYAVART MARITIME AND EDUCATIONAL TRUST",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59090",
-            "name": "DOMULLODZHANOV, Alisher",
-            "type": "individual",
-            "program": "IRAN-CON-ARMS-EO"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -258,11 +167,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 22.0,
+        "score": 27.9,
         "current_7d_releases": 2,
         "current_weighted_term_rate": 2.75,
-        "baseline_weeks": 12,
-        "anomaly_z": 0.27,
+        "baseline_weeks": 11,
+        "anomaly_z": 1.01,
         "matched_release_count": 2,
         "relief_release_count": 2,
         "evidence": [
@@ -377,33 +286,12 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [
-        "sdn_delta_breadth"
-      ],
+      "official_components": [],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 37.5,
-        "level": "WATCH",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
-      }
-    ],
+    "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-13T20:44:52.277733+00:00",
-        "score": 23.8,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 46.8,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-14T04:49:21.547122+00:00",
         "score": 27.3,
@@ -2372,6 +2260,17 @@
           "official_posture_shift": 22.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-05T06:36:11.554274+00:00",
+        "score": 20.4,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 27.9,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2436,13 +2335,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "26.4/100",
+      "value": "20.4/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,499",
-      "delta": "+15 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -120259,6 +120158,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "ENFORCEMENT—2d Cir.: Second Circuit upholds sanctions against trust attorney over false declaration",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVzMXE4aTY1WkoxZk9DU0dVY3hGTnBxNFRYak9uN1l5YVI0M0l6V01ucUNQZENpYjJEMHdUSWlyYk1ua2I0SFh5RngySjIwRjNnVmlCYVM5VHJhVU8tTFU5cnhhRDRqVHI2a0JmV21leHhxQ01YNmFDQTV0R2ZpczN1NUtyX2lFa2JYeGlza0lpd045NGc0U2NmcUZZMEZrTkR0TWF1Tkd6SXpGSlI5M0xJSVBuQ2VkVjNzMFFWS2ZHZVhudERFdXd0X1U0eGRCR0VxWTBia3ZmdVlWSkpwVlYwLXBBRWpwVHQ1WlFVekFGTDlrM3AwVA?oc=5",
+        "domain": "vitallaw.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T003503Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Russia Sanctions Tracker - UK (2026)",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNUVNb2dqYjJHZXRhWk1aTTBRZmpKelI0b1lFQmhvRlVKbVlBT0xSYVN5OUw3bWZURG1kSXRnckhZRThrR1QwNC1YME5YalpYenhLUWFhd3p4OUkyVjVFcWRlMUVmTVhqT2FhN1M2Q040QmlPNXoyRGdYUjBlS3RXcjdlSFlMM1hyeXFOSmFB?oc=5",
         "domain": "ashurstperkinscoie",
@@ -120295,12 +120203,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Binance Hack Lasted 20 Minutes. The AFC Response Will Take Months",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUpaUjI1U2pYWUtwWE1KckR0V0JFbG1nX0pnT05waU50STJ5TFdjUGtlSy1XTExhc1Z1RlRyMW9mUm0xWkFOd2EycUFubGl6SEM5X3k0clFYWVpfOGxpVEdObE1fZ3ZUTjgyMVJKQnU2VTRVcG4xVGVJWWpzMHQ5WjdLZG1fR1NsOVVVUHpZeXBNRnpvWEltSw?oc=5",
+        "title": "The Binance hack is a compliance story: Four lessons for financial crime teams",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelNJUHRrVTNnci01SEhGN1ZTYnVFbHFicmNVamlNdU9NcUxwcWdjTzVOMzRxcWtzellWTnVNeWVrM05JdjJhTmJYbzBQdlZJZzhHejVZbWwzdFh2UFlPaEotNWNwRENYa0kwZlRIalgzekVlaFpBTkRZRUV6bkFqQkxkc2N3S1JQMTB3R1VmYnpjUEpvNFBXX0kycFhhUQ?oc=5",
         "domain": "acams",
         "language": "",
         "tone": 0,
-        "seendate": "20261104T090005Z",
+        "seendate": "20261105T053822Z",
         "source": "GoogleNews"
       },
       {
@@ -120319,6 +120227,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261030T071841Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "New Settlement Conference Set In $95M Credit Union Fraud Case As NCUA Fights Release Of Frozen Funds",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNVJCQnRzMVJhR3lES0NzbEd4dHp3NklrbUdPUHpQWnlLblE1eUVKRFFjUy01TzctbjJ5M0hveUJXWnpnMVdpbUlrb2h0OWs1N0pzRUJRenRhQmNIelVaTU9BS3lVZkRIdzBHMWZadHhla3FWWjNRdi1lVHFOdmZaSGdOT3l2VXdlZlVOV3djUnlNc1Z4VWlySDdzMkpYdWxxdGNyaF9Yal9IVXpNRk9kTDJfZ3JEOC1PSHRXcnFtWXR3cnFIMlg0NE5XdXhMZVlTc2c?oc=5",
+        "domain": "cutoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T035548Z",
         "source": "GoogleNews"
       },
       {
@@ -120376,33 +120293,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Huang Calls Megaspeed Ties Normal Amid 1 Spy Probe [2026]",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRS1YM25nN2l3Yy1Td3hqOHBlRFFDR3lHT1FYaUpjQVI5RC03RnZFWlkxQmh0R0VNSHFQVVFYWjAwazRjQ2loNnlyc29reGl4R3lDa3pjdGtFTW9Na2NraHBmVkItMmN5VWlfWlh6OXpjNnZQVHJJZ3dqcEZBSmI3UUc1Qjg?oc=5",
-        "domain": "shattered.io",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T224609Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "SEC Sanctioned for Misconduct in Debt Box Crypto Case",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWm5Db3pHZ0NCLTQxakozMTVUc1pYQ2paV0pET1pCUUpKQkpMWjhYUGRmU0k3dEswajNGeHFTbkx1QTdtZDlTNmttZXpKX1NuRHJzLVRXWFBuem04dTBRd2JxcnAwc2VzbTNRN3lQemRyaWk3Q1lFN1lXT2drNnpLcE5PaFpBZFJOWktiRjBTX2VBdHB1VkJyYldjZw?oc=5",
-        "domain": "coinmarketcap",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261102T015850Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Kim Yo-jong Proposes Dialogue Over Binance Hack Fallout",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU0RxU3g3NEFJRkRBV0NsRlZhbHE5a1N1S0xMM1Q5ZlVCOUNHZnRDSVpaSTBiUWdlbG55Q3NaZDh4VGdGTVlkbG0tRkxKYzhzZ2g1UUZJZzFwWHRlWkdWcllSa3gyMnk2d1pKaVNMVmZhQmZpZlhyelJoZ1hZeWtfNkVYM0kxYlN5NEwwdw?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T154403Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Why are Bitcoin and cryptocurrency prices falling after Binance's $2.5 billion asset freeze?",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONS1EcWZrc3FXYjAxRWE3Xzltd3gyQ1g3QlBQMlJHVlNJX2tIUG5CSlo2NDRQMVhaVVktSTdwUy1ScHREeTF6Rjdadm8tVUxnR2dQTml1dkFoTG1TMFdqUjkyQ1hMdVh6akJITG1SMGhmQm44eGdvQThNelVYUkRvWEFZdVVfd3VVZVZFTmtrX1ZYV04ySWpRLV9lS2h0RTFZb3Exa2lYTC1yYXZMV18w?oc=5",
         "domain": "latestnewsfromazerbaijan",
@@ -120448,21 +120338,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Police Arrest 13 in China-Based Investment Scam That Took 14.2 Billion Won",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbjlpR1VWVVhiSl9tWUN2Wkg0d2h3c3IxTlVfY1BBekREdDRpYmVENXF5RFA2UmFGVnNQVmRWSDc3WHN6S0RTMmtSWnlJV1dBQ3g0VHhVOVRjRmNmMUdUNHgzMEl1OHJFTThLRUdMczJFNWY3SHdHWFp3SVQ5bUc1VmRUOGhEbTBDTlNKdGJIdEdYRm1fVU5sa0ZXMEtBblRz?oc=5",
+        "domain": "seouleconomicdaily",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T044012Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
         "domain": "seouleconomicdaily",
         "language": "",
         "tone": 0,
         "seendate": "20261102T010005Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tether Freezes Binance Hack Funds Blocking North Korean Theft",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15dGtySnI3WHdaNUdjcE5Sc0NmbHV5NjNONkJQRy15QjZ5eUVKOGhmZk5DLTJzTVVBaDU0V1BySDdDcTlBT2xkNHBISmpjZ3J0NGVWLTVHXzE1dDRDWVRMSGZaUlJVdWJSYVR0VTFmcWN1ZzFM?oc=5",
-        "domain": "thecryptonomist",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261102T185446Z",
         "source": "GoogleNews"
       },
       {
@@ -120495,19 +120385,28 @@
       {
         "title": "Web3 Payments After the $1.8B Freeze and $5.6B Breach",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa1lBaURmSUdZYU8tOU1mUk96VlM4UnlUVGNIcFY1TGZ6aUJiZzVaU25KWHBvdWYyOW5DZDI0S084SmxTUi1Kdk5MXzJBVkJLb3hEZENsYlBQVU54VGVta1Y0eWdxQXc2T0VsRTVPQ1lWSnBDWnFUTXlFbXQ4ZU9MRVRBMA?oc=5",
-        "domain": "onesafe.io",
+        "domain": "onesafe",
         "language": "",
         "tone": 0,
         "seendate": "20261030T045558Z",
         "source": "GoogleNews"
       },
       {
-        "title": "The Crack in the Wall",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FWXVUd0tvVlEtNTY2c0ZjUzk3M1ZPYllhR0M1QUVaenlFalJQRjJsU1ZHWndVa3NMSHFkdUloZUdQajFiMnNsSXhLaVV0bTNWSmFfVl84MmdxQ2Vtb3dMdTl0cUIzWHlRX01ybEIydw?oc=5",
-        "domain": "newswav",
+        "title": "'You are either with us or against us': US Sanctions Indian businessman, wife for helping Iran bypass oil san",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNQmZsWFVxZEgtWmI2NGMtcnY5YmpuNEVtZmFmMzViR0l1MlFEbEdiYzVlaDlYaXFRMGcxWWpMOTZZWklEOTAwT0NubEdJVkRERlU3MVdIUGRhLU9PVU9WMld1WklGYmstVzFLQXNDUHFvMm1JbVZsMW5SelN5R29aNld6V0xramIwTERKdldBZ3Y0Q2d4aHdSd2IyeHQ0SXp6cmQ2cUliLWxZLUtUUFpIVkFfWlZlZVltQU4xaGVLdV95QUZsOEFmSi1CdEE1SW9HTjM1c0FBZ19wdnZ5VWUtRHBQUlBYRTVULTFWYmJJTGNVa0RabjVaZnBvYWt2OVYzMkJJcllJWlM2WTlIeFZwQTFBY3hMX2luSmF4U2NjYjFGeEl1RlljSHZkWdIBsAJBVV95cUxQenhDNzVtUkQ1TXJ4emZabEFFdEZLMERKeTBOZDh2dXVZdWRJbkd6U25KbUxVS09qc1EtTGFfZmE2QllMYk90MlRtemZnMjVNTlRDdVltYkJYNEo1VEp6c3dlckR2dnZHSXQyWk53b1dPUF81RWlZZE8ybExXbW1qa1FRdVVYYWJ2cnh5RTc4cVZMQmFScUtQX0l0MWdmVVJ1WFIyNzBEX1pQTDVVQ1AzSTBJM1R3ZFh2bm10RDR0VWU2eUxWMG16X1JnNmtqcVduazNqcDZveFA1RGJiNHczMFJNR1BXZ0l5dWlnNGtkblE0OHdwVmg5dkREc3d6ZGZqTGNTWEM5Vll4M2dZSkEwcnZLaThRQkZJZEgxemdnZ3NMVzVDem1lcm1jbWIxck5S?oc=5",
+        "domain": "india.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261103T003014Z",
+        "seendate": "20261105T044109Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tether USDt price holds near dollar as reserves and freeze policy draw scrutiny",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdU9DQkItNmdXeEJCbGFWX0JON1VucldHbmNQZXV2VkYxcHhjdW5lRmFZaUVOOGVLSV9BYi1uR1ZNZVlOZWwwMmFIVkliMHgxQVQ3ZExCckdGVW8takwwQVFwNGZHb1ZwOVZqZG9pb3hVbjZDUlhKWDFOanhTTjk1Qnc3eWNCakxZb19VOEZNR0EtcUxabHhKRGFHSDJaOG5yWmVIYjdDREtyMm5xYVAzRXhyd3BKdnNDYVBNc0EzaTAtYURHQ0ZpbmNwb2poVkxzY3NXZEs1ZUQ?oc=5",
+        "domain": "ad-hoc-news.de",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T062159Z",
         "source": "GoogleNews"
       },
       {
