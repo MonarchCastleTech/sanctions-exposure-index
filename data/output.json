@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-05T06:37:58.196033+00:00",
+    "generated": "2026-11-05T19:54:42.138411+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-05T06:36:11.554274+00:00",
+    "issued_at": "2026-11-05T19:52:55.723956+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 20.4,
-    "level": "BASELINE",
+    "score": 50.4,
+    "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,19 +24,72 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 24.0,
+        "score": 64.4,
         "releases_considered": 98,
-        "current_7d_designation_releases": 2,
-        "current_7d_all_releases": 2,
+        "current_7d_designation_releases": 5,
+        "current_7d_all_releases": 5,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.0,
-        "anomaly_z": -0.34,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": 0.67,
         "themes": [
+          "cuba",
+          "cyber",
           "iran",
           "venezuela"
         ],
         "evidence": [
+          {
+            "title": "Further Sanctions on the Cuban Regime's Foreign Military Support and Illicit Revenue Networks",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks-fact-sheet/",
+            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+            "date": "2026-11-05",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "cuba",
+              "cyber"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Treasury Targets Global Scam Networks and the Corporate Infrastructure That Enables Them",
+            "url": "https://home.treasury.gov/news/press-releases/sb0683/",
+            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+            "date": "2026-11-05",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "targets"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "cuba",
+              "cyber"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/disrupting-irans-pursuit-of-man-portable-air-defense-systems-fact-sheet/",
+            "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
+            "date": "2026-11-04",
+            "source": "OFAC/Treasury",
+            "posture_terms": [],
+            "relief_terms": [
+              "general license"
+            ],
+            "themes": [
+              "iran",
+              "venezuela"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
             "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
@@ -83,14 +136,14 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19499,
+        "score": 100.0,
+        "current_count": 19555,
         "previous_count": 19499,
-        "added_count": 0,
+        "added_count": 56,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-11-02",
-        "sha256": "ebbbce82570fd05f5f53db0f30eca2541a914b47f1044a1568760b51a4753654",
+        "changed": true,
+        "publish_date": "2026-11-05",
+        "sha256": "8e94d8715b81f54a7d769c52af7fcefea19d48eead54bb9d974f4a62dadd9536",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -138,28 +191,149 @@
           },
           {
             "program": "TCO",
-            "count": 386
+            "count": 431
           }
         ],
         "types": [
           {
             "type": "Unspecified",
-            "count": 10055
+            "count": 10102
           },
           {
             "type": "individual",
-            "count": 7534
+            "count": 7541
           },
           {
             "type": "vessel",
-            "count": 1568
+            "count": 1570
           },
           {
             "type": "aircraft",
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "58563",
+            "name": "ASIAN WELFARE LOTTERIES CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58564",
+            "name": "CB GENERAL INSURANCE PLC",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58565",
+            "name": "CAMBODIAN RESOURCE ENERGY DEVELOPMENT CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58566",
+            "name": "CAMBODIAN UNITE WEI YE INVESTMENT CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58567",
+            "name": "DT ZHI ZAO CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58568",
+            "name": "FIRST AQUATIC INDUSTRIAL CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58569",
+            "name": "MO NET BEAUTY CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58570",
+            "name": "PRINCE INTERNATIONAL AIRLINES CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58572",
+            "name": "RICHENG PROPERTY DEVELOPER CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58573",
+            "name": "TIAN XU INTERNATIONAL TECHNOLOGY PLC",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58574",
+            "name": "ZHX PRINTING EQUIPMENT CAMBODIA CO LTD",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58575",
+            "name": "QIU, Yong",
+            "type": "individual",
+            "program": "TCO"
+          },
+          {
+            "id": "58595",
+            "name": "HE, Yujing",
+            "type": "individual",
+            "program": "TCO"
+          },
+          {
+            "id": "58597",
+            "name": "SUPER LIGHT SPEED KH TECHNOLOGY CO., LTD.",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58625",
+            "name": "PANG, Visal",
+            "type": "individual",
+            "program": "TCO"
+          },
+          {
+            "id": "58627",
+            "name": "CAMBODIA FIRST UNITE CONSTRUCTION GROUP CO., LTD.",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58628",
+            "name": "FIRST UNITE INTERNATIONAL LOGISTICS CO., LTD.",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58629",
+            "name": "FIRST UNITE NETWORKS ENTERTAINMENT CO., LTD.",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58632",
+            "name": "FIRST UNITE PROPERTY CO., LTD.",
+            "type": "",
+            "program": "TCO"
+          },
+          {
+            "id": "58636",
+            "name": "FIRST UNITE DECORATION CAMBODIA CO., LTD.",
+            "type": "",
+            "program": "TCO"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -167,14 +341,48 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 27.9,
-        "current_7d_releases": 2,
-        "current_weighted_term_rate": 2.75,
+        "score": 11.5,
+        "current_7d_releases": 5,
+        "current_weighted_term_rate": 1.6,
         "baseline_weeks": 11,
-        "anomaly_z": 1.01,
-        "matched_release_count": 2,
-        "relief_release_count": 2,
+        "anomaly_z": -0.45,
+        "matched_release_count": 4,
+        "relief_release_count": 3,
         "evidence": [
+          {
+            "title": "Further Sanctions on the Cuban Regime's Foreign Military Support and Illicit Revenue Networks",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks-fact-sheet/",
+            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+            "date": "2026-11-05",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "cuba",
+              "cyber"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Treasury Targets Global Scam Networks and the Corporate Infrastructure That Enables Them",
+            "url": "https://home.treasury.gov/news/press-releases/sb0683/",
+            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+            "date": "2026-11-05",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "targets"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "cuba",
+              "cyber"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
             "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
@@ -286,23 +494,30 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "ofac_action_velocity",
+        "sdn_delta_breadth"
+      ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [],
-    "history": [
+    "alerts": [
       {
-        "timestamp": "2026-09-14T04:49:21.547122+00:00",
-        "score": 27.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 56.6,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
+        "id": "sdn_delta_breadth",
+        "title": "Exact SDN list delta",
+        "score": 100.0,
+        "level": "SEVERE",
+        "why": "The official SDN file changed materially since the previous accepted snapshot."
       },
+      {
+        "id": "ofac_action_velocity",
+        "title": "OFAC action velocity",
+        "score": 64.4,
+        "level": "ELEVATED",
+        "why": "Official designation-linked releases are elevated against prior weekly activity."
+      }
+    ],
+    "history": [
       {
         "timestamp": "2026-09-14T12:38:13.022664+00:00",
         "score": 27.3,
@@ -2271,10 +2486,21 @@
           "official_posture_shift": 27.9,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-05T19:52:55.723956+00:00",
+        "score": 50.4,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 100.0,
+          "official_posture_shift": 11.5,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19499,
+      "sdn_entries": 19555,
       "ofac_releases": 98,
       "market_series_available": 2,
       "available_components": 4,
@@ -2335,13 +2561,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "20.4/100",
-      "delta": "BASELINE"
+      "value": "50.4/100",
+      "delta": "WATCH"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,499",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,555",
+      "delta": "+56 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -2356,9 +2582,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-11-02",
-      "sha256": "ebbbce82570fd05f5f53db0f30eca2541a914b47f1044a1568760b51a4753654",
-      "count": 19499,
+      "publish_date": "2026-11-05",
+      "sha256": "8e94d8715b81f54a7d769c52af7fcefea19d48eead54bb9d974f4a62dadd9536",
+      "count": 19555,
       "entries": [
         {
           "id": "36",
@@ -37206,7 +37432,7 @@
           "id": "26704",
           "name": "ESPERANZA",
           "type": "vessel",
-          "program": "VENEZUELA-EO13850"
+          "program": "VENEZUELA-EO13850] [CUBA-EO14404"
         },
         {
           "id": "26705",
@@ -38920,15 +39146,15 @@
         },
         {
           "id": "27425",
-          "name": "GIRALT",
+          "name": "LOURDES",
           "type": "vessel",
-          "program": "VENEZUELA-EO13850"
+          "program": "VENEZUELA-EO13850] [CUBA-EO14404"
         },
         {
           "id": "27426",
           "name": "CAROIL TRANSPORT MARINE LTD",
           "type": "",
-          "program": "VENEZUELA-EO13850"
+          "program": "VENEZUELA-EO13850] [CUBA-EO14404"
         },
         {
           "id": "27427",
@@ -38956,9 +39182,9 @@
         },
         {
           "id": "27431",
-          "name": "CARLOTA C",
+          "name": "MARIA CRISTINA",
           "type": "vessel",
-          "program": "VENEZUELA-EO13850"
+          "program": "VENEZUELA-EO13850] [CUBA-EO14404"
         },
         {
           "id": "27432",
@@ -43644,7 +43870,7 @@
           "id": "30502",
           "name": "CEIEC",
           "type": "",
-          "program": "VENEZUELA"
+          "program": "VENEZUELA] [CUBA-EO14404"
         },
         {
           "id": "30517",
@@ -118125,16 +118351,100 @@
           "program": "SDGT"
         },
         {
+          "id": "58563",
+          "name": "ASIAN WELFARE LOTTERIES CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58564",
+          "name": "CB GENERAL INSURANCE PLC",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58565",
+          "name": "CAMBODIAN RESOURCE ENERGY DEVELOPMENT CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58566",
+          "name": "CAMBODIAN UNITE WEI YE INVESTMENT CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58567",
+          "name": "DT ZHI ZAO CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58568",
+          "name": "FIRST AQUATIC INDUSTRIAL CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58569",
+          "name": "MO NET BEAUTY CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58570",
+          "name": "PRINCE INTERNATIONAL AIRLINES CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
           "id": "58571",
           "name": "INTERNATIONAL DEVELOPMENT BANK FOR INVESTMENT AND FINANCE",
           "type": "",
           "program": "IRAN-EO13902"
         },
         {
+          "id": "58572",
+          "name": "RICHENG PROPERTY DEVELOPER CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58573",
+          "name": "TIAN XU INTERNATIONAL TECHNOLOGY PLC",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58574",
+          "name": "ZHX PRINTING EQUIPMENT CAMBODIA CO LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58575",
+          "name": "QIU, Yong",
+          "type": "individual",
+          "program": "TCO"
+        },
+        {
+          "id": "58595",
+          "name": "HE, Yujing",
+          "type": "individual",
+          "program": "TCO"
+        },
+        {
           "id": "58596",
           "name": "TAJAMMAL, Waseem Pasha",
           "type": "individual",
           "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58597",
+          "name": "SUPER LIGHT SPEED KH TECHNOLOGY CO., LTD.",
+          "type": "",
+          "program": "TCO"
         },
         {
           "id": "58598",
@@ -118209,8 +118519,32 @@
           "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         },
         {
+          "id": "58625",
+          "name": "PANG, Visal",
+          "type": "individual",
+          "program": "TCO"
+        },
+        {
           "id": "58626",
           "name": "A7 NETWORK",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58627",
+          "name": "CAMBODIA FIRST UNITE CONSTRUCTION GROUP CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58628",
+          "name": "FIRST UNITE INTERNATIONAL LOGISTICS CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58629",
+          "name": "FIRST UNITE NETWORKS ENTERTAINMENT CO., LTD.",
           "type": "",
           "program": "TCO"
         },
@@ -118225,6 +118559,72 @@
           "name": "HEIDARI, Seyed Adel",
           "type": "individual",
           "program": "IRAN] [IRAN-EO13902"
+        },
+        {
+          "id": "58632",
+          "name": "FIRST UNITE PROPERTY CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58636",
+          "name": "FIRST UNITE DECORATION CAMBODIA CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58637",
+          "name": "CAMBODIAN FIRST UNITE CONSTRUCTION MACHINERY CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58638",
+          "name": "LINKEDUS TECHNOLOGY CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58639",
+          "name": "CAMBO DUTY FREE MERCHANDISE CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58640",
+          "name": "MARCO POLO HOTEL CO. LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58641",
+          "name": "U-LIFE GO NOW CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58642",
+          "name": "U-LIFE KH SUPER APP CO., LTD.",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58644",
+          "name": "MERITWISE GROUP PUBLIC LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58645",
+          "name": "CHEN HUA HOLDINGS PTE LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58646",
+          "name": "GREENMEADOWS PROPERTIES SDN BHD",
+          "type": "",
+          "program": "TCO"
         },
         {
           "id": "58647",
@@ -118273,6 +118673,102 @@
           "name": "TABATABAI, Seyyed Asghar Alizadeh",
           "type": "individual",
           "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58655",
+          "name": "ZHAO, Mengyao",
+          "type": "individual",
+          "program": "TCO"
+        },
+        {
+          "id": "58656",
+          "name": "GREENBAY MULTI MEDIA PTE LTD",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58657",
+          "name": "SUN SPEED HOLDINGS LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58658",
+          "name": "PREMIUM FINANCIAL LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58659",
+          "name": "GLAD VAST LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58660",
+          "name": "GLAD SPARKLE LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58661",
+          "name": "GLAD HARVEST LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58662",
+          "name": "GLAD GLORY LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58663",
+          "name": "DIRECT ASTUTE HK LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58664",
+          "name": "DIRECT ASTUTE LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58665",
+          "name": "SOLAR SCAPE FINANCE LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58666",
+          "name": "SOLAR SCAPE LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58667",
+          "name": "VICTORY FLORA LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58668",
+          "name": "WIN APPLAUSE LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58669",
+          "name": "CELESTIAL DRIVE LIMITED",
+          "type": "",
+          "program": "TCO"
+        },
+        {
+          "id": "58670",
+          "name": "SINO SAGACIOUS LIMITED",
+          "type": "",
+          "program": "TCO"
         },
         {
           "id": "58693",
@@ -119019,6 +119515,48 @@
           "program": "DPRK2"
         },
         {
+          "id": "58890",
+          "name": "RODRIGUEZ LOPEZ CALLEJA, Guillermo Faustino",
+          "type": "individual",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58910",
+          "name": "GLORIA C",
+          "type": "vessel",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58911",
+          "name": "TENTACOOL COMMERCIAL INC",
+          "type": "",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58912",
+          "name": "RODRIGUEZ LASTRES, Any",
+          "type": "individual",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58913",
+          "name": "EMPRESA IMPORTADORA Y EXPORTADORA DE PRODUCTOS DE LA ELECTRONICA Y LAS COMUNICACIONES",
+          "type": "",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58915",
+          "name": "EMPRESA COMERCIALIZADORA DE SERVICIOS TECNICOS Y TECNOLOGICOS",
+          "type": "",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "58917",
+          "name": "BEIJING H AND C TECHNOLOGIES CO., LTD",
+          "type": "",
+          "program": "CUBA-EO14404"
+        },
+        {
           "id": "58930",
           "name": "MOHAMMADI, Zhila",
           "type": "individual",
@@ -119265,6 +119803,12 @@
           "program": "IRAN-EO13902"
         },
         {
+          "id": "59052",
+          "name": "CHUI, Kok Wa",
+          "type": "individual",
+          "program": "CYBER4"
+        },
+        {
           "id": "59053",
           "name": "SHARMA, Suniel Kumar",
           "type": "individual",
@@ -119343,6 +119887,24 @@
           "program": "IRAN-EO13902"
         },
         {
+          "id": "59066",
+          "name": "INTERNACIONAL MARITIMA SA",
+          "type": "",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "59067",
+          "name": "PETROLEOS MARITIMOS DEL CARIBE S.A.",
+          "type": "",
+          "program": "CUBA-EO14404"
+        },
+        {
+          "id": "59068",
+          "name": "EMILIA",
+          "type": "vessel",
+          "program": "CUBA-EO14404"
+        },
+        {
           "id": "59069",
           "name": "MINISTRY OF DEFENCE OF THE REPUBLIC OF RWANDA",
           "type": "",
@@ -119359,6 +119921,30 @@
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Further Sanctions on the Cuban Regime's Foreign Military Support and Illicit Revenue Networks",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks-fact-sheet/",
+          "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+          "date": "2026-11-05",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Treasury Targets Global Scam Networks and the Corporate Infrastructure That Enables Them",
+          "url": "https://home.treasury.gov/news/press-releases/sb0683/",
+          "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+          "date": "2026-11-05",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/disrupting-irans-pursuit-of-man-portable-air-defense-systems-fact-sheet/",
+          "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
+          "date": "2026-11-04",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
           "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
@@ -119440,16 +120026,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
-          "url": "https://home.treasury.gov/news/press-releases/sb0656/",
+          "title": "PRESS CHART - Cartel del Noreste Facilitators Network - October 2026",
+          "url": "https://ofac.treasury.gov/media/937211/download?inline",
           "action_title": "Counter Narcotics and Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
           "date": "2026-10-13",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "PRESS CHART - Cartel del Noreste Facilitators Network - October 2026",
-          "url": "https://ofac.treasury.gov/media/937211/download?inline",
+          "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
+          "url": "https://home.treasury.gov/news/press-releases/sb0656/",
           "action_title": "Counter Narcotics and Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
           "date": "2026-10-13",
@@ -119496,16 +120082,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
-          "url": "https://home.treasury.gov/news/press-releases/sb0643/",
+          "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
+          "url": "https://home.treasury.gov/news/press-releases/sb0644/",
           "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
           "date": "2026-10-01",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
-          "url": "https://home.treasury.gov/news/press-releases/sb0644/",
+          "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
+          "url": "https://home.treasury.gov/news/press-releases/sb0643/",
           "action_title": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261001",
           "date": "2026-10-01",
@@ -119517,14 +120103,6 @@
           "action_title": "Counter Terrorism and Transnational Criminal Organizations Designations; Belarus, Counter Narcotics, and Libya Designations Removals",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260930",
           "date": "2026-09-30",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
-          "url": "https://home.treasury.gov/news/press-releases/sb0637/",
-          "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
-          "date": "2026-09-29",
           "source": "OFAC/Treasury"
         },
         {
@@ -119544,11 +120122,11 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
-          "url": "https://home.treasury.gov/news/press-releases/sb0636/",
-          "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
-          "date": "2026-09-29",
+          "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
+          "action_title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260917",
+          "date": "2026-09-17",
           "source": "OFAC/Treasury"
         },
         {
@@ -119576,16 +120154,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
-          "url": "https://home.treasury.gov/news/press-releases/sb0624/",
+          "title": "Terrorist Designation of Los Tiguerones",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/terrorist-designation-of-los-tiguerones/",
           "action_title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260909",
           "date": "2026-09-09",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Terrorist Designation of Los Tiguerones",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/terrorist-designation-of-los-tiguerones/",
+          "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0624/",
           "action_title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260909",
           "date": "2026-09-09",
@@ -119752,8 +120330,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - CJNG Leadership - July 2026",
-          "url": "https://ofac.treasury.gov/media/936611/download?inline",
+          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+          "url": "https://home.treasury.gov/news/press-releases/sb0573",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
@@ -119770,6 +120348,14 @@
         {
           "title": "CHART - CJNG-Linked Networks - July 2026",
           "url": "https://ofac.treasury.gov/media/936616/download?inline",
+          "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
+          "date": "2026-07-23",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "CHART - CJNG Leadership - July 2026",
+          "url": "https://ofac.treasury.gov/media/936611/download?inline",
           "action_title": "Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260723",
           "date": "2026-07-23",
@@ -120040,16 +120626,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "United States Sanctions Network Facilitating Iran’s Illicit Oil Trade",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade/",
+          "title": "Economic Fury Targets Iranian Shadow Banking Networks Moving Billions in Foreign Currency",
+          "url": "https://home.treasury.gov/news/press-releases/sb0483",
           "action_title": "Iran-related Designations; Issuance of Iran-related General License and Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260501",
           "date": "2026-05-01",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iranian Shadow Banking Networks Moving Billions in Foreign Currency",
-          "url": "https://home.treasury.gov/news/press-releases/sb0483",
+          "title": "United States Sanctions Network Facilitating Iran’s Illicit Oil Trade",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade/",
           "action_title": "Iran-related Designations; Issuance of Iran-related General License and Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260501",
           "date": "2026-05-01",
@@ -120088,16 +120674,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Cambodian Senator Kok An and Scam Center Network Defrauding Americans",
-          "url": "https://home.treasury.gov/news/press-releases/sb0469",
+          "title": "Treasury Sanctions Global Illicit Drug Supply Chain Supporting the Sinaloa Cartel",
+          "url": "https://home.treasury.gov/news/press-releases/sb0468",
           "action_title": "Counter Terrorism, Counter Narcotics, and Cyber-related Designations; Issuance of Cyber-related General License",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260423",
           "date": "2026-04-23",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Global Illicit Drug Supply Chain Supporting the Sinaloa Cartel",
-          "url": "https://home.treasury.gov/news/press-releases/sb0468",
+          "title": "Treasury Sanctions Cambodian Senator Kok An and Scam Center Network Defrauding Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0469",
           "action_title": "Counter Terrorism, Counter Narcotics, and Cyber-related Designations; Issuance of Cyber-related General License",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260423",
           "date": "2026-04-23",
@@ -120112,35 +120698,11 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran-Backed Iraqi Militia Commanders",
-          "url": "https://home.treasury.gov/news/press-releases/sb0458",
-          "action_title": "Counter Terrorism Designations; Sudan Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
-          "date": "2026-04-17",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Treasury Sanctions Recruitment Network Enabling War in Sudan, Calls for Humanitarian Truce",
           "url": "https://home.treasury.gov/news/press-releases/sb0457",
           "action_title": "Counter Terrorism Designations; Sudan Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260417",
           "date": "2026-04-17",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Sanctions Government Officials, Nicaraguan Regime-Linked Gold Firms, and Individuals Involved in Seizing U.S.-Owned Property",
-          "url": "https://home.treasury.gov/news/press-releases/sb0451",
-          "action_title": "Nicaragua-related Designations; Issuance of Nicaragua-related General License",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260416",
-          "date": "2026-04-16",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Economic Fury Targets Illicit Oil Smuggling Network Run by Iranian Regime Elite",
-          "url": "https://home.treasury.gov/news/press-releases/sb0443",
-          "action_title": "Iran-related Designations; Counter Terrorism Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260415",
-          "date": "2026-04-15",
           "source": "OFAC/Treasury"
         }
       ],
@@ -120176,12 +120738,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Assembling the Toolkit: Democrats and the New Push for West Bank Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sR2NicktWX25wQzB4NHNjV2VvdnJxaS1UNjlEMW1OZFNsMl9objNCXzZJRVJ4VUt2UENRRTQwMlE4eTE4TWV2cm9ZaFJrb1RLTjFwQXN2Vnl0Z2JUM1Y3QW9PVm8xbUk?oc=5",
-        "domain": "www.inss.org.il",
+        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
+        "domain": "newscord",
         "language": "",
         "tone": 0,
-        "seendate": "20261103T152124Z",
+        "seendate": "20261105T112018Z",
         "source": "GoogleNews"
       },
       {
@@ -120257,12 +120819,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Freeze-Dried Strawberry Poland Prices & Trade Data | Market Overview 2026",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YVERMc2ZFR3dwQkQ3czhBS3JSbHRnRjB1dXVGcWFJRllJdUZ0TjczY3E3OEpJOTI5blhaUi0xajY4S3VmSWNWOWxUbXQyMmcxcnNiSVdLMHVzS2VPdTdZQUhoRWMxQTdSbGxCUDktUWNwYXM?oc=5",
-        "domain": "tridge",
+        "title": "Sudan: Sanctions Against Commanders Implicated in Sudan Rapes 'Seek Accountability', Says UK Minister",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03ZC05RmRJOWJLTXk4dDJaVk9wUlBHOWh6QnVXUFBRbjlVN21YV1JxMFR4d2Z0bjNrTXRJb1hyR3ZoMDJkN29jVjZhakJCZHNkNWxIeEF5SzRLQ1U?oc=5",
+        "domain": "allafrica.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T070000Z",
+        "seendate": "20261105T100951Z",
         "source": "GoogleNews"
       },
       {
@@ -120293,12 +120855,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Why are Bitcoin and cryptocurrency prices falling after Binance's $2.5 billion asset freeze?",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONS1EcWZrc3FXYjAxRWE3Xzltd3gyQ1g3QlBQMlJHVlNJX2tIUG5CSlo2NDRQMVhaVVktSTdwUy1ScHREeTF6Rjdadm8tVUxnR2dQTml1dkFoTG1TMFdqUjkyQ1hMdVh6akJITG1SMGhmQm44eGdvQThNelVYUkRvWEFZdVVfd3VVZVZFTmtrX1ZYV04ySWpRLV9lS2h0RTFZb3Exa2lYTC1yYXZMV18w?oc=5",
-        "domain": "latestnewsfromazerbaijan",
+        "title": "The Binance Hack Lasted 20 Minutes. The AFC Response Will Take Months",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUpaUjI1U2pYWUtwWE1KckR0V0JFbG1nX0pnT05waU50STJ5TFdjUGtlSy1XTExhc1Z1RlRyMW9mUm0xWkFOd2EycUFubGl6SEM5X3k0clFYWVpfOGxpVEdObE1fZ3ZUTjgyMVJKQnU2VTRVcG4xVGVJWWpzMHQ5WjdLZG1fR1NsOVVVUHpZeXBNRnpvWEltSw?oc=5",
+        "domain": "acams",
         "language": "",
         "tone": 0,
-        "seendate": "20261030T014213Z",
+        "seendate": "20261104T090005Z",
         "source": "GoogleNews"
       },
       {
@@ -120347,21 +120909,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
-        "domain": "seouleconomicdaily",
+        "title": "Tether Freezes Binance Hack Funds Blocking North Korean Theft",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15dGtySnI3WHdaNUdjcE5Sc0NmbHV5NjNONkJQRy15QjZ5eUVKOGhmZk5DLTJzTVVBaDU0V1BySDdDcTlBT2xkNHBISmpjZ3J0NGVWLTVHXzE1dDRDWVRMSGZaUlJVdWJSYVR0VTFmcWN1ZzFM?oc=5",
+        "domain": "thecryptonomist",
         "language": "",
         "tone": 0,
-        "seendate": "20261102T010005Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How China’s mineral export controls could put $6.5 trillion in output at risk",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakI4d1JTdDEwTWdfVmtxTkxPX293WElqdHR5bmJKMzV6Sm5UM01YcG9IWmFSU3hKOE1ZSmR0WjhjNV9hNTEweDcxMy1ZT1hIWlJuOF82WjFaWkdwRFNpa19ocmUxQk5idmRhbkE4d1poR3M5UXVfeVZpbHRra2FtX0YyVnpJZFZsMmVWSk1TeTk3Rk5WaFZRR2dQVWI4NmJTSDI5QXc4UkZkMEZmVzBR?oc=5",
-        "domain": "operativmlumatmrkzi",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261101T065912Z",
+        "seendate": "20261102T185446Z",
         "source": "GoogleNews"
       },
       {
@@ -120371,24 +120924,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261103T125356Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Factory Sales Freeze in Western Hwaseong as Builders, Steelmakers Slump",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNjUtU2JhVklBS1lBelc1a0NuX0t1Njh2c2lFRUI3N3JpYXd4Q1JzdEs3RFBqWkRtZEZUUGVQS0RLd2UzVy1EQW0yU0NReWhJall6bWdvSGd3NU5lNVpucnRHeTgxc3BlTmJMWDhCQ1cxa2p1aF9ibTZhdTFUbzREZWVSZDlCLTFENHlDSk9taGtOWXl3QUp6bmFB?oc=5",
-        "domain": "seouleconomicdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261103T213005Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Web3 Payments After the $1.8B Freeze and $5.6B Breach",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa1lBaURmSUdZYU8tOU1mUk96VlM4UnlUVGNIcFY1TGZ6aUJiZzVaU25KWHBvdWYyOW5DZDI0S084SmxTUi1Kdk5MXzJBVkJLb3hEZENsYlBQVU54VGVta1Y0eWdxQXc2T0VsRTVPQ1lWSnBDWnFUTXlFbXQ4ZU9MRVRBMA?oc=5",
-        "domain": "onesafe",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261030T045558Z",
         "source": "GoogleNews"
       },
       {
@@ -120421,6 +120956,30 @@
     ]
   },
   "events": [
+    {
+      "title": "Further Sanctions on the Cuban Regime's Foreign Military Support and Illicit Revenue Networks",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks-fact-sheet/",
+      "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+      "date": "2026-11-05",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "Treasury Targets Global Scam Networks and the Corporate Infrastructure That Enables Them",
+      "url": "https://home.treasury.gov/news/press-releases/sb0683/",
+      "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
+      "date": "2026-11-05",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/disrupting-irans-pursuit-of-man-portable-air-defense-systems-fact-sheet/",
+      "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
+      "date": "2026-11-04",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
       "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
@@ -120502,14 +121061,6 @@
       "source": "OFAC/Treasury"
     },
     {
-      "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
-      "url": "https://home.treasury.gov/news/press-releases/sb0656/",
-      "action_title": "Counter Narcotics and Counter Terrorism Designations",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
-      "date": "2026-10-13",
-      "source": "OFAC/Treasury"
-    },
-    {
       "title": "PRESS CHART - Cartel del Noreste Facilitators Network - October 2026",
       "url": "https://ofac.treasury.gov/media/937211/download?inline",
       "action_title": "Counter Narcotics and Counter Terrorism Designations",
@@ -120518,27 +121069,11 @@
       "source": "OFAC/Treasury"
     },
     {
-      "title": "Imposing Sanctions on the International Criminal Court",
-      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-on-the-international-criminal-court-2/",
-      "action_title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Pegasus Worldwide Logistics; International Criminal Court Designation and General Licenses; Burma-related Designation Removal",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261009",
-      "date": "2026-10-09",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
-      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
-      "action_title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261008",
-      "date": "2026-10-08",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
-      "url": "https://home.treasury.gov/news/press-releases/sb0653/",
-      "action_title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261008",
-      "date": "2026-10-08",
+      "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
+      "url": "https://home.treasury.gov/news/press-releases/sb0656/",
+      "action_title": "Counter Narcotics and Counter Terrorism Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
+      "date": "2026-10-13",
       "source": "OFAC/Treasury"
     }
   ],
