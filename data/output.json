@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-06T06:33:53.566430+00:00",
+    "generated": "2026-11-06T19:20:13.500472+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-06T06:32:07.184432+00:00",
+    "issued_at": "2026-11-06T19:18:27.010150+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 30.4,
@@ -389,17 +389,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-14T21:46:25.543868+00:00",
-        "score": 38.9,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 77.1,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 27.7,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-15T04:48:46.038189+00:00",
         "score": 37.7,
@@ -2360,6 +2349,17 @@
       },
       {
         "timestamp": "2026-11-06T06:32:07.184432+00:00",
+        "score": 30.4,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 11.5,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-06T19:18:27.010150+00:00",
         "score": 30.4,
         "level": "BASELINE",
         "components": {
@@ -120582,15 +120582,6 @@
     },
     "news_articles": [
       {
-        "title": "Russia/Ukraine Sanctions Update - Month of October 2026",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHZxVXN1SEljSEpmUUdzVkxkMmxMUWJGcjdaMkdzSzlMdlVXcGt2SmIzd3Y3WFdJUERQRHJqeDhVdFhQZlFtMzJOYXpBRGFGVklWaGZqTUEyejVfOTBZRkp2NzVNenIwTWNhNjduTW9GVEJSbHNQeU43SDI5am1Nc3dfZGFfTVRPYTRmMk5ocU1QYmRHdGFyNGF4blpIakpjTVlyYUNZNzdxaG9QVHZaR1pzWQ?oc=5",
-        "domain": "mayerbrown",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261030T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "ENFORCEMENT—2d Cir.: Second Circuit upholds sanctions against trust attorney over false declaration",
         "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVzMXE4aTY1WkoxZk9DU0dVY3hGTnBxNFRYak9uN1l5YVI0M0l6V01ucUNQZENpYjJEMHdUSWlyYk1ua2I0SFh5RngySjIwRjNnVmlCYVM5VHJhVU8tTFU5cnhhRDRqVHI2a0JmV21leHhxQ01YNmFDQTV0R2ZpczN1NUtyX2lFa2JYeGlza0lpd045NGc0U2NmcUZZMEZrTkR0TWF1Tkd6SXpGSlI5M0xJSVBuQ2VkVjNzMFFWS2ZHZVhudERFdXd0X1U0eGRCR0VxWTBia3ZmdVlWSkpwVlYwLXBBRWpwVHQ1WlFVekFGTDlrM3AwVA?oc=5",
         "domain": "vitallaw.com",
@@ -120600,12 +120591,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia Sanctions Tracker - UK (2026)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNUVNb2dqYjJHZXRhWk1aTTBRZmpKelI0b1lFQmhvRlVKbVlBT0xSYVN5OUw3bWZURG1kSXRnckhZRThrR1QwNC1YME5YalpYenhLUWFhd3p4OUkyVjVFcWRlMUVmTVhqT2FhN1M2Q040QmlPNXoyRGdYUjBlS3RXcjdlSFlMM1hyeXFOSmFB?oc=5",
-        "domain": "ashurstperkinscoie",
+        "title": "Who’s on the Russia Sanctions List? People, Banks, and Companies Explained",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMXFXOFBud05hMHZyT25BelhVUFhyc1hieU5qZ28zVnVjTnJIc0tMQ054OXpidzBCVk1jbVhFendlOWJSMURFRXVlalhiUk45N01jWFdpNlVUb3J4d1ZoNkpVa1lUNGhjWXphQmhjaEVLclF1RmpiTE4xOUFXZEVDaVB3LVJKVHhVN1VZaUpmZmxhZWxTTEZrb2JjT2NPbFBmbU1tZGNRUjA4UHNN?oc=5",
+        "domain": "united24media",
         "language": "",
         "tone": 0,
-        "seendate": "20261030T070000Z",
+        "seendate": "20261106T145406Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Assembling the Toolkit: Democrats and the New Push for West Bank Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sR2NicktWX25wQzB4NHNjV2VvdnJxaS1UNjlEMW1OZFNsMl9objNCXzZJRVJ4VUt2UENRRTQwMlE4eTE4TWV2cm9ZaFJrb1RLTjFwQXN2Vnl0Z2JUM1Y3QW9PVm8xbUk?oc=5",
+        "domain": "www.inss.org.il",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261103T152124Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "VTB Ruling Limits Reach Of Sanctions Over Creditor Rights",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPakZnX24wODRUekRYc25vWHFJbmZoZlo0MnUwRHNXRWNfc1BwY29WV0JEOUkwRzVxRVk5NFZmYkhqUnNjV1JzWG55Vm04UlRrM2NWX3Y4YkRBWXhHTjVZNkZtVjVTUk9LU1J1U0xEbVZmc0ZCVmJ5dGdvRTVXd2tDVVZ3VGl3UWxBbU1uN29GNnJaYldHbV9VMUZCa2w4aVEtcG9rQXpnN2FVRlVSLTdfRnlLM3o2SGVWdXc3MnlPTVpjMHZ1Ni1F0gFyQVVfeXFMTjZ6QkFqdVVJdmJacVRmLXYtTmxpd2p5NzBtYkZBOFpGamZWMmlMR1RKMUdZakJaM0Z3Q3JoZW9sWmVoOHJldG9GcWI4ZkozTEZqaURlWTZ2SVo4WWJHT3BTa3BYbGFhb1hPYzh1MXZNQ3p3?oc=5",
+        "domain": "law360",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T165208Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+        "domain": "bloomberg.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T145659Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T112018Z",
         "source": "GoogleNews"
       },
       {
@@ -120627,24 +120654,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T112018Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Binance Hack Lasted 20 Minutes. The AFC Response Will Take Months",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUpaUjI1U2pYWUtwWE1KckR0V0JFbG1nX0pnT05waU50STJ5TFdjUGtlSy1XTExhc1Z1RlRyMW9mUm0xWkFOd2EycUFubGl6SEM5X3k0clFYWVpfOGxpVEdObE1fZ3ZUTjgyMVJKQnU2VTRVcG4xVGVJWWpzMHQ5WjdLZG1fR1NsOVVVUHpZeXBNRnpvWEltSw?oc=5",
-        "domain": "acams",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T090005Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdTM1SHVybkV4MzdwUFBIQ3dWTndWNS1yQ1FqSEtUQ182T1hJQmhrR19uZTc2cUJkYWw2TW9kaXVQQUo5a2dnOVEyWG1HMVctNjBUbm9ZMGlKTnBZWkVCWkJ3NTZwdWFPbmlGUEd1SGV2LXZlRXZvelFxb25DOVRWVHNMRkdwME1JNTI4TS1VSHVGaVBkY0ZGLURGajRuZUNZNmM0OW9HNHdIbWxvR2tib21ZLXhvOW5ZNFlPdFVYTjRfVTIzZUlZ?oc=5",
         "domain": "coindesk",
@@ -120663,21 +120672,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Binance Security Breach: $6.3B Impact, $3B Frozen",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkUUdPRllNU0tCd2VmR2NUUXhxVllEaUtQZnJfa00xMWlFdnBuZVlSRFI0c0ZrdkpBLUFlTnhxU2YyOGlSMnN2ZHBIYi1GdE5vNDRWR3lPQjFMV0dPYU5WVXR3Z2tUYkVvOGhDMHVoRVl1NGpGbldLOGpIbU1lUQ?oc=5",
-        "domain": "fincrimecentral",
+        "title": "The Binance hack is a compliance story: Four lessons for financial crime teams",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelNJUHRrVTNnci01SEhGN1ZTYnVFbHFicmNVamlNdU9NcUxwcWdjTzVOMzRxcWtzellWTnVNeWVrM05JdjJhTmJYbzBQdlZJZzhHejVZbWwzdFh2UFlPaEotNWNwRENYa0kwZlRIalgzekVlaFpBTkRZRUV6bkFqQkxkc2N3S1JQMTB3R1VmYnpjUEpvNFBXX0kycFhhUQ?oc=5",
+        "domain": "acams",
         "language": "",
         "tone": 0,
-        "seendate": "20261030T071841Z",
+        "seendate": "20261105T053822Z",
         "source": "GoogleNews"
       },
       {
-        "title": "New Settlement Conference Set In $95M Credit Union Fraud Case As NCUA Fights Release Of Frozen Funds",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNVJCQnRzMVJhR3lES0NzbEd4dHp3NklrbUdPUHpQWnlLblE1eUVKRFFjUy01TzctbjJ5M0hveUJXWnpnMVdpbUlrb2h0OWs1N0pzRUJRenRhQmNIelVaTU9BS3lVZkRIdzBHMWZadHhla3FWWjNRdi1lVHFOdmZaSGdOT3l2VXdlZlVOV3djUnlNc1Z4VWlySDdzMkpYdWxxdGNyaF9Yal9IVXpNRk9kTDJfZ3JEOC1PSHRXcnFtWXR3cnFIMlg0NE5XdXhMZVlTc2c?oc=5",
-        "domain": "cutoday",
+        "title": "EU Advances Sanctions Plan Against Smugglers",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTERZOWg3VzN1VVA1bXM3WTlrbmJBdmFsOVBZb1ljeS1kV0ZUUm1xNHV0VS0zSjBrMFNEUWV5ZFpNYk5sb0ZLZFJPdi1CMUp0MWdUd21mUGE3cVBUQmRQYjUzV3Bzdk1QRmhoSkxKZXM0ZTVuYm41eUE2aU1sb2pZSTk3OGxpUlU?oc=5",
+        "domain": "theeuropeantimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261105T035548Z",
+        "seendate": "20261106T185413Z",
         "source": "GoogleNews"
       },
       {
@@ -120708,15 +120717,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "FCA GC26/7: Financial crime guidance on decentralised finance – what in-house teams need to know",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOamg2UWw1eFdLYk5ZVkF4MkRDZy14VWE3UFYyZVlwOTZUMFYwQ2dlS3pjeGhFMDFTbHktNkdUUUZRMFhkNDFxcU9nTUdTNDg3Mzg3TTFGU2wzWXUwdDVLVk1wTUEybllmbHphTmZuWF9hTHViY0NnYzFrVGdRSnlZV193WUpWU19yUjVvQnE3U092OXJsOW15YVl5Q0V0VjJST0VpVm9uaVV4bkF3ZFNxd09FMlMxNk5PaVlYX3NzUUZnYzVteklUTlVTck9QWjU1N21vT183M01WVjBMTTNXM3RRTlhVOTZqaEJXSU1wQi1XdmdPRTJTQUlMQlJadw?oc=5",
-        "domain": "cliffordchance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T171014Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "What the midterm elections mean for the economy and investors",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLVJIYjNHNmVTUkt6aTNCU1IwZnRNLVVjM18tbDZZR0hiQXJaM2x4NF9QNFYzdEI0MW1XaWw2SzI5WVBzNURxYzJmS1kwR2pOSENETlR5Q2FpeDdUVGxaOHhNSnJXV3MxWVZnRnpWeEJCR3pHRklmdjA5Sl9mdXBMR05GVFM5WFkwZWpKZkRQYkFIZmdJa2QtWlZNV0lMbTNVSV9DSG1WNDJabmdYVzBPSFB3MjNkeGRrSG1OWi01RENFUQ?oc=5",
         "domain": "tradingview",
@@ -120744,21 +120744,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Binance hack is a compliance story: Four lessons for financial crime teams",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelNJUHRrVTNnci01SEhGN1ZTYnVFbHFicmNVamlNdU9NcUxwcWdjTzVOMzRxcWtzellWTnVNeWVrM05JdjJhTmJYbzBQdlZJZzhHejVZbWwzdFh2UFlPaEotNWNwRENYa0kwZlRIalgzekVlaFpBTkRZRUV6bkFqQkxkc2N3S1JQMTB3R1VmYnpjUEpvNFBXX0kycFhhUQ?oc=5",
-        "domain": "acams",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T053822Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Hong Kong Government Implements UN Sanctions Amendments for Libya, Renewing Measures Against Illicit Petroleum Exports.",
         "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUFJscld3aVMxbm1wSy1GUGU4TjFtVDdRRjFTTGlaVlMteVYzaWNLcmV6S0U1ejlPODdSNVRLbHNtMUQtV1hmVkJpSVh2ZXlIelR4ZzRXVUJweVc0M2Z3Nzl1M3Q5VnlwcjRiVVItaFdSQVpJS2pwQ1l2aXpycjVBeTl2R2hDZDFHZFJjM01sanVkSHZ2dllHNDRnUDVhSHJGUDJmTmlxSkFzRFhKbWMwcXpBNWdpSXBIaW94ZDhKb3N2clZ3eFdydkM1U19odGZ1aXlqLXhNVzdocExxVHVITVZPeU5TLWVFZmU5SVFubnlTa3ZEVkNtVGlBRG0wQQ?oc=5",
         "domain": "news.google.com",
         "language": "",
         "tone": 0,
         "seendate": "20261106T030000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iranian state threat activities in the UK",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzVVdyeXRzbFhtaHhVWHhtWDRlVksyT3g4SUlYSWNyOUFyUlI5cXVrdlBSVEJrZ0tZbno2MGRtekRfLTlQWUdNbnpJQ2FHbHpHQ1NZZGwzb1VwYzNuZHJ4Vkt5OTc0UHZpMk11cmE1MnJCR21k?oc=5",
+        "domain": "thehouseofcommonslibrary",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261103T080000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sanctioned At Home: A New Raw Docuseries, Forensically Dissecting The West’s Most Destructive Policy Weapon",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajRKWDBGWE4tTFd5MzNJaWRHNTRvTTcyMV9rTmhCUHNFTlVpMlQ2Rnl1WmJTTGVCYzVKTU1yckI3SUN4VTdWNWxYbmV5a3JFWEFieEZvejNLWFNRMEtWOU5WU0E3S0lhZjRtc3NSOUN4YXpOT3hfdGVYaEE1SFNLSUUxX1VxNUpxVkdtNUp3?oc=5",
+        "domain": "techround",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T145504Z",
         "source": "GoogleNews"
       },
       {
@@ -120789,42 +120798,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tether Freezes Binance Hack Funds Blocking North Korean Theft",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15dGtySnI3WHdaNUdjcE5Sc0NmbHV5NjNONkJQRy15QjZ5eUVKOGhmZk5DLTJzTVVBaDU0V1BySDdDcTlBT2xkNHBISmpjZ3J0NGVWLTVHXzE1dDRDWVRMSGZaUlJVdWJSYVR0VTFmcWN1ZzFM?oc=5",
-        "domain": "thecryptonomist",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261102T185446Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How China’s mineral export controls could put $6.5 trillion in output at risk",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakI4d1JTdDEwTWdfVmtxTkxPX293WElqdHR5bmJKMzV6Sm5UM01YcG9IWmFSU3hKOE1ZSmR0WjhjNV9hNTEweDcxMy1ZT1hIWlJuOF82WjFaWkdwRFNpa19ocmUxQk5idmRhbkE4d1poR3M5UXVfeVZpbHRra2FtX0YyVnpJZFZsMmVWSk1TeTk3Rk5WaFZRR2dQVWI4NmJTSDI5QXc4UkZkMEZmVzBR?oc=5",
-        "domain": "operativmlumatmrkzi",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261101T065912Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "APEDA highlights EU’s stricter import controls on Indian food shipments",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNckpWbHN4Y3Jyam5KSjNqbXFsU2d5VE5razVFV3FobjBtZWVOMXR5ZHR6VGRfdkxXTDUyZWI3VUhod2cwME5wNkRMWHlKUTI2VUlNcDhmMmtqaVRHWVBfM1Ezak9oRXUxcF9KVFNPUkZsT2syOWtfQ3hoUkpfZ1hvMnJFNW1uR0hwMHNBUnZhb1VWdG0ybXJGanZiZnZsTldyRHB3NkhPVHVDbEVZOEVWWVQyZ3duVjFTOEEw?oc=5",
-        "domain": "agrospectrumindia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261103T125356Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "'You are either with us or against us': US Sanctions Indian businessman, wife for helping Iran bypass oil san",
-        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNQmZsWFVxZEgtWmI2NGMtcnY5YmpuNEVtZmFmMzViR0l1MlFEbEdiYzVlaDlYaXFRMGcxWWpMOTZZWklEOTAwT0NubEdJVkRERlU3MVdIUGRhLU9PVU9WMld1WklGYmstVzFLQXNDUHFvMm1JbVZsMW5SelN5R29aNld6V0xramIwTERKdldBZ3Y0Q2d4aHdSd2IyeHQ0SXp6cmQ2cUliLWxZLUtUUFpIVkFfWlZlZVltQU4xaGVLdV95QUZsOEFmSi1CdEE1SW9HTjM1c0FBZ19wdnZ5VWUtRHBQUlBYRTVULTFWYmJJTGNVa0RabjVaZnBvYWt2OVYzMkJJcllJWlM2WTlIeFZwQTFBY3hMX2luSmF4U2NjYjFGeEl1RlljSHZkWdIBsAJBVV95cUxQenhDNzVtUkQ1TXJ4emZabEFFdEZLMERKeTBOZDh2dXVZdWRJbkd6U25KbUxVS09qc1EtTGFfZmE2QllMYk90MlRtemZnMjVNTlRDdVltYkJYNEo1VEp6c3dlckR2dnZHSXQyWk53b1dPUF81RWlZZE8ybExXbW1qa1FRdVVYYWJ2cnh5RTc4cVZMQmFScUtQX0l0MWdmVVJ1WFIyNzBEX1pQTDVVQ1AzSTBJM1R3ZFh2bm10RDR0VWU2eUxWMG16X1JnNmtqcVduazNqcDZveFA1RGJiNHczMFJNR1BXZ0l5dWlnNGtkblE0OHdwVmg5dkREc3d6ZGZqTGNTWEM5Vll4M2dZSkEwcnZLaThRQkZJZEgxemdnZ3NMVzVDem1lcm1jbWIxck5S?oc=5",
-        "domain": "india.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T044109Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tether USDt price holds near dollar as reserves and freeze policy draw scrutiny",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdU9DQkItNmdXeEJCbGFWX0JON1VucldHbmNQZXV2VkYxcHhjdW5lRmFZaUVOOGVLSV9BYi1uR1ZNZVlOZWwwMmFIVkliMHgxQVQ3ZExCckdGVW8takwwQVFwNGZHb1ZwOVZqZG9pb3hVbjZDUlhKWDFOanhTTjk1Qnc3eWNCakxZb19VOEZNR0EtcUxabHhKRGFHSDJaOG5yWmVIYjdDREtyMm5xYVAzRXhyd3BKdnNDYVBNc0EzaTAtYURHQ0ZpbmNwb2poVkxzY3NXZEs1ZUQ?oc=5",
         "domain": "ad-hoc-news.de",
@@ -120840,6 +120813,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261102T121345Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "SEC orders freeze on terror-linked assets, but market operators say they are unaware",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWsxSW1uZEFNZlBoVFZCY2NfZkUxclViNC1zU3JmOXk2TXdKZ1VOdGtVRGs5Um92REU3dGw3Z28wVlhkQzlqWm16Z3NIb2hFWjU4cFR1MFFnRW1kcW1sdS1SSnRqam4zR3p3TkVXLU93TXExZW1kT0xoSjYzQjYxcHI2QVRsMlNleTNyNW5jRVRMdEtPMmlIcU53QmYyTEhld0tnNDlGOG1fcXJDRkRzT1NfUmVFekJkbnB2Nw?oc=5",
+        "domain": "nairametrics",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T161151Z",
         "source": "GoogleNews"
       }
     ]
