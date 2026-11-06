@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-05T19:54:42.138411+00:00",
+    "generated": "2026-11-06T06:33:53.566430+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-05T19:52:55.723956+00:00",
+    "issued_at": "2026-11-06T06:32:07.184432+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 50.4,
-    "level": "WATCH",
+    "score": 30.4,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -136,12 +136,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 100.0,
+        "score": 0.0,
         "current_count": 19555,
-        "previous_count": 19499,
-        "added_count": 56,
+        "previous_count": 19555,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-11-05",
         "sha256": "8e94d8715b81f54a7d769c52af7fcefea19d48eead54bb9d974f4a62dadd9536",
         "top_programs": [
@@ -212,128 +212,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "58563",
-            "name": "ASIAN WELFARE LOTTERIES CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58564",
-            "name": "CB GENERAL INSURANCE PLC",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58565",
-            "name": "CAMBODIAN RESOURCE ENERGY DEVELOPMENT CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58566",
-            "name": "CAMBODIAN UNITE WEI YE INVESTMENT CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58567",
-            "name": "DT ZHI ZAO CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58568",
-            "name": "FIRST AQUATIC INDUSTRIAL CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58569",
-            "name": "MO NET BEAUTY CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58570",
-            "name": "PRINCE INTERNATIONAL AIRLINES CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58572",
-            "name": "RICHENG PROPERTY DEVELOPER CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58573",
-            "name": "TIAN XU INTERNATIONAL TECHNOLOGY PLC",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58574",
-            "name": "ZHX PRINTING EQUIPMENT CAMBODIA CO LTD",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58575",
-            "name": "QIU, Yong",
-            "type": "individual",
-            "program": "TCO"
-          },
-          {
-            "id": "58595",
-            "name": "HE, Yujing",
-            "type": "individual",
-            "program": "TCO"
-          },
-          {
-            "id": "58597",
-            "name": "SUPER LIGHT SPEED KH TECHNOLOGY CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58625",
-            "name": "PANG, Visal",
-            "type": "individual",
-            "program": "TCO"
-          },
-          {
-            "id": "58627",
-            "name": "CAMBODIA FIRST UNITE CONSTRUCTION GROUP CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58628",
-            "name": "FIRST UNITE INTERNATIONAL LOGISTICS CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58629",
-            "name": "FIRST UNITE NETWORKS ENTERTAINMENT CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58632",
-            "name": "FIRST UNITE PROPERTY CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          },
-          {
-            "id": "58636",
-            "name": "FIRST UNITE DECORATION CAMBODIA CO., LTD.",
-            "type": "",
-            "program": "TCO"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -344,8 +223,8 @@
         "score": 11.5,
         "current_7d_releases": 5,
         "current_weighted_term_rate": 1.6,
-        "baseline_weeks": 11,
-        "anomaly_z": -0.45,
+        "baseline_weeks": 10,
+        "anomaly_z": -0.48,
         "matched_release_count": 4,
         "relief_release_count": 3,
         "evidence": [
@@ -495,20 +374,12 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity",
-        "sdn_delta_breadth"
+        "ofac_action_velocity"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
     "alerts": [
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 100.0,
-        "level": "SEVERE",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
-      },
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
@@ -518,17 +389,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-14T12:38:13.022664+00:00",
-        "score": 27.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 56.6,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 9.9,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-14T21:46:25.543868+00:00",
         "score": 38.9,
@@ -2497,6 +2357,17 @@
           "official_posture_shift": 11.5,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-06T06:32:07.184432+00:00",
+        "score": 30.4,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 64.4,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 11.5,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2561,13 +2432,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "50.4/100",
-      "delta": "WATCH"
+      "value": "30.4/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,555",
-      "delta": "+56 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -120738,15 +120609,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T112018Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan lifts asset freeze measures on three Arabs “previously linked to terrorism”",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzQ4VDdQcXNnanpaVjFJTzcyYU5UR0JDQXBYSzRlYlk1dVl1cWtFdERHdEhNUGJ3dUUxZkllY3BpOWdVUG5sY256MHVILTBLdHRXWkY4cE1VQ29PeWUyYVduMllONFBMcDhZc3BaU0pxVG5NUjJLbG9NaTFlRng2VkRaTHNsVkhpM2NLRG1iSFljaE1jMlpCS1dIb2EybW9mcm1MNEVVU3l3RkVhUGlSVTVVZmNYM3NtcEJ2NXJ2dGY?oc=5",
         "domain": "news.google.com",
@@ -120765,12 +120627,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Binance hack is a compliance story: Four lessons for financial crime teams",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelNJUHRrVTNnci01SEhGN1ZTYnVFbHFicmNVamlNdU9NcUxwcWdjTzVOMzRxcWtzellWTnVNeWVrM05JdjJhTmJYbzBQdlZJZzhHejVZbWwzdFh2UFlPaEotNWNwRENYa0kwZlRIalgzekVlaFpBTkRZRUV6bkFqQkxkc2N3S1JQMTB3R1VmYnpjUEpvNFBXX0kycFhhUQ?oc=5",
+        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T112018Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Binance Hack Lasted 20 Minutes. The AFC Response Will Take Months",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUpaUjI1U2pYWUtwWE1KckR0V0JFbG1nX0pnT05waU50STJ5TFdjUGtlSy1XTExhc1Z1RlRyMW9mUm0xWkFOd2EycUFubGl6SEM5X3k0clFYWVpfOGxpVEdObE1fZ3ZUTjgyMVJKQnU2VTRVcG4xVGVJWWpzMHQ5WjdLZG1fR1NsOVVVUHpZeXBNRnpvWEltSw?oc=5",
         "domain": "acams",
         "language": "",
         "tone": 0,
-        "seendate": "20261105T053822Z",
+        "seendate": "20261104T090005Z",
         "source": "GoogleNews"
       },
       {
@@ -120780,6 +120651,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261103T165510Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "S. Korea should deepen work with US, Japan on sanctions against NK after Binance theft: expert",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSDI0OUs3Mlh0SndWV1FpNzRHVjJPZEctdDE1M0ZLb1ZWQmlPN2Z2UFB2aUdtMzRoMFc3TFBBTlpLdlJGNkNCRWdBVTVOcF92eFRxTVJXMVJNUDgyV1RTLUNTMkdwWjAtQXIwSWk5SmhjUkhwejZiTUswZlNKVjFVb0FxRUY0RFB0TUxONXZab3VtU1ZwZ2VTeFd6V3hLZWRiRF9MeUQ5VU9UbGZoR2pPM2RaWlphU3llRV9TVTJpQ01CeENuUy1hbjU0Ml9sdVViWjFLeEQ3TnBxcGotczJjTmJR0gHiAUFVX3lxTE9IMjQ5SzcyWHRKd1ZXUWk3NEdWMk9kRy10MTUzRktvVlZCaU83ZnZQUHZpR20zNGgwVzdMUEFOWkt2UkY2Q0JFZ0FVNU5wX3Z4VHFNUlcxUk1QODJXVFMtQ1MyR3BaMC1BcjBJaTlKaGNSSHB6NmJNSzBmU0pWMVVvQXFFRjREUHRNTE41dlpvdW1TVnBnZVN4V3pXeEtlZGJEX0x5RDlVT1RsZmhHak8zZFpaWmFTeWVFX1NVMmlDTUJ4Q25TLWFuNTQyX2x1VWJaMUt4RDdOcHFwai1zMmNOYlE?oc=5",
+        "domain": "thekoreatimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T225401Z",
         "source": "GoogleNews"
       },
       {
@@ -120855,21 +120735,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Binance Hack Lasted 20 Minutes. The AFC Response Will Take Months",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUpaUjI1U2pYWUtwWE1KckR0V0JFbG1nX0pnT05waU50STJ5TFdjUGtlSy1XTExhc1Z1RlRyMW9mUm0xWkFOd2EycUFubGl6SEM5X3k0clFYWVpfOGxpVEdObE1fZ3ZUTjgyMVJKQnU2VTRVcG4xVGVJWWpzMHQ5WjdLZG1fR1NsOVVVUHpZeXBNRnpvWEltSw?oc=5",
-        "domain": "acams",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T090005Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Crypto experts question double standard after issuers freeze billions in Binance hack",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeDIxdTYzVE5KeGdyZ2JTQ0N0SWtJVjMxTlFIQWRyeGk0LUJ4VTM0MGpKVG42cWVsUElnNHlMMF9tcmI0a3BDM2l5NVlxakNOMmFhaXJjNnIyYnRpZHVvU2VybXg0TkJoMUllWDBvbnFzeUE5OGpVLWFDa2ItR3FmdXdwU05YZUY1TkREX3ZmODJuZXZmTy1YTXpPYnJaR0xjUlBrV0dzSHhqVndhQ1cyNk5xcTdBWHJWclBxdW9wSWpnQQ?oc=5",
         "domain": "coindesk",
         "language": "",
         "tone": 0,
         "seendate": "20261030T195500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Binance hack is a compliance story: Four lessons for financial crime teams",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelNJUHRrVTNnci01SEhGN1ZTYnVFbHFicmNVamlNdU9NcUxwcWdjTzVOMzRxcWtzellWTnVNeWVrM05JdjJhTmJYbzBQdlZJZzhHejVZbWwzdFh2UFlPaEotNWNwRENYa0kwZlRIalgzekVlaFpBTkRZRUV6bkFqQkxkc2N3S1JQMTB3R1VmYnpjUEpvNFBXX0kycFhhUQ?oc=5",
+        "domain": "acams",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T053822Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hong Kong Government Implements UN Sanctions Amendments for Libya, Renewing Measures Against Illicit Petroleum Exports.",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUFJscld3aVMxbm1wSy1GUGU4TjFtVDdRRjFTTGlaVlMteVYzaWNLcmV6S0U1ejlPODdSNVRLbHNtMUQtV1hmVkJpSVh2ZXlIelR4ZzRXVUJweVc0M2Z3Nzl1M3Q5VnlwcjRiVVItaFdSQVpJS2pwQ1l2aXpycjVBeTl2R2hDZDFHZFJjM01sanVkSHZ2dllHNDRnUDVhSHJGUDJmTmlxSkFzRFhKbWMwcXpBNWdpSXBIaW94ZDhKb3N2clZ3eFdydkM1U19odGZ1aXlqLXhNVzdocExxVHVITVZPeU5TLWVFZmU5SVFubnlTa3ZEVkNtVGlBRG0wQQ?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T030000Z",
         "source": "GoogleNews"
       },
       {
@@ -120891,21 +120780,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chainalysis Says North Korea-Linked Groups Account for 89% of Crypto Hacking Losses This Year",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tcXdpQ1lWUFA3enZFX193elZZV0hPSG5zWTRXQk0tWFQwWmZmNlR6ejdybVM3bnZ1NXFyVThUZ3JfZnVXV1VLdS03T29HV1pMZUZPdg?oc=5",
-        "domain": "bloomingbit",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261101T064939Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Police Arrest 13 in China-Based Investment Scam That Took 14.2 Billion Won",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbjlpR1VWVVhiSl9tWUN2Wkg0d2h3c3IxTlVfY1BBekREdDRpYmVENXF5RFA2UmFGVnNQVmRWSDc3WHN6S0RTMmtSWnlJV1dBQ3g0VHhVOVRjRmNmMUdUNHgzMEl1OHJFTThLRUdMczJFNWY3SHdHWFp3SVQ5bUc1VmRUOGhEbTBDTlNKdGJIdEdYRm1fVU5sa0ZXMEtBblRz?oc=5",
+        "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
         "domain": "seouleconomicdaily",
         "language": "",
         "tone": 0,
-        "seendate": "20261105T044012Z",
+        "seendate": "20261102T010005Z",
         "source": "GoogleNews"
       },
       {
@@ -120915,6 +120795,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261102T185446Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How China’s mineral export controls could put $6.5 trillion in output at risk",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakI4d1JTdDEwTWdfVmtxTkxPX293WElqdHR5bmJKMzV6Sm5UM01YcG9IWmFSU3hKOE1ZSmR0WjhjNV9hNTEweDcxMy1ZT1hIWlJuOF82WjFaWkdwRFNpa19ocmUxQk5idmRhbkE4d1poR3M5UXVfeVZpbHRra2FtX0YyVnpJZFZsMmVWSk1TeTk3Rk5WaFZRR2dQVWI4NmJTSDI5QXc4UkZkMEZmVzBR?oc=5",
+        "domain": "operativmlumatmrkzi",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261101T065912Z",
         "source": "GoogleNews"
       },
       {
