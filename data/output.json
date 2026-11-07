@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-07T12:55:15.636308+00:00",
+    "generated": "2026-11-07T21:46:33.434423+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-07T12:53:29.443590+00:00",
+    "issued_at": "2026-11-07T21:44:46.818247+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 34.9,
@@ -423,17 +423,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-15T16:54:07.842755+00:00",
-        "score": 37.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 73.3,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 28.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-15T21:16:36.946088+00:00",
         "score": 37.7,
@@ -2394,6 +2383,17 @@
       },
       {
         "timestamp": "2026-11-07T12:53:29.443590+00:00",
+        "score": 34.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 75.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 14.4,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-07T21:44:46.818247+00:00",
         "score": 34.9,
         "level": "BASELINE",
         "components": {
@@ -120681,15 +120681,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T145659Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Assembling the Toolkit: Democrats and the New Push for West Bank Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sR2NicktWX25wQzB4NHNjV2VvdnJxaS1UNjlEMW1OZFNsMl9objNCXzZJRVJ4VUt2UENRRTQwMlE4eTE4TWV2cm9ZaFJrb1RLTjFwQXN2Vnl0Z2JUM1Y3QW9PVm8xbUk?oc=5",
         "domain": "www.inss.org.il",
@@ -120717,6 +120708,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+        "domain": "bloomberg.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T145659Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
         "domain": "newscord",
@@ -120740,7 +120740,16 @@
         "domain": "thedefiant",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T122337Z",
+        "seendate": "20261107T123126Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Treasury Is Cutting MEXC Off From U.S. Banks Over $16 Billion in Illicit Transactions. What Happens to the Crypto Held There?",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZjRKeFd2N21QTnpwbF8wZ2xoaDlUQ3hoTVk4OGdjS3h0S0t5MVUzUURCRmpvck0tLXRuRENFMFJYY0RaUzJRUUFETWpGWVFaOTFrQ1ZBSVhRcEVLWmQ4Xy1FOUFCdlBPNnZacFNvZEpDVkpqNFh1dThKanJlLTY4UmM1Vkc0QVVwX0xMN0lyU1dPN28wMnNwR3RqNXEwR09ZcjVuZWswaFJNZ0ViZHdSWVB6UG54OHNCT1VpSk9aekZ2ZzQ5d05QTzZFSDZTODBlbk16Wjl0bzhLU2VCLVN5bHE1TmpQNWVlRlM0WTFaTUVkNkNvTnlJRVplRWtMVHFNUFdyUXpIT1g0ZElq?oc=5",
+        "domain": "247wallst.",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T202100Z",
         "source": "GoogleNews"
       },
       {
@@ -120771,6 +120780,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US Treasury Cuts Off Eight Canadian Currency Firms Over Iran Sanctions Evasion",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaFVVYzZoN2k1WU5lbHJzLTNpc2NnXzZQa0d3bHRWcGNVemRtdTdpT3BBQ01EeERMYXVzMWt0NTdIUWt3OXNNZ2E3ekJKNmpwb0NGWFVTTTRxRWxHYlpVQWprbV9nWEVlT08wNHhuNlNxSy1UNkE?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T005500Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Sudan: Sanctions Against Commanders Implicated in Sudan Rapes 'Seek Accountability', Says UK Minister",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03ZC05RmRJOWJLTXk4dDJaVk9wUlBHOWh6QnVXUFBRbjlVN21YV1JxMFR4d2Z0bjNrTXRJb1hyR3ZoMDJkN29jVjZhakJCZHNkNWxIeEF5SzRLQ1U?oc=5",
         "domain": "allafrica.com",
@@ -120798,15 +120816,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "WLFI News: Token Falls 11% During Election Night",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdmhIYVRXYkZxZ1pzYzhaQ25vdmFJSkctQ2pEYkg2Q3dpd1Fmek9YdkRpd0pVekMxbHNXc0NnSU9Od0J1SDJvQnlaQkFHdW5yOVdkYjBucmFQQi1iSmNzQ0ZJUGJUYWdDRnBVcEgyNGRUaFRMbzNzb1I4SUFaR09vdDRWQ2c0YUludHdZNm05UzJoMmpwaTg3Szk0WWkyVXZaZ0xpVHdCWDBiV21aVTJBLQ?oc=5",
-        "domain": "bitcoinfoundation",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T142742Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Hong Kong Government Implements UN Sanctions Amendments for Libya, Renewing Measures Against Illicit Petroleum Exports.",
         "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUFJscld3aVMxbm1wSy1GUGU4TjFtVDdRRjFTTGlaVlMteVYzaWNLcmV6S0U1ejlPODdSNVRLbHNtMUQtV1hmVkJpSVh2ZXlIelR4ZzRXVUJweVc0M2Z3Nzl1M3Q5VnlwcjRiVVItaFdSQVpJS2pwQ1l2aXpycjVBeTl2R2hDZDFHZFJjM01sanVkSHZ2dllHNDRnUDVhSHJGUDJmTmlxSkFzRFhKbWMwcXpBNWdpSXBIaW94ZDhKb3N2clZ3eFdydkM1U19odGZ1aXlqLXhNVzdocExxVHVITVZPeU5TLWVFZmU5SVFubnlTa3ZEVkNtVGlBRG0wQQ?oc=5",
         "domain": "news.google.com",
@@ -120831,15 +120840,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261103T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russian Recruiter Suyash Mukut (India), UK-sanctioned",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT28zLVpEbUJDdWtYTk43VGpLVzcxRVQ1QVlfNjM4X25EczlNc3BYYktuMUZhU1hEMDBzeVM0MVA1bGYzVzUySkNuZ3AxbzFhNEJzZEJfUlhQeFhtUVJZanFNZURmZVRhcThoZzBCTVY2cXF4T0xkQWhiSWZGOTNTSA?oc=5",
-        "domain": "stoprussianrecruiters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T080000Z",
         "source": "GoogleNews"
       },
       {
@@ -120888,21 +120888,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
-        "domain": "seouleconomicdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261102T010005Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tether USDt price holds near dollar as reserves and freeze policy draw scrutiny",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdU9DQkItNmdXeEJCbGFWX0JON1VucldHbmNQZXV2VkYxcHhjdW5lRmFZaUVOOGVLSV9BYi1uR1ZNZVlOZWwwMmFIVkliMHgxQVQ3ZExCckdGVW8takwwQVFwNGZHb1ZwOVZqZG9pb3hVbjZDUlhKWDFOanhTTjk1Qnc3eWNCakxZb19VOEZNR0EtcUxabHhKRGFHSDJaOG5yWmVIYjdDREtyMm5xYVAzRXhyd3BKdnNDYVBNc0EzaTAtYURHQ0ZpbmNwb2poVkxzY3NXZEs1ZUQ?oc=5",
         "domain": "ad-hoc-news.de",
         "language": "",
         "tone": 0,
         "seendate": "20261105T062159Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "“Freeze Terror-Linked Assets Immediately Or Face Sanctions” — SEC Orders Capital Market Operators To Act, Warns Of Licence Revocation",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZzkyZXpfUTVqd3k1OEJmUUYySjA2ZXRJSWVQQTU5TG1mRVlLcE00MnlPMTZPQWVsMzNuSDV6dVkwWFU4WThYUHVlRGZjQ1pjcEVQdFNTZnhhb2JCRWs5eGRaMFZzTHBzNWVfdzBZaHFaSkt3SG4zQ2VDdUxVZzRKdmxCRHJpNW1UUWFUMzM2MWRxVi1ENmlWelFwNFpIbFBRLWlLcWVUR0xuTFVla1dNeWtjOVZRU1Z3djZwSm4yMmI3RXJCYlRmVHZVTEU5ZTJsSWVGamU4OHU5MGFoeFZiVTVtR0RBN0VJZXdBWHBTSQ?oc=5",
+        "domain": "thenigerialawyer",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T123201Z",
         "source": "GoogleNews"
       },
       {
