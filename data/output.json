@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-07T05:53:22.376855+00:00",
+    "generated": "2026-11-07T12:55:15.636308+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-07T05:51:36.195918+00:00",
+    "issued_at": "2026-11-07T12:53:29.443590+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 38.9,
-    "level": "WATCH",
+    "score": 34.9,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -153,12 +153,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 20.0,
+        "score": 0.0,
         "current_count": 19563,
-        "previous_count": 19555,
-        "added_count": 8,
+        "previous_count": 19563,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-11-05",
         "sha256": "7f43332dae0d1b78ce44c31692d87a3c66e4075bcd97e36d3f18585572ff55b8",
         "top_programs": [
@@ -229,56 +229,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "59091",
-            "name": "DIVERSE TRADE INC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59092",
-            "name": "NIA NATIONS CURRENCY LTD",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59093",
-            "name": "CCC INC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59094",
-            "name": "B GALAXY INC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59095",
-            "name": "2397639 ONTARIO LTD",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59096",
-            "name": "1380079 BC LTD",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59097",
-            "name": "TOP PC TECHNICIAN INC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59099",
-            "name": "DARVISH EXCHANGE",
-            "type": "",
-            "program": "IRAN-EO13902"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -472,17 +423,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-15T11:39:00.107151+00:00",
-        "score": 37.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 73.3,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 28.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-15T16:54:07.842755+00:00",
         "score": 37.7,
@@ -2451,6 +2391,17 @@
           "official_posture_shift": 14.4,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-07T12:53:29.443590+00:00",
+        "score": 34.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 75.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 14.4,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2515,13 +2466,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "38.9/100",
-      "delta": "WATCH"
+      "value": "34.9/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,563",
-      "delta": "+8 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -120721,21 +120672,21 @@
     },
     "news_articles": [
       {
-        "title": "ENFORCEMENT—2d Cir.: Second Circuit upholds sanctions against trust attorney over false declaration",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVzMXE4aTY1WkoxZk9DU0dVY3hGTnBxNFRYak9uN1l5YVI0M0l6V01ucUNQZENpYjJEMHdUSWlyYk1ua2I0SFh5RngySjIwRjNnVmlCYVM5VHJhVU8tTFU5cnhhRDRqVHI2a0JmV21leHhxQ01YNmFDQTV0R2ZpczN1NUtyX2lFa2JYeGlza0lpd045NGc0U2NmcUZZMEZrTkR0TWF1Tkd6SXpGSlI5M0xJSVBuQ2VkVjNzMFFWS2ZHZVhudERFdXd0X1U0eGRCR0VxWTBia3ZmdVlWSkpwVlYwLXBBRWpwVHQ1WlFVekFGTDlrM3AwVA?oc=5",
-        "domain": "vitallaw.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T003503Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Who’s on the Russia Sanctions List? People, Banks, and Companies Explained",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMXFXOFBud05hMHZyT25BelhVUFhyc1hieU5qZ28zVnVjTnJIc0tMQ054OXpidzBCVk1jbVhFendlOWJSMURFRXVlalhiUk45N01jWFdpNlVUb3J4d1ZoNkpVa1lUNGhjWXphQmhjaEVLclF1RmpiTE4xOUFXZEVDaVB3LVJKVHhVN1VZaUpmZmxhZWxTTEZrb2JjT2NPbFBmbU1tZGNRUjA4UHNN?oc=5",
         "domain": "united24media",
         "language": "",
         "tone": 0,
         "seendate": "20261106T145406Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+        "domain": "bloomberg.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T145659Z",
         "source": "GoogleNews"
       },
       {
@@ -120753,16 +120704,7 @@
         "domain": "mcguirewoods",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T023657Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T145659Z",
+        "seendate": "20261107T005911Z",
         "source": "GoogleNews"
       },
       {
@@ -120793,6 +120735,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "US Sanctions Eight Canadian Money Firms Over Alleged Iran Crypto Links",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUDJPX2ZJZHR0cUhBdVRnZHB0X0dXc3dTWUtXTzhSeVEyVHBhRmxZS3YtUFRuRm4wS3E3WmVGY19jcWdTY2o3M3pLY0NaR0t1MVBrS2w1dWNSTV96NnFaT3VRM2dKbEpUaVFOWUhVNzRtZGV0N21ZUW1wczR5MHFUZFVBUU5YWWJ2aEZwd1ZvZnNyRnhjLUJzcHdXZ0ZMOWxRNFdvcWx4czRDS18wa0dMWVRB?oc=5",
+        "domain": "thedefiant",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T122337Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "S. Korea should deepen work with US, Japan on sanctions against NK after Binance theft: expert",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSDI0OUs3Mlh0SndWV1FpNzRHVjJPZEctdDE1M0ZLb1ZWQmlPN2Z2UFB2aUdtMzRoMFc3TFBBTlpLdlJGNkNCRWdBVTVOcF92eFRxTVJXMVJNUDgyV1RTLUNTMkdwWjAtQXIwSWk5SmhjUkhwejZiTUswZlNKVjFVb0FxRUY0RFB0TUxONXZab3VtU1ZwZ2VTeFd6V3hLZWRiRF9MeUQ5VU9UbGZoR2pPM2RaWlphU3llRV9TVTJpQ01CeENuUy1hbjU0Ml9sdVViWjFLeEQ3TnBxcGotczJjTmJR0gHiAUFVX3lxTE9IMjQ5SzcyWHRKd1ZXUWk3NEdWMk9kRy10MTUzRktvVlZCaU83ZnZQUHZpR20zNGgwVzdMUEFOWkt2UkY2Q0JFZ0FVNU5wX3Z4VHFNUlcxUk1QODJXVFMtQ1MyR3BaMC1BcjBJaTlKaGNSSHB6NmJNSzBmU0pWMVVvQXFFRjREUHRNTE41dlpvdW1TVnBnZVN4V3pXeEtlZGJEX0x5RDlVT1RsZmhHak8zZFpaWmFTeWVFX1NVMmlDTUJ4Q25TLWFuNTQyX2x1VWJaMUt4RDdOcHFwai1zMmNOYlE?oc=5",
         "domain": "thekoreatimes",
@@ -120808,15 +120759,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261106T185413Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "New Settlement Conference Set In $95M Credit Union Fraud Case As NCUA Fights Release Of Frozen Funds",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNVJCQnRzMVJhR3lES0NzbEd4dHp3NklrbUdPUHpQWnlLblE1eUVKRFFjUy01TzctbjJ5M0hveUJXWnpnMVdpbUlrb2h0OWs1N0pzRUJRenRhQmNIelVaTU9BS3lVZkRIdzBHMWZadHhla3FWWjNRdi1lVHFOdmZaSGdOT3l2VXdlZlVOV3djUnlNc1Z4VWlySDdzMkpYdWxxdGNyaF9Yal9IVXpNRk9kTDJfZ3JEOC1PSHRXcnFtWXR3cnFIMlg0NE5XdXhMZVlTc2c?oc=5",
-        "domain": "cutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T035548Z",
         "source": "GoogleNews"
       },
       {
@@ -120844,6 +120786,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261103T112632Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US to Restrict Transfers with MEXC Over $16.7 Billion in Illegal Activities",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaGN6QzlDUVc4RXd0enFqQ1FUWU9XVkY0ZnJNa2pVQkZCdVNfR2xSXzRCaVprcC1VMnA5T2xTTjI3SVFsbWRMOHg2T3piS1M0ckdsOFQ4Smtpak9CQmE3SDVpbnc1blZBQ19zcGNmWVM0eTdPdkN4WXdnZzQ1WDlCWmtITGtDYUVaVTR0MzE0eDh4NkY0R3pXY0FJWENSN3c?oc=5",
+        "domain": "forklog",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T082913Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "WLFI News: Token Falls 11% During Election Night",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdmhIYVRXYkZxZ1pzYzhaQ25vdmFJSkctQ2pEYkg2Q3dpd1Fmek9YdkRpd0pVekMxbHNXc0NnSU9Od0J1SDJvQnlaQkFHdW5yOVdkYjBucmFQQi1iSmNzQ0ZJUGJUYWdDRnBVcEgyNGRUaFRMbzNzb1I4SUFaR09vdDRWQ2c0YUludHdZNm05UzJoMmpwaTg3Szk0WWkyVXZaZ0xpVHdCWDBiV21aVTJBLQ?oc=5",
+        "domain": "bitcoinfoundation",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261104T142742Z",
         "source": "GoogleNews"
       },
       {
@@ -120892,12 +120852,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Justin Sun Lawsuit WLFI Challenges Token Freeze And Ownership",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MbnpZSmoxYkhRUHgxdDE4eDFGeE9wUHBOZmM3RTBlYlJrNnNkMTQzQkZJcXVxMC10RHkxMmNtZDdXSC1hWjZQaGxnVXV5YV9BTFo5cElRVGVrUVFUbEhTNTlKMVdidERLdGt2azQ1RQ?oc=5",
-        "domain": "thecryptonomist",
+        "title": "Binance Hack Puts Stablecoin Issuers' Freeze Powers in Spotlight",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamtlNzBGemxjMWlOaG03ZlpEa2tYSHQ0bU5nTnU0RmhNdHNfY3JULTFqdUYxRmt6T2xqZXdMaFVZdl95dEJBSUw1TWh1X0Y4M3BtLVUxT3k3cEZObmNQYUU2cHROelFtNmJ4LXNsTGFuT211SlEwNWVtcTN5MGFpdE9vSjhNZU9vTUtuY2w5M2JxSUlMeWRleTBKQQ?oc=5",
+        "domain": "seouleconomicdaily",
         "language": "",
         "tone": 0,
-        "seendate": "20261103T154237Z",
+        "seendate": "20261107T010005Z",
         "source": "GoogleNews"
       },
       {
@@ -120910,15 +120870,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Binance Hack Puts Stablecoin Issuers' Freeze Powers in Spotlight",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamtlNzBGemxjMWlOaG03ZlpEa2tYSHQ0bU5nTnU0RmhNdHNfY3JULTFqdUYxRmt6T2xqZXdMaFVZdl95dEJBSUw1TWh1X0Y4M3BtLVUxT3k3cEZObmNQYUU2cHROelFtNmJ4LXNsTGFuT211SlEwNWVtcTN5MGFpdE9vSjhNZU9vTUtuY2w5M2JxSUlMeWRleTBKQQ?oc=5",
-        "domain": "seouleconomicdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T010005Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "North Korean hackers harness AI for cyber theft to fund nuclear weapons",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRzZHS3Y0SW8xQjFiTUh3OUFKRHdrZE1renVtSmpkcEpIbXBXN2R5ZDJDVHNQYVJCckx1Mmk5dkI2VFYxams4RHJtZVZWS0czM2F1alhMT0ZaM0psdUtnYTQ2YW1qdG9VOEsxVml5QjZfdVctX1V1U1hWZVVVOTJrbTdiQ25qeElfUjNpSFNONXU2LS0ycDNYMFhVeklfQkh4LWkwUnZiNA?oc=5",
         "domain": "news.google.com",
@@ -120928,21 +120879,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
-        "domain": "seouleconomicdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261102T010005Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
         "domain": "laodong.vn",
         "language": "",
         "tone": 0,
         "seendate": "20261107T033517Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
+        "domain": "seouleconomicdaily",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261102T010005Z",
         "source": "GoogleNews"
       },
       {
