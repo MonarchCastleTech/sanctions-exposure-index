@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-08T05:56:28.378891+00:00",
+    "generated": "2026-11-08T13:17:33.102091+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-08T05:54:41.755795+00:00",
+    "issued_at": "2026-11-08T13:15:46.766878+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 34.9,
@@ -423,17 +423,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-16T04:44:24.214579+00:00",
-        "score": 25.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 28.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 40.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-16T11:26:01.780685+00:00",
         "score": 25.0,
@@ -2394,6 +2383,17 @@
       },
       {
         "timestamp": "2026-11-08T05:54:41.755795+00:00",
+        "score": 34.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 75.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 14.4,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-08T13:15:46.766878+00:00",
         "score": 34.9,
         "level": "BASELINE",
         "components": {
@@ -120681,30 +120681,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T145659Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Assembling the Toolkit: Democrats and the New Push for West Bank Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sR2NicktWX25wQzB4NHNjV2VvdnJxaS1UNjlEMW1OZFNsMl9objNCXzZJRVJ4VUt2UENRRTQwMlE4eTE4TWV2cm9ZaFJrb1RLTjFwQXN2Vnl0Z2JUM1Y3QW9PVm8xbUk?oc=5",
-        "domain": "www.inss.org.il",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261103T152124Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
         "domain": "mcguirewoods",
         "language": "",
         "tone": 0,
         "seendate": "20261107T005911Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+        "domain": "bloomberg",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T145659Z",
         "source": "GoogleNews"
       },
       {
@@ -120780,12 +120771,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury Cuts Off Eight Canadian Currency Firms Over Iran Sanctions Evasion",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaFVVYzZoN2k1WU5lbHJzLTNpc2NnXzZQa0d3bHRWcGNVemRtdTdpT3BBQ01EeERMYXVzMWt0NTdIUWt3OXNNZ2E3ekJKNmpwb0NGWFVTTTRxRWxHYlpVQWprbV9nWEVlT08wNHhuNlNxSy1UNkE?oc=5",
-        "domain": "biggofinance",
+        "title": "OKX Warns MEXC Users of Deposit Freezes Ahead of FinCEN Cutoff",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0wQmtXZmdPdFdVY3dyM2JzX1VYeTNHZXZIUTk2dTN2UjlBN3F5UkpOcFJYZ2JLNWt5S0tWblRIcF9zODBrQjFCQUUwbDZfRUV5X0hnSlUtQQ?oc=5",
+        "domain": "cryptonews.net",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T005500Z",
+        "seendate": "20261108T052730Z",
         "source": "GoogleNews"
       },
       {
@@ -120795,6 +120786,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261105T100951Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What the midterm elections mean for the economy and investors",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLVJIYjNHNmVTUkt6aTNCU1IwZnRNLVVjM18tbDZZR0hiQXJaM2x4NF9QNFYzdEI0MW1XaWw2SzI5WVBzNURxYzJmS1kwR2pOSENETlR5Q2FpeDdUVGxaOHhNSnJXV3MxWVZnRnpWeEJCR3pHRklmdjA5Sl9mdXBMR05GVFM5WFkwZWpKZkRQYkFIZmdJa2QtWlZNV0lMbTNVSV9DSG1WNDJabmdYVzBPSFB3MjNkeGRrSG1OWi01RENFUQ?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261103T112632Z",
         "source": "GoogleNews"
       },
       {
@@ -120834,6 +120834,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "OKX Blocks MEXC-Linked Deposits Early as FinCEN's $16.7B Order Looms",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTXROcHFZWjNVUUdYcldiVVVuOEpPbWJpcHFqWVczeWZ2V2JaRHVFU3pMU1cwSnM3V2tUZFYwclV5WEVIQUtVdTF1SS1RdGh2dDBfTkpLQ1pXSHJXdzNhM3Y2NUEwVTE0QTJBVXgwVDRRRVd1bUE?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261108T122500Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Sanctioned At Home: A New Raw Docuseries, Forensically Dissecting The West’s Most Destructive Policy Weapon",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajRKWDBGWE4tTFd5MzNJaWRHNTRvTTcyMV9rTmhCUHNFTlVpMlQ2Rnl1WmJTTGVCYzVKTU1yckI3SUN4VTdWNWxYbmV5a3JFWEFieEZvejNLWFNRMEtWOU5WU0E3S0lhZjRtc3NSOUN4YXpOT3hfdGVYaEE1SFNLSUUxX1VxNUpxVkdtNUp3?oc=5",
         "domain": "techround",
@@ -120870,15 +120879,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
-        "domain": "laodong.vn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T033517Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
         "domain": "seouleconomicdaily",
@@ -120888,21 +120888,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
+        "domain": "laodong.vn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T033517Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Crypto Banking Alert: MEXC Ban and What It Means for Your DAO",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HaXJmSDhJejFRc2NwRFNBSlJXZlJQcnV4VDNWQjk0dXFOOVdRZGVDdEx3SnVzMDByN2hka0pMdU5FdjJqYW04Um5wUW1xQkpHM2JKZWpka1kxRUh3Q2hTX1pISjlFcnp6RHo0dDBSLWVTZThlWVZCaEgtdw?oc=5",
         "domain": "onesafe",
         "language": "",
         "tone": 0,
         "seendate": "20261108T000908Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tether USDt price holds near dollar as reserves and freeze policy draw scrutiny",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdU9DQkItNmdXeEJCbGFWX0JON1VucldHbmNQZXV2VkYxcHhjdW5lRmFZaUVOOGVLSV9BYi1uR1ZNZVlOZWwwMmFIVkliMHgxQVQ3ZExCckdGVW8takwwQVFwNGZHb1ZwOVZqZG9pb3hVbjZDUlhKWDFOanhTTjk1Qnc3eWNCakxZb19VOEZNR0EtcUxabHhKRGFHSDJaOG5yWmVIYjdDREtyMm5xYVAzRXhyd3BKdnNDYVBNc0EzaTAtYURHQ0ZpbmNwb2poVkxzY3NXZEs1ZUQ?oc=5",
-        "domain": "ad-hoc-news.de",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T062159Z",
         "source": "GoogleNews"
       },
       {
