@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-07T21:46:33.434423+00:00",
+    "generated": "2026-11-08T05:56:28.378891+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-07T21:44:46.818247+00:00",
+    "issued_at": "2026-11-08T05:54:41.755795+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 34.9,
@@ -423,17 +423,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-15T21:16:36.946088+00:00",
-        "score": 37.7,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 73.3,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 28.3,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-16T04:44:24.214579+00:00",
         "score": 25.0,
@@ -2394,6 +2383,17 @@
       },
       {
         "timestamp": "2026-11-07T21:44:46.818247+00:00",
+        "score": 34.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 75.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 14.4,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-08T05:54:41.755795+00:00",
         "score": 34.9,
         "level": "BASELINE",
         "components": {
@@ -120681,6 +120681,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+        "domain": "bloomberg.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T145659Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Assembling the Toolkit: Democrats and the New Push for West Bank Sanctions",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sR2NicktWX25wQzB4NHNjV2VvdnJxaS1UNjlEMW1OZFNsMl9objNCXzZJRVJ4VUt2UENRRTQwMlE4eTE4TWV2cm9ZaFJrb1RLTjFwQXN2Vnl0Z2JUM1Y3QW9PVm8xbUk?oc=5",
         "domain": "www.inss.org.il",
@@ -120708,15 +120717,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T145659Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
         "domain": "newscord",
@@ -120735,15 +120735,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Sanctions Eight Canadian Money Firms Over Alleged Iran Crypto Links",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUDJPX2ZJZHR0cUhBdVRnZHB0X0dXc3dTWUtXTzhSeVEyVHBhRmxZS3YtUFRuRm4wS3E3WmVGY19jcWdTY2o3M3pLY0NaR0t1MVBrS2w1dWNSTV96NnFaT3VRM2dKbEpUaVFOWUhVNzRtZGV0N21ZUW1wczR5MHFUZFVBUU5YWWJ2aEZwd1ZvZnNyRnhjLUJzcHdXZ0ZMOWxRNFdvcWx4czRDS18wa0dMWVRB?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T123126Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Treasury Is Cutting MEXC Off From U.S. Banks Over $16 Billion in Illicit Transactions. What Happens to the Crypto Held There?",
         "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZjRKeFd2N21QTnpwbF8wZ2xoaDlUQ3hoTVk4OGdjS3h0S0t5MVUzUURCRmpvck0tLXRuRENFMFJYY0RaUzJRUUFETWpGWVFaOTFrQ1ZBSVhRcEVLWmQ4Xy1FOUFCdlBPNnZacFNvZEpDVkpqNFh1dThKanJlLTY4UmM1Vkc0QVVwX0xMN0lyU1dPN28wMnNwR3RqNXEwR09ZcjVuZWswaFJNZ0ViZHdSWVB6UG54OHNCT1VpSk9aekZ2ZzQ5d05QTzZFSDZTODBlbk16Wjl0bzhLU2VCLVN5bHE1TmpQNWVlRlM0WTFaTUVkNkNvTnlJRVplRWtMVHFNUFdyUXpIT1g0ZElq?oc=5",
         "domain": "247wallst.",
@@ -120759,6 +120750,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261105T225401Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Sanctions Eight Canadian Money Firms Over Alleged Iran Crypto Links",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUDJPX2ZJZHR0cUhBdVRnZHB0X0dXc3dTWUtXTzhSeVEyVHBhRmxZS3YtUFRuRm4wS3E3WmVGY19jcWdTY2o3M3pLY0NaR0t1MVBrS2w1dWNSTV96NnFaT3VRM2dKbEpUaVFOWUhVNzRtZGV0N21ZUW1wczR5MHFUZFVBUU5YWWJ2aEZwd1ZvZnNyRnhjLUJzcHdXZ0ZMOWxRNFdvcWx4czRDS18wa0dMWVRB?oc=5",
+        "domain": "thedefiant",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T123126Z",
         "source": "GoogleNews"
       },
       {
@@ -120795,15 +120795,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261105T100951Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "What the midterm elections mean for the economy and investors",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLVJIYjNHNmVTUkt6aTNCU1IwZnRNLVVjM18tbDZZR0hiQXJaM2x4NF9QNFYzdEI0MW1XaWw2SzI5WVBzNURxYzJmS1kwR2pOSENETlR5Q2FpeDdUVGxaOHhNSnJXV3MxWVZnRnpWeEJCR3pHRklmdjA5Sl9mdXBMR05GVFM5WFkwZWpKZkRQYkFIZmdJa2QtWlZNV0lMbTNVSV9DSG1WNDJabmdYVzBPSFB3MjNkeGRrSG1OWi01RENFUQ?oc=5",
-        "domain": "tradingview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261103T112632Z",
         "source": "GoogleNews"
       },
       {
@@ -120888,6 +120879,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Gangnam Home Listings Double as Tax and Loan Curbs Freeze Buyers",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekVRcXFWUVRHWjN3UTk1UWpleEdhcVlkeFZ6TE9wLVBzd0pCT3FnSTRjUGdwUUt0NUFKeW0wTWZrLXJiVndIcWxTQnFwNWRkUnB2eV9adDRickZjQ09lQ2NOdS1XUWNSYzRvc0tic3dJRTJHR2hkQ0kyVFFGZVA5bEotWTNIajl5Ymo1QzZBMDR3TGJ3TngxS0JLTEJDcVZM?oc=5",
+        "domain": "seouleconomicdaily",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261102T010005Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Crypto Banking Alert: MEXC Ban and What It Means for Your DAO",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HaXJmSDhJejFRc2NwRFNBSlJXZlJQcnV4VDNWQjk0dXFOOVdRZGVDdEx3SnVzMDByN2hka0pMdU5FdjJqYW04Um5wUW1xQkpHM2JKZWpka1kxRUh3Q2hTX1pISjlFcnp6RHo0dDBSLWVTZThlWVZCaEgtdw?oc=5",
+        "domain": "onesafe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261108T000908Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Tether USDt price holds near dollar as reserves and freeze policy draw scrutiny",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdU9DQkItNmdXeEJCbGFWX0JON1VucldHbmNQZXV2VkYxcHhjdW5lRmFZaUVOOGVLSV9BYi1uR1ZNZVlOZWwwMmFIVkliMHgxQVQ3ZExCckdGVW8takwwQVFwNGZHb1ZwOVZqZG9pb3hVbjZDUlhKWDFOanhTTjk1Qnc3eWNCakxZb19VOEZNR0EtcUxabHhKRGFHSDJaOG5yWmVIYjdDREtyMm5xYVAzRXhyd3BKdnNDYVBNc0EzaTAtYURHQ0ZpbmNwb2poVkxzY3NXZEs1ZUQ?oc=5",
         "domain": "ad-hoc-news.de",
@@ -120903,15 +120912,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261107T123201Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Nigeria’s 2027 Elections: Washington’s Visa Bans, Asset Freezes and Security Restrictions Cannot Replace Nigerians’ Responsibility to Protect Their Votes -By Daniel Nduka Okonkwo",
-        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNeDYxNWg3SHc5OThRTFNlV3paM01hbzVZbkkybnVQVWFEZUtoZVppd1RaS1RYalFPWExWanpxTHdNaDdDX0h2Smp0NVowWXZ6VHRlMERocDBXOGxmNV94bjZiYkZBNHFXNm9hSXBKVTVZSkN0MG1KVC1QeUJraVVFSGhSUTdzUDd0QmQ5QXFFMG9qX2Z2NHNSYXFOTXdRNk1rSGZHT2VyVk5uSmN4WHYtVWVFcUNBd0YyYTVpN1o4YkNrTk9tQTctQ0F6UXZRTlQ5T1AtZmpualZOSElfbThScmhzdi1oN213SXFGbTV5bzFGMVE4N2dqdzgyNnlPSHROdnJGQ1NTQUk4a1B2N2gxc3VpZ0tHX1F6Nms4SUl3T2RBOFAxOHNiTW9R?oc=5",
-        "domain": "opinionnigeria",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261102T121345Z",
         "source": "GoogleNews"
       },
       {
