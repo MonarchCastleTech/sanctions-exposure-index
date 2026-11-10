@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-09T22:17:58.369326+00:00",
+    "generated": "2026-11-10T07:11:19.396437+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-09T22:16:11.884652+00:00",
+    "issued_at": "2026-11-10T07:09:33.087630+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 37.8,
+    "score": 38.9,
     "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 83.5,
+        "score": 86.3,
         "releases_considered": 99,
         "current_7d_designation_releases": 6,
         "current_7d_all_releases": 6,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.0,
-        "anomaly_z": 1.8,
+        "baseline_weekly_median": 3.0,
+        "anomaly_z": 2.02,
         "themes": [
           "cuba",
           "cyber",
@@ -237,11 +237,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 14.4,
+        "score": 14.7,
         "current_7d_releases": 6,
         "current_weighted_term_rate": 2.0,
-        "baseline_weeks": 10,
-        "anomaly_z": -0.16,
+        "baseline_weeks": 12,
+        "anomaly_z": 0.04,
         "matched_release_count": 5,
         "relief_release_count": 3,
         "evidence": [
@@ -417,23 +417,12 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 83.5,
+        "score": 86.3,
         "level": "SEVERE",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-17T04:47:17.129047+00:00",
-        "score": 22.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 46.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-17T11:35:16.159476+00:00",
         "score": 22.3,
@@ -2402,6 +2391,17 @@
           "official_posture_shift": 14.4,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-10T07:09:33.087630+00:00",
+        "score": 38.9,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 86.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 14.7,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2466,7 +2466,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "37.8/100",
+      "value": "38.9/100",
       "delta": "WATCH"
     },
     {
@@ -120699,21 +120699,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "What students got right about the $6 billion Binance hack, and how they would prevent the next one",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdTFOZi1yNVRoR21mWmkwOTBqZHdxMkpOTEF4VFBCSV9ndzhPd3ZzeDlITXdRTjFBRk02YzRuaExFckYyZ0R4RU5wM1ozQUJLYTJFblg2YUo4V0dpOUxVSTVDT2hjZ3hMZDBESjNWUHhDN3otakFUSEpoeFBUYkZoY0hiRk1UOVVncERuQlVWUzItWmpqUGF0RGRMWDRkLWN3eHNDLVgxamQxQmVyVF9jUGNORWFZOE1wSmRzQ2FjVGkyd3VpZHl2QzBZb245OTdWT0o3V2RuRQ?oc=5",
+        "domain": "atlanticcouncil",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261109T221141Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
         "domain": "mcguirewoods",
         "language": "",
         "tone": 0,
         "seendate": "20261107T005911Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "VTB Ruling Limits Reach Of Sanctions Over Creditor Rights",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPakZnX24wODRUekRYc25vWHFJbmZoZlo0MnUwRHNXRWNfc1BwY29WV0JEOUkwRzVxRVk5NFZmYkhqUnNjV1JzWG55Vm04UlRrM2NWX3Y4YkRBWXhHTjVZNkZtVjVTUk9LU1J1U0xEbVZmc0ZCVmJ5dGdvRTVXd2tDVVZ3VGl3UWxBbU1uN29GNnJaYldHbV9VMUZCa2w4aVEtcG9rQXpnN2FVRlVSLTdfRnlLM3o2SGVWdXc3MnlPTVpjMHZ1Ni1F0gFyQVVfeXFMTjZ6QkFqdVVJdmJacVRmLXYtTmxpd2p5NzBtYkZBOFpGamZWMmlMR1RKMUdZakJaM0Z3Q3JoZW9sWmVoOHJldG9GcWI4ZkozTEZqaURlWTZ2SVo4WWJHT3BTa3BYbGFhb1hPYzh1MXZNQ3p3?oc=5",
-        "domain": "law360",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T165208Z",
         "source": "GoogleNews"
       },
       {
@@ -120726,6 +120726,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "VTB Ruling Limits Reach Of Sanctions Over Creditor Rights",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdS04M3Q0eXhHVUJ0cDk1VEcxdTFPamJaTXQ1TnYzYzZwc09udDhQY2VyUjJKZUFmNUNpd1Z5alJWTlJpamdFcHR3aGd5VDJDR3RxVVNPQ2V3ZXNaQ0NUdVdnUklZcUFuQnJBbWVqLTFKeFJPUEdCSXV2ZnhlQ09GOE9Cc0V6NXotTDlIZFBlVmp3YkpVdm50bTh2ZjNyNXd0Ykp0NWZfekF2a243Yzc5U2lldXBWVGJtcXfSAXJBVV95cUxONnpCQWp1VUl2YlpxVGYtdi1ObGl3ank3MG1iRkE4WkZqZlYyaUxHVEoxR1lqQlozRndDcmhlb2xaZWg4cmV0b0ZxYjhmSjNMRmppRGVZNnZJWjhZYkdPcFNrcFhsYWFvWE9jOHUxdk1Denc?oc=5",
+        "domain": "law360",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T165208Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
         "domain": "newscord",
@@ -120735,21 +120744,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "LIA Chairman Discusses Frozen Asset Management in Paris",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeF8xOENrOVZlUjNQY0VhRlRkUHZDWlJjXzFmQWhnaDl0Mm5oWEJRaXFmRE9JYUZ1bHcwOFMzVW5idE9MejlLV2RVZ1JIRHFyaEV1UVI1NDE1NE54Z3lZMmtBaHBNM3hkZzJjMklCUEpIQWxEUjBXMG5PWkZCZHN3OElHNlJqckpZelBHMF9FeVRSWjlqMHJCZXgyV2R1R1hlMnhWVllLQ1FEV05RVHlZUjZ0cjVTbUo1SW15N1dzQlNfY1hLbWF4TjBtNTM?oc=5",
-        "domain": "libyaherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T193800Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Treasury Is Cutting MEXC Off From U.S. Banks Over $16 Billion in Illicit Transactions. What Happens to the Crypto Held There?",
         "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZjRKeFd2N21QTnpwbF8wZ2xoaDlUQ3hoTVk4OGdjS3h0S0t5MVUzUURCRmpvck0tLXRuRENFMFJYY0RaUzJRUUFETWpGWVFaOTFrQ1ZBSVhRcEVLWmQ4Xy1FOUFCdlBPNnZacFNvZEpDVkpqNFh1dThKanJlLTY4UmM1Vkc0QVVwX0xMN0lyU1dPN28wMnNwR3RqNXEwR09ZcjVuZWswaFJNZ0ViZHdSWVB6UG54OHNCT1VpSk9aekZ2ZzQ5d05QTzZFSDZTODBlbk16Wjl0bzhLU2VCLVN5bHE1TmpQNWVlRlM0WTFaTUVkNkNvTnlJRVplRWtMVHFNUFdyUXpIT1g0ZElq?oc=5",
         "domain": "247wallst.",
         "language": "",
         "tone": 0,
         "seendate": "20261107T202100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUtvOW53OEl2MlZuY1IwNlpFbXhGTXJYY0txQ3FFcEpUVk5lU2FBdDBsQXVBcmRzMFoyRGRLLU9hWXFMdnpBSHdqTFh6Uk9DU2Q5XzNFWFRUX2d3RkxvOC1QUExIeWV4R3JhVVhkZ2FSVHV3ZU1jSndDVjZudjhBYnd3RXdqbHNJeFBTSzF6TGpHTi1vRG01MTRGTmhmZW9KUWI0MDc1REd3QUtnYkdZcXFNcjZ0aFpoNFJHY29lVHFUNmktSmFqM3FNX2RBMlV0bkVV?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261109T082100Z",
         "source": "GoogleNews"
       },
       {
@@ -120771,21 +120780,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 Gazetted",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWDc4MGIzNUUxVEphMmNCaFJWRk9zdlUxYzhpN0JDQnYyY19iLTA2UDI2ZTNCVUJKeGZvSG4zSWltMHRZUW0tbU1ROVd2VVpkNENOenJPZHE5MG9rN25Mc3Jybk5PenhDckZwRC15bVpVUWM1Wkd0VnR0SlFaNVpaREVqM1gzbFJrUmVvSEdLRkhReFhuYnBrUmc5T3JUazlteHB3RXd1SXhGLXpKMWdERTQyR29rRVlRdWplYTgxTkwwOGVrVlR1VFNBUC1ldw?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T030000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Poland Passes Bill Allowing Government to Freeze Crypto Without Court Approval",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQREZXZ3RsT3p1eTlXTDctUzE2ZjA0VnJ4Rm5Zc3RHeHk2eF9KM0FSYktMRWpCajhWZnYydXFqemhlaDQtYkt3ZjFaR0k0RnhzY0NIMHBKRk1nM1ZMbWs5TkVRQXBtWDJFTl9GTHE0U1ZmcFJDZE1aWXc3WE1HWHdVS2o5bERlZ084dUFsSHI1WndZRW1QNHlFZHgyRDgxX0FZbVkyX280ZVZPX2cxLVFPOHZ3?oc=5",
         "domain": "kucoin",
         "language": "",
         "tone": 0,
         "seendate": "20261109T125838Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 Gazetted",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWDc4MGIzNUUxVEphMmNCaFJWRk9zdlUxYzhpN0JDQnYyY19iLTA2UDI2ZTNCVUJKeGZvSG4zSWltMHRZUW0tbU1ROVd2VVpkNENOenJPZHE5MG9rN25Mc3Jybk5PenhDckZwRC15bVpVUWM1Wkd0VnR0SlFaNVpaREVqM1gzbFJrUmVvSEdLRkhReFhuYnBrUmc5T3JUazlteHB3RXd1SXhGLXpKMWdERTQyR29rRVlRdWplYTgxTkwwOGVrVlR1VFNBUC1ldw?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T030000Z",
         "source": "GoogleNews"
       },
       {
@@ -120834,15 +120843,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Sanctions Eight Canadian Money Firms Over Alleged Iran Crypto Links",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUDJPX2ZJZHR0cUhBdVRnZHB0X0dXc3dTWUtXTzhSeVEyVHBhRmxZS3YtUFRuRm4wS3E3WmVGY19jcWdTY2o3M3pLY0NaR0t1MVBrS2w1dWNSTV96NnFaT3VRM2dKbEpUaVFOWUhVNzRtZGV0N21ZUW1wczR5MHFUZFVBUU5YWWJ2aEZwd1ZvZnNyRnhjLUJzcHdXZ0ZMOWxRNFdvcWx4czRDS18wa0dMWVRB?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T123126Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "OKX Blocks MEXC-Linked Deposits Early as FinCEN's $16.7B Order Looms",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTXROcHFZWjNVUUdYcldiVVVuOEpPbWJpcHFqWVczeWZ2V2JaRHVFU3pMU1cwSnM3V2tUZFYwclV5WEVIQUtVdTF1SS1RdGh2dDBfTkpLQ1pXSHJXdzNhM3Y2NUEwVTE0QTJBVXgwVDRRRVd1bUE?oc=5",
         "domain": "biggofinance",
@@ -120858,6 +120858,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261106T145504Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Binance Hack Puts Stablecoin Issuers' Freeze Powers in Spotlight",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamtlNzBGemxjMWlOaG03ZlpEa2tYSHQ0bU5nTnU0RmhNdHNfY3JULTFqdUYxRmt6T2xqZXdMaFVZdl95dEJBSUw1TWh1X0Y4M3BtLVUxT3k3cEZObmNQYUU2cHROelFtNmJ4LXNsTGFuT211SlEwNWVtcTN5MGFpdE9vSjhNZU9vTUtuY2w5M2JxSUlMeWRleTBKQQ?oc=5",
+        "domain": "seouleconomicdaily",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T010005Z",
         "source": "GoogleNews"
       },
       {
