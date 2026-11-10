@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-10T07:11:19.396437+00:00",
+    "generated": "2026-11-10T19:41:58.203243+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-10T07:09:33.087630+00:00",
+    "issued_at": "2026-11-10T19:40:11.744365+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 38.9,
@@ -423,17 +423,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-17T11:35:16.159476+00:00",
-        "score": 22.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 46.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-17T16:55:48.910014+00:00",
         "score": 22.3,
@@ -2394,6 +2383,17 @@
       },
       {
         "timestamp": "2026-11-10T07:09:33.087630+00:00",
+        "score": 38.9,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 86.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 14.7,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-10T19:40:11.744365+00:00",
         "score": 38.9,
         "level": "WATCH",
         "components": {
@@ -120708,21 +120708,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
-        "domain": "mcguirewoods",
+        "title": "Poland passes sanctions bill covering crypto asset freezes",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVjJqTDJ0djFMQXZFVUYxRDZGMUZNMHhsSXR6S012WGtDeTlxQjdTcGwwYnNuUjBWMldBRlI5MGplU2poaXlyN3FtV2FxV2xVdDVwUi1QMW82QVdISXhoOGRYRU83Qkk?oc=5",
+        "domain": "cryptonews",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T005911Z",
+        "seendate": "20261110T190012Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Japan sanctions 35 Russia-linked vessels in new crackdown on Moscow",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajZzTGU1bjJ0V09zZENELWVzaUQyMHZQN2tRNGtTZGtxRC1xX0w5eHNqZ1pLRGxNRDZtLXhFUGhHUTNSbjV5Tk1DNkl0OGthOEJSLXVvVEx2TWEzSnFTcU0xX3d2TS0zSFRLcWpuWFZxOFROYmRxVFd0SVRrR1hsMi1kSmRuejgxYlk2aEw5UXNrQ1BCaTlCeWc5ejlhZk9qcEd1a2IwWHF3V002cFhkRGstbjIwRDB0NG5GM3o2UQ?oc=5",
-        "domain": "shippingtelegraph",
+        "title": "China Delays Rare Earth Restrictions Under U.S. Trade Truce",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdDc2SFd4azVzR2tXdUF4b20wMGJpZjh0MWVHd25vLTU4Rm5NWklJY1FqTnVmN29UOVhEODVaSG5RNTczYW4zbTk0bGxJUnpRSVNrZERvVnFNX2dUQXBYX0x1ZVFhZnFJVmlVamZfNk4yYUFOUTZTWnNHRWdGd1Nkd1pKdmdCZ21PRnkzRVJmb2RUTnVIejBJVHZOWQ?oc=5",
+        "domain": "wsj",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T080000Z",
+        "seendate": "20261110T165900Z",
         "source": "GoogleNews"
       },
       {
@@ -120744,6 +120744,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "LIA Chairman Discusses Frozen Asset Management in Paris",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeF8xOENrOVZlUjNQY0VhRlRkUHZDWlJjXzFmQWhnaDl0Mm5oWEJRaXFmRE9JYUZ1bHcwOFMzVW5idE9MejlLV2RVZ1JIRHFyaEV1UVI1NDE1NE54Z3lZMmtBaHBNM3hkZzJjMklCUEpIQWxEUjBXMG5PWkZCZHN3OElHNlJqckpZelBHMF9FeVRSWjlqMHJCZXgyV2R1R1hlMnhWVllLQ1FEV05RVHlZUjZ0cjVTbUo1SW15N1dzQlNfY1hLbWF4TjBtNTM?oc=5",
+        "domain": "libyaherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261104T193800Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Treasury Is Cutting MEXC Off From U.S. Banks Over $16 Billion in Illicit Transactions. What Happens to the Crypto Held There?",
         "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZjRKeFd2N21QTnpwbF8wZ2xoaDlUQ3hoTVk4OGdjS3h0S0t5MVUzUURCRmpvck0tLXRuRENFMFJYY0RaUzJRUUFETWpGWVFaOTFrQ1ZBSVhRcEVLWmQ4Xy1FOUFCdlBPNnZacFNvZEpDVkpqNFh1dThKanJlLTY4UmM1Vkc0QVVwX0xMN0lyU1dPN28wMnNwR3RqNXEwR09ZcjVuZWswaFJNZ0ViZHdSWVB6UG54OHNCT1VpSk9aekZ2ZzQ5d05QTzZFSDZTODBlbk16Wjl0bzhLU2VCLVN5bHE1TmpQNWVlRlM0WTFaTUVkNkNvTnlJRVplRWtMVHFNUFdyUXpIT1g0ZElq?oc=5",
         "domain": "247wallst.",
@@ -120753,12 +120762,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUtvOW53OEl2MlZuY1IwNlpFbXhGTXJYY0txQ3FFcEpUVk5lU2FBdDBsQXVBcmRzMFoyRGRLLU9hWXFMdnpBSHdqTFh6Uk9DU2Q5XzNFWFRUX2d3RkxvOC1QUExIeWV4R3JhVVhkZ2FSVHV3ZU1jSndDVjZudjhBYnd3RXdqbHNJeFBTSzF6TGpHTi1vRG01MTRGTmhmZW9KUWI0MDc1REd3QUtnYkdZcXFNcjZ0aFpoNFJHY29lVHFUNmktSmFqM3FNX2RBMlV0bkVV?oc=5",
-        "domain": "tradingview",
+        "title": "Egypt's Final Terrorist Listing of the Brotherhood: Everything You Need to Know",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdl9zd2Vtb2JiLXdEUXNfUl83RGxHTkVGbDAzcWhVcmwtYmVUM2d5NGhTOW41RzJrUXdDWXVoOHZ3SVIzQy1LVTZEVXJuMm5oWUlLSTRpMF9zLUQ0R0ZhRF9OcWZWVXZRbTBuZFZoWW1GTFhWQXl6RGlXekgta0w0ZkhWekczNWNkOW04SDhOaDg2YmNHVGJzVVZqX00zQ3huSXZsYzBtZjVkOUZZbXc?oc=5",
+        "domain": "egypttoday",
         "language": "",
         "tone": 0,
-        "seendate": "20261109T082100Z",
+        "seendate": "20261110T064400Z",
         "source": "GoogleNews"
       },
       {
@@ -120777,6 +120786,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261106T185413Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Treasury Cuts Off Eight Canadian Currency Firms Over Iran Sanctions Evasion",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaFVVYzZoN2k1WU5lbHJzLTNpc2NnXzZQa0d3bHRWcGNVemRtdTdpT3BBQ01EeERMYXVzMWt0NTdIUWt3OXNNZ2E3ekJKNmpwb0NGWFVTTTRxRWxHYlpVQWprbV9nWEVlT08wNHhuNlNxSy1UNkE?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T005500Z",
         "source": "GoogleNews"
       },
       {
@@ -120807,30 +120825,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Greece Approves 10% Tax on Crypto Gains Starting 2027, Adds 15% DeFi Levy: how 5 outlets framed it",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUxMcVgwazBYOUNNa2VTbVJURlBFWV83SzZLOHhFb3NhS1NxWGdQbk9sUlpIRHdtQmNaUjJzbG85SEh2enhqbEpTSnlpSzFRSkFQelJYTUh6UFJaZnpJZDlKaGx6YmpTdm5lS0VMTmo4aVl5NlVoTm1EcllJM0xBdjZnczhjbHU4VlljUEkwT21zTFBrYjh6MEFvckpBVERCQVJZUUtWZnVQSmJXVHlOWGZseXJYWlVXSHRmeDg4X294SlNkMXo2VEIwUjZkNVFUTWxUZ2dCZ1RtNjBJ?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T111936Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Coinbase, Kalshi, Payward and Others Seek Amicus Brief Backing CFTC Over Single-Stock Perpetual Futures",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPOU9JeGI4R1FTNWg0S1lsWWVSWkVlZjl6Y2xMU1pEbjlZWmlGUnR2Rk1rNVlCMmJTMXdxSWx4S3pHVXo0eXhfRVkzX1ZvcFg3dGYwQUFmR091OVN5NkZuSXlYaFlsUkl6NEJTUmtMQ1BlTG1nVXVxWi1iVFZhNTRnbzlPQjZ2Z3JESW56TGVjMlF4bXNwNXgwbXBZb0RRY0M4Y19UTFVnRG9Jc3BuTTRoVVpiWXpsRVJnbXlZaFFGWkFFanlFS1I5cVJOamlGaFhMOW4xX0QxMnpnMmE0ZDJsX3ZxbFVNZFRaRVE?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T172608Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US to Restrict Transfers with MEXC Over $16.7 Billion in Illegal Activities",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaGN6QzlDUVc4RXd0enFqQ1FUWU9XVkY0ZnJNa2pVQkZCdVNfR2xSXzRCaVprcC1VMnA5T2xTTjI3SVFsbWRMOHg2T3piS1M0ckdsOFQ4Smtpak9CQmE3SDVpbnc1blZBQ19zcGNmWVM0eTdPdkN4WXdnZzQ1WDlCWmtITGtDYUVaVTR0MzE0eDh4NkY0R3pXY0FJWENSN3c?oc=5",
         "domain": "forklog",
         "language": "",
         "tone": 0,
         "seendate": "20261107T082913Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Libyan Investment Authority explores reinvestment of frozen assets in France",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlg2aXNoX0ZLQXhmNXhTU3hrU1NKTGdFZlNJQ2ZrNUtPUFRKc0xmNjE0WmQ0REx0dTZ0cVpGN0h6WElFYUJxRVNjUk03SHNFVXRoZ2dtYmpmMHMzY29xOW96cVYtTmNwaXNVeENyWmZRNkhLRG9rRFotWmVNTU5PMHV6VUFxVkZfeHRPc2IxRDB0Rno2X1NsdmZXV190NUM1MXUzUUhn?oc=5",
-        "domain": "thelibyaobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261103T190300Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iranian state threat activities in the UK",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzVVdyeXRzbFhtaHhVWHhtWDRlVksyT3g4SUlYSWNyOUFyUlI5cXVrdlBSVEJrZ0tZbno2MGRtekRfLTlQWUdNbnpJQ2FHbHpHQ1NZZGwzb1VwYzNuZHJ4Vkt5OTc0UHZpMk11cmE1MnJCR21k?oc=5",
-        "domain": "thehouseofcommonslibrary",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261103T080000Z",
         "source": "GoogleNews"
       },
       {
@@ -120852,39 +120870,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctioned At Home: A New Raw Docuseries, Forensically Dissecting The West’s Most Destructive Policy Weapon",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajRKWDBGWE4tTFd5MzNJaWRHNTRvTTcyMV9rTmhCUHNFTlVpMlQ2Rnl1WmJTTGVCYzVKTU1yckI3SUN4VTdWNWxYbmV5a3JFWEFieEZvejNLWFNRMEtWOU5WU0E3S0lhZjRtc3NSOUN4YXpOT3hfdGVYaEE1SFNLSUUxX1VxNUpxVkdtNUp3?oc=5",
-        "domain": "techround",
+        "title": "Capitalixe Co-Founder Lissele Pratt Pitches 24-Hour Stablecoin Freeze To UK Crime Agency",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa1d4UGY3czlWSm82VzlVS3llTU16UTdfMFZ1aV84emptcmpId0g5NUk0R1hMVDdiSkhZRGZTOTNJcHlXOFoxMGdiZXRnLXNpandwaVhQUXdNaThrY1Rncm9WN2xrZVhpUUJ2XzZZSXVpbU92XzBCR3I0UEdFZkFPUGQ0QVBVY3l5dkE2SXJreTNRMW1lNXRZTW1qZTJTbVBVTWs5UG9WbGNIeU5sWnB1clVtUm9oWHZOV0JtUG51bUJuZEEtWWdv?oc=5",
+        "domain": "onebullex",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T145504Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Binance Hack Puts Stablecoin Issuers' Freeze Powers in Spotlight",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamtlNzBGemxjMWlOaG03ZlpEa2tYSHQ0bU5nTnU0RmhNdHNfY3JULTFqdUYxRmt6T2xqZXdMaFVZdl95dEJBSUw1TWh1X0Y4M3BtLVUxT3k3cEZObmNQYUU2cHROelFtNmJ4LXNsTGFuT211SlEwNWVtcTN5MGFpdE9vSjhNZU9vTUtuY2w5M2JxSUlMeWRleTBKQQ?oc=5",
-        "domain": "seouleconomicdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T010005Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
-        "domain": "laodong.vn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T033517Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "OKX Warns Against MEXC Transfers as CEO Defends Solvency After US Action",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIdEhXS1ZzaWQyaEVOU19JVTVSSXVYTS1Eb1VTYzVkUHFiQ3ZmMTFMdWRjUVl2X25KdnVScHVsU0gwRWlDQnBUVTVTUjNRUjBmQ2VkRERsOWZzUQ?oc=5",
-        "domain": "bitpinas",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T020329Z",
+        "seendate": "20261110T110251Z",
         "source": "GoogleNews"
       },
       {
@@ -120894,6 +120885,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261108T000908Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Poland expands sanctions to freeze crypto assets, awaits Senate review",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDZhTHFpVFItb3pCbTI5VUlldEJqYU9HYU9ONldieTJEVUE3ZHZ1U1A5VDhmTV9tTThpOFYtLXUzRDVZaWI5b2dRYTFlYWRIeE1YQ1p6a2ljNXlSc3hGRDZwRVpXalMtckJqNW1ILUJGTk1obTJSbVhMaUJUd0JJMi1UUTZuYWdxV0NTM19FazkweExhZnNuNEVSc2xadw?oc=5",
+        "domain": "cryptobriefing",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T170544Z",
         "source": "GoogleNews"
       },
       {
