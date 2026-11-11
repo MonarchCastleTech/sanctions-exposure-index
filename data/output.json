@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-11T06:05:38.865156+00:00",
+    "generated": "2026-11-11T14:11:52.289455+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-11T06:03:52.601639+00:00",
+    "issued_at": "2026-11-11T14:10:05.853371+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 21.5,
@@ -327,17 +327,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-17T21:18:16.864955+00:00",
-        "score": 36.5,
-        "level": "WATCH",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 42.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-18T04:37:05.787673+00:00",
         "score": 28.1,
@@ -2298,6 +2287,17 @@
       },
       {
         "timestamp": "2026-11-11T06:03:52.601639+00:00",
+        "score": 21.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 15.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-11T14:10:05.853371+00:00",
         "score": 21.5,
         "level": "BASELINE",
         "components": {
@@ -120585,15 +120585,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland passes crypto freeze bill in 240–202 sanctions vote",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVjJqTDJ0djFMQXZFVUYxRDZGMUZNMHhsSXR6S012WGtDeTlxQjdTcGwwYnNuUjBWMldBRlI5MGplU2poaXlyN3FtV2FxV2xVdDVwUi1QMW82QVdISXhoOGRYRU83Qkk?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T190012Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Poland’s Sejm Approves Bill Expanding Sanctions to Freeze Crypto Assets: how 7 outlets framed it",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa2ktNHA1SHFJdS1QZUZ4R28xbmlyblJPTENUZkxOWmMtaExMa1l5SkFMM1FTeUdYNnFHWE9sa1N3MWlEdndubmUwcjFGbUl3UlZKMTVMYWI1eXJleGQtZU9GRTcxVlBfVjlNTmQwNFNjSy0wTjR1VHlUNVBwemVYNXlPRGlaWUFwcE9oMDBBNmFUcnhRakc1OEFHTXp5M1JXZUdaNm53WjY3QVdMUFFOZTVqVjVHd0IxRnVDdi1oMVhVTEdod2w0Q05NTFl6VDZpZ1ROZlNlNFp3bVRI?oc=5",
         "domain": "newscord",
@@ -120609,6 +120600,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261106T145659Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Poland passes crypto freeze bill in 240–202 sanctions vote",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVjJqTDJ0djFMQXZFVUYxRDZGMUZNMHhsSXR6S012WGtDeTlxQjdTcGwwYnNuUjBWMldBRlI5MGplU2poaXlyN3FtV2FxV2xVdDVwUi1QMW82QVdISXhoOGRYRU83Qkk?oc=5",
+        "domain": "cryptonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T190012Z",
         "source": "GoogleNews"
       },
       {
@@ -120675,15 +120675,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury Cuts Off Eight Canadian Currency Firms Over Iran Sanctions Evasion",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaFVVYzZoN2k1WU5lbHJzLTNpc2NnXzZQa0d3bHRWcGNVemRtdTdpT3BBQ01EeERMYXVzMWt0NTdIUWt3OXNNZ2E3ekJKNmpwb0NGWFVTTTRxRWxHYlpVQWprbV9nWEVlT08wNHhuNlNxSy1UNkE?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T005500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 Gazetted",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWDc4MGIzNUUxVEphMmNCaFJWRk9zdlUxYzhpN0JDQnYyY19iLTA2UDI2ZTNCVUJKeGZvSG4zSWltMHRZUW0tbU1ROVd2VVpkNENOenJPZHE5MG9rN25Mc3Jybk5PenhDckZwRC15bVpVUWM1Wkd0VnR0SlFaNVpaREVqM1gzbFJrUmVvSEdLRkhReFhuYnBrUmc5T3JUazlteHB3RXd1SXhGLXpKMWdERTQyR29rRVlRdWplYTgxTkwwOGVrVlR1VFNBUC1ldw?oc=5",
         "domain": "news.google.com",
@@ -120699,6 +120690,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261109T125838Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sudan: Sanctions Against Commanders Implicated in Sudan Rapes 'Seek Accountability', Says UK Minister",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03ZC05RmRJOWJLTXk4dDJaVk9wUlBHOWh6QnVXUFBRbjlVN21YV1JxMFR4d2Z0bjNrTXRJb1hyR3ZoMDJkN29jVjZhakJCZHNkNWxIeEF5SzRLQ1U?oc=5",
+        "domain": "allafrica.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T100951Z",
         "source": "GoogleNews"
       },
       {
@@ -120747,15 +120747,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sudan: Sanctions Against Commanders Implicated in Sudan Rapes 'Seek Accountability', Says UK Minister",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03ZC05RmRJOWJLTXk4dDJaVk9wUlBHOWh6QnVXUFBRbjlVN21YV1JxMFR4d2Z0bjNrTXRJb1hyR3ZoMDJkN29jVjZhakJCZHNkNWxIeEF5SzRLQ1U?oc=5",
-        "domain": "allafrica.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T100951Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Poland votes to allow crypto, bank account freezes without court orders",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nd0ZJMGVjallrWDhOOWxYZllmQWRhLTdTbUo1Q0w0RjNzQ19UTE1zOS1jSTM4dks4VEptQWFfZFRFak5MSDdVOWtfSk9RZHFPbTJ3MHpxX05MQWlvVVlzVy1kTWxoMENSaW94Zk1Jbnk3Zw?oc=5",
         "domain": "cryptonews",
@@ -120774,12 +120765,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "China suspected of smuggling NVIDIA chips worth around 10 trillion won ... Could U.S.-China ties freeze?",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95bk5VOHFHbV9WbGtPaTVaRmRCcXRWOXlVM0lyblNkRnM3Sk1wbVppeldmWDNaRldibGVaeGdSQXRHdTVyYmZOVnQ1X2lfVkR4UFB5RFNBZ0U?oc=5",
-        "domain": "news.google.com",
+        "title": "Polish Lower House Approves Sanctions Bill, Explicitly Including Cryptocurrencies in Freeze Measures",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13dXRyWjVXazl3MUFYQjV4MkF1UVp4cjZWUzY0MWRnRHVIT21zU2t2WUk1WjY3SkNWTk5TYl9pLTd2bm4xamVPRTNSMW5faGt4NVF2Zg?oc=5",
+        "domain": "iolite",
         "language": "",
         "tone": 0,
-        "seendate": "20261111T033623Z",
+        "seendate": "20261111T053527Z",
         "source": "GoogleNews"
       },
       {
@@ -120798,6 +120789,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261110T143036Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Wagner-linked firms keep Central African logging concessions, investigation finds",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ0JRLWZHTEw0WXhCdW5PeXduZ1laZHJlTVRldWRJTVd0QUVfbTBDUTIwSndTTHk5TDBIZmU4TTJKRWszWF9DODhSY0VOLXVoSFVnT1AxazJEdkRHcFBNb2hqS3lFN1VXS2U1NXRkTjk0WThYT29lZnE4UkNuLW9Rc1lFRHdBZXlvWm52VmlEUHVmalhsNUhjZ3FEN0I0ZXZ2Znh5R3JkUmE5V3g2ZUMxZ0VUSDk?oc=5",
+        "domain": "httpsstreamlinefeed.co.ke",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261111T095929Z",
         "source": "GoogleNews"
       },
       {
