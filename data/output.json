@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-10T19:41:58.203243+00:00",
+    "generated": "2026-11-11T06:05:38.865156+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-10T19:40:11.744365+00:00",
+    "issued_at": "2026-11-11T06:03:52.601639+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 38.9,
-    "level": "WATCH",
+    "score": 21.5,
+    "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,19 +24,18 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 86.3,
+        "score": 36.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 6,
-        "current_7d_all_releases": 6,
-        "prior_7d_designation_releases": 2,
+        "current_7d_designation_releases": 3,
+        "current_7d_all_releases": 3,
+        "prior_7d_designation_releases": 3,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.0,
-        "anomaly_z": 2.02,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": -0.22,
         "themes": [
           "cuba",
           "cyber",
-          "iran",
-          "venezuela"
+          "iran"
         ],
         "evidence": [
           {
@@ -87,62 +86,6 @@
             "themes": [
               "cuba",
               "cyber"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/disrupting-irans-pursuit-of-man-portable-air-defense-systems-fact-sheet/",
-            "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
-            "date": "2026-11-04",
-            "source": "OFAC/Treasury",
-            "posture_terms": [],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "venezuela"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
-            "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
-            "date": "2026-11-04",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "venezuela"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
-            "url": "https://home.treasury.gov/news/press-releases/sb0681/",
-            "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
-            "date": "2026-11-04",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "venezuela"
             ],
             "designation_signal": true
           }
@@ -237,13 +180,13 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 14.7,
-        "current_7d_releases": 6,
-        "current_weighted_term_rate": 2.0,
+        "score": 15.6,
+        "current_7d_releases": 3,
+        "current_weighted_term_rate": 2.167,
         "baseline_weeks": 12,
-        "anomaly_z": 0.04,
-        "matched_release_count": 5,
-        "relief_release_count": 3,
+        "anomaly_z": -0.16,
+        "matched_release_count": 3,
+        "relief_release_count": 0,
         "evidence": [
           {
             "title": "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
@@ -293,45 +236,6 @@
             "themes": [
               "cuba",
               "cyber"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
-            "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
-            "date": "2026-11-04",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "venezuela"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
-            "url": "https://home.treasury.gov/news/press-releases/sb0681/",
-            "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
-            "date": "2026-11-04",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [
-              "general license"
-            ],
-            "themes": [
-              "iran",
-              "venezuela"
             ],
             "designation_signal": true
           }
@@ -417,23 +321,12 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 86.3,
-        "level": "SEVERE",
+        "score": 36.0,
+        "level": "WATCH",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-17T16:55:48.910014+00:00",
-        "score": 22.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 16.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 46.8,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-17T21:18:16.864955+00:00",
         "score": 36.5,
@@ -2402,6 +2295,17 @@
           "official_posture_shift": 14.7,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-11T06:03:52.601639+00:00",
+        "score": 21.5,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 36.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 15.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2466,8 +2370,8 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "38.9/100",
-      "delta": "WATCH"
+      "value": "21.5/100",
+      "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
@@ -120681,6 +120585,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Poland passes crypto freeze bill in 240–202 sanctions vote",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVjJqTDJ0djFMQXZFVUYxRDZGMUZNMHhsSXR6S012WGtDeTlxQjdTcGwwYnNuUjBWMldBRlI5MGplU2poaXlyN3FtV2FxV2xVdDVwUi1QMW82QVdISXhoOGRYRU83Qkk?oc=5",
+        "domain": "cryptonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T190012Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Poland’s Sejm Approves Bill Expanding Sanctions to Freeze Crypto Assets: how 7 outlets framed it",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa2ktNHA1SHFJdS1QZUZ4R28xbmlyblJPTENUZkxOWmMtaExMa1l5SkFMM1FTeUdYNnFHWE9sa1N3MWlEdndubmUwcjFGbUl3UlZKMTVMYWI1eXJleGQtZU9GRTcxVlBfVjlNTmQwNFNjSy0wTjR1VHlUNVBwemVYNXlPRGlaWUFwcE9oMDBBNmFUcnhRakc1OEFHTXp5M1JXZUdaNm53WjY3QVdMUFFOZTVqVjVHd0IxRnVDdi1oMVhVTEdod2w0Q05NTFl6VDZpZ1ROZlNlNFp3bVRI?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T173535Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
         "domain": "bloomberg.com",
@@ -120708,48 +120630,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland passes sanctions bill covering crypto asset freezes",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVjJqTDJ0djFMQXZFVUYxRDZGMUZNMHhsSXR6S012WGtDeTlxQjdTcGwwYnNuUjBWMldBRlI5MGplU2poaXlyN3FtV2FxV2xVdDVwUi1QMW82QVdISXhoOGRYRU83Qkk?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T190012Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "China Delays Rare Earth Restrictions Under U.S. Trade Truce",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdDc2SFd4azVzR2tXdUF4b20wMGJpZjh0MWVHd25vLTU4Rm5NWklJY1FqTnVmN29UOVhEODVaSG5RNTczYW4zbTk0bGxJUnpRSVNrZERvVnFNX2dUQXBYX0x1ZVFhZnFJVmlVamZfNk4yYUFOUTZTWnNHRWdGd1Nkd1pKdmdCZ21PRnkzRVJmb2RUTnVIejBJVHZOWQ?oc=5",
-        "domain": "wsj",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T165900Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "VTB Ruling Limits Reach Of Sanctions Over Creditor Rights",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdS04M3Q0eXhHVUJ0cDk1VEcxdTFPamJaTXQ1TnYzYzZwc09udDhQY2VyUjJKZUFmNUNpd1Z5alJWTlJpamdFcHR3aGd5VDJDR3RxVVNPQ2V3ZXNaQ0NUdVdnUklZcUFuQnJBbWVqLTFKeFJPUEdCSXV2ZnhlQ09GOE9Cc0V6NXotTDlIZFBlVmp3YkpVdm50bTh2ZjNyNXd0Ykp0NWZfekF2a243Yzc5U2lldXBWVGJtcXfSAXJBVV95cUxONnpCQWp1VUl2YlpxVGYtdi1ObGl3ank3MG1iRkE4WkZqZlYyaUxHVEoxR1lqQlozRndDcmhlb2xaZWg4cmV0b0ZxYjhmSjNMRmppRGVZNnZJWjhZYkdPcFNrcFhsYWFvWE9jOHUxdk1Denc?oc=5",
         "domain": "law360",
         "language": "",
         "tone": 0,
         "seendate": "20261106T165208Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T112018Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "LIA Chairman Discusses Frozen Asset Management in Paris",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeF8xOENrOVZlUjNQY0VhRlRkUHZDWlJjXzFmQWhnaDl0Mm5oWEJRaXFmRE9JYUZ1bHcwOFMzVW5idE9MejlLV2RVZ1JIRHFyaEV1UVI1NDE1NE54Z3lZMmtBaHBNM3hkZzJjMklCUEpIQWxEUjBXMG5PWkZCZHN3OElHNlJqckpZelBHMF9FeVRSWjlqMHJCZXgyV2R1R1hlMnhWVllLQ1FEV05RVHlZUjZ0cjVTbUo1SW15N1dzQlNfY1hLbWF4TjBtNTM?oc=5",
-        "domain": "libyaherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T193800Z",
         "source": "GoogleNews"
       },
       {
@@ -120798,15 +120684,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland Passes Bill Allowing Government to Freeze Crypto Without Court Approval",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQREZXZ3RsT3p1eTlXTDctUzE2ZjA0VnJ4Rm5Zc3RHeHk2eF9KM0FSYktMRWpCajhWZnYydXFqemhlaDQtYkt3ZjFaR0k0RnhzY0NIMHBKRk1nM1ZMbWs5TkVRQXBtWDJFTl9GTHE0U1ZmcFJDZE1aWXc3WE1HWHdVS2o5bERlZ084dUFsSHI1WndZRW1QNHlFZHgyRDgxX0FZbVkyX280ZVZPX2cxLVFPOHZ3?oc=5",
-        "domain": "kucoin",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T125838Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 Gazetted",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWDc4MGIzNUUxVEphMmNCaFJWRk9zdlUxYzhpN0JDQnYyY19iLTA2UDI2ZTNCVUJKeGZvSG4zSWltMHRZUW0tbU1ROVd2VVpkNENOenJPZHE5MG9rN25Mc3Jybk5PenhDckZwRC15bVpVUWM1Wkd0VnR0SlFaNVpaREVqM1gzbFJrUmVvSEdLRkhReFhuYnBrUmc5T3JUazlteHB3RXd1SXhGLXpKMWdERTQyR29rRVlRdWplYTgxTkwwOGVrVlR1VFNBUC1ldw?oc=5",
         "domain": "news.google.com",
@@ -120816,12 +120693,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sudan: Sanctions Against Commanders Implicated in Sudan Rapes 'Seek Accountability', Says UK Minister",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03ZC05RmRJOWJLTXk4dDJaVk9wUlBHOWh6QnVXUFBRbjlVN21YV1JxMFR4d2Z0bjNrTXRJb1hyR3ZoMDJkN29jVjZhakJCZHNkNWxIeEF5SzRLQ1U?oc=5",
-        "domain": "allafrica.com",
+        "title": "Poland Passes Bill Allowing Government to Freeze Crypto Without Court Approval",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQREZXZ3RsT3p1eTlXTDctUzE2ZjA0VnJ4Rm5Zc3RHeHk2eF9KM0FSYktMRWpCajhWZnYydXFqemhlaDQtYkt3ZjFaR0k0RnhzY0NIMHBKRk1nM1ZMbWs5TkVRQXBtWDJFTl9GTHE0U1ZmcFJDZE1aWXc3WE1HWHdVS2o5bERlZ084dUFsSHI1WndZRW1QNHlFZHgyRDgxX0FZbVkyX280ZVZPX2cxLVFPOHZ3?oc=5",
+        "domain": "kucoin",
         "language": "",
         "tone": 0,
-        "seendate": "20261105T100951Z",
+        "seendate": "20261109T125838Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T112018Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Securitize Agrees to Buy River One, Expanding Into Asset-Backed Lending: 10 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOS13YUZNYzM4RU1MOW9vMGd5TkJZNEJJX3UzNlhDOVdVR3c3aFo2bmE4RXBvM1pyQS1jcXJ4dlVXdWNPcG9XXzdTZlhyZHdUVUV6dWpGVjMybjhtZnJDbzdvbVNhTTgxcmhWYU8xZGc2dk12cHcxMlVIb0xrVHAzSUlKbFpLQ0hYQVlIeXVaSXMwSl9FNGMya3Y4TUpfakpRbWZuVVNDM2oxTFU5RHFVdlM0TXJ1MEhzRl9FeTliaTZkNHNBUlpqaUZRampoSmlhRC11M0VjRzFGTHlQ?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T112734Z",
         "source": "GoogleNews"
       },
       {
@@ -120834,21 +120729,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Coinbase, Kalshi, Payward and Others Seek Amicus Brief Backing CFTC Over Single-Stock Perpetual Futures",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPOU9JeGI4R1FTNWg0S1lsWWVSWkVlZjl6Y2xMU1pEbjlZWmlGUnR2Rk1rNVlCMmJTMXdxSWx4S3pHVXo0eXhfRVkzX1ZvcFg3dGYwQUFmR091OVN5NkZuSXlYaFlsUkl6NEJTUmtMQ1BlTG1nVXVxWi1iVFZhNTRnbzlPQjZ2Z3JESW56TGVjMlF4bXNwNXgwbXBZb0RRY0M4Y19UTFVnRG9Jc3BuTTRoVVpiWXpsRVJnbXlZaFFGWkFFanlFS1I5cVJOamlGaFhMOW4xX0QxMnpnMmE0ZDJsX3ZxbFVNZFRaRVE?oc=5",
+        "title": "Binance France Will Close Accounts on December 31, Fees Start November 29: 19 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeGpVVUlSMUlQYVVCLU9la3RWeG5yTmYzQ3pDMVRDdmkwc3REb1BTZzhXNlk5bTkzd2FLdFY1UFk2RzZtN3pQaGN3RFVEQnVHWXNWektGYm0yeEZoLVRTVXNhTlZ5c2NzcGFSbnA3LVVUYV9kc21HT3RrbEJhNDFmS0RvZm9nMGx0c01HbGxMQ2ViQVdrT2xJbktKOGFadkc4cm50cFhnODVpT2cxVzRJQU9NR1B0d0RMTUFQSWV6VlBkZnhPSlZ6S3pnSVp1YjJiMlBLVjhMcGp5OExjWHRv?oc=5",
         "domain": "newscord",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T172608Z",
+        "seendate": "20261109T112353Z",
         "source": "GoogleNews"
       },
       {
-        "title": "US to Restrict Transfers with MEXC Over $16.7 Billion in Illegal Activities",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaGN6QzlDUVc4RXd0enFqQ1FUWU9XVkY0ZnJNa2pVQkZCdVNfR2xSXzRCaVprcC1VMnA5T2xTTjI3SVFsbWRMOHg2T3piS1M0ckdsOFQ4Smtpak9CQmE3SDVpbnc1blZBQ19zcGNmWVM0eTdPdkN4WXdnZzQ1WDlCWmtITGtDYUVaVTR0MzE0eDh4NkY0R3pXY0FJWENSN3c?oc=5",
-        "domain": "forklog",
+        "title": "People’s Bank of China Halts Solana Shanghai Event Over Unauthorized Crypto Promotion: 7 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX0VmTXpLWnNJVU5EVnowOU4xNk5oQWplTlVmaUM4emlQNXNHUzZGMWtPOVA0UDRvbFZGRFNLRlZBb0Fob0xWYXpNc01EejRvblBTMW9QMk1RRFFQa1REWk93UGNkWl9yc2g3RGpCT1hXSmhKUFJwQnh3WkY3OWt3ZFBndWdIMGNrYnc4cWpJYnpaUXY4ZUlOYTVXSVlWZ2pEcWNSY0t0MmhJODFUSzJtMGtwN3BkVE9wZlhkWnp2U3ctNUJBcnBUbGlvNVdtMXY5aG9TZzVzNS1SZ1A2a25icTJxRkhxSXRTcEE?oc=5",
+        "domain": "newscord",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T082913Z",
+        "seendate": "20261106T172347Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sudan: Sanctions Against Commanders Implicated in Sudan Rapes 'Seek Accountability', Says UK Minister",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03ZC05RmRJOWJLTXk4dDJaVk9wUlBHOWh6QnVXUFBRbjlVN21YV1JxMFR4d2Z0bjNrTXRJb1hyR3ZoMDJkN29jVjZhakJCZHNkNWxIeEF5SzRLQ1U?oc=5",
+        "domain": "allafrica.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261105T100951Z",
         "source": "GoogleNews"
       },
       {
@@ -120861,15 +120765,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "OKX Blocks MEXC-Linked Deposits Early as FinCEN's $16.7B Order Looms",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTXROcHFZWjNVUUdYcldiVVVuOEpPbWJpcHFqWVczeWZ2V2JaRHVFU3pMU1cwSnM3V2tUZFYwclV5WEVIQUtVdTF1SS1RdGh2dDBfTkpLQ1pXSHJXdzNhM3Y2NUEwVTE0QTJBVXgwVDRRRVd1bUE?oc=5",
-        "domain": "biggofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261108T122500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Capitalixe Co-Founder Lissele Pratt Pitches 24-Hour Stablecoin Freeze To UK Crime Agency",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa1d4UGY3czlWSm82VzlVS3llTU16UTdfMFZ1aV84emptcmpId0g5NUk0R1hMVDdiSkhZRGZTOTNJcHlXOFoxMGdiZXRnLXNpandwaVhQUXdNaThrY1Rncm9WN2xrZVhpUUJ2XzZZSXVpbU92XzBCR3I0UEdFZkFPUGQ0QVBVY3l5dkE2SXJreTNRMW1lNXRZTW1qZTJTbVBVTWs5UG9WbGNIeU5sWnB1clVtUm9oWHZOV0JtUG51bUJuZEEtWWdv?oc=5",
         "domain": "onebullex",
@@ -120879,21 +120774,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Crypto Banking Alert: MEXC Ban and What It Means for Your DAO",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HaXJmSDhJejFRc2NwRFNBSlJXZlJQcnV4VDNWQjk0dXFOOVdRZGVDdEx3SnVzMDByN2hka0pMdU5FdjJqYW04Um5wUW1xQkpHM2JKZWpka1kxRUh3Q2hTX1pISjlFcnp6RHo0dDBSLWVTZThlWVZCaEgtdw?oc=5",
-        "domain": "onesafe",
+        "title": "China suspected of smuggling NVIDIA chips worth around 10 trillion won ... Could U.S.-China ties freeze?",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95bk5VOHFHbV9WbGtPaTVaRmRCcXRWOXlVM0lyblNkRnM3Sk1wbVppeldmWDNaRldibGVaeGdSQXRHdTVyYmZOVnQ1X2lfVkR4UFB5RFNBZ0U?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261108T000908Z",
+        "seendate": "20261111T033623Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Poland expands sanctions to freeze crypto assets, awaits Senate review",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDZhTHFpVFItb3pCbTI5VUlldEJqYU9HYU9ONldieTJEVUE3ZHZ1U1A5VDhmTV9tTThpOFYtLXUzRDVZaWI5b2dRYTFlYWRIeE1YQ1p6a2ljNXlSc3hGRDZwRVpXalMtckJqNW1ILUJGTk1obTJSbVhMaUJUd0JJMi1UUTZuYWdxV0NTM19FazkweExhZnNuNEVSc2xadw?oc=5",
-        "domain": "cryptobriefing",
+        "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
+        "domain": "laodong.vn",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T170544Z",
+        "seendate": "20261107T033517Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Poland's Lower House Approves Sanctions Bill Including Crypto Seizures",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNUxKN1o0U18wa0pBOWItR2tzOGpZUG9DcWtKSUxSLWo4VzlyOGFLMkt5QVFodjh0UGpFTmFyTlBtYlZ6bndONExDTFdrZEFwb0xGc1VGTzlmSlNueURweF9QY2VxcGJlNzlvYlZyWGlUTDRMNVlmMUZoRmpkZmNaSDFkRlQzNjhqNWQ4WGRKZE1RZzlfbDRUYlAxbDlBMGQt?oc=5",
+        "domain": "menafn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T143036Z",
         "source": "GoogleNews"
       },
       {
