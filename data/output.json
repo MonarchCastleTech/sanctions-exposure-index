@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-12T00:36:47.677841+00:00",
+    "generated": "2026-11-12T15:05:56.907810+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-12T00:35:01.392738+00:00",
+    "issued_at": "2026-11-12T15:04:10.286290+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.9,
@@ -257,17 +257,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-18T11:07:56.871806+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-18T16:20:49.235195+00:00",
         "score": 29.3,
@@ -2228,6 +2217,17 @@
       },
       {
         "timestamp": "2026-11-12T00:35:01.392738+00:00",
+        "score": 20.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 12.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 46.8,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-12T15:04:10.286290+00:00",
         "score": 20.9,
         "level": "BASELINE",
         "components": {
@@ -120524,21 +120524,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T145659Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Poland passes crypto freeze bill in 240–202 sanctions vote",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVjJqTDJ0djFMQXZFVUYxRDZGMUZNMHhsSXR6S012WGtDeTlxQjdTcGwwYnNuUjBWMldBRlI5MGplU2poaXlyN3FtV2FxV2xVdDVwUi1QMW82QVdISXhoOGRYRU83Qkk?oc=5",
         "domain": "cryptonews",
         "language": "",
         "tone": 0,
         "seendate": "20261110T190012Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
+        "domain": "mcguirewoods",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T005911Z",
         "source": "GoogleNews"
       },
       {
@@ -120551,12 +120551,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
-        "domain": "mcguirewoods",
+        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+        "domain": "bloomberg.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T005911Z",
+        "seendate": "20261106T145659Z",
         "source": "GoogleNews"
       },
       {
@@ -120578,33 +120578,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Treasury Is Cutting MEXC Off From U.S. Banks Over $16 Billion in Illicit Transactions. What Happens to the Crypto Held There?",
-        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZjRKeFd2N21QTnpwbF8wZ2xoaDlUQ3hoTVk4OGdjS3h0S0t5MVUzUURCRmpvck0tLXRuRENFMFJYY0RaUzJRUUFETWpGWVFaOTFrQ1ZBSVhRcEVLWmQ4Xy1FOUFCdlBPNnZacFNvZEpDVkpqNFh1dThKanJlLTY4UmM1Vkc0QVVwX0xMN0lyU1dPN28wMnNwR3RqNXEwR09ZcjVuZWswaFJNZ0ViZHdSWVB6UG54OHNCT1VpSk9aekZ2ZzQ5d05QTzZFSDZTODBlbk16Wjl0bzhLU2VCLVN5bHE1TmpQNWVlRlM0WTFaTUVkNkNvTnlJRVplRWtMVHFNUFdyUXpIT1g0ZElq?oc=5",
-        "domain": "247wallst.",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T202100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "S. Korea should deepen work with US, Japan on sanctions against NK after Binance theft: expert",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSDI0OUs3Mlh0SndWV1FpNzRHVjJPZEctdDE1M0ZLb1ZWQmlPN2Z2UFB2aUdtMzRoMFc3TFBBTlpLdlJGNkNCRWdBVTVOcF92eFRxTVJXMVJNUDgyV1RTLUNTMkdwWjAtQXIwSWk5SmhjUkhwejZiTUswZlNKVjFVb0FxRUY0RFB0TUxONXZab3VtU1ZwZ2VTeFd6V3hLZWRiRF9MeUQ5VU9UbGZoR2pPM2RaWlphU3llRV9TVTJpQ01CeENuUy1hbjU0Ml9sdVViWjFLeEQ3TnBxcGotczJjTmJR0gHiAUFVX3lxTE9IMjQ5SzcyWHRKd1ZXUWk3NEdWMk9kRy10MTUzRktvVlZCaU83ZnZQUHZpR20zNGgwVzdMUEFOWkt2UkY2Q0JFZ0FVNU5wX3Z4VHFNUlcxUk1QODJXVFMtQ1MyR3BaMC1BcjBJaTlKaGNSSHB6NmJNSzBmU0pWMVVvQXFFRjREUHRNTE41dlpvdW1TVnBnZVN4V3pXeEtlZGJEX0x5RDlVT1RsZmhHak8zZFpaWmFTeWVFX1NVMmlDTUJ4Q25TLWFuNTQyX2x1VWJaMUt4RDdOcHFwai1zMmNOYlE?oc=5",
-        "domain": "thekoreatimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T225401Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Advances Sanctions Plan Against Smugglers",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTERZOWg3VzN1VVA1bXM3WTlrbmJBdmFsOVBZb1ljeS1kV0ZUUm1xNHV0VS0zSjBrMFNEUWV5ZFpNYk5sb0ZLZFJPdi1CMUp0MWdUd21mUGE3cVBUQmRQYjUzV3Bzdk1QRmhoSkxKZXM0ZTVuYm41eUE2aU1sb2pZSTk3OGxpUlU?oc=5",
-        "domain": "theeuropeantimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T185413Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Egypt's Final Terrorist Listing of the Brotherhood: Everything You Need to Know",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdl9zd2Vtb2JiLXdEUXNfUl83RGxHTkVGbDAzcWhVcmwtYmVUM2d5NGhTOW41RzJrUXdDWXVoOHZ3SVIzQy1LVTZEVXJuMm5oWUlLSTRpMF9zLUQ0R0ZhRF9OcWZWVXZRbTBuZFZoWW1GTFhWQXl6RGlXekgta0w0ZkhWekczNWNkOW04SDhOaDg2YmNHVGJzVVZqX00zQ3huSXZsYzBtZjVkOUZZbXc?oc=5",
         "domain": "egypttoday",
@@ -120614,12 +120587,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 Gazetted",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWDc4MGIzNUUxVEphMmNCaFJWRk9zdlUxYzhpN0JDQnYyY19iLTA2UDI2ZTNCVUJKeGZvSG4zSWltMHRZUW0tbU1ROVd2VVpkNENOenJPZHE5MG9rN25Mc3Jybk5PenhDckZwRC15bVpVUWM1Wkd0VnR0SlFaNVpaREVqM1gzbFJrUmVvSEdLRkhReFhuYnBrUmc5T3JUazlteHB3RXd1SXhGLXpKMWdERTQyR29rRVlRdWplYTgxTkwwOGVrVlR1VFNBUC1ldw?oc=5",
-        "domain": "news.google.com",
+        "title": "S. Korea should deepen work with US, Japan on sanctions against NK after Binance theft: expert",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkR4bTlBLTRTempNOU5kY1V3dEdhVkFjZUV1OENLYWtHQjNscmhYU0tXcnkzVng0SHo2cjNTSDUzRTZQYU5HbFJpSUg0UTdhY1hqZ2hnMEZ5Z3QyekNiMDZZVzBUUVk4N2NqbHkyQ1JjampoWHBZOW83QndqWVk3YmMzeDd3RUplbGVyN3RRUm5TZ3VfT3BrQ1lVVi04RUI2QWZVS1k2cWRWX213QWsxdjNBRkViOEZyTWxYZDhGRk5WZDhSSUFaTGRnd19NbWoxUkRZTVJGTzZTNm840gHiAUFVX3lxTE9IMjQ5SzcyWHRKd1ZXUWk3NEdWMk9kRy10MTUzRktvVlZCaU83ZnZQUHZpR20zNGgwVzdMUEFOWkt2UkY2Q0JFZ0FVNU5wX3Z4VHFNUlcxUk1QODJXVFMtQ1MyR3BaMC1BcjBJaTlKaGNSSHB6NmJNSzBmU0pWMVVvQXFFRjREUHRNTE41dlpvdW1TVnBnZVN4V3pXeEtlZGJEX0x5RDlVT1RsZmhHak8zZFpaWmFTeWVFX1NVMmlDTUJ4Q25TLWFuNTQyX2x1VWJaMUt4RDdOcHFwai1zMmNOYlE?oc=5",
+        "domain": "thekoreatimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T030000Z",
+        "seendate": "20261105T225400Z",
         "source": "GoogleNews"
       },
       {
@@ -120632,12 +120605,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sudan: Sanctions Against Commanders Implicated in Sudan Rapes 'Seek Accountability', Says UK Minister",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03ZC05RmRJOWJLTXk4dDJaVk9wUlBHOWh6QnVXUFBRbjlVN21YV1JxMFR4d2Z0bjNrTXRJb1hyR3ZoMDJkN29jVjZhakJCZHNkNWxIeEF5SzRLQ1U?oc=5",
-        "domain": "allafrica.com",
+        "title": "US to Restrict Transfers with MEXC Over $16.7 Billion in Illegal Activities",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaGN6QzlDUVc4RXd0enFqQ1FUWU9XVkY0ZnJNa2pVQkZCdVNfR2xSXzRCaVprcC1VMnA5T2xTTjI3SVFsbWRMOHg2T3piS1M0ckdsOFQ4Smtpak9CQmE3SDVpbnc1blZBQ19zcGNmWVM0eTdPdkN4WXdnZzQ1WDlCWmtITGtDYUVaVTR0MzE0eDh4NkY0R3pXY0FJWENSN3c?oc=5",
+        "domain": "forklog",
         "language": "",
         "tone": 0,
-        "seendate": "20261105T100951Z",
+        "seendate": "20261107T082913Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 Gazetted",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUFJscld3aVMxbm1wSy1GUGU4TjFtVDdRRjFTTGlaVlMteVYzaWNLcmV6S0U1ejlPODdSNVRLbHNtMUQtV1hmVkJpSVh2ZXlIelR4ZzRXVUJweVc0M2Z3Nzl1M3Q5VnlwcjRiVVItaFdSQVpJS2pwQ1l2aXpycjVBeTl2R2hDZDFHZFJjM01sanVkSHZ2dllHNDRnUDVhSHJGUDJmTmlxSkFzRFhKbWMwcXpBNWdpSXBIaW94ZDhKb3N2clZ3eFdydkM1U19odGZ1aXlqLXhNVzdocExxVHVITVZPeU5TLWVFZmU5SVFubnlTa3ZEVkNtVGlBRG0wQQ?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T030000Z",
         "source": "GoogleNews"
       },
       {
@@ -120650,39 +120632,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Greece Approves 10% Tax on Crypto Gains Starting 2027, Adds 15% DeFi Levy: how 5 outlets framed it",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUxMcVgwazBYOUNNa2VTbVJURlBFWV83SzZLOHhFb3NhS1NxWGdQbk9sUlpIRHdtQmNaUjJzbG85SEh2enhqbEpTSnlpSzFRSkFQelJYTUh6UFJaZnpJZDlKaGx6YmpTdm5lS0VMTmo4aVl5NlVoTm1EcllJM0xBdjZnczhjbHU4VlljUEkwT21zTFBrYjh6MEFvckpBVERCQVJZUUtWZnVQSmJXVHlOWGZseXJYWlVXSHRmeDg4X294SlNkMXo2VEIwUjZkNVFUTWxUZ2dCZ1RtNjBJ?oc=5",
-        "domain": "newscord",
+        "title": "DR Congo: UN adds Joseph Kabila's FRN to sanctions list after formally linking it to M23",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdFZLOWRYd19xQnBMQVFOS0tPbGpfTzB4cmlIWUFLYWowNmtOUEdmdDh6MktHQjRLenpiWTdtRnluVjRSRWFGNkcwdVVfZ2pzNW84alhSbmRac2cyLW1rdEtzZXNnNEpIZXdjOEV6Rzc3eDNEckVHWnQweGdmRi1uN1pUT0ItdFJ2TlVkeHVUNng5cWVRREVOY2RCaUR5bnZnZG9VNE1TWElrNm5wSXdsX0VRZkdna1VPUzhPdzZoVTZLb1lJU2hsaThPQXhLRlpwOU1ZejNHcnppZG5INGhzX1UtRE1MUQ?oc=5",
+        "domain": "theeastleighvoice",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T111936Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Binance France Will Close Accounts on December 31, Fees Start November 29: 19 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeGpVVUlSMUlQYVVCLU9la3RWeG5yTmYzQ3pDMVRDdmkwc3REb1BTZzhXNlk5bTkzd2FLdFY1UFk2RzZtN3pQaGN3RFVEQnVHWXNWektGYm0yeEZoLVRTVXNhTlZ5c2NzcGFSbnA3LVVUYV9kc21HT3RrbEJhNDFmS0RvZm9nMGx0c01HbGxMQ2ViQVdrT2xJbktKOGFadkc4cm50cFhnODVpT2cxVzRJQU9NR1B0d0RMTUFQSWV6VlBkZnhPSlZ6S3pnSVp1YjJiMlBLVjhMcGp5OExjWHRv?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T112353Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "People’s Bank of China Halts Solana Shanghai Event Over Unauthorized Crypto Promotion: 7 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX0VmTXpLWnNJVU5EVnowOU4xNk5oQWplTlVmaUM4emlQNXNHUzZGMWtPOVA0UDRvbFZGRFNLRlZBb0Fob0xWYXpNc01EejRvblBTMW9QMk1RRFFQa1REWk93UGNkWl9yc2g3RGpCT1hXSmhKUFJwQnh3WkY3OWt3ZFBndWdIMGNrYnc4cWpJYnpaUXY4ZUlOYTVXSVlWZ2pEcWNSY0t0MmhJODFUSzJtMGtwN3BkVE9wZlhkWnp2U3ctNUJBcnBUbGlvNVdtMXY5aG9TZzVzNS1SZ1A2a25icTJxRkhxSXRTcEE?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T172347Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Poland votes to allow crypto, bank account freezes without court orders",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nd0ZJMGVjallrWDhOOWxYZllmQWRhLTdTbUo1Q0w0RjNzQ19UTE1zOS1jSTM4dks4VEptQWFfZFRFak5MSDdVOWtfSk9RZHFPbTJ3MHpxX05MQWlvVVlzVy1kTWxoMENSaW94Zk1Jbnk3Zw?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T114505Z",
+        "seendate": "20261112T105858Z",
         "source": "GoogleNews"
       },
       {
@@ -120695,6 +120650,42 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Sanctioned At Home: A New Raw Docuseries, Forensically Dissecting The West’s Most Destructive Policy Weapon",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajRKWDBGWE4tTFd5MzNJaWRHNTRvTTcyMV9rTmhCUHNFTlVpMlQ2Rnl1WmJTTGVCYzVKTU1yckI3SUN4VTdWNWxYbmV5a3JFWEFieEZvejNLWFNRMEtWOU5WU0E3S0lhZjRtc3NSOUN4YXpOT3hfdGVYaEE1SFNLSUUxX1VxNUpxVkdtNUp3?oc=5",
+        "domain": "techround",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T145504Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "OKX Blocks MEXC-Linked Deposits Early as FinCEN's $16.7B Order Looms",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTXROcHFZWjNVUUdYcldiVVVuOEpPbWJpcHFqWVczeWZ2V2JaRHVFU3pMU1cwSnM3V2tUZFYwclV5WEVIQUtVdTF1SS1RdGh2dDBfTkpLQ1pXSHJXdzNhM3Y2NUEwVTE0QTJBVXgwVDRRRVd1bUE?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261108T122500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Poland votes to allow crypto, bank account freezes without court orders",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nd0ZJMGVjallrWDhOOWxYZllmQWRhLTdTbUo1Q0w0RjNzQ19UTE1zOS1jSTM4dks4VEptQWFfZFRFak5MSDdVOWtfSk9RZHFPbTJ3MHpxX05MQWlvVVlzVy1kTWxoMENSaW94Zk1Jbnk3Zw?oc=5",
+        "domain": "cryptonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261109T114505Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "People’s Bank of China Halts Solana Shanghai Event Over Unauthorized Crypto Promotion: 7 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX0VmTXpLWnNJVU5EVnowOU4xNk5oQWplTlVmaUM4emlQNXNHUzZGMWtPOVA0UDRvbFZGRFNLRlZBb0Fob0xWYXpNc01EejRvblBTMW9QMk1RRFFQa1REWk93UGNkWl9yc2g3RGpCT1hXSmhKUFJwQnh3WkY3OWt3ZFBndWdIMGNrYnc4cWpJYnpaUXY4ZUlOYTVXSVlWZ2pEcWNSY0t0MmhJODFUSzJtMGtwN3BkVE9wZlhkWnp2U3ctNUJBcnBUbGlvNVdtMXY5aG9TZzVzNS1SZ1A2a25icTJxRkhxSXRTcEE?oc=5",
+        "domain": "newscord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T172347Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Polish Lower House Approves Sanctions Bill, Explicitly Including Cryptocurrencies in Freeze Measures",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13dXRyWjVXazl3MUFYQjV4MkF1UVp4cjZWUzY0MWRnRHVIT21zU2t2WUk1WjY3SkNWTk5TYl9pLTd2bm4xamVPRTNSMW5faGt4NVF2Zg?oc=5",
         "domain": "iolite",
@@ -120704,12 +120695,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
-        "domain": "laodong.vn",
+        "title": "China suspected of smuggling NVIDIA chips worth around 10 trillion won ... Could U.S.-China ties freeze?",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95bk5VOHFHbV9WbGtPaTVaRmRCcXRWOXlVM0lyblNkRnM3Sk1wbVppeldmWDNaRldibGVaeGdSQXRHdTVyYmZOVnQ1X2lfVkR4UFB5RFNBZ0U?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T033517Z",
+        "seendate": "20261111T033623Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "OKX Warns Against MEXC Transfers as CEO Defends Solvency After US Action",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIdEhXS1ZzaWQyaEVOU19JVTVSSXVYTS1Eb1VTYzVkUHFiQ3ZmMTFMdWRjUVl2X25KdnVScHVsU0gwRWlDQnBUVTVTUjNRUjBmQ2VkRERsOWZzUQ?oc=5",
+        "domain": "bitpinas",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261109T020329Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia bars four French figures over expulsion of Xenia Fedorova",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYzhtX1QwZ1lyekFGYk40eDFQeEhxT3JKUUVxcElvWDFuTjNQVENVYlRuNDRUczl3bFk4OHZibjBnZk5hVmgtMTR5M0ttMVRjT2FFSHdFemI3c2dNS202dzh5a1hILUdBMkQwTm9iV0J1YXFIbHJtdk1xNUo4SF9JbVkwQQ?oc=5",
+        "domain": "aol.co.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261111T144509Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Crypto Banking Alert: MEXC Ban and What It Means for Your DAO",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HaXJmSDhJejFRc2NwRFNBSlJXZlJQcnV4VDNWQjk0dXFOOVdRZGVDdEx3SnVzMDByN2hka0pMdU5FdjJqYW04Um5wUW1xQkpHM2JKZWpka1kxRUh3Q2hTX1pISjlFcnp6RHo0dDBSLWVTZThlWVZCaEgtdw?oc=5",
+        "domain": "onesafe",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261108T000908Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Advances Sanctions Plan Against Smugglers",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTERZOWg3VzN1VVA1bXM3WTlrbmJBdmFsOVBZb1ljeS1kV0ZUUm1xNHV0VS0zSjBrMFNEUWV5ZFpNYk5sb0ZLZFJPdi1CMUp0MWdUd21mUGE3cVBUQmRQYjUzV3Bzdk1QRmhoSkxKZXM0ZTVuYm41eUE2aU1sb2pZSTk3OGxpUlU?oc=5",
+        "domain": "theeuropeantimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T185413Z",
         "source": "GoogleNews"
       },
       {
@@ -120722,21 +120749,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Wagner-linked firms keep Central African logging concessions, investigation finds",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ0JRLWZHTEw0WXhCdW5PeXduZ1laZHJlTVRldWRJTVd0QUVfbTBDUTIwSndTTHk5TDBIZmU4TTJKRWszWF9DODhSY0VOLXVoSFVnT1AxazJEdkRHcFBNb2hqS3lFN1VXS2U1NXRkTjk0WThYT29lZnE4UkNuLW9Rc1lFRHdBZXlvWm52VmlEUHVmalhsNUhjZ3FEN0I0ZXZ2Znh5R3JkUmE5V3g2ZUMxZ0VUSDk?oc=5",
-        "domain": "httpsstreamlinefeed.co.ke",
+        "title": "Poland expands sanctions to freeze crypto assets, awaits Senate review",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDZhTHFpVFItb3pCbTI5VUlldEJqYU9HYU9ONldieTJEVUE3ZHZ1U1A5VDhmTV9tTThpOFYtLXUzRDVZaWI5b2dRYTFlYWRIeE1YQ1p6a2ljNXlSc3hGRDZwRVpXalMtckJqNW1ILUJGTk1obTJSbVhMaUJUd0JJMi1UUTZuYWdxV0NTM19FazkweExhZnNuNEVSc2xadw?oc=5",
+        "domain": "cryptobriefing",
         "language": "",
         "tone": 0,
-        "seendate": "20261111T095929Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "“Freeze Terror-Linked Assets Immediately Or Face Sanctions” — SEC Orders Capital Market Operators To Act, Warns Of Licence Revocation",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZzkyZXpfUTVqd3k1OEJmUUYySjA2ZXRJSWVQQTU5TG1mRVlLcE00MnlPMTZPQWVsMzNuSDV6dVkwWFU4WThYUHVlRGZjQ1pjcEVQdFNTZnhhb2JCRWs5eGRaMFZzTHBzNWVfdzBZaHFaSkt3SG4zQ2VDdUxVZzRKdmxCRHJpNW1UUWFUMzM2MWRxVi1ENmlWelFwNFpIbFBRLWlLcWVUR0xuTFVla1dNeWtjOVZRU1Z3djZwSm4yMmI3RXJCYlRmVHZVTEU5ZTJsSWVGamU4OHU5MGFoeFZiVTVtR0RBN0VJZXdBWHBTSQ?oc=5",
-        "domain": "thenigerialawyer",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T123201Z",
+        "seendate": "20261110T170544Z",
         "source": "GoogleNews"
       },
       {
