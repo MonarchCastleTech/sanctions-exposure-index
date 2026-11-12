@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-12T15:05:56.907810+00:00",
+    "generated": "2026-11-12T23:33:55.815699+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-12T15:04:10.286290+00:00",
+    "issued_at": "2026-11-12T23:32:09.244830+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 20.9,
@@ -257,17 +257,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-18T16:20:49.235195+00:00",
-        "score": 29.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 6.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-18T20:51:28.854440+00:00",
         "score": 28.1,
@@ -2228,6 +2217,17 @@
       },
       {
         "timestamp": "2026-11-12T15:04:10.286290+00:00",
+        "score": 20.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 12.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 46.8,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-12T23:32:09.244830+00:00",
         "score": 20.9,
         "level": "BASELINE",
         "components": {
@@ -120533,15 +120533,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
-        "domain": "mcguirewoods",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T005911Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Poland’s Lower House Backs Crypto Freezes Under Broader Sanctions Bill",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcHF1LTl1TjNNNjEwMnRoX0dwU1RKUlBDNTJNeTNxcER4Nlc1U2g2ekZXLUEtM284TEZGc0ZBSWF4dWZTMnNpajNkTXB0ZEo0eWtfN19iMkFVWWRBSkllSzFJTS0yWWxrejhDaHZZbW5XWTVUem5GMzdfMVhwTFd2Q3E4Q08yN3M2TFRDbzVvenJ3QU9xSXNYSXJJVk14dW56VEQ0T3RVU0NSNlVR?oc=5",
         "domain": "thedefiant",
@@ -120578,30 +120569,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "FRN sanctions: UN ban hits Kabila group, 323,000 flee",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCbWhWYU1pRDBfVXNHZjNEVFZGSGN4ZHRVQ09Ta1ZtZnlZVEhYSjdGdVBObkFHamlEbHlPLTR5TF9wRTd0UDlEdll2YmMxbW1HTTZUMWw0VEFtbHIyRVpvM2Y0WUp0SEk?oc=5",
+        "domain": "dneafrica",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261112T144309Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUtvOW53OEl2MlZuY1IwNlpFbXhGTXJYY0txQ3FFcEpUVk5lU2FBdDBsQXVBcmRzMFoyRGRLLU9hWXFMdnpBSHdqTFh6Uk9DU2Q5XzNFWFRUX2d3RkxvOC1QUExIeWV4R3JhVVhkZ2FSVHV3ZU1jSndDVjZudjhBYnd3RXdqbHNJeFBTSzF6TGpHTi1vRG01MTRGTmhmZW9KUWI0MDc1REd3QUtnYkdZcXFNcjZ0aFpoNFJHY29lVHFUNmktSmFqM3FNX2RBMlV0bkVV?oc=5",
+        "domain": "tradingview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261109T082100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Can anyone fix the China-Japan relationship?",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTUHVBUEZ2aUVFeEZINmQtbE1fZHBCdHh3Ui0tNHJIS0pEUzg0bXpSM2NLQzJjY21rNjUzOFpPcGNEdFdEY1p3WjhDa0QzbW9OMGpWSnQ2cmtGVllEalRTRzhqTjNTQlNoYnBmTi1GdWZZeEJR?oc=5",
+        "domain": "theeconomist",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261112T140853Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Egypt's Final Terrorist Listing of the Brotherhood: Everything You Need to Know",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdl9zd2Vtb2JiLXdEUXNfUl83RGxHTkVGbDAzcWhVcmwtYmVUM2d5NGhTOW41RzJrUXdDWXVoOHZ3SVIzQy1LVTZEVXJuMm5oWUlLSTRpMF9zLUQ0R0ZhRF9OcWZWVXZRbTBuZFZoWW1GTFhWQXl6RGlXekgta0w0ZkhWekczNWNkOW04SDhOaDg2YmNHVGJzVVZqX00zQ3huSXZsYzBtZjVkOUZZbXc?oc=5",
         "domain": "egypttoday",
         "language": "",
         "tone": 0,
         "seendate": "20261110T064400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "S. Korea should deepen work with US, Japan on sanctions against NK after Binance theft: expert",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkR4bTlBLTRTempNOU5kY1V3dEdhVkFjZUV1OENLYWtHQjNscmhYU0tXcnkzVng0SHo2cjNTSDUzRTZQYU5HbFJpSUg0UTdhY1hqZ2hnMEZ5Z3QyekNiMDZZVzBUUVk4N2NqbHkyQ1JjampoWHBZOW83QndqWVk3YmMzeDd3RUplbGVyN3RRUm5TZ3VfT3BrQ1lVVi04RUI2QWZVS1k2cWRWX213QWsxdjNBRkViOEZyTWxYZDhGRk5WZDhSSUFaTGRnd19NbWoxUkRZTVJGTzZTNm840gHiAUFVX3lxTE9IMjQ5SzcyWHRKd1ZXUWk3NEdWMk9kRy10MTUzRktvVlZCaU83ZnZQUHZpR20zNGgwVzdMUEFOWkt2UkY2Q0JFZ0FVNU5wX3Z4VHFNUlcxUk1QODJXVFMtQ1MyR3BaMC1BcjBJaTlKaGNSSHB6NmJNSzBmU0pWMVVvQXFFRjREUHRNTE41dlpvdW1TVnBnZVN4V3pXeEtlZGJEX0x5RDlVT1RsZmhHak8zZFpaWmFTeWVFX1NVMmlDTUJ4Q25TLWFuNTQyX2x1VWJaMUt4RDdOcHFwai1zMmNOYlE?oc=5",
-        "domain": "thekoreatimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T225400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Poland Passes Bill Allowing Government to Freeze Crypto Without Court Approval",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQREZXZ3RsT3p1eTlXTDctUzE2ZjA0VnJ4Rm5Zc3RHeHk2eF9KM0FSYktMRWpCajhWZnYydXFqemhlaDQtYkt3ZjFaR0k0RnhzY0NIMHBKRk1nM1ZMbWs5TkVRQXBtWDJFTl9GTHE0U1ZmcFJDZE1aWXc3WE1HWHdVS2o5bERlZ084dUFsSHI1WndZRW1QNHlFZHgyRDgxX0FZbVkyX280ZVZPX2cxLVFPOHZ3?oc=5",
-        "domain": "kucoin",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T125838Z",
         "source": "GoogleNews"
       },
       {
@@ -120614,12 +120614,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 Gazetted",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUFJscld3aVMxbm1wSy1GUGU4TjFtVDdRRjFTTGlaVlMteVYzaWNLcmV6S0U1ejlPODdSNVRLbHNtMUQtV1hmVkJpSVh2ZXlIelR4ZzRXVUJweVc0M2Z3Nzl1M3Q5VnlwcjRiVVItaFdSQVpJS2pwQ1l2aXpycjVBeTl2R2hDZDFHZFJjM01sanVkSHZ2dllHNDRnUDVhSHJGUDJmTmlxSkFzRFhKbWMwcXpBNWdpSXBIaW94ZDhKb3N2clZ3eFdydkM1U19odGZ1aXlqLXhNVzdocExxVHVITVZPeU5TLWVFZmU5SVFubnlTa3ZEVkNtVGlBRG0wQQ?oc=5",
-        "domain": "news.google.com",
+        "title": "TODAY’S HEADLINES (Friday, November 13, 2026) Subscribe to the paper: https://philstarsubscribe.com/ Marcos Jr. reshuffles heads of BIR, Customs, BCDA https://tinyurl.com/2vw97rhj Lawyers tussle over VP spouse’s ‘lavish’ lifestyle https://tinyurl.com/2wt8",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNalZsWVFHSmxCb0x0Y3Q2TVczSi1YVTZkUTY4UE5OUC03ODRmT3VTTV9NSjhLSHhtSmVBUjdQcHFEa2FxTVlJWEJJX25BU0Z0VFRsZlA5NnpVT0lMOE8wcEkwZjl3UVRDN3pjLVJUakhaSUlqT05FTmFKcGNseFRDRWRKN3YweHM2SWpkLTFRMlRFdkhielJIV0FWZk5PSjc4WVdCSTJveEFRM1ZPaW1IZ1doQnpzdm1qeWcwT3l2YWtCZW5XMXNwZmp1Z1FNZ1lwTGc0ekpDNWdMNnh0?oc=5",
+        "domain": "facebook",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T030000Z",
+        "seendate": "20261112T231741Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Poland Advances Bill Allowing Authorities to Freeze Crypto Assets Under Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaVBTTzIzZVd3aTI3OENiNlRWOHV1ZVNtR3ZXR1AzZUREY2NmM29Wd2dtSEt0dzl4ZTJBT1c2Z1VDN0FRbnF1cTBLUTJYVU9nUEZKM29PTFA1U1VPRjM0enZsN0t0ZU41cld5b1YteTBHYWc5aUZjRUdFNWEyX3kxRllGVHM4Y0FkWkdaZl93QWZFX0JzSG1BbUlZdFRreW1Fc1Jlc0w2QUR1ODRLRmtuNDdfdU9BVzF2VS1J?oc=5",
+        "domain": "cryptorank",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T232223Z",
         "source": "GoogleNews"
       },
       {
@@ -120650,15 +120659,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctioned At Home: A New Raw Docuseries, Forensically Dissecting The West’s Most Destructive Policy Weapon",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajRKWDBGWE4tTFd5MzNJaWRHNTRvTTcyMV9rTmhCUHNFTlVpMlQ2Rnl1WmJTTGVCYzVKTU1yckI3SUN4VTdWNWxYbmV5a3JFWEFieEZvejNLWFNRMEtWOU5WU0E3S0lhZjRtc3NSOUN4YXpOT3hfdGVYaEE1SFNLSUUxX1VxNUpxVkdtNUp3?oc=5",
-        "domain": "techround",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T145504Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "OKX Blocks MEXC-Linked Deposits Early as FinCEN's $16.7B Order Looms",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTXROcHFZWjNVUUdYcldiVVVuOEpPbWJpcHFqWVczeWZ2V2JaRHVFU3pMU1cwSnM3V2tUZFYwclV5WEVIQUtVdTF1SS1RdGh2dDBfTkpLQ1pXSHJXdzNhM3Y2NUEwVTE0QTJBVXgwVDRRRVd1bUE?oc=5",
         "domain": "biggofinance",
@@ -120677,12 +120677,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "People’s Bank of China Halts Solana Shanghai Event Over Unauthorized Crypto Promotion: 7 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX0VmTXpLWnNJVU5EVnowOU4xNk5oQWplTlVmaUM4emlQNXNHUzZGMWtPOVA0UDRvbFZGRFNLRlZBb0Fob0xWYXpNc01EejRvblBTMW9QMk1RRFFQa1REWk93UGNkWl9yc2g3RGpCT1hXSmhKUFJwQnh3WkY3OWt3ZFBndWdIMGNrYnc4cWpJYnpaUXY4ZUlOYTVXSVlWZ2pEcWNSY0t0MmhJODFUSzJtMGtwN3BkVE9wZlhkWnp2U3ctNUJBcnBUbGlvNVdtMXY5aG9TZzVzNS1SZ1A2a25icTJxRkhxSXRTcEE?oc=5",
-        "domain": "newscord",
+        "title": "Sanctioned At Home: A New Raw Docuseries, Forensically Dissecting The West’s Most Destructive Policy Weapon",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajRKWDBGWE4tTFd5MzNJaWRHNTRvTTcyMV9rTmhCUHNFTlVpMlQ2Rnl1WmJTTGVCYzVKTU1yckI3SUN4VTdWNWxYbmV5a3JFWEFieEZvejNLWFNRMEtWOU5WU0E3S0lhZjRtc3NSOUN4YXpOT3hfdGVYaEE1SFNLSUUxX1VxNUpxVkdtNUp3?oc=5",
+        "domain": "techround",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T172347Z",
+        "seendate": "20261106T145504Z",
         "source": "GoogleNews"
       },
       {
@@ -120695,6 +120695,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Czechia open to Russian asset talks, but Schillerová seeks legal safeguards - Prague, Czech Republic",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMG5IT2tndFFURHp6enptbjk2REZqQnJUbjcydmc5b0FncU8teUllZWVhMTk4dFpEU01KMXlFSk9Na1hNUUhQeUJObl8xUHpiU3BCYUdRS2dldE5IdXR3T29jV3pjbGU0cTVnNS1vaXRsQ200VVhpQ2R3UW9ocWs2NFpueFR5bHVNekdsZWNjRXZ6SWJ0Nmk2TS1WOTJUZllPX0RBN1lHQ19sVGdKdlNLQm4zeDZCQQ?oc=5",
+        "domain": "expats.cz",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261111T030426Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "China suspected of smuggling NVIDIA chips worth around 10 trillion won ... Could U.S.-China ties freeze?",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95bk5VOHFHbV9WbGtPaTVaRmRCcXRWOXlVM0lyblNkRnM3Sk1wbVppeldmWDNaRldibGVaeGdSQXRHdTVyYmZOVnQ1X2lfVkR4UFB5RFNBZ0U?oc=5",
         "domain": "news.google.com",
@@ -120704,30 +120713,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "OKX Warns Against MEXC Transfers as CEO Defends Solvency After US Action",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIdEhXS1ZzaWQyaEVOU19JVTVSSXVYTS1Eb1VTYzVkUHFiQ3ZmMTFMdWRjUVl2X25KdnVScHVsU0gwRWlDQnBUVTVTUjNRUjBmQ2VkRERsOWZzUQ?oc=5",
-        "domain": "bitpinas",
+        "title": "AMLC gets CA asset freeze order covering lawmaker, ex-official",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLU9xT3BQUW0wZFM5TjNxbC1GUDk2U1haeE4xakdCVUgyaTFVWEZwUXVzRW5rRlgwSjg5ZVlxNWFNLVVVQXppanFvYU5LZHkwaWlnOEhWS2d3c2NrQUxFRnkzbWx6OHBUZFpYQmNKOWM2WEVWRGktRmliclhteVV5SGdDZGstb3JaeDVwc3NPSmM3VW1qUWlDNFVnQXBMMTBaaHQ4UVMtVEctTTBLVUQ2LWdOQ2dzUdIBvAFBVV95cUxPWXNKZy1GdXJKdGVxNzJtQXZuODJIdGhUWjJpbTVoUUNZWlludXhlc0htMFNTcGtfWXZBWFpRUms0N1BYN1NUTG9FY21ub1FCaHJRTGxlYk5MSFNHazNBdU43WlBGbzhJZnlpZ1hMSWxHWW81eFRjeDEyRFExMGJ2eEhuRVR1ZkZyVHVUREhsTDZzWTQ4TXBNYXZDQ1pnTmMyUWxhT1JyZ0VDQ0ZoQllBdTBIZWY2UzNOcUM2dg?oc=5",
+        "domain": "philstar.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261109T020329Z",
+        "seendate": "20261112T160000Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Russia bars four French figures over expulsion of Xenia Fedorova",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYzhtX1QwZ1lyekFGYk40eDFQeEhxT3JKUUVxcElvWDFuTjNQVENVYlRuNDRUczl3bFk4OHZibjBnZk5hVmgtMTR5M0ttMVRjT2FFSHdFemI3c2dNS202dzh5a1hILUdBMkQwTm9iV0J1YXFIbHJtdk1xNUo4SF9JbVkwQQ?oc=5",
-        "domain": "aol.co.uk",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261111T144509Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Crypto Banking Alert: MEXC Ban and What It Means for Your DAO",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HaXJmSDhJejFRc2NwRFNBSlJXZlJQcnV4VDNWQjk0dXFOOVdRZGVDdEx3SnVzMDByN2hka0pMdU5FdjJqYW04Um5wUW1xQkpHM2JKZWpka1kxRUh3Q2hTX1pISjlFcnp6RHo0dDBSLWVTZThlWVZCaEgtdw?oc=5",
+        "title": "DeFi Compliance After Tether’s $344M USDT Freeze",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ua2RGeVYtX2JhOHk2RDF1cmJ0NFVleHRHZkEwaWVlV3RxcHRPNkZzNkpQQkNVRnI4enVxbUJENDRIeEMzWmFaQ042ME05emRpZ0o3TkpPanFVcDBoWFRwaVBlSFJYVENBalZnVUNZck9FLVc3dmJWR0pvWQ?oc=5",
         "domain": "onesafe",
         "language": "",
         "tone": 0,
-        "seendate": "20261108T000908Z",
+        "seendate": "20261110T011606Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Taiwan Freezes Investment Talks With Malaysia Amid US$4.8 Billion Nvidia AI Chip Leak, Silicon Valley Espionage Scandal",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQY2lqWVNtbE5UMUlncUh2SUZsMlczd1JIZHFRTDdFb2M0Y2tUcWdheGFZcTNacnJkLUpucGhfN2VZTjRDWWtPWWdNWVkxY2kyNnVSWWRPUExzXzA3MzJhUEJleThWMThUQThlQzlmUlBFR3MtNE96TGctU21KUmlRdFE4SW5HWHNlN0ZjbDlreFYzM0s5Y1hmbGJ6YjdzeHZsQUwyUmEyOVRrSWhaLUNQTW9ZSXV6YkJFaVVHMnZFSmwwR0doZEZvTW9pTzR0Nlg3SzQtQXNMUHF6X3ZSR0JkRUtsVmFZYjVWME1Kc05wUl82YTQzQmVfT0l5M3N1U1o0anJn?oc=5",
+        "domain": "trptherakyatpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261112T012756Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China Hits Pause Again on Rare Earth Curbs, Buying Time With Trump",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdzluazVCblQweDhYNE1JTF95NE1rOXliSXFSenNsU1IweVRtUXVyRlNWTmN6YjBhUTk3VnYzSURYQWlEcGozLTFwTVUtclRxVW5vZ3B4U3hHaWJkeHEzUWtGWnFheExJcW9lX0RGcjZhX05MY042UEZ2a01zaUhFV196UGxwUTNBWlc2Z2V6XzF2SkVralpwb1RGYnpsM19TTVZpLU0yYXlBUQ?oc=5",
+        "domain": "newswav",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261111T070000Z",
         "source": "GoogleNews"
       },
       {
