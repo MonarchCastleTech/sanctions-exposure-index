@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-11T14:11:52.289455+00:00",
+    "generated": "2026-11-12T00:36:47.677841+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-11T14:10:05.853371+00:00",
+    "issued_at": "2026-11-12T00:35:01.392738+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 21.5,
+    "score": 20.9,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,17 +24,15 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 36.0,
+        "score": 12.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 3,
-        "current_7d_all_releases": 3,
-        "prior_7d_designation_releases": 3,
+        "current_7d_designation_releases": 1,
+        "current_7d_all_releases": 1,
+        "prior_7d_designation_releases": 5,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 3.5,
-        "anomaly_z": -0.22,
+        "baseline_weekly_median": 4.5,
+        "anomaly_z": -1.57,
         "themes": [
-          "cuba",
-          "cyber",
           "iran"
         ],
         "evidence": [
@@ -52,40 +50,6 @@
             "relief_terms": [],
             "themes": [
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Further Sanctions on the Cuban Regime's Foreign Military Support and Illicit Revenue Networks",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks-fact-sheet/",
-            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
-            "date": "2026-11-05",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "cuba",
-              "cyber"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Targets Global Scam Networks and the Corporate Infrastructure That Enables Them",
-            "url": "https://home.treasury.gov/news/press-releases/sb0683/",
-            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
-            "date": "2026-11-05",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "cuba",
-              "cyber"
             ],
             "designation_signal": true
           }
@@ -180,12 +144,12 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 15.6,
-        "current_7d_releases": 3,
-        "current_weighted_term_rate": 2.167,
-        "baseline_weeks": 12,
-        "anomaly_z": -0.16,
-        "matched_release_count": 3,
+        "score": 46.8,
+        "current_7d_releases": 1,
+        "current_weighted_term_rate": 4.0,
+        "baseline_weeks": 11,
+        "anomaly_z": 2.7,
+        "matched_release_count": 1,
         "relief_release_count": 0,
         "evidence": [
           {
@@ -202,40 +166,6 @@
             "relief_terms": [],
             "themes": [
               "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Further Sanctions on the Cuban Regime's Foreign Military Support and Illicit Revenue Networks",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks-fact-sheet/",
-            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
-            "date": "2026-11-05",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "cuba",
-              "cyber"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Treasury Targets Global Scam Networks and the Corporate Infrastructure That Enables Them",
-            "url": "https://home.treasury.gov/news/press-releases/sb0683/",
-            "action_title": "Cyber-related and Transnational Criminal Organizations Designations; Cuba Designations; Publication of Cuba-related Determination",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261105",
-            "date": "2026-11-05",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "cuba",
-              "cyber"
             ],
             "designation_signal": true
           }
@@ -312,32 +242,21 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity"
+        "official_posture_shift"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
     "alerts": [
       {
-        "id": "ofac_action_velocity",
-        "title": "OFAC action velocity",
-        "score": 36.0,
+        "id": "official_posture_shift",
+        "title": "Official coercive-language shift",
+        "score": 46.8,
         "level": "WATCH",
-        "why": "Official designation-linked releases are elevated against prior weekly activity."
+        "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-18T04:37:05.787673+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-18T11:07:56.871806+00:00",
         "score": 28.1,
@@ -2306,6 +2225,17 @@
           "official_posture_shift": 15.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-12T00:35:01.392738+00:00",
+        "score": 20.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 12.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 46.8,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2370,7 +2300,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "21.5/100",
+      "value": "20.9/100",
       "delta": "BASELINE"
     },
     {
@@ -120621,6 +120551,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
+        "domain": "mcguirewoods",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261107T005911Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "What students got right about the $6 billion Binance hack, and how they would prevent the next one",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdTFOZi1yNVRoR21mWmkwOTBqZHdxMkpOTEF4VFBCSV9ndzhPd3ZzeDlITXdRTjFBRk02YzRuaExFckYyZ0R4RU5wM1ozQUJLYTJFblg2YUo4V0dpOUxVSTVDT2hjZ3hMZDBESjNWUHhDN3otakFUSEpoeFBUYkZoY0hiRk1UOVVncERuQlVWUzItWmpqUGF0RGRMWDRkLWN3eHNDLVgxamQxQmVyVF9jUGNORWFZOE1wSmRzQ2FjVGkyd3VpZHl2QzBZb245OTdWT0o3V2RuRQ?oc=5",
         "domain": "atlanticcouncil",
@@ -120630,12 +120569,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "VTB Ruling Limits Reach Of Sanctions Over Creditor Rights",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdS04M3Q0eXhHVUJ0cDk1VEcxdTFPamJaTXQ1TnYzYzZwc09udDhQY2VyUjJKZUFmNUNpd1Z5alJWTlJpamdFcHR3aGd5VDJDR3RxVVNPQ2V3ZXNaQ0NUdVdnUklZcUFuQnJBbWVqLTFKeFJPUEdCSXV2ZnhlQ09GOE9Cc0V6NXotTDlIZFBlVmp3YkpVdm50bTh2ZjNyNXd0Ykp0NWZfekF2a243Yzc5U2lldXBWVGJtcXfSAXJBVV95cUxONnpCQWp1VUl2YlpxVGYtdi1ObGl3ank3MG1iRkE4WkZqZlYyaUxHVEoxR1lqQlozRndDcmhlb2xaZWg4cmV0b0ZxYjhmSjNMRmppRGVZNnZJWjhZYkdPcFNrcFhsYWFvWE9jOHUxdk1Denc?oc=5",
-        "domain": "law360",
+        "title": "US Treasury Cuts Off Eight Canadian Currency Firms Over Iran Sanctions Evasion",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaFVVYzZoN2k1WU5lbHJzLTNpc2NnXzZQa0d3bHRWcGNVemRtdTdpT3BBQ01EeERMYXVzMWt0NTdIUWt3OXNNZ2E3ekJKNmpwb0NGWFVTTTRxRWxHYlpVQWprbV9nWEVlT08wNHhuNlNxSy1UNkE?oc=5",
+        "domain": "biggofinance",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T165208Z",
+        "seendate": "20261107T005500Z",
         "source": "GoogleNews"
       },
       {
@@ -120645,15 +120584,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261107T202100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Egypt's Final Terrorist Listing of the Brotherhood: Everything You Need to Know",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdl9zd2Vtb2JiLXdEUXNfUl83RGxHTkVGbDAzcWhVcmwtYmVUM2d5NGhTOW41RzJrUXdDWXVoOHZ3SVIzQy1LVTZEVXJuMm5oWUlLSTRpMF9zLUQ0R0ZhRF9OcWZWVXZRbTBuZFZoWW1GTFhWQXl6RGlXekgta0w0ZkhWekczNWNkOW04SDhOaDg2YmNHVGJzVVZqX00zQ3huSXZsYzBtZjVkOUZZbXc?oc=5",
-        "domain": "egypttoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T064400Z",
         "source": "GoogleNews"
       },
       {
@@ -120672,6 +120602,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261106T185413Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Egypt's Final Terrorist Listing of the Brotherhood: Everything You Need to Know",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdl9zd2Vtb2JiLXdEUXNfUl83RGxHTkVGbDAzcWhVcmwtYmVUM2d5NGhTOW41RzJrUXdDWXVoOHZ3SVIzQy1LVTZEVXJuMm5oWUlLSTRpMF9zLUQ0R0ZhRF9OcWZWVXZRbTBuZFZoWW1GTFhWQXl6RGlXekgta0w0ZkhWekczNWNkOW04SDhOaDg2YmNHVGJzVVZqX00zQ3huSXZsYzBtZjVkOUZZbXc?oc=5",
+        "domain": "egypttoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T064400Z",
         "source": "GoogleNews"
       },
       {
@@ -120699,15 +120638,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261105T100951Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US Sanctions Suniel Kumar Sharma, Jaspreet Preeti Shahid Over Fake Ship Registries for Iran: 18 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXhiZmdpWE1zT1pkd0lqT2N0MGtxQ0wzUVIzWnExaFNTaDZQblNQWTRyeDVPTkczdU9xR0ozb09OR2lFUzhoQTZRcHpzSm9RSW1saVBwWXNwTTBDY29mU3JXN013TDl3VW1yV3pOdUZuZkJGaTh3bTdnbDlXWTM1WnBzS2I4YWtQMXc0RVl6eGF2OVRTczJkbXR1YnRWVmFscE1CaTFOeDBSM193T29PeUlCZ01DbjFkQVh6a1lCZC1XQnZBRzBmOTNPMVVmZ2htWHJ1Q1NrRl9FRFgxQ3JpdXl0SGM1eUF3aFE?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T112018Z",
         "source": "GoogleNews"
       },
       {
