@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-13T06:34:22.691052+00:00",
+    "generated": "2026-11-13T19:37:44.161234+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-13T06:32:36.360367+00:00",
+    "issued_at": "2026-11-13T19:35:57.599155+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 5.0,
+    "score": 15.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,30 +24,66 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 0.0,
-        "releases_considered": 99,
-        "current_7d_designation_releases": 0,
-        "current_7d_all_releases": 0,
+        "score": 24.0,
+        "releases_considered": 100,
+        "current_7d_designation_releases": 2,
+        "current_7d_all_releases": 2,
         "prior_7d_designation_releases": 6,
         "baseline_weeks": 12,
         "baseline_weekly_median": 4.0,
-        "anomaly_z": -1.35,
-        "themes": [],
-        "evidence": [],
+        "anomaly_z": -0.67,
+        "themes": [
+          "counter_narcotics",
+          "counter_terrorism"
+        ],
+        "evidence": [
+          {
+            "title": "Foreign Terrorist Designations of Guatemalan Groups",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/foreign-terrorist-designations-of-guatemalan-groups/",
+            "action_title": "Counter Narcotics and Counter Terrorism Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261113",
+            "date": "2026-11-13",
+            "source": "OFAC/Treasury",
+            "posture_terms": [],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism"
+            ],
+            "designation_signal": true
+          },
+          {
+            "title": "Treasury Sanctions Guatemalan Drug Trafficking Organizations Supporting Mexican Narco-Terrorist Cartels",
+            "url": "https://home.treasury.gov/news/press-releases/sb0689/",
+            "action_title": "Counter Narcotics and Counter Terrorism Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261113",
+            "date": "2026-11-13",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism"
+            ],
+            "designation_signal": true
+          }
+        ],
         "retained": false
       },
       {
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19563,
+        "score": 5.0,
+        "current_count": 19565,
         "previous_count": 19563,
-        "added_count": 0,
+        "added_count": 2,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-11-09",
-        "sha256": "7f43332dae0d1b78ce44c31692d87a3c66e4075bcd97e36d3f18585572ff55b8",
+        "changed": true,
+        "publish_date": "2026-11-12",
+        "sha256": "850ef744932d60f960045c9a4cd37ebf6237f8c32c0b163801e14fbcba6d9ce3",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -83,7 +119,7 @@
           },
           {
             "program": "ILLICIT-DRUGS-EO14059",
-            "count": 475
+            "count": 474
           },
           {
             "program": "IRAN",
@@ -101,7 +137,7 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 10110
+            "count": 10112
           },
           {
             "type": "individual",
@@ -116,7 +152,20 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "59031",
+            "name": "LOS MENDOZA DRUG TRAFFICKING ORGANIZATION",
+            "type": "",
+            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+          },
+          {
+            "id": "59070",
+            "name": "LOS LORENZANAS",
+            "type": "",
+            "program": "FTO] [SDGT"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -124,14 +173,32 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 0.0,
-        "current_7d_releases": 0,
-        "current_weighted_term_rate": 0.0,
+        "score": 3.6,
+        "current_7d_releases": 2,
+        "current_weighted_term_rate": 0.5,
         "baseline_weeks": 11,
-        "anomaly_z": -2.36,
-        "matched_release_count": 0,
+        "anomaly_z": -2.02,
+        "matched_release_count": 1,
         "relief_release_count": 0,
-        "evidence": [],
+        "evidence": [
+          {
+            "title": "Treasury Sanctions Guatemalan Drug Trafficking Organizations Supporting Mexican Narco-Terrorist Cartels",
+            "url": "https://home.treasury.gov/news/press-releases/sb0689/",
+            "action_title": "Counter Narcotics and Counter Terrorism Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261113",
+            "date": "2026-11-13",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "sanctions"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "counter_narcotics",
+              "counter_terrorism"
+            ],
+            "designation_signal": true
+          }
+        ],
         "terms": {
           "unprecedented": 3.5,
           "maximum pressure": 3.5,
@@ -209,17 +276,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-19T04:32:38.936760+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-19T10:52:28.968880+00:00",
         "score": 28.1,
@@ -2188,11 +2244,22 @@
           "official_posture_shift": 0.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-13T19:35:57.599155+00:00",
+        "score": 15.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 5.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19563,
-      "ofac_releases": 99,
+      "sdn_entries": 19565,
+      "ofac_releases": 100,
       "market_series_available": 2,
       "available_components": 4,
       "retained_components": [
@@ -2252,17 +2319,17 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "5.0/100",
+      "value": "15.3/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,563",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,565",
+      "delta": "+2 since accepted snapshot"
     },
     {
       "label": "Official Releases",
-      "value": "99",
+      "value": "100",
       "delta": "rolling official baseline"
     },
     {
@@ -2273,9 +2340,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-11-09",
-      "sha256": "7f43332dae0d1b78ce44c31692d87a3c66e4075bcd97e36d3f18585572ff55b8",
-      "count": 19563,
+      "publish_date": "2026-11-12",
+      "sha256": "850ef744932d60f960045c9a4cd37ebf6237f8c32c0b163801e14fbcba6d9ce3",
+      "count": 19565,
       "entries": [
         {
           "id": "36",
@@ -46153,7 +46220,7 @@
           "id": "32452",
           "name": "LOS HUISTAS DRUG TRAFFICKING ORGANIZATION",
           "type": "",
-          "program": "ILLICIT-DRUGS-EO14059"
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
         },
         {
           "id": "32453",
@@ -119488,6 +119555,12 @@
           "program": "CUBA-EO14404"
         },
         {
+          "id": "59031",
+          "name": "LOS MENDOZA DRUG TRAFFICKING ORGANIZATION",
+          "type": "",
+          "program": "SDGT] [ILLICIT-DRUGS-EO14059"
+        },
+        {
           "id": "59050",
           "name": "FUGO GROUND SERVICES INC",
           "type": "",
@@ -119602,6 +119675,12 @@
           "program": "DRCONGO"
         },
         {
+          "id": "59070",
+          "name": "LOS LORENZANAS",
+          "type": "",
+          "program": "FTO] [SDGT"
+        },
+        {
           "id": "59090",
           "name": "DOMULLODZHANOV, Alisher",
           "type": "individual",
@@ -119660,6 +119739,22 @@
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Foreign Terrorist Designations of Guatemalan Groups",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/foreign-terrorist-designations-of-guatemalan-groups/",
+          "action_title": "Counter Narcotics and Counter Terrorism Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261113",
+          "date": "2026-11-13",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Treasury Sanctions Guatemalan Drug Trafficking Organizations Supporting Mexican Narco-Terrorist Cartels",
+          "url": "https://home.treasury.gov/news/press-releases/sb0689/",
+          "action_title": "Counter Narcotics and Counter Terrorism Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261113",
+          "date": "2026-11-13",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
           "url": "https://home.treasury.gov/news/press-releases/sb0686/",
@@ -119853,8 +119948,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
-          "url": "https://ofac.treasury.gov/media/937016/download?inline",
+          "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0636/",
           "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
           "date": "2026-09-29",
@@ -119877,16 +119972,24 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
-          "url": "https://home.treasury.gov/news/press-releases/sb0632/",
+          "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
+          "url": "https://ofac.treasury.gov/media/937016/download?inline",
+          "action_title": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260929",
+          "date": "2026-09-29",
+          "source": "OFAC/Treasury"
+        },
+        {
+          "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
           "action_title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260917",
           "date": "2026-09-17",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
-          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/further-sanctions-on-cubas-mineral-wealth-and-military-modernization-apparatus-fact-sheet/",
+          "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0632/",
           "action_title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260917",
           "date": "2026-09-17",
@@ -119997,8 +120100,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-cuban-regime-actors-associated-with-marxist-subversive-networks-and-corrupt-economic-dealings-fact-sheet/",
+          "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
+          "url": "https://home.treasury.gov/news/press-releases/sb0611",
           "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
           "date": "2026-08-20",
@@ -120021,8 +120124,8 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
-          "url": "https://home.treasury.gov/news/press-releases/sb0611",
+          "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-cuban-regime-actors-associated-with-marxist-subversive-networks-and-corrupt-economic-dealings-fact-sheet/",
           "action_title": "Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260820",
           "date": "2026-08-20",
@@ -120181,16 +120284,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "CHART - Mexican Cartel Fuel Smuggling Schemes - June 2026",
-          "url": "https://ofac.treasury.gov/media/936411/download?inline",
+          "title": "Treasury Targets Criminal Facilitators Behind CJNG's Cross‑Border Fuel Smuggling Schemes",
+          "url": "https://home.treasury.gov/news/press-releases/sb0545",
           "action_title": "Counter Narcotics Designations; Russia-related Designations Removals; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260630",
           "date": "2026-06-30",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Targets Criminal Facilitators Behind CJNG's Cross‑Border Fuel Smuggling Schemes",
-          "url": "https://home.treasury.gov/news/press-releases/sb0545",
+          "title": "CHART - Mexican Cartel Fuel Smuggling Schemes - June 2026",
+          "url": "https://ofac.treasury.gov/media/936411/download?inline",
           "action_title": "Counter Narcotics Designations; Russia-related Designations Removals; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260630",
           "date": "2026-06-30",
@@ -120357,16 +120460,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Disrupting Iran's Overseas Military Procurement Networks",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/disrupting-irans-overseas-military-procurement-networks-2/",
+          "title": "Economic Fury Disrupts Networks Supplying Weapons and UAV Components to Iran",
+          "url": "https://home.treasury.gov/news/press-releases/sb0496",
           "action_title": "Non-Proliferation and Iran-related Designations and Designations Updates",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260508_33",
           "date": "2026-05-08",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Disrupts Networks Supplying Weapons and UAV Components to Iran",
-          "url": "https://home.treasury.gov/news/press-releases/sb0496",
+          "title": "Disrupting Iran's Overseas Military Procurement Networks",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/disrupting-irans-overseas-military-procurement-networks-2/",
           "action_title": "Non-Proliferation and Iran-related Designations and Designations Updates",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260508_33",
           "date": "2026-05-08",
@@ -120405,16 +120508,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iran Shadow Banking Facilitators",
-          "url": "https://home.treasury.gov/news/press-releases/sb0477",
+          "title": "Treasury Warns of Sanctions Risks Linked to China-Based Independent \"Teapot\" Oil Refineries",
+          "url": "https://home.treasury.gov/news/press-releases/sb0476",
           "action_title": "Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260428",
           "date": "2026-04-28",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Warns of Sanctions Risks Linked to China-Based Independent \"Teapot\" Oil Refineries",
-          "url": "https://home.treasury.gov/news/press-releases/sb0476",
+          "title": "Economic Fury Targets Iran Shadow Banking Facilitators",
+          "url": "https://home.treasury.gov/news/press-releases/sb0477",
           "action_title": "Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260428",
           "date": "2026-04-28",
@@ -120429,27 +120532,11 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Cambodian Senator Kok An and Scam Center Network Defrauding Americans",
-          "url": "https://home.treasury.gov/news/press-releases/sb0469",
-          "action_title": "Counter Terrorism, Counter Narcotics, and Cyber-related Designations; Issuance of Cyber-related General License",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260423",
-          "date": "2026-04-23",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Treasury Sanctions Global Illicit Drug Supply Chain Supporting the Sinaloa Cartel",
           "url": "https://home.treasury.gov/news/press-releases/sb0468",
           "action_title": "Counter Terrorism, Counter Narcotics, and Cyber-related Designations; Issuance of Cyber-related General License",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260423",
           "date": "2026-04-23",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Economic Fury Targets Iranian Missile and UAV Procurement Networks",
-          "url": "https://home.treasury.gov/news/press-releases/sb0465",
-          "action_title": "Counter Terrorism Designations; Non-Proliferation Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260421",
-          "date": "2026-04-21",
           "source": "OFAC/Treasury"
         }
       ],
@@ -120458,12 +120545,12 @@
     },
     "news_articles": [
       {
-        "title": "Who’s on the Russia Sanctions List? People, Banks, and Companies Explained",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMXFXOFBud05hMHZyT25BelhVUFhyc1hieU5qZ28zVnVjTnJIc0tMQ054OXpidzBCVk1jbVhFendlOWJSMURFRXVlalhiUk45N01jWFdpNlVUb3J4d1ZoNkpVa1lUNGhjWXphQmhjaEVLclF1RmpiTE4xOUFXZEVDaVB3LVJKVHhVN1VZaUpmZmxhZWxTTEZrb2JjT2NPbFBmbU1tZGNRUjA4UHNN?oc=5",
-        "domain": "united24media",
+        "title": "UK, EU and US sanctions on Russia",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
+        "domain": "fieldfisher",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T145406Z",
+        "seendate": "20261110T080000Z",
         "source": "GoogleNews"
       },
       {
@@ -120476,12 +120563,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
-        "domain": "bloomberg.com",
+        "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
+        "domain": "mcguirewoods",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T145659Z",
+        "seendate": "20261107T005911Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQmF3dG85RkJCWjZEVUJvMlN6bWVLWEFPbDlHUEstWUItVGNkeng5WG95Rk5yMWV4R0p0dlRfNjdDMENFSWJqTG9CYzBwOEZpcHZyMndCakFvQ2E1VTB5TUVidkNzTEloUTRhSmVNY3FhNWRkTTl2bldoMVY5TlJtckphbXVpb0l0dkw1ckJCVVktZWNiaWs2TXlKYXllOHpzN2JPMEJNQklITHFiMWFBZVR3ZUhrUXlabk1ZTnp0TdIBvwFBVV95cUxNLVZYS3B5WENmWVV1cHhHR3BHMUkzWll2eHMyZXNKWi1NaTJUSVM1Y0Q3RG52YWd1dzY0TzFqbno5WHFOT3dxLUFfWVFCenozdE1oU1YwMklqOC10RkU5dDNzM2EtWmZXdDhLdGlaTGp1d0psQkhta2pWcEJUZWJHSWFxNzZkWnZpTWdzVUxmekQ4azlVY1BDZ1M3VTNUX05XVXhUalhjSlNKTEI0bFYzRzl3bFFfX21aZHEtLUgzTQ?oc=5",
+        "domain": "southchinamorningpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T110613Z",
         "source": "GoogleNews"
       },
       {
@@ -120491,6 +120587,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261109T221141Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK blacklists Slavneft and says it now sanctions all ten of Russia’s top oil producers",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONndHMFMwWDdESTFmcFZWZ2QyWHpRamhTV2xQcTdycFp4dnh3N2x0N0JRVUJIeUJCTzRqeE9LUkdGV1J2RE5UcWg2WDh0WDVkTkE1LW9pV19WSVUyWFJPa1hTTGprVWJFazdjTmZabnlUemk1c190czZDRTdOdS1MMUp5c3MtRmg3WUNUTTltNkw2QVQ2ajQwbUc4Q2pvRm94ZzZwRkJ1OTA3WlRrZVFOOWFDdk9EeUlxZXNPOXNKd0VhaFE?oc=5",
+        "domain": "euromaidanpress",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T144644Z",
         "source": "GoogleNews"
       },
       {
@@ -120512,12 +120617,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US Treasury Cuts Off Eight Canadian Currency Firms Over Iran Sanctions Evasion",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaFVVYzZoN2k1WU5lbHJzLTNpc2NnXzZQa0d3bHRWcGNVemRtdTdpT3BBQ01EeERMYXVzMWt0NTdIUWt3OXNNZ2E3ekJKNmpwb0NGWFVTTTRxRWxHYlpVQWprbV9nWEVlT08wNHhuNlNxSy1UNkE?oc=5",
-        "domain": "biggofinance",
+        "title": "UN Security Council renews sanctions on Yemen",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0xabUNBYTNfYWd0b2U2X094U24xWmJHOUN2NzZiNnNWclVVcUpLdTM2eVdTUXM1OVdkV1hqY0FhRmkwS05sSWktWU5kZnpoMlNlaE52RFdpQlR5eS1TN1RzRDFiMFdUVjdGQWhGY0hFMUFsQTJlUHc4V0tmNjBxOU9R?oc=5",
+        "domain": "middleeastonline",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T005500Z",
+        "seendate": "20261113T093200Z",
         "source": "GoogleNews"
       },
       {
@@ -120530,24 +120635,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUtvOW53OEl2MlZuY1IwNlpFbXhGTXJYY0txQ3FFcEpUVk5lU2FBdDBsQXVBcmRzMFoyRGRLLU9hWXFMdnpBSHdqTFh6Uk9DU2Q5XzNFWFRUX2d3RkxvOC1QUExIeWV4R3JhVVhkZ2FSVHV3ZU1jSndDVjZudjhBYnd3RXdqbHNJeFBTSzF6TGpHTi1vRG01MTRGTmhmZW9KUWI0MDc1REd3QUtnYkdZcXFNcjZ0aFpoNFJHY29lVHFUNmktSmFqM3FNX2RBMlV0bkVV?oc=5",
-        "domain": "tradingview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T082100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US Sanctions Eight Canadian Money Firms Over Alleged Iran Crypto Links",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUDJPX2ZJZHR0cUhBdVRnZHB0X0dXc3dTWUtXTzhSeVEyVHBhRmxZS3YtUFRuRm4wS3E3WmVGY19jcWdTY2o3M3pLY0NaR0t1MVBrS2w1dWNSTV96NnFaT3VRM2dKbEpUaVFOWUhVNzRtZGV0N21ZUW1wczR5MHFUZFVBUU5YWWJ2aEZwd1ZvZnNyRnhjLUJzcHdXZ0ZMOWxRNFdvcWx4czRDS18wa0dMWVRB?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T113119Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Egypt's Final Terrorist Listing of the Brotherhood: Everything You Need to Know",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdl9zd2Vtb2JiLXdEUXNfUl83RGxHTkVGbDAzcWhVcmwtYmVUM2d5NGhTOW41RzJrUXdDWXVoOHZ3SVIzQy1LVTZEVXJuMm5oWUlLSTRpMF9zLUQ0R0ZhRF9OcWZWVXZRbTBuZFZoWW1GTFhWQXl6RGlXekgta0w0ZkhWekczNWNkOW04SDhOaDg2YmNHVGJzVVZqX00zQ3huSXZsYzBtZjVkOUZZbXc?oc=5",
         "domain": "egypttoday",
@@ -120557,12 +120644,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UNSC Updates Yemen Sanctions to Address Houthi Threats",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU21DbTJyTFhUQVU2YUF6WVhDZkZTVDQ3TDFaaGZHcjlLbjQ5azFLSDl2TXJfanZSaFVXUmVyWW9SeXBNV3NUdk5yWi1TWjJvMHN0Q1M1R0duVU5MNjhiTW1Od1FZWDZTRGM3Vk5xWk8wSExZdmNaWXByN2VwVmVLZlRieGgyR2djOXc?oc=5",
-        "domain": "miragenews",
+        "title": "UK imposes sanctions on Russia’s SIBUR; Kazakhstan could feel the impact",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY3p4S2ZkVGptWlkxWlFSU0pZamxRU3hXTDJiM003TUR2OTQzb18zV09fY0dSQmh3anRkd0xkT2ZzaTFxUURVVHJoc2JNamRuOXB0OW5ranV6MEFnaEVtNzJXNmFGSzZTdlRGdXplT3FkU1pfVFVZRlVkTW43MTVlamJMcXdOZHFNQ3dDbHYtZ25XVzJ2U0RPdFRzeEN6UzA5LW96NmdpTVozQ2k2cEllQlBGVHdHektTdDYw?oc=5",
+        "domain": "kursivmedia",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T033800Z",
+        "seendate": "20261113T064453Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Poland expands sanctions to freeze crypto assets, awaits Senate review",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDZhTHFpVFItb3pCbTI5VUlldEJqYU9HYU9ONldieTJEVUE3ZHZ1U1A5VDhmTV9tTThpOFYtLXUzRDVZaWI5b2dRYTFlYWRIeE1YQ1p6a2ljNXlSc3hGRDZwRVpXalMtckJqNW1ILUJGTk1obTJSbVhMaUJUd0JJMi1UUTZuYWdxV0NTM19FazkweExhZnNuNEVSc2xadw?oc=5",
+        "domain": "cryptobriefing",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T170544Z",
         "source": "GoogleNews"
       },
       {
@@ -120575,30 +120671,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UNSC Updates Yemen Sanctions to Address Houthi Threats",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU21DbTJyTFhUQVU2YUF6WVhDZkZTVDQ3TDFaaGZHcjlLbjQ5azFLSDl2TXJfanZSaFVXUmVyWW9SeXBNV3NUdk5yWi1TWjJvMHN0Q1M1R0duVU5MNjhiTW1Od1FZWDZTRGM3Vk5xWk8wSExZdmNaWXByN2VwVmVLZlRieGgyR2djOXc?oc=5",
+        "domain": "miragenews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T033800Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "TODAY’S HEADLINES (Friday, November 13, 2026) Subscribe to the paper: https://philstarsubscribe.com/ Marcos Jr. reshuffles heads of BIR, Customs, BCDA https://tinyurl.com/2vw97rhj Lawyers tussle over VP spouse’s ‘lavish’ lifestyle https://tinyurl.com/2wt8",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNalZsWVFHSmxCb0x0Y3Q2TVczSi1YVTZkUTY4UE5OUC03ODRmT3VTTV9NSjhLSHhtSmVBUjdQcHFEa2FxTVlJWEJJX25BU0Z0VFRsZlA5NnpVT0lMOE8wcEkwZjl3UVRDN3pjLVJUakhaSUlqT05FTmFKcGNseFRDRWRKN3YweHM2SWpkLTFRMlRFdkhielJIV0FWZk5PSjc4WVdCSTJveEFRM1ZPaW1IZ1doQnpzdm1qeWcwT3l2YWtCZW5XMXNwZmp1Z1FNZ1lwTGc0ekpDNWdMNnh0?oc=5",
         "domain": "facebook",
         "language": "",
         "tone": 0,
         "seendate": "20261112T231741Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Security Council moves to restrict supplies for Houthi weapons",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3JET0FoTjBnQTZyZFgtUWVQdzRVRWNVbGpuT2lMc09kQ2NoZzNOMFJQUnlxZ2tpN050ajRNQTZQRlUzSzFZYW1LSGFCcXlReVFTMWgzRXdEejFYZTBnMG1GWjRzRE1iTUxxczN0ZmVzeld4SlV6RHVnWi16MUtzSXJnY2lRczBXelZOUUR5dlJOamFwNUVSZDJSNFQtTzlEeWdJ?oc=5",
-        "domain": "egyptiangazette",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T000938Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Securitize Agrees to Buy River One, Expanding Into Asset-Backed Lending: 10 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOS13YUZNYzM4RU1MOW9vMGd5TkJZNEJJX3UzNlhDOVdVR3c3aFo2bmE4RXBvM1pyQS1jcXJ4dlVXdWNPcG9XXzdTZlhyZHdUVUV6dWpGVjMybjhtZnJDbzdvbVNhTTgxcmhWYU8xZGc2dk12cHcxMlVIb0xrVHAzSUlKbFpLQ0hYQVlIeXVaSXMwSl9FNGMya3Y4TUpfakpRbWZuVVNDM2oxTFU5RHFVdlM0TXJ1MEhzRl9FeTliaTZkNHNBUlpqaUZRampoSmlhRC11M0VjRzFGTHlQ?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T112734Z",
         "source": "GoogleNews"
       },
       {
@@ -120620,12 +120707,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctioned At Home: A New Raw Docuseries, Forensically Dissecting The West’s Most Destructive Policy Weapon",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajRKWDBGWE4tTFd5MzNJaWRHNTRvTTcyMV9rTmhCUHNFTlVpMlQ2Rnl1WmJTTGVCYzVKTU1yckI3SUN4VTdWNWxYbmV5a3JFWEFieEZvejNLWFNRMEtWOU5WU0E3S0lhZjRtc3NSOUN4YXpOT3hfdGVYaEE1SFNLSUUxX1VxNUpxVkdtNUp3?oc=5",
-        "domain": "techround",
+        "title": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VWWVhRjlMVjR4M2ZBOEZ2MmphcFhXc2YyZGNIUnJXOV9uX1c0Sm8yNjFoS2owVVF0UE5ENy1UMDBpZnZjdTVUOA?oc=5",
+        "domain": "dawn",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T145504Z",
+        "seendate": "20261113T040538Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council extends sanctions on Yemen’s Houthis",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRnZmM3FQTGZ0cGd3a1VQWU9BQlBkd1lpbC1Sa2xnRmZkdUJaTGY5dmtPYTFkWkpqZmlVNnFJQjVqS0ZsVVl3eDlGak5hVm9BelMwMjhJcFVFR29GOVRQQWZLZGg2TVVSY3BPcXJCUlNaUnZaMk45TmJYTFhtTHZPUEk1QXpKRzBGXzlXSHRnVHZsN0RCd3JOaElOTWoxV2VXME9uemR6cw?oc=5",
+        "domain": "saudigazette",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T100100Z",
         "source": "GoogleNews"
       },
       {
@@ -120638,15 +120734,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Pakistan calls for ‘immediate, unconditional’ end to Houthi attacks on Saudi Arabia as UNSC renews sanctions",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOTlZNlVNN0NfVVMzSEJqY2k4LUdiRVF5RktfNVBCN2ZoeVJFNm9lRkpiZkpsS2hUNlg1Mk1pQ2puR3RYQ3RIMDNtYUxnUWpGTTQ5Q21VZ3VJREo3LXUweTFRRHpuMWVmb0lMQUk0TnlDOVVNc3dOck5KSV80RW1hM0owSTY4NXhHY0Z3QWUxMkhqS2wycy1VRkNwblRDcDNfRU1SQjlVWmJJOVhFLXZHZUd1dG9WZTlRdEFBTXROU25yRmxvU1VqYXJ0Y0o2bmg2RURnaUdR?oc=5",
-        "domain": "dawn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T040538Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "China suspected of smuggling NVIDIA chips worth around 10 trillion won ... Could U.S.-China ties freeze?",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95bk5VOHFHbV9WbGtPaTVaRmRCcXRWOXlVM0lyblNkRnM3Sk1wbVppeldmWDNaRldibGVaeGdSQXRHdTVyYmZOVnQ1X2lfVkR4UFB5RFNBZ0U?oc=5",
         "domain": "news.google.com",
@@ -120656,12 +120743,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian \"Gazprom\" executive Kaniuka sells estate near Kyiv for $4 million – \"Slidstvo.Info\". PHOTOS",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcnRuRVpnWm1qR1pkTnB5TENwVVdKMUpQUTFZd2hvY3NVQWdVNkUydnJxWFU2aVZVM1c0VXFmRVpZaHEyNm15OS0zSTgzSkI3djBuNmpCLVZqSVg1VFNOMlBlTTJra0hQaVRMd0hvM2RiNnoxTTFlSHlmdWlLU0FvSHRWYVVDOHozUnJsSXdKdGJDOWJIemhzMktPWmRFUQ?oc=5",
-        "domain": ".",
+        "title": "UN Tightens Sanctions Against Kabila’s Rebel Movement FRN",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNFJ4VFJELVdMV1hqLUlxcm5tVnE4OVJSNEhDYlUtaHVmQXVFTTE3eU9nTVl1UXVBZzFrTlY3ZkM5c3hzSVJ3YmIwUXFsSWNvX2JMVTdvblJQNVgtUkszczg5NGowMG53am96X3VyQmtLbE9hLWRmaVhTaG9VXzR5eUhKcFdqR1NXbXc?oc=5",
+        "domain": "chimpreports",
         "language": "",
         "tone": 0,
-        "seendate": "20261111T194600Z",
+        "seendate": "20261113T074615Z",
         "source": "GoogleNews"
       },
       {
@@ -120674,15 +120761,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Advances Sanctions Plan Against Smugglers",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTERZOWg3VzN1VVA1bXM3WTlrbmJBdmFsOVBZb1ljeS1kV0ZUUm1xNHV0VS0zSjBrMFNEUWV5ZFpNYk5sb0ZLZFJPdi1CMUp0MWdUd21mUGE3cVBUQmRQYjUzV3Bzdk1QRmhoSkxKZXM0ZTVuYm41eUE2aU1sb2pZSTk3OGxpUlU?oc=5",
-        "domain": "theeuropeantimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T185413Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Poland's Lower House Approves Sanctions Bill Including Crypto Seizures",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNUxKN1o0U18wa0pBOWItR2tzOGpZUG9DcWtKSUxSLWo4VzlyOGFLMkt5QVFodjh0UGpFTmFyTlBtYlZ6bndONExDTFdrZEFwb0xGc1VGTzlmSlNueURweF9QY2VxcGJlNzlvYlZyWGlUTDRMNVlmMUZoRmpkZmNaSDFkRlQzNjhqNWQ4WGRKZE1RZzlfbDRUYlAxbDlBMGQt?oc=5",
         "domain": "menafn",
@@ -120692,26 +120770,42 @@
         "source": "GoogleNews"
       },
       {
-        "title": "SEC orders freeze on terror-linked assets, but market operators say they are unaware",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWsxSW1uZEFNZlBoVFZCY2NfZkUxclViNC1zU3JmOXk2TXdKZ1VOdGtVRGs5Um92REU3dGw3Z28wVlhkQzlqWm16Z3NIb2hFWjU4cFR1MFFnRW1kcW1sdS1SSnRqam4zR3p3TkVXLU93TXExZW1kT0xoSjYzQjYxcHI2QVRsMlNleTNyNW5jRVRMdEtPMmlIcU53QmYyTEhld0tnNDlGOG1fcXJDRkRzT1NfUmVFekJkbnB2Nw?oc=5",
-        "domain": "nairametrics",
+        "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
+        "domain": "laodong.vn",
         "language": "",
         "tone": 0,
-        "seendate": "20261106T161151Z",
+        "seendate": "20261107T033517Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Horror prophecy from Ray Dalio: In 5 years the world may find itself in a global war, who will lose everything",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQOFIyS1BUWU9mOGtHUHhBNnN1SlVkS01JRkZORlVkMERXOWJibllXWjVXSzlLMTdyMmczS2VLeVZILWlHX0NvYVVpNy1SMjdUZGdQV3RtUDVleFNRcl9OdVUxYi1vVjhOeDRTV0tpamp2WkNYZDM5MDhaTFEyT2dMakxaMWpLTjBzaGQyV09TOHA4YnRtZ1FXTDJUckMwcHI4NzRKLVlka0hETXNudGMwYmFETS1DUmpObl9mcGphQjczcUVyQnF4R3V5ZDh2eEkzSFdqM0EzWmtiUEtCUS1IMVNQUGdsaTJfbnZSNkZZWU4?oc=5",
-        "domain": "bankingnews.gr",
+        "title": "Houthis strike Yanbu oil facility & Saudi military sites as UNSC extends sanctions | Gravitas",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlVFo2VjFSUTFNZmcyTE5PVDRSb0czbXpiR2JZV3VpZDNTRkhIY2NsUFFNTXJDOEZGLW9qQ0RuTlEyRl9JX1pUVU1HemFfYlJCVkRF?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261112T101012Z",
+        "seendate": "20261113T180105Z",
         "source": "GoogleNews"
       }
     ]
   },
   "events": [
+    {
+      "title": "Foreign Terrorist Designations of Guatemalan Groups",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/foreign-terrorist-designations-of-guatemalan-groups/",
+      "action_title": "Counter Narcotics and Counter Terrorism Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261113",
+      "date": "2026-11-13",
+      "source": "OFAC/Treasury"
+    },
+    {
+      "title": "Treasury Sanctions Guatemalan Drug Trafficking Organizations Supporting Mexican Narco-Terrorist Cartels",
+      "url": "https://home.treasury.gov/news/press-releases/sb0689/",
+      "action_title": "Counter Narcotics and Counter Terrorism Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261113",
+      "date": "2026-11-13",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
       "url": "https://home.treasury.gov/news/press-releases/sb0686/",
@@ -120814,22 +120908,6 @@
       "action_title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
       "action_url": "https://ofac.treasury.gov/recent-actions/20261015",
       "date": "2026-10-15",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "U.S. Treasury Announces Record Enforcement Actions Against Bank of America",
-      "url": "https://home.treasury.gov/news/press-releases/sb0657/",
-      "action_title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Bank of America, N.A.",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261013_33",
-      "date": "2026-10-13",
-      "source": "OFAC/Treasury"
-    },
-    {
-      "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
-      "url": "https://home.treasury.gov/news/press-releases/sb0656/",
-      "action_title": "Counter Narcotics and Counter Terrorism Designations",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
-      "date": "2026-10-13",
       "source": "OFAC/Treasury"
     }
   ],
