@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-12T23:33:55.815699+00:00",
+    "generated": "2026-11-13T06:34:22.691052+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-12T23:32:09.244830+00:00",
+    "issued_at": "2026-11-13T06:32:36.360367+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 20.9,
+    "score": 5.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,36 +24,16 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 12.0,
+        "score": 0.0,
         "releases_considered": 99,
-        "current_7d_designation_releases": 1,
-        "current_7d_all_releases": 1,
-        "prior_7d_designation_releases": 5,
+        "current_7d_designation_releases": 0,
+        "current_7d_all_releases": 0,
+        "prior_7d_designation_releases": 6,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 4.5,
-        "anomaly_z": -1.57,
-        "themes": [
-          "iran"
-        ],
-        "evidence": [
-          {
-            "title": "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
-            "url": "https://home.treasury.gov/news/press-releases/sb0686/",
-            "action_title": "Iran-related Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261106",
-            "date": "2026-11-06",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "iran"
-            ],
-            "designation_signal": true
-          }
-        ],
+        "baseline_weekly_median": 4.0,
+        "anomaly_z": -1.35,
+        "themes": [],
+        "evidence": [],
         "retained": false
       },
       {
@@ -144,32 +124,14 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 46.8,
-        "current_7d_releases": 1,
-        "current_weighted_term_rate": 4.0,
+        "score": 0.0,
+        "current_7d_releases": 0,
+        "current_weighted_term_rate": 0.0,
         "baseline_weeks": 11,
-        "anomaly_z": 2.7,
-        "matched_release_count": 1,
+        "anomaly_z": -2.36,
+        "matched_release_count": 0,
         "relief_release_count": 0,
-        "evidence": [
-          {
-            "title": "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
-            "url": "https://home.treasury.gov/news/press-releases/sb0686/",
-            "action_title": "Iran-related Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261106",
-            "date": "2026-11-06",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "iran"
-            ],
-            "designation_signal": true
-          }
-        ],
+        "evidence": [],
         "terms": {
           "unprecedented": 3.5,
           "maximum pressure": 3.5,
@@ -241,33 +203,12 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [
-        "official_posture_shift"
-      ],
+      "official_components": [],
       "market_component_elevated": false,
       "score_bonus": 0.0
     },
-    "alerts": [
-      {
-        "id": "official_posture_shift",
-        "title": "Official coercive-language shift",
-        "score": 46.8,
-        "level": "WATCH",
-        "why": "Coercive language in official OFAC-linked release titles shifted above its recent baseline."
-      }
-    ],
+    "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-18T20:51:28.854440+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-19T04:32:38.936760+00:00",
         "score": 28.1,
@@ -2236,6 +2177,17 @@
           "official_posture_shift": 46.8,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-13T06:32:36.360367+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 0.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 0.0,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2300,7 +2252,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "20.9/100",
+      "value": "5.0/100",
       "delta": "BASELINE"
     },
     {
@@ -120524,24 +120476,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland passes crypto freeze bill in 240–202 sanctions vote",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVjJqTDJ0djFMQXZFVUYxRDZGMUZNMHhsSXR6S012WGtDeTlxQjdTcGwwYnNuUjBWMldBRlI5MGplU2poaXlyN3FtV2FxV2xVdDVwUi1QMW82QVdISXhoOGRYRU83Qkk?oc=5",
-        "domain": "cryptonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T190012Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Poland’s Lower House Backs Crypto Freezes Under Broader Sanctions Bill",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcHF1LTl1TjNNNjEwMnRoX0dwU1RKUlBDNTJNeTNxcER4Nlc1U2g2ekZXLUEtM284TEZGc0ZBSWF4dWZTMnNpajNkTXB0ZEo0eWtfN19iMkFVWWRBSkllSzFJTS0yWWxrejhDaHZZbW5XWTVUem5GMzdfMVhwTFd2Q3E4Q08yN3M2TFRDbzVvenJ3QU9xSXNYSXJJVk14dW56VEQ0T3RVU0NSNlVR?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T130614Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
         "domain": "bloomberg.com",
@@ -120560,6 +120494,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Poland’s Lower House Backs Crypto Freezes Under Broader Sanctions Bill",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44QmxzbE9CdlhtY181TTlpd3hIa1FjWVNmMVdkdldhdTY3X1NDTkpERkRoSXJlMU9idVNURkt1aHU4dEZhR2FnelJDTTRNbDBhbGQ1VVVR?oc=5",
+        "domain": "cryptonews.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261109T191527Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council Unanimously Agrees Moves To Halt Houthi Drone And Missile Production",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmloTGxEM2dLdHpPcDc3Z1RCQVp5d2s4aV9mSXYtR2FHLWJMN1BiaTBTc1ZPYVo4Q0RUMktJQ2dGNV92S01OQW5OSUFNUzZJdm1PTVptbUxSUk9LbTlDV044eHhKUHBIZkxyS3dJenpEY2ZfLUIwaWxHS0hZSHB6SExBbzByRWlQeEZxcExURWttNHN4WWhwbWQzaUk3S1NQTFlfcXJBTDdtdV9NeTA4QllBWnlUX21oZ1dLVnJQYTUxbURiMWcw?oc=5",
+        "domain": "eurasiareview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T015209Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US Treasury Cuts Off Eight Canadian Currency Firms Over Iran Sanctions Evasion",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaFVVYzZoN2k1WU5lbHJzLTNpc2NnXzZQa0d3bHRWcGNVemRtdTdpT3BBQ01EeERMYXVzMWt0NTdIUWt3OXNNZ2E3ekJKNmpwb0NGWFVTTTRxRWxHYlpVQWprbV9nWEVlT08wNHhuNlNxSy1UNkE?oc=5",
         "domain": "biggofinance",
@@ -120574,7 +120526,7 @@
         "domain": "dneafrica",
         "language": "",
         "tone": 0,
-        "seendate": "20261112T144309Z",
+        "seendate": "20261113T021100Z",
         "source": "GoogleNews"
       },
       {
@@ -120587,12 +120539,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Can anyone fix the China-Japan relationship?",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTUHVBUEZ2aUVFeEZINmQtbE1fZHBCdHh3Ui0tNHJIS0pEUzg0bXpSM2NLQzJjY21rNjUzOFpPcGNEdFdEY1p3WjhDa0QzbW9OMGpWSnQ2cmtGVllEalRTRzhqTjNTQlNoYnBmTi1GdWZZeEJR?oc=5",
-        "domain": "theeconomist",
+        "title": "US Sanctions Eight Canadian Money Firms Over Alleged Iran Crypto Links",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUDJPX2ZJZHR0cUhBdVRnZHB0X0dXc3dTWUtXTzhSeVEyVHBhRmxZS3YtUFRuRm4wS3E3WmVGY19jcWdTY2o3M3pLY0NaR0t1MVBrS2w1dWNSTV96NnFaT3VRM2dKbEpUaVFOWUhVNzRtZGV0N21ZUW1wczR5MHFUZFVBUU5YWWJ2aEZwd1ZvZnNyRnhjLUJzcHdXZ0ZMOWxRNFdvcWx4czRDS18wa0dMWVRB?oc=5",
+        "domain": "thedefiant",
         "language": "",
         "tone": 0,
-        "seendate": "20261112T140853Z",
+        "seendate": "20261107T113119Z",
         "source": "GoogleNews"
       },
       {
@@ -120602,6 +120554,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261110T064400Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UNSC Updates Yemen Sanctions to Address Houthi Threats",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU21DbTJyTFhUQVU2YUF6WVhDZkZTVDQ3TDFaaGZHcjlLbjQ5azFLSDl2TXJfanZSaFVXUmVyWW9SeXBNV3NUdk5yWi1TWjJvMHN0Q1M1R0duVU5MNjhiTW1Od1FZWDZTRGM3Vk5xWk8wSExZdmNaWXByN2VwVmVLZlRieGgyR2djOXc?oc=5",
+        "domain": "miragenews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T033800Z",
         "source": "GoogleNews"
       },
       {
@@ -120623,12 +120584,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland Advances Bill Allowing Authorities to Freeze Crypto Assets Under Sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaVBTTzIzZVd3aTI3OENiNlRWOHV1ZVNtR3ZXR1AzZUREY2NmM29Wd2dtSEt0dzl4ZTJBT1c2Z1VDN0FRbnF1cTBLUTJYVU9nUEZKM29PTFA1U1VPRjM0enZsN0t0ZU41cld5b1YteTBHYWc5aUZjRUdFNWEyX3kxRllGVHM4Y0FkWkdaZl93QWZFX0JzSG1BbUlZdFRreW1Fc1Jlc0w2QUR1ODRLRmtuNDdfdU9BVzF2VS1J?oc=5",
-        "domain": "cryptorank",
+        "title": "UN Security Council moves to restrict supplies for Houthi weapons",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3JET0FoTjBnQTZyZFgtUWVQdzRVRWNVbGpuT2lMc09kQ2NoZzNOMFJQUnlxZ2tpN050ajRNQTZQRlUzSzFZYW1LSGFCcXlReVFTMWgzRXdEejFYZTBnMG1GWjRzRE1iTUxxczN0ZmVzeld4SlV6RHVnWi16MUtzSXJnY2lRczBXelZOUUR5dlJOamFwNUVSZDJSNFQtTzlEeWdJ?oc=5",
+        "domain": "egyptiangazette",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T232223Z",
+        "seendate": "20261113T000938Z",
         "source": "GoogleNews"
       },
       {
@@ -120641,24 +120602,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "DR Congo: UN adds Joseph Kabila's FRN to sanctions list after formally linking it to M23",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdFZLOWRYd19xQnBMQVFOS0tPbGpfTzB4cmlIWUFLYWowNmtOUEdmdDh6MktHQjRLenpiWTdtRnluVjRSRWFGNkcwdVVfZ2pzNW84alhSbmRac2cyLW1rdEtzZXNnNEpIZXdjOEV6Rzc3eDNEckVHWnQweGdmRi1uN1pUT0ItdFJ2TlVkeHVUNng5cWVRREVOY2RCaUR5bnZnZG9VNE1TWElrNm5wSXdsX0VRZkdna1VPUzhPdzZoVTZLb1lJU2hsaThPQXhLRlpwOU1ZejNHcnppZG5INGhzX1UtRE1MUQ?oc=5",
-        "domain": "theeastleighvoice",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261112T105858Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Capitalixe Co-Founder Lissele Pratt Pitches 24-Hour Stablecoin Freeze To UK Crime Agency",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa1d4UGY3czlWSm82VzlVS3llTU16UTdfMFZ1aV84emptcmpId0g5NUk0R1hMVDdiSkhZRGZTOTNJcHlXOFoxMGdiZXRnLXNpandwaVhQUXdNaThrY1Rncm9WN2xrZVhpUUJ2XzZZSXVpbU92XzBCR3I0UEdFZkFPUGQ0QVBVY3l5dkE2SXJreTNRMW1lNXRZTW1qZTJTbVBVTWs5UG9WbGNIeU5sWnB1clVtUm9oWHZOV0JtUG51bUJuZEEtWWdv?oc=5",
-        "domain": "onebullex",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T110251Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "OKX Blocks MEXC-Linked Deposits Early as FinCEN's $16.7B Order Looms",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTXROcHFZWjNVUUdYcldiVVVuOEpPbWJpcHFqWVczeWZ2V2JaRHVFU3pMU1cwSnM3V2tUZFYwclV5WEVIQUtVdTF1SS1RdGh2dDBfTkpLQ1pXSHJXdzNhM3Y2NUEwVTE0QTJBVXgwVDRRRVd1bUE?oc=5",
         "domain": "biggofinance",
@@ -120668,12 +120611,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland votes to allow crypto, bank account freezes without court orders",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nd0ZJMGVjallrWDhOOWxYZllmQWRhLTdTbUo1Q0w0RjNzQ19UTE1zOS1jSTM4dks4VEptQWFfZFRFak5MSDdVOWtfSk9RZHFPbTJ3MHpxX05MQWlvVVlzVy1kTWxoMENSaW94Zk1Jbnk3Zw?oc=5",
-        "domain": "cryptonews",
+        "title": "DR Congo: UN adds Joseph Kabila's FRN to sanctions list after formally linking it to M23",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdFZLOWRYd19xQnBMQVFOS0tPbGpfTzB4cmlIWUFLYWowNmtOUEdmdDh6MktHQjRLenpiWTdtRnluVjRSRWFGNkcwdVVfZ2pzNW84alhSbmRac2cyLW1rdEtzZXNnNEpIZXdjOEV6Rzc3eDNEckVHWnQweGdmRi1uN1pUT0ItdFJ2TlVkeHVUNng5cWVRREVOY2RCaUR5bnZnZG9VNE1TWElrNm5wSXdsX0VRZkdna1VPUzhPdzZoVTZLb1lJU2hsaThPQXhLRlpwOU1ZejNHcnppZG5INGhzX1UtRE1MUQ?oc=5",
+        "domain": "theeastleighvoice",
         "language": "",
         "tone": 0,
-        "seendate": "20261109T114505Z",
+        "seendate": "20261112T105858Z",
         "source": "GoogleNews"
       },
       {
@@ -120695,12 +120638,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Czechia open to Russian asset talks, but Schillerová seeks legal safeguards - Prague, Czech Republic",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMG5IT2tndFFURHp6enptbjk2REZqQnJUbjcydmc5b0FncU8teUllZWVhMTk4dFpEU01KMXlFSk9Na1hNUUhQeUJObl8xUHpiU3BCYUdRS2dldE5IdXR3T29jV3pjbGU0cTVnNS1vaXRsQ200VVhpQ2R3UW9ocWs2NFpueFR5bHVNekdsZWNjRXZ6SWJ0Nmk2TS1WOTJUZllPX0RBN1lHQ19sVGdKdlNLQm4zeDZCQQ?oc=5",
-        "domain": "expats.cz",
+        "title": "Pakistan calls for ‘immediate, unconditional’ end to Houthi attacks on Saudi Arabia as UNSC renews sanctions",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOTlZNlVNN0NfVVMzSEJqY2k4LUdiRVF5RktfNVBCN2ZoeVJFNm9lRkpiZkpsS2hUNlg1Mk1pQ2puR3RYQ3RIMDNtYUxnUWpGTTQ5Q21VZ3VJREo3LXUweTFRRHpuMWVmb0lMQUk0TnlDOVVNc3dOck5KSV80RW1hM0owSTY4NXhHY0Z3QWUxMkhqS2wycy1VRkNwblRDcDNfRU1SQjlVWmJJOVhFLXZHZUd1dG9WZTlRdEFBTXROU25yRmxvU1VqYXJ0Y0o2bmg2RURnaUdR?oc=5",
+        "domain": "dawn",
         "language": "",
         "tone": 0,
-        "seendate": "20261111T030426Z",
+        "seendate": "20261113T040538Z",
         "source": "GoogleNews"
       },
       {
@@ -120713,30 +120656,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "AMLC gets CA asset freeze order covering lawmaker, ex-official",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLU9xT3BQUW0wZFM5TjNxbC1GUDk2U1haeE4xakdCVUgyaTFVWEZwUXVzRW5rRlgwSjg5ZVlxNWFNLVVVQXppanFvYU5LZHkwaWlnOEhWS2d3c2NrQUxFRnkzbWx6OHBUZFpYQmNKOWM2WEVWRGktRmliclhteVV5SGdDZGstb3JaeDVwc3NPSmM3VW1qUWlDNFVnQXBMMTBaaHQ4UVMtVEctTTBLVUQ2LWdOQ2dzUdIBvAFBVV95cUxPWXNKZy1GdXJKdGVxNzJtQXZuODJIdGhUWjJpbTVoUUNZWlludXhlc0htMFNTcGtfWXZBWFpRUms0N1BYN1NUTG9FY21ub1FCaHJRTGxlYk5MSFNHazNBdU43WlBGbzhJZnlpZ1hMSWxHWW81eFRjeDEyRFExMGJ2eEhuRVR1ZkZyVHVUREhsTDZzWTQ4TXBNYXZDQ1pnTmMyUWxhT1JyZ0VDQ0ZoQllBdTBIZWY2UzNOcUM2dg?oc=5",
-        "domain": "philstar.com",
+        "title": "Russian \"Gazprom\" executive Kaniuka sells estate near Kyiv for $4 million – \"Slidstvo.Info\". PHOTOS",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcnRuRVpnWm1qR1pkTnB5TENwVVdKMUpQUTFZd2hvY3NVQWdVNkUydnJxWFU2aVZVM1c0VXFmRVpZaHEyNm15OS0zSTgzSkI3djBuNmpCLVZqSVg1VFNOMlBlTTJra0hQaVRMd0hvM2RiNnoxTTFlSHlmdWlLU0FvSHRWYVVDOHozUnJsSXdKdGJDOWJIemhzMktPWmRFUQ?oc=5",
+        "domain": ".",
         "language": "",
         "tone": 0,
-        "seendate": "20261112T160000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "DeFi Compliance After Tether’s $344M USDT Freeze",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ua2RGeVYtX2JhOHk2RDF1cmJ0NFVleHRHZkEwaWVlV3RxcHRPNkZzNkpQQkNVRnI4enVxbUJENDRIeEMzWmFaQ042ME05emRpZ0o3TkpPanFVcDBoWFRwaVBlSFJYVENBalZnVUNZck9FLVc3dmJWR0pvWQ?oc=5",
-        "domain": "onesafe",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T011606Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Taiwan Freezes Investment Talks With Malaysia Amid US$4.8 Billion Nvidia AI Chip Leak, Silicon Valley Espionage Scandal",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQY2lqWVNtbE5UMUlncUh2SUZsMlczd1JIZHFRTDdFb2M0Y2tUcWdheGFZcTNacnJkLUpucGhfN2VZTjRDWWtPWWdNWVkxY2kyNnVSWWRPUExzXzA3MzJhUEJleThWMThUQThlQzlmUlBFR3MtNE96TGctU21KUmlRdFE4SW5HWHNlN0ZjbDlreFYzM0s5Y1hmbGJ6YjdzeHZsQUwyUmEyOVRrSWhaLUNQTW9ZSXV6YkJFaVVHMnZFSmwwR0doZEZvTW9pTzR0Nlg3SzQtQXNMUHF6X3ZSR0JkRUtsVmFZYjVWME1Kc05wUl82YTQzQmVfT0l5M3N1U1o0anJn?oc=5",
-        "domain": "trptherakyatpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261112T012756Z",
+        "seendate": "20261111T194600Z",
         "source": "GoogleNews"
       },
       {
@@ -120767,21 +120692,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland expands sanctions to freeze crypto assets, awaits Senate review",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDZhTHFpVFItb3pCbTI5VUlldEJqYU9HYU9ONldieTJEVUE3ZHZ1U1A5VDhmTV9tTThpOFYtLXUzRDVZaWI5b2dRYTFlYWRIeE1YQ1p6a2ljNXlSc3hGRDZwRVpXalMtckJqNW1ILUJGTk1obTJSbVhMaUJUd0JJMi1UUTZuYWdxV0NTM19FazkweExhZnNuNEVSc2xadw?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T170544Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "SEC orders freeze on terror-linked assets, but market operators say they are unaware",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWsxSW1uZEFNZlBoVFZCY2NfZkUxclViNC1zU3JmOXk2TXdKZ1VOdGtVRGs5Um92REU3dGw3Z28wVlhkQzlqWm16Z3NIb2hFWjU4cFR1MFFnRW1kcW1sdS1SSnRqam4zR3p3TkVXLU93TXExZW1kT0xoSjYzQjYxcHI2QVRsMlNleTNyNW5jRVRMdEtPMmlIcU53QmYyTEhld0tnNDlGOG1fcXJDRkRzT1NfUmVFekJkbnB2Nw?oc=5",
         "domain": "nairametrics",
         "language": "",
         "tone": 0,
         "seendate": "20261106T161151Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Horror prophecy from Ray Dalio: In 5 years the world may find itself in a global war, who will lose everything",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQOFIyS1BUWU9mOGtHUHhBNnN1SlVkS01JRkZORlVkMERXOWJibllXWjVXSzlLMTdyMmczS2VLeVZILWlHX0NvYVVpNy1SMjdUZGdQV3RtUDVleFNRcl9OdVUxYi1vVjhOeDRTV0tpamp2WkNYZDM5MDhaTFEyT2dMakxaMWpLTjBzaGQyV09TOHA4YnRtZ1FXTDJUckMwcHI4NzRKLVlka0hETXNudGMwYmFETS1DUmpObl9mcGphQjczcUVyQnF4R3V5ZDh2eEkzSFdqM0EzWmtiUEtCUS1IMVNQUGdsaTJfbnZSNkZZWU4?oc=5",
+        "domain": "bankingnews.gr",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261112T101012Z",
         "source": "GoogleNews"
       }
     ]
