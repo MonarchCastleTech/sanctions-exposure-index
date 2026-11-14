@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-13T19:37:44.161234+00:00",
+    "generated": "2026-11-14T06:12:48.257107+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-13T19:35:57.599155+00:00",
+    "issued_at": "2026-11-14T06:11:01.524892+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 15.3,
+    "score": 14.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -76,12 +76,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 5.0,
+        "score": 0.0,
         "current_count": 19565,
-        "previous_count": 19563,
-        "added_count": 2,
+        "previous_count": 19565,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-11-12",
         "sha256": "850ef744932d60f960045c9a4cd37ebf6237f8c32c0b163801e14fbcba6d9ce3",
         "top_programs": [
@@ -152,20 +152,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "59031",
-            "name": "LOS MENDOZA DRUG TRAFFICKING ORGANIZATION",
-            "type": "",
-            "program": "SDGT] [ILLICIT-DRUGS-EO14059"
-          },
-          {
-            "id": "59070",
-            "name": "LOS LORENZANAS",
-            "type": "",
-            "program": "FTO] [SDGT"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -276,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-19T10:52:28.968880+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-19T15:50:33.605252+00:00",
         "score": 28.1,
@@ -2255,6 +2231,17 @@
           "official_posture_shift": 3.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-14T06:11:01.524892+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2319,13 +2306,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "15.3/100",
+      "value": "14.3/100",
       "delta": "BASELINE"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,565",
-      "delta": "+2 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -120563,12 +120550,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "With Democrats Taking Control, Crypto on Hot Seat in 120th Congress",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1pTbUd0bjB5OXNrSi1GWlBQbEFsbnc5YXdJcUloeTBhREJfNkxwcVVLaHRHSV80N1phc29GOHdqaXM0ZTlNU2VyZUE5WU1ZejRhbi1FRUdBVDg5X1FvNWdMdFZYYS1hWEl6ZUdDdG1YS1F1OHNPSklkd1lEcnRWWGlSSlNxbHdGV19iM2VnUWJyLWMxdXBjZTBTdU9FVWRsQTBsUEZTcm5Lam04WFJzdDl3bjBhRm1YQjZTS3hrcTRraEpFYkVj?oc=5",
-        "domain": "mcguirewoods",
+        "title": "Poland’s Lower House Backs Crypto Freezes Under Broader Sanctions Bill",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcHF1LTl1TjNNNjEwMnRoX0dwU1RKUlBDNTJNeTNxcER4Nlc1U2g2ekZXLUEtM284TEZGc0ZBSWF4dWZTMnNpajNkTXB0ZEo0eWtfN19iMkFVWWRBSkllSzFJTS0yWWxrejhDaHZZbW5XWTVUem5GMzdfMVhwTFd2Q3E4Q08yN3M2TFRDbzVvenJ3QU9xSXNYSXJJVk14dW56VEQ0T3RVU0NSNlVR?oc=5",
+        "domain": "thedefiant",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T005911Z",
+        "seendate": "20261109T120610Z",
         "source": "GoogleNews"
       },
       {
@@ -120590,6 +120577,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UN Security Council reauthorizes Yemen sanctions",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBuaUVFeUlCNmVxZEN1Y0pqY3pCQlRueEJUZnJ2bVl3VzZiNjFYY3ZpUlhGRFFnLXRTQXpiaWlaSWpIWXRuR0JWR2w3RlIwU1RFemVTa3FhT2xjQkE2TXkzOGRpUmlNQlMwWHVNazlBZFZ0VkxNcmMxa2dmb0g?oc=5",
+        "domain": "xinhua",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T221615Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UK blacklists Slavneft and says it now sanctions all ten of Russia’s top oil producers",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONndHMFMwWDdESTFmcFZWZ2QyWHpRamhTV2xQcTdycFp4dnh3N2x0N0JRVUJIeUJCTzRqeE9LUkdGV1J2RE5UcWg2WDh0WDVkTkE1LW9pV19WSVUyWFJPa1hTTGprVWJFazdjTmZabnlUemk1c190czZDRTdOdS1MMUp5c3MtRmg3WUNUTTltNkw2QVQ2ajQwbUc4Q2pvRm94ZzZwRkJ1OTA3WlRrZVFOOWFDdk9EeUlxZXNPOXNKd0VhaFE?oc=5",
         "domain": "euromaidanpress",
@@ -120599,21 +120595,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland’s Lower House Backs Crypto Freezes Under Broader Sanctions Bill",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44QmxzbE9CdlhtY181TTlpd3hIa1FjWVNmMVdkdldhdTY3X1NDTkpERkRoSXJlMU9idVNURkt1aHU4dEZhR2FnelJDTTRNbDBhbGQ1VVVR?oc=5",
-        "domain": "cryptonews.net",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T191527Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council Unanimously Agrees Moves To Halt Houthi Drone And Missile Production",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmloTGxEM2dLdHpPcDc3Z1RCQVp5d2s4aV9mSXYtR2FHLWJMN1BiaTBTc1ZPYVo4Q0RUMktJQ2dGNV92S01OQW5OSUFNUzZJdm1PTVptbUxSUk9LbTlDV044eHhKUHBIZkxyS3dJenpEY2ZfLUIwaWxHS0hZSHB6SExBbzByRWlQeEZxcExURWttNHN4WWhwbWQzaUk3S1NQTFlfcXJBTDdtdV9NeTA4QllBWnlUX21oZ1dLVnJQYTUxbURiMWcw?oc=5",
         "domain": "eurasiareview",
         "language": "",
         "tone": 0,
         "seendate": "20261113T015209Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdEZqZHpkbWJIcXpHN05Hd3RUbWpDcGU1TzRYUy16SVd5R0xlVXB0YlV3YzJBLTZSTlppR3BrX2lXRVJ5alJIRmFQUUloanA1YTRqNVlucW1NRlFudURnT2FCd0NCci1zMllvVk5FeXB0TVlMMDV6aXE4VHhfMHUwT20zNllEa3lKVTlnQlRwVnZ4WmdqZXdQSFpETVE2dVpTVGVub3JaRkVLWHVOTjBUbXByM2loQlRfMGRtMVptLXVXdk9zV3pzd2w5N0FfTGhTSTVZRXd0c3NueGlMdDFsM3llVmVRdGpwRzQxbXVmeUlKa0dLdFlLVWY1dm1ycU1N?oc=5",
+        "domain": "reflector.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261112T231300Z",
         "source": "GoogleNews"
       },
       {
@@ -120631,7 +120627,7 @@
         "domain": "dneafrica",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T021100Z",
+        "seendate": "20261113T224300Z",
         "source": "GoogleNews"
       },
       {
@@ -120662,15 +120658,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US to Restrict Transfers with MEXC Over $16.7 Billion in Illegal Activities",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaGN6QzlDUVc4RXd0enFqQ1FUWU9XVkY0ZnJNa2pVQkZCdVNfR2xSXzRCaVprcC1VMnA5T2xTTjI3SVFsbWRMOHg2T3piS1M0ckdsOFQ4Smtpak9CQmE3SDVpbnc1blZBQ19zcGNmWVM0eTdPdkN4WXdnZzQ1WDlCWmtITGtDYUVaVTR0MzE0eDh4NkY0R3pXY0FJWENSN3c?oc=5",
-        "domain": "forklog",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261107T082913Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UNSC Updates Yemen Sanctions to Address Houthi Threats",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU21DbTJyTFhUQVU2YUF6WVhDZkZTVDQ3TDFaaGZHcjlLbjQ5azFLSDl2TXJfanZSaFVXUmVyWW9SeXBNV3NUdk5yWi1TWjJvMHN0Q1M1R0duVU5MNjhiTW1Od1FZWDZTRGM3Vk5xWk8wSExZdmNaWXByN2VwVmVLZlRieGgyR2djOXc?oc=5",
         "domain": "miragenews",
@@ -120689,12 +120676,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "OKX Blocks MEXC-Linked Deposits Early as FinCEN's $16.7B Order Looms",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTXROcHFZWjNVUUdYcldiVVVuOEpPbWJpcHFqWVczeWZ2V2JaRHVFU3pMU1cwSnM3V2tUZFYwclV5WEVIQUtVdTF1SS1RdGh2dDBfTkpLQ1pXSHJXdzNhM3Y2NUEwVTE0QTJBVXgwVDRRRVd1bUE?oc=5",
-        "domain": "biggofinance",
+        "title": "Securitize Agrees to Buy River One, Expanding Into Asset-Backed Lending: 10 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOS13YUZNYzM4RU1MOW9vMGd5TkJZNEJJX3UzNlhDOVdVR3c3aFo2bmE4RXBvM1pyQS1jcXJ4dlVXdWNPcG9XXzdTZlhyZHdUVUV6dWpGVjMybjhtZnJDbzdvbVNhTTgxcmhWYU8xZGc2dk12cHcxMlVIb0xrVHAzSUlKbFpLQ0hYQVlIeXVaSXMwSl9FNGMya3Y4TUpfakpRbWZuVVNDM2oxTFU5RHFVdlM0TXJ1MEhzRl9FeTliaTZkNHNBUlpqaUZRampoSmlhRC11M0VjRzFGTHlQ?oc=5",
+        "domain": "newscord",
         "language": "",
         "tone": 0,
-        "seendate": "20261108T122500Z",
+        "seendate": "20261110T112734Z",
         "source": "GoogleNews"
       },
       {
@@ -120707,12 +120694,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VWWVhRjlMVjR4M2ZBOEZ2MmphcFhXc2YyZGNIUnJXOV9uX1c0Sm8yNjFoS2owVVF0UE5ENy1UMDBpZnZjdTVUOA?oc=5",
-        "domain": "dawn",
+        "title": "The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMGNRa0E2YTJScUJkYXVLcTFYd1NuaVZvMndqUHlKY213cGotYUdaMHgzdGZfY3JTQ2pJT0dOYWJ3YjRCX0hNNXlpMGt1dU5uUU5XVl93V0xBSTFaeWlZMHhkQjY4YjdkenNzVjhteWFpWGFaUy1BUjlYNWk0aXVQczFRS1Q0UW8xNEZwUXRHQVFwV0F4VlBRR3h2c25nY2V2Wl8yWUVFRDV4LXJBZk1lVzRMSzBzR2ZaVXhENjdpYkNkVkFkT3V3SnNtTkdDVjZwR3lzWWxBZmtOWTdfRzdJcTJsWmpKcHJyOGNkN2hTd1BzYmZ3bk1FNlJnUF9YUFVDcVllaGlyOA?oc=5",
+        "domain": "reflector.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T040538Z",
+        "seendate": "20261114T051746Z",
         "source": "GoogleNews"
       },
       {
@@ -120722,6 +120709,24 @@
         "language": "",
         "tone": 0,
         "seendate": "20261113T100100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VWWVhRjlMVjR4M2ZBOEZ2MmphcFhXc2YyZGNIUnJXOV9uX1c0Sm8yNjFoS2owVVF0UE5ENy1UMDBpZnZjdTVUOA?oc=5",
+        "domain": "dawn",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T040538Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU countries have called for a comprehensive audit of Russian assets near NATO military bases",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTE11YVd1emk5SEs4dkxEdEVSVHBZRUg4QnNwMXFNV3NLTjFqVDZDc0Nlb2dDanlucTFtQW9PX0Zrcm0zZXFpcmNkbFdERVQ0bzdtZlpLaW5CU0pCT1lUa0NJVEhJUkRGOWtFUnpPN1k2WU9QV3ZXTG8xME15el9xbWM3VmhzWFVERy1GallPYTJYd1ZBeXkzeFBjVWo3ZXo0VFVJeWtaanRwNVY2TFgtU05MOWJmYjTSAbwBQVVfeXFMTXpSYUk4elNJLWNsbkNwbFN5SVU2SjVMeTZxbkZWbDRrMHlJaWszVzlKcmdCS1JzdjljUUs1cWVUajlYUHVWX1huaWZ0Wkg1TUlNNHBieHE3TkkzY1ZxckhyNV95SDZabWNPMk5fN3JWR2Z6MUs0cncycnBGYmdCREY5M1hSWDFRblJyNFJPWXBaT2sxUmd6a3paazJuSXROLUNiYmFsVzYwUkFYUzBFdHI2UTNwMFZZeDNLams?oc=5",
+        "domain": "ukrainiannewsagency",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T093132Z",
         "source": "GoogleNews"
       },
       {
@@ -120770,12 +120775,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russian investor wins lawsuit in the fight to recover frozen assets in Europe",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX25kUmV6V1NNclI3dmFZbnVhTUR5SUhyVHdCX0NsaG5xa1lmWnBGd2pxclo5dHNRcnBwQV8wcnRCelpQQXJ3X3BmLUliT3ZJM29BSmVCTHJXcWVnUTA3VldPa19UNlpuUEQ1MEZKWld1dVc5dXhxSVRSQ285Rm93UktCWW5mTU40Y2NMZUM5STdiMTFvRTZRcEJFdjVjTlRiNnJtdlh3WjVub2VBX2FwaEllVFdGRllKS3RCazNMYw?oc=5",
-        "domain": "laodong.vn",
+        "title": "UN voices concern as attacks on Yemen civilians intensify",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYlAxb1F3dWJZNmMwbGVHRUQ2bTZHSzg5WjFKWWZZMzRUQ05YOFBrSDl4MU96clA5QnVhdklRNG5RNFJmcDE2RkN4NGpIU3V1aWdqQzhicUkza3VOQm5BTUgzcXhQcXlBcnB1MW5nZWtXMjFndXNDZ01Kd2NqTzl6T01JWFpLOUw2NWZpMTFxZlk4cU3SAZgBQVVfeXFMT1dXbDFuUUFheHd0ZTNNXzVzaXc3SHp1OW9RcDlTVzFOMENZT3RNb3k0bVNFY0NtV3NpUkxVOXhPOE5yNTZSSVRfMnFHRDBpblk0LUJkZGx1RkRNS2RybWR0NC0yWWpxYm5XTWhTcHhmX2h3enhqZ0tfSDRPUnpWX2tPRVVVOXhjV3l1QkJIdDdwVnU4TVYzMWY?oc=5",
+        "domain": "thesiasatdaily",
         "language": "",
         "tone": 0,
-        "seendate": "20261107T033517Z",
+        "seendate": "20261114T033605Z",
         "source": "GoogleNews"
       },
       {
