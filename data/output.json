@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-14T06:12:48.257107+00:00",
+    "generated": "2026-11-14T17:59:19.716793+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-14T06:11:01.524892+00:00",
+    "issued_at": "2026-11-14T17:57:33.425513+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 14.3,
@@ -263,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-19T15:50:33.605252+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-19T20:35:01.276382+00:00",
         "score": 28.1,
@@ -2234,6 +2223,17 @@
       },
       {
         "timestamp": "2026-11-14T06:11:01.524892+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-14T17:57:33.425513+00:00",
         "score": 14.3,
         "level": "BASELINE",
         "components": {
@@ -120577,15 +120577,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council reauthorizes Yemen sanctions",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBuaUVFeUlCNmVxZEN1Y0pqY3pCQlRueEJUZnJ2bVl3VzZiNjFYY3ZpUlhGRFFnLXRTQXpiaWlaSWpIWXRuR0JWR2w3RlIwU1RFemVTa3FhT2xjQkE2TXkzOGRpUmlNQlMwWHVNazlBZFZ0VkxNcmMxa2dmb0g?oc=5",
-        "domain": "xinhua",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T221615Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK blacklists Slavneft and says it now sanctions all ten of Russia’s top oil producers",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONndHMFMwWDdESTFmcFZWZ2QyWHpRamhTV2xQcTdycFp4dnh3N2x0N0JRVUJIeUJCTzRqeE9LUkdGV1J2RE5UcWg2WDh0WDVkTkE1LW9pV19WSVUyWFJPa1hTTGprVWJFazdjTmZabnlUemk1c190czZDRTdOdS1MMUp5c3MtRmg3WUNUTTltNkw2QVQ2ajQwbUc4Q2pvRm94ZzZwRkJ1OTA3WlRrZVFOOWFDdk9EeUlxZXNPOXNKd0VhaFE?oc=5",
         "domain": "euromaidanpress",
@@ -120604,12 +120595,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdEZqZHpkbWJIcXpHN05Hd3RUbWpDcGU1TzRYUy16SVd5R0xlVXB0YlV3YzJBLTZSTlppR3BrX2lXRVJ5alJIRmFQUUloanA1YTRqNVlucW1NRlFudURnT2FCd0NCci1zMllvVk5FeXB0TVlMMDV6aXE4VHhfMHUwT20zNllEa3lKVTlnQlRwVnZ4WmdqZXdQSFpETVE2dVpTVGVub3JaRkVLWHVOTjBUbXByM2loQlRfMGRtMVptLXVXdk9zV3pzd2w5N0FfTGhTSTVZRXd0c3NueGlMdDFsM3llVmVRdGpwRzQxbXVmeUlKa0dLdFlLVWY1dm1ycU1N?oc=5",
-        "domain": "reflector.com",
+        "title": "Frozen Mussel Suppliers, Export Data & Price Trends | Global Market Overview 2026",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mYVlrdHlPQ1NsVjR3ZWNWMVJjZF9FZlpPaHNEdVZfUFFyeXAzUTNBaEl0WDBkeUJodkJhbGxGOXlNYTA3eVJnNkxsLUtPMXZJWFF3Tm9ndlZIM0w5X2JqRHJn?oc=5",
+        "domain": "tridge",
         "language": "",
         "tone": 0,
-        "seendate": "20261112T231300Z",
+        "seendate": "20261111T080000Z",
         "source": "GoogleNews"
       },
       {
@@ -120628,6 +120619,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261113T224300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council reauthorizes Yemen sanctions",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSU5aMkl4eGd4NmVEZUtSNGJOZjVKYXNJZ2ZpcmpVZHBNOHhqUXJxZnJHekFGTmdzRlZEcFZUVGUxUmZsSkRGQ0EtQ3ZYZVc5aVdPdGxZYVd6NG43SUdnR3FXZVhacXh2TERoeThoZXpaM1dCMFVHTjJ6YUhjeHBIOA?oc=5",
+        "domain": "macaubusiness",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261114T072800Z",
         "source": "GoogleNews"
       },
       {
@@ -120667,15 +120667,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "TODAY’S HEADLINES (Friday, November 13, 2026) Subscribe to the paper: https://philstarsubscribe.com/ Marcos Jr. reshuffles heads of BIR, Customs, BCDA https://tinyurl.com/2vw97rhj Lawyers tussle over VP spouse’s ‘lavish’ lifestyle https://tinyurl.com/2wt8",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNalZsWVFHSmxCb0x0Y3Q2TVczSi1YVTZkUTY4UE5OUC03ODRmT3VTTV9NSjhLSHhtSmVBUjdQcHFEa2FxTVlJWEJJX25BU0Z0VFRsZlA5NnpVT0lMOE8wcEkwZjl3UVRDN3pjLVJUakhaSUlqT05FTmFKcGNseFRDRWRKN3YweHM2SWpkLTFRMlRFdkhielJIV0FWZk5PSjc4WVdCSTJveEFRM1ZPaW1IZ1doQnpzdm1qeWcwT3l2YWtCZW5XMXNwZmp1Z1FNZ1lwTGc0ekpDNWdMNnh0?oc=5",
-        "domain": "facebook",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261112T231741Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Securitize Agrees to Buy River One, Expanding Into Asset-Backed Lending: 10 outlets compared",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOS13YUZNYzM4RU1MOW9vMGd5TkJZNEJJX3UzNlhDOVdVR3c3aFo2bmE4RXBvM1pyQS1jcXJ4dlVXdWNPcG9XXzdTZlhyZHdUVUV6dWpGVjMybjhtZnJDbzdvbVNhTTgxcmhWYU8xZGc2dk12cHcxMlVIb0xrVHAzSUlKbFpLQ0hYQVlIeXVaSXMwSl9FNGMya3Y4TUpfakpRbWZuVVNDM2oxTFU5RHFVdlM0TXJ1MEhzRl9FeTliaTZkNHNBUlpqaUZRampoSmlhRC11M0VjRzFGTHlQ?oc=5",
         "domain": "newscord",
@@ -120691,15 +120682,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261112T105858Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit",
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMGNRa0E2YTJScUJkYXVLcTFYd1NuaVZvMndqUHlKY213cGotYUdaMHgzdGZfY3JTQ2pJT0dOYWJ3YjRCX0hNNXlpMGt1dU5uUU5XVl93V0xBSTFaeWlZMHhkQjY4YjdkenNzVjhteWFpWGFaUy1BUjlYNWk0aXVQczFRS1Q0UW8xNEZwUXRHQVFwV0F4VlBRR3h2c25nY2V2Wl8yWUVFRDV4LXJBZk1lVzRMSzBzR2ZaVXhENjdpYkNkVkFkT3V3SnNtTkdDVjZwR3lzWWxBZmtOWTdfRzdJcTJsWmpKcHJyOGNkN2hTd1BzYmZ3bk1FNlJnUF9YUFVDcVllaGlyOA?oc=5",
-        "domain": "reflector.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261114T051746Z",
         "source": "GoogleNews"
       },
       {
@@ -120721,12 +120703,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU countries have called for a comprehensive audit of Russian assets near NATO military bases",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTE11YVd1emk5SEs4dkxEdEVSVHBZRUg4QnNwMXFNV3NLTjFqVDZDc0Nlb2dDanlucTFtQW9PX0Zrcm0zZXFpcmNkbFdERVQ0bzdtZlpLaW5CU0pCT1lUa0NJVEhJUkRGOWtFUnpPN1k2WU9QV3ZXTG8xME15el9xbWM3VmhzWFVERy1GallPYTJYd1ZBeXkzeFBjVWo3ZXo0VFVJeWtaanRwNVY2TFgtU05MOWJmYjTSAbwBQVVfeXFMTXpSYUk4elNJLWNsbkNwbFN5SVU2SjVMeTZxbkZWbDRrMHlJaWszVzlKcmdCS1JzdjljUUs1cWVUajlYUHVWX1huaWZ0Wkg1TUlNNHBieHE3TkkzY1ZxckhyNV95SDZabWNPMk5fN3JWR2Z6MUs0cncycnBGYmdCREY5M1hSWDFRblJyNFJPWXBaT2sxUmd6a3paazJuSXROLUNiYmFsVzYwUkFYUzBFdHI2UTNwMFZZeDNLams?oc=5",
-        "domain": "ukrainiannewsagency",
+        "title": "UN Adds Kabila’s FRN Movement to Existing AFC Sanctions Listing",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSkw5WFNrRmtXek12blV6NGl4ck1KcE1BblhueTN2c293amNRNWNmQmF3cFlYbXRlLXBSSkVZRUJKR1dwWUctVmY2b1kxaW9oZ0VobDQ0T2Rmd2ktbEpYX1J4ZU11TTlPSEl5dTFaM1R4eTBEZlpyQ0VxVzd3eFpCV21ZSE03NnhrZDA0SzU4dw?oc=5",
+        "domain": "ugdiplomat",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T093132Z",
+        "seendate": "20261114T155642Z",
         "source": "GoogleNews"
       },
       {
@@ -120736,15 +120718,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261111T053527Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "China suspected of smuggling NVIDIA chips worth around 10 trillion won ... Could U.S.-China ties freeze?",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95bk5VOHFHbV9WbGtPaTVaRmRCcXRWOXlVM0lyblNkRnM3Sk1wbVppeldmWDNaRldibGVaeGdSQXRHdTVyYmZOVnQ1X2lfVkR4UFB5RFNBZ0U?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261111T033623Z",
         "source": "GoogleNews"
       },
       {
@@ -120763,6 +120736,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261111T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council extends Yemen sanctions and expert panel mandate",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnd1VnVfajJlZlpVb3dUM1RpX3BUaTAwUnByODZmZHEybW5LLTMzV0FzRm5fdFZyWXIxOGtZbHFPV3hIUlFTb2VUOU5VS29fOEdYb0prODl6MVFuaURwYWt6UGJnei0yWU9zako4dDgwV28yOU80NU5zb25LZU9EOTRlMWl0WHV2R3gwZF9rQTFtU2w0YTdYSW1fbXdEX28?oc=5",
+        "domain": "londondailynews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261114T123216Z",
         "source": "GoogleNews"
       },
       {
@@ -120785,11 +120767,11 @@
       },
       {
         "title": "Houthis strike Yanbu oil facility & Saudi military sites as UNSC extends sanctions | Gravitas",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlVFo2VjFSUTFNZmcyTE5PVDRSb0czbXpiR2JZV3VpZDNTRkhIY2NsUFFNTXJDOEZGLW9qQ0RuTlEyRl9JX1pUVU1HemFfYlJCVkRF?oc=5",
-        "domain": "news.google.com",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVVNlZ3BhaU1pSTRPWHYzUnBobEZ1V3o3eklLdXAwdXZ2d1hVM3pjM2JuYUIzLTFmZ2g2UUVNMVdQZWl0ZXBUZHZPelJ4OFJ1YXA5TDZxTVlCR0NURHdVcUtpM0dOVmNVdWdPMWk2WWFGV1AwUWlpak54VnRzZmpzclpQQ09TZHZUYzF3ZHZ1d2hQTVpnNlNDUkJ3RnQ3aDk2MGNCcWcyVUMyNEduZmRON0ZGTDlRLTNKY2NTTDVDV0daWlJ0a2N3djllb1JYVlhJeHVVNTc3Y9IB1wFBVV95cUxQVVNlZ3BhaU1pSTRPWHYzUnBobEZ1V3o3eklLdXAwdXZ2d1hVM3pjM2JuYUIzLTFmZ2g2UUVNMVdQZWl0ZXBUZHZPelJ4OFJ1YXA5TDZxTVlCR0NURHdVcUtpM0dOVmNVdWdPMWk2WWFGV1AwUWlpak54VnRzZmpzclpQQ09TZHZUYzF3ZHZ1d2hQTVpnNlNDUkJ3RnQ3aDk2MGNCcWcyVUMyNEduZmRON0ZGTDlRLTNKY2NTTDVDV0daWlJ0a2N3djllb1JYVlhJeHVVNTc3Yw?oc=5",
+        "domain": "wion",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T180105Z",
+        "seendate": "20261113T172400Z",
         "source": "GoogleNews"
       }
     ]
