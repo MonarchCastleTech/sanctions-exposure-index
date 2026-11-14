@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-14T17:59:19.716793+00:00",
+    "generated": "2026-11-14T22:19:40.594350+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-14T17:57:33.425513+00:00",
+    "issued_at": "2026-11-14T22:17:54.046695+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 14.3,
@@ -263,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-19T20:35:01.276382+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-20T04:49:06.077773+00:00",
         "score": 28.1,
@@ -2234,6 +2223,17 @@
       },
       {
         "timestamp": "2026-11-14T17:57:33.425513+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-14T22:17:54.046695+00:00",
         "score": 14.3,
         "level": "BASELINE",
         "components": {
@@ -120604,21 +120604,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews sanctions on Yemen",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0xabUNBYTNfYWd0b2U2X094U24xWmJHOUN2NzZiNnNWclVVcUpLdTM2eVdTUXM1OVdkV1hqY0FhRmkwS05sSWktWU5kZnpoMlNlaE52RFdpQlR5eS1TN1RzRDFiMFdUVjdGQWhGY0hFMUFsQTJlUHc4V0tmNjBxOU9R?oc=5",
-        "domain": "middleeastonline",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T093200Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "FRN sanctions: UN ban hits Kabila group, 323,000 flee",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCbWhWYU1pRDBfVXNHZjNEVFZGSGN4ZHRVQ09Ta1ZtZnlZVEhYSjdGdVBObkFHamlEbHlPLTR5TF9wRTd0UDlEdll2YmMxbW1HTTZUMWw0VEFtbHIyRVpvM2Y0WUp0SEk?oc=5",
         "domain": "dneafrica",
         "language": "",
         "tone": 0,
         "seendate": "20261113T224300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council renews sanctions on Yemen",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0xabUNBYTNfYWd0b2U2X094U24xWmJHOUN2NzZiNnNWclVVcUpLdTM2eVdTUXM1OVdkV1hqY0FhRmkwS05sSWktWU5kZnpoMlNlaE52RFdpQlR5eS1TN1RzRDFiMFdUVjdGQWhGY0hFMUFsQTJlUHc4V0tmNjBxOU9R?oc=5",
+        "domain": "middleeastonline",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T093200Z",
         "source": "GoogleNews"
       },
       {
@@ -120649,21 +120649,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland expands sanctions to freeze crypto assets, awaits Senate review",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDZhTHFpVFItb3pCbTI5VUlldEJqYU9HYU9ONldieTJEVUE3ZHZ1U1A5VDhmTV9tTThpOFYtLXUzRDVZaWI5b2dRYTFlYWRIeE1YQ1p6a2ljNXlSc3hGRDZwRVpXalMtckJqNW1ILUJGTk1obTJSbVhMaUJUd0JJMi1UUTZuYWdxV0NTM19FazkweExhZnNuNEVSc2xadw?oc=5",
-        "domain": "cryptobriefing",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T170544Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UNSC Updates Yemen Sanctions to Address Houthi Threats",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU21DbTJyTFhUQVU2YUF6WVhDZkZTVDQ3TDFaaGZHcjlLbjQ5azFLSDl2TXJfanZSaFVXUmVyWW9SeXBNV3NUdk5yWi1TWjJvMHN0Q1M1R0duVU5MNjhiTW1Od1FZWDZTRGM3Vk5xWk8wSExZdmNaWXByN2VwVmVLZlRieGgyR2djOXc?oc=5",
         "domain": "miragenews",
         "language": "",
         "tone": 0,
         "seendate": "20261113T033800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council Extends Yemen Sanctions, Renews Mandate of Panel of Experts, and Condemns Houthi Escalation",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xYm1YWURDS3JYdzhaMFdOUktPVXI2OFF6X041Mm1NRnlsc1BQVXVWR2xQNjRyZGhkQk5uaGtES2JmWGxwYmtzbzdHd2o0aUZfNi1VUnhPbnZaRDlZMGxjUjlvZ2k2Z1JhZGRwWGdxUTZsdlRlclE?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261112T213947Z",
         "source": "GoogleNews"
       },
       {
@@ -120694,12 +120694,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VWWVhRjlMVjR4M2ZBOEZ2MmphcFhXc2YyZGNIUnJXOV9uX1c0Sm8yNjFoS2owVVF0UE5ENy1UMDBpZnZjdTVUOA?oc=5",
-        "domain": "dawn",
+        "title": "France Welcomes UN Sanctions Listing of Kabila’s FRN",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLU5tZk1LaWpGS2otU1VMRkRkOFg0VV9ITVNsY3paUngtVFV3N2NjOUJmN3BPZmlKT21MeE1Gc2lqOGtiaFdwbW1QTGxOdnhWT0hwazN1SGk4TVNfeV9QdjZZZzRMOFdCVjB6Y0hNR2w4TWRXOEpibXhyRHlhcjBLQk9iTQ?oc=5",
+        "domain": "chimpreports",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T040538Z",
+        "seendate": "20261114T172406Z",
         "source": "GoogleNews"
       },
       {
@@ -120709,6 +120709,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261114T155642Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Behind the Scenes of the UN Security Council Consensus: Russia Removes the “Terrorist” Label, While China Delays Tougher Restrictions on Houthi Arms Supplies",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55T2dCZmc1QjMtR3N6VkM5U1FkeFZ5Tmp3SGNNZGdwLXdtS085QjhwTXU1SE5PT0xXalJDaW9hVGJnTzgydmJseXd1ZWpSdG1UajNQZlp5ZWFpZjMwa3l1a2xpdkJOT1hmMzNwZnN1RVg3ZDlQMEE?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T223223Z",
         "source": "GoogleNews"
       },
       {
@@ -120744,7 +120753,7 @@
         "domain": "londondailynews",
         "language": "",
         "tone": 0,
-        "seendate": "20261114T123216Z",
+        "seendate": "20261114T123634Z",
         "source": "GoogleNews"
       },
       {
