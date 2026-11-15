@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-15T06:20:27.642302+00:00",
+    "generated": "2026-11-15T18:48:16.191337+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-15T06:18:41.252686+00:00",
+    "issued_at": "2026-11-15T18:46:29.886931+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 14.3,
@@ -263,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-20T11:16:27.054183+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-20T16:00:06.576199+00:00",
         "score": 28.1,
@@ -2234,6 +2223,17 @@
       },
       {
         "timestamp": "2026-11-15T06:18:41.252686+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-15T18:46:29.886931+00:00",
         "score": 14.3,
         "level": "BASELINE",
         "components": {
@@ -120577,15 +120577,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK blacklists Slavneft and says it now sanctions all ten of Russia’s top oil producers",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONndHMFMwWDdESTFmcFZWZ2QyWHpRamhTV2xQcTdycFp4dnh3N2x0N0JRVUJIeUJCTzRqeE9LUkdGV1J2RE5UcWg2WDh0WDVkTkE1LW9pV19WSVUyWFJPa1hTTGprVWJFazdjTmZabnlUemk1c190czZDRTdOdS1MMUp5c3MtRmg3WUNUTTltNkw2QVQ2ajQwbUc4Q2pvRm94ZzZwRkJ1OTA3WlRrZVFOOWFDdk9EeUlxZXNPOXNKd0VhaFE?oc=5",
-        "domain": "euromaidanpress",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T144644Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council Unanimously Agrees Moves To Halt Houthi Drone And Missile Production",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmloTGxEM2dLdHpPcDc3Z1RCQVp5d2s4aV9mSXYtR2FHLWJMN1BiaTBTc1ZPYVo4Q0RUMktJQ2dGNV92S01OQW5OSUFNUzZJdm1PTVptbUxSUk9LbTlDV044eHhKUHBIZkxyS3dJenpEY2ZfLUIwaWxHS0hZSHB6SExBbzByRWlQeEZxcExURWttNHN4WWhwbWQzaUk3S1NQTFlfcXJBTDdtdV9NeTA4QllBWnlUX21oZ1dLVnJQYTUxbURiMWcw?oc=5",
         "domain": "eurasiareview",
@@ -120604,21 +120595,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "FRN sanctions: UN ban hits Kabila group, 323,000 flee",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCbWhWYU1pRDBfVXNHZjNEVFZGSGN4ZHRVQ09Ta1ZtZnlZVEhYSjdGdVBObkFHamlEbHlPLTR5TF9wRTd0UDlEdll2YmMxbW1HTTZUMWw0VEFtbHIyRVpvM2Y0WUp0SEk?oc=5",
-        "domain": "dneafrica",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T224300Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Security Council renews sanctions on Yemen",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0xabUNBYTNfYWd0b2U2X094U24xWmJHOUN2NzZiNnNWclVVcUpLdTM2eVdTUXM1OVdkV1hqY0FhRmkwS05sSWktWU5kZnpoMlNlaE52RFdpQlR5eS1TN1RzRDFiMFdUVjdGQWhGY0hFMUFsQTJlUHc4V0tmNjBxOU9R?oc=5",
         "domain": "middleeastonline",
         "language": "",
         "tone": 0,
         "seendate": "20261113T093200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "FRN sanctions: UN ban hits Kabila group, 323,000 flee",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCbWhWYU1pRDBfVXNHZjNEVFZGSGN4ZHRVQ09Ta1ZtZnlZVEhYSjdGdVBObkFHamlEbHlPLTR5TF9wRTd0UDlEdll2YmMxbW1HTTZUMWw0VEFtbHIyRVpvM2Y0WUp0SEk?oc=5",
+        "domain": "dneafrica",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T224300Z",
         "source": "GoogleNews"
       },
       {
@@ -120640,21 +120631,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMGNRa0E2YTJScUJkYXVLcTFYd1NuaVZvMndqUHlKY213cGotYUdaMHgzdGZfY3JTQ2pJT0dOYWJ3YjRCX0hNNXlpMGt1dU5uUU5XVl93V0xBSTFaeWlZMHhkQjY4YjdkenNzVjhteWFpWGFaUy1BUjlYNWk0aXVQczFRS1Q0UW8xNEZwUXRHQVFwV0F4VlBRR3h2c25nY2V2Wl8yWUVFRDV4LXJBZk1lVzRMSzBzR2ZaVXhENjdpYkNkVkFkT3V3SnNtTkdDVjZwR3lzWWxBZmtOWTdfRzdJcTJsWmpKcHJyOGNkN2hTd1BzYmZ3bk1FNlJnUF9YUFVDcVllaGlyOA?oc=5",
+        "domain": "reflector.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261114T051746Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UK imposes sanctions on Russia’s SIBUR; Kazakhstan could feel the impact",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY3p4S2ZkVGptWlkxWlFSU0pZamxRU3hXTDJiM003TUR2OTQzb18zV09fY0dSQmh3anRkd0xkT2ZzaTFxUURVVHJoc2JNamRuOXB0OW5ranV6MEFnaEVtNzJXNmFGSzZTdlRGdXplT3FkU1pfVFVZRlVkTW43MTVlamJMcXdOZHFNQ3dDbHYtZ25XVzJ2U0RPdFRzeEN6UzA5LW96NmdpTVozQ2k2cEllQlBGVHdHektTdDYw?oc=5",
         "domain": "kursivmedia",
         "language": "",
         "tone": 0,
         "seendate": "20261113T064453Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK Sanctions Slavneft and Claims Coverage of Russia's Largest Oil Producers",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaXNIN0V4Y1dabDlkWmgweXUyMDNmU09VWC1JdVpIcVpzZEJLUVlKdml3ZE1BZ1VCVWlabnFOR3ZuWmZiVkhHWFRtUjUxNmNNeVMxSWJ0ZndVRmtrWXdwakoxUThUcG1RNWRrMllYVkt0RXJhM3F0aUJsS1V5WTgzUU9uY1hBTm5PanNhQUQyYVVtMWxqQ2Y4TVk5OVVrdDBzN0E?oc=5",
-        "domain": "energynews.pro",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T063447Z",
         "source": "GoogleNews"
       },
       {
@@ -120676,21 +120667,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "France Welcomes UN Sanctions Listing of Kabila’s FRN",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLU5tZk1LaWpGS2otU1VMRkRkOFg0VV9ITVNsY3paUngtVFV3N2NjOUJmN3BPZmlKT21MeE1Gc2lqOGtiaFdwbW1QTGxOdnhWT0hwazN1SGk4TVNfeV9QdjZZZzRMOFdCVjB6Y0hNR2w4TWRXOEpibXhyRHlhcjBLQk9iTQ?oc=5",
+        "domain": "chimpreports",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261114T172406Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UN Security Council extends sanctions on Yemen’s Houthis",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRnZmM3FQTGZ0cGd3a1VQWU9BQlBkd1lpbC1Sa2xnRmZkdUJaTGY5dmtPYTFkWkpqZmlVNnFJQjVqS0ZsVVl3eDlGak5hVm9BelMwMjhJcFVFR29GOVRQQWZLZGg2TVVSY3BPcXJCUlNaUnZaMk45TmJYTFhtTHZPUEk1QXpKRzBGXzlXSHRnVHZsN0RCd3JOaElOTWoxV2VXME9uemR6cw?oc=5",
         "domain": "saudigazette",
         "language": "",
         "tone": 0,
         "seendate": "20261113T100100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Securitize Agrees to Buy River One, Expanding Into Asset-Backed Lending: 10 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOS13YUZNYzM4RU1MOW9vMGd5TkJZNEJJX3UzNlhDOVdVR3c3aFo2bmE4RXBvM1pyQS1jcXJ4dlVXdWNPcG9XXzdTZlhyZHdUVUV6dWpGVjMybjhtZnJDbzdvbVNhTTgxcmhWYU8xZGc2dk12cHcxMlVIb0xrVHAzSUlKbFpLQ0hYQVlIeXVaSXMwSl9FNGMya3Y4TUpfakpRbWZuVVNDM2oxTFU5RHFVdlM0TXJ1MEhzRl9FeTliaTZkNHNBUlpqaUZRampoSmlhRC11M0VjRzFGTHlQ?oc=5",
-        "domain": "newscord",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T112734Z",
         "source": "GoogleNews"
       },
       {
@@ -120703,21 +120694,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France Welcomes UN Sanctions Listing of Kabila’s FRN",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLU5tZk1LaWpGS2otU1VMRkRkOFg0VV9ITVNsY3paUngtVFV3N2NjOUJmN3BPZmlKT21MeE1Gc2lqOGtiaFdwbW1QTGxOdnhWT0hwazN1SGk4TVNfeV9QdjZZZzRMOFdCVjB6Y0hNR2w4TWRXOEpibXhyRHlhcjBLQk9iTQ?oc=5",
-        "domain": "chimpreports",
+        "title": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VWWVhRjlMVjR4M2ZBOEZ2MmphcFhXc2YyZGNIUnJXOV9uX1c0Sm8yNjFoS2owVVF0UE5ENy1UMDBpZnZjdTVUOA?oc=5",
+        "domain": "dawn",
         "language": "",
         "tone": 0,
-        "seendate": "20261114T172406Z",
+        "seendate": "20261113T040538Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UN Adds Kabila’s FRN Movement to Existing AFC Sanctions Listing",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSkw5WFNrRmtXek12blV6NGl4ck1KcE1BblhueTN2c293amNRNWNmQmF3cFlYbXRlLXBSSkVZRUJKR1dwWUctVmY2b1kxaW9oZ0VobDQ0T2Rmd2ktbEpYX1J4ZU11TTlPSEl5dTFaM1R4eTBEZlpyQ0VxVzd3eFpCV21ZSE03NnhrZDA0SzU4dw?oc=5",
-        "domain": "ugdiplomat",
+        "title": "Behind the Scenes of the UN Security Council Consensus: Russia Removes the “Terrorist” Label, While China Delays Tougher Restrictions on Houthi Arms Supplies",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55T2dCZmc1QjMtR3N6VkM5U1FkeFZ5Tmp3SGNNZGdwLXdtS085QjhwTXU1SE5PT0xXalJDaW9hVGJnTzgydmJseXd1ZWpSdG1UajNQZlp5ZWFpZjMwa3l1a2xpdkJOT1hmMzNwZnN1RVg3ZDlQMEE?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261114T155642Z",
+        "seendate": "20261113T223223Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Polish Lower House Approves Sanctions Bill, Explicitly Including Cryptocurrencies in Freeze Measures",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13dXRyWjVXazl3MUFYQjV4MkF1UVp4cjZWUzY0MWRnRHVIT21zU2t2WUk1WjY3SkNWTk5TYl9pLTd2bm4xamVPRTNSMW5faGt4NVF2Zg?oc=5",
+        "domain": "iolite",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261111T053527Z",
         "source": "GoogleNews"
       },
       {
@@ -120754,15 +120754,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261114T123634Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Poland's Lower House Approves Sanctions Bill Including Crypto Seizures",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNUxKN1o0U18wa0pBOWItR2tzOGpZUG9DcWtKSUxSLWo4VzlyOGFLMkt5QVFodjh0UGpFTmFyTlBtYlZ6bndONExDTFdrZEFwb0xGc1VGTzlmSlNueURweF9QY2VxcGJlNzlvYlZyWGlUTDRMNVlmMUZoRmpkZmNaSDFkRlQzNjhqNWQ4WGRKZE1RZzlfbDRUYlAxbDlBMGQt?oc=5",
-        "domain": "menafn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T143036Z",
         "source": "GoogleNews"
       },
       {
