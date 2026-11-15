@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-14T22:19:40.594350+00:00",
+    "generated": "2026-11-15T06:20:27.642302+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-14T22:17:54.046695+00:00",
+    "issued_at": "2026-11-15T06:18:41.252686+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 14.3,
@@ -263,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-20T04:49:06.077773+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-20T11:16:27.054183+00:00",
         "score": 28.1,
@@ -2234,6 +2223,17 @@
       },
       {
         "timestamp": "2026-11-14T22:17:54.046695+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-15T06:18:41.252686+00:00",
         "score": 14.3,
         "level": "BASELINE",
         "components": {
@@ -120649,6 +120649,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK Sanctions Slavneft and Claims Coverage of Russia's Largest Oil Producers",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaXNIN0V4Y1dabDlkWmgweXUyMDNmU09VWC1JdVpIcVpzZEJLUVlKdml3ZE1BZ1VCVWlabnFOR3ZuWmZiVkhHWFRtUjUxNmNNeVMxSWJ0ZndVRmtrWXdwakoxUThUcG1RNWRrMllYVkt0RXJhM3F0aUJsS1V5WTgzUU9uY1hBTm5PanNhQUQyYVVtMWxqQ2Y4TVk5OVVrdDBzN0E?oc=5",
+        "domain": "energynews.pro",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T063447Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "UNSC Updates Yemen Sanctions to Address Houthi Threats",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU21DbTJyTFhUQVU2YUF6WVhDZkZTVDQ3TDFaaGZHcjlLbjQ5azFLSDl2TXJfanZSaFVXUmVyWW9SeXBNV3NUdk5yWi1TWjJvMHN0Q1M1R0duVU5MNjhiTW1Od1FZWDZTRGM3Vk5xWk8wSExZdmNaWXByN2VwVmVLZlRieGgyR2djOXc?oc=5",
         "domain": "miragenews",
@@ -120664,6 +120673,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261112T213947Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN Security Council extends sanctions on Yemen’s Houthis",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRnZmM3FQTGZ0cGd3a1VQWU9BQlBkd1lpbC1Sa2xnRmZkdUJaTGY5dmtPYTFkWkpqZmlVNnFJQjVqS0ZsVVl3eDlGak5hVm9BelMwMjhJcFVFR29GOVRQQWZLZGg2TVVSY3BPcXJCUlNaUnZaMk45TmJYTFhtTHZPUEk1QXpKRzBGXzlXSHRnVHZsN0RCd3JOaElOTWoxV2VXME9uemR6cw?oc=5",
+        "domain": "saudigazette",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T100100Z",
         "source": "GoogleNews"
       },
       {
@@ -120685,15 +120703,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council extends sanctions on Yemen’s Houthis",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRnZmM3FQTGZ0cGd3a1VQWU9BQlBkd1lpbC1Sa2xnRmZkdUJaTGY5dmtPYTFkWkpqZmlVNnFJQjVqS0ZsVVl3eDlGak5hVm9BelMwMjhJcFVFR29GOVRQQWZLZGg2TVVSY3BPcXJCUlNaUnZaMk45TmJYTFhtTHZPUEk1QXpKRzBGXzlXSHRnVHZsN0RCd3JOaElOTWoxV2VXME9uemR6cw?oc=5",
-        "domain": "saudigazette",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T100100Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "France Welcomes UN Sanctions Listing of Kabila’s FRN",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLU5tZk1LaWpGS2otU1VMRkRkOFg0VV9ITVNsY3paUngtVFV3N2NjOUJmN3BPZmlKT21MeE1Gc2lqOGtiaFdwbW1QTGxOdnhWT0hwazN1SGk4TVNfeV9QdjZZZzRMOFdCVjB6Y0hNR2w4TWRXOEpibXhyRHlhcjBLQk9iTQ?oc=5",
         "domain": "chimpreports",
@@ -120712,30 +120721,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Behind the Scenes of the UN Security Council Consensus: Russia Removes the “Terrorist” Label, While China Delays Tougher Restrictions on Houthi Arms Supplies",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55T2dCZmc1QjMtR3N6VkM5U1FkeFZ5Tmp3SGNNZGdwLXdtS085QjhwTXU1SE5PT0xXalJDaW9hVGJnTzgydmJseXd1ZWpSdG1UajNQZlp5ZWFpZjMwa3l1a2xpdkJOT1hmMzNwZnN1RVg3ZDlQMEE?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T223223Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Polish Lower House Approves Sanctions Bill, Explicitly Including Cryptocurrencies in Freeze Measures",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13dXRyWjVXazl3MUFYQjV4MkF1UVp4cjZWUzY0MWRnRHVIT21zU2t2WUk1WjY3SkNWTk5TYl9pLTd2bm4xamVPRTNSMW5faGt4NVF2Zg?oc=5",
-        "domain": "iolite",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261111T053527Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UN Tightens Sanctions Against Kabila’s Rebel Movement FRN",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNFJ4VFJELVdMV1hqLUlxcm5tVnE4OVJSNEhDYlUtaHVmQXVFTTE3eU9nTVl1UXVBZzFrTlY3ZkM5c3hzSVJ3YmIwUXFsSWNvX2JMVTdvblJQNVgtUkszczg5NGowMG53am96X3VyQmtLbE9hLWRmaVhTaG9VXzR5eUhKcFdqR1NXbXc?oc=5",
         "domain": "chimpreports",
         "language": "",
         "tone": 0,
         "seendate": "20261113T074615Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "AI freeze lawsuit vs Anthropic, OpenAI: the real NZ risk",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLTcxVVpQX2piQXhFRkluT3ItNzh3MTBFeHQyYkt3WHdITkhYYXctcDRQWlA0bmp0eGI0bFNZMnFTZmpKN2MzZ3oyeThoY2lFM2hiZUk2NkZiRmhSN0VqZ0tBeGtjNXNua1pham1mS1d3bkRtbWdmU2otaFd0aGgtYVA5WGJXRGJnYlE?oc=5",
+        "domain": "b2bnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261115T013913Z",
         "source": "GoogleNews"
       },
       {
