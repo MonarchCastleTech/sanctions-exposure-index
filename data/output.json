@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-16T06:19:56.205205+00:00",
+    "generated": "2026-11-16T21:58:50.232406+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-16T06:18:10.025398+00:00",
+    "issued_at": "2026-11-16T21:57:03.915161+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 14.3,
@@ -263,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-20T20:45:42.227157+00:00",
-        "score": 28.1,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 36.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 42.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-21T04:49:32.023662+00:00",
         "score": 23.3,
@@ -2234,6 +2223,17 @@
       },
       {
         "timestamp": "2026-11-16T06:18:10.025398+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-16T21:57:03.915161+00:00",
         "score": 14.3,
         "level": "BASELINE",
         "components": {
@@ -120541,21 +120541,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Hamas and the Palestinian Islamic Jihad: EU adds one entity and its founder to the sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbk5xTHpBTjdiVmJobE1GcUxweVNjNlAwWnhINXYwME1rMUROZXRCYkJhYVZGVER6NTZaNVFEV0c5UlZiUFVTWGtHT3AxRnVxREUxaUpkRVhCTG53dHFPenNjeGw0Sk1HeFFFRnk3YzkzY0FDWGlzeGZkdW5EOTF0NE9ROFNrX2N5ZWhUamx1QkEyWV9IYVhUaVRLTGVIYWpUQTVGVFM2cl9vVnl3ZVljekhLaG1ubTJGcFNReTJQa2lkUlV0SnVzQ19RdkI1aTlic1M4R0ZGOV90TkJvSElmRE5SUUZzLWdPMnh2djNNU2hwTFg3TVp3?oc=5",
+        "domain": "councileuropeanunion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T102832Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Poland’s Sejm Approves Bill Expanding Sanctions to Freeze Crypto Assets: how 7 outlets framed it",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa2ktNHA1SHFJdS1QZUZ4R28xbmlyblJPTENUZkxOWmMtaExMa1l5SkFMM1FTeUdYNnFHWE9sa1N3MWlEdndubmUwcjFGbUl3UlZKMTVMYWI1eXJleGQtZU9GRTcxVlBfVjlNTmQwNFNjSy0wTjR1VHlUNVBwemVYNXlPRGlaWUFwcE9oMDBBNmFUcnhRakc1OEFHTXp5M1JXZUdaNm53WjY3QVdMUFFOZTVqVjVHd0IxRnVDdi1oMVhVTEdod2w0Q05NTFl6VDZpZ1ROZlNlNFp3bVRI?oc=5",
         "domain": "newscord",
         "language": "",
         "tone": 0,
         "seendate": "20261110T173535Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Poland’s Lower House Backs Crypto Freezes Under Broader Sanctions Bill",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcHF1LTl1TjNNNjEwMnRoX0dwU1RKUlBDNTJNeTNxcER4Nlc1U2g2ekZXLUEtM284TEZGc0ZBSWF4dWZTMnNpajNkTXB0ZEo0eWtfN19iMkFVWWRBSkllSzFJTS0yWWxrejhDaHZZbW5XWTVUem5GMzdfMVhwTFd2Q3E4Q08yN3M2TFRDbzVvenJ3QU9xSXNYSXJJVk14dW56VEQ0T3RVU0NSNlVR?oc=5",
-        "domain": "thedefiant",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T120610Z",
         "source": "GoogleNews"
       },
       {
@@ -120568,6 +120568,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "A year after taking her $5 billion online retail empire into Africa, Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlZ3a0txRVRIdDB6NlRzZjZLc3B2aTJuNXh3bC03b2VHaWc3dXNGY3pzaHdFYWtmSDA5MGNnMW1TbUcxd1FBdVNDRXVhb0NSazRLVkk0TWNpa1hQTF9LemhMYURiVFN5c3RMcG5iZjRNMTJ0cHhaR1J1ZVl5MG5UeDN6TFZZa29CMG8wU29nRk1Ed2F3QVZGRnA0OHVvNmlmNUsyeTdGMXpRS0FjZm8xTnl1RHl4clN4dS1XZ3dYd1VUT3FOZ2kzRUJJUUN1a1d4SUYw?oc=5",
+        "domain": "businessinsiderafrica",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T194749Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQmF3dG85RkJCWjZEVUJvMlN6bWVLWEFPbDlHUEstWUItVGNkeng5WG95Rk5yMWV4R0p0dlRfNjdDMENFSWJqTG9CYzBwOEZpcHZyMndCakFvQ2E1VTB5TUVidkNzTEloUTRhSmVNY3FhNWRkTTl2bldoMVY5TlJtckphbXVpb0l0dkw1ckJCVVktZWNiaWs2TXlKYXllOHpzN2JPMEJNQklITHFiMWFBZVR3ZUhrUXlabk1ZTnp0TdIBvwFBVV95cUxNLVZYS3B5WENmWVV1cHhHR3BHMUkzWll2eHMyZXNKWi1NaTJUSVM1Y0Q3RG52YWd1dzY0TzFqbno5WHFOT3dxLUFfWVFCenozdE1oU1YwMklqOC10RkU5dDNzM2EtWmZXdDhLdGlaTGp1d0psQkhta2pWcEJUZWJHSWFxNzZkWnZpTWdzVUxmekQ4azlVY1BDZ1M3VTNUX05XVXhUalhjSlNKTEI0bFYzRzl3bFFfX21aZHEtLUgzTQ?oc=5",
         "domain": "southchinamorningpost",
@@ -120577,66 +120586,66 @@
         "source": "GoogleNews"
       },
       {
-        "title": "What students got right about the $6 billion Binance hack, and how they would prevent the next one",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdTFOZi1yNVRoR21mWmkwOTBqZHdxMkpOTEF4VFBCSV9ndzhPd3ZzeDlITXdRTjFBRk02YzRuaExFckYyZ0R4RU5wM1ozQUJLYTJFblg2YUo4V0dpOUxVSTVDT2hjZ3hMZDBESjNWUHhDN3otakFUSEpoeFBUYkZoY0hiRk1UOVVncERuQlVWUzItWmpqUGF0RGRMWDRkLWN3eHNDLVgxamQxQmVyVF9jUGNORWFZOE1wSmRzQ2FjVGkyd3VpZHl2QzBZb245OTdWT0o3V2RuRQ?oc=5",
-        "domain": "atlanticcouncil",
+        "title": "UK Sanctions Slavneft and Vessels in New Russia Measures",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREVNQ2dQOWlBZUN5RktMblUzRC1maFlVaUw2RVVOTWdPUGQ0aEF1VjBxSGZucEh5dVFZNGIxTWlrdW5CVWxpd2tTWVFIMlZMMmQ4Qk95d01BbGY0aGlSdWlIMGM4ZVVXMWNEYzNnZHpMNV9jaFRUdzNhMFk3QjE2NnVEYko0eGd5SFBHWTQyTWx4WXZwY08tYzRZbWZZTnRj?oc=5",
+        "domain": "shipbunker",
         "language": "",
         "tone": 0,
-        "seendate": "20261109T221141Z",
+        "seendate": "20261116T062835Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UK blacklists Slavneft and says it now sanctions all ten of Russia’s top oil producers",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONndHMFMwWDdESTFmcFZWZ2QyWHpRamhTV2xQcTdycFp4dnh3N2x0N0JRVUJIeUJCTzRqeE9LUkdGV1J2RE5UcWg2WDh0WDVkTkE1LW9pV19WSVUyWFJPa1hTTGprVWJFazdjTmZabnlUemk1c190czZDRTdOdS1MMUp5c3MtRmg3WUNUTTltNkw2QVQ2ajQwbUc4Q2pvRm94ZzZwRkJ1OTA3WlRrZVFOOWFDdk9EeUlxZXNPOXNKd0VhaFE?oc=5",
-        "domain": "euromaidanpress",
+        "title": "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jWHRvNTRYTnpDandQOUdCbC1EOHVmOUVER1JJWnNhRGFld2FlUkxXd2lRMklQb3ZWeTY0V2UxVUVCRWlFZC1XNHpVWm03TU5keXRndGl2aXV2VkRyWF9IYUxWVFFuSUFrZEpPRmJLbEVaMmlXNzln0gF8QVVfeXFMTlE5WVAtRVpMRHY2dU9BczEzbGR1WnI4NVlxQXprd1FJS0syQllRZE5fUnNJbUlXT3VLajhKbklrb3Bqd3pLblhMQ3NpcnFoN3RjQnJpSkh0QldUM0ZyN2YtdHk2WGEtTkVXVXRJMExRVjdxMS1lWmJiRm1VRw?oc=5",
+        "domain": "cnbc",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T144644Z",
+        "seendate": "20261110T093424Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council Unanimously Agrees Moves To Halt Houthi Drone And Missile Production",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmloTGxEM2dLdHpPcDc3Z1RCQVp5d2s4aV9mSXYtR2FHLWJMN1BiaTBTc1ZPYVo4Q0RUMktJQ2dGNV92S01OQW5OSUFNUzZJdm1PTVptbUxSUk9LbTlDV044eHhKUHBIZkxyS3dJenpEY2ZfLUIwaWxHS0hZSHB6SExBbzByRWlQeEZxcExURWttNHN4WWhwbWQzaUk3S1NQTFlfcXJBTDdtdV9NeTA4QllBWnlUX21oZ1dLVnJQYTUxbURiMWcw?oc=5",
-        "domain": "eurasiareview",
+        "title": "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWhuZFJrU1JMVHlIcTlIbEdFQkI5Y3FsNGxVSm51RnpCZjN3WjRoX1pZS2RQUnI0SVE4MTlsWDhKTWszSU1BR0pVcmxITzFKR0FZcHVFVlZNUTBkbGNOMHdYMWRjUnBiVkEtYVJkS3RVQXc2YTNoR21ockNONHJRZ1QwY0E0OE9GZ1hKdXdvRG9jYndCaEVvRlJzRmhoVDQ5UjRMNWpzU21UTXVTb3ppUFBQRUpzdlJFX3Yzbg?oc=5",
+        "domain": "themoscowtimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T015209Z",
+        "seendate": "20261116T133635Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Frozen Mussel Suppliers, Export Data & Price Trends | Global Market Overview 2026",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mYVlrdHlPQ1NsVjR3ZWNWMVJjZF9FZlpPaHNEdVZfUFFyeXAzUTNBaEl0WDBkeUJodkJhbGxGOXlNYTA3eVJnNkxsLUtPMXZJWFF3Tm9ndlZIM0w5X2JqRHJn?oc=5",
-        "domain": "tridge",
+        "title": "EU ministers approve new sanctions to further restrict Russia’s ability to finance its war",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQjhYTFVWOHJTaFhsd2x3dFFET0pHUDdLZldPeVdmMm1oRTZPUFZFeVdXUHl3dDktQWhYRktCc3E5LVBCSkNlWEI2NnBHbDhuM3U1WHEyMlRWQ181UElkZHZjVFBrc1JsQUJOZ3B2S1ZPZ0pCWWptWTdFVVIyWlZzYzk4WHExTGRsa0dGdGVlWVptOG04c2k0WnF5M2dBWEtfTHp0dzN2ang0SVVuaEQxaGlZZ0FPRFNWb1laWk14OUx2UQ?oc=5",
+        "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
-        "seendate": "20261111T080000Z",
+        "seendate": "20261116T123336Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council renews sanctions on Yemen",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0xabUNBYTNfYWd0b2U2X094U24xWmJHOUN2NzZiNnNWclVVcUpLdTM2eVdTUXM1OVdkV1hqY0FhRmkwS05sSWktWU5kZnpoMlNlaE52RFdpQlR5eS1TN1RzRDFiMFdUVjdGQWhGY0hFMUFsQTJlUHc4V0tmNjBxOU9R?oc=5",
-        "domain": "middleeastonline",
+        "title": "SIBUR Sanctions Test Kazakhstan’s Petrochemical Ambitions",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSEhLMEI4TlM3SENHdXRvRXAzbzdsU2NvSkVES2p5UnNmYk5JdkR3cEZtZzFPZE5HNWloM2ZrRG9VM003Q3kzQ3FQam4yZ25MQldfUUZmNmNhX2NtamF3UXNZV3E4Z0JrRWFJaktUVFZXTnMyZmhoeDY0dkxVcXBmTE9CYw?oc=5",
+        "domain": "thetimesofcentralasia",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T093200Z",
+        "seendate": "20261116T111024Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council reauthorizes Yemen sanctions",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSU5aMkl4eGd4NmVEZUtSNGJOZjVKYXNJZ2ZpcmpVZHBNOHhqUXJxZnJHekFGTmdzRlZEcFZUVGUxUmZsSkRGQ0EtQ3ZYZVc5aVdPdGxZYVd6NG43SUdnR3FXZVhacXh2TERoeThoZXpaM1dCMFVHTjJ6YUhjeHBIOA?oc=5",
-        "domain": "macaubusiness",
+        "title": "EU sanctions Haitian armed groups over rights abuses including killings and rape",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONWJKWlU5dkFqSFlqY05NSU5HLVQya2JCUHlDYnJRb1ZTNUNvYUZIWWs5VEd2eS1uSzhVd2VLVUJlVlFYX0swZC1tR0ZFcDdFRGR4cy12RW45VlVzZ2tsVjVuMTdCSEpQOGpja3c2TmpTdjZ4WkdwZkg1X0IwTFEzSjRyQmlocTRUaUxrRk1jTzdRb2tUbkFrMjJzM1dpdTc0b1N4WlZpNmZoZFVNUS1VbXJtZDRWRzFFWC1GZDhFNlhxZm9GeVhvNw?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261114T072800Z",
+        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Egypt's Final Terrorist Listing of the Brotherhood: Everything You Need to Know",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdl9zd2Vtb2JiLXdEUXNfUl83RGxHTkVGbDAzcWhVcmwtYmVUM2d5NGhTOW41RzJrUXdDWXVoOHZ3SVIzQy1LVTZEVXJuMm5oWUlLSTRpMF9zLUQ0R0ZhRF9OcWZWVXZRbTBuZFZoWW1GTFhWQXl6RGlXekgta0w0ZkhWekczNWNkOW04SDhOaDg2YmNHVGJzVVZqX00zQ3huSXZsYzBtZjVkOUZZbXc?oc=5",
-        "domain": "egypttoday",
+        "title": "The EU has imposed new sanctions on 113 individuals and entities linked to Russia — oil refineries, Russian banks, the shadow fleet and more are targeted",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUnBHOXZVTzNjWjVRQ0RLV3BUNUFHZVpxeVZMZjJESG43bUQ5U1dzdHpKdmpsbk9uSkVZV3VLa1NXNlZwblZVbHJjUjc0M3p5aFRia3NzU3VBVTQ4aVh3U0RsMW9ZNTE0dmtybTRHVnVweDFfQmlRX2pzMUNOYWt1cWc0Q1JEdnVGYUEwQlI1NGdvYzBFeEhsODhCQnhCLTJZRFJvclluaTRUR2syWGVMZlNIUnpMc2RiczlxQ1JFLVA4Y2tiWUJydHRGZjdSRGPSAc4BQVVfeXFMUGwwZkxRVUJUYzB6TWVTQVA4b3FxRlZwNnVGSHYwZ3NhMGVGVFlVLWhsQmhBUjlONHBtNktQNWVuNi14bk1QbmxvZFFzQWpZVTFHNFhmSTI3ZTZRNHNhUHptNG01VkNGQk92dkNvZThncFg4M2JrWjEzVWxCeDR3NHVPcWJzRVZFVm8xbk9aTGtiY1dENVBzbUZobmM2ckhKbkVQQXpwQlRNRER0dGVLQ0J3aURTcTlpZE5MUnRiRXJ2dzlwT3otVGZJVGdueWc?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T064400Z",
+        "seendate": "20261116T120414Z",
         "source": "GoogleNews"
       },
       {
@@ -120649,102 +120658,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Sanctions Slavneft and Claims Coverage of Russia's Largest Oil Producers",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaXNIN0V4Y1dabDlkWmgweXUyMDNmU09VWC1JdVpIcVpzZEJLUVlKdml3ZE1BZ1VCVWlabnFOR3ZuWmZiVkhHWFRtUjUxNmNNeVMxSWJ0ZndVRmtrWXdwakoxUThUcG1RNWRrMllYVkt0RXJhM3F0aUJsS1V5WTgzUU9uY1hBTm5PanNhQUQyYVVtMWxqQ2Y4TVk5OVVrdDBzN0E?oc=5",
-        "domain": "energynews.pro",
+        "title": "EU Sanctions 12 People and 101 Entities, Including Nearly 50 Russian Financial Institutions",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81aDNkVFhIN29GclNNdWd3OUpOeTJrbzhWdFc4OUN3UTVzTDVZdU1wSXc1a2pNNUphWlpiWWNiRi02b0FFR25jX2ZCZ3lYSVVKajY1WXI5ZXZYdFl0QjBGYV93VkNmNlJUZTBxTzd3aw?oc=5",
+        "domain": "ceomagazyn",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T063447Z",
+        "seendate": "20261116T153315Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UNSC Updates Yemen Sanctions to Address Houthi Threats",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU21DbTJyTFhUQVU2YUF6WVhDZkZTVDQ3TDFaaGZHcjlLbjQ5azFLSDl2TXJfanZSaFVXUmVyWW9SeXBNV3NUdk5yWi1TWjJvMHN0Q1M1R0duVU5MNjhiTW1Od1FZWDZTRGM3Vk5xWk8wSExZdmNaWXByN2VwVmVLZlRieGgyR2djOXc?oc=5",
-        "domain": "miragenews",
+        "title": "Wildberries says EU sanctions against Tatiana Kim will not affect operations — The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSHE0RkMxYUxpb25vaTRKMDJFTmtZOWZpdGg3ekNPNHZEdUVwX2pQZmJNN2RSYllIR3dhYmJxS1RyZ0Y4R25abkdZYklsdlhmbkVQd052ZG03cFd6N2xmN19wcWVjdjVVYmVia3V6LWUzdkhvbkt6NjJQbGhoT0NHV1RmWGQ2VTZQWmhiRzJmY0ktQ0p4aU16eDVoYy15M0MyOTMyNjJtS1FsV0xDckJmUVVOeXBYVzVaWXRWbGRIVkNScVBfb1g0?oc=5",
+        "domain": "ua.news",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T033800Z",
+        "seendate": "20261116T135907Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council Extends Yemen Sanctions, Renews Mandate of Panel of Experts, and Condemns Houthi Escalation",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xYm1YWURDS3JYdzhaMFdOUktPVXI2OFF6X041Mm1NRnlsc1BQVXVWR2xQNjRyZGhkQk5uaGtES2JmWGxwYmtzbzdHd2o0aUZfNi1VUnhPbnZaRDlZMGxjUjlvZ2k2Z1JhZGRwWGdxUTZsdlRlclE?oc=5",
-        "domain": "news.google.com",
+        "title": "Securitize Agrees to Buy River One, Expanding Into Asset-Backed Lending: 10 outlets compared",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOS13YUZNYzM4RU1MOW9vMGd5TkJZNEJJX3UzNlhDOVdVR3c3aFo2bmE4RXBvM1pyQS1jcXJ4dlVXdWNPcG9XXzdTZlhyZHdUVUV6dWpGVjMybjhtZnJDbzdvbVNhTTgxcmhWYU8xZGc2dk12cHcxMlVIb0xrVHAzSUlKbFpLQ0hYQVlIeXVaSXMwSl9FNGMya3Y4TUpfakpRbWZuVVNDM2oxTFU5RHFVdlM0TXJ1MEhzRl9FeTliaTZkNHNBUlpqaUZRampoSmlhRC11M0VjRzFGTHlQ?oc=5",
+        "domain": "newscord",
         "language": "",
         "tone": 0,
-        "seendate": "20261112T213947Z",
+        "seendate": "20261110T112734Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Screening Before the Transaction Leaves",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZE1SMFB0SHdwcDFUZ0pmbmZTakFsY2xfMUNCdzFDbkduWFVFWUplS0JZcEY5REpkeWtwWmJLTTNjMVhRQnc3Um90ZXo4VDUtRlhvc0VuZGZYTmM5X04xalNQV2o1RGQwVEZYaG40NmJxTWRZaWR3dDVGZUFWZUlCaA?oc=5",
-        "domain": "fincrimecentral",
+        "title": "2027: Fmr INEC REC Urges President Trump To Prevent Rigging",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa19sYU5HRDZTZ0h2U3QwWmdKc1NzMEF0UVpjN1F1X01HWUVWSVlGOGEyaEdHNEQ5b1JRdUZYZERodlJKME84cEFkUnJFOUNfV2tHbE0zT01vTm8yaGJsSzZiak9qeFNzWUVUOXotdnRVR3I2ZzVqeFpZRERZcEdrei1kajRLbHhhak1V?oc=5",
+        "domain": "thesource",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T075133Z",
+        "seendate": "20261116T082520Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council extends sanctions on Yemen’s Houthis",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRnZmM3FQTGZ0cGd3a1VQWU9BQlBkd1lpbC1Sa2xnRmZkdUJaTGY5dmtPYTFkWkpqZmlVNnFJQjVqS0ZsVVl3eDlGak5hVm9BelMwMjhJcFVFR29GOVRQQWZLZGg2TVVSY3BPcXJCUlNaUnZaMk45TmJYTFhtTHZPUEk1QXpKRzBGXzlXSHRnVHZsN0RCd3JOaElOTWoxV2VXME9uemR6cw?oc=5",
-        "domain": "saudigazette",
+        "title": "EU targets Russian banks, energy firms, offshore traders in new sanctions",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJQbkU5V3dqdTk3MnQyWDZlazAxTWVsYm9RVW1vT0lLZURFTVQtLTItZF84QzZ3YXlFQjFaWGZQNmc1UXgxeGJkd3M1MFNaNmdya19uNFp2UlhpOUF2ejZzSTFlanUtZG9IU2k3SC1ONlVHLS0telFJNmtBdEc4MGk0REFyekc5WG1xUTlLNHdxZzlQajdzWUNaYXR6RnpBemxicnVzY0F1VnRpTFJlcnVxOFpFSWFfajhSSA?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T100100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Frozen Conch Suppliers, Export Data & Price Trends | Global Market Overview 2026",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QZjJNRnc1MlBFNTIyby1uZDZsLUZRTDF2QVFBcHVYQlFTOG5TWFIwa1AzdGxZVzFEeHVTZ2Rtem96Ylp2OEtWdFNIUDVjUFAzSDVxa0JKVzBZUklDcE5ibQ?oc=5",
-        "domain": "tridge",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261111T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France Welcomes UN Sanctions Listing of Kabila’s FRN",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLU5tZk1LaWpGS2otU1VMRkRkOFg0VV9ITVNsY3paUngtVFV3N2NjOUJmN3BPZmlKT21MeE1Gc2lqOGtiaFdwbW1QTGxOdnhWT0hwazN1SGk4TVNfeV9QdjZZZzRMOFdCVjB6Y0hNR2w4TWRXOEpibXhyRHlhcjBLQk9iTQ?oc=5",
-        "domain": "chimpreports",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261114T172406Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "DR Congo: UN adds Joseph Kabila's FRN to sanctions list after formally linking it to M23",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdFZLOWRYd19xQnBMQVFOS0tPbGpfTzB4cmlIWUFLYWowNmtOUEdmdDh6MktHQjRLenpiWTdtRnluVjRSRWFGNkcwdVVfZ2pzNW84alhSbmRac2cyLW1rdEtzZXNnNEpIZXdjOEV6Rzc3eDNEckVHWnQweGdmRi1uN1pUT0ItdFJ2TlVkeHVUNng5cWVRREVOY2RCaUR5bnZnZG9VNE1TWElrNm5wSXdsX0VRZkdna1VPUzhPdzZoVTZLb1lJU2hsaThPQXhLRlpwOU1ZejNHcnppZG5INGhzX1UtRE1MUQ?oc=5",
-        "domain": "theeastleighvoice",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261112T105858Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Behind the Scenes of the UN Security Council Consensus: Russia Removes the “Terrorist” Label, While China Delays Tougher Restrictions on Houthi Arms Supplies",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55T2dCZmc1QjMtR3N6VkM5U1FkeFZ5Tmp3SGNNZGdwLXdtS085QjhwTXU1SE5PT0xXalJDaW9hVGJnTzgydmJseXd1ZWpSdG1UajNQZlp5ZWFpZjMwa3l1a2xpdkJOT1hmMzNwZnN1RVg3ZDlQMEE?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T223223Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UN Tightens Sanctions Against Kabila’s Rebel Movement FRN",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNFJ4VFJELVdMV1hqLUlxcm5tVnE4OVJSNEhDYlUtaHVmQXVFTTE3eU9nTVl1UXVBZzFrTlY3ZkM5c3hzSVJ3YmIwUXFsSWNvX2JMVTdvblJQNVgtUkszczg5NGowMG53am96X3VyQmtLbE9hLWRmaVhTaG9VXzR5eUhKcFdqR1NXbXc?oc=5",
-        "domain": "chimpreports",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T074615Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "AI freeze lawsuit vs Anthropic, OpenAI: the real NZ risk",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLTcxVVpQX2piQXhFRkluT3ItNzh3MTBFeHQyYkt3WHdITkhYYXctcDRQWlA0bmp0eGI0bFNZMnFTZmpKN2MzZ3oyeThoY2lFM2hiZUk2NkZiRmhSN0VqZ0tBeGtjNXNua1pham1mS1d3bkRtbWdmU2otaFd0aGgtYVA5WGJXRGJnYlE?oc=5",
-        "domain": "b2bnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261115T013913Z",
+        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
@@ -120757,30 +120712,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UN Security Council extends Yemen sanctions and expert panel mandate",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnd1VnVfajJlZlpVb3dUM1RpX3BUaTAwUnByODZmZHEybW5LLTMzV0FzRm5fdFZyWXIxOGtZbHFPV3hIUlFTb2VUOU5VS29fOEdYb0prODl6MVFuaURwYWt6UGJnei0yWU9zako4dDgwV28yOU80NU5zb25LZU9EOTRlMWl0WHV2R3gwZF9rQTFtU2w0YTdYSW1fbXdEX28?oc=5",
-        "domain": "londondailynews",
+        "title": "EU sanctions Russia's richest woman Tatyana Kim over Ukraine war",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTmp5UlJWXzhrYloyaGItOE8ybDJkQy15NVBQVUhwTkhqbkNRWjlfcWNTQ2EyMURiU3RtclcyRUF3empGZ1AwUzVURUYxQVJIUXVPbXZ2cUJNQWhheVJVVHFEV1NPbDFWZ0xDR3gyb1VTX3N4Vkkza1BwRkNMS2xacElqZDRjanBhQ3JyS21CZG5nRnlZbU0xNFQ3UnJHdU81X2dkVjlKMDNydw?oc=5",
+        "domain": "trkiyetoday",
         "language": "",
         "tone": 0,
-        "seendate": "20261114T123634Z",
+        "seendate": "20261116T133252Z",
         "source": "GoogleNews"
       },
       {
-        "title": "UN voices concern as attacks on Yemen civilians intensify",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYlAxb1F3dWJZNmMwbGVHRUQ2bTZHSzg5WjFKWWZZMzRUQ05YOFBrSDl4MU96clA5QnVhdklRNG5RNFJmcDE2RkN4NGpIU3V1aWdqQzhicUkza3VOQm5BTUgzcXhQcXlBcnB1MW5nZWtXMjFndXNDZ01Kd2NqTzl6T01JWFpLOUw2NWZpMTFxZlk4cU3SAZgBQVVfeXFMT1dXbDFuUUFheHd0ZTNNXzVzaXc3SHp1OW9RcDlTVzFOMENZT3RNb3k0bVNFY0NtV3NpUkxVOXhPOE5yNTZSSVRfMnFHRDBpblk0LUJkZGx1RkRNS2RybWR0NC0yWWpxYm5XTWhTcHhmX2h3enhqZ0tfSDRPUnpWX2tPRVVVOXhjV3l1QkJIdDdwVnU4TVYzMWY?oc=5",
-        "domain": "thesiasatdaily",
+        "title": "Ex-INEC Commissioner Writes Trump, Demands Visa Ban For Electoral Offenders",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ1NqejJfVXExdjU4LXU0UjlSdVVySmVfNS05UXZWMEYzZHgyc3BucGZlcThzUnRwZkRKMno3UmNna1dLTHFxT3dqbk45MnpjanFNTGhVbERael82V3FjVEROUlR3RXdhd2JZWTZFNkg2T01Lc0lpVlk2RDY3aUp1ald3ZkJVSDhwN2pOY3FjWnN4R0VlMjByTw?oc=5",
+        "domain": "naijanews",
         "language": "",
         "tone": 0,
-        "seendate": "20261114T033605Z",
+        "seendate": "20261116T093652Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Houthis strike Yanbu oil facility & Saudi military sites as UNSC extends sanctions | Gravitas",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVVNlZ3BhaU1pSTRPWHYzUnBobEZ1V3o3eklLdXAwdXZ2d1hVM3pjM2JuYUIzLTFmZ2g2UUVNMVdQZWl0ZXBUZHZPelJ4OFJ1YXA5TDZxTVlCR0NURHdVcUtpM0dOVmNVdWdPMWk2WWFGV1AwUWlpak54VnRzZmpzclpQQ09TZHZUYzF3ZHZ1d2hQTVpnNlNDUkJ3RnQ3aDk2MGNCcWcyVUMyNEduZmRON0ZGTDlRLTNKY2NTTDVDV0daWlJ0a2N3djllb1JYVlhJeHVVNTc3Y9IB1wFBVV95cUxQVVNlZ3BhaU1pSTRPWHYzUnBobEZ1V3o3eklLdXAwdXZ2d1hVM3pjM2JuYUIzLTFmZ2g2UUVNMVdQZWl0ZXBUZHZPelJ4OFJ1YXA5TDZxTVlCR0NURHdVcUtpM0dOVmNVdWdPMWk2WWFGV1AwUWlpak54VnRzZmpzclpQQ09TZHZUYzF3ZHZ1d2hQTVpnNlNDUkJ3RnQ3aDk2MGNCcWcyVUMyNEduZmRON0ZGTDlRLTNKY2NTTDVDV0daWlJ0a2N3djllb1JYVlhJeHVVNTc3Yw?oc=5",
-        "domain": "wion",
+        "title": "Ex-INEC official urges Trump to impose visa bans and freeze assets of Nigerian electoral offenders",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY2xIWjd6ZHMyUVVjOGZZZnN5TUR3eFZJTmZqamo5ZHNPY2lKVFJvTEtraTdWUGVSTDc3VTMwVXpkclRzOHJmLU5TeE96bkYza2RNVnd6YldTUHl4a2NkSmo1dzBBdC1YdXQwVU1vVGlMQXlWa2tUX1Y2Mzlkb0J1ZFhXQzZqZ2xMdktqVVl0bXB1YkZ0d0h1Rm9XcWd6U1JfNWZoWDVTdGFyNG9xRXFFYzV1Nkp0aW1TUlo4VGJiUnJYQQ?oc=5",
+        "domain": "gistreel",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T172400Z",
+        "seendate": "20261116T085608Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Igini urges Trump to impose visa bans, asset freezes on corrupt INEC officials",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZXlEdW5Zby1DcFQzdWhGQlVjVXh4akNLZFUyd1REbzNkRzI0S190UUYtRXlyTkp4RWd5Q1o2OTFhZFcyczllWm5TZzBpbExvTHAweThIRGktU3NlYmFtbzBzdkpwM1BvaEViaFhUZi0xaU1NNDlEOTFRZGhpOEJRTmdxTXBKNjA4Tl9rdFVPUXNFUTNHYUxPTWtMbDBJUG91NlY2VzlwaTRNV1cwbXl3?oc=5",
+        "domain": "dailypostnigeria",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T081949Z",
         "source": "GoogleNews"
       }
     ]
