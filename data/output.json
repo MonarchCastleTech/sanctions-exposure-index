@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-16T21:58:50.232406+00:00",
+    "generated": "2026-11-17T07:49:45.547272+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-16T21:57:03.915161+00:00",
+    "issued_at": "2026-11-17T07:47:58.931508+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 14.3,
@@ -30,8 +30,8 @@
         "current_7d_all_releases": 2,
         "prior_7d_designation_releases": 6,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.5,
-        "anomaly_z": -0.17,
+        "baseline_weekly_median": 4.0,
+        "anomaly_z": -0.9,
         "themes": [
           "counter_narcotics",
           "counter_terrorism"
@@ -163,8 +163,8 @@
         "score": 3.6,
         "current_7d_releases": 2,
         "current_weighted_term_rate": 0.5,
-        "baseline_weeks": 11,
-        "anomaly_z": -2.02,
+        "baseline_weeks": 12,
+        "anomaly_z": -1.41,
         "matched_release_count": 1,
         "relief_release_count": 0,
         "evidence": [
@@ -263,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-21T04:49:32.023662+00:00",
-        "score": 23.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 24.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 39.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-21T12:41:40.390393+00:00",
         "score": 23.3,
@@ -2234,6 +2223,17 @@
       },
       {
         "timestamp": "2026-11-16T21:57:03.915161+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-17T07:47:58.931508+00:00",
         "score": 14.3,
         "level": "BASELINE",
         "components": {
@@ -120631,15 +120631,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions Haitian armed groups over rights abuses including killings and rape",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONWJKWlU5dkFqSFlqY05NSU5HLVQya2JCUHlDYnJRb1ZTNUNvYUZIWWs5VEd2eS1uSzhVd2VLVUJlVlFYX0swZC1tR0ZFcDdFRGR4cy12RW45VlVzZ2tsVjVuMTdCSEpQOGpja3c2TmpTdjZ4WkdwZkg1X0IwTFEzSjRyQmlocTRUaUxrRk1jTzdRb2tUbkFrMjJzM1dpdTc0b1N4WlZpNmZoZFVNUS1VbXJtZDRWRzFFWC1GZDhFNlhxZm9GeVhvNw?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T214113Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "The EU has imposed new sanctions on 113 individuals and entities linked to Russia — oil refineries, Russian banks, the shadow fleet and more are targeted",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUnBHOXZVTzNjWjVRQ0RLV3BUNUFHZVpxeVZMZjJESG43bUQ5U1dzdHpKdmpsbk9uSkVZV3VLa1NXNlZwblZVbHJjUjc0M3p5aFRia3NzU3VBVTQ4aVh3U0RsMW9ZNTE0dmtybTRHVnVweDFfQmlRX2pzMUNOYWt1cWc0Q1JEdnVGYUEwQlI1NGdvYzBFeEhsODhCQnhCLTJZRFJvclluaTRUR2syWGVMZlNIUnpMc2RiczlxQ1JFLVA4Y2tiWUJydHRGZjdSRGPSAc4BQVVfeXFMUGwwZkxRVUJUYzB6TWVTQVA4b3FxRlZwNnVGSHYwZ3NhMGVGVFlVLWhsQmhBUjlONHBtNktQNWVuNi14bk1QbmxvZFFzQWpZVTFHNFhmSTI3ZTZRNHNhUHptNG01VkNGQk92dkNvZThncFg4M2JrWjEzVWxCeDR3NHVPcWJzRVZFVm8xbk9aTGtiY1dENVBzbUZobmM2ckhKbkVQQXpwQlRNRER0dGVLQ0J3aURTcTlpZE5MUnRiRXJ2dzlwT3otVGZJVGdueWc?oc=5",
         "domain": "news.google.com",
@@ -120655,6 +120646,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261113T064453Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU targets Russian banks, energy firms, offshore traders in new sanctions",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJQbkU5V3dqdTk3MnQyWDZlazAxTWVsYm9RVW1vT0lLZURFTVQtLTItZF84QzZ3YXlFQjFaWGZQNmc1UXgxeGJkd3M1MFNaNmdya19uNFp2UlhpOUF2ejZzSTFlanUtZG9IU2k3SC1ONlVHLS0telFJNmtBdEc4MGk0REFyekc5WG1xUTlLNHdxZzlQajdzWUNaYXR6RnpBemxicnVzY0F1VnRpTFJlcnVxOFpFSWFfajhSSA?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
@@ -120691,15 +120691,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261116T082520Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU targets Russian banks, energy firms, offshore traders in new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJQbkU5V3dqdTk3MnQyWDZlazAxTWVsYm9RVW1vT0lLZURFTVQtLTItZF84QzZ3YXlFQjFaWGZQNmc1UXgxeGJkd3M1MFNaNmdya19uNFp2UlhpOUF2ejZzSTFlanUtZG9IU2k3SC1ONlVHLS0telFJNmtBdEc4MGk0REFyekc5WG1xUTlLNHdxZzlQajdzWUNaYXR6RnpBemxicnVzY0F1VnRpTFJlcnVxOFpFSWFfajhSSA?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
