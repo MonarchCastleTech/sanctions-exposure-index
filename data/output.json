@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-17T07:49:45.547272+00:00",
+    "generated": "2026-11-17T20:51:20.302815+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-17T07:47:58.931508+00:00",
+    "issued_at": "2026-11-17T20:49:33.882729+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 14.3,
@@ -263,17 +263,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-21T12:41:40.390393+00:00",
-        "score": 23.3,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 24.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 39.6,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-21T21:56:39.679688+00:00",
         "score": 23.3,
@@ -2234,6 +2223,17 @@
       },
       {
         "timestamp": "2026-11-17T07:47:58.931508+00:00",
+        "score": 14.3,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 24.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 3.6,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-17T20:49:33.882729+00:00",
         "score": 14.3,
         "level": "BASELINE",
         "components": {
@@ -120532,12 +120532,12 @@
     },
     "news_articles": [
       {
-        "title": "UK, EU and US sanctions on Russia",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
-        "domain": "fieldfisher",
+        "title": "EU Maintains Sanctions Pressure on Russia Amid Diplomatic Efforts",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVUlZZDFqOE5GVWxfWUJqWWlLanJOMTB3T2VHOTFaU2ZKQXV0UmRTSGVTZWUzNU1lMTdRRmV2aHpOTnAyTlJoaW1RaGdYV1hQYXo4MU0xSDkzQXlOOGZnWDJCaWdaMWVIWjl5cDJnV0J2cmwya3R0QmFwZFBiN1NwNjM4RFNXVUlhTGI0eFBSZ05uX1d4eUFueF9uMW9SMlpUel92VndHUEpxQQ?oc=5",
+        "domain": "morganlewis",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T080000Z",
+        "seendate": "20261117T144129Z",
         "source": "GoogleNews"
       },
       {
@@ -120550,12 +120550,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Poland’s Sejm Approves Bill Expanding Sanctions to Freeze Crypto Assets: how 7 outlets framed it",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa2ktNHA1SHFJdS1QZUZ4R28xbmlyblJPTENUZkxOWmMtaExMa1l5SkFMM1FTeUdYNnFHWE9sa1N3MWlEdndubmUwcjFGbUl3UlZKMTVMYWI1eXJleGQtZU9GRTcxVlBfVjlNTmQwNFNjSy0wTjR1VHlUNVBwemVYNXlPRGlaWUFwcE9oMDBBNmFUcnhRakc1OEFHTXp5M1JXZUdaNm53WjY3QVdMUFFOZTVqVjVHd0IxRnVDdi1oMVhVTEdod2w0Q05NTFl6VDZpZ1ROZlNlNFp3bVRI?oc=5",
-        "domain": "newscord",
+        "title": "Cryptocurrency donations linked to Hamas prompt EU asset freeze, travel ban",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWENWOVBveXpWa3lrMkFram1WNHFBR2pwdUtCOUkweU5Ic2N0aV8ydmtxUWpfY1pLaERaUHZCRkxVXzZIek1hZGxaUE9yTWF4ZmhuY09TdnhuR0FKWGcyVkVhTDBjWVBsbDhleGxMZlVzSGF0dDN6V2M1Nm1DanBoc0MzOGZMZmlzVktweW5adndYV19iaHp1ZVFRZjMzNWhZOHhsTmVydlpIQ0Fxb29aR3lB?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T173535Z",
+        "seendate": "20261116T215616Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Delisted in Brussels, Sanctioned in Tallinn: Who Decides on EU Financial Sanctions?",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hT01qMkhFRlFsYUItMXZTRFV3YVlhYzllUmNEaHBkQkJfNnVEUVltVW9aT1B4eEc2NTZFTlZPQ3NGV1hDazBNMXRyTTBKZ2lQc01haXFTVGp4UnFlVHFUakJmSS1HMEJDUnpLLWRxVjd5SVZhM1VpTmln?oc=5",
+        "domain": "verfassungsblog",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261117T120706Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict a year after taking her $5 billion online retail empire into Africa",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORkZJQTdCLUlSQTl2dXF3YUhESzNIaEs2ZTJ6Q0dmWE4zYjUzOWpONUZQUFlWUThPczlGOGh2WF81b0dOT2NxcHFGRlpGR0FvaXZNTmx1bDVZdGJlTk9pMmtDd3VETy1INVRESnpLdHVORmFPT1QyNi1OaGQxaG92aDF1YUxtNjRYZmQ0Z2JtUXU3MmhSX01OYjZYamJleDRWLTk1OFktMng3MzMwNlAxUDJlWW5YWUdPWFJIcGFOOUNmY2ZUMlk0elFFaHFPMEl1YWd6T2gydFZ6dw?oc=5",
+        "domain": "businessinsiderafrica",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T194749Z",
         "source": "GoogleNews"
       },
       {
@@ -120568,24 +120586,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "A year after taking her $5 billion online retail empire into Africa, Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlZ3a0txRVRIdDB6NlRzZjZLc3B2aTJuNXh3bC03b2VHaWc3dXNGY3pzaHdFYWtmSDA5MGNnMW1TbUcxd1FBdVNDRXVhb0NSazRLVkk0TWNpa1hQTF9LemhMYURiVFN5c3RMcG5iZjRNMTJ0cHhaR1J1ZVl5MG5UeDN6TFZZa29CMG8wU29nRk1Ed2F3QVZGRnA0OHVvNmlmNUsyeTdGMXpRS0FjZm8xTnl1RHl4clN4dS1XZ3dYd1VUT3FOZ2kzRUJJUUN1a1d4SUYw?oc=5",
-        "domain": "businessinsiderafrica",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T194749Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQmF3dG85RkJCWjZEVUJvMlN6bWVLWEFPbDlHUEstWUItVGNkeng5WG95Rk5yMWV4R0p0dlRfNjdDMENFSWJqTG9CYzBwOEZpcHZyMndCakFvQ2E1VTB5TUVidkNzTEloUTRhSmVNY3FhNWRkTTl2bldoMVY5TlJtckphbXVpb0l0dkw1ckJCVVktZWNiaWs2TXlKYXllOHpzN2JPMEJNQklITHFiMWFBZVR3ZUhrUXlabk1ZTnp0TdIBvwFBVV95cUxNLVZYS3B5WENmWVV1cHhHR3BHMUkzWll2eHMyZXNKWi1NaTJUSVM1Y0Q3RG52YWd1dzY0TzFqbno5WHFOT3dxLUFfWVFCenozdE1oU1YwMklqOC10RkU5dDNzM2EtWmZXdDhLdGlaTGp1d0psQkhta2pWcEJUZWJHSWFxNzZkWnZpTWdzVUxmekQ4azlVY1BDZ1M3VTNUX05XVXhUalhjSlNKTEI0bFYzRzl3bFFfX21aZHEtLUgzTQ?oc=5",
-        "domain": "southchinamorningpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T110613Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK Sanctions Slavneft and Vessels in New Russia Measures",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREVNQ2dQOWlBZUN5RktMblUzRC1maFlVaUw2RVVOTWdPUGQ0aEF1VjBxSGZucEh5dVFZNGIxTWlrdW5CVWxpd2tTWVFIMlZMMmQ4Qk95d01BbGY0aGlSdWlIMGM4ZVVXMWNEYzNnZHpMNV9jaFRUdzNhMFk3QjE2NnVEYko0eGd5SFBHWTQyTWx4WXZwY08tYzRZbWZZTnRj?oc=5",
         "domain": "shipbunker",
@@ -120595,12 +120595,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jWHRvNTRYTnpDandQOUdCbC1EOHVmOUVER1JJWnNhRGFld2FlUkxXd2lRMklQb3ZWeTY0V2UxVUVCRWlFZC1XNHpVWm03TU5keXRndGl2aXV2VkRyWF9IYUxWVFFuSUFrZEpPRmJLbEVaMmlXNzln0gF8QVVfeXFMTlE5WVAtRVpMRHY2dU9BczEzbGR1WnI4NVlxQXprd1FJS0syQllRZE5fUnNJbUlXT3VLajhKbklrb3Bqd3pLblhMQ3NpcnFoN3RjQnJpSkh0QldUM0ZyN2YtdHk2WGEtTkVXVXRJMExRVjdxMS1lWmJiRm1VRw?oc=5",
-        "domain": "cnbc",
+        "title": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQmF3dG85RkJCWjZEVUJvMlN6bWVLWEFPbDlHUEstWUItVGNkeng5WG95Rk5yMWV4R0p0dlRfNjdDMENFSWJqTG9CYzBwOEZpcHZyMndCakFvQ2E1VTB5TUVidkNzTEloUTRhSmVNY3FhNWRkTTl2bldoMVY5TlJtckphbXVpb0l0dkw1ckJCVVktZWNiaWs2TXlKYXllOHpzN2JPMEJNQklITHFiMWFBZVR3ZUhrUXlabk1ZTnp0TdIBvwFBVV95cUxNLVZYS3B5WENmWVV1cHhHR3BHMUkzWll2eHMyZXNKWi1NaTJUSVM1Y0Q3RG52YWd1dzY0TzFqbno5WHFOT3dxLUFfWVFCenozdE1oU1YwMklqOC10RkU5dDNzM2EtWmZXdDhLdGlaTGp1d0psQkhta2pWcEJUZWJHSWFxNzZkWnZpTWdzVUxmekQ4azlVY1BDZ1M3VTNUX05XVXhUalhjSlNKTEI0bFYzRzl3bFFfX21aZHEtLUgzTQ?oc=5",
+        "domain": "southchinamorningpost",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T093424Z",
+        "seendate": "20261113T110613Z",
         "source": "GoogleNews"
       },
       {
@@ -120622,21 +120622,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK cracks down on companies building settlements in the West Bank and groups blocking aid access into Gaza",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMmlWakp3LVU4dnp1dEluTFYtUzItZ3UzcGNfMWlqX3lPU3JaVTVmcUhQWkVjdFZZNF9zTW1oamxYWWQyNGk3VDVuUjUzZlJERW5ydk5MVTFUeVpqbXVUVC1BTlJJcVN1QWplSTlPYVRLZjYwekt0LW5VVDRySHZBcXN4bThydWt4ZGZQdWd4TlVONWN5SGtWdUtrQzBGdGhROEFfN0Fkc005dFlwSTEtdUxCS2dON2JuWGhqdUczdzRNTmpLei1IYzg4VmFqQjY0UWZ0N05yZTM?oc=5",
+        "domain": "gov.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261117T101913Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "SIBUR Sanctions Test Kazakhstan’s Petrochemical Ambitions",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSEhLMEI4TlM3SENHdXRvRXAzbzdsU2NvSkVES2p5UnNmYk5JdkR3cEZtZzFPZE5HNWloM2ZrRG9VM003Q3kzQ3FQam4yZ25MQldfUUZmNmNhX2NtamF3UXNZV3E4Z0JrRWFJaktUVFZXTnMyZmhoeDY0dkxVcXBmTE9CYw?oc=5",
         "domain": "thetimesofcentralasia",
         "language": "",
         "tone": 0,
         "seendate": "20261116T111024Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The EU has imposed new sanctions on 113 individuals and entities linked to Russia — oil refineries, Russian banks, the shadow fleet and more are targeted",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUnBHOXZVTzNjWjVRQ0RLV3BUNUFHZVpxeVZMZjJESG43bUQ5U1dzdHpKdmpsbk9uSkVZV3VLa1NXNlZwblZVbHJjUjc0M3p5aFRia3NzU3VBVTQ4aVh3U0RsMW9ZNTE0dmtybTRHVnVweDFfQmlRX2pzMUNOYWt1cWc0Q1JEdnVGYUEwQlI1NGdvYzBFeEhsODhCQnhCLTJZRFJvclluaTRUR2syWGVMZlNIUnpMc2RiczlxQ1JFLVA4Y2tiWUJydHRGZjdSRGPSAc4BQVVfeXFMUGwwZkxRVUJUYzB6TWVTQVA4b3FxRlZwNnVGSHYwZ3NhMGVGVFlVLWhsQmhBUjlONHBtNktQNWVuNi14bk1QbmxvZFFzQWpZVTFHNFhmSTI3ZTZRNHNhUHptNG01VkNGQk92dkNvZThncFg4M2JrWjEzVWxCeDR3NHVPcWJzRVZFVm8xbk9aTGtiY1dENVBzbUZobmM2ckhKbkVQQXpwQlRNRER0dGVLQ0J3aURTcTlpZE5MUnRiRXJ2dzlwT3otVGZJVGdueWc?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T120414Z",
         "source": "GoogleNews"
       },
       {
@@ -120649,12 +120649,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU targets Russian banks, energy firms, offshore traders in new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJQbkU5V3dqdTk3MnQyWDZlazAxTWVsYm9RVW1vT0lLZURFTVQtLTItZF84QzZ3YXlFQjFaWGZQNmc1UXgxeGJkd3M1MFNaNmdya19uNFp2UlhpOUF2ejZzSTFlanUtZG9IU2k3SC1ONlVHLS0telFJNmtBdEc4MGk0REFyekc5WG1xUTlLNHdxZzlQajdzWUNaYXR6RnpBemxicnVzY0F1VnRpTFJlcnVxOFpFSWFfajhSSA?oc=5",
+        "title": "EU has approved new sanctions against Russia: these will affect, in particular, Wildberries and ’shadow fleet’",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQXY5LTRDSWQyakZHN2hzV2JOTk5MZnhieWZpTElPdkJuQmt0b2JWOGFkWnlJSDAxRnJsNGpadWZqdGtOTWFQSHNzTGEzTDk1OHdTbUNzemZxQUY0TVk1VE1VMmM0Nk1yWUM3ZUFZU3BsZ251TXd0aF9GMTJINmotZ3NTaEpScnhOeWFRSW85cDdxak0?oc=5",
+        "domain": ".",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T121500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The EU has imposed new sanctions on 113 individuals and entities linked to Russia — oil refineries, Russian banks, the shadow fleet and more are targeted",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUnBHOXZVTzNjWjVRQ0RLV3BUNUFHZVpxeVZMZjJESG43bUQ5U1dzdHpKdmpsbk9uSkVZV3VLa1NXNlZwblZVbHJjUjc0M3p5aFRia3NzU3VBVTQ4aVh3U0RsMW9ZNTE0dmtybTRHVnVweDFfQmlRX2pzMUNOYWt1cWc0Q1JEdnVGYUEwQlI1NGdvYzBFeEhsODhCQnhCLTJZRFJvclluaTRUR2syWGVMZlNIUnpMc2RiczlxQ1JFLVA4Y2tiWUJydHRGZjdSRGPSAc4BQVVfeXFMUGwwZkxRVUJUYzB6TWVTQVA4b3FxRlZwNnVGSHYwZ3NhMGVGVFlVLWhsQmhBUjlONHBtNktQNWVuNi14bk1QbmxvZFFzQWpZVTFHNFhmSTI3ZTZRNHNhUHptNG01VkNGQk92dkNvZThncFg4M2JrWjEzVWxCeDR3NHVPcWJzRVZFVm8xbk9aTGtiY1dENVBzbUZobmM2ckhKbkVQQXpwQlRNRER0dGVLQ0J3aURTcTlpZE5MUnRiRXJ2dzlwT3otVGZJVGdueWc?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T120414Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions Haitian armed groups over rights abuses including killings and rape",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFpfckx2TVBxZWhleUhleDdqTHd5MC1PN0l2MmwxS3g1N1ctZnBFM3Z0cFV2bV9IQVgxVC1Ec2ZzSmRPZ2RzWWVuTU11LVBQTEVhbm53VHhUYjY2LXF0WXhPWndudEk1T253emVIbEs2WnlxVGthb1JRZnFLWmhfVWtzZG91MndfTkttd3NmTVFMeF9vSjhOVDB0eTdfcTZvaXNVc1JVZE44eWxxRzUwRDZrSnMxRVN5UkE?oc=5",
         "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
         "seendate": "20261116T214113Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "U.K. sanctions Israeli companies involved in building illegal settlements in West Bank",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUpfdVNNUGFwLXVSR01PSWpJUXlpYWVheDhMTk5WMGFpQ2FrWkJKMFZuc2Z1TG9iUFNpQUwwV2R6WUlPOThYLUhIZGhjTy1WQ2s5cmJLTnFVSEJ5cnhFWk8tazlSclJDZFU0R25Ib2REM09BQ1JVQkJuUWdZdlJHV3ByRUJrSzNPNFlYb2t5dXhCUmNxalhFOWl6RVdoUmNnSXJPcEljVTJDZw?oc=5",
+        "domain": "cbc",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261117T192710Z",
         "source": "GoogleNews"
       },
       {
@@ -120676,21 +120703,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Securitize Agrees to Buy River One, Expanding Into Asset-Backed Lending: 10 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOS13YUZNYzM4RU1MOW9vMGd5TkJZNEJJX3UzNlhDOVdVR3c3aFo2bmE4RXBvM1pyQS1jcXJ4dlVXdWNPcG9XXzdTZlhyZHdUVUV6dWpGVjMybjhtZnJDbzdvbVNhTTgxcmhWYU8xZGc2dk12cHcxMlVIb0xrVHAzSUlKbFpLQ0hYQVlIeXVaSXMwSl9FNGMya3Y4TUpfakpRbWZuVVNDM2oxTFU5RHFVdlM0TXJ1MEhzRl9FeTliaTZkNHNBUlpqaUZRampoSmlhRC11M0VjRzFGTHlQ?oc=5",
-        "domain": "newscord",
+        "title": "EU targets Russian banks, energy firms, offshore traders in new sanctions",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJQbkU5V3dqdTk3MnQyWDZlazAxTWVsYm9RVW1vT0lLZURFTVQtLTItZF84QzZ3YXlFQjFaWGZQNmc1UXgxeGJkd3M1MFNaNmdya19uNFp2UlhpOUF2ejZzSTFlanUtZG9IU2k3SC1ONlVHLS0telFJNmtBdEc4MGk0REFyekc5WG1xUTlLNHdxZzlQajdzWUNaYXR6RnpBemxicnVzY0F1VnRpTFJlcnVxOFpFSWFfajhSSA?oc=5",
+        "domain": "thebrusselstimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261110T112734Z",
+        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
-        "title": "2027: Fmr INEC REC Urges President Trump To Prevent Rigging",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa19sYU5HRDZTZ0h2U3QwWmdKc1NzMEF0UVpjN1F1X01HWUVWSVlGOGEyaEdHNEQ5b1JRdUZYZERodlJKME84cEFkUnJFOUNfV2tHbE0zT01vTm8yaGJsSzZiak9qeFNzWUVUOXotdnRVR3I2ZzVqeFpZRERZcEdrei1kajRLbHhhak1V?oc=5",
-        "domain": "thesource",
+        "title": "UK sanctions eight Israeli firms and activist group over settlement expansion and Gaza aid block",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb2VZOV9Ma1JrclpKZmpDbk05ZTdXUEhYaFpuSk9NYlZOVU1lSDNNRUdleFdzLXBIbmhRLVZQaXpxN2IwSmczbjZNaTM4QVIxRkMyUG05VEhzZmRpaFlRWHB4NTJDZEx6MGpETjZudHVVNndfX2lJeFMyME5WX1hVcjZRemlNQmRBV3RXQWQ5OGZ2Y2s0UXZSNjAzWXRHZDI0dllma2NiMnhyNkJINGF3Q1JxT29iMnBNZ1N1SGNrQUgyZksyaXpyenNJeTPSAdIBQVVfeXFMUDRNVUVpbFV1Y25WMmRXTDNFYjY3dW1rbXByZzR2V1pHRWdnQWlGTTY0TGk0THdXVW9SaU81UTB2bmdNRUsycGhTUU5ySnVpbEVfdW5aeDlaZG5ESlF4MVltZ2otV09HdWhnZlJuU19GSm1mVUE4SVZOeWJsczFIWnVURjhEZUpNeEZqcWVMWW9KYXdQamtEdmFRV0xvcXlXcWh0bWthRnVHaFdkN2FhUm5xbjdtRHItOEM2UGVXYXlMM0RJM2U4OW05MnJNbEt2cXRB?oc=5",
+        "domain": "jewishnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261116T082520Z",
+        "seendate": "20261117T095900Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Irish journalist Chay Bowes hit with EU sanctions over alleged role in Russian misinformation network",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMDBNYmNQblBYZ2NVZWZHaFg3M3VHUXdwZk13VnBmX1QwcXl4UW5FMlczc3AwYV8teXBBUVVfQjBJbGZsZVVZb01EeEN6a3ZHZXE4NEJOUEZFbFd6ZTB2LTdQQ2FKM3R3V1JBems3Tm1qUlY1bjVscVJSWGlKUk9kYzVDS2ktSXZxTC0wRjRRamNpTUREYmtkVzBsTjI3MHF2ODNKYU9uQm9vV1g2amw5VExVcWJVWnYzc2l3eXpsRXRUSGMtS3N6NlVrU19uQk9CNXVCZzY5STA4VkRDaEhhb0hhdjhMdi1veHlyZ3hyR08zZXJuUVVFOA?oc=5",
+        "domain": "irishindependent",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T140528Z",
         "source": "GoogleNews"
       },
       {
@@ -120709,24 +120745,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261116T133252Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ex-INEC Commissioner Writes Trump, Demands Visa Ban For Electoral Offenders",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ1NqejJfVXExdjU4LXU0UjlSdVVySmVfNS05UXZWMEYzZHgyc3BucGZlcThzUnRwZkRKMno3UmNna1dLTHFxT3dqbk45MnpjanFNTGhVbERael82V3FjVEROUlR3RXdhd2JZWTZFNkg2T01Lc0lpVlk2RDY3aUp1ald3ZkJVSDhwN2pOY3FjWnN4R0VlMjByTw?oc=5",
-        "domain": "naijanews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T093652Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ex-INEC official urges Trump to impose visa bans and freeze assets of Nigerian electoral offenders",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY2xIWjd6ZHMyUVVjOGZZZnN5TUR3eFZJTmZqamo5ZHNPY2lKVFJvTEtraTdWUGVSTDc3VTMwVXpkclRzOHJmLU5TeE96bkYza2RNVnd6YldTUHl4a2NkSmo1dzBBdC1YdXQwVU1vVGlMQXlWa2tUX1Y2Mzlkb0J1ZFhXQzZqZ2xMdktqVVl0bXB1YkZ0d0h1Rm9XcWd6U1JfNWZoWDVTdGFyNG9xRXFFYzV1Nkp0aW1TUlo4VGJiUnJYQQ?oc=5",
-        "domain": "gistreel",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T085608Z",
         "source": "GoogleNews"
       },
       {
