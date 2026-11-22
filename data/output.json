@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-21T19:10:02.323497+00:00",
+    "generated": "2026-11-22T06:39:31.887478+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-21T19:08:15.665583+00:00",
+    "issued_at": "2026-11-22T06:37:45.522028+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.9,
@@ -452,17 +452,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-23T21:27:19.360759+00:00",
-        "score": 21.2,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 24.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 31.4,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-24T04:42:05.321478+00:00",
         "score": 5.0,
@@ -2423,6 +2412,17 @@
       },
       {
         "timestamp": "2026-11-21T19:08:15.665583+00:00",
+        "score": 37.9,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 84.7,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-22T06:37:45.522028+00:00",
         "score": 37.9,
         "level": "WATCH",
         "components": {
@@ -120962,30 +120962,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Delisted in Brussels, Sanctioned in Tallinn: Who Decides on EU Financial Sanctions?",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hT01qMkhFRlFsYUItMXZTRFV3YVlhYzllUmNEaHBkQkJfNnVEUVltVW9aT1B4eEc2NTZFTlZPQ3NGV1hDazBNMXRyTTBKZ2lQc01haXFTVGp4UnFlVHFUakJmSS1HMEJDUnpLLWRxVjd5SVZhM1VpTmln?oc=5",
-        "domain": "verfassungsblog",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T120706Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK Sanctions Slavneft and Vessels in New Russia Measures",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREVNQ2dQOWlBZUN5RktMblUzRC1maFlVaUw2RVVOTWdPUGQ0aEF1VjBxSGZucEh5dVFZNGIxTWlrdW5CVWxpd2tTWVFIMlZMMmQ4Qk95d01BbGY0aGlSdWlIMGM4ZVVXMWNEYzNnZHpMNV9jaFRUdzNhMFk3QjE2NnVEYko0eGd5SFBHWTQyTWx4WXZwY08tYzRZbWZZTnRj?oc=5",
         "domain": "shipbunker",
         "language": "",
         "tone": 0,
         "seendate": "20261116T062835Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWhuZFJrU1JMVHlIcTlIbEdFQkI5Y3FsNGxVSm51RnpCZjN3WjRoX1pZS2RQUnI0SVE4MTlsWDhKTWszSU1BR0pVcmxITzFKR0FZcHVFVlZNUTBkbGNOMHdYMWRjUnBiVkEtYVJkS3RVQXc2YTNoR21ockNONHJRZ1QwY0E0OE9GZ1hKdXdvRG9jYndCaEVvRlJzRmhoVDQ5UjRMNWpzU21UTXVTb3ppUFBQRUpzdlJFX3Yzbg?oc=5",
-        "domain": "themoscowtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T133635Z",
         "source": "GoogleNews"
       },
       {
@@ -120998,21 +120980,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWhuZFJrU1JMVHlIcTlIbEdFQkI5Y3FsNGxVSm51RnpCZjN3WjRoX1pZS2RQUnI0SVE4MTlsWDhKTWszSU1BR0pVcmxITzFKR0FZcHVFVlZNUTBkbGNOMHdYMWRjUnBiVkEtYVJkS3RVQXc2YTNoR21ockNONHJRZ1QwY0E0OE9GZ1hKdXdvRG9jYndCaEVvRlJzRmhoVDQ5UjRMNWpzU21UTXVTb3ppUFBQRUpzdlJFX3Yzbg?oc=5",
+        "domain": "themoscowtimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T133635Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU ministers approve new sanctions to further restrict Russia’s ability to finance its war",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQjhYTFVWOHJTaFhsd2x3dFFET0pHUDdLZldPeVdmMm1oRTZPUFZFeVdXUHl3dDktQWhYRktCc3E5LVBCSkNlWEI2NnBHbDhuM3U1WHEyMlRWQ181UElkZHZjVFBrc1JsQUJOZ3B2S1ZPZ0pCWWptWTdFVVIyWlZzYzk4WHExTGRsa0dGdGVlWVptOG04c2k0WnF5M2dBWEtfTHp0dzN2ang0SVVuaEQxaGlZZ0FPRFNWb1laWk14OUx2UQ?oc=5",
         "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
         "seendate": "20261116T123336Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU imposed new sanctions against Russia targeting 113 individuals and entities - oil refineries, Russian banks, shadow fleet and more are in the crosshairs",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUnBHOXZVTzNjWjVRQ0RLV3BUNUFHZVpxeVZMZjJESG43bUQ5U1dzdHpKdmpsbk9uSkVZV3VLa1NXNlZwblZVbHJjUjc0M3p5aFRia3NzU3VBVTQ4aVh3U0RsMW9ZNTE0dmtybTRHVnVweDFfQmlRX2pzMUNOYWt1cWc0Q1JEdnVGYUEwQlI1NGdvYzBFeEhsODhCQnhCLTJZRFJvclluaTRUR2syWGVMZlNIUnpMc2RiczlxQ1JFLVA4Y2tiWUJydHRGZjdSRGPSAc4BQVVfeXFMUGwwZkxRVUJUYzB6TWVTQVA4b3FxRlZwNnVGSHYwZ3NhMGVGVFlVLWhsQmhBUjlONHBtNktQNWVuNi14bk1QbmxvZFFzQWpZVTFHNFhmSTI3ZTZRNHNhUHptNG01VkNGQk92dkNvZThncFg4M2JrWjEzVWxCeDR3NHVPcWJzRVZFVm8xbk9aTGtiY1dENVBzbUZobmM2ckhKbkVQQXpwQlRNRER0dGVLQ0J3aURTcTlpZE5MUnRiRXJ2dzlwT3otVGZJVGdueWc?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T120414Z",
         "source": "GoogleNews"
       },
       {
@@ -121034,15 +121016,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU has approved new sanctions against Russia: these will affect, in particular, Wildberries and ’shadow fleet’",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQXY5LTRDSWQyakZHN2hzV2JOTk5MZnhieWZpTElPdkJuQmt0b2JWOGFkWnlJSDAxRnJsNGpadWZqdGtOTWFQSHNzTGEzTDk1OHdTbUNzemZxQUY0TVk1VE1VMmM0Nk1yWUM3ZUFZU3BsZ251TXd0aF9GMTJINmotZ3NTaEpScnhOeWFRSW85cDdxak0?oc=5",
-        "domain": ".",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T121500Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Tatyana Kim, the founder of Wildberries, has stepped down as chief executive following EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XNDZRRUpxQTBVN0N5LUxwejN0aFBHV2dYclNSNF9WTHR3bXVoTUpQUG9RRGh3bk5aSmk3ZU0tdnc0aTFnVmU5dmpqWDBBaHdDQzhWY3NYdUxZcXhNaGpIZ2ZrRzlHdDJINW11WjZxR1FWSUVJcXNaeU9qREM?oc=5",
         "domain": "ukrmedianews",
@@ -121061,15 +121034,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Sanctions Nearly 50 Russian Financial Institutions | CEO Magazine Poland",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81aDNkVFhIN29GclNNdWd3OUpOeTJrbzhWdFc4OUN3UTVzTDVZdU1wSXc1a2pNNUphWlpiWWNiRi02b0FFR25jX2ZCZ3lYSVVKajY1WXI5ZXZYdFl0QjBGYV93VkNmNlJUZTBxTzd3aw?oc=5",
-        "domain": "ceomagazyn",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T153315Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Russia's Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWg4ZF9sNEt2X2pNU3diUzRuVjNUSjJRYVNjblpDSjJ4UFJ6d3Z2THRtdkt2WGc3YUYxZ0tWX1FJdm8xVHF4TElhRUlYMEw3QWd3b1VSQkVfU05GV3BUeE5lYVFxT0dlZlFpMW1TeW9rRUxidEg4MXQ0QUhmOFZvY2k2Vmh2QnFjNU9mZ2dSVkk2ckJMY0xJT1RkQUlxNUxVbnRZV1dHRGVpQzZYczlCZFpLNktrWGQ1UG1sMA?oc=5",
         "domain": "themoscowtimes",
@@ -121085,15 +121049,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261116T135907Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU sanctions Haitian armed groups over rights abuses including killings and rape",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONWJKWlU5dkFqSFlqY05NSU5HLVQya2JCUHlDYnJRb1ZTNUNvYUZIWWs5VEd2eS1uSzhVd2VLVUJlVlFYX0swZC1tR0ZFcDdFRGR4cy12RW45VlVzZ2tsVjVuMTdCSEpQOGpja3c2TmpTdjZ4WkdwZkg1X0IwTFEzSjRyQmlocTRUaUxrRk1jTzdRb2tUbkFrMjJzM1dpdTc0b1N4WlZpNmZoZFVNUS1VbXJtZDRWRzFFWC1GZDhFNlhxZm9GeVhvNw?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
@@ -121124,6 +121079,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU targets Russian banks, energy firms, offshore traders in new sanctions",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJQbkU5V3dqdTk3MnQyWDZlazAxTWVsYm9RVW1vT0lLZURFTVQtLTItZF84QzZ3YXlFQjFaWGZQNmc1UXgxeGJkd3M1MFNaNmdya19uNFp2UlhpOUF2ejZzSTFlanUtZG9IU2k3SC1ONlVHLS0telFJNmtBdEc4MGk0REFyekc5WG1xUTlLNHdxZzlQajdzWUNaYXR6RnpBemxicnVzY0F1VnRpTFJlcnVxOFpFSWFfajhSSA?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T214113Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Whistleblower Chay Bowes to go after the Government in EU sanctions row",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV1J1Rk05RnZodmtGaUo5VVV2ZVZKeGY3Yk1RWEtsUXV2MTdfMjNIUTJVeTF6aGlXQjlGc0ZrMUZFMkVJTzEzTUtHWWo3eWlFOVM1TjBGZGU4Yno5ajZSSFVVMUdLc2VTeGhDRm5PX1hsaHlyMnJqalN5dWFlZThmb1dRZFRqdzZleVB6S1JkSUpUOUNhX183NHR0bmloMzFXdlM5enpaeFo1SWtrbEdSZ2JOOWtELTZnMnVSSnRZVTVwNDNa?oc=5",
         "domain": "irishindependent",
@@ -121133,21 +121097,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions Russia's richest woman Tatyana Kim over Ukraine war",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTmp5UlJWXzhrYloyaGItOE8ybDJkQy15NVBQVUhwTkhqbkNRWjlfcWNTQ2EyMURiU3RtclcyRUF3empGZ1AwUzVURUYxQVJIUXVPbXZ2cUJNQWhheVJVVHFEV1NPbDFWZ0xDR3gyb1VTX3N4Vkkza1BwRkNMS2xacElqZDRjanBhQ3JyS21CZG5nRnlZbU0xNFQ3UnJHdU81X2dkVjlKMDNydw?oc=5",
-        "domain": "trkiyetoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T133252Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Wildberries founder Tatyana Kim steps down as CEO days after EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUpKeWhBc2dTQ2lJRXNRVjctQ2ZFdTM3NExnZDdFNkdRamVfYnFWVHNWWngwY2toS2JXQnVYNWdLUlV0c053YkJKNm5kbHNGQ1VsdGxRMzhKc0VicGt1Y2IwUjZ4NzNsRW0wWWlYbFFlSHdYRVl0WDRXOUJmV280dmpBa2lVZG9xR3FDYlgweU1BMUlBMnZSVGc2LWRXdDF0N3ZxenRIM0pBS25NS29KbHJXWndGd3VpRnJV?oc=5",
         "domain": "trkiyetoday",
         "language": "",
         "tone": 0,
         "seendate": "20261121T140448Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "House Passes Bill to Sanction Scam Syndicates",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbTNac2x2bGp3eFJYM011WjFwaDNib0pJMzNxZUJaZTYzNzhrMjg5ZkJuNy1nTjVZNUZkWTBES05aYzM2MEhSYVJWNzJqU3ROSllpUnh1MUI2bVlQMV9uRUZXajFMQ19pTXc2am40QndMZ3A1ZTR3eEJkeXRGVG1ubzVGZ2V3bEZWZVlEYg?oc=5",
+        "domain": "wisevoter",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261119T182828Z",
         "source": "GoogleNews"
       },
       {
