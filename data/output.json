@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-22T06:39:31.887478+00:00",
+    "generated": "2026-11-22T19:32:12.786397+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-22T06:37:45.522028+00:00",
+    "issued_at": "2026-11-22T19:30:26.342109+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 37.9,
@@ -452,17 +452,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-24T04:42:05.321478+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-24T11:39:27.702771+00:00",
         "score": 5.0,
@@ -2423,6 +2412,17 @@
       },
       {
         "timestamp": "2026-11-22T06:37:45.522028+00:00",
+        "score": 37.9,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 84.7,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 12.9,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-22T19:30:26.342109+00:00",
         "score": 37.9,
         "level": "WATCH",
         "components": {
@@ -120944,24 +120944,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOU5hVFJ0TDA1dzBZWkRnd1ZxYnZVRlBSVS1QUHRSUlFxRk1wZ0VldW5laWtPWlNSVXFjSEc3M1JOSmZEcWZMMWpDdDNJX2x4bHZQZVlMWkRIXy03SjVVVnl4MEFmempSVXJtaVdmN1RxdlpCMzVPdDNKUUNyMENQSFVqRTJKa1AxZUdlMTlnLW1MTHRjWjEzYUt3ZHlyTjVQbnUwVWNmaDM5RGUtVlJaTm16LVU4alM2dm1Z?oc=5",
-        "domain": "euobserver",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261115T190000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Cryptocurrency donations linked to Hamas prompt EU asset freeze, travel ban",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWENWOVBveXpWa3lrMkFram1WNHFBR2pwdUtCOUkweU5Ic2N0aV8ydmtxUWpfY1pLaERaUHZCRkxVXzZIek1hZGxaUE9yTWF4ZmhuY09TdnhuR0FKWGcyVkVhTDBjWVBsbDhleGxMZlVzSGF0dDN6V2M1Nm1DanBoc0MzOGZMZmlzVktweW5adndYV19iaHp1ZVFRZjMzNWhZOHhsTmVydlpIQ0Fxb29aR3lB?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T215616Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK Sanctions Slavneft and Vessels in New Russia Measures",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREVNQ2dQOWlBZUN5RktMblUzRC1maFlVaUw2RVVOTWdPUGQ0aEF1VjBxSGZucEh5dVFZNGIxTWlrdW5CVWxpd2tTWVFIMlZMMmQ4Qk95d01BbGY0aGlSdWlIMGM4ZVVXMWNEYzNnZHpMNV9jaFRUdzNhMFk3QjE2NnVEYko0eGd5SFBHWTQyTWx4WXZwY08tYzRZbWZZTnRj?oc=5",
         "domain": "shipbunker",
@@ -120971,30 +120953,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia’s Wildberries CEO steps down days after EU sanctions, media report",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSVBXWWluYlhuOWVmZkY3WS1aUEVobjZvXy1LY3Vsek5kZHdMTHp2ZDBpV0pnNWRqa1dVT2RlczVJTHZZN0pKX1puaU1uZmJkQ2N3V3k4NzhIUTlPODcyYXRtUjJhZlJJNXJqcl83T1RkUmNhUHZXQWRlZThDVEpzUGNwckdFU3c0VmYtN2xRRkRCVGxLSFltbzA3Q2pRZWZmd1ZzeTZOd3htWjFvVlFR?oc=5",
-        "domain": "arabnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261121T184813Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWhuZFJrU1JMVHlIcTlIbEdFQkI5Y3FsNGxVSm51RnpCZjN3WjRoX1pZS2RQUnI0SVE4MTlsWDhKTWszSU1BR0pVcmxITzFKR0FZcHVFVlZNUTBkbGNOMHdYMWRjUnBiVkEtYVJkS3RVQXc2YTNoR21ockNONHJRZ1QwY0E0OE9GZ1hKdXdvRG9jYndCaEVvRlJzRmhoVDQ5UjRMNWpzU21UTXVTb3ppUFBQRUpzdlJFX3Yzbg?oc=5",
-        "domain": "themoscowtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T133635Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU ministers approve new sanctions to further restrict Russia’s ability to finance its war",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQjhYTFVWOHJTaFhsd2x3dFFET0pHUDdLZldPeVdmMm1oRTZPUFZFeVdXUHl3dDktQWhYRktCc3E5LVBCSkNlWEI2NnBHbDhuM3U1WHEyMlRWQ181UElkZHZjVFBrc1JsQUJOZ3B2S1ZPZ0pCWWptWTdFVVIyWlZzYzk4WHExTGRsa0dGdGVlWVptOG04c2k0WnF5M2dBWEtfTHp0dzN2ang0SVVuaEQxaGlZZ0FPRFNWb1laWk14OUx2UQ?oc=5",
         "domain": "thesofiaglobe",
         "language": "",
         "tone": 0,
         "seendate": "20261116T123336Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia's Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWg4ZF9sNEt2X2pNU3diUzRuVjNUSjJRYVNjblpDSjJ4UFJ6d3Z2THRtdkt2WGc3YUYxZ0tWX1FJdm8xVHF4TElhRUlYMEw3QWd3b1VSQkVfU05GV3BUeE5lYVFxT0dlZlFpMW1TeW9rRUxidEg4MXQ0QUhmOFZvY2k2Vmh2QnFjNU9mZ2dSVkk2ckJMY0xJT1RkQUlxNUxVbnRZV1dHRGVpQzZYczlCZFpLNktrWGQ1UG1sMA?oc=5",
+        "domain": "themoscowtimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261121T114253Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU sanctions Haitian armed groups over rights abuses including killings and rape",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONWJKWlU5dkFqSFlqY05NSU5HLVQya2JCUHlDYnJRb1ZTNUNvYUZIWWs5VEd2eS1uSzhVd2VLVUJlVlFYX0swZC1tR0ZFcDdFRGR4cy12RW45VlVzZ2tsVjVuMTdCSEpQOGpja3c2TmpTdjZ4WkdwZkg1X0IwTFEzSjRyQmlocTRUaUxrRk1jTzdRb2tUbkFrMjJzM1dpdTc0b1N4WlZpNmZoZFVNUS1VbXJtZDRWRzFFWC1GZDhFNlhxZm9GeVhvNw?oc=5",
+        "domain": "thebrusselstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
@@ -121034,21 +121016,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia's Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWg4ZF9sNEt2X2pNU3diUzRuVjNUSjJRYVNjblpDSjJ4UFJ6d3Z2THRtdkt2WGc3YUYxZ0tWX1FJdm8xVHF4TElhRUlYMEw3QWd3b1VSQkVfU05GV3BUeE5lYVFxT0dlZlFpMW1TeW9rRUxidEg4MXQ0QUhmOFZvY2k2Vmh2QnFjNU9mZ2dSVkk2ckJMY0xJT1RkQUlxNUxVbnRZV1dHRGVpQzZYczlCZFpLNktrWGQ1UG1sMA?oc=5",
-        "domain": "themoscowtimes",
+        "title": "U.S. sanctions Myanmar armed group leader over scam links",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOUdvQWJXZ0ZDbkJBTDJfdFgyRTBQajdlRWowa09LTk5fMndidGRBbGdxbTRBQ3Jwd25uMVA0YUlVMkgxRnhsLWVQOWsyMjRsODdBSml4ekU3VXJQUDlvenVmd3VISVRBWWpKbGVKRE1sUWc5blV2ck00Nk5vUjFXZUR1MTdZbGVmSVI5b0FnaWQtLXlXRmFzUVhYYkY3UUotd1JEeVBON0ljZzJyOGtnaENkamdwSGp0MjRr0gHCAUFVX3lxTE4wV2VodmlmdDJqaXVCNXQwZEJIcElzbFoxZzFvVVQ0ZldYclJPYUlnLS1xWkVJV3JsNEdtSTB5c2pnZmUya29zRDVJUVdISmg1bm9ULUhVZHFRTnNjcWZuTDRHSm9MMTVlV3NmbU42cEZpdFVqWS00NHJrcV83QURVMlg4V0Joa2RDb2hSM1lJdE1FaVY1Z1p3bEQ5RG5aRkZJUjZUYUp1T3FEY2ZZVzBkdDk1YU92SUd5dWhwU2Y1RDRB?oc=5",
+        "domain": "thehindu",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T114253Z",
+        "seendate": "20261120T162740Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Wildberries says EU sanctions against Tatiana Kim will not affect operations — The Moscow Times",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSHE0RkMxYUxpb25vaTRKMDJFTmtZOWZpdGg3ekNPNHZEdUVwX2pQZmJNN2RSYllIR3dhYmJxS1RyZ0Y4R25abkdZYklsdlhmbkVQd052ZG03cFd6N2xmN19wcWVjdjVVYmVia3V6LWUzdkhvbkt6NjJQbGhoT0NHV1RmWGQ2VTZQWmhiRzJmY0ktQ0p4aU16eDVoYy15M0MyOTMyNjJtS1FsV0xDckJmUVVOeXBYVzVaWXRWbGRIVkNScVBfb1g0?oc=5",
-        "domain": "ua.news",
+        "title": "EU Sanctions Nearly 50 Russian Financial Institutions | CEO Magazine Poland",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81aDNkVFhIN29GclNNdWd3OUpOeTJrbzhWdFc4OUN3UTVzTDVZdU1wSXc1a2pNNUphWlpiWWNiRi02b0FFR25jX2ZCZ3lYSVVKajY1WXI5ZXZYdFl0QjBGYV93VkNmNlJUZTBxTzd3aw?oc=5",
+        "domain": "ceomagazyn",
         "language": "",
         "tone": 0,
-        "seendate": "20261116T135907Z",
+        "seendate": "20261116T153315Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia's Wildberries CEO steps down days after EU sanctions, media report",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmQ4QmxsMUVGYm1PT3c1dE1WbWJvVS1oSEpQTTZKT1Y0aXkzRm9oM1JoQjlkc0Q5U05rWFdyRmRQNDVIbkEtMkp5VzYxSXR1RU01VnUxZ0lVSzRfTWlCY1MwazFKdEQyQ1J2RE1KX01RQWNoZFVCOGYtdFpuR1hUWmRaYkZCS3VvcUoyaWpZdkRDZ1NyWXV6cGJLa2lBSVhvSU91c0l6MzNXZ1FLQ2VjaEZ6aw?oc=5",
+        "domain": "thestraitstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261121T112500Z",
         "source": "GoogleNews"
       },
       {
@@ -121061,12 +121052,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US sanctions Myanmar armed group leader over scam links",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUW5iRmdnOGoxeFFpUGs4dU53Zk9oXzZHd21yVS1qY3BPOXR1NXJiTUNsMVJhTkZoaEtvUURieGZxOXBaTEFFblhyejh5RGo3bmFjbGQwVnpPWnR6TVJCVUtEYXlzTGh6NTRKc3dDNHhwNWlvdW1YaUdpdlFZX0ZqNjg1cmR2ZXJDSENNUDY4VWVuelFwOXo5TDZEZ2RnazRGQUJwNENUZWFDc0c1TjV6TFpvZmxEdw?oc=5",
-        "domain": "freemalaysiatoday",
+        "title": "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWhuZFJrU1JMVHlIcTlIbEdFQkI5Y3FsNGxVSm51RnpCZjN3WjRoX1pZS2RQUnI0SVE4MTlsWDhKTWszSU1BR0pVcmxITzFKR0FZcHVFVlZNUTBkbGNOMHdYMWRjUnBiVkEtYVJkS3RVQXc2YTNoR21ockNONHJRZ1QwY0E0OE9GZ1hKdXdvRG9jYndCaEVvRlJzRmhoVDQ5UjRMNWpzU21UTXVTb3ppUFBQRUpzdlJFX3Yzbg?oc=5",
+        "domain": "themoscowtimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261120T075600Z",
+        "seendate": "20261116T133635Z",
         "source": "GoogleNews"
       },
       {
@@ -121076,15 +121067,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261116T140528Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU targets Russian banks, energy firms, offshore traders in new sanctions",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJQbkU5V3dqdTk3MnQyWDZlazAxTWVsYm9RVW1vT0lLZURFTVQtLTItZF84QzZ3YXlFQjFaWGZQNmc1UXgxeGJkd3M1MFNaNmdya19uNFp2UlhpOUF2ejZzSTFlanUtZG9IU2k3SC1ONlVHLS0telFJNmtBdEc4MGk0REFyekc5WG1xUTlLNHdxZzlQajdzWUNaYXR6RnpBemxicnVzY0F1VnRpTFJlcnVxOFpFSWFfajhSSA?oc=5",
-        "domain": "thebrusselstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T214113Z",
         "source": "GoogleNews"
       },
       {
