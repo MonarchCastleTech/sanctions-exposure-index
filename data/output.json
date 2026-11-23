@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-23T07:28:22.217061+00:00",
+    "generated": "2026-11-23T23:50:17.625416+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-23T07:26:35.954232+00:00",
+    "issued_at": "2026-11-23T23:48:30.482458+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 43.2,
-    "level": "WATCH",
+    "score": 59.9,
+    "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -25,13 +25,13 @@
         "label": "OFAC action velocity",
         "available": true,
         "score": 100.0,
-        "releases_considered": 99,
-        "current_7d_designation_releases": 7,
-        "current_7d_all_releases": 7,
+        "releases_considered": 98,
+        "current_7d_designation_releases": 8,
+        "current_7d_all_releases": 8,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
         "baseline_weekly_median": 2.0,
-        "anomaly_z": 3.37,
+        "anomaly_z": 4.05,
         "themes": [
           "counter_narcotics",
           "counter_terrorism",
@@ -41,6 +41,23 @@
           "russia"
         ],
         "evidence": [
+          {
+            "title": "Operation Economic Outcast Disrupts Iran's Global Shadow Banking Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0699/",
+            "action_title": "Iran-related Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261123",
+            "date": "2026-11-23",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "disrupts",
+              "economic outcast"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Operation Economic Outcast Targets Corrupt Regime Insiders Exploiting Iran's Oil Sector for Personal Gain",
             "url": "https://home.treasury.gov/news/press-releases/sb0697/",
@@ -178,14 +195,14 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 19599,
+        "score": 75.0,
+        "current_count": 19629,
         "previous_count": 19599,
-        "added_count": 0,
+        "added_count": 30,
         "removed_count": 0,
-        "changed": false,
-        "publish_date": "2026-11-19",
-        "sha256": "728c0490b2ab5f808be3b3e828bc823df7b64e07b67bc453bd794cccbc570d0b",
+        "changed": true,
+        "publish_date": "2026-11-20",
+        "sha256": "89b2a6d6d825d3a0a5033c9d523ef8a5e05a0b766ccff1ad934aea7436da49b9",
         "top_programs": [
           {
             "program": "RUSSIA-EO14024",
@@ -201,7 +218,7 @@
           },
           {
             "program": "IRAN-EO13902",
-            "count": 1042
+            "count": 1070
           },
           {
             "program": "GLOMAG",
@@ -229,7 +246,7 @@
           },
           {
             "program": "SDGT] [IFSR",
-            "count": 438
+            "count": 439
           },
           {
             "program": "TCO",
@@ -239,11 +256,11 @@
         "types": [
           {
             "type": "Unspecified",
-            "count": 10122
+            "count": 10144
           },
           {
             "type": "individual",
-            "count": 7565
+            "count": 7573
           },
           {
             "type": "vessel",
@@ -254,7 +271,128 @@
             "count": 342
           }
         ],
-        "added": [],
+        "added": [
+          {
+            "id": "59110",
+            "name": "H N B TRADING CO LLC",
+            "type": "",
+            "program": "SDGT] [IFSR"
+          },
+          {
+            "id": "59111",
+            "name": "GRAND TARGET HEAVY EQUIPMENT AND MACHINERY SPARE PARTS TRADING L.L.C",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59112",
+            "name": "RECAZ STAR GENERAL TRADING LLC",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59113",
+            "name": "RAHBAR BAZARGANI NESIM BAHARAN QESHM COMPANY",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59114",
+            "name": "HEMRAJ TRADING L.L.C",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59116",
+            "name": "MINA FASHKI AND PARTNERS EXCHANGE COMPANY",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59117",
+            "name": "OGA GLOBAL GENERAL TRADING L.L.C",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59118",
+            "name": "EWAN AL MADEENA GENERAL TRADING LLC",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59119",
+            "name": "DEXTEROUS GLOBAL DMCC",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59120",
+            "name": "KALHOR, Ali",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59121",
+            "name": "GESPL INTERNATIONAL GENERAL TRADING LLC",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59122",
+            "name": "MEETHALE RAW MATERIALS TRADING COMPANY LLC",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59123",
+            "name": "HEMMATI, Valiollah",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59124",
+            "name": "JALALI, Sayyed Mohammad",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59125",
+            "name": "FASHKI, Mina",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59126",
+            "name": "FASHKI, Farzad",
+            "type": "individual",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59127",
+            "name": "BOGAZICI GUMRUKLEME ITHALAT IHRACAT TURIZM PETROL URUNLERI SANAYI VE TICARET LIMITED SIRKETI",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59128",
+            "name": "GRANDEZ TRADING LIMITED",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59130",
+            "name": "KHORE AL HILAL GOODS WHOLESALERS TRADING LLC",
+            "type": "",
+            "program": "IRAN-EO13902"
+          },
+          {
+            "id": "59178",
+            "name": "ROYAH ALTAHABIA TRADING L.L.C",
+            "type": "",
+            "program": "IRAN-EO13902"
+          }
+        ],
         "removed": [],
         "retained": false
       },
@@ -262,14 +400,31 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 12.9,
-        "current_7d_releases": 7,
-        "current_weighted_term_rate": 1.786,
+        "score": 19.6,
+        "current_7d_releases": 8,
+        "current_weighted_term_rate": 2.188,
         "baseline_weeks": 11,
-        "anomaly_z": -0.19,
-        "matched_release_count": 5,
+        "anomaly_z": 0.48,
+        "matched_release_count": 6,
         "relief_release_count": 4,
         "evidence": [
+          {
+            "title": "Operation Economic Outcast Disrupts Iran's Global Shadow Banking Networks",
+            "url": "https://home.treasury.gov/news/press-releases/sb0699/",
+            "action_title": "Iran-related Designations",
+            "action_url": "https://ofac.treasury.gov/recent-actions/20261123",
+            "date": "2026-11-23",
+            "source": "OFAC/Treasury",
+            "posture_terms": [
+              "disrupts",
+              "economic outcast"
+            ],
+            "relief_terms": [],
+            "themes": [
+              "iran"
+            ],
+            "designation_signal": true
+          },
           {
             "title": "Operation Economic Outcast Targets Corrupt Regime Insiders Exploiting Iran's Oil Sector for Personal Gain",
             "url": "https://home.treasury.gov/news/press-releases/sb0697/",
@@ -437,7 +592,8 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity"
+        "ofac_action_velocity",
+        "sdn_delta_breadth"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
@@ -449,20 +605,16 @@
         "score": 100.0,
         "level": "SEVERE",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
+      },
+      {
+        "id": "sdn_delta_breadth",
+        "title": "Exact SDN list delta",
+        "score": 75.0,
+        "level": "SEVERE",
+        "why": "The official SDN file changed materially since the previous accepted snapshot."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-24T17:06:00.500922+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-24T21:27:51.898365+00:00",
         "score": 5.0,
@@ -2431,11 +2583,22 @@
           "official_posture_shift": 12.9,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-23T23:48:30.482458+00:00",
+        "score": 59.9,
+        "level": "ELEVATED",
+        "components": {
+          "ofac_action_velocity": 100.0,
+          "sdn_delta_breadth": 75.0,
+          "official_posture_shift": 19.6,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
-      "sdn_entries": 19599,
-      "ofac_releases": 99,
+      "sdn_entries": 19629,
+      "ofac_releases": 98,
       "market_series_available": 2,
       "available_components": 4,
       "retained_components": [
@@ -2495,17 +2658,17 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "43.2/100",
-      "delta": "WATCH"
+      "value": "59.9/100",
+      "delta": "ELEVATED"
     },
     {
       "label": "Official SDN Entries",
-      "value": "19,599",
-      "delta": "+0 since accepted snapshot"
+      "value": "19,629",
+      "delta": "+30 since accepted snapshot"
     },
     {
       "label": "Official Releases",
-      "value": "99",
+      "value": "98",
       "delta": "rolling official baseline"
     },
     {
@@ -2516,9 +2679,9 @@
   ],
   "live_data": {
     "ofac_sdn": {
-      "publish_date": "2026-11-19",
-      "sha256": "728c0490b2ab5f808be3b3e828bc823df7b64e07b67bc453bd794cccbc570d0b",
-      "count": 19599,
+      "publish_date": "2026-11-20",
+      "sha256": "89b2a6d6d825d3a0a5033c9d523ef8a5e05a0b766ccff1ad934aea7436da49b9",
+      "count": 19629,
       "entries": [
         {
           "id": "36",
@@ -120055,6 +120218,120 @@
           "program": "IRAN-EO13902"
         },
         {
+          "id": "59110",
+          "name": "H N B TRADING CO LLC",
+          "type": "",
+          "program": "SDGT] [IFSR"
+        },
+        {
+          "id": "59111",
+          "name": "GRAND TARGET HEAVY EQUIPMENT AND MACHINERY SPARE PARTS TRADING L.L.C",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59112",
+          "name": "RECAZ STAR GENERAL TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59113",
+          "name": "RAHBAR BAZARGANI NESIM BAHARAN QESHM COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59114",
+          "name": "HEMRAJ TRADING L.L.C",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59116",
+          "name": "MINA FASHKI AND PARTNERS EXCHANGE COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59117",
+          "name": "OGA GLOBAL GENERAL TRADING L.L.C",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59118",
+          "name": "EWAN AL MADEENA GENERAL TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59119",
+          "name": "DEXTEROUS GLOBAL DMCC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59120",
+          "name": "KALHOR, Ali",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59121",
+          "name": "GESPL INTERNATIONAL GENERAL TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59122",
+          "name": "MEETHALE RAW MATERIALS TRADING COMPANY LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59123",
+          "name": "HEMMATI, Valiollah",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59124",
+          "name": "JALALI, Sayyed Mohammad",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59125",
+          "name": "FASHKI, Mina",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59126",
+          "name": "FASHKI, Farzad",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59127",
+          "name": "BOGAZICI GUMRUKLEME ITHALAT IHRACAT TURIZM PETROL URUNLERI SANAYI VE TICARET LIMITED SIRKETI",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59128",
+          "name": "GRANDEZ TRADING LIMITED",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59130",
+          "name": "KHORE AL HILAL GOODS WHOLESALERS TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
           "id": "59173",
           "name": "KHECHEN, Hassan",
           "type": "individual",
@@ -120079,6 +120356,48 @@
           "program": "SDGT"
         },
         {
+          "id": "59178",
+          "name": "ROYAH ALTAHABIA TRADING L.L.C",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59180",
+          "name": "NORDIC INTERNATIONAL TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59183",
+          "name": "ALAM AL SAHRA BUILDING MATERIALS TRADING CO. L.L.C",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59184",
+          "name": "BERKELEY TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59185",
+          "name": "INTEGRAL PETRO ENERGY TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59186",
+          "name": "ROBUST TRADING LLC",
+          "type": "",
+          "program": "IRAN-EO13871"
+        },
+        {
+          "id": "59187",
+          "name": "IRAN CENTER FOR EXCHANGE OF CURRENCY AND GOLD",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
           "id": "59188",
           "name": "WA TA'AWANU ASSOCIATION",
           "type": "",
@@ -120089,6 +120408,30 @@
           "name": "CHOUMAN, Afif Abdel Rida",
           "type": "individual",
           "program": "SDGT"
+        },
+        {
+          "id": "59230",
+          "name": "MELLAT EXCHANGE COMPANY",
+          "type": "",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59231",
+          "name": "AKHLAGHI, Mahmoud",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59232",
+          "name": "FAZLJU, Parviz",
+          "type": "individual",
+          "program": "IRAN-EO13902"
+        },
+        {
+          "id": "59233",
+          "name": "ABBASI, Mohammad Hossein",
+          "type": "individual",
+          "program": "IRAN-EO13902"
         },
         {
           "id": "59250",
@@ -120119,6 +120462,14 @@
     },
     "ofac_releases": {
       "releases": [
+        {
+          "title": "Operation Economic Outcast Disrupts Iran's Global Shadow Banking Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0699/",
+          "action_title": "Iran-related Designations",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20261123",
+          "date": "2026-11-23",
+          "source": "OFAC/Treasury"
+        },
         {
           "title": "Operation Economic Outcast Targets Corrupt Regime Insiders Exploiting Iran's Oil Sector for Personal Gain",
           "url": "https://home.treasury.gov/news/press-releases/sb0697/",
@@ -120216,16 +120567,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
-          "url": "https://home.treasury.gov/news/press-releases/sb0681/",
+          "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
           "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
           "date": "2026-11-04",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
-          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
+          "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0681/",
           "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
           "date": "2026-11-04",
@@ -120306,14 +120657,6 @@
         {
           "title": "PRESS CHART - Cartel del Noreste Facilitators Network - October 2026",
           "url": "https://ofac.treasury.gov/media/937211/download?inline",
-          "action_title": "Counter Narcotics and Counter Terrorism Designations",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
-          "date": "2026-10-13",
-          "source": "OFAC/Treasury"
-        },
-        {
-          "title": "Treasury Targets Cartel del Noreste's Horse Racing Enterprise and Expansive Criminal Network",
-          "url": "https://home.treasury.gov/news/press-releases/sb0656/",
           "action_title": "Counter Narcotics and Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20261013",
           "date": "2026-10-13",
@@ -120504,16 +120847,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
-          "url": "https://home.treasury.gov/news/press-releases/sb0612/",
+          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
+          "url": "https://home.treasury.gov/news/press-releases/sb0613/",
           "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
           "date": "2026-08-24",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
-          "url": "https://home.treasury.gov/news/press-releases/sb0613/",
+          "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
+          "url": "https://home.treasury.gov/news/press-releases/sb0612/",
           "action_title": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260824",
           "date": "2026-08-24",
@@ -120648,16 +120991,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Targets Global Network Procuring Weapons for Iranian Regime",
-          "url": "https://home.treasury.gov/news/press-releases/sb0564",
+          "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260715",
           "date": "2026-07-15",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Terrorist Designations of the Juárez Cartel and Los Viagras",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designations-of-the-juarez-cartel-and-los-viagras/",
+          "title": "Treasury Targets Global Network Procuring Weapons for Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0564",
           "action_title": "Non-Proliferation Designations; Counter Terrorism Designations",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260715",
           "date": "2026-07-15",
@@ -120672,16 +121015,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Malware and Infrastructure Providers Supporting Ransomware Attacks Against Americans",
-          "url": "https://home.treasury.gov/news/press-releases/sb0559",
+          "title": "Further Sanctions on the Cuban Regime’s Sources of Funding and Tools of Oppression",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/further-sanctions-on-the-cuban-regimes-sources-of-funding-and-tools-of-oppression/",
           "action_title": "Cyber-related Designations; Cuba Designations; Issuance of Cuba-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260713",
           "date": "2026-07-13",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Further Sanctions on the Cuban Regime’s Sources of Funding and Tools of Oppression",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/further-sanctions-on-the-cuban-regimes-sources-of-funding-and-tools-of-oppression/",
+          "title": "Treasury Sanctions Malware and Infrastructure Providers Supporting Ransomware Attacks Against Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0559",
           "action_title": "Cyber-related Designations; Cuba Designations; Issuance of Cuba-related Frequently Asked Question",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260713",
           "date": "2026-07-13",
@@ -120696,16 +121039,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Treasury Sanctions Brazilian Criminal Network Exploiting U.S. Financial System to Launder Drug Proceeds",
-          "url": "https://home.treasury.gov/news/press-releases/sb0549",
+          "title": "Terrorist Designation of Chone Killers",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designation-of-chone-killers/",
           "action_title": "Counter Narcotics Designations; Counter Terrorism Designations and Designation Update",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260701",
           "date": "2026-07-01",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Terrorist Designation of Chone Killers",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/terrorist-designation-of-chone-killers/",
+          "title": "Treasury Sanctions Brazilian Criminal Network Exploiting U.S. Financial System to Launder Drug Proceeds",
+          "url": "https://home.treasury.gov/news/press-releases/sb0549",
           "action_title": "Counter Narcotics Designations; Counter Terrorism Designations and Designation Update",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260701",
           "date": "2026-07-01",
@@ -120832,16 +121175,16 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
-          "url": "https://home.treasury.gov/news/press-releases/sb0510",
+          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
           "source": "OFAC/Treasury"
         },
         {
-          "title": "U.S. Continues Maximum Pressure with Sanctions Targeting Iran’s Shadow Oil Economy",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-continues-maximum-pressure-with-sanctions-targeting-irans-shadow-oil-economy/",
+          "title": "Economic Fury Targets Illicit Oil Revenue Fueling Iran’s Military",
+          "url": "https://home.treasury.gov/news/press-releases/sb0510",
           "action_title": "Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions",
           "action_url": "https://ofac.treasury.gov/recent-actions/20260528_33",
           "date": "2026-05-28",
@@ -120888,14 +121231,6 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Disrupting Iran's Overseas Military Procurement Networks",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/disrupting-irans-overseas-military-procurement-networks-2/",
-          "action_title": "Non-Proliferation and Iran-related Designations and Designations Updates",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260508_33",
-          "date": "2026-05-08",
-          "source": "OFAC/Treasury"
-        },
-        {
           "title": "Economic Fury Disrupts Networks Supplying Weapons and UAV Components to Iran",
           "url": "https://home.treasury.gov/news/press-releases/sb0496",
           "action_title": "Non-Proliferation and Iran-related Designations and Designations Updates",
@@ -120904,11 +121239,11 @@
           "source": "OFAC/Treasury"
         },
         {
-          "title": "Economic Fury Targets Iraqi Oil Official, Iran-Backed Terrorist Militias in Iraq",
-          "url": "https://home.treasury.gov/news/press-releases/sb0492",
-          "action_title": "Counter Terrorism and Iran-related Designations; Cuba Designation and Designations Updates; Issuance of Cuba-related General License and Frequently Asked Questions",
-          "action_url": "https://ofac.treasury.gov/recent-actions/20260507",
-          "date": "2026-05-07",
+          "title": "Disrupting Iran's Overseas Military Procurement Networks",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/disrupting-irans-overseas-military-procurement-networks-2/",
+          "action_title": "Non-Proliferation and Iran-related Designations and Designations Updates",
+          "action_url": "https://ofac.treasury.gov/recent-actions/20260508_33",
+          "date": "2026-05-08",
           "source": "OFAC/Treasury"
         }
       ],
@@ -120926,12 +121261,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Hamas and the Palestinian Islamic Jihad: EU adds one entity and its founder to the sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbk5xTHpBTjdiVmJobE1GcUxweVNjNlAwWnhINXYwME1rMUROZXRCYkJhYVZGVER6NTZaNVFEV0c5UlZiUFVTWGtHT3AxRnVxREUxaUpkRVhCTG53dHFPenNjeGw0Sk1HeFFFRnk3YzkzY0FDWGlzeGZkdW5EOTF0NE9ROFNrX2N5ZWhUamx1QkEyWV9IYVhUaVRLTGVIYWpUQTVGVFM2cl9vVnl3ZVljekhLaG1ubTJGcFNReTJQa2lkUlV0SnVzQ19RdkI1aTlic1M4R0ZGOV90TkJvSElmRE5SUUZzLWdPMnh2djNNU2hwTFg3TVp3?oc=5",
-        "domain": "councileuropeanunion",
+        "title": "OFAC sanctions Iran-linked money services businesses",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDNSejlibGVIeXhyMENOdDk0MjFnM05tVGh2OUtwS2JQNFBXalpZUURleWxIVFJJTl85dEY4YzR1SmxpbnhncVZGb1pMMVJkUUlTOGlNb0RXSXlSMndIUUg0LVRxbVFCSmhzQjdvVTR1ZV9qYUY0R1phSzZwazUyVg?oc=5",
+        "domain": "jdsupra",
         "language": "",
         "tone": 0,
-        "seendate": "20261116T102832Z",
+        "seendate": "20261123T151542Z",
         "source": "GoogleNews"
       },
       {
@@ -120944,48 +121279,57 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia’s richest woman faces EU sanctions over links to Europe's largest armed conflict a year after taking her $5 billion online retail empire into Africa",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORkZJQTdCLUlSQTl2dXF3YUhESzNIaEs2ZTJ6Q0dmWE4zYjUzOWpONUZQUFlWUThPczlGOGh2WF81b0dOT2NxcHFGRlpGR0FvaXZNTmx1bDVZdGJlTk9pMmtDd3VETy1INVRESnpLdHVORmFPT1QyNi1OaGQxaG92aDF1YUxtNjRYZmQ0Z2JtUXU3MmhSX01OYjZYamJleDRWLTk1OFktMng3MzMwNlAxUDJlWW5YWUdPWFJIcGFOOUNmY2ZUMlk0elFFaHFPMEl1YWd6T2gydFZ6dw?oc=5",
-        "domain": "businessinsiderafrica",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T194749Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia's Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWg4ZF9sNEt2X2pNU3diUzRuVjNUSjJRYVNjblpDSjJ4UFJ6d3Z2THRtdkt2WGc3YUYxZ0tWX1FJdm8xVHF4TElhRUlYMEw3QWd3b1VSQkVfU05GV3BUeE5lYVFxT0dlZlFpMW1TeW9rRUxidEg4MXQ0QUhmOFZvY2k2Vmh2QnFjNU9mZ2dSVkk2ckJMY0xJT1RkQUlxNUxVbnRZV1dHRGVpQzZYczlCZFpLNktrWGQ1UG1sMA?oc=5",
+        "title": "Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVk5UWnJMQXk0dzdYemUyZkdNdmc3VURVdlBWd1ptUmpFS1hBcEd4eVZxdEpfb2t0bHVPa3dLRVg0Y25JUklCR1lFTVZEUVFBOTA0OVlILU1sMDZ1Qkh5a2h1MzdKZXdsemRhT1Y4aWJ1NFVBNW5PMFR0S2pPVmtPSlp3NzMwYjJzVExaWXVhbEtsTGhrdHlKRUZRcFJEUndBNGFZb1hGMktaRHUwQnRJZzln?oc=5",
         "domain": "themoscowtimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T114253Z",
+        "seendate": "20261121T114200Z",
         "source": "GoogleNews"
       },
       {
-        "title": "EU ministers approve new sanctions to further restrict Russia’s ability to finance its war",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQjhYTFVWOHJTaFhsd2x3dFFET0pHUDdLZldPeVdmMm1oRTZPUFZFeVdXUHl3dDktQWhYRktCc3E5LVBCSkNlWEI2NnBHbDhuM3U1WHEyMlRWQ181UElkZHZjVFBrc1JsQUJOZ3B2S1ZPZ0pCWWptWTdFVVIyWlZzYzk4WHExTGRsa0dGdGVlWVptOG04c2k0WnF5M2dBWEtfTHp0dzN2ang0SVVuaEQxaGlZZ0FPRFNWb1laWk14OUx2UQ?oc=5",
-        "domain": "thesofiaglobe",
+        "title": "British sanctions already impacting banks, companies in West Bank, Mount Hebron council head says",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIamlRdDFpZTFYNUlDZ2VfUkpMVlR6cG5FOVNpX3NOR05FTTZiQ0ZGUUQzZHZmckFTbnRLTGhLR3FFS1l1N0JscXRld3BUakNKRjlvQXM3VmtmVXRz?oc=5",
+        "domain": "thejerusalempost",
         "language": "",
         "tone": 0,
-        "seendate": "20261116T123336Z",
+        "seendate": "20261119T164542Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Japan weighs early funding to ICC before US sanctions cutoff",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQamVpcTZ4eWZ1X21HSWR5MWlIMkFZeW9mbm1temlMNjcxc1NHUFMzNzk1Z05iWDVnTHVqN0xBTTJ3QlpnMVpXTmpEVzl6Vnh1SXNTQ0ZWSWo5U0lfY0prR1FqdGpTdktlQms2OHBob0hWQzdpeUxoTFlpTjVYNm94bnRfMWV2bkwtRUVmNW50bjJDWnF0akRfZHFXT0xmTm40bk04eEgyY1V4bnhrYmQ3Yl8yU1NaZ2ZF?oc=5",
-        "domain": "nikkeiasia",
+        "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMXFaQ2dKVW01RV9rOGxvcmk1d3ZYN3l4OUFNSGd6VVRrNEhabzc5dTQxWnRRYS0yczE4M05vTjFkX09hcmhhNENMTHlyQXpoOUVOQ19CYTFUME10VU1pejRQSHdreTlleTdhTFUtRmR0MTdnaFJtVmhzWXd3RHlYSkJiSjJtWE9xeU0ydm5OSmRIMno1Z3Q4a2JGYWQ3aVdlOGRWMUhwUC10M0V3TEt6aUNzVkM4N1BkZk9qWVNn?oc=5",
+        "domain": "thedecoder",
         "language": "",
         "tone": 0,
-        "seendate": "20261120T204400Z",
+        "seendate": "20261119T170333Z",
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions Haitian armed groups over rights abuses including killings and rape",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONWJKWlU5dkFqSFlqY05NSU5HLVQya2JCUHlDYnJRb1ZTNUNvYUZIWWs5VEd2eS1uSzhVd2VLVUJlVlFYX0swZC1tR0ZFcDdFRGR4cy12RW45VlVzZ2tsVjVuMTdCSEpQOGpja3c2TmpTdjZ4WkdwZkg1X0IwTFEzSjRyQmlocTRUaUxrRk1jTzdRb2tUbkFrMjJzM1dpdTc0b1N4WlZpNmZoZFVNUS1VbXJtZDRWRzFFWC1GZDhFNlhxZm9GeVhvNw?oc=5",
-        "domain": "thebrusselstimes",
+        "title": "EU targets four Haitian gangs with asset freezes over killings, sexual violence and child recruitment",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaWpyT1JaSk9yWC1rSWdrMjFXS2NaWGZmcmR2dFVuTm1vTy1SQU90WldYZXEyUjBZUFgzMVJtWV96b3VrbThUM0U1ajZITGRJbzBfT0pRazU1M0x4QUF5ODBMSHNlekptNFp0UWZabGo3aWVIbUhJNldmZzJHdm5SQjhONk5HNmZMZHNUS0hn?oc=5",
+        "domain": "latintimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261116T214113Z",
+        "seendate": "20261118T101625Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Malaysia-Taiwan: Anwar’s China line triggers a quiet investment freeze",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUi1CQTI3cXRYZGNXREhSUTd5VTNtOEU1RmxveXZ1NHBiRjFncFBYM2RzSHBONUZULVFzNklrcUJEaWw2TkZZeGFPdmY2OGhNejNTZmNNV0VobFhpUUN4Rm9KUWpyTWFLQlE4OXgwWXk3SzR1U2lxZTVpckF2YXBpaHJ5Q0xkM0NDWFhhWVlRdnpUZUpVTEZpZDZtRFNpbmVSWldSYUx6Mi1CWlhlWWRqTmsweHNQQQ?oc=5",
+        "domain": "lowyinstitute",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261117T160000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Council sanctions founder of far-right terrorist group The Base",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZFdhNF8yR2U2WDR4Mk1xRDhPODlEeGh2Z2k3WTFyUjIySmFTMHcweWZDMG5vN2N6MFYwLUNidm5aOXhHcThvbWpwNTZRdl9OdVRKNFlQWk52cE9hNWdfNGhyZW11SWoxWi1UU1NNeVZCS0o3VWhzLTNLaldtanBDLXZ5M2xRQmxIQ0ZFTGJSdTBWQ19nTVNnU1QzQndNZVNpdG9YaVJWMjE0QktPcG5Ldmc5RGx6ZTVhcTM3TjZCVUdFLVpTLXBLcXlWNldkdw?oc=5",
+        "domain": "insighteumonitoring",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T224918Z",
         "source": "GoogleNews"
       },
       {
@@ -120995,6 +121339,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261117T101913Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMWdUX2VUUE9pbTUyS1FQN3VXVnJHaTF2Y3doSlFyenVkVkRCeFU5eUwwOVh6RTV0S29iYTk4OVI3U0VjMWlVd0wzY0tVVkpFSWpKNG0tQmVab1czSDJxNThiSC1zNlpOeUNFMUQzQXZKdUl0X2tMYUVLTTBJQXE5Zmt0UzVjaC1qTTlpSm5ZSENoZ3RyclhMYlpBb2JhUHVhLUM4YkgzbExqejVmNEsxMFdrYl9DSC0wX1hpcFhR0gHDAUFVX3lxTFBVZzJOZTJqMHgwTjF3RDJNTHFTd19vNE1kQ05NTDI5YTFVZDZQeWc1RllFUUFfNnE2bHgyQ2xCOWo1UkNOb2xVQXdFVWtFQkVyeENYSVlzajFkMmZPc2lKV3FEWEExODB6bWlMWjBTVXh1Vkwwc245cTdxa3pyUDRmNjIwUV9HTjlDVXh6SDJtbzBiYjAteTB3RFZBZW9ESEl2OU1hdnMwUGhnRWdpMzhDZ1FBbEtpY1hDUERGVzNxUmJrTQ?oc=5",
+        "domain": "anews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T170812Z",
         "source": "GoogleNews"
       },
       {
@@ -121016,12 +121369,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Sanctions Nearly 50 Russian Financial Institutions | CEO Magazine Poland",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81aDNkVFhIN29GclNNdWd3OUpOeTJrbzhWdFc4OUN3UTVzTDVZdU1wSXc1a2pNNUphWlpiWWNiRi02b0FFR25jX2ZCZ3lYSVVKajY1WXI5ZXZYdFl0QjBGYV93VkNmNlJUZTBxTzd3aw?oc=5",
-        "domain": "ceomagazyn",
+        "title": "EU Council adds The Base founder Rinaldo Nazzaro to terrorist sanctions list with travel ban and asset freeze",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaEVXYTNfMGpvLWY5My1fanNHMmg5RkZpS29yRjJEa3kyZlQ5dTg5OEtqQ1ZXMWhSaDlwMFZCcGRIX2pJVjF4WXNrZ1JhQzdnV20tWGYwclgwN29SSkV3NkpQdnhHQXh6MG82a3hNZ2t2NWFta0RWakxMb0RjMGZzRjVSSFZhTDY5NHpOakVwc2tqaTdGNWhOSkxiVm5KalpueEFpeG9Rb09FdkxLRmNZQ0ZUMlhxSEtkWEhPS01UMGRhS3VXb1FNbDZFaG85TmxkalVlYkJUTk4tTERXMWc?oc=5",
+        "domain": "cyprusinform",
         "language": "",
         "tone": 0,
-        "seendate": "20261116T153315Z",
+        "seendate": "20261123T140201Z",
         "source": "GoogleNews"
       },
       {
@@ -121034,12 +121387,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWhuZFJrU1JMVHlIcTlIbEdFQkI5Y3FsNGxVSm51RnpCZjN3WjRoX1pZS2RQUnI0SVE4MTlsWDhKTWszSU1BR0pVcmxITzFKR0FZcHVFVlZNUTBkbGNOMHdYMWRjUnBiVkEtYVJkS3RVQXc2YTNoR21ockNONHJRZ1QwY0E0OE9GZ1hKdXdvRG9jYndCaEVvRlJzRmhoVDQ5UjRMNWpzU21UTXVTb3ppUFBQRUpzdlJFX3Yzbg?oc=5",
-        "domain": "themoscowtimes",
+        "title": "Wildberries CEO Tatyana Kim steps down days after EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTVhiQ3hGQVRkSlh3SlUtX1NSTmNkd3F5YUtmdE5ZUU9hWGdyX0dUN3JLQXNibUh3LTlmZzhyZk1fVlNJRzlSUnVXc1ZYcGpMNHBsN2JOeC1FOC1mRVUwUXhHeVhJRmx1eEhaRnA5V2tsQTlCUUVhUU1GdWE2emdBQ3B6bXp3Vll6bVA0?oc=5",
+        "domain": "mlq.ai",
         "language": "",
         "tone": 0,
-        "seendate": "20261116T133635Z",
+        "seendate": "20261121T161817Z",
         "source": "GoogleNews"
       },
       {
@@ -121052,6 +121405,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU sanctions neo-Nazi terror group leader of 'The Base'",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE01R05iZ3NReXJmNTlxOEw0NkcwdWo4Z3BfUVlkc2pwTkVPQ19HSGJ6U2ZldGQyNjkwMk91VnRDVWVkbGdkQm1fdGlDclRkVndyOFgxd3B6RkVHTVVkUFhJNnpET1Flc0FkTkVtOVZwS29sRXFzY2Jn?oc=5",
+        "domain": "thejerusalempost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T230037Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "US sanctions Myanmar armed group leader over scam links",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUW5iRmdnOGoxeFFpUGs4dU53Zk9oXzZHd21yVS1qY3BPOXR1NXJiTUNsMVJhTkZoaEtvUURieGZxOXBaTEFFblhyejh5RGo3bmFjbGQwVnpPWnR6TVJCVUtEYXlzTGh6NTRKc3dDNHhwNWlvdW1YaUdpdlFZX0ZqNjg1cmR2ZXJDSENNUDY4VWVuelFwOXo5TDZEZ2RnazRGQUJwNENUZWFDc0c1TjV6TFpvZmxEdw?oc=5",
         "domain": "freemalaysiatoday",
@@ -121061,21 +121423,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Irish journalist Chay Bowes hit with EU sanctions over alleged role in Russian misinformation network",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMDBNYmNQblBYZ2NVZWZHaFg3M3VHUXdwZk13VnBmX1QwcXl4UW5FMlczc3AwYV8teXBBUVVfQjBJbGZsZVVZb01EeEN6a3ZHZXE4NEJOUEZFbFd6ZTB2LTdQQ2FKM3R3V1JBems3Tm1qUlY1bjVscVJSWGlKUk9kYzVDS2ktSXZxTC0wRjRRamNpTUREYmtkVzBsTjI3MHF2ODNKYU9uQm9vV1g2amw5VExVcWJVWnYzc2l3eXpsRXRUSGMtS3N6NlVrU19uQk9CNXVCZzY5STA4VkRDaEhhb0hhdjhMdi1veHlyZ3hyR08zZXJuUVVFOA?oc=5",
-        "domain": "irishindependent",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T140528Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Whistleblower Chay Bowes to go after the Government in EU sanctions row",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV1J1Rk05RnZodmtGaUo5VVV2ZVZKeGY3Yk1RWEtsUXV2MTdfMjNIUTJVeTF6aGlXQjlGc0ZrMUZFMkVJTzEzTUtHWWo3eWlFOVM1TjBGZGU4Yno5ajZSSFVVMUdLc2VTeGhDRm5PX1hsaHlyMnJqalN5dWFlZThmb1dRZFRqdzZleVB6S1JkSUpUOUNhX183NHR0bmloMzFXdlM5enpaeFo1SWtrbEdSZ2JOOWtELTZnMnVSSnRZVTVwNDNa?oc=5",
         "domain": "irishindependent",
         "language": "",
         "tone": 0,
         "seendate": "20261121T053000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nurses’ union calls for resignation of HSE board over ‘extremely dangerous’ recruitment embargo",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcUxDT0hZQTRIaWRydkx3MVZ5RzZodjZvV1B6WndxMDJTT0g2ZHphNUV0UG90SWdaY1BCOVpZdWoyOVNSYkxwa3hzMGtOMW5UTGFydkYtTTBvc0RWNXhHVFVJZVYyOVF0WGRXWTdVTTFjNVJ5cHljT0FKU0hCUldLUG52UDNJT3ZPenBvRmFoZFNqSWFqb05RUHRLbFNOUFljNHZyaXRYaDFWT2RxYVRHUkRJYVAyRHVnM1hkaUlia1hHbXJaakRnbHg5TFRIWVVyc1FZOEJfbmtoNllBUEFQbk1NYTJBdjFQR0E?oc=5",
+        "domain": "irishindependent",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261122T053000Z",
         "source": "GoogleNews"
       },
       {
@@ -121099,6 +121461,14 @@
     ]
   },
   "events": [
+    {
+      "title": "Operation Economic Outcast Disrupts Iran's Global Shadow Banking Networks",
+      "url": "https://home.treasury.gov/news/press-releases/sb0699/",
+      "action_title": "Iran-related Designations",
+      "action_url": "https://ofac.treasury.gov/recent-actions/20261123",
+      "date": "2026-11-23",
+      "source": "OFAC/Treasury"
+    },
     {
       "title": "Operation Economic Outcast Targets Corrupt Regime Insiders Exploiting Iran's Oil Sector for Personal Gain",
       "url": "https://home.treasury.gov/news/press-releases/sb0697/",
@@ -121196,14 +121566,6 @@
       "source": "OFAC/Treasury"
     },
     {
-      "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
-      "url": "https://home.treasury.gov/news/press-releases/sb0681/",
-      "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-      "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
-      "date": "2026-11-04",
-      "source": "OFAC/Treasury"
-    },
-    {
       "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
       "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
       "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
@@ -121212,8 +121574,8 @@
       "source": "OFAC/Treasury"
     },
     {
-      "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
-      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/disrupting-irans-pursuit-of-man-portable-air-defense-systems-fact-sheet/",
+      "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
+      "url": "https://home.treasury.gov/news/press-releases/sb0681/",
       "action_title": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
       "action_url": "https://ofac.treasury.gov/recent-actions/20261104",
       "date": "2026-11-04",
