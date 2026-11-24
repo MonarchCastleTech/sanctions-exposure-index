@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-23T23:50:17.625416+00:00",
+    "generated": "2026-11-24T09:48:05.940089+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,11 +12,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-23T23:48:30.482458+00:00",
+    "issued_at": "2026-11-24T09:46:19.583527+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 59.9,
-    "level": "ELEVATED",
+    "score": 41.1,
+    "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
     "components": [
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 100.0,
+        "score": 90.3,
         "releases_considered": 98,
         "current_7d_designation_releases": 8,
         "current_7d_all_releases": 8,
         "prior_7d_designation_releases": 2,
         "baseline_weeks": 12,
-        "baseline_weekly_median": 2.0,
-        "anomaly_z": 4.05,
+        "baseline_weekly_median": 3.5,
+        "anomaly_z": 2.02,
         "themes": [
           "counter_narcotics",
           "counter_terrorism",
@@ -195,12 +195,12 @@
         "id": "sdn_delta_breadth",
         "label": "Exact SDN list delta",
         "available": true,
-        "score": 75.0,
+        "score": 0.0,
         "current_count": 19629,
-        "previous_count": 19599,
-        "added_count": 30,
+        "previous_count": 19629,
+        "added_count": 0,
         "removed_count": 0,
-        "changed": true,
+        "changed": false,
         "publish_date": "2026-11-20",
         "sha256": "89b2a6d6d825d3a0a5033c9d523ef8a5e05a0b766ccff1ad934aea7436da49b9",
         "top_programs": [
@@ -271,128 +271,7 @@
             "count": 342
           }
         ],
-        "added": [
-          {
-            "id": "59110",
-            "name": "H N B TRADING CO LLC",
-            "type": "",
-            "program": "SDGT] [IFSR"
-          },
-          {
-            "id": "59111",
-            "name": "GRAND TARGET HEAVY EQUIPMENT AND MACHINERY SPARE PARTS TRADING L.L.C",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59112",
-            "name": "RECAZ STAR GENERAL TRADING LLC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59113",
-            "name": "RAHBAR BAZARGANI NESIM BAHARAN QESHM COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59114",
-            "name": "HEMRAJ TRADING L.L.C",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59116",
-            "name": "MINA FASHKI AND PARTNERS EXCHANGE COMPANY",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59117",
-            "name": "OGA GLOBAL GENERAL TRADING L.L.C",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59118",
-            "name": "EWAN AL MADEENA GENERAL TRADING LLC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59119",
-            "name": "DEXTEROUS GLOBAL DMCC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59120",
-            "name": "KALHOR, Ali",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59121",
-            "name": "GESPL INTERNATIONAL GENERAL TRADING LLC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59122",
-            "name": "MEETHALE RAW MATERIALS TRADING COMPANY LLC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59123",
-            "name": "HEMMATI, Valiollah",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59124",
-            "name": "JALALI, Sayyed Mohammad",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59125",
-            "name": "FASHKI, Mina",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59126",
-            "name": "FASHKI, Farzad",
-            "type": "individual",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59127",
-            "name": "BOGAZICI GUMRUKLEME ITHALAT IHRACAT TURIZM PETROL URUNLERI SANAYI VE TICARET LIMITED SIRKETI",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59128",
-            "name": "GRANDEZ TRADING LIMITED",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59130",
-            "name": "KHORE AL HILAL GOODS WHOLESALERS TRADING LLC",
-            "type": "",
-            "program": "IRAN-EO13902"
-          },
-          {
-            "id": "59178",
-            "name": "ROYAH ALTAHABIA TRADING L.L.C",
-            "type": "",
-            "program": "IRAN-EO13902"
-          }
-        ],
+        "added": [],
         "removed": [],
         "retained": false
       },
@@ -400,11 +279,11 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 19.6,
+        "score": 18.0,
         "current_7d_releases": 8,
         "current_weighted_term_rate": 2.188,
-        "baseline_weeks": 11,
-        "anomaly_z": 0.48,
+        "baseline_weeks": 12,
+        "anomaly_z": 0.28,
         "matched_release_count": 6,
         "relief_release_count": 4,
         "evidence": [
@@ -592,8 +471,7 @@
     "concurrence": {
       "active": false,
       "official_components": [
-        "ofac_action_velocity",
-        "sdn_delta_breadth"
+        "ofac_action_velocity"
       ],
       "market_component_elevated": false,
       "score_bonus": 0.0
@@ -602,30 +480,12 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 100.0,
+        "score": 90.3,
         "level": "SEVERE",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
-      },
-      {
-        "id": "sdn_delta_breadth",
-        "title": "Exact SDN list delta",
-        "score": 75.0,
-        "level": "SEVERE",
-        "why": "The official SDN file changed materially since the previous accepted snapshot."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-24T21:27:51.898365+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-25T04:51:22.984950+00:00",
         "score": 5.0,
@@ -2594,6 +2454,17 @@
           "official_posture_shift": 19.6,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-24T09:46:19.583527+00:00",
+        "score": 41.1,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 90.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 18.0,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2658,13 +2529,13 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "59.9/100",
-      "delta": "ELEVATED"
+      "value": "41.1/100",
+      "delta": "WATCH"
     },
     {
       "label": "Official SDN Entries",
       "value": "19,629",
-      "delta": "+30 since accepted snapshot"
+      "delta": "+0 since accepted snapshot"
     },
     {
       "label": "Official Releases",
@@ -121261,6 +121132,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU expands its sanctions framework: New enforcement structures and Russia-related designations",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUVZVc043NUJ3X1BRRk9aLXBEY1FXRVN1Z09pMm9RZUdYUU85NkZBaGxraGJ5STdTM0VNZ1hZQVpuYjNGSnRDUThVYTBrMzIwWTlxcnJYS1pkYWc2WmpVWlpHMm80WElDbEtiNzVSaHlGX3NYeXdIV3U5cFo1X0VWLVp5V3p4STUwbEo4QUNodTl3LWNFbDdTeTdLRXdWRG0wcURBN04zRkpsUHNfUll0S0c5aklUX3VKMnJvanJhazFJblcxeWpPVm5aWTFjTEE?oc=5",
+        "domain": "globalsanctionsandexportcontrolsblog",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T144531Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "OFAC sanctions Iran-linked money services businesses",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDNSejlibGVIeXhyMENOdDk0MjFnM05tVGh2OUtwS2JQNFBXalpZUURleWxIVFJJTl85dEY4YzR1SmxpbnhncVZGb1pMMVJkUUlTOGlNb0RXSXlSMndIUUg0LVRxbVFCSmhzQjdvVTR1ZV9qYUY0R1phSzZwazUyVg?oc=5",
         "domain": "jdsupra",
@@ -121279,6 +121159,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "New EU and UK Sanctions Listings Against Russia",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY2FJN2ZFX0VjVmEta1FEY2lwaThjeEdJS2ExZHY4T1RSNXV3UmFuZEpITC1samdtY2hZb3d1RkhpMkpsVVpTVndIY3FlUW5jVWhJNkNqaU8zNlBmdjJHR2lTUm0zS0h3dHJacE54cUtVRVh2WE1sYmJ4VlMwRFFERW5PR2lnNDjSAYwBQVVfeXFMUGVoNnZwaDFMT0VfT3VPdWpySHRCVl9IRkpJSW9CNWt0QVpMRk44bExiQTFTNG5oTlhRTFNrRDZDT2g0dWtqVkVwLThxUVRNQTRqTThLc0d0Wm5FRU8xMGhIUHBqczB4eGtwUzQybzFMaWhyYkhQZzJrVmh0QUdaWUFHRlVEZnl4NFFyZnY?oc=5",
+        "domain": "thenationallawreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261118T230313Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "U.K. sanctions eight Israeli firms involved in West Bank settlement construction",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNaUhjTXRZdVc3TDdpODV3VXJfcGZXdmEtX2ktaFJyV2FPWGpGZlFIaTBLUnZ5cUxiUmp2THFTWVJZNmJ0dlkzQlBBM0M4ZThaODNXMjJmenVoaUY1Vk5FMnFNYmxWenQyZ2FrSGdDSGtpc255UXNqMUJ0SDd5WnJDZkVldElpMW0wRHNtQldYeUNrUFBUVGI2d2tST2hYUUE2a19FT1lBTjBLenVOOXp3cER0bTZjeXJlajcydUltNzFqMUxaUUxpOC1WMy1oN3BFVHAzWnVWYmNPM1NfOWRvTlgwYWltZWNnazM2U0hNZS04NEhsYXhONU95QllDdjFfT3BFY0FUZTY5QUVUODk0Uzl6SXlyNTgyS01R?oc=5",
+        "domain": "haaretz",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261117T102300Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVk5UWnJMQXk0dzdYemUyZkdNdmc3VURVdlBWd1ptUmpFS1hBcEd4eVZxdEpfb2t0bHVPa3dLRVg0Y25JUklCR1lFTVZEUVFBOTA0OVlILU1sMDZ1Qkh5a2h1MzdKZXdsemRhT1Y4aWJ1NFVBNW5PMFR0S2pPVmtPSlp3NzMwYjJzVExaWXVhbEtsTGhrdHlKRUZRcFJEUndBNGFZb1hGMktaRHUwQnRJZzln?oc=5",
         "domain": "themoscowtimes",
@@ -121288,12 +121186,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "British sanctions already impacting banks, companies in West Bank, Mount Hebron council head says",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIamlRdDFpZTFYNUlDZ2VfUkpMVlR6cG5FOVNpX3NOR05FTTZiQ0ZGUUQzZHZmckFTbnRLTGhLR3FFS1l1N0JscXRld3BUakNKRjlvQXM3VmtmVXRz?oc=5",
-        "domain": "thejerusalempost",
+        "title": "Japan weighs early funding to ICC before US sanctions cutoff",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQamVpcTZ4eWZ1X21HSWR5MWlIMkFZeW9mbm1temlMNjcxc1NHUFMzNzk1Z05iWDVnTHVqN0xBTTJ3QlpnMVpXTmpEVzl6Vnh1SXNTQ0ZWSWo5U0lfY0prR1FqdGpTdktlQms2OHBob0hWQzdpeUxoTFlpTjVYNm94bnRfMWV2bkwtRUVmNW50bjJDWnF0akRfZHFXT0xmTm40bk04eEgyY1V4bnhrYmQ3Yl8yU1NaZ2ZF?oc=5",
+        "domain": "nikkeiasia",
         "language": "",
         "tone": 0,
-        "seendate": "20261119T164542Z",
+        "seendate": "20261120T204400Z",
         "source": "GoogleNews"
       },
       {
@@ -121315,21 +121213,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Malaysia-Taiwan: Anwar’s China line triggers a quiet investment freeze",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUi1CQTI3cXRYZGNXREhSUTd5VTNtOEU1RmxveXZ1NHBiRjFncFBYM2RzSHBONUZULVFzNklrcUJEaWw2TkZZeGFPdmY2OGhNejNTZmNNV0VobFhpUUN4Rm9KUWpyTWFLQlE4OXgwWXk3SzR1U2lxZTVpckF2YXBpaHJ5Q0xkM0NDWFhhWVlRdnpUZUpVTEZpZDZtRFNpbmVSWldSYUx6Mi1CWlhlWWRqTmsweHNQQQ?oc=5",
-        "domain": "lowyinstitute",
+        "title": "British sanctions already impacting banks, companies in West Bank, Mount Hebron council head says",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIamlRdDFpZTFYNUlDZ2VfUkpMVlR6cG5FOVNpX3NOR05FTTZiQ0ZGUUQzZHZmckFTbnRLTGhLR3FFS1l1N0JscXRld3BUakNKRjlvQXM3VmtmVXRz?oc=5",
+        "domain": "thejerusalempost",
         "language": "",
         "tone": 0,
-        "seendate": "20261117T160000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU Council sanctions founder of far-right terrorist group The Base",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZFdhNF8yR2U2WDR4Mk1xRDhPODlEeGh2Z2k3WTFyUjIySmFTMHcweWZDMG5vN2N6MFYwLUNidm5aOXhHcThvbWpwNTZRdl9OdVRKNFlQWk52cE9hNWdfNGhyZW11SWoxWi1UU1NNeVZCS0o3VWhzLTNLaldtanBDLXZ5M2xRQmxIQ0ZFTGJSdTBWQ19nTVNnU1QzQndNZVNpdG9YaVJWMjE0QktPcG5Ldmc5RGx6ZTVhcTM3TjZCVUdFLVpTLXBLcXlWNldkdw?oc=5",
-        "domain": "insighteumonitoring",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T224918Z",
+        "seendate": "20261119T164542Z",
         "source": "GoogleNews"
       },
       {
@@ -121351,12 +121240,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tatyana Kim, the founder of Wildberries, has stepped down as chief executive following EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XNDZRRUpxQTBVN0N5LUxwejN0aFBHV2dYclNSNF9WTHR3bXVoTUpQUG9RRGh3bk5aSmk3ZU0tdnc0aTFnVmU5dmpqWDBBaHdDQzhWY3NYdUxZcXhNaGpIZ2ZrRzlHdDJINW11WjZxR1FWSUVJcXNaeU9qREM?oc=5",
-        "domain": "ukrmedianews",
+        "title": "U.S. sanctions Myanmar armed group leader over scam links",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOUdvQWJXZ0ZDbkJBTDJfdFgyRTBQajdlRWowa09LTk5fMndidGRBbGdxbTRBQ3Jwd25uMVA0YUlVMkgxRnhsLWVQOWsyMjRsODdBSml4ekU3VXJQUDlvenVmd3VISVRBWWpKbGVKRE1sUWc5blV2ck00Nk5vUjFXZUR1MTdZbGVmSVI5b0FnaWQtLXlXRmFzUVhYYkY3UUotd1JEeVBON0ljZzJyOGtnaENkamdwSGp0MjRr0gHCAUFVX3lxTE4wV2VodmlmdDJqaXVCNXQwZEJIcElzbFoxZzFvVVQ0ZldYclJPYUlnLS1xWkVJV3JsNEdtSTB5c2pnZmUya29zRDVJUVdISmg1bm9ULUhVZHFRTnNjcWZuTDRHSm9MMTVlV3NmbU42cEZpdFVqWS00NHJrcV83QURVMlg4V0Joa2RDb2hSM1lJdE1FaVY1Z1p3bEQ5RG5aRkZJUjZUYUp1T3FEY2ZZVzBkdDk1YU92SUd5dWhwU2Y1RDRB?oc=5",
+        "domain": "thehindu",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T135221Z",
+        "seendate": "20261120T162740Z",
         "source": "GoogleNews"
       },
       {
@@ -121369,21 +121258,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "New UK Sanctions on Israeli Groups Will Have No Material Impact, Critics Say",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVWloTE5QOVd6c3VWWmh1Q2lIVzdDZXBXQ09sQ3NnMEdDQ2owODh1QjZ1TnVwdzV0MTJZV0RITWRyR0x5WTF6UjBCa0dZb2FvZmlCWkFudEpUZ29ZM1pkaWR6T1R3dTJlRGZ2aDhpdVJqZ0ZiMk1xMUlPU29GZXh6VVZBalJsVC1WWWFDSGFLWEJQVXVWbTRJWFRVS0JmZEczbUdQalVlMWJtVmgxZjhQWQ?oc=5",
+        "domain": "novaramedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261117T221125Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds neo-Nazi group The Base's founder to terrorism sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdGVyOGFKLWVSdHNZQVlHdTQweEVreV9YTlZIQjNic2g3ZmxDdTF3Y2hOaVVRZTltanAxRGtkX3JIR3RLMVU1MzBaYnNiZld5YTZBOEVGMTVSeFZYbDNhWE01MDAwRWM3UExGSjVRc0JuWE9ERU5SY3J4YXBXbGZhaU9fVWRkanA0T1hZSEpNc3ZSSUxKS2dFWi1DLUItNWFHbzhMSER0TURZVVE?oc=5",
+        "domain": "yenisafakenglish",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T081912Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia’s Wildberries CEO steps down days after EU sanctions, media report says",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbHBpcmplTno2dEloWktIbTdIb0NNUnNSc09yd1dURkI5UFlGcGE4YUh3MURnZ3FscTdiYzMwc0VHTTJKRWh0a1hEaE8ya3hxQmhPSl9rbmhFdWtPb3Fmc1pJa0lhd2NqejlZRWY5OWpPLXlEaGJFQjl3NUt6QzFIMGJvZlFLSEVWZlVRZy0yOEF6VFBRVExlY1FuNE5idWt4cERPZEM2N0NwMjg4Tl9IT2VjQnA?oc=5",
+        "domain": "ctvnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261121T132425Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU Council adds The Base founder Rinaldo Nazzaro to terrorist sanctions list with travel ban and asset freeze",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaEVXYTNfMGpvLWY5My1fanNHMmg5RkZpS29yRjJEa3kyZlQ5dTg5OEtqQ1ZXMWhSaDlwMFZCcGRIX2pJVjF4WXNrZ1JhQzdnV20tWGYwclgwN29SSkV3NkpQdnhHQXh6MG82a3hNZ2t2NWFta0RWakxMb0RjMGZzRjVSSFZhTDY5NHpOakVwc2tqaTdGNWhOSkxiVm5KalpueEFpeG9Rb09FdkxLRmNZQ0ZUMlhxSEtkWEhPS01UMGRhS3VXb1FNbDZFaG85TmxkalVlYkJUTk4tTERXMWc?oc=5",
         "domain": "cyprusinform",
         "language": "",
         "tone": 0,
         "seendate": "20261123T140201Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russia's Wildberries CEO steps down days after EU sanctions, media report",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmQ4QmxsMUVGYm1PT3c1dE1WbWJvVS1oSEpQTTZKT1Y0aXkzRm9oM1JoQjlkc0Q5U05rWFdyRmRQNDVIbkEtMkp5VzYxSXR1RU01VnUxZ0lVSzRfTWlCY1MwazFKdEQyQ1J2RE1KX01RQWNoZFVCOGYtdFpuR1hUWmRaYkZCS3VvcUoyaWpZdkRDZ1NyWXV6cGJLa2lBSVhvSU91c0l6MzNXZ1FLQ2VjaEZ6aw?oc=5",
-        "domain": "thestraitstimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261121T112500Z",
         "source": "GoogleNews"
       },
       {
@@ -121405,21 +121312,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU sanctions neo-Nazi terror group leader of 'The Base'",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE01R05iZ3NReXJmNTlxOEw0NkcwdWo4Z3BfUVlkc2pwTkVPQ19HSGJ6U2ZldGQyNjkwMk91VnRDVWVkbGdkQm1fdGlDclRkVndyOFgxd3B6RkVHTVVkUFhJNnpET1Flc0FkTkVtOVZwS29sRXFzY2Jn?oc=5",
-        "domain": "thejerusalempost",
+        "title": "Canada among 14 countries that ‘acknowledge’ ICJ ruling on Rohingya ‘genocide’",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeWQxR0dkMlRWRnY0WlZBdWlLUzBOWVRiTTRNY2hranlkbUFwM3hmWmRnYmZiZHh5Z3g4RzlNX3FkSFZSSW1lanhwTEVBejlaZWhpZVBkYlZtcnpyU18xYlFHVUZkV2F2MXlXYml4d2h5VDRWd3FQOTNvSjBvTFVwVDhtSVlYMExkb1B3Yk1mM2hsV3U5QV9wWW05SS0zNVFmSThVeHAydTlWUTlyQ05OVWZn?oc=5",
+        "domain": "ctvnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T230037Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US sanctions Myanmar armed group leader over scam links",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUW5iRmdnOGoxeFFpUGs4dU53Zk9oXzZHd21yVS1qY3BPOXR1NXJiTUNsMVJhTkZoaEtvUURieGZxOXBaTEFFblhyejh5RGo3bmFjbGQwVnpPWnR6TVJCVUtEYXlzTGh6NTRKc3dDNHhwNWlvdW1YaUdpdlFZX0ZqNjg1cmR2ZXJDSENNUDY4VWVuelFwOXo5TDZEZ2RnazRGQUJwNENUZWFDc0c1TjV6TFpvZmxEdw?oc=5",
-        "domain": "freemalaysiatoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T075600Z",
+        "seendate": "20261123T220400Z",
         "source": "GoogleNews"
       },
       {
@@ -121438,15 +121336,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261122T053000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Wildberries founder Tatyana Kim steps down as CEO days after EU sanctions",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUpKeWhBc2dTQ2lJRXNRVjctQ2ZFdTM3NExnZDdFNkdRamVfYnFWVHNWWngwY2toS2JXQnVYNWdLUlV0c053YkJKNm5kbHNGQ1VsdGxRMzhKc0VicGt1Y2IwUjZ4NzNsRW0wWWlYbFFlSHdYRVl0WDRXOUJmV280dmpBa2lVZG9xR3FDYlgweU1BMUlBMnZSVGc2LWRXdDF0N3ZxenRIM0pBS25NS29KbHJXWndGd3VpRnJV?oc=5",
-        "domain": "trkiyetoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261121T140448Z",
         "source": "GoogleNews"
       },
       {
