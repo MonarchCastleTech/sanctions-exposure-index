@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-24T09:48:05.940089+00:00",
+    "generated": "2026-11-24T22:22:26.152478+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-24T09:46:19.583527+00:00",
+    "issued_at": "2026-11-24T22:20:39.369822+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 41.1,
@@ -486,17 +486,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-25T04:51:22.984950+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-25T11:45:12.834018+00:00",
         "score": 5.0,
@@ -2457,6 +2446,17 @@
       },
       {
         "timestamp": "2026-11-24T09:46:19.583527+00:00",
+        "score": 41.1,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 90.3,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 18.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-24T22:20:39.369822+00:00",
         "score": 41.1,
         "level": "WATCH",
         "components": {
@@ -121123,24 +121123,6 @@
     },
     "news_articles": [
       {
-        "title": "EU Maintains Sanctions Pressure on Russia Amid Diplomatic Efforts",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVUlZZDFqOE5GVWxfWUJqWWlLanJOMTB3T2VHOTFaU2ZKQXV0UmRTSGVTZWUzNU1lMTdRRmV2aHpOTnAyTlJoaW1RaGdYV1hQYXo4MU0xSDkzQXlOOGZnWDJCaWdaMWVIWjl5cDJnV0J2cmwya3R0QmFwZFBiN1NwNjM4RFNXVUlhTGI0eFBSZ05uX1d4eUFueF9uMW9SMlpUel92VndHUEpxQQ?oc=5",
-        "domain": "morganlewis",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T144129Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU expands its sanctions framework: New enforcement structures and Russia-related designations",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUVZVc043NUJ3X1BRRk9aLXBEY1FXRVN1Z09pMm9RZUdYUU85NkZBaGxraGJ5STdTM0VNZ1hZQVpuYjNGSnRDUThVYTBrMzIwWTlxcnJYS1pkYWc2WmpVWlpHMm80WElDbEtiNzVSaHlGX3NYeXdIV3U5cFo1X0VWLVp5V3p4STUwbEo4QUNodTl3LWNFbDdTeTdLRXdWRG0wcURBN04zRkpsUHNfUll0S0c5aklUX3VKMnJvanJhazFJblcxeWpPVm5aWTFjTEE?oc=5",
-        "domain": "globalsanctionsandexportcontrolsblog",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T144531Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "OFAC sanctions Iran-linked money services businesses",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDNSejlibGVIeXhyMENOdDk0MjFnM05tVGh2OUtwS2JQNFBXalpZUURleWxIVFJJTl85dEY4YzR1SmxpbnhncVZGb1pMMVJkUUlTOGlNb0RXSXlSMndIUUg0LVRxbVFCSmhzQjdvVTR1ZV9qYUY0R1phSzZwazUyVg?oc=5",
         "domain": "jdsupra",
@@ -121159,33 +121141,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New EU and UK Sanctions Listings Against Russia",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY2FJN2ZFX0VjVmEta1FEY2lwaThjeEdJS2ExZHY4T1RSNXV3UmFuZEpITC1samdtY2hZb3d1RkhpMkpsVVpTVndIY3FlUW5jVWhJNkNqaU8zNlBmdjJHR2lTUm0zS0h3dHJacE54cUtVRVh2WE1sYmJ4VlMwRFFERW5PR2lnNDjSAYwBQVVfeXFMUGVoNnZwaDFMT0VfT3VPdWpySHRCVl9IRkpJSW9CNWt0QVpMRk44bExiQTFTNG5oTlhRTFNrRDZDT2g0dWtqVkVwLThxUVRNQTRqTThLc0d0Wm5FRU8xMGhIUHBqczB4eGtwUzQybzFMaWhyYkhQZzJrVmh0QUdaWUFHRlVEZnl4NFFyZnY?oc=5",
-        "domain": "thenationallawreview",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261118T230313Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "U.K. sanctions eight Israeli firms involved in West Bank settlement construction",
-        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNaUhjTXRZdVc3TDdpODV3VXJfcGZXdmEtX2ktaFJyV2FPWGpGZlFIaTBLUnZ5cUxiUmp2THFTWVJZNmJ0dlkzQlBBM0M4ZThaODNXMjJmenVoaUY1Vk5FMnFNYmxWenQyZ2FrSGdDSGtpc255UXNqMUJ0SDd5WnJDZkVldElpMW0wRHNtQldYeUNrUFBUVGI2d2tST2hYUUE2a19FT1lBTjBLenVOOXp3cER0bTZjeXJlajcydUltNzFqMUxaUUxpOC1WMy1oN3BFVHAzWnVWYmNPM1NfOWRvTlgwYWltZWNnazM2U0hNZS04NEhsYXhONU95QllDdjFfT3BFY0FUZTY5QUVUODk0Uzl6SXlyNTgyS01R?oc=5",
-        "domain": "haaretz",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T102300Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVk5UWnJMQXk0dzdYemUyZkdNdmc3VURVdlBWd1ptUmpFS1hBcEd4eVZxdEpfb2t0bHVPa3dLRVg0Y25JUklCR1lFTVZEUVFBOTA0OVlILU1sMDZ1Qkh5a2h1MzdKZXdsemRhT1Y4aWJ1NFVBNW5PMFR0S2pPVmtPSlp3NzMwYjJzVExaWXVhbEtsTGhrdHlKRUZRcFJEUndBNGFZb1hGMktaRHUwQnRJZzln?oc=5",
-        "domain": "themoscowtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261121T114200Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Japan weighs early funding to ICC before US sanctions cutoff",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQamVpcTZ4eWZ1X21HSWR5MWlIMkFZeW9mbm1temlMNjcxc1NHUFMzNzk1Z05iWDVnTHVqN0xBTTJ3QlpnMVpXTmpEVzl6Vnh1SXNTQ0ZWSWo5U0lfY0prR1FqdGpTdktlQms2OHBob0hWQzdpeUxoTFlpTjVYNm94bnRfMWV2bkwtRUVmNW50bjJDWnF0akRfZHFXT0xmTm40bk04eEgyY1V4bnhrYmQ3Yl8yU1NaZ2ZF?oc=5",
         "domain": "nikkeiasia",
@@ -121195,21 +121150,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMXFaQ2dKVW01RV9rOGxvcmk1d3ZYN3l4OUFNSGd6VVRrNEhabzc5dTQxWnRRYS0yczE4M05vTjFkX09hcmhhNENMTHlyQXpoOUVOQ19CYTFUME10VU1pejRQSHdreTlleTdhTFUtRmR0MTdnaFJtVmhzWXd3RHlYSkJiSjJtWE9xeU0ydm5OSmRIMno1Z3Q4a2JGYWQ3aVdlOGRWMUhwUC10M0V3TEt6aUNzVkM4N1BkZk9qWVNn?oc=5",
-        "domain": "thedecoder",
+        "title": "Russia's Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWg4ZF9sNEt2X2pNU3diUzRuVjNUSjJRYVNjblpDSjJ4UFJ6d3Z2THRtdkt2WGc3YUYxZ0tWX1FJdm8xVHF4TElhRUlYMEw3QWd3b1VSQkVfU05GV3BUeE5lYVFxT0dlZlFpMW1TeW9rRUxidEg4MXQ0QUhmOFZvY2k2Vmh2QnFjNU9mZ2dSVkk2ckJMY0xJT1RkQUlxNUxVbnRZV1dHRGVpQzZYczlCZFpLNktrWGQ1UG1sMA?oc=5",
+        "domain": "themoscowtimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261119T170333Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU targets four Haitian gangs with asset freezes over killings, sexual violence and child recruitment",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaWpyT1JaSk9yWC1rSWdrMjFXS2NaWGZmcmR2dFVuTm1vTy1SQU90WldYZXEyUjBZUFgzMVJtWV96b3VrbThUM0U1ajZITGRJbzBfT0pRazU1M0x4QUF5ODBMSHNlekptNFp0UWZabGo3aWVIbUhJNldmZzJHdm5SQjhONk5HNmZMZHNUS0hn?oc=5",
-        "domain": "latintimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261118T101625Z",
+        "seendate": "20261121T114253Z",
         "source": "GoogleNews"
       },
       {
@@ -121222,48 +121168,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK cracks down on companies building settlements in the West Bank and groups blocking aid access into Gaza",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMmlWakp3LVU4dnp1dEluTFYtUzItZ3UzcGNfMWlqX3lPU3JaVTVmcUhQWkVjdFZZNF9zTW1oamxYWWQyNGk3VDVuUjUzZlJERW5ydk5MVTFUeVpqbXVUVC1BTlJJcVN1QWplSTlPYVRLZjYwekt0LW5VVDRySHZBcXN4bThydWt4ZGZQdWd4TlVONWN5SGtWdUtrQzBGdGhROEFfN0Fkc005dFlwSTEtdUxCS2dON2JuWGhqdUczdzRNTmpLei1IYzg4VmFqQjY0UWZ0N05yZTM?oc=5",
-        "domain": "gov.uk",
+        "title": "UK sanctions Houthis and 4 top officials over attacks, prisoner abuse",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQanltOVpOX0x1NTdtMXFTY0tDN1h3WHprZ3Z4V2wxaG5Od3lPd2RjOHNxSE9TQ00tT2tVNVBZaXA1VGluZVVMNUtfeldfUTc2S2RCMTEtQ2pEaXc1SU01Q3ZKV3BqemlBQTIxQ2d1QWNUSWdoa291dnd0TnpTenVWVm1IOEJPcjIybnh3bWZFQXBCbFlic1pmWUdLZ2VkVjI0TVJaMVlPTVNWLVpLUU1YR1ZYZw?oc=5",
+        "domain": "arabnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261117T101913Z",
+        "seendate": "20261124T113031Z",
         "source": "GoogleNews"
       },
       {
-        "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMWdUX2VUUE9pbTUyS1FQN3VXVnJHaTF2Y3doSlFyenVkVkRCeFU5eUwwOVh6RTV0S29iYTk4OVI3U0VjMWlVd0wzY0tVVkpFSWpKNG0tQmVab1czSDJxNThiSC1zNlpOeUNFMUQzQXZKdUl0X2tMYUVLTTBJQXE5Zmt0UzVjaC1qTTlpSm5ZSENoZ3RyclhMYlpBb2JhUHVhLUM4YkgzbExqejVmNEsxMFdrYl9DSC0wX1hpcFhR0gHDAUFVX3lxTFBVZzJOZTJqMHgwTjF3RDJNTHFTd19vNE1kQ05NTDI5YTFVZDZQeWc1RllFUUFfNnE2bHgyQ2xCOWo1UkNOb2xVQXdFVWtFQkVyeENYSVlzajFkMmZPc2lKV3FEWEExODB6bWlMWjBTVXh1Vkwwc245cTdxa3pyUDRmNjIwUV9HTjlDVXh6SDJtbzBiYjAteTB3RFZBZW9ESEl2OU1hdnMwUGhnRWdpMzhDZ1FBbEtpY1hDUERGVzNxUmJrTQ?oc=5",
+        "title": "UK sanctions Houthis, 4 officials over 'renewed aggression'",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWNtYjRmVDhWLW1hYWRsMy00QUFhbm1pUS01c3h3VWxjc1dETDdtOWpIbjVia1FadWVob20yNHhESGN2bnhHcHFhcThBSmZvQW0xRkMtempHR2VZQ0ZIQWdOaGhYR2V4cVFNZ2VoaFZpcGs5UmNFZGo2aXhOa055cHV4VGRMUTRGOE5RVU92UkJ5emdPbHd0NUNGaGhjRVXSAaQBQVVfeXFMTkNqYXdLSTIxN3lZc0thejBzXzkzQVZEUmRoRkZwZjk0d1F3RVRlbWk3ZVRlclp0V3pRaHZRVENFOUR2X0NuNUVSNEpZRjRpbFdxZF9Ub21lWWxYRUdDV1BFZjF5RkpIazJaU1R6VWJkMTV4ZmV5aTRFYUc5OV9LODJXMHQ5NVFITVV6b2NnRUE2NjNIUWlCQmJwbGdXRHNPOTNSSkc?oc=5",
         "domain": "anews",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T170812Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "U.S. sanctions Myanmar armed group leader over scam links",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOUdvQWJXZ0ZDbkJBTDJfdFgyRTBQajdlRWowa09LTk5fMndidGRBbGdxbTRBQ3Jwd25uMVA0YUlVMkgxRnhsLWVQOWsyMjRsODdBSml4ekU3VXJQUDlvenVmd3VISVRBWWpKbGVKRE1sUWc5blV2ck00Nk5vUjFXZUR1MTdZbGVmSVI5b0FnaWQtLXlXRmFzUVhYYkY3UUotd1JEeVBON0ljZzJyOGtnaENkamdwSGp0MjRr0gHCAUFVX3lxTE4wV2VodmlmdDJqaXVCNXQwZEJIcElzbFoxZzFvVVQ0ZldYclJPYUlnLS1xWkVJV3JsNEdtSTB5c2pnZmUya29zRDVJUVdISmg1bm9ULUhVZHFRTnNjcWZuTDRHSm9MMTVlV3NmbU42cEZpdFVqWS00NHJrcV83QURVMlg4V0Joa2RDb2hSM1lJdE1FaVY1Z1p3bEQ5RG5aRkZJUjZUYUp1T3FEY2ZZVzBkdDk1YU92SUd5dWhwU2Y1RDRB?oc=5",
-        "domain": "thehindu",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T162740Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "U.K. sanctions Israeli companies involved in building illegal settlements in West Bank",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUpfdVNNUGFwLXVSR01PSWpJUXlpYWVheDhMTk5WMGFpQ2FrWkJKMFZuc2Z1TG9iUFNpQUwwV2R6WUlPOThYLUhIZGhjTy1WQ2s5cmJLTnFVSEJ5cnhFWk8tazlSclJDZFU0R25Ib2REM09BQ1JVQkJuUWdZdlJHV3ByRUJrSzNPNFlYb2t5dXhCUmNxalhFOWl6RVdoUmNnSXJPcEljVTJDZw?oc=5",
-        "domain": "cbc",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T192710Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "New UK Sanctions on Israeli Groups Will Have No Material Impact, Critics Say",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVWloTE5QOVd6c3VWWmh1Q2lIVzdDZXBXQ09sQ3NnMEdDQ2owODh1QjZ1TnVwdzV0MTJZV0RITWRyR0x5WTF6UjBCa0dZb2FvZmlCWkFudEpUZ29ZM1pkaWR6T1R3dTJlRGZ2aDhpdVJqZ0ZiMk1xMUlPU29GZXh6VVZBalJsVC1WWWFDSGFLWEJQVXVWbTRJWFRVS0JmZEczbUdQalVlMWJtVmgxZjhQWQ?oc=5",
-        "domain": "novaramedia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T221125Z",
+        "seendate": "20261124T120925Z",
         "source": "GoogleNews"
       },
       {
@@ -121276,12 +121195,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia’s Wildberries CEO steps down days after EU sanctions, media report says",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbHBpcmplTno2dEloWktIbTdIb0NNUnNSc09yd1dURkI5UFlGcGE4YUh3MURnZ3FscTdiYzMwc0VHTTJKRWh0a1hEaE8ya3hxQmhPSl9rbmhFdWtPb3Fmc1pJa0lhd2NqejlZRWY5OWpPLXlEaGJFQjl3NUt6QzFIMGJvZlFLSEVWZlVRZy0yOEF6VFBRVExlY1FuNE5idWt4cERPZEM2N0NwMjg4Tl9IT2VjQnA?oc=5",
-        "domain": "ctvnews",
+        "title": "Doughty to Asharq Al-Awsat: Houthi Escalation Prompted Broad Punitive Measures",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbTlGcVRmbGl6c3pVNHduam9YRk1zMlZNVTBydTl5bFJZZVFuUHJzWkI0eUJfUXR6RHl6S3c4SVlNbkFHWFpRVG04ZjFENFVJeXhacFVjZFZfU0RwUGxpNXNlOGVHSU54azE4Wll0cGFHVTRXTGNHVzV0V1c1dldUVGF6ZTkwQnZxdWhoZDBiS01UeDF3R0s5M3VDZkJxZ0dGZjAtTXE0dXo0QWlHRUpfS2tsaXVNRUZMN1E2Qg?oc=5",
+        "domain": "asharqal-awsatenglish",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T132425Z",
+        "seendate": "20261124T180707Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Tatyana Kim, the founder of Wildberries, has stepped down as chief executive following EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XNDZRRUpxQTBVN0N5LUxwejN0aFBHV2dYclNSNF9WTHR3bXVoTUpQUG9RRGh3bk5aSmk3ZU0tdnc0aTFnVmU5dmpqWDBBaHdDQzhWY3NYdUxZcXhNaGpIZ2ZrRzlHdDJINW11WjZxR1FWSUVJcXNaeU9qREM?oc=5",
+        "domain": "ukrmedianews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261121T135221Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK steps up response to renewed Houthi aggression",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa3FJZXl3Sk44Qm4tVkNYbU04YTJVR0taeUt0M1NmY25GZlRRcmN4ZDJmNmxoMnBZZ1Y0djVGQi13ZHJOVFI2UjcyQVpxRWt0RmtBUzE2QWFRVGhLYmhjd1NaUURnX0x0emk2UWxyaXdzOUNkaWtFUlByTzVlX1NKYmZGNHJCZmpYQXpTUA?oc=5",
+        "domain": "gov.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T112921Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Court halts sanctions against Autistici/Inventati",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUzJ3OVVfemg3WWt2LXl3V21BVVRiN3oxbTM2UlhlUTUzclJsdlFiaXhqZG1lMmxkcmZUZHFPV2lzdms2bHhLcHFaeWVsd2Z2NDVCVlFrRTN2a25Fa285NE5ONHlJUDFRcC05RFp6dkhuMkJIX20wa3NCbmNoZ0FsbDVPQ2lRM2ktUnNETVlKeE5RMFU?oc=5",
+        "domain": "freedompress",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T083832Z",
         "source": "GoogleNews"
       },
       {
@@ -121294,6 +121240,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK slaps sanctions on Yemeni Houthi group, four top officials",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92ODJWZ2RaZnhnd0o5UmZxSUVUSjZCRVk5djR4RkhFb3JJcHI2aEdwaHhCOGlsQmVUWHFlUkZBc096cVJYMTUtRHpwV1VnMUpmR3J1c0Z3WQ?oc=5",
+        "domain": "bangladeshsangbadsangsthabss",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T125901Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia's Wildberries CEO steps down days after EU sanctions, media report",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmQ4QmxsMUVGYm1PT3c1dE1WbWJvVS1oSEpQTTZKT1Y0aXkzRm9oM1JoQjlkc0Q5U05rWFdyRmRQNDVIbkEtMkp5VzYxSXR1RU01VnUxZ0lVSzRfTWlCY1MwazFKdEQyQ1J2RE1KX01RQWNoZFVCOGYtdFpuR1hUWmRaYkZCS3VvcUoyaWpZdkRDZ1NyWXV6cGJLa2lBSVhvSU91c0l6MzNXZ1FLQ2VjaEZ6aw?oc=5",
+        "domain": "thestraitstimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261121T112500Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Wildberries CEO Tatyana Kim steps down days after EU sanctions",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTVhiQ3hGQVRkSlh3SlUtX1NSTmNkd3F5YUtmdE5ZUU9hWGdyX0dUN3JLQXNibUh3LTlmZzhyZk1fVlNJRzlSUnVXc1ZYcGpMNHBsN2JOeC1FOC1mRVUwUXhHeVhJRmx1eEhaRnA5V2tsQTlCUUVhUU1GdWE2emdBQ3B6bXp3Vll6bVA0?oc=5",
         "domain": "mlq.ai",
@@ -121303,21 +121267,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK sanctions eight Israeli firms and activist group over settlement expansion and Gaza aid block",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb2VZOV9Ma1JrclpKZmpDbk05ZTdXUEhYaFpuSk9NYlZOVU1lSDNNRUdleFdzLXBIbmhRLVZQaXpxN2IwSmczbjZNaTM4QVIxRkMyUG05VEhzZmRpaFlRWHB4NTJDZEx6MGpETjZudHVVNndfX2lJeFMyME5WX1hVcjZRemlNQmRBV3RXQWQ5OGZ2Y2s0UXZSNjAzWXRHZDI0dllma2NiMnhyNkJINGF3Q1JxT29iMnBNZ1N1SGNrQUgyZksyaXpyenNJeTPSAdIBQVVfeXFMUDRNVUVpbFV1Y25WMmRXTDNFYjY3dW1rbXByZzR2V1pHRWdnQWlGTTY0TGk0THdXVW9SaU81UTB2bmdNRUsycGhTUU5ySnVpbEVfdW5aeDlaZG5ESlF4MVltZ2otV09HdWhnZlJuU19GSm1mVUE4SVZOeWJsczFIWnVURjhEZUpNeEZqcWVMWW9KYXdQamtEdmFRV0xvcXlXcWh0bWthRnVHaFdkN2FhUm5xbjdtRHItOEM2UGVXYXlMM0RJM2U4OW05MnJNbEt2cXRB?oc=5",
-        "domain": "jewishnews",
+        "title": "US sanctions Myanmar armed group leader over scam links",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUW5iRmdnOGoxeFFpUGs4dU53Zk9oXzZHd21yVS1qY3BPOXR1NXJiTUNsMVJhTkZoaEtvUURieGZxOXBaTEFFblhyejh5RGo3bmFjbGQwVnpPWnR6TVJCVUtEYXlzTGh6NTRKc3dDNHhwNWlvdW1YaUdpdlFZX0ZqNjg1cmR2ZXJDSENNUDY4VWVuelFwOXo5TDZEZ2RnazRGQUJwNENUZWFDc0c1TjV6TFpvZmxEdw?oc=5",
+        "domain": "freemalaysiatoday",
         "language": "",
         "tone": 0,
-        "seendate": "20261117T095900Z",
+        "seendate": "20261120T075600Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Canada among 14 countries that ‘acknowledge’ ICJ ruling on Rohingya ‘genocide’",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeWQxR0dkMlRWRnY0WlZBdWlLUzBOWVRiTTRNY2hranlkbUFwM3hmWmRnYmZiZHh5Z3g4RzlNX3FkSFZSSW1lanhwTEVBejlaZWhpZVBkYlZtcnpyU18xYlFHVUZkV2F2MXlXYml4d2h5VDRWd3FQOTNvSjBvTFVwVDhtSVlYMExkb1B3Yk1mM2hsV3U5QV9wWW05SS0zNVFmSThVeHAydTlWUTlyQ05OVWZn?oc=5",
-        "domain": "ctvnews",
+        "title": "War Risk Insurance England 2026: Are Sanctions and Conflict Losses Covered?",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSkZNUjgySW5MYWRmZjNacnQ0X1l0cVROcTF6eGNSRFNoeDJiVmdvZ1FHMi1MZ3hxNS1LeDhKVUg2TnVJZHd4VVZTV3Q5QU11dTltLU9Ja05iY1pKUXAtdkhSVlZPU0dNNzVPckUtNHdlWS1qeGl1VmFZS1dxU1J4SjY1WUlwTlFYdTdVVnhzQUprUQ?oc=5",
+        "domain": "globaladvisoryexperts",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T220400Z",
+        "seendate": "20261124T063343Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMWdUX2VUUE9pbTUyS1FQN3VXVnJHaTF2Y3doSlFyenVkVkRCeFU5eUwwOVh6RTV0S29iYTk4OVI3U0VjMWlVd0wzY0tVVkpFSWpKNG0tQmVab1czSDJxNThiSC1zNlpOeUNFMUQzQXZKdUl0X2tMYUVLTTBJQXE5Zmt0UzVjaC1qTTlpSm5ZSENoZ3RyclhMYlpBb2JhUHVhLUM4YkgzbExqejVmNEsxMFdrYl9DSC0wX1hpcFhR0gHDAUFVX3lxTFBVZzJOZTJqMHgwTjF3RDJNTHFTd19vNE1kQ05NTDI5YTFVZDZQeWc1RllFUUFfNnE2bHgyQ2xCOWo1UkNOb2xVQXdFVWtFQkVyeENYSVlzajFkMmZPc2lKV3FEWEExODB6bWlMWjBTVXh1Vkwwc245cTdxa3pyUDRmNjIwUV9HTjlDVXh6SDJtbzBiYjAteTB3RFZBZW9ESEl2OU1hdnMwUGhnRWdpMzhDZ1FBbEtpY1hDUERGVzNxUmJrTQ?oc=5",
+        "domain": "anews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T170812Z",
         "source": "GoogleNews"
       },
       {
@@ -121339,12 +121312,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Sanctions Eight Israeli Settlement Companies in West Bank",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hd29NLXZnU2M4ZG9GdTFkeWRaVzFCbzNGb3FWaW5LY0ZqNG5naUY4YmpYNUF6eDVwd3h1dU14dnVHYTB0OURvVlJIcm1DUHA2Yzg1bkpaUXVKcWMtSVo1bFh5ZHJWbjVPSU13dE5EMHdENG53TVJmSDdjMUU?oc=5",
-        "domain": "telesurenglish",
+        "title": "Wildberries founder Tatyana Kim steps down as CEO days after EU sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUpKeWhBc2dTQ2lJRXNRVjctQ2ZFdTM3NExnZDdFNkdRamVfYnFWVHNWWngwY2toS2JXQnVYNWdLUlV0c053YkJKNm5kbHNGQ1VsdGxRMzhKc0VicGt1Y2IwUjZ4NzNsRW0wWWlYbFFlSHdYRVl0WDRXOUJmV280dmpBa2lVZG9xR3FDYlgweU1BMUlBMnZSVGc2LWRXdDF0N3ZxenRIM0pBS25NS29KbHJXWndGd3VpRnJV?oc=5",
+        "domain": "trkiyetoday",
         "language": "",
         "tone": 0,
-        "seendate": "20261118T000814Z",
+        "seendate": "20261121T140448Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Doughty to Asharq Al-Awsat: Houthi Escalation Prompted Broad Punitive Measures",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iZ2QyamZ0RElWeWo5T1RMa0Qyek9fVXpieWdOd2JjM1RsQ21vTndWUHU1TWhKS2E2VVYyWmQxeWhFQ1BwbXNVdVFmdHU5eGRLbG53?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T180721Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK imposes sanctions on Yemen’s Houthis and four senior officials",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQekRZODlEbFN5RnpnYkR6ZnltQ0tpYVNpT3plbGFuam92clBvRXNiRnpMdS1nVkNNN1ljWUJXOXVIN0NQcXN6NGtqRk1GQjNtV1YxNWtwTHMyeE4yRl9BVjZxM3djbzJlLTU3UGRLYXRvMVl0UDhNQnNka0ExSnhKamVZYVhEZS0zbk8tVnAxZ1Fhc0VLOHdCckh0QUZDdw?oc=5",
+        "domain": "samaatv",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T174937Z",
         "source": "GoogleNews"
       }
     ]
