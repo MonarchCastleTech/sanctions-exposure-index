@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-24T22:22:26.152478+00:00",
+    "generated": "2026-11-25T08:23:36.913796+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,10 +12,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-24T22:20:39.369822+00:00",
+    "issued_at": "2026-11-25T08:21:50.523883+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
-    "score": 41.1,
+    "score": 36.3,
     "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 96.2,
@@ -24,14 +24,14 @@
         "id": "ofac_action_velocity",
         "label": "OFAC action velocity",
         "available": true,
-        "score": 90.3,
+        "score": 79.1,
         "releases_considered": 98,
-        "current_7d_designation_releases": 8,
-        "current_7d_all_releases": 8,
-        "prior_7d_designation_releases": 2,
+        "current_7d_designation_releases": 6,
+        "current_7d_all_releases": 6,
+        "prior_7d_designation_releases": 4,
         "baseline_weeks": 12,
         "baseline_weekly_median": 3.5,
-        "anomaly_z": 2.02,
+        "anomaly_z": 1.12,
         "themes": [
           "counter_narcotics",
           "counter_terrorism",
@@ -152,41 +152,6 @@
               "russia"
             ],
             "designation_signal": true
-          },
-          {
-            "title": "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-hizballah-front-organization-and-iran-backed-financial-network/",
-            "action_title": "Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261118",
-            "date": "2026-11-18",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iran's Proxy Networks",
-            "url": "https://home.treasury.gov/news/press-releases/sb0692/",
-            "action_title": "Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261118",
-            "date": "2026-11-18",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
           }
         ],
         "retained": false
@@ -279,12 +244,12 @@
         "id": "official_posture_shift",
         "label": "Official coercive-language shift",
         "available": true,
-        "score": 18.0,
-        "current_7d_releases": 8,
-        "current_weighted_term_rate": 2.188,
+        "score": 14.4,
+        "current_7d_releases": 6,
+        "current_weighted_term_rate": 2.0,
         "baseline_weeks": 12,
-        "anomaly_z": 0.28,
-        "matched_release_count": 6,
+        "anomaly_z": 0.0,
+        "matched_release_count": 4,
         "relief_release_count": 4,
         "evidence": [
           {
@@ -360,41 +325,6 @@
               "counter_narcotics",
               "cyber",
               "russia"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network",
-            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-hizballah-front-organization-and-iran-backed-financial-network/",
-            "action_title": "Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261118",
-            "date": "2026-11-18",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "sanctions"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "iran"
-            ],
-            "designation_signal": true
-          },
-          {
-            "title": "Operation Economic Outcast Targets Iran's Proxy Networks",
-            "url": "https://home.treasury.gov/news/press-releases/sb0692/",
-            "action_title": "Counter Terrorism Designations",
-            "action_url": "https://ofac.treasury.gov/recent-actions/20261118",
-            "date": "2026-11-18",
-            "source": "OFAC/Treasury",
-            "posture_terms": [
-              "economic outcast",
-              "targets"
-            ],
-            "relief_terms": [],
-            "themes": [
-              "counter_terrorism",
-              "iran"
             ],
             "designation_signal": true
           }
@@ -480,23 +410,12 @@
       {
         "id": "ofac_action_velocity",
         "title": "OFAC action velocity",
-        "score": 90.3,
+        "score": 79.1,
         "level": "SEVERE",
         "why": "Official designation-linked releases are elevated against prior weekly activity."
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-25T11:45:12.834018+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-25T17:06:08.091605+00:00",
         "score": 5.0,
@@ -2465,6 +2384,17 @@
           "official_posture_shift": 18.0,
           "energy_market_dislocation": 24.9
         }
+      },
+      {
+        "timestamp": "2026-11-25T08:21:50.523883+00:00",
+        "score": 36.3,
+        "level": "WATCH",
+        "components": {
+          "ofac_action_velocity": 79.1,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 14.4,
+          "energy_market_dislocation": 24.9
+        }
       }
     ],
     "data_health": {
@@ -2529,7 +2459,7 @@
   "stats": [
     {
       "label": "Expansion Pressure",
-      "value": "41.1/100",
+      "value": "36.3/100",
       "delta": "WATCH"
     },
     {
@@ -121123,6 +121053,15 @@
     },
     "news_articles": [
       {
+        "title": "EU expands its sanctions framework: New enforcement structures and Russia-related designations",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUVZVc043NUJ3X1BRRk9aLXBEY1FXRVN1Z09pMm9RZUdYUU85NkZBaGxraGJ5STdTM0VNZ1hZQVpuYjNGSnRDUThVYTBrMzIwWTlxcnJYS1pkYWc2WmpVWlpHMm80WElDbEtiNzVSaHlGX3NYeXdIV3U5cFo1X0VWLVp5V3p4STUwbEo4QUNodTl3LWNFbDdTeTdLRXdWRG0wcURBN04zRkpsUHNfUll0S0c5aklUX3VKMnJvanJhazFJblcxeWpPVm5aWTFjTEE?oc=5",
+        "domain": "globalsanctionsandexportcontrolsblog",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T144531Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "OFAC sanctions Iran-linked money services businesses",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDNSejlibGVIeXhyMENOdDk0MjFnM05tVGh2OUtwS2JQNFBXalpZUURleWxIVFJJTl85dEY4YzR1SmxpbnhncVZGb1pMMVJkUUlTOGlNb0RXSXlSMndIUUg0LVRxbVFCSmhzQjdvVTR1ZV9qYUY0R1phSzZwazUyVg?oc=5",
         "domain": "jdsupra",
@@ -121132,12 +121071,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Sanctions Compliance Palestine: 2026 Business Guide",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOW1GWmt3Ql81VGk3SXhwREpXNzVYbEVQTUNibXFiUndSRUkxRGgxbWVLOW1lTGFyU0NjUVVXQk9peHE3X0w5RjJfYTg5SEhBWFM5aWNYU0ZCSGN0ZjVTR1dWcDQ4U09VT252VC1ZNVpyMHk0cjFEa3JyM01ueFpWUDlFOG43VXIta1FSNzdB?oc=5",
-        "domain": "globaladvisoryexperts",
+        "title": "Russia Sanctions Tracker - UK (2026)",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNUVNb2dqYjJHZXRhWk1aTTBRZmpKelI0b1lFQmhvRlVKbVlBT0xSYVN5OUw3bWZURG1kSXRnckhZRThrR1QwNC1YME5YalpYenhLUWFhd3p4OUkyVjVFcWRlMUVmTVhqT2FhN1M2Q040QmlPNXoyRGdYUjBlS3RXcjdlSFlMM1hyeXFOSmFB?oc=5",
+        "domain": "ashurstperkinscoie",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T014739Z",
+        "seendate": "20261120T080000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK sanctions Yemen’s Houthi group and four of its top officials",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdnlBcmtMUUUzZGFJenl5aEJRT2pueHpMbTBhY3VRaDIyeE9Jc0tSeF9JcnRlYkpXUUtodlpxdjg3MFBDdDd1c21wYVFwZFBzcFY3RTB2aDI0N2dtbDZNSXBrQjJ2anNiZ21YOWVlTlBFTTlwOTlUVU5zZzE4cWNzZ2tUd09adVdLUDJia0I2TjJueS1fV0V2ZUFKcmvSAaIBQVVfeXFMTkowNVB6ZDhHTEdRVE5QS1BsZ1BxZk5PNDBEMHdTeERIMEloaXFjU1piakRYQVhZUlJQLTVkMHpjY0t0RTg1ZXp2U3dpSG1WdzNZQ0hoUFZBeFlXcWRDb2NieGMyVFF4MF9STEI1Qjd0SUF2cnlNUTJ3dE45MUYzdFd1UjZnQXcyQ0h4YUZxQVVFZEEwa3BpclFqd29Bemp3V1dn?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T170320Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "New EU and UK Sanctions Listings Against Russia",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY2FJN2ZFX0VjVmEta1FEY2lwaThjeEdJS2ExZHY4T1RSNXV3UmFuZEpITC1samdtY2hZb3d1RkhpMkpsVVpTVndIY3FlUW5jVWhJNkNqaU8zNlBmdjJHR2lTUm0zS0h3dHJacE54cUtVRVh2WE1sYmJ4VlMwRFFERW5PR2lnNDjSAYwBQVVfeXFMUGVoNnZwaDFMT0VfT3VPdWpySHRCVl9IRkpJSW9CNWt0QVpMRk44bExiQTFTNG5oTlhRTFNrRDZDT2g0dWtqVkVwLThxUVRNQTRqTThLc0d0Wm5FRU8xMGhIUHBqczB4eGtwUzQybzFMaWhyYkhQZzJrVmh0QUdaWUFHRlVEZnl4NFFyZnY?oc=5",
+        "domain": "thenationallawreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261118T230313Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU Adopts Fifth Package Of Sanctions Against Russia",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnNpWEdCUlg4RjJvcERQS2RmdkhjdFJWZk5uVUNOeTJrNzJBNXRlRDVkNVFDR0I4RHJ4ZXlGMS04TDA4a0U5V2RyOG9xQ3lwby1Ja3podm4zXzAteGFOcHhpT09lb3hGZUV1OXp0dDMwME9rZHhQMS16TmMtdHl1RTJTU2hSM0E3VTFxUWs5VXgtcFVsQ0g0X3JyUzhlaGN0R0VxNWgxSEJDQUhIS2VEWEVtS2tITlQzSkRYR0pYcw?oc=5",
+        "domain": "legal500",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261120T105328Z",
         "source": "GoogleNews"
       },
       {
@@ -121150,12 +121116,39 @@
         "source": "GoogleNews"
       },
       {
+        "title": "EU targets four Haitian gangs with asset freezes over killings, sexual violence and child recruitment",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaWpyT1JaSk9yWC1rSWdrMjFXS2NaWGZmcmR2dFVuTm1vTy1SQU90WldYZXEyUjBZUFgzMVJtWV96b3VrbThUM0U1ajZITGRJbzBfT0pRazU1M0x4QUF5ODBMSHNlekptNFp0UWZabGo3aWVIbUhJNldmZzJHdm5SQjhONk5HNmZMZHNUS0hn?oc=5",
+        "domain": "latintimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261118T101625Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMDlNa3l3bHhQSmhGMjhfNFFnWkozWEcxOGJWWkxKNldyUW5qUXZwdmZzLWl6NHQyTkpHSkY2aXhCaUNaYWRjWmNZaERNaWlnaXJINnBKRnJMUUtvNi1HYTRMWFFNLTVUak5vS2loajVYdjVBT3Y4ZXZPTkE5cGM2N21pTVFjcDJ2dmp2SlREcldxUFRFVkRPZjZSeDA4SUJLR2p5T2s4bG81RXUwa0lpWXk1cFc5N2hETEk3dtIBvAFBVV95cUxPMDlNa3l3bHhQSmhGMjhfNFFnWkozWEcxOGJWWkxKNldyUW5qUXZwdmZzLWl6NHQyTkpHSkY2aXhCaUNaYWRjWmNZaERNaWlnaXJINnBKRnJMUUtvNi1HYTRMWFFNLTVUak5vS2loajVYdjVBT3Y4ZXZPTkE5cGM2N21pTVFjcDJ2dmp2SlREcldxUFRFVkRPZjZSeDA4SUJLR2p5T2s4bG81RXUwa0lpWXk1cFc5N2hETEk3dg?oc=5",
+        "domain": "usmuslims",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T162628Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Russia's Wildberries CEO Steps Down Days After EU Sanctions, Media Report",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWg4ZF9sNEt2X2pNU3diUzRuVjNUSjJRYVNjblpDSjJ4UFJ6d3Z2THRtdkt2WGc3YUYxZ0tWX1FJdm8xVHF4TElhRUlYMEw3QWd3b1VSQkVfU05GV3BUeE5lYVFxT0dlZlFpMW1TeW9rRUxidEg4MXQ0QUhmOFZvY2k2Vmh2QnFjNU9mZ2dSVkk2ckJMY0xJT1RkQUlxNUxVbnRZV1dHRGVpQzZYczlCZFpLNktrWGQ1UG1sMA?oc=5",
         "domain": "themoscowtimes",
         "language": "",
         "tone": 0,
         "seendate": "20261121T114253Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia’s Wildberries CEO steps down days after EU sanctions, media report",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbmNiVmZCczlxNWxyajVFWDVYbGprQnpVOWxqOU5DZjlVRVFnb0FGcEQtRGhTWTh5R2YyTzBoT0tuZkpQejA2V2o0MjluYkxxbW8xZkRlMWJPOXdnNTRDQjEwelpCZk5zaGNyODlFRmFqUXJocWc1MUE5WmV2QlY2amN2Ukw5SWtfRnZTYS1vWHNSRFlGSWJRR0xRa3F2LTRDRXc?oc=5",
+        "domain": "wdez",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261121T132311Z",
         "source": "GoogleNews"
       },
       {
@@ -121186,6 +121179,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "War Risk Insurance England 2026: Are Sanctions and Conflict Losses Covered?",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSkZNUjgySW5MYWRmZjNacnQ0X1l0cVROcTF6eGNSRFNoeDJiVmdvZ1FHMi1MZ3hxNS1LeDhKVUg2TnVJZHd4VVZTV3Q5QU11dTltLU9Ja05iY1pKUXAtdkhSVlZPU0dNNzVPckUtNHdlWS1qeGl1VmFZS1dxU1J4SjY1WUlwTlFYdTdVVnhzQUprUQ?oc=5",
+        "domain": "globaladvisoryexperts",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T063343Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU adds neo-Nazi group The Base's founder to terrorism sanctions list",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdGVyOGFKLWVSdHNZQVlHdTQweEVreV9YTlZIQjNic2g3ZmxDdTF3Y2hOaVVRZTltanAxRGtkX3JIR3RLMVU1MzBaYnNiZld5YTZBOEVGMTVSeFZYbDNhWE01MDAwRWM3UExGSjVRc0JuWE9ERU5SY3J4YXBXbGZhaU9fVWRkanA0T1hZSEpNc3ZSSUxKS2dFWi1DLUItNWFHbzhMSER0TURZVVE?oc=5",
         "domain": "yenisafakenglish",
@@ -121195,12 +121197,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Doughty to Asharq Al-Awsat: Houthi Escalation Prompted Broad Punitive Measures",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbTlGcVRmbGl6c3pVNHduam9YRk1zMlZNVTBydTl5bFJZZVFuUHJzWkI0eUJfUXR6RHl6S3c4SVlNbkFHWFpRVG04ZjFENFVJeXhacFVjZFZfU0RwUGxpNXNlOGVHSU54azE4Wll0cGFHVTRXTGNHVzV0V1c1dldUVGF6ZTkwQnZxdWhoZDBiS01UeDF3R0s5M3VDZkJxZ0dGZjAtTXE0dXo0QWlHRUpfS2tsaXVNRUZMN1E2Qg?oc=5",
-        "domain": "asharqal-awsatenglish",
+        "title": "EU sanctions Gaza Now news outlet and founder over Hamas financing",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1QU1LTWhEOWlHTEY5Nm9Ray05Q01KTFd5R0t1aFNNX1VLazZ2aWU5UE5PVG5oOEdNVkhScDhnQ1ItdUk2Qlh6RlUwdF9GRzJXZnItUXZ2a215LWlBNlZpQXdsaUszcTBWbUdjUkxkOEZhdnNENVVpY0F3MkFGR00?oc=5",
+        "domain": "newscord",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T180707Z",
+        "seendate": "20261119T220321Z",
         "source": "GoogleNews"
       },
       {
@@ -121213,12 +121215,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK steps up response to renewed Houthi aggression",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa3FJZXl3Sk44Qm4tVkNYbU04YTJVR0taeUt0M1NmY25GZlRRcmN4ZDJmNmxoMnBZZ1Y0djVGQi13ZHJOVFI2UjcyQVpxRWt0RmtBUzE2QWFRVGhLYmhjd1NaUURnX0x0emk2UWxyaXdzOUNkaWtFUlByTzVlX1NKYmZGNHJCZmpYQXpTUA?oc=5",
-        "domain": "gov.uk",
+        "title": "Doughty to Asharq Al-Awsat: Houthi Escalation Prompted Broad Punitive Measures",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbTlGcVRmbGl6c3pVNHduam9YRk1zMlZNVTBydTl5bFJZZVFuUHJzWkI0eUJfUXR6RHl6S3c4SVlNbkFHWFpRVG04ZjFENFVJeXhacFVjZFZfU0RwUGxpNXNlOGVHSU54azE4Wll0cGFHVTRXTGNHVzV0V1c1dldUVGF6ZTkwQnZxdWhoZDBiS01UeDF3R0s5M3VDZkJxZ0dGZjAtTXE0dXo0QWlHRUpfS2tsaXVNRUZMN1E2Qg?oc=5",
+        "domain": "asharqal-awsatenglish",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T112921Z",
+        "seendate": "20261125T055540Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMWdUX2VUUE9pbTUyS1FQN3VXVnJHaTF2Y3doSlFyenVkVkRCeFU5eUwwOVh6RTV0S29iYTk4OVI3U0VjMWlVd0wzY0tVVkpFSWpKNG0tQmVab1czSDJxNThiSC1zNlpOeUNFMUQzQXZKdUl0X2tMYUVLTTBJQXE5Zmt0UzVjaC1qTTlpSm5ZSENoZ3RyclhMYlpBb2JhUHVhLUM4YkgzbExqejVmNEsxMFdrYl9DSC0wX1hpcFhR0gHDAUFVX3lxTFBVZzJOZTJqMHgwTjF3RDJNTHFTd19vNE1kQ05NTDI5YTFVZDZQeWc1RllFUUFfNnE2bHgyQ2xCOWo1UkNOb2xVQXdFVWtFQkVyeENYSVlzajFkMmZPc2lKV3FEWEExODB6bWlMWjBTVXh1Vkwwc245cTdxa3pyUDRmNjIwUV9HTjlDVXh6SDJtbzBiYjAteTB3RFZBZW9ESEl2OU1hdnMwUGhnRWdpMzhDZ1FBbEtpY1hDUERGVzNxUmJrTQ?oc=5",
+        "domain": "anews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T170812Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK imposes sanctions on Houthis and four senior officials",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04OXFsLUQxSXBycmM3YXdxV2ttNExkZzRiYjVxQXZWNXdVV0M4RW1WSlB0S2NWejQ0UXBqbzRPSjRUNHpCOFdNa2h5WlFhNWJ1MlZzR3h3?oc=5",
+        "domain": "24",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T134658Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK Imposes New Sanctions on Houthis Over Renewed Attacks and Human Rights Abuses",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xUGppSnBiclVyYXEtVVE0a0dTc2Vha1pla19pT244U2VRRW96Zld1azdELWk0THA3RGFpbDliV2ZHOHVjbGROaVduUQ?oc=5",
+        "domain": "sabanew.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T223330Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "U.S. sanctions Myanmar armed group leader over scam links",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOUdvQWJXZ0ZDbkJBTDJfdFgyRTBQajdlRWowa09LTk5fMndidGRBbGdxbTRBQ3Jwd25uMVA0YUlVMkgxRnhsLWVQOWsyMjRsODdBSml4ekU3VXJQUDlvenVmd3VISVRBWWpKbGVKRE1sUWc5blV2ck00Nk5vUjFXZUR1MTdZbGVmSVI5b0FnaWQtLXlXRmFzUVhYYkY3UUotd1JEeVBON0ljZzJyOGtnaENkamdwSGp0MjRr0gHCAUFVX3lxTE4wV2VodmlmdDJqaXVCNXQwZEJIcElzbFoxZzFvVVQ0ZldYclJPYUlnLS1xWkVJV3JsNEdtSTB5c2pnZmUya29zRDVJUVdISmg1bm9ULUhVZHFRTnNjcWZuTDRHSm9MMTVlV3NmbU42cEZpdFVqWS00NHJrcV83QURVMlg4V0Joa2RDb2hSM1lJdE1FaVY1Z1p3bEQ5RG5aRkZJUjZUYUp1T3FEY2ZZVzBkdDk1YU92SUd5dWhwU2Y1RDRB?oc=5",
+        "domain": "thehindu",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261120T162740Z",
         "source": "GoogleNews"
       },
       {
@@ -121231,12 +121269,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Council adds The Base founder Rinaldo Nazzaro to terrorist sanctions list with travel ban and asset freeze",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaEVXYTNfMGpvLWY5My1fanNHMmg5RkZpS29yRjJEa3kyZlQ5dTg5OEtqQ1ZXMWhSaDlwMFZCcGRIX2pJVjF4WXNrZ1JhQzdnV20tWGYwclgwN29SSkV3NkpQdnhHQXh6MG82a3hNZ2t2NWFta0RWakxMb0RjMGZzRjVSSFZhTDY5NHpOakVwc2tqaTdGNWhOSkxiVm5KalpueEFpeG9Rb09FdkxLRmNZQ0ZUMlhxSEtkWEhPS01UMGRhS3VXb1FNbDZFaG85TmxkalVlYkJUTk4tTERXMWc?oc=5",
-        "domain": "cyprusinform",
+        "title": "UK steps up response to renewed Houthi aggression",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa3FJZXl3Sk44Qm4tVkNYbU04YTJVR0taeUt0M1NmY25GZlRRcmN4ZDJmNmxoMnBZZ1Y0djVGQi13ZHJOVFI2UjcyQVpxRWt0RmtBUzE2QWFRVGhLYmhjd1NaUURnX0x0emk2UWxyaXdzOUNkaWtFUlByTzVlX1NKYmZGNHJCZmpYQXpTUA?oc=5",
+        "domain": "gov.uk",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T140201Z",
+        "seendate": "20261124T112921Z",
         "source": "GoogleNews"
       },
       {
@@ -121249,12 +121287,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia's Wildberries CEO steps down days after EU sanctions, media report",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmQ4QmxsMUVGYm1PT3c1dE1WbWJvVS1oSEpQTTZKT1Y0aXkzRm9oM1JoQjlkc0Q5U05rWFdyRmRQNDVIbkEtMkp5VzYxSXR1RU01VnUxZ0lVSzRfTWlCY1MwazFKdEQyQ1J2RE1KX01RQWNoZFVCOGYtdFpuR1hUWmRaYkZCS3VvcUoyaWpZdkRDZ1NyWXV6cGJLa2lBSVhvSU91c0l6MzNXZ1FLQ2VjaEZ6aw?oc=5",
-        "domain": "thestraitstimes",
+        "title": "EU Council adds The Base founder Rinaldo Nazzaro to terrorist sanctions list with travel ban and asset freeze",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaEVXYTNfMGpvLWY5My1fanNHMmg5RkZpS29yRjJEa3kyZlQ5dTg5OEtqQ1ZXMWhSaDlwMFZCcGRIX2pJVjF4WXNrZ1JhQzdnV20tWGYwclgwN29SSkV3NkpQdnhHQXh6MG82a3hNZ2t2NWFta0RWakxMb0RjMGZzRjVSSFZhTDY5NHpOakVwc2tqaTdGNWhOSkxiVm5KalpueEFpeG9Rb09FdkxLRmNZQ0ZUMlhxSEtkWEhPS01UMGRhS3VXb1FNbDZFaG85TmxkalVlYkJUTk4tTERXMWc?oc=5",
+        "domain": "cyprusinform",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T112500Z",
+        "seendate": "20261123T140201Z",
         "source": "GoogleNews"
       },
       {
@@ -121267,30 +121305,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US sanctions Myanmar armed group leader over scam links",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUW5iRmdnOGoxeFFpUGs4dU53Zk9oXzZHd21yVS1qY3BPOXR1NXJiTUNsMVJhTkZoaEtvUURieGZxOXBaTEFFblhyejh5RGo3bmFjbGQwVnpPWnR6TVJCVUtEYXlzTGh6NTRKc3dDNHhwNWlvdW1YaUdpdlFZX0ZqNjg1cmR2ZXJDSENNUDY4VWVuelFwOXo5TDZEZ2RnazRGQUJwNENUZWFDc0c1TjV6TFpvZmxEdw?oc=5",
-        "domain": "freemalaysiatoday",
+        "title": "Korean crypto exchanges can freeze transfers for 12 hours over suspected hacks",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcmdFazMtZEJWWHIxeUxveHVfWnlhclVEdXByUjE0YWtROFVDU3Q0SlZTTGR4Qjl4THRUcDdWVkxteU5JUEdhZ3Nta2xnX0NhWkpTUnB2b3NPRWFnMm0tNnUybWdxYUF5TEFudmttc2liT0VfazczZV9SSlpCajhhRWVRWHVXVjJzWWZXeng0Z2Z4eG5y0gGUAUFVX3lxTFByZ0VrMy1kQlZYcjF5TG94dV9aeWFyVUR1cHJSMTRha1E4VUNTdDRKVlNMZHhCOXhMdFRwN1ZWTG15TklQR2Fnc21rbGdfQ2FaSlNScHZvc09FYWcybS02dTJtZ3FhQXlMQW52a21zaWJPRV9rNzNlX1JKWkJqOGFFZVFYdVdWMnNZZld6eDRnZnh4bnI?oc=5",
+        "domain": "chosunbiz",
         "language": "",
         "tone": 0,
-        "seendate": "20261120T075600Z",
+        "seendate": "20261125T014900Z",
         "source": "GoogleNews"
       },
       {
-        "title": "War Risk Insurance England 2026: Are Sanctions and Conflict Losses Covered?",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSkZNUjgySW5MYWRmZjNacnQ0X1l0cVROcTF6eGNSRFNoeDJiVmdvZ1FHMi1MZ3hxNS1LeDhKVUg2TnVJZHd4VVZTV3Q5QU11dTltLU9Ja05iY1pKUXAtdkhSVlZPU0dNNzVPckUtNHdlWS1qeGl1VmFZS1dxU1J4SjY1WUlwTlFYdTdVVnhzQUprUQ?oc=5",
-        "domain": "globaladvisoryexperts",
+        "title": "UK escalates pressure on Iran-backed Houthis with sweeping sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TU1prYkUzLTRoRndFLXd5Q1ZuSlVYSDZSTDFsWDhfTWl1clJHX1djUG1nS2VBQVlDNDgyRHNBVkY0cHVuRnNSNmplVHJWVU1KUnJpYU9XbEdqdw?oc=5",
+        "domain": "israelnationalnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T063343Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMWdUX2VUUE9pbTUyS1FQN3VXVnJHaTF2Y3doSlFyenVkVkRCeFU5eUwwOVh6RTV0S29iYTk4OVI3U0VjMWlVd0wzY0tVVkpFSWpKNG0tQmVab1czSDJxNThiSC1zNlpOeUNFMUQzQXZKdUl0X2tMYUVLTTBJQXE5Zmt0UzVjaC1qTTlpSm5ZSENoZ3RyclhMYlpBb2JhUHVhLUM4YkgzbExqejVmNEsxMFdrYl9DSC0wX1hpcFhR0gHDAUFVX3lxTFBVZzJOZTJqMHgwTjF3RDJNTHFTd19vNE1kQ05NTDI5YTFVZDZQeWc1RllFUUFfNnE2bHgyQ2xCOWo1UkNOb2xVQXdFVWtFQkVyeENYSVlzajFkMmZPc2lKV3FEWEExODB6bWlMWjBTVXh1Vkwwc245cTdxa3pyUDRmNjIwUV9HTjlDVXh6SDJtbzBiYjAteTB3RFZBZW9ESEl2OU1hdnMwUGhnRWdpMzhDZ1FBbEtpY1hDUERGVzNxUmJrTQ?oc=5",
-        "domain": "anews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T170812Z",
+        "seendate": "20261124T113510Z",
         "source": "GoogleNews"
       },
       {
@@ -121321,12 +121350,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Doughty to Asharq Al-Awsat: Houthi Escalation Prompted Broad Punitive Measures",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iZ2QyamZ0RElWeWo5T1RMa0Qyek9fVXpieWdOd2JjM1RsQ21vTndWUHU1TWhKS2E2VVYyWmQxeWhFQ1BwbXNVdVFmdHU5eGRLbG53?oc=5",
-        "domain": "news.google.com",
+        "title": "House Passes Bill to Sanction Scam Syndicates",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbTNac2x2bGp3eFJYM011WjFwaDNib0pJMzNxZUJaZTYzNzhrMjg5ZkJuNy1nTjVZNUZkWTBES05aYzM2MEhSYVJWNzJqU3ROSllpUnh1MUI2bVlQMV9uRUZXajFMQ19pTXc2am40QndMZ3A1ZTR3eEJkeXRGVG1ubzVGZ2V3bEZWZVlEYg?oc=5",
+        "domain": "wisevoter",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T180721Z",
+        "seendate": "20261119T182828Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK sanctions Houthi leaders over alleged torture and rape in Yemen",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYTRaVG94dzFEYkU1TzdLTUlCLXZVQU9uOF9tRU94R1UwQXA0U1hXNzZDTjRIM05CTlVULTB6YkVzbXZzN2trU1FCSjlCMnkzaWY1LVQxb3R4ZTczWENZQ2VTMlNudjdkUUZKNXJ0Nk8tM21ORVdSVzJNTU90Yl9VU3gtMWlVd0RoY0xHV0JiUWNnUUpPUDRN?oc=5",
+        "domain": "inkl",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T125038Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK sanctions Houthis and four senior officials over attacks on Saudi Arabia and abuse of detainees",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRzBnZ21jLVR6dk9zcjFGbVpubUdCMk5XR21GaUdsVExPMzZQdDZZZ3QwdEJsX0NKVWlKdGp1ZnlVSUJwczVkYzFLWXQ4Sy1Id19JUHpHa0hvUWtFeFRpZHBlRzlsR2E5Z0xTd3dCdDdwSUZIaHBmZENWSXgyV0RXSEMtV1BYMFY3RGJVQ2Q3cmFQcTVEQ1E?oc=5",
+        "domain": "theinsightinternational",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T131725Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UK sanctions Houthis and four senior officials over attacks and rights abuses",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSHdXcFVhQmFZWUVDVnd2YVA5cFhnYUtNYzJPWExuMmdYYW1iMVdSaDZETmdkbmVRWEprVXpGRkZDRmRpZlhWY3pXQ1BlRHFCWHJHZG9nT1hHQl9RSWVya01wNTlOT3NDUklkZzhRM3pwODZUR0ZXUi1UYWN5akFSdmU5R0IxTmdJMzd6TFUwSnFfVXJvSFU2SXl3WVF3dVVScEEwczJWdGxhSUlaSEJpbGJOSVNsQQ?oc=5",
+        "domain": "arabtimeskuwaitnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T131401Z",
         "source": "GoogleNews"
       },
       {
@@ -121335,7 +121391,7 @@
         "domain": "samaatv",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T174937Z",
+        "seendate": "20261124T194636Z",
         "source": "GoogleNews"
       }
     ]
