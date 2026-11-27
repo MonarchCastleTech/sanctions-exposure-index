@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-27T08:18:16.574197+00:00",
+    "generated": "2026-11-27T21:11:01.448304+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-27T08:16:30.067991+00:00",
+    "issued_at": "2026-11-27T21:09:14.939526+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 21.9,
@@ -257,17 +257,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-26T16:18:45.856946+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-26T21:05:11.435155+00:00",
         "score": 5.0,
@@ -2228,6 +2217,17 @@
       },
       {
         "timestamp": "2026-11-27T08:16:30.067991+00:00",
+        "score": 21.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 12.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 51.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-27T21:09:14.939526+00:00",
         "score": 21.9,
         "level": "BASELINE",
         "components": {
@@ -120894,12 +120894,21 @@
     },
     "news_articles": [
       {
-        "title": "OFAC sanctions Iran-linked money services businesses",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDNSejlibGVIeXhyMENOdDk0MjFnM05tVGh2OUtwS2JQNFBXalpZUURleWxIVFJJTl85dEY4YzR1SmxpbnhncVZGb1pMMVJkUUlTOGlNb0RXSXlSMndIUUg0LVRxbVFCSmhzQjdvVTR1ZV9qYUY0R1phSzZwazUyVg?oc=5",
-        "domain": "jdsupra",
+        "title": "A Guide to Trump’s Second-Term Sanctions",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVVN0LXVRSlBzd1RLaHY4MzFCYmc4ZXA3R09rdWhaVy1wVy1seS1UVDhxd1RLWnkxYmJPT2JPV2h4RkhJSVB6R19oQW9GeUtfRU5KR3Z4d2MwVE9JQjRlMWlKdTRfRnU5MzMzaTFPb1llbHBuZ3ppalJjOUtjRzA5Q085NUtfM0cyLThrTVBnSURDMmZ4NEc1Yg?oc=5",
+        "domain": "councilonforeignrelations",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T151542Z",
+        "seendate": "20261127T140000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU expands its sanctions framework: New enforcement structures and Russia-related designations",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUVZVc043NUJ3X1BRRk9aLXBEY1FXRVN1Z09pMm9RZUdYUU85NkZBaGxraGJ5STdTM0VNZ1hZQVpuYjNGSnRDUThVYTBrMzIwWTlxcnJYS1pkYWc2WmpVWlpHMm80WElDbEtiNzVSaHlGX3NYeXdIV3U5cFo1X0VWLVp5V3p4STUwbEo4QUNodTl3LWNFbDdTeTdLRXdWRG0wcURBN04zRkpsUHNfUll0S0c5aklUX3VKMnJvanJhazFJblcxeWpPVm5aWTFjTEE?oc=5",
+        "domain": "globalsanctionsandexportcontrolsblog",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T144531Z",
         "source": "GoogleNews"
       },
       {
@@ -120918,6 +120927,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261124T170320Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "OFAC sanctions Iran-linked money services businesses",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDNSejlibGVIeXhyMENOdDk0MjFnM05tVGh2OUtwS2JQNFBXalpZUURleWxIVFJJTl85dEY4YzR1SmxpbnhncVZGb1pMMVJkUUlTOGlNb0RXSXlSMndIUUg0LVRxbVFCSmhzQjdvVTR1ZV9qYUY0R1phSzZwazUyVg?oc=5",
+        "domain": "jdsupra",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T151542Z",
         "source": "GoogleNews"
       },
       {
@@ -120957,15 +120975,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Adopts Fifth Package Of Sanctions Against Russia",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnNpWEdCUlg4RjJvcERQS2RmdkhjdFJWZk5uVUNOeTJrNzJBNXRlRDVkNVFDR0I4RHJ4ZXlGMS04TDA4a0U5V2RyOG9xQ3lwby1Ja3podm4zXzAteGFOcHhpT09lb3hGZUV1OXp0dDMwME9rZHhQMS16TmMtdHl1RTJTU2hSM0E3VTFxUWs5VXgtcFVsQ0g0X3JyUzhlaGN0R0VxNWgxSEJDQUhIS2VEWEVtS2tITlQzSkRYR0pYcw?oc=5",
-        "domain": "legal500",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T105328Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjREeGoyMmxFbEphUmJpUzNGRXBScHJsYmdVVTRwYS14c1AxU3NwUXgzVy1vZHBER3NuSjFOOFpHMkFvUDEzTVoxdURvRG9yQVBBWVRxUUxMN1Z1bU1YR2dBMGdaT1dFRWdZaDZUWHFRaGkwd0hHM21zUC1YQ1lTbUNlMnV0dEE4MUgyQnEzOS16T0ZsYkwwS3hKRF9MdXl2d0s2LUFuUmJDSkpIenBV?oc=5",
         "domain": "anadoluajans",
@@ -120975,12 +120984,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan weighs early funding to ICC before US sanctions cutoff",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQamVpcTZ4eWZ1X21HSWR5MWlIMkFZeW9mbm1temlMNjcxc1NHUFMzNzk1Z05iWDVnTHVqN0xBTTJ3QlpnMVpXTmpEVzl6Vnh1SXNTQ0ZWSWo5U0lfY0prR1FqdGpTdktlQms2OHBob0hWQzdpeUxoTFlpTjVYNm94bnRfMWV2bkwtRUVmNW50bjJDWnF0akRfZHFXT0xmTm40bk04eEgyY1V4bnhrYmQ3Yl8yU1NaZ2ZF?oc=5",
-        "domain": "nikkeiasia",
+        "title": "EU Expands Export Restrictions Against Russia’s Military-Industrial Complex",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMHNFb0hka0dQUFVad0xncGhlQ0phYnlycWVrbzRWbWRUak1DZG1ONHIyVXlGQUU5R3dLOGYzTGpaT2ZwMm00MGVzazNtUXBQU0VZQWVWdHZmZ1M0MUkyNkJzT1lySVBwd0dzZDNEZEtaVXJVOGlwN1hyYk45amVLYjNVamozZw?oc=5",
+        "domain": "eutoday",
         "language": "",
         "tone": 0,
-        "seendate": "20261120T204400Z",
+        "seendate": "20261127T033621Z",
         "source": "GoogleNews"
       },
       {
@@ -121002,15 +121011,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU Expands Export Restrictions Against Russia’s Military-Industrial Complex",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMHNFb0hka0dQUFVad0xncGhlQ0phYnlycWVrbzRWbWRUak1DZG1ONHIyVXlGQUU5R3dLOGYzTGpaT2ZwMm00MGVzazNtUXBQU0VZQWVWdHZmZ1M0MUkyNkJzT1lySVBwd0dzZDNEZEtaVXJVOGlwN1hyYk45amVLYjNVamozZw?oc=5",
-        "domain": "eutoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261127T033621Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK sanctions Houthis and 4 top officials over attacks, prisoner abuse",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQanltOVpOX0x1NTdtMXFTY0tDN1h3WHprZ3Z4V2wxaG5Od3lPd2RjOHNxSE9TQ00tT2tVNVBZaXA1VGluZVVMNUtfeldfUTc2S2RCMTEtQ2pEaXc1SU01Q3ZKV3BqemlBQTIxQ2d1QWNUSWdoa291dnd0TnpTenVWVm1IOEJPcjIybnh3bWZFQXBCbFlic1pmWUdLZ2VkVjI0TVJaMVlPTVNWLVpLUU1YR1ZYZw?oc=5",
         "domain": "arabnews",
@@ -121020,21 +121020,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "War Risk Insurance England 2026: Are Sanctions and Conflict Losses Covered?",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSkZNUjgySW5MYWRmZjNacnQ0X1l0cVROcTF6eGNSRFNoeDJiVmdvZ1FHMi1MZ3hxNS1LeDhKVUg2TnVJZHd4VVZTV3Q5QU11dTltLU9Ja05iY1pKUXAtdkhSVlZPU0dNNzVPckUtNHdlWS1qeGl1VmFZS1dxU1J4SjY1WUlwTlFYdTdVVnhzQUprUQ?oc=5",
-        "domain": "globaladvisoryexperts",
+        "title": "Nvidia Freezes AI Server Shipments to Four Southeast Asian Countries Amid a US Crackdown on Remote Chip Access",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRmk3N3QtTVhXOG43Rk1uS1JMNVJ1aXVCeWg0OFRQV08wNUVPQzJLaFlQSFdUc253S1EyMFBuSDlCSTFGRFlYUVpKU1Bab0tpd1A4WnVKMDNveEFFQnBiR191V3JicXptWnRsWGQtR0FtazV2TUVVTDF3bmItTTBuQ2Rn?oc=5",
+        "domain": "hypebeast",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T063343Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK imposes sanctions on Houthis and four senior officials",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04OXFsLUQxSXBycmM3YXdxV2ttNExkZzRiYjVxQXZWNXdVV0M4RW1WSlB0S2NWejQ0UXBqbzRPSjRUNHpCOFdNa2h5WlFhNWJ1MlZzR3h3?oc=5",
-        "domain": "24",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261124T134658Z",
+        "seendate": "20261127T103057Z",
         "source": "GoogleNews"
       },
       {
@@ -121056,6 +121047,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "UK imposes sanctions on Houthis and four senior officials",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04OXFsLUQxSXBycmM3YXdxV2ttNExkZzRiYjVxQXZWNXdVV0M4RW1WSlB0S2NWejQ0UXBqbzRPSjRUNHpCOFdNa2h5WlFhNWJ1MlZzR3h3?oc=5",
+        "domain": "24",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T134658Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Nvidia reportedly freezes AI-server shipments to four Southeast Asian countries",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORFdwVWxIWmoxUUNSYm0yT3BUQnhiSGNXbFAtbVF1R1lTODNoaFhBaWI4TnZyajRpTHZ2SVBISFdKUV9Cclo1a3ZRdU5IRS1BS19JeTlqYldoNldVekhoeVlZaWt0OUJVWDFZMm9KcFFOdmQtQVdheFI5XzdZLWoyeXlrWTJSUFBMQTB2eFNkNWl5OGRKdHZTVThDTkVxTHpiZFBCXzZmb2VEa2NGLVd5dmh0dw?oc=5",
         "domain": "superpowerdaily",
@@ -121074,15 +121074,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "U.S. sanctions Myanmar armed group leader over scam links",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOUdvQWJXZ0ZDbkJBTDJfdFgyRTBQajdlRWowa09LTk5fMndidGRBbGdxbTRBQ3Jwd25uMVA0YUlVMkgxRnhsLWVQOWsyMjRsODdBSml4ekU3VXJQUDlvenVmd3VISVRBWWpKbGVKRE1sUWc5blV2ck00Nk5vUjFXZUR1MTdZbGVmSVI5b0FnaWQtLXlXRmFzUVhYYkY3UUotd1JEeVBON0ljZzJyOGtnaENkamdwSGp0MjRr0gHCAUFVX3lxTE4wV2VodmlmdDJqaXVCNXQwZEJIcElzbFoxZzFvVVQ0ZldYclJPYUlnLS1xWkVJV3JsNEdtSTB5c2pnZmUya29zRDVJUVdISmg1bm9ULUhVZHFRTnNjcWZuTDRHSm9MMTVlV3NmbU42cEZpdFVqWS00NHJrcV83QURVMlg4V0Joa2RDb2hSM1lJdE1FaVY1Z1p3bEQ5RG5aRkZJUjZUYUp1T3FEY2ZZVzBkdDk1YU92SUd5dWhwU2Y1RDRB?oc=5",
-        "domain": "thehindu",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T162740Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK Imposes New Sanctions on Houthis Over Renewed Attacks and Human Rights Abuses",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xUGppSnBiclVyYXEtVVE0a0dTc2Vha1pla19pT244U2VRRW96Zld1azdELWk0THA3RGFpbDliV2ZHOHVjbGROaVduUQ?oc=5",
         "domain": "sabanew.net",
@@ -121092,12 +121083,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK slaps sanctions on Yemeni Houthi group, four top officials",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92ODJWZ2RaZnhnd0o5UmZxSUVUSjZCRVk5djR4RkhFb3JJcHI2aEdwaHhCOGlsQmVUWHFlUkZBc096cVJYMTUtRHpwV1VnMUpmR3J1c0Z3WQ?oc=5",
-        "domain": "bangladeshsangbadsangsthabss",
+        "title": "As US Tightens Chip Export Controls, Lenders Reportedly Freeze Multi-Billion USD AI Financing Involving ByteDance, BABA, TENCENT",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd2dLT3Q0RHp1OHQ0ZmswNzZIdGt4enlBbFRETkQ5T01vT3ByQUhOOUNRakpNdkhwVE5RQXNwXzJ6cF9tVlNyTlM2VUNGSExYTlp1dlNRczYwU1FRYVhpYVNHd0lBdUoyY0lJaUh4eGs0elEzdzZnc1dTRWRtRE5TVDNGLXl3cVE?oc=5",
+        "domain": "aastocks",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T125901Z",
+        "seendate": "20261126T033500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU adds neo-Nazi group The Base's founder to terrorism sanctions list | Europe News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdGVyOGFKLWVSdHNZQVlHdTQweEVreV9YTlZIQjNic2g3ZmxDdTF3Y2hOaVVRZTltanAxRGtkX3JIR3RLMVU1MzBaYnNiZld5YTZBOEVGMTVSeFZYbDNhWE01MDAwRWM3UExGSjVRc0JuWE9ERU5SY3J4YXBXbGZhaU9fVWRkanA0T1hZSEpNc3ZSSUxKS2dFWi1DLUItNWFHbzhMSER0TURZVVE?oc=5",
+        "domain": "yenisafakenglish",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T081912Z",
         "source": "GoogleNews"
       },
       {
@@ -121110,12 +121110,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ed Miliband sanctions the Houthis and senior officials after renewed attacks",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWGJCb0R3THMzSEdRcF9nV0JzVnZRX3hLQUZac191RVlUZkoxRE1INnpqRXdZLUM3eTY4Vkl6cFZ2SDlqU3NkVi1VMnFqQWxvdGZ2WTB4dHFfRFhHd3JzMmsycVlvSEt5VE5PSnY2X1VsTWlOd2hhMU4zVXFzZ0FGRjhxVjdfR3ZHek5KdHdRVFVjdFVGTHo0ZFY2bU9HeFFoRjF2ek5FLVo?oc=5",
-        "domain": "www.labourhome.co.uk",
+        "title": "UK slaps sanctions on Yemeni Houthi group, four top officials",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92ODJWZ2RaZnhnd0o5UmZxSUVUSjZCRVk5djR4RkhFb3JJcHI2aEdwaHhCOGlsQmVUWHFlUkZBc096cVJYMTUtRHpwV1VnMUpmR3J1c0Z3WQ?oc=5",
+        "domain": "bangladeshsangbadsangsthabss",
         "language": "",
         "tone": 0,
-        "seendate": "20261125T091735Z",
+        "seendate": "20261124T125901Z",
         "source": "GoogleNews"
       },
       {
@@ -121125,6 +121125,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261126T062500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ed Miliband sanctions the Houthis and senior officials after renewed attacks",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWGJCb0R3THMzSEdRcF9nV0JzVnZRX3hLQUZac191RVlUZkoxRE1INnpqRXdZLUM3eTY4Vkl6cFZ2SDlqU3NkVi1VMnFqQWxvdGZ2WTB4dHFfRFhHd3JzMmsycVlvSEt5VE5PSnY2X1VsTWlOd2hhMU4zVXFzZ0FGRjhxVjdfR3ZHek5KdHdRVFVjdFVGTHo0ZFY2bU9HeFFoRjF2ek5FLVo?oc=5",
+        "domain": "www.labourhome.co.uk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261125T091735Z",
         "source": "GoogleNews"
       },
       {
@@ -121155,21 +121164,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Korean crypto exchanges can freeze transfers for 12 hours over suspected hacks",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcmdFazMtZEJWWHIxeUxveHVfWnlhclVEdXByUjE0YWtROFVDU3Q0SlZTTGR4Qjl4THRUcDdWVkxteU5JUEdhZ3Nta2xnX0NhWkpTUnB2b3NPRWFnMm0tNnUybWdxYUF5TEFudmttc2liT0VfazczZV9SSlpCajhhRWVRWHVXVjJzWWZXeng0Z2Z4eG5y0gGUAUFVX3lxTFByZ0VrMy1kQlZYcjF5TG94dV9aeWFyVUR1cHJSMTRha1E4VUNTdDRKVlNMZHhCOXhMdFRwN1ZWTG15TklQR2Fnc21rbGdfQ2FaSlNScHZvc09FYWcybS02dTJtZ3FhQXlMQW52a21zaWJPRV9rNzNlX1JKWkJqOGFFZVFYdVdWMnNZZld6eDRnZnh4bnI?oc=5",
-        "domain": "chosunbiz",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261125T014900Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "EU Council adds 15 Russian entities to export restriction list and removes one",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTm9TRjU0QmZVZGNMUGtCWDJ2ZXhfNVhnUXhnR2htaC1ZZ0pXcDRxZU9ldGZ5cVQxanhjdFJWOE5TcHE3R05mLXRPNjFsbXhtdDUtWWpvQkl0MVRTV0M3dnRJZGFxRXR5emlHa3J0WF9iT3dmTlVOZHI2LWRHWjZKR2d2aHN1X1dqbUkwWV9nelpKTGoyTjR0ZEY4eERUYU15cFduaUlMQ3AzellUZ2Q2aGZEcm8?oc=5",
         "domain": "cyprusinform",
         "language": "",
         "tone": 0,
         "seendate": "20261125T102034Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Korean crypto exchanges can freeze transfers for 12 hours over suspected hacks",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcmdFazMtZEJWWHIxeUxveHVfWnlhclVEdXByUjE0YWtROFVDU3Q0SlZTTGR4Qjl4THRUcDdWVkxteU5JUEdhZ3Nta2xnX0NhWkpTUnB2b3NPRWFnMm0tNnUybWdxYUF5TEFudmttc2liT0VfazczZV9SSlpCajhhRWVRWHVXVjJzWWZXeng0Z2Z4eG5y0gGUAUFVX3lxTFByZ0VrMy1kQlZYcjF5TG94dV9aeWFyVUR1cHJSMTRha1E4VUNTdDRKVlNMZHhCOXhMdFRwN1ZWTG15TklQR2Fnc21rbGdfQ2FaSlNScHZvc09FYWcybS02dTJtZ3FhQXlMQW52a21zaWJPRV9rNzNlX1JKWkJqOGFFZVFYdVdWMnNZZld6eDRnZnh4bnI?oc=5",
+        "domain": "chosunbiz",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261125T014900Z",
         "source": "GoogleNews"
       },
       {
@@ -121242,15 +121251,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20261127T051309Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Eugene Shvidler Net Worth",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUVozOUp4eDRadWplLUVTanJyajNUQThpX0pka29wSWVYZmIxWWg4Z2gzN2NNT1pSMlhza1JuMjI0YWhjWW9xR0dWSFpEX0lnMm4wZXA3UVpYLTRwRF9wRmE0ZkVld3kzYzFiaXhhRXoyOFVBRUpZcXJmOEc2dzJja29WM1Y4UjhEc3ZTR19yYzNmMk5aQk9kSFNVeFBfOU5zNzk4?oc=5",
-        "domain": "celebritynetworth",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261124T080000Z",
         "source": "GoogleNews"
       }
     ]
