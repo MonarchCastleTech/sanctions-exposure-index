@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "sanctions-exposure-index",
-    "generated": "2026-11-27T21:11:01.448304+00:00",
+    "generated": "2026-11-28T07:40:20.676836+00:00",
     "mode": "live",
     "sources": [
       "OFAC Sanctions List Service",
@@ -12,7 +12,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-27T21:09:14.939526+00:00",
+    "issued_at": "2026-11-28T07:38:34.165429+00:00",
     "horizon": "0-30 days",
     "classification": "sanctions-expansion-pressure-not-designation-probability",
     "score": 21.9,
@@ -257,17 +257,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-26T21:05:11.435155+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "ofac_action_velocity": 0.0,
-          "sdn_delta_breadth": 0.0,
-          "official_posture_shift": 0.0,
-          "energy_market_dislocation": 24.9
-        }
-      },
       {
         "timestamp": "2026-09-27T05:13:11.478968+00:00",
         "score": 5.0,
@@ -2228,6 +2217,17 @@
       },
       {
         "timestamp": "2026-11-27T21:09:14.939526+00:00",
+        "score": 21.9,
+        "level": "BASELINE",
+        "components": {
+          "ofac_action_velocity": 12.0,
+          "sdn_delta_breadth": 0.0,
+          "official_posture_shift": 51.0,
+          "energy_market_dislocation": 24.9
+        }
+      },
+      {
+        "timestamp": "2026-11-28T07:38:34.165429+00:00",
         "score": 21.9,
         "level": "BASELINE",
         "components": {
@@ -120975,6 +120975,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Life on the blacklist: 'When sanctions hit, I realized we must be doing something right'",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQzVTdGZOTFVmcVlkYWR0VEFGdERfRXdtci0wRWNsU2N6MGpXTTh3YmVyY1puVDBxWUZpd1pDdUZxajE4ZWVWdXF0THJLb3k5SHlJNmx4X2l3VFBjUVRzakFfVE1GMFktcWJDdDBFdUVDN1FnbjlfTEJlTDd1T0duQ0FoVDRXcXB1MWVzUDl3bzczUS1jRUNNV1dWVFN4a3JrTEVLNHMtNmNSdGdMY0FURHBvdkYzaDZiZHN4bDZQdVdNQQ?oc=5",
+        "domain": "israelhayom",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261127T211954Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjREeGoyMmxFbEphUmJpUzNGRXBScHJsYmdVVTRwYS14c1AxU3NwUXgzVy1vZHBER3NuSjFOOFpHMkFvUDEzTVoxdURvRG9yQVBBWVRxUUxMN1Z1bU1YR2dBMGdaT1dFRWdZaDZUWHFRaGkwd0hHM21zUC1YQ1lTbUNlMnV0dEE4MUgyQnEzOS16T0ZsYkwwS3hKRF9MdXl2d0s2LUFuUmJDSkpIenBV?oc=5",
         "domain": "anadoluajans",
@@ -121056,15 +121065,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nvidia reportedly freezes AI-server shipments to four Southeast Asian countries",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORFdwVWxIWmoxUUNSYm0yT3BUQnhiSGNXbFAtbVF1R1lTODNoaFhBaWI4TnZyajRpTHZ2SVBISFdKUV9Cclo1a3ZRdU5IRS1BS19JeTlqYldoNldVekhoeVlZaWt0OUJVWDFZMm9KcFFOdmQtQVdheFI5XzdZLWoyeXlrWTJSUFBMQTB2eFNkNWl5OGRKdHZTVThDTkVxTHpiZFBCXzZmb2VEa2NGLVd5dmh0dw?oc=5",
-        "domain": "superpowerdaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261126T080547Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "UK sanctions Houthis, 4 officials over 'renewed aggression'",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRl9Mb3B5VTBINGtWeGwxd0JCODVmLUNPaWd5b3dHN0hHT3ZqcDRKT1JmZC1MeXgzVFZZYzhCU0VZWnNGZmhZRlU2X3BsbHZDX3FJRk9qNWdaYnpnaUZvdUR3N2cwdEdQU2U1OUtoU1dMSi1hZUZnOG8xa3ZYTS1MQkFzSTdfV0s1aGFrYTVUQ1poXzVycnc?oc=5",
         "domain": "anadoluajans",
@@ -121074,12 +121074,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "UK Imposes New Sanctions on Houthis Over Renewed Attacks and Human Rights Abuses",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xUGppSnBiclVyYXEtVVE0a0dTc2Vha1pla19pT244U2VRRW96Zld1azdELWk0THA3RGFpbDliV2ZHOHVjbGROaVduUQ?oc=5",
-        "domain": "sabanew.net",
+        "title": "Nvidia reportedly freezes AI-server shipments to four Southeast Asian countries",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORFdwVWxIWmoxUUNSYm0yT3BUQnhiSGNXbFAtbVF1R1lTODNoaFhBaWI4TnZyajRpTHZ2SVBISFdKUV9Cclo1a3ZRdU5IRS1BS19JeTlqYldoNldVekhoeVlZaWt0OUJVWDFZMm9KcFFOdmQtQVdheFI5XzdZLWoyeXlrWTJSUFBMQTB2eFNkNWl5OGRKdHZTVThDTkVxTHpiZFBCXzZmb2VEa2NGLVd5dmh0dw?oc=5",
+        "domain": "superpowerdaily",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T223330Z",
+        "seendate": "20261126T080547Z",
         "source": "GoogleNews"
       },
       {
@@ -121092,12 +121092,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "EU adds neo-Nazi group The Base's founder to terrorism sanctions list | Europe News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdGVyOGFKLWVSdHNZQVlHdTQweEVreV9YTlZIQjNic2g3ZmxDdTF3Y2hOaVVRZTltanAxRGtkX3JIR3RLMVU1MzBaYnNiZld5YTZBOEVGMTVSeFZYbDNhWE01MDAwRWM3UExGSjVRc0JuWE9ERU5SY3J4YXBXbGZhaU9fVWRkanA0T1hZSEpNc3ZSSUxKS2dFWi1DLUItNWFHbzhMSER0TURZVVE?oc=5",
-        "domain": "yenisafakenglish",
+        "title": "UK Imposes New Sanctions on Houthis Over Renewed Attacks and Human Rights Abuses",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xUGppSnBiclVyYXEtVVE0a0dTc2Vha1pla19pT244U2VRRW96Zld1azdELWk0THA3RGFpbDliV2ZHOHVjbGROaVduUQ?oc=5",
+        "domain": "sabanew.net",
         "language": "",
         "tone": 0,
-        "seendate": "20261124T081912Z",
+        "seendate": "20261124T223330Z",
         "source": "GoogleNews"
       },
       {
@@ -121174,7 +121174,7 @@
       },
       {
         "title": "Korean crypto exchanges can freeze transfers for 12 hours over suspected hacks",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcmdFazMtZEJWWHIxeUxveHVfWnlhclVEdXByUjE0YWtROFVDU3Q0SlZTTGR4Qjl4THRUcDdWVkxteU5JUEdhZ3Nta2xnX0NhWkpTUnB2b3NPRWFnMm0tNnUybWdxYUF5TEFudmttc2liT0VfazczZV9SSlpCajhhRWVRWHVXVjJzWWZXeng0Z2Z4eG5y0gGUAUFVX3lxTFByZ0VrMy1kQlZYcjF5TG94dV9aeWFyVUR1cHJSMTRha1E4VUNTdDRKVlNMZHhCOXhMdFRwN1ZWTG15TklQR2Fnc21rbGdfQ2FaSlNScHZvc09FYWcybS02dTJtZ3FhQXlMQW52a21zaWJPRV9rNzNlX1JKWkJqOGFFZVFYdVdWMnNZZld6eDRnZnh4bnI?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOTZFb0xlM0cxWjlrSG9QRVBJLU9qVTJJSC0wWVA3X25taWlMWTFhTWZhQVZjemxBelNWTTg3ZURHbG5zRi12NndpUGRzTmpLeDFvQ042VGd6OVVHNXNUWmdINjZrcGdKbkxqd2duX0ZnZ0VVd08zZXVEeHZRWmJrUNIBlAFBVV95cUxQcmdFazMtZEJWWHIxeUxveHVfWnlhclVEdXByUjE0YWtROFVDU3Q0SlZTTGR4Qjl4THRUcDdWVkxteU5JUEdhZ3Nta2xnX0NhWkpTUnB2b3NPRWFnMm0tNnUybWdxYUF5TEFudmttc2liT0VfazczZV9SSlpCajhhRWVRWHVXVjJzWWZXeng0Z2Z4eG5y?oc=5",
         "domain": "chosunbiz",
         "language": "",
         "tone": 0,
@@ -121182,12 +121182,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Whistleblower Chay Bowes to go after the Government in EU sanctions row",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV1J1Rk05RnZodmtGaUo5VVV2ZVZKeGY3Yk1RWEtsUXV2MTdfMjNIUTJVeTF6aGlXQjlGc0ZrMUZFMkVJTzEzTUtHWWo3eWlFOVM1TjBGZGU4Yno5ajZSSFVVMUdLc2VTeGhDRm5PX1hsaHlyMnJqalN5dWFlZThmb1dRZFRqdzZleVB6S1JkSUpUOUNhX183NHR0bmloMzFXdlM5enpaeFo1SWtrbEdSZ2JOOWtELTZnMnVSSnRZVTVwNDNa?oc=5",
-        "domain": "irishindependent",
+        "title": "Canada among 14 countries that ‘acknowledge’ ICJ ruling on Rohingya ‘genocide’",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeWQxR0dkMlRWRnY0WlZBdWlLUzBOWVRiTTRNY2hranlkbUFwM3hmWmRnYmZiZHh5Z3g4RzlNX3FkSFZSSW1lanhwTEVBejlaZWhpZVBkYlZtcnpyU18xYlFHVUZkV2F2MXlXYml4d2h5VDRWd3FQOTNvSjBvTFVwVDhtSVlYMExkb1B3Yk1mM2hsV3U5QV9wWW05SS0zNVFmSThVeHAydTlWUTlyQ05OVWZn?oc=5",
+        "domain": "ctvnews",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T053000Z",
+        "seendate": "20261123T220400Z",
         "source": "GoogleNews"
       },
       {
@@ -121206,6 +121206,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261121T140448Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nvidia Blackwell chips found in China as Trump floats US stake",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcWRQT2FDQlRCdHFCa0s2Um9EakcyVzI0RWZPVVUyUFp3bWozd0sxeTAyOUNyVDI4cVYzMUFVeVZjSElzc2hFM0o3WVY2UHJoTnVuWkQ4b1BlcXFEeHBBY2ZFeS1pSV9STHR4VHNHWnlaZXBqckM1RGx4UWpaWjNmSmtocDZEeXh0V24wbEMteDZZZWZQSzlvMQ?oc=5",
+        "domain": "cryptopolitan",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261127T212517Z",
         "source": "GoogleNews"
       },
       {
@@ -121251,6 +121260,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20261127T051309Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Eugene Shvidler Net Worth",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUVozOUp4eDRadWplLUVTanJyajNUQThpX0pka29wSWVYZmIxWWg4Z2gzN2NNT1pSMlhza1JuMjI0YWhjWW9xR0dWSFpEX0lnMm4wZXA3UVpYLTRwRF9wRmE0ZkVld3kzYzFiaXhhRXoyOFVBRUpZcXJmOEc2dzJja29WM1Y4UjhEc3ZTR19yYzNmMk5aQk9kSFNVeFBfOU5zNzk4?oc=5",
+        "domain": "celebritynetworth",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261124T080000Z",
         "source": "GoogleNews"
       }
     ]
